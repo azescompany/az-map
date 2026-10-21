@@ -1,0 +1,797 @@
+{
+  "category": "culture",
+  "places": [
+    {
+      "id": "1d75df79-4250-52db-96a4-4b1a6568a302",
+      "name": "E-Kitabxana",
+      "name_normalized": "e kitabxana",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.373725131074,
+        "lon": 49.802463290405
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.12042004615068436,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "55c7919f-1d66-4bab-ad77-de3422f9ce7a",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "6faf5b06-c63b-581b-a452-4c4f245ac217",
+      "name": "Libraff Elmlər Akademiyası",
+      "name_normalized": "libraff elmler akademiyasi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.37536443005258,
+        "lon": 49.814298333289074
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8121883869171143,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5bacd61f-cdb2-4794-a920-9765d4a11e6e",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "36cc184a-2755-57d5-80a2-2b6d94585d1b",
+      "name": "AMEA Mərkəzi Kitabxana və İnformasiya Resursları Mərkəzi",
+      "name_normalized": "amea merkezi kitabxana ve i nformasiya resurslari merkezi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.375185158609,
+        "lon": 49.812321054819
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7373350262641907,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "cd9cd6f9-4413-4bb2-bb88-8f6cdf420f8e",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "74722453-5209-5fc2-b6ae-616e4d761235",
+      "name": "Institute of Information Technology (Azerbaijan National Academy of Sciences)",
+      "name_normalized": "institute of information technology azerbaijan national academy of sciences",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.375652,
+        "lon": 49.811337
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f5d9be01-56f7-47ff-811c-e0ce61ccb681",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "8e93850a-e4b1-52a7-ac2e-e0bb7b7b795c",
+      "name": "Xan Xəzinəsi",
+      "name_normalized": "xan xezinesi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.375706,
+        "lon": 49.81778
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.3917433023452759,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ea9e5935-a31c-42d7-81c4-23dbc7d90a64",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "22d05014-f5dd-549b-b553-7e7e2feda6d7",
+      "name": "Portal Games 13 filial",
+      "name_normalized": "portal games 13 filial",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.37234117,
+        "lon": 49.83391557
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6141515970230103,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "14e4b459-6e17-4a5b-87d1-2d4ffed1fc0c",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "e072bdc5-4fb9-52b3-a8ab-c0a50ebfab22",
+      "name": "Kitablar və zaman",
+      "name_normalized": "kitablar ve zaman",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.3722115,
+        "lon": 49.835041
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7343611121177673,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d93a4299-a678-4a6a-9778-1dda9dacd214",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "205de41a-0b4e-5d2e-b60f-582ed1e25dcb",
+      "name": "Kitabsız.az",
+      "name_normalized": "kitabsiz az",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.37309,
+        "lon": 49.83279
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.2819114625453949,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d7e084ba-df1c-4030-ba02-3f03193c751b",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "3c1dbd10-dc09-5760-b039-06033ae81f19",
+      "name": "Show 1 Baku",
+      "name_normalized": "show 1 baku",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.37293298385494,
+        "lon": 49.83430326565253
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8753483891487122,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4a253334-d673-40e6-a5cd-09d85c71abf3",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "ffe3a645-0d24-500c-adf8-98ab84427cae",
+      "name": "Xezer TV",
+      "name_normalized": "xezer tv",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.370086,
+        "lon": 49.809019
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.44508662819862366,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5fef64ee-f7cd-45cf-8645-039df9b286c1",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "92dda7f6-a67c-5db0-83c1-892af0dfbd74",
+      "name": "Azerbaijan Technical University",
+      "name_normalized": "azerbaijan technical university",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.37009,
+        "lon": 49.81545
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9872430539131165,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d50719b3-0647-4ea3-b032-f8e10f4e78a5",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "7269148d-56d8-5ca9-984c-184ecf8745a8",
+      "name": "Balaca",
+      "name_normalized": "balaca",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.408334880000005,
+        "lon": 49.80349321
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.4838811457157135,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5ae8d52a-b6d5-4c75-a9d5-b444f7e8e4e3",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "124099dc-7da1-55a3-b25a-9a05ac950120",
+      "name": "Cəfər Cabbarlı adına kitabxana",
+      "name_normalized": "cefer cabbarli adina kitabxana",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.402655780031324,
+        "lon": 49.80732600003853
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7724494338035583,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "68277a7f-1c96-45bf-9652-e5e50b42e6e1",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "62ca0ff7-263a-5774-90e4-95d25873bd18",
+      "name": "Azerbaijan State Doctors Training Institute",
+      "name_normalized": "azerbaijan state doctors training institute",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.403873,
+        "lon": 49.80404
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4321e2cf-0dad-40c7-afbe-02d7b68b0eaa",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "a88a1e0e-5406-5088-9e35-b4acbc446017",
+      "name": "Военный Городок",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.389174,
+        "lon": 49.820562
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6436029076576233,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "16da3a95-fa8d-4fe1-ab3a-aee9af4b227b",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "395ab4dd-9643-5dfd-a486-7c674c0d5d73",
+      "name": "UNEC Library No3 / UNEC 3 saylı kitabxana",
+      "name_normalized": "unec library no3 unec 3 sayli kitabxana",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.38581461564198,
+        "lon": 49.82734124036017
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8916800022125244,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d63b82cb-993a-44e2-b524-72c4e5d2493a",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "b05859e1-2f38-5c5f-88cb-eaf8b95d5696",
+      "name": "Alatava",
+      "name_normalized": "alatava",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.38549840000001,
+        "lon": 49.7874683
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6579148769378662,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "64109b2b-c5c5-4da8-bd24-0879c0649586",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "5faca36a-09b4-53bd-8d44-fd134f72f4ba",
+      "name": "Feniks Art Studio",
+      "name_normalized": "feniks art studio",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.3883028,
+        "lon": 49.8079101
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7612953782081604,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e3f27dae-bc53-4e11-b475-d62dfc67f841",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "6742ff0b-68b9-5efe-9dde-4ab4281d9a65",
+      "name": "Phantom Quests",
+      "name_normalized": "phantom quests",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.38844305,
+        "lon": 49.80811755
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7533984184265137,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2daf9c66-5252-4b84-bc36-9448d786d5eb",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "e2772e62-9ca9-503d-ab1a-fcfcc3fb7fe6",
+      "name": "AMEA Fizika Institutu",
+      "name_normalized": "amea fizika institutu",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.382046,
+        "lon": 49.810738
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7d8b6820-4f76-4759-9894-40fba55ec561",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "3fad18b6-5a96-5113-8eb8-3238efedc224",
+      "name": "Yasamal rayon Mərkəzləşdirilmiş Kitabxana Sistemi",
+      "name_normalized": "yasamal rayon merkezlesdirilmis kitabxana sistemi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.38417,
+        "lon": 49.80864
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.604475736618042,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d23aa721-4c43-4e14-8055-ca5a280bbdc2",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "87576a1b-2a4d-5251-adb2-3d6da28195e2",
+      "name": "Kitabxana",
+      "name_normalized": "kitabxana",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.385151084031,
+        "lon": 49.828800314806
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.2484828531742096,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6f733686-4e41-457c-b0ef-ada9fb8fa0a3",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "19ea79f8-8183-580c-a102-f383c9a0ba9c",
+      "name": "C.Cabbarlı adına Respublika Gənclər Kitabxanası",
+      "name_normalized": "c cabbarli adina respublika gencler kitabxanasi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.380298164996574,
+        "lon": 49.823111939222215
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8618389964103699,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8ed6cffd-eb3e-43b0-8401-f6c88ff30464",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "299527e5-f8cb-5ec0-a238-9095331448e6",
+      "name": "Хуторовка",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.38024787,
+        "lon": 49.81422426
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5226590633392334,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "12b4604b-c41c-4d21-b4a4-69f8a7986e60",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "e2e25d3f-5a33-592f-9dbf-eb91e1306998",
+      "name": "Ictimai Televiziyasi",
+      "name_normalized": "ictimai televiziyasi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.3787889,
+        "lon": 49.808842
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5128225684165955,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "615017f8-d174-4f11-bc6b-046d9d0ad4e8",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "d42529fd-3754-58e1-8c87-062bc0633d50",
+      "name": "SalamNews",
+      "name_normalized": "salamnews",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.37926009,
+        "lon": 49.83166857
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.12033311277627945,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3c28787e-bbc7-4b8f-a4d5-9588b2188083",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "01963a11-272d-5034-a481-56329d96c4bf",
+      "name": "22 saylı Musiqi Məktəbi",
+      "name_normalized": "22 sayli musiqi mektebi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.3940595,
+        "lon": 49.8049931
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3301935223",
+          "release": "azerbaijan-261020",
+          "source_category": "culture"
+        }
+      ]
+    },
+    {
+      "id": "ddf137b1-73eb-543a-aa18-7d2915c8096f",
+      "name": "Milli Konservatoriya",
+      "name_normalized": "milli konservatoriya",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.3658202,
+        "lon": 49.8183795
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3409522227",
+          "release": "azerbaijan-261020",
+          "source_category": "culture"
+        }
+      ]
+    },
+    {
+      "id": "98616dd6-7616-538a-9e61-db824b4fda36",
+      "name": "Respublika İncəsənət Gimnaziyası",
+      "name_normalized": "respublika i ncesenet gimnaziyasi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.3649946,
+        "lon": 49.8183312
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3409522229",
+          "release": "azerbaijan-261020",
+          "source_category": "culture"
+        }
+      ]
+    },
+    {
+      "id": "d562203a-952c-53de-938c-5e43227daf78",
+      "name": "16 saylı Musiqi məktəbi",
+      "name_normalized": "16 sayli musiqi mektebi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.3642821,
+        "lon": 49.8173919
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3409522232",
+          "release": "azerbaijan-261020",
+          "source_category": "culture"
+        }
+      ]
+    },
+    {
+      "id": "fb698937-fdf0-5cde-a6c4-fb9633e6f9b8",
+      "name": "24 saylı Uşaq Gənclər Mərkəzi",
+      "name_normalized": "24 sayli usaq gencler merkezi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.3880428,
+        "lon": 49.8062831
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3409557200",
+          "release": "azerbaijan-261020",
+          "source_category": "culture"
+        }
+      ]
+    },
+    {
+      "id": "aabf9888-cf07-5cea-89b9-db3d6ef21888",
+      "name": "22 saylı Musiqi məktəbi",
+      "name_normalized": "22 sayli musiqi mektebi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.3935259,
+        "lon": 49.805116
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3409580841",
+          "release": "azerbaijan-261020",
+          "source_category": "culture"
+        }
+      ]
+    },
+    {
+      "id": "2185433b-2381-54e1-91fd-2f0076052004",
+      "name": "Bakı Xor Teatrı",
+      "name_normalized": "baki xor teatri",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.3653893,
+        "lon": 49.8183122
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9826310694",
+          "release": "azerbaijan-261020",
+          "source_category": "culture"
+        }
+      ]
+    }
+  ]
+}

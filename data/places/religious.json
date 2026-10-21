@@ -1,0 +1,413 @@
+{
+  "category": "religious",
+  "places": [
+    {
+      "id": "f31364c3-a095-559d-96dd-ef832b9fdf25",
+      "name": "Hüseyin Məscidi",
+      "name_normalized": "huseyin mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.36948438,
+        "lon": 49.82628593
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6689456105232239,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8618765c-837f-4af3-ae0f-6cea395bbd3a",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "45d0abcb-5fb3-5a4d-bc8e-a3a96e44e45e",
+      "name": "Hacı Cavad Məscidi",
+      "name_normalized": "haci cavad mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.36867932,
+        "lon": 49.80913277
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8620254993438721,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "43643532-18ab-43b0-8d08-ff2c7616eb65",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "2fb6ba9a-5a86-56b8-ada8-fccecb3373d3",
+      "name": "Ilahiyyat Mosque",
+      "name_normalized": "ilahiyyat mosque",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.37552604,
+        "lon": 49.80774058
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9904635041952133,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "70573a83-05c6-4eea-bd19-05ae7a107bd0",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "9397a4c1-154c-56fe-9f20-85c6456c08bb",
+      "name": "Şah Hüseyn Məscidi",
+      "name_normalized": "sah huseyn mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.3762672,
+        "lon": 49.8226248
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8457707762718201,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "81a09566-5912-4cb0-9da8-fb4abebdb8f3",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "5f4a6111-2ba1-5413-a966-a0af5a8b71a7",
+      "name": "Fatime Zehra (Meschid)",
+      "name_normalized": "fatime zehra meschid",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.374310277984065,
+        "lon": 49.8320830672498
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8758471012115479,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "200d53e6-a382-4ee0-952d-65a50b12e73a",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "d2cad3b5-2a0c-53d7-ac37-871c31d61ea6",
+      "name": "Xanım Fatimeyi Zəhra Məscidi",
+      "name_normalized": "xanim fatimeyi zehra mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.37410008,
+        "lon": 49.83178575
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6176120042800903,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5f823178-5b81-41cc-973e-a7161a21f45d",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "90de3fee-dad2-5add-8341-25cc178b5227",
+      "name": "Teze Pir Mosque B Building",
+      "name_normalized": "teze pir mosque b building",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.37173226,
+        "lon": 49.82944103
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5618702173233032,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8eb7b08c-23a8-47ef-a63e-56250b7ebde1",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "3f3cbf95-5784-5a65-a112-645eaf3e0fe4",
+      "name": "Qasımbəy Məscidi",
+      "name_normalized": "qasimbey mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.37246778,
+        "lon": 49.83255415
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.96783047914505,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a863fbca-e755-477e-b0db-37a39ffc06b0",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "29c3c07c-e111-5295-a6f6-8e719ebe70f2",
+      "name": "Hacı Cavad Məscidi | Haji Jawad Mosque",
+      "name_normalized": "haci cavad mescidi haji jawad mosque",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.372716,
+        "lon": 49.825309
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9112749099731445,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c533b16e-b6af-48cb-b229-e56874ec8581",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "4e71c613-4dce-5ca7-b208-7adaa5fb9355",
+      "name": "Təzəpir Məscidi",
+      "name_normalized": "tezepir mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.371316,
+        "lon": 49.828891
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9295921325683594,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "014e2cce-959d-424a-bc17-71d14b7b6d99",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "e622dd15-93fb-5b79-8fbd-c7f404fdc995",
+      "name": "Yasamal Hüseyniyyəsi",
+      "name_normalized": "yasamal huseyniyyesi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.3803797,
+        "lon": 49.80140684
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8250027298927307,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2b406af3-6b9f-4c61-9678-af04dccc2610",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "843419d7-595c-505a-85ef-1a654f0e6984",
+      "name": "Hacı Sultanəli Məscidi",
+      "name_normalized": "haci sultaneli mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.37885738,
+        "lon": 49.82966941
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7391750812530518,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9652a71a-3c71-42cd-b148-c7bd72a3ffef",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "7a40a429-802e-5ce4-9383-290cb297c68a",
+      "name": "Hacı Sultan Əli Məscidi",
+      "name_normalized": "haci sultan eli mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.3788756,
+        "lon": 49.8294503
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3828385998",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "1315dac9-dfac-5133-8198-3d597b4fb022",
+      "name": "Qasım Bəy Məscidi",
+      "name_normalized": "qasim bey mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.372504,
+        "lon": 49.8325611
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3837784650",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "de40682c-4792-571e-9fe3-8e94903c6b37",
+      "name": "İlahiyyət Məscidi",
+      "name_normalized": "i lahiyyet mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.3756243,
+        "lon": 49.8078189
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4396460292",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "baf920d1-4de9-5b3b-b315-077b9b098606",
+      "name": "Şah Hüseyn Məscidi",
+      "name_normalized": "sah huseyn mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.376375,
+        "lon": 49.8223704
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11004093225",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "d6ae99c3-bb6d-5383-a87d-2d79a72ecff6",
+      "name": "Xanım Zəhra Məscidi",
+      "name_normalized": "xanim zehra mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.3741243,
+        "lon": 49.8319352
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11004096150",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    }
+  ]
+}

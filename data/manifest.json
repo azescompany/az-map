@@ -1,0 +1,41 @@
+{
+  "name": "GeoAtlas Azerbaijan",
+  "dataset_version": "0.1.0-pilot",
+  "generated_at": "2026-10-21T12:00:20.196831+00:00",
+  "coverage": {
+    "scope": "pilot",
+    "description": "Country + Bakı city/districts + Yasamal neighborhoods + Yasamal notable places. Not full national coverage.",
+    "areas": 18,
+    "boundaries": 18,
+    "places": 170,
+    "reviews": 3
+  },
+  "sources": {
+    "overture": {
+      "release": "2026-09-23.1",
+      "path": "source_files/overture/",
+      "license": "CDLA Permissive 2.0 (component sources vary; see feature sources)"
+    },
+    "osm": {
+      "release": "azerbaijan-261020",
+      "path": "source_files/azerbaijan-261020.osm.pbf",
+      "license": "ODbL 1.0",
+      "attribution": "© OpenStreetMap contributors"
+    },
+    "geonames": {
+      "release": "AZ.txt",
+      "path": "source_files/AZ/",
+      "license": "CC BY 4.0"
+    }
+  },
+  "basemap": {
+    "provider": "OpenFreeMap / Liberty",
+    "url": "https://tiles.openfreemap.org/styles/liberty",
+    "note": "External basemap for context only. Administrative boundaries and place markers come from GeoAtlas data/."
+  },
+  "hierarchy_policy": {
+    "baki_districts": "OSM admin relations",
+    "alatava": "2-ci under Yasamal only if verified; 1-ci under Nəsimi",
+    "no_name_only_merge": true
+  }
+}

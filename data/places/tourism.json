@@ -1,0 +1,53 @@
+{
+  "category": "tourism",
+  "places": [
+    {
+      "id": "1f410d01-6538-5124-ab47-857941004f11",
+      "name": "Main LTD Kompleksi",
+      "name_normalized": "main ltd kompleksi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4129134,
+        "lon": 49.800695
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3565750934",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "38b81a29-f3d6-5bd1-9b1d-971f986eb5bc",
+      "name": "Beşmərtəbə 5 Mərtəbə Bakı",
+      "name_normalized": "besmertebe 5 mertebe baki",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3759889,
+        "lon": 49.8326084
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/13782740475",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    }
+  ]
+}

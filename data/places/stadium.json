@@ -1,0 +1,101 @@
+{
+  "category": "stadium",
+  "places": [
+    {
+      "id": "9eb6a72c-f9b1-5fbf-815d-1f46922b2be9",
+      "name": "Yasamal YSK",
+      "name_normalized": "yasamal ysk",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.39033457,
+        "lon": 49.8054024
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.16875508427619934,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e5cce33e-31d9-448f-a462-982d5eb85bff",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "48395b4a-6a8e-57b8-a79d-fb0d3cf55640",
+      "name": "Məhsul Stadionu",
+      "name_normalized": "mehsul stadionu",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.39012411,
+        "lon": 49.80480233
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.858534038066864,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a2a1102b-1159-49d3-8b45-149f8128763e",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "0cd5909f-d533-550d-ad0b-622abf90f195",
+      "name": "Mehsul",
+      "name_normalized": "mehsul",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.38986405869778,
+        "lon": 49.8052642632258
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6169997453689575,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c241d21e-dcf9-4fda-8f5d-c8df3a5b72be",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "2f1dfdbd-e266-52c0-b93d-f8f9e33b4ae7",
+      "name": "Qol.Az",
+      "name_normalized": "qol az",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.38562,
+        "lon": 49.81139
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.4926427900791168,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "714141a2-b1d7-4acc-bc3e-6f8e9a517f22",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    }
+  ]
+}

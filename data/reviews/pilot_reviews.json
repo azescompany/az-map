@@ -1,0 +1,27 @@
+{
+  "reviews": [
+    {
+      "id": "8f6d49f3-0288-5584-a6a2-c5a1faa8f749",
+      "kind": "hierarchy_conflict",
+      "entity": "Qaradağ rayonu",
+      "detail": "OSM admin_level=6 equals Bakı city; parent=Bakı kept for cascading UI pending cartographic review.",
+      "status": "open"
+    },
+    {
+      "id": "125dede7-1780-53e4-8bfb-2294e5aef5ef",
+      "kind": "hierarchy_conflict",
+      "entity": "1-ci Alatava",
+      "detail": "Geometry and Overture parent place this under Nəsimi rayonu, not Yasamal. Excluded from Yasamal children in verified UI.",
+      "overture_id": "34a4ccb1-c296-4d30-8042-dd6da94e939b",
+      "overture_parent_id": "e2c2470b-3ed1-4002-887a-9f91bebacf66",
+      "status": "documented"
+    },
+    {
+      "id": "ffe0873e-977c-5ea2-a112-8a04edd503d7",
+      "kind": "coverage_gap",
+      "entity": "Bakı (Overture region)",
+      "detail": "Overture parent_division_id lists only: Nizami rayonu, Nərimanov rayonu, Nəsimi rayonu, Yasamal rayonu. OSM district set used instead for cascading children.",
+      "status": "documented"
+    }
+  ]
+}

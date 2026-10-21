@@ -1,0 +1,797 @@
+{
+  "category": "park",
+  "places": [
+    {
+      "id": "d245f234-9ed1-5a53-8b7e-b7cc7e7652fe",
+      "name": "Əzizbeyov Parki",
+      "name_normalized": "ezizbeyov parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.36495312,
+        "lon": 49.81736087
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7878172397613525,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8b580d2c-017c-42b0-9758-d9bad6eabae6",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "5e5474bb-fd8c-5522-9acb-0f2c2090be53",
+      "name": "Azizbekov square",
+      "name_normalized": "azizbekov square",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.365026,
+        "lon": 49.817513
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5657353401184082,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "833d94f9-3f79-4e96-9901-3291cd5785c3",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "b04c9b46-6b23-5518-920d-e8b13e7de233",
+      "name": "Park Yasamal",
+      "name_normalized": "park yasamal",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.375323,
+        "lon": 49.794981
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8405868411064148,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "bb4169c1-ffa4-48cd-88de-a2a07957bb95",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "fbb0bca8-b97d-584b-b451-f02417b54315",
+      "name": "Merkezi Park",
+      "name_normalized": "merkezi park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.374336,
+        "lon": 49.824818
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7579103708267212,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "fe90a19a-4e9a-4bef-8b88-9818cc2e4435",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "f64ae5b4-6f9f-5f43-bbb7-e586b449a259",
+      "name": "Baku Central Park",
+      "name_normalized": "baku central park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.377190935508,
+        "lon": 49.824611477041
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.903094470500946,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6fa13f83-5bc0-4d4f-9b9c-69d7e0d60603",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "7b8deb97-c98c-51d1-8e91-4b1e3b9f2d4c",
+      "name": "Füzuli Meydanı",
+      "name_normalized": "fuzuli meydani",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.37545104,
+        "lon": 49.83223615
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8066983819007874,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0af6f9dc-79ba-4810-8510-75f79777d830",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "328bae62-0df5-5a3c-9913-7588a6bfe708",
+      "name": "GameBar Baku",
+      "name_normalized": "gamebar baku",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.377092244697,
+        "lon": 49.83324944973
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8502492308616638,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2ac9e04d-4d1d-4b43-8773-1e5d43392140",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "d6db7e57-014d-528a-9cb1-e1cfb5c01978",
+      "name": "Bakı Mərkəzi Park / Baku Central Park",
+      "name_normalized": "baki merkezi park baku central park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.374890512787,
+        "lon": 49.829760296572
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9176987409591675,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "438db83d-dda4-42dd-bb9e-24888a2696db",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "a461179e-d222-568b-9ebb-2171e4a29dd9",
+      "name": "Huseyn Cavid Park",
+      "name_normalized": "huseyn cavid park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.37346563,
+        "lon": 49.81701222
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9313402771949768,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "67859092-328b-4889-9fe7-db93b8376218",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "568613c6-4557-53e4-9c0c-231231f13112",
+      "name": "Akademiya Parki",
+      "name_normalized": "akademiya parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.373226954162,
+        "lon": 49.815980311489
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7622156739234924,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ed36b038-dca5-48bf-9449-5e5b9f9a5550",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "7171c145-1ec4-5afd-a34d-43d784bc8253",
+      "name": "Academia Garden",
+      "name_normalized": "academia garden",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.37331045,
+        "lon": 49.815207
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5266998410224915,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "121ae741-4978-46a8-ba7e-26958fd6645b",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "6d885e3f-978b-5667-a129-494316f4e72c",
+      "name": "Elmler Parki",
+      "name_normalized": "elmler parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.3730428,
+        "lon": 49.8157223
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7041231989860535,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c0026f93-59d2-4c6d-9292-f2de439e534b",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "1a443975-616d-5b50-964c-0c330c07e2af",
+      "name": "Samaxinka Park",
+      "name_normalized": "samaxinka park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.4095740536228,
+        "lon": 49.80319761348084
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7024378180503845,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7aed2a4e-7375-4697-b651-86a286a0b562",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "6eb67c06-0491-5de4-86c0-5693dca051b1",
+      "name": "Avenue 8",
+      "name_normalized": "avenue 8",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.403094238,
+        "lon": 49.8007046
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9016330242156982,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5129cd79-e190-41ae-8e42-8fec9e6e9f31",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "e524694c-9fc8-5ed0-bf75-5f27feae760e",
+      "name": "Bakü BağlarBaşı Mah.",
+      "name_normalized": "baku baglarbasi mah",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.400766,
+        "lon": 49.796741
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6468185782432556,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4755853f-0d12-48a9-93c0-b8d0f5c0fe42",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "64af5fed-e7ed-523f-aba1-7bd2a37d4e51",
+      "name": "Çinar Park",
+      "name_normalized": "cinar park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.39980572605127,
+        "lon": 49.80788621992716
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7639790773391724,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f602d7e3-ce32-4333-8a0b-4421ec7e5a13",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "5bd445fe-3e9d-5dec-a473-1e2479df7387",
+      "name": "Dovlet serhed xidmetinin istirahet merkezi",
+      "name_normalized": "dovlet serhed xidmetinin istirahet merkezi",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.394626853423,
+        "lon": 49.787404418514
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.65761399269104,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6ed56c9b-0dab-47a6-81b9-e96c296fbc16",
+          "release": "2026-09-23.1",
+          "source_category": "beach"
+        }
+      ]
+    },
+    {
+      "id": "31d3754a-2046-5ee0-a321-77344c4821b8",
+      "name": "Yeni Yasamal Parkı",
+      "name_normalized": "yeni yasamal parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.39459107,
+        "lon": 49.78888254
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9309777021408081,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "35c0820d-87b4-4aa7-ab3d-f075a1d578f0",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "e0f74e84-46b3-58e5-8613-a3cb796ffd7d",
+      "name": "Zaqatala Parki",
+      "name_normalized": "zaqatala parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.39396828,
+        "lon": 49.80766272
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8736059665679932,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4fd27604-a5f8-47db-8fad-0f19fe2db645",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "395e1095-3b0e-56be-b645-0c18b9a6f04a",
+      "name": "İzmir parkı",
+      "name_normalized": "i zmir parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.38656933,
+        "lon": 49.82390806
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8538094758987427,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "58315c23-48c4-4aa6-89b9-8abcce0c04d8",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "bf963739-0a76-5fb8-96c9-167744ae8fd7",
+      "name": "Парк",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.38644327,
+        "lon": 49.82686112
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8793584108352661,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "dbe2e7a5-81cd-40f4-b4c5-3f1e33467ef8",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "f9f70b25-13ef-5ba2-9500-b22989c48e41",
+      "name": "Mehdi Huseynzade Parki",
+      "name_normalized": "mehdi huseynzade parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.38719427,
+        "lon": 49.82661891
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6536688208580017,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e87d9a1a-2bc4-45a5-9696-98dfc9d0839c",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "4333b2d6-a763-5b88-a550-eece98712836",
+      "name": "Park Yasamal",
+      "name_normalized": "park yasamal",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.38641733251227,
+        "lon": 49.81226824004282
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7786797285079956,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a598ef2f-e49e-4a6b-a1d1-76b84a7251d2",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "e24d2133-b17c-5598-88ac-915f076f4c56",
+      "name": "ForGamer Club",
+      "name_normalized": "forgamer club",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.38207158227,
+        "lon": 49.806797504425
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7675949335098267,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "41a26411-f14b-4150-a18d-7b360fe21cf7",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "6f02d013-f853-511d-ac5c-6f3176df600f",
+      "name": "Stonepay, Royal Park",
+      "name_normalized": "stonepay royal park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.38303263093922,
+        "lon": 49.79266282051119
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8249523639678955,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "734759b7-dee1-4ef1-beec-8d8fb700ef83",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "b4c944b5-872c-5ac1-ad47-daa588f96364",
+      "name": "Sherlok's Beach",
+      "name_normalized": "sherlok s beach",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.384739,
+        "lon": 49.824324
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7209511399269104,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "826c7540-26ae-4a07-aed4-bd9a4fb731ce",
+          "release": "2026-09-23.1",
+          "source_category": "beach"
+        }
+      ]
+    },
+    {
+      "id": "246b4bd4-139b-5c85-afe3-faa07606be47",
+      "name": "Sovetski Merkezi park",
+      "name_normalized": "sovetski merkezi park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.382871820519156,
+        "lon": 49.827158197712016
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7983023524284363,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5b93be8f-f4fc-4f7d-8091-a3ca5ca5e2fa",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "f0edf3e3-ce6b-56cc-8a00-1def7da159af",
+      "name": "Dənizkənarı Milli Park",
+      "name_normalized": "denizkenari milli park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.38286924250649,
+        "lon": 49.82713366499387
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8730303049087524,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "cd3e448f-7649-499e-87d5-4456f180b931",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "86314f1f-46f0-5fc1-a249-04bbd80e3c00",
+      "name": "Mikayıl Müşfiq bağı",
+      "name_normalized": "mikayil musfiq bagi",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.38207095,
+        "lon": 49.82271378
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7298420071601868,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d087b35e-68f3-487d-ac13-ce97eaeb9e18",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "1b95fd1a-db7f-5acc-afe9-e118ce082f7f",
+      "name": "Zivərbəy Əhmədbəyov Parkı",
+      "name_normalized": "ziverbey ehmedbeyov parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.37974014,
+        "lon": 49.83025221
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7460883855819702,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7f46fab7-871d-4542-9143-57d32c70a959",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "e3f64d78-f8df-52cd-bd23-53eef66afdba",
+      "name": "Mərkəzi Park",
+      "name_normalized": "merkezi park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.38042319,
+        "lon": 49.82395742
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9280878305435181,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "571ca6f1-b1f3-4265-87d8-1cf90b85893b",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "00a9ccc6-83c2-5440-b767-4ba0f7bdde2e",
+      "name": "Musabəyov Parkı",
+      "name_normalized": "musabeyov parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.38075075754824,
+        "lon": 49.80751005958826
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9354140758514404,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "91da13fc-cc93-47c1-866f-a83ea05ba62e",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "b4692a40-a569-5d24-b09f-88819d8d0eab",
+      "name": "Yeni Yasamal parkı",
+      "name_normalized": "yeni yasamal parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.3941896,
+        "lon": 49.7887635
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3908867682",
+          "release": "azerbaijan-261020",
+          "source_category": "park"
+        }
+      ]
+    }
+  ]
+}

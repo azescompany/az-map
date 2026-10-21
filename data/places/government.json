@@ -1,0 +1,173 @@
+{
+  "category": "government",
+  "places": [
+    {
+      "id": "23fa79b1-81ca-50b7-ad77-758fb92a3bb5",
+      "name": "Qafqaz Müsəlmanları İdarəsi",
+      "name_normalized": "qafqaz muselmanlari i daresi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.3716523,
+        "lon": 49.8292569
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/8045594831",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "0ad0272f-3490-578f-8a99-745146f03a6c",
+      "name": "EngiNet",
+      "name_normalized": "enginet",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.3775532,
+        "lon": 49.8332029
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9124148228",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "4da6c440-4ccd-58fd-a4b2-087dcbdf84f9",
+      "name": "İqtisadi İslahatlar və Kommunikasiya Mərkəzi",
+      "name_normalized": "i qtisadi i slahatlar ve kommunikasiya merkezi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.3726091,
+        "lon": 49.8186207
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9828868613",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "904277a7-e39a-52b4-939a-efa5c9b5a240",
+      "name": "AzərKörpü ASC",
+      "name_normalized": "azerkorpu asc",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.3702218,
+        "lon": 49.8223255
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9828954407",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "cdb63adf-b3e2-5f95-821a-2cde7d1418d5",
+      "name": "Yasamal MKİS 22",
+      "name_normalized": "yasamal mki s 22",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.3799865,
+        "lon": 49.8057602
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11079179783",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "fbcc459a-bc58-5186-8ccf-6f7ef817aa55",
+      "name": "Active Group Şirkəti",
+      "name_normalized": "active group sirketi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.3969747,
+        "lon": 49.8054054
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11329718717",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "a51b92e9-a310-5c08-aab0-a60aef2fd040",
+      "name": "Bakı Dövlət Sosial Müdafiə Fondu",
+      "name_normalized": "baki dovlet sosial mudafie fondu",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.394454,
+        "lon": 49.8068726
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11329766008",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    }
+  ]
+}

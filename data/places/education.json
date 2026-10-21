@@ -1,0 +1,125 @@
+{
+  "category": "education",
+  "places": [
+    {
+      "id": "e637ec12-2109-5b6c-b783-511f59d3a84b",
+      "name": "Memarlıq Fakultəsi",
+      "name_normalized": "memarliq fakultesi",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.3694018,
+        "lon": 49.8159693
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3409542406",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "a0712587-a581-5e46-93a5-d3c28163e687",
+      "name": "İncəsənət Universitetinin Kafedrası",
+      "name_normalized": "i ncesenet universitetinin kafedrasi",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.3810801,
+        "lon": 49.8078215
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3409542409",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "d7626e21-d53b-523a-8a3b-77b5997203c4",
+      "name": "BDU İlahiyyət Fakultəsi",
+      "name_normalized": "bdu i lahiyyet fakultesi",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.3815515,
+        "lon": 49.8126661
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3409557195",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "735a6256-b96b-5ce1-965d-5b80bda272c9",
+      "name": "Bakı İslam Universiteti",
+      "name_normalized": "baki i slam universiteti",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.3713173,
+        "lon": 49.8286198
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/8045647873",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "c8e69a72-2e44-5291-b003-caf9632f5d2d",
+      "name": "Azərbaycan Texniki Universiteti",
+      "name_normalized": "azerbaycan texniki universiteti",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.3705534,
+        "lon": 49.8153993
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11003951597",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    }
+  ]
+}

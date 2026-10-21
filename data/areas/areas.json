@@ -1,0 +1,731 @@
+{
+  "type": "AreaCollection",
+  "areas": [
+    {
+      "id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+      "name": "Azərbaycan",
+      "name_normalized": "azerbaycan",
+      "alt_names": [
+        "Azerbaijan",
+        "Азербайджан"
+      ],
+      "type": "country",
+      "subtype": "country",
+      "parent_id": null,
+      "parent_status": "verified",
+      "geom_status": "verified",
+      "center": {
+        "lat": 40.17856845,
+        "lon": 48.569065157529934
+      },
+      "center_method": "rep_point",
+      "wikidata": "Q227",
+      "population": null,
+      "population_source": null,
+      "bbox": [
+        44.7633701,
+        38.3929551,
+        51.1765554,
+        41.9646768
+      ],
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "827d1842-72b3-470a-8bf0-68c2002c2a83",
+          "release": "2026-09-23.1",
+          "role": "boundary",
+          "match_method": "id"
+        },
+        {
+          "source": "osm",
+          "source_id": "relation/364110",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "wikidata"
+        }
+      ],
+      "notes": null,
+      "boundary_file": "boundaries/country_AZ.geojson"
+    },
+    {
+      "id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+      "name": "Bakı",
+      "name_normalized": "baki",
+      "alt_names": [
+        "Baku",
+        "Bakı şəhəri"
+      ],
+      "type": "city",
+      "subtype": "city",
+      "parent_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+      "parent_status": "verified",
+      "geom_status": "verified",
+      "center": {
+        "lat": 40.3755885,
+        "lon": 49.8328009
+      },
+      "center_method": "osm_place_node",
+      "wikidata": "Q9248",
+      "population": 2300500,
+      "population_source": "osm_tag",
+      "bbox": [
+        49.7597276,
+        40.2983937,
+        50.0013381,
+        40.4413231
+      ],
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "relation/2415335",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id"
+        },
+        {
+          "source": "osm",
+          "source_id": "node/2117350415",
+          "release": "azerbaijan-261020",
+          "role": "label",
+          "match_method": "id"
+        },
+        {
+          "source": "geonames",
+          "source_id": "587084",
+          "release": "AZ.txt",
+          "role": "population",
+          "match_method": "wikidata_or_name_review"
+        },
+        {
+          "source": "overture",
+          "source_id": "b5a686dc-227a-4ba5-98c2-51979646b854",
+          "release": "2026-09-23.1",
+          "role": "hierarchy_partial",
+          "match_method": "name+subtype",
+          "note": "Overture Bakı region parent links incomplete; not used as sole boundary."
+        }
+      ],
+      "notes": "District children come from OSM admin relations, not Overture parent_division_id.",
+      "boundary_file": "boundaries/city_baki.geojson"
+    },
+    {
+      "id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "name": "Yasamal rayonu",
+      "name_normalized": "yasamal rayonu",
+      "alt_names": [],
+      "type": "rayon",
+      "subtype": "district",
+      "parent_id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+      "parent_status": "verified",
+      "geom_status": "verified",
+      "center": {
+        "lat": 40.384554699999995,
+        "lon": 49.8091234766774
+      },
+      "center_method": "rep_point",
+      "wikidata": "Q4539151",
+      "population": null,
+      "population_source": null,
+      "bbox": [
+        49.7860064,
+        40.3537282,
+        49.8359967,
+        40.4152441
+      ],
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "relation/11826939",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id",
+          "wikidata": "Q4539151"
+        },
+        {
+          "source": "overture",
+          "source_id": "298403b0-fbea-4ea5-b3bb-3274769b15ac",
+          "release": "2026-09-23.1",
+          "role": "boundary",
+          "match_method": "wikidata"
+        }
+      ],
+      "notes": "OSM admin_level=7. Level differs from other Baku districts (usually 8).",
+      "boundary_file": "boundaries/rayon_yasamal.geojson"
+    },
+    {
+      "id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "name": "Nəsimi rayonu",
+      "name_normalized": "nesimi rayonu",
+      "alt_names": [],
+      "type": "rayon",
+      "subtype": "district",
+      "parent_id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+      "parent_status": "verified",
+      "geom_status": "verified",
+      "center": {
+        "lat": 40.3776031,
+        "lon": 49.84833270919367
+      },
+      "center_method": "rep_point",
+      "wikidata": "Q4313899",
+      "population": null,
+      "population_source": null,
+      "bbox": [
+        49.8023681,
+        40.3340157,
+        49.8763747,
+        40.4209156
+      ],
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "relation/11826962",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id",
+          "wikidata": "Q4313899"
+        },
+        {
+          "source": "overture",
+          "source_id": "e2c2470b-3ed1-4002-887a-9f91bebacf66",
+          "release": "2026-09-23.1",
+          "role": "boundary",
+          "match_method": "wikidata"
+        }
+      ],
+      "notes": "OSM admin_level=8.",
+      "boundary_file": "boundaries/rayon_nasimi.geojson"
+    },
+    {
+      "id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "name": "Nərimanov rayonu",
+      "name_normalized": "nerimanov rayonu",
+      "alt_names": [],
+      "type": "rayon",
+      "subtype": "district",
+      "parent_id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+      "parent_status": "verified",
+      "geom_status": "verified",
+      "center": {
+        "lat": 40.41041295,
+        "lon": 49.861704288651424
+      },
+      "center_method": "rep_point",
+      "wikidata": null,
+      "population": null,
+      "population_source": null,
+      "bbox": [
+        49.8251655,
+        40.3832678,
+        49.9167212,
+        40.437704
+      ],
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "relation/11827003",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id"
+        }
+      ],
+      "notes": "OSM admin_level=8.",
+      "boundary_file": "boundaries/rayon_narimanov.geojson"
+    },
+    {
+      "id": "efdc6d2d-b895-5692-a7c4-724ef5302eda",
+      "name": "Nizami rayonu",
+      "name_normalized": "nizami rayonu",
+      "alt_names": [],
+      "type": "rayon",
+      "subtype": "district",
+      "parent_id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+      "parent_status": "verified",
+      "geom_status": "verified",
+      "center": {
+        "lat": 40.407680150000004,
+        "lon": 49.92804405712444
+      },
+      "center_method": "rep_point",
+      "wikidata": "Q3912215",
+      "population": null,
+      "population_source": null,
+      "bbox": [
+        49.881893,
+        40.3894415,
+        49.9693331,
+        40.4264143
+      ],
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "relation/11827201",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id",
+          "wikidata": "Q3912215"
+        }
+      ],
+      "notes": "OSM admin_level=8.",
+      "boundary_file": "boundaries/rayon_nizami_baki.geojson"
+    },
+    {
+      "id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "name": "Binəqədi rayonu",
+      "name_normalized": "bineqedi rayonu",
+      "alt_names": [],
+      "type": "rayon",
+      "subtype": "district",
+      "parent_id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+      "parent_status": "verified",
+      "geom_status": "verified",
+      "center": {
+        "lat": 40.4331439,
+        "lon": 49.82390073547816
+      },
+      "center_method": "rep_point",
+      "wikidata": "Q864153",
+      "population": null,
+      "population_source": null,
+      "bbox": [
+        49.5917089,
+        40.3802795,
+        49.8878184,
+        40.4860107
+      ],
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "relation/11825936",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id",
+          "wikidata": "Q864153"
+        }
+      ],
+      "notes": "OSM admin_level=8.",
+      "boundary_file": "boundaries/rayon_binagadi.geojson"
+    },
+    {
+      "id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "name": "Səbail rayonu",
+      "name_normalized": "sebail rayonu",
+      "alt_names": [],
+      "type": "rayon",
+      "subtype": "district",
+      "parent_id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+      "parent_status": "verified",
+      "geom_status": "verified",
+      "center": {
+        "lat": 40.1642003,
+        "lon": 49.88571935406125
+      },
+      "center_method": "rep_point",
+      "wikidata": "Q2028793",
+      "population": null,
+      "population_source": null,
+      "bbox": [
+        49.7424964,
+        40.0574225,
+        49.9878691,
+        40.3757354
+      ],
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "relation/11826940",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id",
+          "wikidata": "Q2028793"
+        }
+      ],
+      "notes": "OSM admin_level=8.",
+      "boundary_file": "boundaries/rayon_sabail.geojson"
+    },
+    {
+      "id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "name": "Xətai rayonu",
+      "name_normalized": "xetai rayonu",
+      "alt_names": [],
+      "type": "rayon",
+      "subtype": "district",
+      "parent_id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+      "parent_status": "verified",
+      "geom_status": "verified",
+      "center": {
+        "lat": 40.16701465,
+        "lon": 49.994214686255646
+      },
+      "center_method": "rep_point",
+      "wikidata": "Q2076557",
+      "population": null,
+      "population_source": null,
+      "bbox": [
+        49.858469,
+        40.0547433,
+        50.1022047,
+        40.395219
+      ],
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "relation/11827202",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id",
+          "wikidata": "Q2076557"
+        }
+      ],
+      "notes": "OSM admin_level=8.",
+      "boundary_file": "boundaries/rayon_xetai.geojson"
+    },
+    {
+      "id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "name": "Sabunçu rayonu",
+      "name_normalized": "sabuncu rayonu",
+      "alt_names": [],
+      "type": "rayon",
+      "subtype": "district",
+      "parent_id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+      "parent_status": "verified",
+      "geom_status": "verified",
+      "center": {
+        "lat": 40.6758811,
+        "lon": 49.982943381062434
+      },
+      "center_method": "rep_point",
+      "wikidata": "Q2210210",
+      "population": null,
+      "population_source": null,
+      "bbox": [
+        49.7713525,
+        40.4036836,
+        50.2081316,
+        40.79689
+      ],
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "relation/11827203",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id",
+          "wikidata": "Q2210210"
+        }
+      ],
+      "notes": "OSM admin_level=8.",
+      "boundary_file": "boundaries/rayon_sabuncu.geojson"
+    },
+    {
+      "id": "d2981fa1-7fe5-5b12-9a6b-99cd9baaea16",
+      "name": "Suraxanı rayonu",
+      "name_normalized": "suraxani rayonu",
+      "alt_names": [],
+      "type": "rayon",
+      "subtype": "district",
+      "parent_id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+      "parent_status": "verified",
+      "geom_status": "verified",
+      "center": {
+        "lat": 40.2784744,
+        "lon": 50.063748299970385
+      },
+      "center_method": "rep_point",
+      "wikidata": "Q4446443",
+      "population": null,
+      "population_source": null,
+      "bbox": [
+        49.9596673,
+        40.0622245,
+        50.1312311,
+        40.4664171
+      ],
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "relation/11827250",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id",
+          "wikidata": "Q4446443"
+        }
+      ],
+      "notes": "OSM admin_level=8.",
+      "boundary_file": "boundaries/rayon_surakhani.geojson"
+    },
+    {
+      "id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "name": "Xəzər rayonu",
+      "name_normalized": "xezer rayonu",
+      "alt_names": [],
+      "type": "rayon",
+      "subtype": "district",
+      "parent_id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+      "parent_status": "verified",
+      "geom_status": "verified",
+      "center": {
+        "lat": 40.3949702,
+        "lon": 50.22839306773684
+      },
+      "center_method": "rep_point",
+      "wikidata": "Q526313",
+      "population": null,
+      "population_source": null,
+      "bbox": [
+        50.0188132,
+        40.0193051,
+        50.3509079,
+        40.7662846
+      ],
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "relation/11827332",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id",
+          "wikidata": "Q526313"
+        }
+      ],
+      "notes": "OSM admin_level=8.",
+      "boundary_file": "boundaries/rayon_xezer.geojson"
+    },
+    {
+      "id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "name": "Pirallahı rayonu",
+      "name_normalized": "pirallahi rayonu",
+      "alt_names": [],
+      "type": "rayon",
+      "subtype": "district",
+      "parent_id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+      "parent_status": "verified",
+      "geom_status": "verified",
+      "center": {
+        "lat": 40.37710705,
+        "lon": 50.72021754418492
+      },
+      "center_method": "rep_point",
+      "wikidata": "Q12843909",
+      "population": null,
+      "population_source": null,
+      "bbox": [
+        50.2501209,
+        40.004575,
+        51.1765554,
+        40.7505571
+      ],
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "relation/11827333",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id",
+          "wikidata": "Q12843909"
+        }
+      ],
+      "notes": "OSM admin_level=8.",
+      "boundary_file": "boundaries/rayon_pirallahi.geojson"
+    },
+    {
+      "id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+      "name": "Qaradağ rayonu",
+      "name_normalized": "qaradag rayonu",
+      "alt_names": [],
+      "type": "rayon",
+      "subtype": "district",
+      "parent_id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+      "parent_status": "verified",
+      "geom_status": "verified",
+      "center": {
+        "lat": 40.00592605,
+        "lon": 49.60988634281783
+      },
+      "center_method": "rep_point",
+      "wikidata": "Q4818249",
+      "population": null,
+      "population_source": null,
+      "bbox": [
+        49.2187514,
+        39.5311636,
+        49.9726857,
+        40.4834398
+      ],
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "relation/11825937",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id",
+          "wikidata": "Q4818249"
+        }
+      ],
+      "notes": "OSM admin_level=6. Same admin_level as Bakı city relation; retained as Bakı child for UI; see reviews.",
+      "boundary_file": "boundaries/rayon_qaradag.geojson"
+    },
+    {
+      "id": "95facd7d-02db-5492-818b-6ee7a75acb46",
+      "name": "2-ci Alatava",
+      "name_normalized": "2 ci alatava",
+      "alt_names": [],
+      "type": "neighborhood",
+      "subtype": "macrohood",
+      "parent_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "parent_status": "verified",
+      "geom_status": "verified",
+      "center": {
+        "lat": 40.4055491,
+        "lon": 49.79722210022207
+      },
+      "center_method": "rep_point",
+      "wikidata": null,
+      "population": null,
+      "population_source": null,
+      "bbox": [
+        49.7894998,
+        40.3969218,
+        49.8023026,
+        40.4141763
+      ],
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "cb90e7c7-158b-4e3b-8762-83648191fd59",
+          "release": "2026-09-23.1",
+          "role": "boundary",
+          "match_method": "id",
+          "overture_parent_id": "298403b0-fbea-4ea5-b3bb-3274769b15ac"
+        },
+        {
+          "source": "osm",
+          "source_id": "way/186431887",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id"
+        }
+      ],
+      "notes": null,
+      "boundary_file": "boundaries/neighborhood_2ci_alatava.geojson"
+    },
+    {
+      "id": "f1268d1f-7599-58cb-82bd-cff7e3b8e4db",
+      "name": "1-ci Alatava",
+      "name_normalized": "1 ci alatava",
+      "alt_names": [],
+      "type": "neighborhood",
+      "subtype": "microhood",
+      "parent_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "parent_status": "verified",
+      "geom_status": "verified",
+      "center": {
+        "lat": 40.40463145,
+        "lon": 49.82446972594087
+      },
+      "center_method": "rep_point",
+      "wikidata": null,
+      "population": null,
+      "population_source": null,
+      "bbox": [
+        49.8202968,
+        40.4000933,
+        49.8307733,
+        40.4090588
+      ],
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "34a4ccb1-c296-4d30-8042-dd6da94e939b",
+          "release": "2026-09-23.1",
+          "role": "boundary",
+          "match_method": "id",
+          "overture_parent_id": "e2c2470b-3ed1-4002-887a-9f91bebacf66"
+        },
+        {
+          "source": "osm",
+          "source_id": "relation/21262837",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id"
+        }
+      ],
+      "notes": "Must not be listed as verified Yasamal child.",
+      "boundary_file": "boundaries/neighborhood_1ci_alatava.geojson"
+    },
+    {
+      "id": "87e5550f-16fc-5159-86ed-0424b3c73cb1",
+      "name": "Yeni Yasamal",
+      "name_normalized": "yeni yasamal",
+      "alt_names": [],
+      "type": "neighborhood",
+      "subtype": "microhood",
+      "parent_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "parent_status": "verified",
+      "geom_status": "verified",
+      "center": {
+        "lat": 40.392723450000005,
+        "lon": 49.79102761215968
+      },
+      "center_method": "rep_point",
+      "wikidata": null,
+      "population": null,
+      "population_source": null,
+      "bbox": [
+        49.7862754,
+        40.3851714,
+        49.7973029,
+        40.4001025
+      ],
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0ceafec1-d3f0-428a-b001-823820d9c0dc",
+          "release": "2026-09-23.1",
+          "role": "boundary",
+          "match_method": "id",
+          "overture_parent_id": "298403b0-fbea-4ea5-b3bb-3274769b15ac"
+        }
+      ],
+      "notes": null,
+      "boundary_file": "boundaries/neighborhood_yeni_yasamal.geojson"
+    },
+    {
+      "id": "86f95749-6088-5251-b62f-e6bbe906e642",
+      "name": "Yasamal",
+      "name_normalized": "yasamal",
+      "alt_names": [],
+      "type": "neighborhood",
+      "subtype": "macrohood",
+      "parent_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "parent_status": "verified",
+      "geom_status": "verified",
+      "center": {
+        "lat": 40.3866685,
+        "lon": 49.79708071200801
+      },
+      "center_method": "rep_point",
+      "wikidata": null,
+      "population": null,
+      "population_source": null,
+      "bbox": [
+        49.7904516,
+        40.3735552,
+        49.80499,
+        40.4000469
+      ],
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5237a9a0-2290-478d-9652-bea7f30b7fd1",
+          "release": "2026-09-23.1",
+          "role": "boundary",
+          "match_method": "id",
+          "overture_parent_id": "298403b0-fbea-4ea5-b3bb-3274769b15ac"
+        }
+      ],
+      "notes": null,
+      "boundary_file": "boundaries/neighborhood_yasamal_macrohood.geojson"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "region": "yasamal_pilot",
+  "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+  "total": 170,
+  "by_category": {
+    "culture": 33,
+    "education": 5,
+    "government": 7,
+    "historic": 63,
+    "museum": 6,
+    "park": 33,
+    "religious": 17,
+    "stadium": 4,
+    "tourism": 2
+  },
+  "files": [
+    "places/culture.json",
+    "places/education.json",
+    "places/government.json",
+    "places/historic.json",
+    "places/museum.json",
+    "places/park.json",
+    "places/religious.json",
+    "places/stadium.json",
+    "places/tourism.json"
+  ]
+}

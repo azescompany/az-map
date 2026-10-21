@@ -1,0 +1,149 @@
+{
+  "category": "museum",
+  "places": [
+    {
+      "id": "94603391-0c34-5d43-89f5-ef29af37701c",
+      "name": "Azerbaijan Geological Museum",
+      "name_normalized": "azerbaijan geological museum",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3729888,
+        "lon": 49.8203485
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.330295592546463,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "191d8c8d-9f67-4769-bd14-c8d0abd5e5f0",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "bd77dc7b-3436-51a0-828c-f0330e048f33",
+      "name": "Uzeyir Hajibeyov House",
+      "name_normalized": "uzeyir hajibeyov house",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.37744745,
+        "lon": 49.82993714
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9710788130760193,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "59bafb66-0e8b-4927-9945-fffc6d8e46e7",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "774daaf8-8bd8-500a-a3af-e8f1d2240ead",
+      "name": "Heydər Əliyev Məktəb Muzeyi",
+      "name_normalized": "heyder eliyev mekteb muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3786903,
+        "lon": 49.8085812
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3409542404",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "8a5a6a5b-49c2-561f-bdcc-bac5e6cf6e03",
+      "name": "Üzeyir Hacıbəylinin ev-muzeyi",
+      "name_normalized": "uzeyir hacibeylinin ev muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3775514,
+        "lon": 49.8300176
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/5268555852",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "3cedd5cd-e215-5cb6-ab1e-6bb603ccc1ef",
+      "name": "Leopold and Mstislav Rostropovich's home museum",
+      "name_normalized": "leopold and mstislav rostropovich s home museum",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3697231,
+        "lon": 49.8275098
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/6434248082",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "3d1428c5-48e2-5fcb-89c2-cdf28f8d5707",
+      "name": "Xalça və Xalq Tətbiqi Sənəti Məktəb Muzeyi",
+      "name_normalized": "xalca ve xalq tetbiqi seneti mekteb muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3869218,
+        "lon": 49.8140743
+      },
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9791242002",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    }
+  ]
+}
