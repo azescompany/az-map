@@ -7,6 +7,7 @@
     "dev": "pnpm --filter @geoatlas/demo dev",
     "build": "pnpm -r build",
     "validate": "python scripts/validate_dataset.py",
+    "quality:gate": "python scripts/apply_boundary_quality_gate.py",
     "extract:pilot": "python scripts/extract_pilot.py",
     "typecheck": "pnpm -r typecheck"
   }

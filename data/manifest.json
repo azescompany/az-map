@@ -1,6 +1,6 @@
 {
   "name": "GeoAtlas Azerbaijan",
-  "dataset_version": "0.1.0-pilot",
+  "dataset_version": "0.1.1-pilot",
   "generated_at": "2026-10-21T12:00:20.196831+00:00",
   "coverage": {
     "scope": "pilot",
@@ -8,7 +8,7 @@
     "areas": 18,
     "boundaries": 18,
     "places": 170,
-    "reviews": 3
+    "reviews": 5
   },
   "sources": {
     "overture": {
@@ -37,5 +37,16 @@
     "baki_districts": "OSM admin relations",
     "alatava": "2-ci under Yasamal only if verified; 1-ci under Nəsimi",
     "no_name_only_merge": true
+  },
+  "quality_gate": {
+    "applied_at": "2026-10-21T12:11:44.187145+00:00",
+    "geom_status_counts": {
+      "verified": 18
+    },
+    "center_status_counts": {
+      "verified": 18
+    },
+    "crs": "EPSG:4326",
+    "audit_report": "reviews/boundary_quality_audit.json"
   }
 }

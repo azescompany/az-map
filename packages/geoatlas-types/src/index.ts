@@ -7,7 +7,14 @@ export type ParentStatus =
   | "missing"
   | "partial";
 
-export type GeomStatus = "verified" | "partial" | "missing";
+export type GeomStatus = "verified" | "partial" | "missing" | "conflict";
+
+export type CenterStatus =
+  | "verified"
+  | "label_fallback"
+  | "unverified"
+  | "conflict"
+  | "missing";
 
 export type AreaType =
   | "country"
@@ -19,10 +26,12 @@ export type AreaType =
   | "other";
 
 export type CenterMethod =
+  | "interior_representative_point"
   | "rep_point"
   | "centroid"
   | "osm_place_node"
   | "geonames"
+  | "source_label_point"
   | "manual";
 
 export interface SourceRef {
@@ -37,7 +46,15 @@ export interface SourceRef {
   overture_parent_id?: string;
 }
 
+/** Area centers prefer latitude/longitude; lat/lon kept for compatibility. */
 export interface Coordinates {
+  latitude?: number;
+  longitude?: number;
+  lat?: number;
+  lon?: number;
+}
+
+export interface PlaceCoordinates {
   lat: number;
   lon: number;
 }
@@ -52,8 +69,14 @@ export interface Area {
   parent_id: string | null;
   parent_status: ParentStatus;
   geom_status: GeomStatus;
+  geom_status_reason?: string | null;
+  crs?: string | null;
+  geometry_type?: string | null;
+  geometry_valid?: boolean | null;
   center: Coordinates | null;
   center_method: CenterMethod | string | null;
+  center_status?: CenterStatus | string | null;
+  center_within_boundary?: boolean | null;
   wikidata: string | null;
   population: number | null;
   population_source: string | null;
@@ -61,7 +84,32 @@ export interface Area {
   bbox: number[] | null;
   source_refs: SourceRef[];
   notes: string | null;
+  /** Relative path under data/ — prefer this over inlining large polygons */
   boundary_file: string | null;
+}
+
+export interface AreaDetail {
+  id: string;
+  name: string;
+  type: AreaType;
+  subtype: string | null;
+  parent_id: string | null;
+  parent_status: ParentStatus;
+  geom_status: GeomStatus;
+  geom_status_reason?: string | null;
+  center: {
+    latitude: number;
+    longitude: number;
+    method: string | null;
+    status: string | null;
+    within_boundary: boolean | null;
+  } | null;
+  boundary_url: string | null;
+  wikidata: string | null;
+  source_refs: SourceRef[];
+  children: Area[];
+  places: Place[];
+  notes: string | null;
 }
 
 export type PlaceCategory =
@@ -83,7 +131,7 @@ export interface Place {
   name_normalized: string;
   alt_names: string[];
   category: PlaceCategory | string;
-  coordinates: Coordinates;
+  coordinates: PlaceCoordinates;
   area_id: string | null;
   area_assign_method: string | null;
   area_assign_status: ParentStatus | string | null;

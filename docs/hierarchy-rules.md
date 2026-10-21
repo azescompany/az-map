@@ -8,6 +8,8 @@
 6. **1-ci Alatava** is under **Nəsimi**, not Yasamal — do not present it as a verified Yasamal child.
 7. Cascading dropdowns expose only `parent_status=verified` children.
 8. `geom_status=partial` / `conflict` must be visible in the UI.
+9. `geom_status=verified` requires a real source polygon, valid non-empty geometry, CRS EPSG:4326, boundary `source_ref`, and an interior center within the polygon. Validity alone is not official accuracy.
+10. Centers use interior representative points when the boundary is verified. Label/node points are `center_status=label_fallback`, never presented as official geographic centers.
 
 ## Pilot tree (verified UI path)
 

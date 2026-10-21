@@ -7,7 +7,8 @@ export default defineConfig({
   // Serve curated canonical dataset as static files
   publicDir: path.resolve(__dirname, "../../data"),
   server: {
-    port: 5173,
+    port: 1555,
+    strictPort: true,
     fs: {
       allow: [path.resolve(__dirname, "../..")],
     },

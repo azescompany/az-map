@@ -1,0 +1,831 @@
+{
+  "generated_at": "2026-10-21T12:11:44.187145+00:00",
+  "crs": "EPSG:4326",
+  "area_count": 18,
+  "geom_status_counts": {
+    "verified": 18
+  },
+  "center_status_counts": {
+    "verified": 18
+  },
+  "parent_geometry_warnings": [
+    {
+      "id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "name": "Xəzər rayonu",
+      "parent_id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+      "parent_name": "Bakı",
+      "detail": "Child representative point is not inside parent polygon; admin parent may still be intentional."
+    },
+    {
+      "id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "name": "Pirallahı rayonu",
+      "parent_id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+      "parent_name": "Bakı",
+      "detail": "Child representative point is not inside parent polygon; admin parent may still be intentional."
+    }
+  ],
+  "areas": [
+    {
+      "id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+      "name": "Azərbaycan",
+      "type": "country",
+      "boundary_source": "overture",
+      "boundary_source_id": "827d1842-72b3-470a-8bf0-68c2002c2a83",
+      "boundary_release": "2026-09-23.1",
+      "crs": "EPSG:4326",
+      "geometry_type": "MultiPolygon",
+      "multipart_parts": 5,
+      "geometry_valid": true,
+      "geometry_empty": false,
+      "geometry_validity_note": "ok",
+      "geom_status_before": "verified",
+      "geom_status_after": "verified",
+      "geom_status_reasons": [],
+      "center_latitude": 40.17856845,
+      "center_longitude": 48.569065157529934,
+      "center_method": "interior_representative_point",
+      "center_status": "verified",
+      "center_within_boundary": true,
+      "parent_id": null,
+      "parent_status": "verified",
+      "boundary_file": "boundaries/country_AZ.geojson",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "827d1842-72b3-470a-8bf0-68c2002c2a83",
+          "release": "2026-09-23.1",
+          "role": "boundary",
+          "match_method": "id"
+        },
+        {
+          "source": "osm",
+          "source_id": "relation/364110",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "wikidata"
+        }
+      ],
+      "attribution": {
+        "osm": null,
+        "overture": "Overture Maps Foundation",
+        "geonames": null
+      }
+    },
+    {
+      "id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+      "name": "Bakı",
+      "type": "city",
+      "boundary_source": "osm",
+      "boundary_source_id": "relation/2415335",
+      "boundary_release": "azerbaijan-261020",
+      "crs": "EPSG:4326",
+      "geometry_type": "MultiPolygon",
+      "multipart_parts": 1,
+      "geometry_valid": true,
+      "geometry_empty": false,
+      "geometry_validity_note": "ok",
+      "geom_status_before": "verified",
+      "geom_status_after": "verified",
+      "geom_status_reasons": [],
+      "center_latitude": 40.3698536,
+      "center_longitude": 49.953885176184734,
+      "center_method": "interior_representative_point",
+      "center_status": "verified",
+      "center_within_boundary": true,
+      "parent_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+      "parent_status": "verified",
+      "boundary_file": "boundaries/city_baki.geojson",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "relation/2415335",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id"
+        },
+        {
+          "source": "osm",
+          "source_id": "node/2117350415",
+          "release": "azerbaijan-261020",
+          "role": "label",
+          "match_method": "id"
+        },
+        {
+          "source": "geonames",
+          "source_id": "587084",
+          "release": "AZ.txt",
+          "role": "population",
+          "match_method": "wikidata_or_name_review"
+        },
+        {
+          "source": "overture",
+          "source_id": "b5a686dc-227a-4ba5-98c2-51979646b854",
+          "release": "2026-09-23.1",
+          "role": "hierarchy_partial",
+          "match_method": "name+subtype",
+          "note": "Overture Bakı region parent links incomplete; not used as sole boundary."
+        }
+      ],
+      "attribution": {
+        "osm": "© OpenStreetMap contributors (ODbL 1.0)",
+        "overture": null,
+        "geonames": null
+      },
+      "child_inside_parent_geom": true
+    },
+    {
+      "id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "name": "Yasamal rayonu",
+      "type": "rayon",
+      "boundary_source": "osm",
+      "boundary_source_id": "relation/11826939",
+      "boundary_release": "azerbaijan-261020",
+      "crs": "EPSG:4326",
+      "geometry_type": "MultiPolygon",
+      "multipart_parts": 1,
+      "geometry_valid": true,
+      "geometry_empty": false,
+      "geometry_validity_note": "ok",
+      "geom_status_before": "verified",
+      "geom_status_after": "verified",
+      "geom_status_reasons": [],
+      "center_latitude": 40.384554699999995,
+      "center_longitude": 49.8091234766774,
+      "center_method": "interior_representative_point",
+      "center_status": "verified",
+      "center_within_boundary": true,
+      "parent_id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+      "parent_status": "verified",
+      "boundary_file": "boundaries/rayon_yasamal.geojson",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "relation/11826939",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id",
+          "wikidata": "Q4539151"
+        },
+        {
+          "source": "overture",
+          "source_id": "298403b0-fbea-4ea5-b3bb-3274769b15ac",
+          "release": "2026-09-23.1",
+          "role": "boundary",
+          "match_method": "wikidata"
+        }
+      ],
+      "attribution": {
+        "osm": "© OpenStreetMap contributors (ODbL 1.0)",
+        "overture": null,
+        "geonames": null
+      },
+      "child_inside_parent_geom": true
+    },
+    {
+      "id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "name": "Nəsimi rayonu",
+      "type": "rayon",
+      "boundary_source": "osm",
+      "boundary_source_id": "relation/11826962",
+      "boundary_release": "azerbaijan-261020",
+      "crs": "EPSG:4326",
+      "geometry_type": "MultiPolygon",
+      "multipart_parts": 1,
+      "geometry_valid": true,
+      "geometry_empty": false,
+      "geometry_validity_note": "ok",
+      "geom_status_before": "verified",
+      "geom_status_after": "verified",
+      "geom_status_reasons": [],
+      "center_latitude": 40.3776031,
+      "center_longitude": 49.84833270919367,
+      "center_method": "interior_representative_point",
+      "center_status": "verified",
+      "center_within_boundary": true,
+      "parent_id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+      "parent_status": "verified",
+      "boundary_file": "boundaries/rayon_nasimi.geojson",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "relation/11826962",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id",
+          "wikidata": "Q4313899"
+        },
+        {
+          "source": "overture",
+          "source_id": "e2c2470b-3ed1-4002-887a-9f91bebacf66",
+          "release": "2026-09-23.1",
+          "role": "boundary",
+          "match_method": "wikidata"
+        }
+      ],
+      "attribution": {
+        "osm": "© OpenStreetMap contributors (ODbL 1.0)",
+        "overture": null,
+        "geonames": null
+      },
+      "child_inside_parent_geom": true
+    },
+    {
+      "id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "name": "Nərimanov rayonu",
+      "type": "rayon",
+      "boundary_source": "osm",
+      "boundary_source_id": "relation/11827003",
+      "boundary_release": "azerbaijan-261020",
+      "crs": "EPSG:4326",
+      "geometry_type": "MultiPolygon",
+      "multipart_parts": 1,
+      "geometry_valid": true,
+      "geometry_empty": false,
+      "geometry_validity_note": "ok",
+      "geom_status_before": "verified",
+      "geom_status_after": "verified",
+      "geom_status_reasons": [],
+      "center_latitude": 40.41041295,
+      "center_longitude": 49.861704288651424,
+      "center_method": "interior_representative_point",
+      "center_status": "verified",
+      "center_within_boundary": true,
+      "parent_id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+      "parent_status": "verified",
+      "boundary_file": "boundaries/rayon_narimanov.geojson",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "relation/11827003",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id"
+        }
+      ],
+      "attribution": {
+        "osm": "© OpenStreetMap contributors (ODbL 1.0)",
+        "overture": null,
+        "geonames": null
+      },
+      "child_inside_parent_geom": true
+    },
+    {
+      "id": "efdc6d2d-b895-5692-a7c4-724ef5302eda",
+      "name": "Nizami rayonu",
+      "type": "rayon",
+      "boundary_source": "osm",
+      "boundary_source_id": "relation/11827201",
+      "boundary_release": "azerbaijan-261020",
+      "crs": "EPSG:4326",
+      "geometry_type": "MultiPolygon",
+      "multipart_parts": 1,
+      "geometry_valid": true,
+      "geometry_empty": false,
+      "geometry_validity_note": "ok",
+      "geom_status_before": "verified",
+      "geom_status_after": "verified",
+      "geom_status_reasons": [],
+      "center_latitude": 40.407680150000004,
+      "center_longitude": 49.92804405712444,
+      "center_method": "interior_representative_point",
+      "center_status": "verified",
+      "center_within_boundary": true,
+      "parent_id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+      "parent_status": "verified",
+      "boundary_file": "boundaries/rayon_nizami_baki.geojson",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "relation/11827201",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id",
+          "wikidata": "Q3912215"
+        }
+      ],
+      "attribution": {
+        "osm": "© OpenStreetMap contributors (ODbL 1.0)",
+        "overture": null,
+        "geonames": null
+      },
+      "child_inside_parent_geom": true
+    },
+    {
+      "id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "name": "Binəqədi rayonu",
+      "type": "rayon",
+      "boundary_source": "osm",
+      "boundary_source_id": "relation/11825936",
+      "boundary_release": "azerbaijan-261020",
+      "crs": "EPSG:4326",
+      "geometry_type": "MultiPolygon",
+      "multipart_parts": 1,
+      "geometry_valid": true,
+      "geometry_empty": false,
+      "geometry_validity_note": "ok",
+      "geom_status_before": "verified",
+      "geom_status_after": "verified",
+      "geom_status_reasons": [],
+      "center_latitude": 40.4331439,
+      "center_longitude": 49.82390073547816,
+      "center_method": "interior_representative_point",
+      "center_status": "verified",
+      "center_within_boundary": true,
+      "parent_id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+      "parent_status": "verified",
+      "boundary_file": "boundaries/rayon_binagadi.geojson",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "relation/11825936",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id",
+          "wikidata": "Q864153"
+        }
+      ],
+      "attribution": {
+        "osm": "© OpenStreetMap contributors (ODbL 1.0)",
+        "overture": null,
+        "geonames": null
+      },
+      "child_inside_parent_geom": true
+    },
+    {
+      "id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "name": "Səbail rayonu",
+      "type": "rayon",
+      "boundary_source": "osm",
+      "boundary_source_id": "relation/11826940",
+      "boundary_release": "azerbaijan-261020",
+      "crs": "EPSG:4326",
+      "geometry_type": "MultiPolygon",
+      "multipart_parts": 1,
+      "geometry_valid": true,
+      "geometry_empty": false,
+      "geometry_validity_note": "ok",
+      "geom_status_before": "verified",
+      "geom_status_after": "verified",
+      "geom_status_reasons": [],
+      "center_latitude": 40.1642003,
+      "center_longitude": 49.88571935406125,
+      "center_method": "interior_representative_point",
+      "center_status": "verified",
+      "center_within_boundary": true,
+      "parent_id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+      "parent_status": "verified",
+      "boundary_file": "boundaries/rayon_sabail.geojson",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "relation/11826940",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id",
+          "wikidata": "Q2028793"
+        }
+      ],
+      "attribution": {
+        "osm": "© OpenStreetMap contributors (ODbL 1.0)",
+        "overture": null,
+        "geonames": null
+      },
+      "child_inside_parent_geom": true
+    },
+    {
+      "id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "name": "Xətai rayonu",
+      "type": "rayon",
+      "boundary_source": "osm",
+      "boundary_source_id": "relation/11827202",
+      "boundary_release": "azerbaijan-261020",
+      "crs": "EPSG:4326",
+      "geometry_type": "MultiPolygon",
+      "multipart_parts": 1,
+      "geometry_valid": true,
+      "geometry_empty": false,
+      "geometry_validity_note": "ok",
+      "geom_status_before": "verified",
+      "geom_status_after": "verified",
+      "geom_status_reasons": [],
+      "center_latitude": 40.16701465,
+      "center_longitude": 49.994214686255646,
+      "center_method": "interior_representative_point",
+      "center_status": "verified",
+      "center_within_boundary": true,
+      "parent_id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+      "parent_status": "verified",
+      "boundary_file": "boundaries/rayon_xetai.geojson",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "relation/11827202",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id",
+          "wikidata": "Q2076557"
+        }
+      ],
+      "attribution": {
+        "osm": "© OpenStreetMap contributors (ODbL 1.0)",
+        "overture": null,
+        "geonames": null
+      },
+      "child_inside_parent_geom": true
+    },
+    {
+      "id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "name": "Sabunçu rayonu",
+      "type": "rayon",
+      "boundary_source": "osm",
+      "boundary_source_id": "relation/11827203",
+      "boundary_release": "azerbaijan-261020",
+      "crs": "EPSG:4326",
+      "geometry_type": "MultiPolygon",
+      "multipart_parts": 1,
+      "geometry_valid": true,
+      "geometry_empty": false,
+      "geometry_validity_note": "ok",
+      "geom_status_before": "verified",
+      "geom_status_after": "verified",
+      "geom_status_reasons": [],
+      "center_latitude": 40.6758811,
+      "center_longitude": 49.982943381062434,
+      "center_method": "interior_representative_point",
+      "center_status": "verified",
+      "center_within_boundary": true,
+      "parent_id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+      "parent_status": "verified",
+      "boundary_file": "boundaries/rayon_sabuncu.geojson",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "relation/11827203",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id",
+          "wikidata": "Q2210210"
+        }
+      ],
+      "attribution": {
+        "osm": "© OpenStreetMap contributors (ODbL 1.0)",
+        "overture": null,
+        "geonames": null
+      },
+      "child_inside_parent_geom": true
+    },
+    {
+      "id": "d2981fa1-7fe5-5b12-9a6b-99cd9baaea16",
+      "name": "Suraxanı rayonu",
+      "type": "rayon",
+      "boundary_source": "osm",
+      "boundary_source_id": "relation/11827250",
+      "boundary_release": "azerbaijan-261020",
+      "crs": "EPSG:4326",
+      "geometry_type": "MultiPolygon",
+      "multipart_parts": 1,
+      "geometry_valid": true,
+      "geometry_empty": false,
+      "geometry_validity_note": "ok",
+      "geom_status_before": "verified",
+      "geom_status_after": "verified",
+      "geom_status_reasons": [],
+      "center_latitude": 40.2784744,
+      "center_longitude": 50.063748299970385,
+      "center_method": "interior_representative_point",
+      "center_status": "verified",
+      "center_within_boundary": true,
+      "parent_id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+      "parent_status": "verified",
+      "boundary_file": "boundaries/rayon_surakhani.geojson",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "relation/11827250",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id",
+          "wikidata": "Q4446443"
+        }
+      ],
+      "attribution": {
+        "osm": "© OpenStreetMap contributors (ODbL 1.0)",
+        "overture": null,
+        "geonames": null
+      },
+      "child_inside_parent_geom": true
+    },
+    {
+      "id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "name": "Xəzər rayonu",
+      "type": "rayon",
+      "boundary_source": "osm",
+      "boundary_source_id": "relation/11827332",
+      "boundary_release": "azerbaijan-261020",
+      "crs": "EPSG:4326",
+      "geometry_type": "MultiPolygon",
+      "multipart_parts": 1,
+      "geometry_valid": true,
+      "geometry_empty": false,
+      "geometry_validity_note": "ok",
+      "geom_status_before": "verified",
+      "geom_status_after": "verified",
+      "geom_status_reasons": [],
+      "center_latitude": 40.3949702,
+      "center_longitude": 50.22839306773684,
+      "center_method": "interior_representative_point",
+      "center_status": "verified",
+      "center_within_boundary": true,
+      "parent_id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+      "parent_status": "verified",
+      "boundary_file": "boundaries/rayon_xezer.geojson",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "relation/11827332",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id",
+          "wikidata": "Q526313"
+        }
+      ],
+      "attribution": {
+        "osm": "© OpenStreetMap contributors (ODbL 1.0)",
+        "overture": null,
+        "geonames": null
+      },
+      "child_inside_parent_geom": false
+    },
+    {
+      "id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "name": "Pirallahı rayonu",
+      "type": "rayon",
+      "boundary_source": "osm",
+      "boundary_source_id": "relation/11827333",
+      "boundary_release": "azerbaijan-261020",
+      "crs": "EPSG:4326",
+      "geometry_type": "MultiPolygon",
+      "multipart_parts": 1,
+      "geometry_valid": true,
+      "geometry_empty": false,
+      "geometry_validity_note": "ok",
+      "geom_status_before": "verified",
+      "geom_status_after": "verified",
+      "geom_status_reasons": [],
+      "center_latitude": 40.37710705,
+      "center_longitude": 50.72021754418492,
+      "center_method": "interior_representative_point",
+      "center_status": "verified",
+      "center_within_boundary": true,
+      "parent_id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+      "parent_status": "verified",
+      "boundary_file": "boundaries/rayon_pirallahi.geojson",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "relation/11827333",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id",
+          "wikidata": "Q12843909"
+        }
+      ],
+      "attribution": {
+        "osm": "© OpenStreetMap contributors (ODbL 1.0)",
+        "overture": null,
+        "geonames": null
+      },
+      "child_inside_parent_geom": false
+    },
+    {
+      "id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+      "name": "Qaradağ rayonu",
+      "type": "rayon",
+      "boundary_source": "osm",
+      "boundary_source_id": "relation/11825937",
+      "boundary_release": "azerbaijan-261020",
+      "crs": "EPSG:4326",
+      "geometry_type": "MultiPolygon",
+      "multipart_parts": 2,
+      "geometry_valid": true,
+      "geometry_empty": false,
+      "geometry_validity_note": "ok",
+      "geom_status_before": "verified",
+      "geom_status_after": "verified",
+      "geom_status_reasons": [],
+      "center_latitude": 40.00592605,
+      "center_longitude": 49.60988634281783,
+      "center_method": "interior_representative_point",
+      "center_status": "verified",
+      "center_within_boundary": true,
+      "parent_id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+      "parent_status": "verified",
+      "boundary_file": "boundaries/rayon_qaradag.geojson",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "relation/11825937",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id",
+          "wikidata": "Q4818249"
+        }
+      ],
+      "attribution": {
+        "osm": "© OpenStreetMap contributors (ODbL 1.0)",
+        "overture": null,
+        "geonames": null
+      },
+      "child_inside_parent_geom": true
+    },
+    {
+      "id": "95facd7d-02db-5492-818b-6ee7a75acb46",
+      "name": "2-ci Alatava",
+      "type": "neighborhood",
+      "boundary_source": "overture",
+      "boundary_source_id": "cb90e7c7-158b-4e3b-8762-83648191fd59",
+      "boundary_release": "2026-09-23.1",
+      "crs": "EPSG:4326",
+      "geometry_type": "Polygon",
+      "multipart_parts": null,
+      "geometry_valid": true,
+      "geometry_empty": false,
+      "geometry_validity_note": "ok",
+      "geom_status_before": "verified",
+      "geom_status_after": "verified",
+      "geom_status_reasons": [],
+      "center_latitude": 40.4055491,
+      "center_longitude": 49.79722210022207,
+      "center_method": "interior_representative_point",
+      "center_status": "verified",
+      "center_within_boundary": true,
+      "parent_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "parent_status": "verified",
+      "boundary_file": "boundaries/neighborhood_2ci_alatava.geojson",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "cb90e7c7-158b-4e3b-8762-83648191fd59",
+          "release": "2026-09-23.1",
+          "role": "boundary",
+          "match_method": "id",
+          "overture_parent_id": "298403b0-fbea-4ea5-b3bb-3274769b15ac"
+        },
+        {
+          "source": "osm",
+          "source_id": "way/186431887",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id"
+        }
+      ],
+      "attribution": {
+        "osm": null,
+        "overture": "Overture Maps Foundation",
+        "geonames": null
+      },
+      "child_inside_parent_geom": true
+    },
+    {
+      "id": "f1268d1f-7599-58cb-82bd-cff7e3b8e4db",
+      "name": "1-ci Alatava",
+      "type": "neighborhood",
+      "boundary_source": "overture",
+      "boundary_source_id": "34a4ccb1-c296-4d30-8042-dd6da94e939b",
+      "boundary_release": "2026-09-23.1",
+      "crs": "EPSG:4326",
+      "geometry_type": "Polygon",
+      "multipart_parts": null,
+      "geometry_valid": true,
+      "geometry_empty": false,
+      "geometry_validity_note": "ok",
+      "geom_status_before": "verified",
+      "geom_status_after": "verified",
+      "geom_status_reasons": [],
+      "center_latitude": 40.40463145,
+      "center_longitude": 49.82446972594087,
+      "center_method": "interior_representative_point",
+      "center_status": "verified",
+      "center_within_boundary": true,
+      "parent_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "parent_status": "verified",
+      "boundary_file": "boundaries/neighborhood_1ci_alatava.geojson",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "34a4ccb1-c296-4d30-8042-dd6da94e939b",
+          "release": "2026-09-23.1",
+          "role": "boundary",
+          "match_method": "id",
+          "overture_parent_id": "e2c2470b-3ed1-4002-887a-9f91bebacf66"
+        },
+        {
+          "source": "osm",
+          "source_id": "relation/21262837",
+          "release": "azerbaijan-261020",
+          "role": "boundary",
+          "match_method": "id"
+        }
+      ],
+      "attribution": {
+        "osm": null,
+        "overture": "Overture Maps Foundation",
+        "geonames": null
+      },
+      "child_inside_parent_geom": true
+    },
+    {
+      "id": "87e5550f-16fc-5159-86ed-0424b3c73cb1",
+      "name": "Yeni Yasamal",
+      "type": "neighborhood",
+      "boundary_source": "overture",
+      "boundary_source_id": "0ceafec1-d3f0-428a-b001-823820d9c0dc",
+      "boundary_release": "2026-09-23.1",
+      "crs": "EPSG:4326",
+      "geometry_type": "Polygon",
+      "multipart_parts": null,
+      "geometry_valid": true,
+      "geometry_empty": false,
+      "geometry_validity_note": "ok",
+      "geom_status_before": "verified",
+      "geom_status_after": "verified",
+      "geom_status_reasons": [],
+      "center_latitude": 40.392723450000005,
+      "center_longitude": 49.79102761215968,
+      "center_method": "interior_representative_point",
+      "center_status": "verified",
+      "center_within_boundary": true,
+      "parent_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "parent_status": "verified",
+      "boundary_file": "boundaries/neighborhood_yeni_yasamal.geojson",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0ceafec1-d3f0-428a-b001-823820d9c0dc",
+          "release": "2026-09-23.1",
+          "role": "boundary",
+          "match_method": "id",
+          "overture_parent_id": "298403b0-fbea-4ea5-b3bb-3274769b15ac"
+        }
+      ],
+      "attribution": {
+        "osm": null,
+        "overture": "Overture Maps Foundation",
+        "geonames": null
+      },
+      "child_inside_parent_geom": true
+    },
+    {
+      "id": "86f95749-6088-5251-b62f-e6bbe906e642",
+      "name": "Yasamal",
+      "type": "neighborhood",
+      "boundary_source": "overture",
+      "boundary_source_id": "5237a9a0-2290-478d-9652-bea7f30b7fd1",
+      "boundary_release": "2026-09-23.1",
+      "crs": "EPSG:4326",
+      "geometry_type": "Polygon",
+      "multipart_parts": null,
+      "geometry_valid": true,
+      "geometry_empty": false,
+      "geometry_validity_note": "ok",
+      "geom_status_before": "verified",
+      "geom_status_after": "verified",
+      "geom_status_reasons": [],
+      "center_latitude": 40.3866685,
+      "center_longitude": 49.79708071200801,
+      "center_method": "interior_representative_point",
+      "center_status": "verified",
+      "center_within_boundary": true,
+      "parent_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "parent_status": "verified",
+      "boundary_file": "boundaries/neighborhood_yasamal_macrohood.geojson",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5237a9a0-2290-478d-9652-bea7f30b7fd1",
+          "release": "2026-09-23.1",
+          "role": "boundary",
+          "match_method": "id",
+          "overture_parent_id": "298403b0-fbea-4ea5-b3bb-3274769b15ac"
+        }
+      ],
+      "attribution": {
+        "osm": null,
+        "overture": "Overture Maps Foundation",
+        "geonames": null
+      },
+      "child_inside_parent_geom": true
+    }
+  ],
+  "verification_policy": {
+    "verified_requires": [
+      "real source geometry",
+      "valid non-empty Polygon/MultiPolygon",
+      "CRS EPSG:4326 (GeoJSON lon/lat)",
+      "linked source_ref role=boundary",
+      "interior center within boundary",
+      "no fabricated geometry"
+    ],
+    "disclaimer": "Geometry validity and source linkage do not claim official cadastral accuracy."
+  }
+}

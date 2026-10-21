@@ -22,6 +22,20 @@
       "entity": "Bakı (Overture region)",
       "detail": "Overture parent_division_id lists only: Nizami rayonu, Nərimanov rayonu, Nəsimi rayonu, Yasamal rayonu. OSM district set used instead for cascading children.",
       "status": "documented"
+    },
+    {
+      "id": "review-xezer-parent-geom",
+      "kind": "parent_geometry_warning",
+      "entity": "Xəzər rayonu",
+      "detail": "Representative point is outside Bakı city OSM polygon (coastal/island extent). Admin parent kept verified; containment check failed.",
+      "status": "open"
+    },
+    {
+      "id": "review-pirallahi-parent-geom",
+      "kind": "parent_geometry_warning",
+      "entity": "Pirallahı rayonu",
+      "detail": "Representative point is outside Bakı city OSM polygon (island). Admin parent kept verified; containment check failed.",
+      "status": "open"
     }
   ]
 }

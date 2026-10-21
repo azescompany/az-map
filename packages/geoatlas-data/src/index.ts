@@ -1,6 +1,7 @@
 import type {
   Area,
   AreaCollection,
+  AreaDetail,
   Manifest,
   Place,
   PlaceCollection,
@@ -150,6 +151,64 @@ export async function loadDataset(baseUrl: string): Promise<GeoAtlasDataset> {
     reviews,
     placesByArea: new Map(),
   };
+}
+
+export function centerOf(area: Area): { latitude: number; longitude: number } | null {
+  const c = area.center;
+  if (!c) return null;
+  const latitude = c.latitude ?? c.lat;
+  const longitude = c.longitude ?? c.lon;
+  if (latitude == null || longitude == null) return null;
+  return { latitude, longitude };
+}
+
+/** Static-demo equivalent of GET /v1/areas/:id detail contract. */
+export async function getAreaDetail(
+  baseUrl: string,
+  areas: Area[],
+  area: Area,
+): Promise<AreaDetail> {
+  const places = await loadPlacesForArea(baseUrl, area);
+  const c = centerOf(area);
+  return {
+    id: area.id,
+    name: area.name,
+    type: area.type,
+    subtype: area.subtype,
+    parent_id: area.parent_id,
+    parent_status: area.parent_status,
+    geom_status: area.geom_status,
+    geom_status_reason: area.geom_status_reason ?? null,
+    center: c
+      ? {
+          latitude: c.latitude,
+          longitude: c.longitude,
+          method: area.center_method ?? null,
+          status: area.center_status ?? null,
+          within_boundary: area.center_within_boundary ?? null,
+        }
+      : null,
+    boundary_url: area.boundary_file ? join(baseUrl || "/", area.boundary_file) : null,
+    wikidata: area.wikidata,
+    source_refs: area.source_refs,
+    children: verifiedChildrenOf(areas, area.id),
+    places,
+    notes: area.notes,
+  };
+}
+
+/** Only paint exact boundary when geom_status is verified. */
+export function boundaryDisplayMode(
+  area: Area,
+): "exact" | "partial_outline" | "none" {
+  if (area.geom_status === "verified" && area.boundary_file) return "exact";
+  if (
+    (area.geom_status === "partial" || area.geom_status === "conflict") &&
+    area.boundary_file
+  ) {
+    return "partial_outline";
+  }
+  return "none";
 }
 
 function join(base: string, path: string): string {

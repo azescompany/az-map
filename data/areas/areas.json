@@ -15,10 +15,12 @@
       "parent_status": "verified",
       "geom_status": "verified",
       "center": {
+        "latitude": 40.17856845,
+        "longitude": 48.569065157529934,
         "lat": 40.17856845,
         "lon": 48.569065157529934
       },
-      "center_method": "rep_point",
+      "center_method": "interior_representative_point",
       "wikidata": "Q227",
       "population": null,
       "population_source": null,
@@ -45,7 +47,13 @@
         }
       ],
       "notes": null,
-      "boundary_file": "boundaries/country_AZ.geojson"
+      "boundary_file": "boundaries/country_AZ.geojson",
+      "geom_status_reason": null,
+      "crs": "EPSG:4326",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": true,
+      "center_status": "verified",
+      "center_within_boundary": true
     },
     {
       "id": "9da19341-ab00-581c-98ec-1f144f448fb2",
@@ -61,10 +69,12 @@
       "parent_status": "verified",
       "geom_status": "verified",
       "center": {
-        "lat": 40.3755885,
-        "lon": 49.8328009
+        "latitude": 40.3698536,
+        "longitude": 49.953885176184734,
+        "lat": 40.3698536,
+        "lon": 49.953885176184734
       },
-      "center_method": "osm_place_node",
+      "center_method": "interior_representative_point",
       "wikidata": "Q9248",
       "population": 2300500,
       "population_source": "osm_tag",
@@ -106,7 +116,13 @@
         }
       ],
       "notes": "District children come from OSM admin relations, not Overture parent_division_id.",
-      "boundary_file": "boundaries/city_baki.geojson"
+      "boundary_file": "boundaries/city_baki.geojson",
+      "geom_status_reason": null,
+      "crs": "EPSG:4326",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": true,
+      "center_status": "verified",
+      "center_within_boundary": true
     },
     {
       "id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
@@ -119,10 +135,12 @@
       "parent_status": "verified",
       "geom_status": "verified",
       "center": {
+        "latitude": 40.384554699999995,
+        "longitude": 49.8091234766774,
         "lat": 40.384554699999995,
         "lon": 49.8091234766774
       },
-      "center_method": "rep_point",
+      "center_method": "interior_representative_point",
       "wikidata": "Q4539151",
       "population": null,
       "population_source": null,
@@ -150,7 +168,13 @@
         }
       ],
       "notes": "OSM admin_level=7. Level differs from other Baku districts (usually 8).",
-      "boundary_file": "boundaries/rayon_yasamal.geojson"
+      "boundary_file": "boundaries/rayon_yasamal.geojson",
+      "geom_status_reason": null,
+      "crs": "EPSG:4326",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": true,
+      "center_status": "verified",
+      "center_within_boundary": true
     },
     {
       "id": "660dc895-a367-5821-9fff-13627bdb2d6d",
@@ -163,10 +187,12 @@
       "parent_status": "verified",
       "geom_status": "verified",
       "center": {
+        "latitude": 40.3776031,
+        "longitude": 49.84833270919367,
         "lat": 40.3776031,
         "lon": 49.84833270919367
       },
-      "center_method": "rep_point",
+      "center_method": "interior_representative_point",
       "wikidata": "Q4313899",
       "population": null,
       "population_source": null,
@@ -194,7 +220,13 @@
         }
       ],
       "notes": "OSM admin_level=8.",
-      "boundary_file": "boundaries/rayon_nasimi.geojson"
+      "boundary_file": "boundaries/rayon_nasimi.geojson",
+      "geom_status_reason": null,
+      "crs": "EPSG:4326",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": true,
+      "center_status": "verified",
+      "center_within_boundary": true
     },
     {
       "id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
@@ -207,10 +239,12 @@
       "parent_status": "verified",
       "geom_status": "verified",
       "center": {
+        "latitude": 40.41041295,
+        "longitude": 49.861704288651424,
         "lat": 40.41041295,
         "lon": 49.861704288651424
       },
-      "center_method": "rep_point",
+      "center_method": "interior_representative_point",
       "wikidata": null,
       "population": null,
       "population_source": null,
@@ -230,7 +264,13 @@
         }
       ],
       "notes": "OSM admin_level=8.",
-      "boundary_file": "boundaries/rayon_narimanov.geojson"
+      "boundary_file": "boundaries/rayon_narimanov.geojson",
+      "geom_status_reason": null,
+      "crs": "EPSG:4326",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": true,
+      "center_status": "verified",
+      "center_within_boundary": true
     },
     {
       "id": "efdc6d2d-b895-5692-a7c4-724ef5302eda",
@@ -243,10 +283,12 @@
       "parent_status": "verified",
       "geom_status": "verified",
       "center": {
+        "latitude": 40.407680150000004,
+        "longitude": 49.92804405712444,
         "lat": 40.407680150000004,
         "lon": 49.92804405712444
       },
-      "center_method": "rep_point",
+      "center_method": "interior_representative_point",
       "wikidata": "Q3912215",
       "population": null,
       "population_source": null,
@@ -267,7 +309,13 @@
         }
       ],
       "notes": "OSM admin_level=8.",
-      "boundary_file": "boundaries/rayon_nizami_baki.geojson"
+      "boundary_file": "boundaries/rayon_nizami_baki.geojson",
+      "geom_status_reason": null,
+      "crs": "EPSG:4326",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": true,
+      "center_status": "verified",
+      "center_within_boundary": true
     },
     {
       "id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
@@ -280,10 +328,12 @@
       "parent_status": "verified",
       "geom_status": "verified",
       "center": {
+        "latitude": 40.4331439,
+        "longitude": 49.82390073547816,
         "lat": 40.4331439,
         "lon": 49.82390073547816
       },
-      "center_method": "rep_point",
+      "center_method": "interior_representative_point",
       "wikidata": "Q864153",
       "population": null,
       "population_source": null,
@@ -304,7 +354,13 @@
         }
       ],
       "notes": "OSM admin_level=8.",
-      "boundary_file": "boundaries/rayon_binagadi.geojson"
+      "boundary_file": "boundaries/rayon_binagadi.geojson",
+      "geom_status_reason": null,
+      "crs": "EPSG:4326",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": true,
+      "center_status": "verified",
+      "center_within_boundary": true
     },
     {
       "id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
@@ -317,10 +373,12 @@
       "parent_status": "verified",
       "geom_status": "verified",
       "center": {
+        "latitude": 40.1642003,
+        "longitude": 49.88571935406125,
         "lat": 40.1642003,
         "lon": 49.88571935406125
       },
-      "center_method": "rep_point",
+      "center_method": "interior_representative_point",
       "wikidata": "Q2028793",
       "population": null,
       "population_source": null,
@@ -341,7 +399,13 @@
         }
       ],
       "notes": "OSM admin_level=8.",
-      "boundary_file": "boundaries/rayon_sabail.geojson"
+      "boundary_file": "boundaries/rayon_sabail.geojson",
+      "geom_status_reason": null,
+      "crs": "EPSG:4326",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": true,
+      "center_status": "verified",
+      "center_within_boundary": true
     },
     {
       "id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
@@ -354,10 +418,12 @@
       "parent_status": "verified",
       "geom_status": "verified",
       "center": {
+        "latitude": 40.16701465,
+        "longitude": 49.994214686255646,
         "lat": 40.16701465,
         "lon": 49.994214686255646
       },
-      "center_method": "rep_point",
+      "center_method": "interior_representative_point",
       "wikidata": "Q2076557",
       "population": null,
       "population_source": null,
@@ -378,7 +444,13 @@
         }
       ],
       "notes": "OSM admin_level=8.",
-      "boundary_file": "boundaries/rayon_xetai.geojson"
+      "boundary_file": "boundaries/rayon_xetai.geojson",
+      "geom_status_reason": null,
+      "crs": "EPSG:4326",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": true,
+      "center_status": "verified",
+      "center_within_boundary": true
     },
     {
       "id": "4bad6478-27be-570c-8965-d1c6339f8128",
@@ -391,10 +463,12 @@
       "parent_status": "verified",
       "geom_status": "verified",
       "center": {
+        "latitude": 40.6758811,
+        "longitude": 49.982943381062434,
         "lat": 40.6758811,
         "lon": 49.982943381062434
       },
-      "center_method": "rep_point",
+      "center_method": "interior_representative_point",
       "wikidata": "Q2210210",
       "population": null,
       "population_source": null,
@@ -415,7 +489,13 @@
         }
       ],
       "notes": "OSM admin_level=8.",
-      "boundary_file": "boundaries/rayon_sabuncu.geojson"
+      "boundary_file": "boundaries/rayon_sabuncu.geojson",
+      "geom_status_reason": null,
+      "crs": "EPSG:4326",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": true,
+      "center_status": "verified",
+      "center_within_boundary": true
     },
     {
       "id": "d2981fa1-7fe5-5b12-9a6b-99cd9baaea16",
@@ -428,10 +508,12 @@
       "parent_status": "verified",
       "geom_status": "verified",
       "center": {
+        "latitude": 40.2784744,
+        "longitude": 50.063748299970385,
         "lat": 40.2784744,
         "lon": 50.063748299970385
       },
-      "center_method": "rep_point",
+      "center_method": "interior_representative_point",
       "wikidata": "Q4446443",
       "population": null,
       "population_source": null,
@@ -452,7 +534,13 @@
         }
       ],
       "notes": "OSM admin_level=8.",
-      "boundary_file": "boundaries/rayon_surakhani.geojson"
+      "boundary_file": "boundaries/rayon_surakhani.geojson",
+      "geom_status_reason": null,
+      "crs": "EPSG:4326",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": true,
+      "center_status": "verified",
+      "center_within_boundary": true
     },
     {
       "id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
@@ -465,10 +553,12 @@
       "parent_status": "verified",
       "geom_status": "verified",
       "center": {
+        "latitude": 40.3949702,
+        "longitude": 50.22839306773684,
         "lat": 40.3949702,
         "lon": 50.22839306773684
       },
-      "center_method": "rep_point",
+      "center_method": "interior_representative_point",
       "wikidata": "Q526313",
       "population": null,
       "population_source": null,
@@ -488,8 +578,14 @@
           "wikidata": "Q526313"
         }
       ],
-      "notes": "OSM admin_level=8.",
-      "boundary_file": "boundaries/rayon_xezer.geojson"
+      "notes": "OSM admin_level=8. Quality gate: child interior point outside Bakı city polygon (likely island/coast); admin parent retained.",
+      "boundary_file": "boundaries/rayon_xezer.geojson",
+      "geom_status_reason": null,
+      "crs": "EPSG:4326",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": true,
+      "center_status": "verified",
+      "center_within_boundary": true
     },
     {
       "id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
@@ -502,10 +598,12 @@
       "parent_status": "verified",
       "geom_status": "verified",
       "center": {
+        "latitude": 40.37710705,
+        "longitude": 50.72021754418492,
         "lat": 40.37710705,
         "lon": 50.72021754418492
       },
-      "center_method": "rep_point",
+      "center_method": "interior_representative_point",
       "wikidata": "Q12843909",
       "population": null,
       "population_source": null,
@@ -525,8 +623,14 @@
           "wikidata": "Q12843909"
         }
       ],
-      "notes": "OSM admin_level=8.",
-      "boundary_file": "boundaries/rayon_pirallahi.geojson"
+      "notes": "OSM admin_level=8. Quality gate: child interior point outside Bakı city polygon (likely island/coast); admin parent retained.",
+      "boundary_file": "boundaries/rayon_pirallahi.geojson",
+      "geom_status_reason": null,
+      "crs": "EPSG:4326",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": true,
+      "center_status": "verified",
+      "center_within_boundary": true
     },
     {
       "id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
@@ -539,10 +643,12 @@
       "parent_status": "verified",
       "geom_status": "verified",
       "center": {
+        "latitude": 40.00592605,
+        "longitude": 49.60988634281783,
         "lat": 40.00592605,
         "lon": 49.60988634281783
       },
-      "center_method": "rep_point",
+      "center_method": "interior_representative_point",
       "wikidata": "Q4818249",
       "population": null,
       "population_source": null,
@@ -563,7 +669,13 @@
         }
       ],
       "notes": "OSM admin_level=6. Same admin_level as Bakı city relation; retained as Bakı child for UI; see reviews.",
-      "boundary_file": "boundaries/rayon_qaradag.geojson"
+      "boundary_file": "boundaries/rayon_qaradag.geojson",
+      "geom_status_reason": null,
+      "crs": "EPSG:4326",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": true,
+      "center_status": "verified",
+      "center_within_boundary": true
     },
     {
       "id": "95facd7d-02db-5492-818b-6ee7a75acb46",
@@ -576,10 +688,12 @@
       "parent_status": "verified",
       "geom_status": "verified",
       "center": {
+        "latitude": 40.4055491,
+        "longitude": 49.79722210022207,
         "lat": 40.4055491,
         "lon": 49.79722210022207
       },
-      "center_method": "rep_point",
+      "center_method": "interior_representative_point",
       "wikidata": null,
       "population": null,
       "population_source": null,
@@ -607,7 +721,13 @@
         }
       ],
       "notes": null,
-      "boundary_file": "boundaries/neighborhood_2ci_alatava.geojson"
+      "boundary_file": "boundaries/neighborhood_2ci_alatava.geojson",
+      "geom_status_reason": null,
+      "crs": "EPSG:4326",
+      "geometry_type": "Polygon",
+      "geometry_valid": true,
+      "center_status": "verified",
+      "center_within_boundary": true
     },
     {
       "id": "f1268d1f-7599-58cb-82bd-cff7e3b8e4db",
@@ -620,10 +740,12 @@
       "parent_status": "verified",
       "geom_status": "verified",
       "center": {
+        "latitude": 40.40463145,
+        "longitude": 49.82446972594087,
         "lat": 40.40463145,
         "lon": 49.82446972594087
       },
-      "center_method": "rep_point",
+      "center_method": "interior_representative_point",
       "wikidata": null,
       "population": null,
       "population_source": null,
@@ -651,7 +773,13 @@
         }
       ],
       "notes": "Must not be listed as verified Yasamal child.",
-      "boundary_file": "boundaries/neighborhood_1ci_alatava.geojson"
+      "boundary_file": "boundaries/neighborhood_1ci_alatava.geojson",
+      "geom_status_reason": null,
+      "crs": "EPSG:4326",
+      "geometry_type": "Polygon",
+      "geometry_valid": true,
+      "center_status": "verified",
+      "center_within_boundary": true
     },
     {
       "id": "87e5550f-16fc-5159-86ed-0424b3c73cb1",
@@ -664,10 +792,12 @@
       "parent_status": "verified",
       "geom_status": "verified",
       "center": {
+        "latitude": 40.392723450000005,
+        "longitude": 49.79102761215968,
         "lat": 40.392723450000005,
         "lon": 49.79102761215968
       },
-      "center_method": "rep_point",
+      "center_method": "interior_representative_point",
       "wikidata": null,
       "population": null,
       "population_source": null,
@@ -688,7 +818,13 @@
         }
       ],
       "notes": null,
-      "boundary_file": "boundaries/neighborhood_yeni_yasamal.geojson"
+      "boundary_file": "boundaries/neighborhood_yeni_yasamal.geojson",
+      "geom_status_reason": null,
+      "crs": "EPSG:4326",
+      "geometry_type": "Polygon",
+      "geometry_valid": true,
+      "center_status": "verified",
+      "center_within_boundary": true
     },
     {
       "id": "86f95749-6088-5251-b62f-e6bbe906e642",
@@ -701,10 +837,12 @@
       "parent_status": "verified",
       "geom_status": "verified",
       "center": {
+        "latitude": 40.3866685,
+        "longitude": 49.79708071200801,
         "lat": 40.3866685,
         "lon": 49.79708071200801
       },
-      "center_method": "rep_point",
+      "center_method": "interior_representative_point",
       "wikidata": null,
       "population": null,
       "population_source": null,
@@ -725,7 +863,13 @@
         }
       ],
       "notes": null,
-      "boundary_file": "boundaries/neighborhood_yasamal_macrohood.geojson"
+      "boundary_file": "boundaries/neighborhood_yasamal_macrohood.geojson",
+      "geom_status_reason": null,
+      "crs": "EPSG:4326",
+      "geometry_type": "Polygon",
+      "geometry_valid": true,
+      "center_status": "verified",
+      "center_within_boundary": true
     }
   ]
 }

@@ -1,6 +1,8 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import type { Area, Manifest, Place, ReviewItem } from "@geoatlas/types";
 import {
+  boundaryDisplayMode,
+  centerOf,
   getArea,
   loadAreas,
   loadBoundary,
@@ -88,6 +90,10 @@ export default function App() {
   const selectedArea = selectedAreaId
     ? getArea(areas, selectedAreaId)
     : undefined;
+  const selectedCenter = selectedArea ? centerOf(selectedArea) : null;
+  const mapBoundaryMode = selectedArea
+    ? boundaryDisplayMode(selectedArea)
+    : "none";
 
   const cities = useMemo(
     () => (countryId ? verifiedChildrenOf(areas, countryId) : []),
@@ -360,10 +366,27 @@ export default function App() {
                 tone={toneFor(selectedArea.parent_status)}
               />
               <StatusBadge
-                label={`geom: ${selectedArea.geom_status}`}
+                label={`boundary: ${selectedArea.geom_status}`}
                 tone={toneFor(selectedArea.geom_status)}
               />
+              <StatusBadge
+                label={`center: ${selectedArea.center_status ?? "missing"}`}
+                tone={toneFor(String(selectedArea.center_status ?? "missing"))}
+              />
             </div>
+            {selectedArea.geom_status !== "verified" && (
+              <p className="meta">
+                Sərhəd dəqiq verified deyil
+                {selectedArea.geom_status_reason
+                  ? ` — ${selectedArea.geom_status_reason}`
+                  : ""}
+                . Xəritədə{" "}
+                {mapBoundaryMode === "partial_outline"
+                  ? "qırıq xətt / xəbərdarlıq rəngi"
+                  : "sərhəd çəkilmir"}
+                .
+              </p>
+            )}
             <dl>
               <dt>Tip</dt>
               <dd>
@@ -374,10 +397,23 @@ export default function App() {
               <dd>{selectedArea.wikidata ?? "—"}</dd>
               <dt>Mərkəz</dt>
               <dd>
-                {selectedArea.center
-                  ? `${selectedArea.center.lat.toFixed(5)}, ${selectedArea.center.lon.toFixed(5)} (${selectedArea.center_method})`
+                {selectedCenter
+                  ? `${selectedCenter.latitude.toFixed(6)}, ${selectedCenter.longitude.toFixed(6)}`
                   : "missing"}
               </dd>
+              <dt>Center method</dt>
+              <dd>
+                {selectedArea.center_method ?? "—"}
+                {selectedArea.center_within_boundary == null
+                  ? ""
+                  : selectedArea.center_within_boundary
+                    ? " · within boundary"
+                    : " · OUTSIDE boundary"}
+              </dd>
+              <dt>Boundary</dt>
+              <dd>{selectedArea.boundary_file ?? "—"}</dd>
+              <dt>CRS</dt>
+              <dd>{selectedArea.crs ?? "—"}</dd>
               <dt>Məkanlar</dt>
               <dd>
                 {placesLoading
@@ -455,7 +491,10 @@ export default function App() {
       <main className="map-wrap">
         <MapView
           countryBoundary={countryBoundary}
-          selectedBoundary={selectedBoundary}
+          selectedBoundary={
+            mapBoundaryMode === "none" ? null : selectedBoundary
+          }
+          boundaryMode={mapBoundaryMode}
           places={filteredPlaces}
           selectedPlaceId={selectedPlaceId}
           selectedArea={selectedArea ?? null}
@@ -464,7 +503,7 @@ export default function App() {
         <div className="map-overlay">
           <div className="card meta">
             {selectedArea
-              ? `${selectedArea.name} · geom ${selectedArea.geom_status} · parent ${selectedArea.parent_status}`
+              ? `${selectedArea.name} · boundary ${selectedArea.geom_status} · center ${selectedArea.center_status ?? "?"} · parent ${selectedArea.parent_status}`
               : "Ərazi seçin"}
             {placesLoading ? " · məkanlar yüklənir…" : ""}
           </div>

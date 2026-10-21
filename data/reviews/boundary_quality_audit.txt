@@ -1,0 +1,129 @@
+# Boundary quality audit
+Generated: 2026-10-21T12:11:44.187145+00:00
+Counts geom_status: {'verified': 18} | center_status: {'verified': 18}
+
+## Azərbaycan (`44517494-dccb-54df-a06f-9ea3bbaf49ff`)
+- boundary: overture `827d1842-72b3-470a-8bf0-68c2002c2a83` @ 2026-09-23.1
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=5
+- geom_status: verified → verified reasons=[]
+- center: lat=40.17856845 lon=48.569065157529934 method=interior_representative_point status=verified within=True
+- parent: None status=verified child_in_parent=None
+
+## Bakı (`9da19341-ab00-581c-98ec-1f144f448fb2`)
+- boundary: osm `relation/2415335` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.3698536 lon=49.953885176184734 method=interior_representative_point status=verified within=True
+- parent: 44517494-dccb-54df-a06f-9ea3bbaf49ff status=verified child_in_parent=True
+
+## Yasamal rayonu (`d778f149-f9cd-57d5-850c-ff2f328b7c49`)
+- boundary: osm `relation/11826939` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.384554699999995 lon=49.8091234766774 method=interior_representative_point status=verified within=True
+- parent: 9da19341-ab00-581c-98ec-1f144f448fb2 status=verified child_in_parent=True
+
+## Nəsimi rayonu (`660dc895-a367-5821-9fff-13627bdb2d6d`)
+- boundary: osm `relation/11826962` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.3776031 lon=49.84833270919367 method=interior_representative_point status=verified within=True
+- parent: 9da19341-ab00-581c-98ec-1f144f448fb2 status=verified child_in_parent=True
+
+## Nərimanov rayonu (`bf27cd5f-18fd-5db3-a793-c54890dc2480`)
+- boundary: osm `relation/11827003` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.41041295 lon=49.861704288651424 method=interior_representative_point status=verified within=True
+- parent: 9da19341-ab00-581c-98ec-1f144f448fb2 status=verified child_in_parent=True
+
+## Nizami rayonu (`efdc6d2d-b895-5692-a7c4-724ef5302eda`)
+- boundary: osm `relation/11827201` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.407680150000004 lon=49.92804405712444 method=interior_representative_point status=verified within=True
+- parent: 9da19341-ab00-581c-98ec-1f144f448fb2 status=verified child_in_parent=True
+
+## Binəqədi rayonu (`ebe11990-4641-52f5-aa58-e11559c4ca59`)
+- boundary: osm `relation/11825936` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.4331439 lon=49.82390073547816 method=interior_representative_point status=verified within=True
+- parent: 9da19341-ab00-581c-98ec-1f144f448fb2 status=verified child_in_parent=True
+
+## Səbail rayonu (`d7ac5d00-4386-5df1-b2ad-5128849407fc`)
+- boundary: osm `relation/11826940` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.1642003 lon=49.88571935406125 method=interior_representative_point status=verified within=True
+- parent: 9da19341-ab00-581c-98ec-1f144f448fb2 status=verified child_in_parent=True
+
+## Xətai rayonu (`e9065f3d-f0c2-5406-b98e-25b8d52e3b5b`)
+- boundary: osm `relation/11827202` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.16701465 lon=49.994214686255646 method=interior_representative_point status=verified within=True
+- parent: 9da19341-ab00-581c-98ec-1f144f448fb2 status=verified child_in_parent=True
+
+## Sabunçu rayonu (`4bad6478-27be-570c-8965-d1c6339f8128`)
+- boundary: osm `relation/11827203` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.6758811 lon=49.982943381062434 method=interior_representative_point status=verified within=True
+- parent: 9da19341-ab00-581c-98ec-1f144f448fb2 status=verified child_in_parent=True
+
+## Suraxanı rayonu (`d2981fa1-7fe5-5b12-9a6b-99cd9baaea16`)
+- boundary: osm `relation/11827250` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.2784744 lon=50.063748299970385 method=interior_representative_point status=verified within=True
+- parent: 9da19341-ab00-581c-98ec-1f144f448fb2 status=verified child_in_parent=True
+
+## Xəzər rayonu (`fbee2486-f2fb-5475-a8b9-aa46f689feb7`)
+- boundary: osm `relation/11827332` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.3949702 lon=50.22839306773684 method=interior_representative_point status=verified within=True
+- parent: 9da19341-ab00-581c-98ec-1f144f448fb2 status=verified child_in_parent=False
+
+## Pirallahı rayonu (`2a382cd5-8bc4-55a0-86d2-e2a6072e8f73`)
+- boundary: osm `relation/11827333` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.37710705 lon=50.72021754418492 method=interior_representative_point status=verified within=True
+- parent: 9da19341-ab00-581c-98ec-1f144f448fb2 status=verified child_in_parent=False
+
+## Qaradağ rayonu (`807ae588-0bb8-51ee-8c6f-9b5267abbbfd`)
+- boundary: osm `relation/11825937` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=2
+- geom_status: verified → verified reasons=[]
+- center: lat=40.00592605 lon=49.60988634281783 method=interior_representative_point status=verified within=True
+- parent: 9da19341-ab00-581c-98ec-1f144f448fb2 status=verified child_in_parent=True
+
+## 2-ci Alatava (`95facd7d-02db-5492-818b-6ee7a75acb46`)
+- boundary: overture `cb90e7c7-158b-4e3b-8762-83648191fd59` @ 2026-09-23.1
+- geometry: type=Polygon valid=True empty=False crs=EPSG:4326 parts=None
+- geom_status: verified → verified reasons=[]
+- center: lat=40.4055491 lon=49.79722210022207 method=interior_representative_point status=verified within=True
+- parent: d778f149-f9cd-57d5-850c-ff2f328b7c49 status=verified child_in_parent=True
+
+## 1-ci Alatava (`f1268d1f-7599-58cb-82bd-cff7e3b8e4db`)
+- boundary: overture `34a4ccb1-c296-4d30-8042-dd6da94e939b` @ 2026-09-23.1
+- geometry: type=Polygon valid=True empty=False crs=EPSG:4326 parts=None
+- geom_status: verified → verified reasons=[]
+- center: lat=40.40463145 lon=49.82446972594087 method=interior_representative_point status=verified within=True
+- parent: 660dc895-a367-5821-9fff-13627bdb2d6d status=verified child_in_parent=True
+
+## Yeni Yasamal (`87e5550f-16fc-5159-86ed-0424b3c73cb1`)
+- boundary: overture `0ceafec1-d3f0-428a-b001-823820d9c0dc` @ 2026-09-23.1
+- geometry: type=Polygon valid=True empty=False crs=EPSG:4326 parts=None
+- geom_status: verified → verified reasons=[]
+- center: lat=40.392723450000005 lon=49.79102761215968 method=interior_representative_point status=verified within=True
+- parent: d778f149-f9cd-57d5-850c-ff2f328b7c49 status=verified child_in_parent=True
+
+## Yasamal (`86f95749-6088-5251-b62f-e6bbe906e642`)
+- boundary: overture `5237a9a0-2290-478d-9652-bea7f30b7fd1` @ 2026-09-23.1
+- geometry: type=Polygon valid=True empty=False crs=EPSG:4326 parts=None
+- geom_status: verified → verified reasons=[]
+- center: lat=40.3866685 lon=49.79708071200801 method=interior_representative_point status=verified within=True
+- parent: d778f149-f9cd-57d5-850c-ff2f328b7c49 status=verified child_in_parent=True

@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import maplibregl, { type Map, type GeoJSONSource } from "maplibre-gl";
 import type { Area, Place } from "@geoatlas/types";
+import { centerOf } from "@geoatlas/data";
 
 const BASEMAP = "https://tiles.openfreemap.org/styles/liberty";
 const AZ_BOUNDS: [[number, number], [number, number]] = [
@@ -8,9 +9,12 @@ const AZ_BOUNDS: [[number, number], [number, number]] = [
   [50.9, 42.0],
 ];
 
+export type BoundaryMode = "exact" | "partial_outline" | "none";
+
 type Props = {
   countryBoundary: GeoJSON.FeatureCollection | null;
   selectedBoundary: GeoJSON.FeatureCollection | null;
+  boundaryMode: BoundaryMode;
   places: Place[];
   selectedPlaceId: string | null;
   selectedArea: Area | null;
@@ -20,6 +24,7 @@ type Props = {
 export default function MapView({
   countryBoundary,
   selectedBoundary,
+  boundaryMode,
   places,
   selectedPlaceId,
   selectedArea,
@@ -67,13 +72,52 @@ export default function MapView({
         id: "selected-fill",
         type: "fill",
         source: "selected-area",
-        paint: { "fill-color": "#f0b429", "fill-opacity": 0.18 },
+        paint: {
+          "fill-color": "#f0b429",
+          "fill-opacity": 0.18,
+        },
       });
       map.addLayer({
         id: "selected-line",
         type: "line",
         source: "selected-area",
-        paint: { "line-color": "#f0b429", "line-width": 2.5 },
+        paint: {
+          "line-color": "#f0b429",
+          "line-width": 2.5,
+        },
+      });
+
+      map.addSource("area-center", { type: "geojson", data: emptyFc() });
+      map.addLayer({
+        id: "area-center-halo",
+        type: "circle",
+        source: "area-center",
+        paint: {
+          "circle-radius": 10,
+          "circle-color": "#ffffff",
+          "circle-opacity": 0.85,
+        },
+      });
+      map.addLayer({
+        id: "area-center-point",
+        type: "circle",
+        source: "area-center",
+        paint: {
+          "circle-radius": 5,
+          "circle-color": [
+            "match",
+            ["get", "status"],
+            "verified",
+            "#3ecf8e",
+            "label_fallback",
+            "#f0b429",
+            "conflict",
+            "#e85d5d",
+            "#9aabbc",
+          ],
+          "circle-stroke-width": 1,
+          "circle-stroke-color": "#0f1419",
+        },
       });
 
       map.addSource("places", { type: "geojson", data: emptyFc() });
@@ -154,20 +198,77 @@ export default function MapView({
   useEffect(() => {
     const map = mapRef.current;
     if (!map || !ready) return;
-    (map.getSource("selected-area") as GeoJSONSource).setData(
-      selectedBoundary ?? emptyFc(),
-    );
-    if (selectedBoundary?.features?.length) {
+    const src = map.getSource("selected-area") as GeoJSONSource;
+    if (boundaryMode === "none" || !selectedBoundary) {
+      src.setData(emptyFc());
+    } else {
+      const tagged: GeoJSON.FeatureCollection = {
+        type: "FeatureCollection",
+        features: selectedBoundary.features.map((f) => ({
+          ...f,
+          properties: { ...(f.properties ?? {}), mode: boundaryMode },
+        })),
+      };
+      src.setData(tagged);
+      const partial = boundaryMode === "partial_outline";
+      map.setPaintProperty(
+        "selected-fill",
+        "fill-color",
+        partial ? "#e85d5d" : "#f0b429",
+      );
+      map.setPaintProperty(
+        "selected-fill",
+        "fill-opacity",
+        partial ? 0.08 : 0.18,
+      );
+      map.setPaintProperty(
+        "selected-line",
+        "line-color",
+        partial ? "#e85d5d" : "#f0b429",
+      );
+      if (partial) {
+        map.setPaintProperty("selected-line", "line-dasharray", [1.5, 1.2]);
+      } else {
+        try {
+          map.setPaintProperty("selected-line", "line-dasharray", undefined);
+        } catch {
+          map.setPaintProperty("selected-line", "line-dasharray", [1, 0]);
+        }
+      }
       const b = bboxOf(selectedBoundary);
       if (b) map.fitBounds(b, { padding: 56, duration: 700, maxZoom: 14 });
-    } else if (selectedArea?.center) {
-      map.flyTo({
-        center: [selectedArea.center.lon, selectedArea.center.lat],
-        zoom: 11,
-        duration: 700,
-      });
     }
-  }, [selectedBoundary, selectedArea, ready]);
+
+    const c = selectedArea ? centerOf(selectedArea) : null;
+    const centerSrc = map.getSource("area-center") as GeoJSONSource;
+    if (c) {
+      centerSrc.setData({
+        type: "FeatureCollection",
+        features: [
+          {
+            type: "Feature",
+            properties: {
+              status: selectedArea?.center_status ?? "missing",
+              method: selectedArea?.center_method ?? "",
+            },
+            geometry: {
+              type: "Point",
+              coordinates: [c.longitude, c.latitude],
+            },
+          },
+        ],
+      });
+      if (boundaryMode === "none") {
+        map.flyTo({
+          center: [c.longitude, c.latitude],
+          zoom: 11,
+          duration: 700,
+        });
+      }
+    } else {
+      centerSrc.setData(emptyFc());
+    }
+  }, [selectedBoundary, selectedArea, boundaryMode, ready]);
 
   useEffect(() => {
     const map = mapRef.current;
