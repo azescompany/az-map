@@ -1,0 +1,13 @@
+{
+  "name": "geoatlas-azerbaijan",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@11.9.0",
+  "scripts": {
+    "dev": "pnpm --filter @geoatlas/demo dev",
+    "build": "pnpm -r build",
+    "validate": "python scripts/validate_dataset.py",
+    "extract:pilot": "python scripts/extract_pilot.py",
+    "typecheck": "pnpm -r typecheck"
+  }
+}

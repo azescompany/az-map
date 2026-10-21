@@ -1,0 +1,38 @@
+# Original immutable source datasets (never commit)
+source_files/
+**/azerbaijan*.osm.pbf
+**/*.osm.pbf
+**/overture/**/*.parquet
+**/AZ/AZ.txt
+
+# Node / pnpm
+node_modules/
+dist/
+build/
+.turbo/
+*.local
+.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Python / extract temps
+__pycache__/
+*.pyc
+.venv/
+venv/
+scripts/.cache/
+.tmp/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Validation / local reports (keep curated data only)
+scripts/output/
+*.log
