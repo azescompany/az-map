@@ -36,3 +36,5 @@ scripts/.cache/
 # Validation / local reports (keep curated data only)
 scripts/output/
 *.log
+*.tsbuildinfo
+apps/demo/dist/
