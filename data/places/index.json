@@ -1,6 +1,6 @@
 {
   "region": "azerbaijan",
-  "total": 5145,
+  "total": 8155,
   "by_rayon": {
     "yasamal": {
       "name": "Yasamal rayonu",
@@ -11,7 +11,7 @@
     "nasimi": {
       "name": "Nəsimi rayonu",
       "area_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
-      "count": 177,
+      "count": 3187,
       "file": "places/nasimi_all.json"
     },
     "narimanov": {

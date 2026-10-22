@@ -19,7 +19,7 @@ Git: `azescompany/az-map` @ tag `v0.2.0-national` (= `d80cf64`).
 **Base (pin):**
 
 ```text
-https://cdn.jsdelivr.net/gh/azescompany/az-map@v0.2.1-national/data/
+https://cdn.jsdelivr.net/gh/azescompany/az-map@v0.2.2-national/data/
 ```
 
 Nümunə: `manifest.json`, `areas/areas.json`, `places/yasamal_all.json`, `boundaries/city_baki.geojson`.
@@ -79,9 +79,11 @@ containment → `pnpm validate` + `pnpm test:named-places` → `[x]` + hesabat.
 ## Tövsiyə olunan icra sırası (agent sprint)
 
 ```text
-Sprint A (P0): DONE — CDN pin v0.2.0-national
+Sprint A (P0): DONE — CDN pin
 Sprint B (P1): DONE — DEFAULT_DATA_BASE + demo
-Sprint C (P2): scaffold DONE — enrich: LANDMARK.md → Yasamal [ ]
+Sprint C (P2): Landmark enrich (lokal; git Bakı bitəndə)
+Sprint D: DONE scaffold — @geoatlas/cascade(+react) + map-react · KITABXANA.md
 ```
 
-**Növbəti iş:** LandmarkAgent — `LANDMARK.md` növbəti `[ ]` (lokal enrich). Bakı bitəndə Worker git deploy.
+**Növbəti iş:** Landmark/GeoAgent data; npm publish (`pnpm publish` per package) istəyə görə.  
+Kitabxana: [`KITABXANA.md`](KITABXANA.md).

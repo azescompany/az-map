@@ -33,7 +33,7 @@ export {
  * const areas = await loadAreas(DEFAULT_DATA_BASE);
  */
 export const DEFAULT_DATA_BASE =
-  "https://cdn.jsdelivr.net/gh/azescompany/az-map@v0.2.1-national/data/";
+  "https://cdn.jsdelivr.net/gh/azescompany/az-map@v0.2.2-national/data/";
 
 export type GeoAtlasDataset = {
   manifest: Manifest;

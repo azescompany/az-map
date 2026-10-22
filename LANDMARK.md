@@ -10,10 +10,11 @@ Qaydalar: [`.cursor/rules/landmark-agent.mdc`](./.cursor/rules/landmark-agent.md
 
 ## PAUSE / davam nöqtəsi
 
-**Dataset:** `0.2.1-national` · places **5145** · validate **PASS**  
-**Bitən:** Yasamal — geniş taxonomy + dedupe + küçə disambiguate + git/pin  
-**CDN pin:** `v0.2.1-national`  
-**Növbəti:** **Nəsimi** (`nasimi_all.json`)
+**Dataset:** `0.2.2-national` · places **8183** · validate **PASS**  
+**Bitən:** Nəsimi (CDN pin); **Beyləqan** (lokal, pin yox)  
+**CDN pin:** `v0.2.2-national` (Yasamal+Nəsimi) · digər Faza 3–4 enrich bu pində yoxdur  
+**Növbəti (Faza 4 lokal):** **Ağcabədi** (`agjabadi_all.json`)  
+**Növbəti (Bakı CDN):** **Nərimanov** (`narimanov_all.json`)
 
 ---
 
@@ -51,7 +52,7 @@ Qaydalar: [`.cursor/rules/landmark-agent.mdc`](./.cursor/rules/landmark-agent.md
 
 ## Faza 1 — Bakı inzibati rayonları
 
-Baseline counts: `data/places/index.json` (cari: `0.2.1-national`).
+Baseline counts: `data/places/index.json` (cari: `0.2.2-national`).
 
 ### 1. Yasamal
 
@@ -61,9 +62,9 @@ Baseline counts: `data/places/index.json` (cari: `0.2.1-national`).
 
 ### 2. Nəsimi
 
-- [ ] Inventar + namizəd + join/dedupe + assign  
-  Fayl: `places/nasimi_all.json` · baseline **177**  
-  **Hesabat:** _
+- [x] Geniş taxonomy + dedupe + küçə disambiguate + git/pin  
+  Fayl: `places/nasimi_all.json` · **177 → 3187**  
+  **Hesabat (2026-10-22):** OSM **965** + Overture **2283** namizəd; merges **238**; disambiguate **261** (review `landmark_nasimi_disambiguate.json`). Kateqoriya: food 864, shop 830, education 410, services 296, healthcare 248, tourism 119, government 94, other_poi 89, historic 64, culture 54, sport 44, park 29, religious 16, transport 15, museum 9, stadium 6. Assign: containment_verified. `pnpm validate` PASS · `pnpm test:named-places` PASS · tag `v0.2.2-national` · `DEFAULT_DATA_BASE` pin · skript `enrich_landmark_places.py --key nasimi`.
 
 ### 3. Nərimanov
 
@@ -216,7 +217,7 @@ Hər sətir bir blok. Baseline = `index.json` count.
 - [ ] Sabirabad · `sabirabad` · **4**
 - [ ] Saatlı · `saatli` · **3**
 - [ ] İmişli · `imishli` · **5**
-- [ ] Beyləqan · `beylagan` · **2**
+- [x] Beyləqan · `beylagan` · **2 → 30** · OSM 11 + Ov 19; merges 2; disambig 2 · validate PASS · lokal · `enrich_landmark_places.py --key beylagan`
 - [ ] Ağcabədi · `agjabadi` · **2**
 - [ ] Yevlax rayonu · `yevlax_rayon` · **4**
 - [ ] Bərdə · `barda` · **6**
