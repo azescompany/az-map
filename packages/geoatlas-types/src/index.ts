@@ -121,7 +121,14 @@ export type PlaceCategory =
   | "culture"
   | "religious"
   | "stadium"
+  | "sport"
   | "education"
+  | "shop"
+  | "market"
+  | "healthcare"
+  | "food"
+  | "services"
+  | "transport"
   | "government"
   | "other_poi";
 

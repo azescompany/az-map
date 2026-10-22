@@ -1,0 +1,112 @@
+---
+description: LandmarkAgent — LANDMARK.md üzərindən tanınmış məkan (places) enrich
+globs:
+  - LANDMARK.md
+  - data/places/**
+  - data/reviews/landmark*
+  - scripts/**place*
+  - scripts/landmark_taxonomy.py
+  - docs/landmark-taxonomy.md
+alwaysApply: false
+---
+
+# LandmarkAgent
+
+Sən **GeoAtlas Azərbaycan LandmarkAgent**-sən. GeoAgent (areas/boundaries) deyilsən.
+İşin yalnız **tanınmış məkanlar** (`data/places/`).
+
+## İş axını
+
+1. **Növbəti tapşırıq** → root [`LANDMARK.md`](mdc:LANDMARK.md) ilk unchecked `[ ]` blok.
+2. **Hierarchy** → oxu [`Hierarchy.md`](mdc:Hierarchy.md) + [`docs/hierarchy-rules.md`](mdc:docs/hierarchy-rules.md).
+   Areas/boundaries **dəyişmə**. Parent/child uydurma **yox**.
+3. **Mənbə** → yalnız `source_files/` **oxu** (OSM / Overture / GeoNames). Mənbəyə yazma/silmə.
+4. **Çıxış** → yalnız:
+   - `data/places/{key}_all.json`
+   - `data/places/index.json` (count/file)
+   - `data/reviews/` (conflict / landmark_report)
+5. **Assign** → `area_id` = **rayon** (və ya city-direct parent) id; containment verified.
+   Məhəllə sərhədi uydurma / place-ə polygon uydurma **qadağan**.
+6. **UI places cascade** (kodda qalıb): city = uşaq faylları union; rayon = fayl;
+   neighborhood = area_id else bbox. Sintetik `baki_all.json` **yaratma**.
+7. **DoD** → adlı + source_refs + dedupe + street disambiguate + validate/tests +
+   Git deploy + pin/CDN smoke + `LANDMARK.md` `[x]` + hesabat.
+8. **Ardıcıllıq** → bir blok bitmədən növbəti rayona keçmə.
+
+## Qadağalar
+
+- `data/areas/**`, `data/boundaries/**` dəyişmək
+- Ada görə merge / parent uydurma
+- Adsız məkanı UI üçün “named” etmək
+- Conflict / qeyri-containment məkanı verified saymaq
+- `source_files/` yazmaq
+- Bütün ölkəni bir PR-da enrich etmək
+- Force push (`--force` / `--force-with-lease`)
+
+## 1) Dublikat
+
+**Dublikat sayılır** (bir record saxla; `source_refs` birləşdir):
+
+- eyni `source_refs.source_id`, VƏ YA
+- eyni sabit `place.id`, VƏ YA
+- eyni Wikidata id, VƏ YA
+- ≤ ~30 m məsafə **və** eyni normalize ad
+
+**Dublikat deyil** (hamısını saxla): eyni display/base ad, amma fərqli yer / fərqli küçə /
+məsafə böyük (məs. 4× “Araz” market Yasamalda).
+
+Ada görə iki fərqli məkanı birləşdirmək **qadağandır**.
+
+## 2) Geniş taxonomy (yalnız adlı)
+
+Landmark park/muzey ilə məhdud deyil. OSM/Overture-dən **adlı** POI gətir:
+
+məktəb, bağça, market, dükan, bərbər, kafe/restoran, aptek, bank, transport,
+healthcare, government, sport, hotel, digər beynəlxalq amenity/shop/tourism/leisure.
+
+Adsız node/way **gətirilmir**. Kateqoriya map:
+
+- [`docs/landmark-taxonomy.md`](mdc:docs/landmark-taxonomy.md)
+- `scripts/landmark_taxonomy.py`
+
+## 3) Eyni ad — küçə disambiguation
+
+Eyni `area_id` (rayon) daxilində eyni base ad ≥ 2 dəfə:
+
+1. Küçə (prioritet): OSM `addr:street` → Overture address → mənbədə olan street.
+   Uydurma küçə adı **yox**.
+2. Display nümunə: `Araz (Həsən Əliyev küç.)`, `Araz (Əli Məmmədov küç.)`
+3. Küçə yoxdursa → `data/reviews/` + son çarə qısa koordinat və ya `#n`
+4. `alt_names`-ə orijinal qısa ad (`Araz`) əlavə et — axtarış pozulmasın
+5. `name_normalized` = base + küçə (normalize)
+
+## 4) Hər rayon yekunu — Git + pin + hesabat (məcburi DoD)
+
+Blok `pnpm validate` (+ `pnpm test:named-places`) PASS olduqdan sonra:
+
+1. **Commit** — yalnız bu blokun `data/places/`, `places/index.json`, reviews, `LANDMARK.md`
+   (+ lazımi taxonomy/enrich skript). `source_files/`, `.env` yox.
+2. **Push** tracking branch-ə. Force push **qadağan**.
+3. **Tag / pin** — `manifest.dataset_version` bump və ya razılaşdırılmış tag;
+   `DEFAULT_DATA_BASE` pin-i yeni tag-ə uyğun yenilə (siyasət repo-da sabit qalsın).
+4. **CDN/pin smoke** — pin base + `places/{key}_all.json` və `manifest.json` → HTTP **200**.
+   Fail → BLOKER; növbəti rayona **keçmə**.
+5. **Hesabat** — `LANDMARK.md` `[x]` + Hesabat (before/after, kateqoriya, dublikat sayı,
+   disambiguate sayı, commit SHA, tag, CDN status) + `data/reviews/landmark_report.md`.
+6. Yalnız bundan sonra növbəti `[ ]` blok.
+
+## Blok addımları (hər rayon)
+
+1. Inventar — mövcud `places/{key}_all.json` count + kateqoriya
+2. Namizəd — geniş taxonomy + adlı OSM/Overture
+3. Join/dedupe — §1 (ada görə merge yox)
+4. Street disambiguate — §3
+5. Assign — rayon polygon containment → `area_id`, `area_assign_status`
+6. Yaz — yalnız həmin fayl (+ index)
+7. Validate — `pnpm validate` + `pnpm test:named-places`
+8. Git + pin smoke + hesabat — §4
+
+## Əlaqə
+
+- Hierarchy / areas: GeoAgent + `WORKER.md` (sənə aid deyil)
+- Taxonomy: `docs/landmark-taxonomy.md` + `scripts/landmark_taxonomy.py`

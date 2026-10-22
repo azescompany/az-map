@@ -15,18 +15,18 @@ import {
   loadAllCatalogPlaces,
   loadPlacesForArea,
   loadReviews,
-  searchAreas,
-  searchPlaces,
   verifiedChildrenOf,
   verifiedChildrenOfType,
 } from "@geoatlas/data";
 import MapView from "./MapView";
 import GeoJSONInspector from "./GeoJSONInspector";
 import SearchableSelect from "./components/SearchableSelect";
+import GlobalSearch from "./components/GlobalSearch";
 import TruncatedText from "./components/TruncatedText";
 import { resolveAppMode } from "./appMode";
+import { resolveDataBase } from "./dataBase";
 
-const DATA_BASE = ""; // Vite publicDir = ../../data
+const { base: DATA_BASE, source: DATA_SOURCE } = resolveDataBase();
 const APP_MODE = resolveAppMode();
 const IS_CUSTOMER = APP_MODE === "customer";
 
@@ -39,9 +39,17 @@ const CATEGORIES = [
   "religious",
   "tourism",
   "culture",
+  "sport",
   "stadium",
   "education",
+  "shop",
+  "market",
+  "healthcare",
+  "food",
+  "services",
+  "transport",
   "government",
+  "other_poi",
 ] as const;
 
 export default function App() {
@@ -72,7 +80,6 @@ export default function App() {
   const [placesLoading, setPlacesLoading] = useState(false);
   const [selectedPlaceId, setSelectedPlaceId] = useState<string | null>(null);
   const [category, setCategory] = useState<(typeof CATEGORIES)[number]>("all");
-  const [query, setQuery] = useState("");
 
   useEffect(() => {
     let cancelled = false;
@@ -80,16 +87,18 @@ export default function App() {
       try {
         setLoading(true);
         const [m, a, r] = await Promise.all([
-          loadManifest(DATA_BASE || "/"),
-          loadAreas(DATA_BASE || "/"),
-          loadReviews(DATA_BASE || "/"),
+          loadManifest(DATA_BASE),
+          loadAreas(DATA_BASE),
+          loadReviews(DATA_BASE),
         ]);
         if (cancelled) return;
         setManifest(m);
         setAreas(a);
         setReviews(r);
         const country = a.find((x) => x.type === "country");
-        const catalog = filterNamedPlaces(await loadAllCatalogPlaces("/"));
+        const catalog = filterNamedPlaces(
+          await loadAllCatalogPlaces(DATA_BASE),
+        );
         if (!cancelled) setCatalogPlaces(catalog);
         if (country) {
           setCountryId(country.id);
@@ -97,7 +106,7 @@ export default function App() {
           setBoundaryLoading(true);
           setBoundaryLoadError(null);
           try {
-            const gj = await loadBoundary("/", country);
+            const gj = await loadBoundary(DATA_BASE, country);
             if (!cancelled) {
               setCountryBoundary(gj);
               setSelectedBoundary(gj);
@@ -307,7 +316,7 @@ export default function App() {
       setBoundaryLoading(true);
       setBoundaryLoadError(null);
       try {
-        const gj = await loadBoundary("/", area);
+        const gj = await loadBoundary(DATA_BASE, area);
         setSelectedBoundary(gj);
         if (area.boundary_file && !gj) {
           setBoundaryLoadError(
@@ -325,7 +334,7 @@ export default function App() {
 
       setPlacesLoading(true);
       try {
-        const pls = await loadPlacesForArea("/", area, areas);
+        const pls = await loadPlacesForArea(DATA_BASE, area, areas);
         setPlaces(pls);
         if (opts?.placeId) {
           const named = filterNamedPlaces(pls);
@@ -355,15 +364,6 @@ export default function App() {
       }
     },
     [namedPlaces, catalogPlaces, areas, selectArea],
-  );
-
-  const areaHits = useMemo(
-    () => searchAreas(areas, query, 12),
-    [areas, query],
-  );
-  const placeHits = useMemo(
-    () => searchPlaces(catalogPlaces, query, 12),
-    [catalogPlaces, query],
   );
 
   const midOptions = useMemo(
@@ -467,6 +467,9 @@ export default function App() {
             <span className="badge ok">
               {manifest?.dataset_version ?? "—"}
             </span>
+            <span className="badge" title={DATA_BASE}>
+              data:{DATA_SOURCE}
+            </span>
             <span className="badge">
               {manifest?.coverage.areas ?? areas.length} area
             </span>
@@ -477,66 +480,13 @@ export default function App() {
           </div>
         )}
 
-        <div className="field">
-          <label>Axtarış</label>
-          <input
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="Ərazi və ya məkan adı…"
-            aria-label="Axtarış"
-          />
-        </div>
-
-        {query.trim() && (
-          <ul className="search-results">
-            {areaHits.map((a) => (
-              <li key={a.id}>
-                <button
-                  type="button"
-                  onClick={() => {
-                    setQuery("");
-                    void selectArea(a);
-                  }}
-                >
-                  <TruncatedText text={a.name} as="strong" />
-                  <div className="meta">
-                    <TruncatedText
-                      text={`${IS_CUSTOMER ? "" : `area · ${a.type} · `}${areaBreadcrumb(areas, a.id)}`}
-                    />
-                  </div>
-                </button>
-              </li>
-            ))}
-            {placeHits.map((p) => (
-              <li key={p.id}>
-                <button
-                  type="button"
-                  onClick={() => {
-                    setQuery("");
-                    selectPlaceById(p.id);
-                  }}
-                >
-                  <TruncatedText
-                    text={p.displayName ?? p.name}
-                    as="strong"
-                  />
-                  <div className="meta">
-                    <TruncatedText
-                      text={`${IS_CUSTOMER ? "" : `place · ${categoryLabel(String(p.category))} · `}${areaBreadcrumb(areas, p.area_id)}`}
-                    />
-                  </div>
-                </button>
-              </li>
-            ))}
-            {!areaHits.length && !placeHits.length && (
-              <li>
-                <div className="empty" style={{ padding: "0.75rem" }}>
-                  Nəticə yoxdur
-                </div>
-              </li>
-            )}
-          </ul>
-        )}
+        <GlobalSearch
+          areas={areas}
+          places={catalogPlaces}
+          customer={IS_CUSTOMER}
+          onSelectArea={(a) => void selectArea(a)}
+          onSelectPlace={selectPlaceById}
+        />
 
         <div className="cascade">
           <SearchableSelect
@@ -813,8 +763,8 @@ export default function App() {
 
         <p className="attribution">
           {IS_CUSTOMER
-            ? "© GeoAtlas · xəritə məlumatları"
-            : `Sərhədlər və markerlər: GeoAtlas canonical data. Basemap: ${manifest?.basemap.provider}. OSM © OpenStreetMap contributors (ODbL). Overture Maps Foundation. GeoNames CC BY 4.0.`}
+            ? `© GeoAtlas · ${manifest?.dataset_version ?? "—"} · ${DATA_SOURCE}`
+            : `Dataset ${manifest?.dataset_version ?? "—"} · source ${DATA_SOURCE}. Sərhədlər və markerlər: GeoAtlas canonical data. Basemap: ${manifest?.basemap.provider}. OSM © OpenStreetMap contributors (ODbL). Overture Maps Foundation. GeoNames CC BY 4.0.`}
         </p>
       </aside>
 

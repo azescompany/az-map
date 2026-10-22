@@ -21,6 +21,10 @@ type Props = {
   emptyHint?: string;
 };
 
+/**
+ * MUI Autocomplete–style control: type-in-field filter, live list,
+ * keyboard ↑↓ Enter Esc, clear ×, popup caret.
+ */
 export default function SearchableSelect({
   label,
   options,
@@ -31,49 +35,72 @@ export default function SearchableSelect({
   emptyHint,
 }: Props) {
   const listId = useId();
+  const inputId = useId();
   const rootRef = useRef<HTMLDivElement>(null);
+  const listRef = useRef<HTMLUListElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
   const [open, setOpen] = useState(false);
-  const [filter, setFilter] = useState("");
+  const [inputValue, setInputValue] = useState("");
   const [highlight, setHighlight] = useState(0);
   const [previousValue, setPreviousValue] = useState<string | null>(null);
 
   const selected = options.find((o) => o.id === value);
-  const displayLabel = selected?.label ?? "";
+  const selectedLabel = selected?.label ?? "";
 
   const filtered = useMemo(() => {
-    const q = normalize(filter);
+    const q = normalize(inputValue);
     if (!q) return options;
     return options.filter((o) => normalize(o.label).includes(q));
-  }, [options, filter]);
+  }, [options, inputValue]);
 
+  // Sync closed field text with selected option
   useEffect(() => {
-    if (!open) {
-      setFilter("");
-      setHighlight(0);
-    }
-  }, [open]);
+    if (!open) setInputValue(selectedLabel);
+  }, [selectedLabel, open, value]);
 
   useEffect(() => {
     setHighlight(0);
-  }, [filter]);
+  }, [inputValue, open]);
 
   useEffect(() => {
     if (!open) return;
     const onDoc = (e: MouseEvent) => {
-      if (!rootRef.current?.contains(e.target as Node)) setOpen(false);
+      if (!rootRef.current?.contains(e.target as Node)) {
+        setOpen(false);
+        setInputValue(selectedLabel);
+      }
     };
     document.addEventListener("mousedown", onDoc);
     return () => document.removeEventListener("mousedown", onDoc);
-  }, [open]);
+  }, [open, selectedLabel]);
+
+  useEffect(() => {
+    if (!open || !listRef.current) return;
+    const el = listRef.current.querySelector<HTMLElement>(
+      `[data-idx="${highlight}"]`,
+    );
+    el?.scrollIntoView({ block: "nearest" });
+  }, [highlight, open]);
 
   function commit(next: string) {
-    if (next === value) {
-      setOpen(false);
-      return;
+    if (next !== value) {
+      setPreviousValue(value);
+      onChange(next);
     }
-    setPreviousValue(value);
-    onChange(next);
+    const labelText = options.find((o) => o.id === next)?.label ?? "";
+    setInputValue(labelText);
     setOpen(false);
+  }
+
+  function clear() {
+    if (disabled) return;
+    if (value) {
+      setPreviousValue(value);
+      onChange("");
+    }
+    setInputValue("");
+    setOpen(true);
+    inputRef.current?.focus();
   }
 
   function undo() {
@@ -81,100 +108,157 @@ export default function SearchableSelect({
     const prev = previousValue;
     setPreviousValue(value);
     onChange(prev);
+    setInputValue(options.find((o) => o.id === prev)?.label ?? "");
     setOpen(false);
   }
 
+  const canClear = !disabled && (!!value || !!inputValue);
   const canUndo =
     !disabled && previousValue != null && previousValue !== value;
 
-  function onKeyDown(e: KeyboardEvent) {
+  function onKeyDown(e: KeyboardEvent<HTMLInputElement>) {
     if (disabled) return;
-    if (!open && (e.key === "ArrowDown" || e.key === "Enter" || e.key === " ")) {
-      e.preventDefault();
-      setOpen(true);
-      return;
-    }
-    if (!open) return;
-    if (e.key === "Escape") {
-      e.preventDefault();
-      setOpen(false);
-      return;
-    }
     if (e.key === "ArrowDown") {
       e.preventDefault();
+      if (!open) {
+        setOpen(true);
+        return;
+      }
       setHighlight((h) => Math.min(h + 1, Math.max(filtered.length - 1, 0)));
       return;
     }
     if (e.key === "ArrowUp") {
       e.preventDefault();
+      if (!open) {
+        setOpen(true);
+        return;
+      }
       setHighlight((h) => Math.max(h - 1, 0));
+      return;
+    }
+    if (e.key === "Escape") {
+      e.preventDefault();
+      setOpen(false);
+      setInputValue(selectedLabel);
       return;
     }
     if (e.key === "Enter") {
       e.preventDefault();
+      if (!open) {
+        setOpen(true);
+        return;
+      }
       const opt = filtered[highlight];
       if (opt) commit(opt.id);
-      else if (!filter.trim()) commit("");
     }
   }
 
   return (
-    <div className={`field combobox ${disabled ? "disabled" : ""}`} ref={rootRef}>
-      <label>{label}</label>
-      <div className="combobox-row">
-        <button
-          type="button"
-          className="combobox-trigger"
-          disabled={disabled}
-          aria-haspopup="listbox"
-          aria-expanded={open}
-          aria-controls={listId}
-          onClick={() => !disabled && setOpen((v) => !v)}
-          onKeyDown={onKeyDown}
-        >
-          <TruncatedText
-            text={displayLabel || placeholder}
-            className={displayLabel ? undefined : "placeholder"}
+    <div
+      className={`field combobox autocomplete ${disabled ? "disabled" : ""}`}
+      ref={rootRef}
+    >
+      <label htmlFor={inputId}>{label}</label>
+      <div className={`combobox-row ${open ? "open" : ""}`}>
+        <div className="autocomplete-input-wrap">
+          <input
+            ref={inputRef}
+            id={inputId}
+            className="autocomplete-input"
+            disabled={disabled}
+            role="combobox"
+            aria-expanded={open}
+            aria-controls={listId}
+            aria-autocomplete="list"
+            aria-activedescendant={
+              open && filtered[highlight]
+                ? `${listId}-opt-${filtered[highlight].id}`
+                : undefined
+            }
+            placeholder={placeholder}
+            value={inputValue}
+            onChange={(e) => {
+              setInputValue(e.target.value);
+              if (!open) setOpen(true);
+            }}
+            onFocus={() => {
+              if (!disabled) setOpen(true);
+            }}
+            onClick={() => {
+              if (!disabled) setOpen(true);
+            }}
+            onKeyDown={onKeyDown}
+            autoComplete="off"
+            spellCheck={false}
           />
-          <span className="combobox-caret" aria-hidden>
-            ▾
-          </span>
-        </button>
-        <button
-          type="button"
-          className="combobox-undo"
-          disabled={!canUndo}
-          title="Əvvəlki seçimə qayıt"
-          aria-label="Əvvəlki seçimə qayıt"
-          onClick={undo}
-        >
-          ×
-        </button>
+          <div className="autocomplete-adornments">
+            {canClear && (
+              <button
+                type="button"
+                className="combobox-icon-btn"
+                title="Təmizlə"
+                aria-label="Təmizlə"
+                tabIndex={-1}
+                onMouseDown={(e) => e.preventDefault()}
+                onClick={clear}
+              >
+                ×
+              </button>
+            )}
+            {canUndo && (
+              <button
+                type="button"
+                className="combobox-icon-btn undo"
+                title="Əvvəlki seçimə qayıt"
+                aria-label="Əvvəlki seçimə qayıt"
+                tabIndex={-1}
+                onMouseDown={(e) => e.preventDefault()}
+                onClick={undo}
+              >
+                ↺
+              </button>
+            )}
+            <button
+              type="button"
+              className="combobox-icon-btn caret"
+              disabled={disabled}
+              title={open ? "Bağla" : "Aç"}
+              aria-label={open ? "Siyahını bağla" : "Siyahını aç"}
+              tabIndex={-1}
+              onMouseDown={(e) => e.preventDefault()}
+              onClick={() => {
+                if (disabled) return;
+                setOpen((v) => {
+                  const next = !v;
+                  if (next) inputRef.current?.focus();
+                  else setInputValue(selectedLabel);
+                  return next;
+                });
+              }}
+            >
+              {open ? "▴" : "▾"}
+            </button>
+          </div>
+        </div>
       </div>
 
       {open && !disabled && (
-        <div className="combobox-panel">
-          <input
-            className="combobox-filter"
-            value={filter}
-            autoFocus
-            placeholder="Yazaraq axtar…"
-            aria-label={`${label} axtarış`}
-            onChange={(e) => setFilter(e.target.value)}
-            onKeyDown={onKeyDown}
-          />
-          <ul id={listId} className="combobox-list" role="listbox">
-            <li role="option" aria-selected={value === ""}>
-              <button
-                type="button"
-                className={value === "" ? "on" : ""}
-                onClick={() => commit("")}
-              >
-                <TruncatedText text={placeholder} />
-              </button>
-            </li>
+        <div className="combobox-panel autocomplete-panel">
+          <ul
+            id={listId}
+            ref={listRef}
+            className="combobox-list"
+            role="listbox"
+            aria-label={label}
+          >
             {filtered.map((o, i) => (
-              <li key={o.id} role="option" aria-selected={o.id === value}>
+              <li
+                key={o.id}
+                id={`${listId}-opt-${o.id}`}
+                role="option"
+                aria-selected={o.id === value}
+                data-idx={i}
+              >
                 <button
                   type="button"
                   className={[
@@ -184,6 +268,7 @@ export default function SearchableSelect({
                     .filter(Boolean)
                     .join(" ")}
                   onMouseEnter={() => setHighlight(i)}
+                  onMouseDown={(e) => e.preventDefault()}
                   onClick={() => commit(o.id)}
                 >
                   <TruncatedText text={o.label} />

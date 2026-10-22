@@ -1,13 +1,13 @@
 {
   "name": "GeoAtlas Azerbaijan",
-  "dataset_version": "0.2.0-national",
-  "generated_at": "2026-10-22T07:26:02.658235+00:00",
+  "dataset_version": "0.2.1-national",
+  "generated_at": "2026-10-22T11:18:29.010324+00:00",
   "coverage": {
     "scope": "national",
     "description": "Azərbaycan ölkə + şəhərlər + inzibati rayonlar (Hierarchy.md / WORKER.md Faza 0–4).",
     "areas": 3421,
     "boundaries": 3421,
-    "places": 2847,
+    "places": 5145,
     "reviews": 12
   },
   "sources": {

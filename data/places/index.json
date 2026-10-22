@@ -1,11 +1,11 @@
 {
   "region": "azerbaijan",
-  "total": 2847,
+  "total": 5145,
   "by_rayon": {
     "yasamal": {
       "name": "Yasamal rayonu",
       "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
-      "count": 170,
+      "count": 2468,
       "file": "places/yasamal_all.json"
     },
     "nasimi": {
@@ -532,16 +532,16 @@
     }
   },
   "by_category": {
-    "culture": 327,
-    "education": 25,
-    "government": 332,
-    "historic": 528,
+    "culture": 333,
+    "education": 33,
+    "government": 333,
+    "historic": 529,
     "monument": 13,
     "museum": 88,
-    "park": 327,
-    "religious": 230,
+    "park": 346,
+    "religious": 232,
     "stadium": 72,
-    "tourism": 131
+    "tourism": 135
   },
   "files": [
     "places/yasamal_all.json",

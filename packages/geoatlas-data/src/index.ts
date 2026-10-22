@@ -24,6 +24,17 @@ export {
   searchNamedPlaces,
 } from "./places";
 
+/**
+ * Canonical CDN root for curated `data/` (trailing slash required for join).
+ * Pin = git tag matching `manifest.dataset_version`.
+ *
+ * @example
+ * import { DEFAULT_DATA_BASE, loadAreas } from "@geoatlas/data";
+ * const areas = await loadAreas(DEFAULT_DATA_BASE);
+ */
+export const DEFAULT_DATA_BASE =
+  "https://cdn.jsdelivr.net/gh/azescompany/az-map@v0.2.1-national/data/";
+
 export type GeoAtlasDataset = {
   manifest: Manifest;
   areas: Area[];
@@ -96,20 +107,26 @@ export function searchPlaces(places: Place[], query: string, limit = 30): Place[
   return searchNamedPlaces(places, query, limit);
 }
 
-export async function loadManifest(baseUrl: string): Promise<Manifest> {
+export async function loadManifest(
+  baseUrl: string = DEFAULT_DATA_BASE,
+): Promise<Manifest> {
   const res = await fetch(join(baseUrl, "manifest.json"));
   if (!res.ok) throw new Error(`Failed to load manifest: ${res.status}`);
   return res.json();
 }
 
-export async function loadAreas(baseUrl: string): Promise<Area[]> {
+export async function loadAreas(
+  baseUrl: string = DEFAULT_DATA_BASE,
+): Promise<Area[]> {
   const res = await fetch(join(baseUrl, "areas/areas.json"));
   if (!res.ok) throw new Error(`Failed to load areas: ${res.status}`);
   const data = (await res.json()) as AreaCollection;
   return data.areas;
 }
 
-export async function loadReviews(baseUrl: string): Promise<ReviewItem[]> {
+export async function loadReviews(
+  baseUrl: string = DEFAULT_DATA_BASE,
+): Promise<ReviewItem[]> {
   const res = await fetch(join(baseUrl, "reviews/pilot_reviews.json"));
   if (!res.ok) return [];
   const data = (await res.json()) as { reviews: ReviewItem[] };
@@ -128,7 +145,7 @@ export type PlacesIndex = {
 
 /** Load places index (all Bakı rayon place files). */
 export async function loadPlacesIndex(
-  baseUrl: string,
+  baseUrl: string = DEFAULT_DATA_BASE,
 ): Promise<PlacesIndex | null> {
   const res = await fetch(join(baseUrl, "places/index.json"));
   if (!res.ok) return null;
@@ -136,7 +153,9 @@ export async function loadPlacesIndex(
 }
 
 /** Load every named-place file listed in places/index.json (catalog / search). */
-export async function loadAllCatalogPlaces(baseUrl: string): Promise<Place[]> {
+export async function loadAllCatalogPlaces(
+  baseUrl: string = DEFAULT_DATA_BASE,
+): Promise<Place[]> {
   const index = await loadPlacesIndex(baseUrl);
   const files =
     index?.files?.length
@@ -353,12 +372,22 @@ export async function loadBoundary(
   area: Area,
 ): Promise<GeoJSON.FeatureCollection | null> {
   if (!area.boundary_file || area.geom_status === "missing") return null;
-  const res = await fetch(join(baseUrl, area.boundary_file));
-  if (!res.ok) return null;
-  return res.json();
+  try {
+    const res = await fetch(join(baseUrl, area.boundary_file));
+    if (!res.ok) return null;
+    const ctype = res.headers.get("content-type") ?? "";
+    if (ctype && !ctype.includes("json") && !ctype.includes("geo+json")) {
+      return null;
+    }
+    return (await res.json()) as GeoJSON.FeatureCollection;
+  } catch {
+    return null;
+  }
 }
 
-export async function loadDataset(baseUrl: string): Promise<GeoAtlasDataset> {
+export async function loadDataset(
+  baseUrl: string = DEFAULT_DATA_BASE,
+): Promise<GeoAtlasDataset> {
   const [manifest, areas, reviews] = await Promise.all([
     loadManifest(baseUrl),
     loadAreas(baseUrl),
@@ -409,7 +438,9 @@ export async function getAreaDetail(
           within_boundary: area.center_within_boundary ?? null,
         }
       : null,
-    boundary_url: area.boundary_file ? join(baseUrl || "/", area.boundary_file) : null,
+    boundary_url: area.boundary_file
+      ? join(baseUrl || DEFAULT_DATA_BASE, area.boundary_file)
+      : null,
     wikidata: area.wikidata,
     source_refs: area.source_refs,
     children: verifiedChildrenOf(areas, area.id),
@@ -432,6 +463,16 @@ export function boundaryDisplayMode(
   return "none";
 }
 
-function join(base: string, path: string): string {
-  return `${base.replace(/\/$/, "")}/${path.replace(/^\//, "")}`;
+/**
+ * Join data base URL with a relative path under curated `data/`.
+ * - Keeps a single slash between base and path
+ * - Strips a leading `data/` on path so `…/data/` + `data/x` ≠ `data/data/x`
+ * - `base` of `""` or `"/"` → root-relative `/path` (Vite publicDir)
+ */
+export function join(base: string, path: string): string {
+  const trimmedBase = (base ?? "").replace(/\/+$/, "");
+  let rel = (path ?? "").replace(/^\/+/, "");
+  if (rel.startsWith("data/")) rel = rel.slice("data/".length);
+  if (!trimmedBase || trimmedBase === "") return `/${rel}`;
+  return `${trimmedBase}/${rel}`;
 }

@@ -1,0 +1,279 @@
+{
+  "rayon": "yasamal",
+  "baseline": 170,
+  "before_file_count": 170,
+  "osm_ways_scanned": 43,
+  "added_count": 41,
+  "added": [
+    {
+      "name": "Azərbaycan Dövlət İqtisad Universiteti, ADİU (UNEC), Murtuza Muxtarov küç.",
+      "category": "education",
+      "sid": "way/134925203",
+      "wikidata": null
+    },
+    {
+      "name": "Spartak Dairəsi",
+      "category": "park",
+      "sid": "way/134925206",
+      "wikidata": null
+    },
+    {
+      "name": "Akademiya bağı",
+      "category": "park",
+      "sid": "way/149637806",
+      "wikidata": null
+    },
+    {
+      "name": "Əzizbəyov parkı",
+      "category": "park",
+      "sid": "way/150675701",
+      "wikidata": null
+    },
+    {
+      "name": "Nəriman Nərimanov bağı",
+      "category": "tourism",
+      "sid": "way/165695134",
+      "wikidata": null
+    },
+    {
+      "name": "Təzəpir Məscidi",
+      "category": "religious",
+      "sid": "way/174900792",
+      "wikidata": "Q2096562"
+    },
+    {
+      "name": "Azərbaycan Döylət Akademik Milli Dram Teatri",
+      "category": "culture",
+      "sid": "way/174900796",
+      "wikidata": "Q2584583"
+    },
+    {
+      "name": "Cəfər Cabbarlı bağı",
+      "category": "park",
+      "sid": "way/178157681",
+      "wikidata": null
+    },
+    {
+      "name": "İzmir Bağı",
+      "category": "park",
+      "sid": "way/178593266",
+      "wikidata": "Q108852627"
+    },
+    {
+      "name": "Qəzənfər Musabəyov parkı",
+      "category": "park",
+      "sid": "way/179743894",
+      "wikidata": null
+    },
+    {
+      "name": "Dövlət Film Fondu",
+      "category": "culture",
+      "sid": "way/195649173",
+      "wikidata": null
+    },
+    {
+      "name": "Azərbaycan Dövlət Mədəniyyət və İncəsənət Universiteti",
+      "category": "education",
+      "sid": "way/219973453",
+      "wikidata": "Q4058263"
+    },
+    {
+      "name": "Nəqliyyat Nazirliyi",
+      "category": "government",
+      "sid": "way/220010385",
+      "wikidata": null
+    },
+    {
+      "name": "Space TV",
+      "category": "culture",
+      "sid": "way/223088777",
+      "wikidata": null
+    },
+    {
+      "name": "Badamdar dairəsi",
+      "category": "tourism",
+      "sid": "way/272994705",
+      "wikidata": null
+    },
+    {
+      "name": "Bakı DYP Dairəsi",
+      "category": "tourism",
+      "sid": "way/272995119",
+      "wikidata": null
+    },
+    {
+      "name": "Hüseyn Cavid parkı",
+      "category": "park",
+      "sid": "way/277230442",
+      "wikidata": null
+    },
+    {
+      "name": "Kinostudiya AzərbaycanFilm",
+      "category": "culture",
+      "sid": "way/278951717",
+      "wikidata": null
+    },
+    {
+      "name": "Meşə Parkı \\ Şamaxinka",
+      "category": "park",
+      "sid": "way/278962566",
+      "wikidata": null
+    },
+    {
+      "name": "Mehdi Hüseynzadə parkı",
+      "category": "park",
+      "sid": "way/282645654",
+      "wikidata": null
+    },
+    {
+      "name": "Yeni Yasamal parkı",
+      "category": "park",
+      "sid": "way/290582404",
+      "wikidata": null
+    },
+    {
+      "name": "Park near Space TV",
+      "category": "park",
+      "sid": "way/295375058",
+      "wikidata": null
+    },
+    {
+      "name": "Mərkəzi Elmi Kitabxana",
+      "category": "culture",
+      "sid": "way/299437655",
+      "wikidata": "Q20571315"
+    },
+    {
+      "name": "Yasamal parkı",
+      "category": "park",
+      "sid": "way/326259644",
+      "wikidata": "Q65280013"
+    },
+    {
+      "name": "Yaşıl Dünya Parkı",
+      "category": "park",
+      "sid": "way/368880131",
+      "wikidata": null
+    },
+    {
+      "name": "Konservatoriya bağı",
+      "category": "park",
+      "sid": "way/371620234",
+      "wikidata": null
+    },
+    {
+      "name": "Azərbaycan Memarlıq və İnşaat Universiteti",
+      "category": "education",
+      "sid": "way/371620312",
+      "wikidata": "Q635116"
+    },
+    {
+      "name": "Azərbaycan Milli Konservatoriyası",
+      "category": "education",
+      "sid": "way/371620316",
+      "wikidata": "Q12836485"
+    },
+    {
+      "name": "Mədəniyyət və İncəsənət Universitetinin Tədris teatrı",
+      "category": "culture",
+      "sid": "way/372669972",
+      "wikidata": null
+    },
+    {
+      "name": "Bakı Biznes Universiteti",
+      "category": "education",
+      "sid": "way/376246141",
+      "wikidata": null
+    },
+    {
+      "name": "Qələbə dairəsi",
+      "category": "tourism",
+      "sid": "way/377580676",
+      "wikidata": null
+    },
+    {
+      "name": "Mərkəzi Park",
+      "category": "park",
+      "sid": "way/379525890",
+      "wikidata": null
+    },
+    {
+      "name": "Mərkəzi Park Yuxarı \\ Sovetski",
+      "category": "park",
+      "sid": "way/379525895",
+      "wikidata": "Q64010648"
+    },
+    {
+      "name": "Mərkəzi Park",
+      "category": "park",
+      "sid": "way/379527633",
+      "wikidata": null
+    },
+    {
+      "name": "Azərbaycan Texniki Universiteti",
+      "category": "education",
+      "sid": "way/479863583",
+      "wikidata": "Q724222"
+    },
+    {
+      "name": "Bakı Dövlət Universiteti",
+      "category": "education",
+      "sid": "way/479865023",
+      "wikidata": "Q1633799"
+    },
+    {
+      "name": "Mərkəzi Park",
+      "category": "park",
+      "sid": "way/499548401",
+      "wikidata": null
+    },
+    {
+      "name": "Hacı Cavad məscidi",
+      "category": "religious",
+      "sid": "way/781579577",
+      "wikidata": null
+    },
+    {
+      "name": "Yasamal Parkı",
+      "category": "park",
+      "sid": "way/864576542",
+      "wikidata": null
+    },
+    {
+      "name": "Təndir Hamamı",
+      "category": "historic",
+      "sid": "way/1316117813",
+      "wikidata": null
+    },
+    {
+      "name": "Moskva Dövlət Universitetinin Bakı filialı",
+      "category": "education",
+      "sid": "way/1550610001",
+      "wikidata": null
+    }
+  ],
+  "skipped_dup_source": [],
+  "skipped_wikidata_match": [
+    {
+      "sid": "way/499548398",
+      "name": "Mərkəzi Park Bakı",
+      "wikidata": "Q64010648"
+    },
+    {
+      "sid": "way/499548399",
+      "name": "Mərkəzi Park",
+      "wikidata": "Q64010648"
+    }
+  ],
+  "after": 211,
+  "by_category_added": {
+    "education": 8,
+    "park": 19,
+    "tourism": 4,
+    "religious": 2,
+    "culture": 6,
+    "government": 1,
+    "historic": 1
+  },
+  "index_total": 2888
+}

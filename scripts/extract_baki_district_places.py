@@ -11,6 +11,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import sys
 import uuid
 from collections import defaultdict
 from datetime import datetime, timezone
@@ -22,7 +23,14 @@ from shapely import wkb as swkb
 from shapely.geometry import Point, shape
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
 os.chdir(ROOT)
+
+from landmark_taxonomy import (  # noqa: E402
+    OVERTURE_TAXONOMY as LANDMARK_TAXONOMY,
+    classify_osm_notable,
+)
+
 SRC = Path("source_files")
 OUT = Path("data")
 OSM_PBF = SRC / "azerbaijan-261020.osm.pbf"
@@ -46,28 +54,6 @@ RAYON_KEYS = [
     "pirallahi",
     "qaradag",
 ]
-
-LANDMARK_TAXONOMY = {
-    "historic_site": "historic",
-    "park": "park",
-    "museum": "museum",
-    "monument": "monument",
-    "tourist_attraction": "tourism",
-    "arts_and_entertainment": "culture",
-    "gallery": "culture",
-    "library": "culture",
-    "stadium_arena": "stadium",
-    "muslim_place_of_worship": "religious",
-    "christian_church": "religious",
-    "theater": "culture",
-    "cinema": "culture",
-    "viewpoint": "tourism",
-    "beach": "park",
-    "garden": "park",
-    "castle": "historic",
-    "landmark": "monument",
-    "plaza": "park",
-}
 
 
 def cid(*parts: str) -> str:
@@ -124,31 +110,6 @@ def load_boundary_geom(boundary_file: str | None):
     from shapely.ops import unary_union
 
     return unary_union(geoms)
-
-
-def classify_osm_notable(tags) -> str | None:
-    if "historic" in tags:
-        return "historic"
-    t = tags.get("tourism")
-    if t == "museum":
-        return "museum"
-    if t in ("attraction", "viewpoint", "zoo", "theme_park", "artwork"):
-        return "tourism"
-    a = tags.get("amenity")
-    if a == "place_of_worship":
-        return "religious"
-    if a in ("theatre", "cinema", "library", "arts_centre"):
-        return "culture"
-    if a == "university":
-        return "education"
-    if a == "townhall":
-        return "government"
-    leisure = tags.get("leisure")
-    if leisure in ("park", "garden", "nature_reserve"):
-        return "park"
-    if leisure == "stadium":
-        return "stadium"
-    return None
 
 
 class OsmNotableCollector(osmium.SimpleHandler):
