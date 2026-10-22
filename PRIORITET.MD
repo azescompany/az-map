@@ -43,7 +43,7 @@ Paketə GeoJSON kopyalanmır — yalnız URL + loader. Public npm publish bu spr
 
 ## P2 — Landmark Agent (hierarchy pozmadan) ✅ scaffold
 
-**Status:** qaydalar genişləndirildi (dedupe / geniş taxonomy / küçə disambiguate / rayon sonu git+pin+hesabat). Enrich növbəsi: [`LANDMARK.md`](LANDMARK.md) ilk unchecked `[ ]`.
+**Status:** qaydalar = dedupe / taxonomy / küçə; **git push LƏĞV** (lokal `data/`). Demo: `local` + `CDN` ayrı env. Enrich: [`LANDMARK.md`](LANDMARK.md). Git: Bakı bitəndə Worker.
 
 | Fayl | Rol |
 |---|---|
@@ -54,10 +54,10 @@ Paketə GeoJSON kopyalanmır — yalnız URL + loader. Public npm publish bu spr
 
 **Agent vəzifəsi (qısa):** `LANDMARK.md` ilk `[ ]` → yalnız `data/places/*` + index/review →
 mənbə `source_files/` oxu → geniş taxonomy (named) → dedupe → küçə disambiguate →
-containment → `pnpm validate` + `pnpm test:named-places` → **git commit/push + pin/CDN 200** →
-`[x]` + hesabat.
+containment → `pnpm validate` + `pnpm test:named-places` → `[x]` + hesabat.
+**Git/push/tag/pin — etmə.**
 
-**Addımlar:** inventar → namizəd → join/dedupe → street → assign → yaz → validate → git+pin → report.
+**Addımlar:** inventar → namizəd → join/dedupe → street → assign → yaz → validate → report (lokal).
 
 ---
 
@@ -84,4 +84,4 @@ Sprint B (P1): DONE — DEFAULT_DATA_BASE + demo
 Sprint C (P2): scaffold DONE — enrich: LANDMARK.md → Yasamal [ ]
 ```
 
-**Növbəti iş:** LandmarkAgent — `LANDMARK.md` növbəti `[ ]` blok (enrich + DoD git/pin/hesabat).
+**Növbəti iş:** LandmarkAgent — `LANDMARK.md` növbəti `[ ]` (lokal enrich). Bakı bitəndə Worker git deploy.

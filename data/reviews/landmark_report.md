@@ -18,7 +18,7 @@ bir qeyd əlavə et (tarix, key, before→after count, dedupe, conflict, validat
 - Disambiguate: **219** eyni-ad qrup üzvü (küçə / coord / `#N`); review `landmark_yasamal_disambiguate.json`
 - Assign: Yasamal polygon containment → `area_id` verified
 - Validate: **PASS**; `pnpm test:named-places`: **PASS**
-- Git/tag/CDN: commit + push `master` + annotated tag `v0.2.1-national`;
+- Git/tag/CDN: commit `53a8446` + push `master` + annotated tag `v0.2.1-national`;
   `DEFAULT_DATA_BASE` → `@v0.2.1-national/data/`; smoke: manifest + `places/yasamal_all.json`
 - Skript: `scripts/enrich_landmark_places.py` + `scripts/landmark_taxonomy.py`
 - Qeyd: areas/boundaries toxunulmayıb; sintetik `baki_all` yox; force push yox
