@@ -64,7 +64,7 @@ Baseline counts: `data/places/index.json` (cari: `0.2.2-national`).
 
 - [x] Geniş taxonomy + dedupe + küçə disambiguate + git/pin  
   Fayl: `places/nasimi_all.json` · **177 → 3187**  
-  **Hesabat (2026-10-22):** OSM **965** + Overture **2283** namizəd; merges **238**; disambiguate **261** (review `landmark_nasimi_disambiguate.json`). Kateqoriya: food 864, shop 830, education 410, services 296, healthcare 248, tourism 119, government 94, other_poi 89, historic 64, culture 54, sport 44, park 29, religious 16, transport 15, museum 9, stadium 6. Assign: containment_verified. `pnpm validate` PASS · `pnpm test:named-places` PASS · tag `v0.2.2-national` · `DEFAULT_DATA_BASE` pin · skript `enrich_landmark_places.py --key nasimi`.
+  **Hesabat (2026-10-22):** OSM **965** + Overture **2283** namizəd; merges **238**; disambiguate **261** (review `landmark_nasimi_disambiguate.json`). Kateqoriya: food 864, shop 830, education 410, services 296, healthcare 248, tourism 119, government 94, other_poi 89, historic 64, culture 54, sport 44, park 29, religious 16, transport 15, museum 9, stadium 6. Assign: containment_verified. `pnpm validate` PASS · `pnpm test:named-places` PASS · commit `21185e2` · tag `v0.2.2-national` (lokal) · `DEFAULT_DATA_BASE` → `@v0.2.2-national` · **push/CDN smoke: auth blok** (istifadəçi `git push` + tag) · skript `enrich_landmark_places.py --key nasimi`.
 
 ### 3. Nərimanov
 
@@ -132,9 +132,9 @@ Baseline counts: `data/places/index.json` (cari: `0.2.2-national`).
 
 ### 13. Sumqayıt
 
-- [ ] Inventar + namizəd + join/dedupe + assign  
-  Fayl: `places/sumqayit_all.json` · baseline **57**  
-  **Hesabat:** _
+- [x] Inventar + namizəd + join/dedupe + children-first assign  
+  Fayl: `places/sumqayit_all.json` · **57 → 1724**  
+  **Hesabat (2026-10-22):** OSM **1241** + Overture **492** namizəd (yalnız Sumqayıt city polygon containment); dedupe merges **66**; disambiguate **352** (`landmark_sumqayit_disambiguate.json`). Children-first: **76** verified uşaq sərhədi · uşağa **1171** · city-only **547** · conflict **6** (`landmark_sumqayit_reassign.json`). Kateqoriya: shop 739, food 373, education 159, healthcare 129, services 73, other_poi 62, government 42, culture 32, tourism 24, sport 17, park 16, historic 15, religious 12, monument 10, stadium 8, market 5, transport 5, museum 3. Assign: containment_verified. `pnpm validate` PASS · `pnpm test:named-places` PASS. Git/CDN: **yox**. Skript: `enrich_landmark_places.py --key sumqayit`.
 
 ### 14. Masazır
 
