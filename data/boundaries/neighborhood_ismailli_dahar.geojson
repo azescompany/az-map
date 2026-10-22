@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "83f8ac6c-5676-5f33-9d97-d3f530d1f31c",
+      "properties": {
+        "id": "83f8ac6c-5676-5f33-9d97-d3f530d1f31c",
+        "name": "Dahar",
+        "type": "neighborhood",
+        "parent_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.2962258,
+              40.8819644
+            ],
+            [
+              48.291887,
+              40.8810069
+            ],
+            [
+              48.2921059,
+              40.8803831
+            ],
+            [
+              48.2977897,
+              40.8806503
+            ],
+            [
+              48.2990537,
+              40.8829703
+            ],
+            [
+              48.2971465,
+              40.8834721
+            ],
+            [
+              48.2962258,
+              40.8819644
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

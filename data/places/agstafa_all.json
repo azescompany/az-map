@@ -1,0 +1,198 @@
+{
+  "area_id": "43959365-1f7e-50d0-aa64-710298cab5bd",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "ddf91a07-31c8-5369-8d8f-47b1966f6f87",
+      "name": "Aşağı Göycəli, Ağstafa Azerbaijan",
+      "name_normalized": "asagi goyceli agstafa azerbaijan",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.115833333333,
+        "lon": 45.485277777778
+      },
+      "area_id": "43959365-1f7e-50d0-aa64-710298cab5bd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6937360763549805,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6911ddbf-5be2-4b14-84ca-e97c2eb823c9",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "67c95795-97fd-5a58-b845-23de99b3702b",
+      "name": "Aghstafa City Library",
+      "name_normalized": "aghstafa city library",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.112333,
+        "lon": 45.451706
+      },
+      "area_id": "43959365-1f7e-50d0-aa64-710298cab5bd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7158010601997375,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6a93d3b2-22b4-4a40-8c9e-c48fde18798b",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "0716bb8c-4aef-5f51-8687-26a430eaa9cc",
+      "name": "Fuad Sadliq Sarayi",
+      "name_normalized": "fuad sadliq sarayi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.1189,
+        "lon": 45.4539
+      },
+      "area_id": "43959365-1f7e-50d0-aa64-710298cab5bd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7585198283195496,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b6385780-e60c-4e3e-aac6-d42a2ac80d7c",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "a0b1034b-e16e-594a-8f69-dbbab0e69e8c",
+      "name": "مقاطعة آق استفا",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.1188888889,
+        "lon": 45.4538888889
+      },
+      "area_id": "43959365-1f7e-50d0-aa64-710298cab5bd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8039253950119019,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "84631f43-3224-42ff-9bdf-7cff9ae79452",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "9ee874e1-2000-5cb5-af73-cc0deff8bfcd",
+      "name": "Agstafa Semed Vurgun Parki",
+      "name_normalized": "agstafa semed vurgun parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.11474759075387,
+        "lon": 45.44858579538593
+      },
+      "area_id": "43959365-1f7e-50d0-aa64-710298cab5bd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8513359427452087,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "eb443196-f6d2-49a0-8871-ab2f5ca197a7",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "2882a7a3-ffd0-5fde-95bc-4d36454f0729",
+      "name": "Səməd Vurğun Parkı",
+      "name_normalized": "semed vurgun parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.11441812,
+        "lon": 45.44867687
+      },
+      "area_id": "43959365-1f7e-50d0-aa64-710298cab5bd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.795821487903595,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ebfcedf4-f5d2-4d93-b21c-c181725e94b7",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "1cfda6af-13c5-512b-8e17-64d85728f8da",
+      "name": "Ceyrançöl",
+      "name_normalized": "ceyrancol",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.3,
+        "lon": 45.4667
+      },
+      "area_id": "43959365-1f7e-50d0-aa64-710298cab5bd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7653530836105347,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "06f3cdec-875b-4917-8719-296ad5d86244",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "759ca8f0-dd0f-5c8b-adcc-89ad94394e1d",
+      "name": "Qarayazı Qoruğu",
+      "name_normalized": "qarayazi qorugu",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.31667,
+        "lon": 45.16667
+      },
+      "area_id": "43959365-1f7e-50d0-aa64-710298cab5bd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8144127726554871,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "24a7f5f1-322f-4ef4-b166-7c44c967c943",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

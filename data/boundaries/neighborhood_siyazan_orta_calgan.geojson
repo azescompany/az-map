@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "eb0bf647-fe8d-5c26-a25e-4e1a5d4b457f",
+      "properties": {
+        "id": "eb0bf647-fe8d-5c26-a25e-4e1a5d4b457f",
+        "name": "Orta Çalğan",
+        "type": "neighborhood",
+        "parent_id": "cac9becb-d9eb-5a5e-9340-cab7a24f3d70",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.9706112,
+              41.0837754
+            ],
+            [
+              48.9710319,
+              41.0843005
+            ],
+            [
+              48.9696665,
+              41.0849555
+            ],
+            [
+              48.9671856,
+              41.0833411
+            ],
+            [
+              48.971955,
+              41.0801276
+            ],
+            [
+              48.974652,
+              41.0822471
+            ],
+            [
+              48.9734244,
+              41.0833624
+            ],
+            [
+              48.9715159,
+              41.0829982
+            ],
+            [
+              48.9706112,
+              41.0837754
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

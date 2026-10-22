@@ -1,0 +1,270 @@
+{
+  "area_id": "594849ce-b1ad-58d8-934c-4de1524c704a",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "f692352e-4666-5862-90d5-855dae3f1eee",
+      "name": "Damcılı Bulağı",
+      "name_normalized": "damcili bulagi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.14168909,
+        "lon": 45.23244445
+      },
+      "area_id": "594849ce-b1ad-58d8-934c-4de1524c704a",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5705611109733582,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b23fcc5b-e429-4ee2-8a69-81d37bc09cfd",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "5d119847-9117-596d-86b2-19949bb9b322",
+      "name": "Yokhary-Salakhly",
+      "name_normalized": "yokhary salakhly",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.24347,
+        "lon": 45.26685
+      },
+      "area_id": "594849ce-b1ad-58d8-934c-4de1524c704a",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.786430299282074,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "fc461ffd-2c0f-4725-94f9-5b72b999996e",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "78060658-bbb1-5845-9722-7d8da6323303",
+      "name": "Semed Vurgunun Poeziya Evi",
+      "name_normalized": "semed vurgunun poeziya evi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 41.2419,
+        "lon": 45.26572
+      },
+      "area_id": "594849ce-b1ad-58d8-934c-4de1524c704a",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7669462561607361,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "673dbbe9-b479-4ea6-bd86-4ea23b546ea2",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "1e8f8ea7-b74e-503b-8035-9d3b5dd52f6e",
+      "name": "Saint Sarkis Monastery of Gag",
+      "name_normalized": "saint sarkis monastery of gag",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.1414,
+        "lon": 45.2661
+      },
+      "area_id": "594849ce-b1ad-58d8-934c-4de1524c704a",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8037704825401306,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "240d5f78-acca-432c-8b99-2915c6ebaefb",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "6c66f9a2-f869-5faa-8d7f-fd81f3bf276a",
+      "name": "Qazax Heyder Parki",
+      "name_normalized": "qazax heyder parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.0897527762,
+        "lon": 45.346577845139
+      },
+      "area_id": "594849ce-b1ad-58d8-934c-4de1524c704a",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7282174825668335,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "dc7f28ee-9cf0-4bc0-9d3a-3286697f5ff4",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "3623ec8e-903a-5549-bfdc-6a31d0fff820",
+      "name": "Heydar Aliyev Parki",
+      "name_normalized": "heydar aliyev parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.09002593,
+        "lon": 45.34722777
+      },
+      "area_id": "594849ce-b1ad-58d8-934c-4de1524c704a",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6100803017616272,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "fa55d9bc-6076-4649-acbf-69cfd09fe63a",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "5f9736ac-fc1d-54c3-adac-395f47aa2f70",
+      "name": "DƏNİZ      KİTab Evİ",
+      "name_normalized": "deni z ki tab evi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.090543157116,
+        "lon": 45.361196994781
+      },
+      "area_id": "594849ce-b1ad-58d8-934c-4de1524c704a",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8200952410697937,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1ef01b61-3cdc-416e-9b22-851e42a03beb",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "12d2fa86-d36c-508d-8896-18b0a563d629",
+      "name": "Qazax",
+      "name_normalized": "qazax",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.09091387,
+        "lon": 45.36133168
+      },
+      "area_id": "594849ce-b1ad-58d8-934c-4de1524c704a",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.3511218726634979,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "82793b07-c4a4-4a0e-a322-461cf8f7ca37",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "25ea2bfa-e85a-591c-889b-6ddb7e97ed17",
+      "name": "İncəlilər",
+      "name_normalized": "i nceliler",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.0933,
+        "lon": 45.3661
+      },
+      "area_id": "594849ce-b1ad-58d8-934c-4de1524c704a",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.41297072172164917,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6bd2c5b4-ce1f-4b41-bae4-1cebb1c4d3fc",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "b04aeb02-d6c5-5ef8-a318-08c42c60a236",
+      "name": "Stadsstadion Gazakh",
+      "name_normalized": "stadsstadion gazakh",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 41.09333333,
+        "lon": 45.36611111
+      },
+      "area_id": "594849ce-b1ad-58d8-934c-4de1524c704a",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8071949481964111,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5eb4f852-08a3-4209-b8b5-2845ddef5d75",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "c964caeb-c663-564b-accc-c16ab321d85e",
+      "name": "Mountains Göjäzän",
+      "name_normalized": "mountains goj z n",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.08801539,
+        "lon": 45.18393831
+      },
+      "area_id": "594849ce-b1ad-58d8-934c-4de1524c704a",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8055428266525269,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ab5a11fd-7be7-4e11-859a-a1fb03f1b0c8",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

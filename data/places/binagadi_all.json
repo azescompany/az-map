@@ -1,0 +1,4062 @@
+{
+  "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+  "rayon_key": "binagadi",
+  "places": [
+    {
+      "id": "879f16e1-860c-5234-b9db-7f3aea119340",
+      "name": "Binəqədi Cümə məscidi",
+      "name_normalized": "bineqedi cume mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.47543306,
+        "lon": 49.82210195
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5896199345588684,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9eaddba5-bad1-40dd-b116-ebe7a5de8815",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "60f548a8-f6df-5aea-8f49-0409e6659e0a",
+      "name": "Biləcəri",
+      "name_normalized": "bileceri",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.448936424876436,
+        "lon": 49.79710995347863
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.795775830745697,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "240a2a9b-d6ef-4b4e-969a-f3eeff24ea9b",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "773d250c-bd3b-5f73-8b5e-bd43c1867851",
+      "name": "Mushvigabad Mosque",
+      "name_normalized": "mushvigabad mosque",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.46412235,
+        "lon": 49.62551319
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.863469660282135,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "84fc9c9b-3c22-4438-b1f7-25a46f1f6fe7",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "9688a2df-8232-5dfe-b7a5-48403bbfeb39",
+      "name": "Binagadi Park Residence",
+      "name_normalized": "binagadi park residence",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.45946577,
+        "lon": 49.83650191
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5823467969894409,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9686fe1f-6b5d-4d9a-be6b-11b94bf5cbdd",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "d8555376-5961-5f37-8f3e-55bfbdcf7336",
+      "name": "Novxanı Kəndi",
+      "name_normalized": "novxani kendi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.468707850318026,
+        "lon": 49.841035203745406
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8075671195983887,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6cc9f673-2f3a-447e-8be5-7789b8b21453",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "3e226e86-d18b-56cc-ba56-4b2844cdb543",
+      "name": "Xocəsən",
+      "name_normalized": "xocesen",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.41293,
+        "lon": 49.76904
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7576318979263306,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ca57c5b7-5453-4436-9580-2956a62d7e89",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "47626ec6-7e52-52cf-a359-52531d3d82d3",
+      "name": "Portal Games",
+      "name_normalized": "portal games",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.41246425,
+        "lon": 49.84221332
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6426135301589966,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "bff5fd37-d6cf-4798-a0cb-c25214f04295",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "f0a81d88-b640-5dae-a376-2df35a0e3872",
+      "name": "Huntsman",
+      "name_normalized": "huntsman",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.413060979124,
+        "lon": 49.78795573574
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6202702522277832,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "938859ad-9bb1-46cc-8694-e725544bdde7",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "cf16d4cd-921b-5e10-a1c1-a95401d2a8b5",
+      "name": "Карл Маркс",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.414388,
+        "lon": 49.836401
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6101987361907959,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "923ef9da-1373-46b3-878b-c4e7991735b0",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "dd55c0e3-be42-5e32-b2b3-3c416eea71d4",
+      "name": "Dədə Qorqud Parkı",
+      "name_normalized": "dede qorqud parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.4148842,
+        "lon": 49.8261462
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7045286297798157,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "32a49e4b-0246-4969-934a-4c222f0412e2",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "eee426cd-5dae-5e07-9826-1235c7c54da3",
+      "name": "Naxçivani",
+      "name_normalized": "naxcivani",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.41511344,
+        "lon": 49.83726214
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.599574625492096,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9e6b65ab-5f5f-4abf-b3af-32d30ae5ce6b",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "334111a0-469a-5844-9746-34e0efd06095",
+      "name": "Mehlede",
+      "name_normalized": "mehlede",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.415555307495,
+        "lon": 49.850000971951
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5477892756462097,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a65f046f-f2f9-4a04-807a-91795d2b015e",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "883b2331-1636-50c1-a7e6-fd2abff94cc9",
+      "name": "Home",
+      "name_normalized": "home",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.4155,
+        "lon": 49.84550152
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.0458684042096138,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5fafe388-74ad-454e-ba67-8138350efca4",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "13e9e478-97a5-5c90-b495-d08c0d417d4c",
+      "name": "Leyla's Palace",
+      "name_normalized": "leyla s palace",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.415817,
+        "lon": 49.844913
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.27269330620765686,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "29284b72-227e-4470-9f4d-ecb23790371c",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "642a758c-d223-5505-b55b-6e00129b51d5",
+      "name": "Akif dayının çayxanası",
+      "name_normalized": "akif dayinin cayxanasi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.416426,
+        "lon": 49.842207
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.32043910026550293,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d3cd5394-4fed-4805-b8cb-77e7f3a485d7",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "2ba03fbd-c813-5e47-9332-1473404a2c08",
+      "name": "9 nomreli bpi",
+      "name_normalized": "9 nomreli bpi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.416008,
+        "lon": 49.853011
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.31496262550354004,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5a5918b7-f86e-471e-bed0-fb68b53f9eae",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "3150b0df-3675-5b79-a12f-b911877c335d",
+      "name": "Ататюрк Проспект",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.4167765,
+        "lon": 49.8464125
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7062233090400696,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "00364afe-b961-4d97-9f3e-d611949c8003",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "605aefe7-d9c1-56e9-be0c-4f8569badc94",
+      "name": "Atatürk prospekti, 221-235",
+      "name_normalized": "ataturk prospekti 221 235",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.41651798,
+        "lon": 49.84566821
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.4409305155277252,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7c426888-70dc-4eef-a0f1-0e5ad8392f30",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "7026877b-f34c-5bb5-ac86-9f4d4ed67831",
+      "name": "\"Azfar Group\"idman Kompleksi.",
+      "name_normalized": "azfar group idman kompleksi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.41538,
+        "lon": 49.80391
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8029608726501465,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7c623254-9add-4165-a924-5be663af494b",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "1f88e55e-40c2-5a4d-8c18-feead2b9d91a",
+      "name": "Mir Celal parkı",
+      "name_normalized": "mir celal parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.41496866315792,
+        "lon": 49.80540824736841
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.891704261302948,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c2ab05cb-c1f1-4e2d-a7be-4a99e7f6314d",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "2a57b2e6-8315-57cb-9be9-0d58746f2d1d",
+      "name": "Xocahesenmescidi",
+      "name_normalized": "xocahesenmescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.41324580011264,
+        "lon": 49.77213066234455
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7798851132392883,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3288c179-b483-4471-9bf0-6eb4cd54ae2c",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "b9d9b8f0-5b6d-51d6-a52e-a7f01cd745b2",
+      "name": "Azfar Stadium 9 mkr",
+      "name_normalized": "azfar stadium 9 mkr",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.41806836,
+        "lon": 49.80981598
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5964202880859375,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f85f2cba-d12c-4575-a60f-db94a8c2cd8a",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "fa917f69-5c09-5e09-8b90-1ab6d484b1c8",
+      "name": "Daşlıq stadion",
+      "name_normalized": "dasliq stadion",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.41791874,
+        "lon": 49.80912262
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6016157269477844,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5aef15a6-aae9-4722-8ef2-a70f8b38bf42",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "1b19e33c-3972-593c-a10c-9a272ed1abe7",
+      "name": "Baku International Bus Terminal",
+      "name_normalized": "baku international bus terminal",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.41760116706392,
+        "lon": 49.798468269477155
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7978251576423645,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a5f3ffe8-7359-49c8-a53c-6f1929b17364",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "afc29d58-1a85-500d-9d78-0deb80a5549e",
+      "name": "Corce Enesku Parkı",
+      "name_normalized": "corce enesku parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.41749872,
+        "lon": 49.83691586
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8213504552841187,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4a616d09-e8d3-43d3-841b-d32563d0b4b6",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "283a9576-af05-51dc-b3f6-a89e8a0ed1e3",
+      "name": "Юсиш новый дом",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.41740579,
+        "lon": 49.84349911
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.49860283732414246,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "cf430a95-af2c-4df8-8fa8-6b803926bc45",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "c8c34602-d245-5e7e-915e-483df387ef0c",
+      "name": "My home",
+      "name_normalized": "my home",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.41789766,
+        "lon": 49.84297615
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.04131994768977165,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a23b70ef-8c70-4145-9bab-f5d19c5ccd4c",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "0a28b66c-3c29-5722-8adb-c6c405869888",
+      "name": "CABANGA",
+      "name_normalized": "cabanga",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.41819,
+        "lon": 49.84577
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5204331874847412,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "853f246a-0f97-4e52-bad6-563c9979489d",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "a0238c8f-7dea-54b4-a9e6-f98ed526f4f2",
+      "name": "Naxçıvani residence  ",
+      "name_normalized": "naxcivani residence",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.41861,
+        "lon": 49.85276
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7086063623428345,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d728a7a0-f13d-45bb-a323-669544f9885a",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "4bf07242-a564-5ee2-a174-e7a0eae3008f",
+      "name": "Pitomnik",
+      "name_normalized": "pitomnik",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.418801817871,
+        "lon": 49.823164716144
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8794203996658325,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c49c532b-2642-4c72-8669-abbfb66df8f1",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "977d6f7c-c36a-55da-b3d4-53dcde77361c",
+      "name": "Imam Ali Mosque",
+      "name_normalized": "imam ali mosque",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.419048,
+        "lon": 49.825838
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8735809326171875,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1c0e3608-f17a-4ea7-97d0-2af655108843",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "3c71b411-d5e0-5643-b640-d8749dc9b85b",
+      "name": "Huseynoglu Residence",
+      "name_normalized": "huseynoglu residence",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.41995220596695,
+        "lon": 49.84317282756099
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7660596966743469,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "fd602ca9-f492-47bc-b04d-01a6b953811b",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "aabcc13b-bfc4-5d2a-a6fe-32176b3f3d37",
+      "name": "Baki Evleri",
+      "name_normalized": "baki evleri",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.42034029,
+        "lon": 49.85057972
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6172463893890381,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a32b41eb-73a4-4954-83f5-5b85e5c33fa4",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "3d157130-b0c9-50cf-b2d4-8f655a230dc0",
+      "name": "İdman və Sağlamlıq məkanı 8ci mikrorayon",
+      "name_normalized": "i dman ve saglamliq mekani 8ci mikrorayon",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.42089,
+        "lon": 49.8412
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6050239205360413,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "90d0c082-a2f9-4826-8800-d9852eec239c",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "bd5cfbed-c285-549d-8942-c848fff19ecd",
+      "name": "Jeet Kune Do Centre of Azerbaijan",
+      "name_normalized": "jeet kune do centre of azerbaijan",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.42062,
+        "lon": 49.83636
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6011463403701782,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2c8d443e-9ac3-4917-b9f5-bc3ae3600613",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "4f25e0e1-d9f3-50ea-8277-f79e30b42946",
+      "name": "Dendra Park",
+      "name_normalized": "dendra park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.42057,
+        "lon": 49.82318
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5845223665237427,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a127af8e-d4a4-415f-a0c9-c97ad8c8f7df",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "a9fa9133-29ce-5e5c-b717-7492cd6cd860",
+      "name": "Premyer liga lounge",
+      "name_normalized": "premyer liga lounge",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.421013461474,
+        "lon": 49.812853932381
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5894718170166016,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "330a5081-1cc6-4239-be0f-6811a66e9d60",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "ae1b14e8-af1d-5a17-a8a3-2eb6b25681ef",
+      "name": "Paradise club",
+      "name_normalized": "paradise club",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.421964456661,
+        "lon": 49.836189724517
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5799877643585205,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "fb03e26b-d7d7-4ee4-81c1-8b85ce92ef59",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "7bc0926b-2c58-539b-9c8f-439c5e1b9436",
+      "name": "faiq yusifov 106",
+      "name_normalized": "faiq yusifov 106",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.42204,
+        "lon": 49.83447
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.49383097887039185,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ec34a7b9-65f8-4de8-9d11-7593b75ba2f0",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "7933397a-9232-5a07-adbd-6e32303fa565",
+      "name": "Hz. Əli",
+      "name_normalized": "hz eli",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.421932,
+        "lon": 49.831005
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6510010957717896,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0dc57448-6b1e-438e-88f3-e3288171d0f2",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "e8f01cf5-bc99-5a1a-98e8-31b69b654908",
+      "name": "9 mikrarayon",
+      "name_normalized": "9 mikrarayon",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.422045651271,
+        "lon": 49.819000626451
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.43256676197052,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b2bbd521-ba7a-48f0-a997-3509cb459418",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "4200269d-6196-5751-bd31-30d0ab3a4764",
+      "name": "Zarifa Əliyeva Memorial Park",
+      "name_normalized": "zarifa eliyeva memorial park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.42280331,
+        "lon": 49.82052574
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9157359004020691,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8a685824-d23e-469f-a99f-3b553bf949ce",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "7d58e22e-8901-5dc8-9ffe-bc222ef594ec",
+      "name": "Zeytunluq",
+      "name_normalized": "zeytunluq",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.42349855385,
+        "lon": 49.819269691805
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5319380760192871,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f786e1e8-86fc-4e1f-9dae-b2779efc6c3b",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "680ab105-003c-5a33-b41a-260656339340",
+      "name": "Mehdiyye",
+      "name_normalized": "mehdiyye",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.42418629,
+        "lon": 49.84468082
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.26637008786201477,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "dfafd18a-7b4b-4d51-9a9e-a9e351ba4fba",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "08461889-73d2-55d0-bca9-8a6273ff5c69",
+      "name": "Dernegul Eylence Merkezi",
+      "name_normalized": "dernegul eylence merkezi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.42419712364488,
+        "lon": 49.854911054698746
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5032516121864319,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8a8bc280-7727-48a8-a841-e7d2de7b2b91",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "5649d5e7-e520-5dd8-893e-eff38321bece",
+      "name": "UrEk Bowdu Heyat Xowdu",
+      "name_normalized": "urek bowdu heyat xowdu",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.42463,
+        "lon": 49.83659
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.26018816232681274,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b992eeac-dd04-4a39-8488-a373a44bda6d",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "7b606919-cf1b-53ca-85bc-a32232515518",
+      "name": "Denizkenari Milli Park",
+      "name_normalized": "denizkenari milli park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.438673151695,
+        "lon": 49.754006518097
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7122247815132141,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ce392c09-a624-454f-8afd-8fadc6148a93",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "c81a54f5-4b44-5c97-a12d-19ff567b256d",
+      "name": "20 Yanvar Parkı",
+      "name_normalized": "20 yanvar parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.43718768,
+        "lon": 49.80583458
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.446712464094162,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "dcc6b2f3-1f1f-40a0-88e7-9f4e0ba3b8de",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "97a2f5f4-3676-572a-95e4-c57c7006ba06",
+      "name": "Bileceri Park",
+      "name_normalized": "bileceri park",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.43758937513375,
+        "lon": 49.807821453892885
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5517069101333618,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "42d227db-c9fb-468c-aa89-4f29d5459097",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "0814f4b8-e867-5d40-adda-989fa479b884",
+      "name": "Oyde",
+      "name_normalized": "oyde",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.439145844769,
+        "lon": 49.813040683285
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6070468425750732,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "812c2b26-5668-4e13-8aff-e6556a3cb980",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "d6de4060-d5cf-520f-b5ca-43f922bd627c",
+      "name": "Baki Iceri Seher",
+      "name_normalized": "baki iceri seher",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.43742694998787,
+        "lon": 49.835645662888744
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8600192666053772,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "71da7148-5f04-4ae8-823d-86f2302b96cc",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "743e9b6b-cd2b-5794-a4c4-238e8d0c5f08",
+      "name": "Ramiz Aboyev Parkı",
+      "name_normalized": "ramiz aboyev parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.43555,
+        "lon": 49.84187
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6377781629562378,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a24306af-ee5d-4da0-b0ae-a3d34796aa1f",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "7f25f213-deef-5b6e-9fa5-48f97958ce68",
+      "name": "Дом",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.43119567,
+        "lon": 49.85015146
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.1497141718864441,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5929fb27-9402-456c-bbd7-395d46058200",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "0cb6a4c0-8cfd-5a3a-aaf2-ebb57ec6b1f6",
+      "name": "MTK Piramida",
+      "name_normalized": "mtk piramida",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.431519949999995,
+        "lon": 49.84777874999848
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7645504474639893,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "aaf4a394-9d22-4579-9e6b-ef9a872a2748",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "1d71ac93-7702-5eae-aec2-d6483c5dc715",
+      "name": "Vertex Park",
+      "name_normalized": "vertex park",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.42882446,
+        "lon": 49.84248963
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5274377465248108,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7fcf35a7-c8df-4eba-80f9-5c01cb7dc291",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "36af3886-7afb-53c3-9328-7e923ebfa2f5",
+      "name": "Luxe karaoke club",
+      "name_normalized": "luxe karaoke club",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.429536,
+        "lon": 49.849816
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5830734372138977,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f27460f5-6f65-4b91-9b94-890fc5251e49",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "970e0814-456f-5cfa-8c34-8feb8cc165c5",
+      "name": "Binagadi Heyder Parki",
+      "name_normalized": "binagadi heyder parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.4288739139,
+        "lon": 49.8386719063
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8092620372772217,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "10c8a73a-05af-45b1-aa18-42be8eaf0b7f",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "8f8c7818-dd42-5c31-a480-ecd99059f327",
+      "name": "Biləcəri İstirahət Mərkəzi",
+      "name_normalized": "bileceri i stirahet merkezi",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.430329,
+        "lon": 49.807437
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7875282168388367,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "25ebf812-e968-4d09-9bed-019ca2867ac4",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "b5a54850-9c5f-5efb-9189-9a525916bf71",
+      "name": "Biləcəri Məscidi",
+      "name_normalized": "bileceri mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.42969232,
+        "lon": 49.81682749
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7018330693244934,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d077b0e6-5358-4c27-a192-d9b31fce9313",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "8bdeb009-cb7f-59d9-9628-c1da1734093b",
+      "name": "Biləcəri Parkı",
+      "name_normalized": "bileceri parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.43176346,
+        "lon": 49.80616498
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7162487506866455,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "723d6a03-ebad-455f-b8c0-38091e0f66dc",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "7eed475f-be80-50a9-93e4-06186cd0c1f2",
+      "name": "Sulutəpə",
+      "name_normalized": "sulutepe",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.42995663,
+        "lon": 49.77267268
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.23429696261882782,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3f3d46d0-f7e5-44e2-9b7d-9f7d0abf1b68",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "1c2c29e5-bca0-5701-9c07-dd1c31007cc0",
+      "name": "Amirov's Apartment",
+      "name_normalized": "amirov s apartment",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.42592807,
+        "lon": 49.81799411
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.4394110441207886,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3dc59ded-68a5-4a8e-bbdf-1472505c551b",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "e6c07dc6-7334-5512-9290-0b6ae1d78444",
+      "name": "Qaradağ rayon MKS-nin 6 nömrəli kitabxana filialı",
+      "name_normalized": "qaradag rayon mks nin 6 nomreli kitabxana filiali",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.42689,
+        "lon": 49.83769
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.44557562470436096,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "fe7e2060-a27d-44e1-9d5b-cc6955f05ca0",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "cd9f9ff9-443b-5231-b9c8-2eb4c2f7a2a2",
+      "name": "Veten Fk",
+      "name_normalized": "veten fk",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.427432304357,
+        "lon": 49.853960802398
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5039079189300537,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "bca4e995-ea27-4fbc-aa4c-1f96dfd0504b",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "bdd5cb5e-c2da-5b83-a1b4-8b4bc3b63238",
+      "name": "Dərnəgül Parkı",
+      "name_normalized": "dernegul parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.426918,
+        "lon": 49.84639
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6484671235084534,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "cf97fc10-42ee-41ea-bcf2-7c77e74e535e",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "6c149bb7-6c04-5507-98b7-c9378e2c4d8c",
+      "name": "Talishlarin Binasi",
+      "name_normalized": "talishlarin binasi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.426838,
+        "lon": 49.854961
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.36965298652648926,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "68735e4f-df9e-41a9-b141-bd7e120b1ff3",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "57ed57da-d55d-5295-b088-bc9b245fd263",
+      "name": "Novxani Deniz Kenari",
+      "name_normalized": "novxani deniz kenari",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.42729150865,
+        "lon": 49.85430052059675
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8539714813232422,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ed2edea3-f3ad-4263-a7b7-2f55cf5ff83b",
+          "release": "2026-09-23.1",
+          "source_category": "beach"
+        }
+      ]
+    },
+    {
+      "id": "8cc35ca2-9a78-5e80-abce-111984d4cdad",
+      "name": "Biləsuvar Rayon Heydər Əliyev Mərkəzi",
+      "name_normalized": "bilesuvar rayon heyder eliyev merkezi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.426653589539,
+        "lon": 49.826919555664
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8882226943969727,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b6ab377d-5a11-4052-96b5-d218893b6821",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "a200835f-3ae2-5c9a-b7ac-f3d07eec00af",
+      "name": "\"Park (\"Azadlıq\" metro station)\"",
+      "name_normalized": "park azadliq metro station",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.425849,
+        "lon": 49.841363
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7269397377967834,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3c13308c-044b-4e3e-bd05-7412e8656bed",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "2cd42e61-aa7a-5946-80c0-6f916958b902",
+      "name": "707 Stadium",
+      "name_normalized": "707 stadium",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.42567363438258,
+        "lon": 49.847325095287395
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7595120668411255,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c99d9f2a-aeba-4938-8012-4eca255f0361",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "7204d9b3-c38e-5965-88f6-725484e2a185",
+      "name": "707 Stadion Azadliq",
+      "name_normalized": "707 stadion azadliq",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.42555589,
+        "lon": 49.84773963
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.795914888381958,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "816770f2-5c8b-474c-b479-e0d702a5a07a",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "0de17816-a6c7-543b-bba9-da1950d4aaee",
+      "name": "Yuxarı Sulutəpə",
+      "name_normalized": "yuxari sulutepe",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4317727,
+        "lon": 49.7589406
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/1877218732",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "24084d5b-3d21-50a3-b41a-a32a24f279d8",
+      "name": "Aşağı Sulutəpə",
+      "name_normalized": "asagi sulutepe",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4322093,
+        "lon": 49.7703672
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/1877218774",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "be330d8a-8e92-5249-b46f-62cdc9ad3f23",
+      "name": "Zərifə Əliyevanın heykəli",
+      "name_normalized": "zerife eliyevanin heykeli",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.4222435,
+        "lon": 49.8201149
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/2027518063",
+          "release": "azerbaijan-261020",
+          "source_category": "historic"
+        }
+      ]
+    },
+    {
+      "id": "ad8a5650-9f76-5f0c-88ce-3d63f4cfd354",
+      "name": "Məsçid",
+      "name_normalized": "mescid",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.4241376,
+        "lon": 49.844788
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3042960127",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "d257a791-7f02-5792-b451-386329b13c07",
+      "name": "Şuşa",
+      "name_normalized": "susa",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.4250768,
+        "lon": 49.843898
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3042961339",
+          "release": "azerbaijan-261020",
+          "source_category": "culture"
+        }
+      ]
+    },
+    {
+      "id": "c2d0edc1-2766-5776-b8e7-c0e5dcddd5b1",
+      "name": "Ayna Sultanova heykəli",
+      "name_normalized": "ayna sultanova heykeli",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.4135435,
+        "lon": 49.8461641
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3120160599",
+          "release": "azerbaijan-261020",
+          "source_category": "historic"
+        }
+      ]
+    },
+    {
+      "id": "42b87279-4314-59ba-89d8-b1ab9bd13955",
+      "name": "Binəqədi Məscidi",
+      "name_normalized": "bineqedi mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.4754752,
+        "lon": 49.8221563
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3412723760",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "d41037c6-d7c6-5dae-9c81-ac310ac285ab",
+      "name": "Məscid",
+      "name_normalized": "mescid",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.4639277,
+        "lon": 49.6322099
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3656277199",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "b99e9808-ec36-5a75-bd1c-d377dfcc7ea7",
+      "name": "Alov LTD MMC",
+      "name_normalized": "alov ltd mmc",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4407925,
+        "lon": 49.7884195
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3908330988",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "408bd1c7-f784-56e2-a008-1ab24776ac91",
+      "name": "Corce Enesku",
+      "name_normalized": "corce enesku",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.4174811,
+        "lon": 49.8374872
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4271007489",
+          "release": "azerbaijan-261020",
+          "source_category": "historic"
+        }
+      ]
+    },
+    {
+      "id": "45851de4-b994-5f37-b7aa-5af3079f91ee",
+      "name": "Dövlət Miqrasiya Xidməti",
+      "name_normalized": "dovlet miqrasiya xidmeti",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4280105,
+        "lon": 49.8398375
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4300127093",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "83836d99-1c3c-5b56-bf19-7331a0f31d5e",
+      "name": "İmam Əli Məscidi",
+      "name_normalized": "i mam eli mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.4187,
+        "lon": 49.8259766
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4330437491",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "09490a96-75be-5fa3-8300-1ac2e32dd438",
+      "name": "NorthWest",
+      "name_normalized": "northwest",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.4208844,
+        "lon": 49.8596358
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4342688189",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "125f84b7-c924-565b-bcef-41475b2fde5e",
+      "name": "20 sayli Notarius",
+      "name_normalized": "20 sayli notarius",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4214619,
+        "lon": 49.7991712
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4371094591",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "dea8b81d-fbc5-5786-900a-41a22e2ed05b",
+      "name": "Tml evi",
+      "name_normalized": "tml evi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4175454,
+        "lon": 49.8448191
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4686322395",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "d4946e96-df59-521d-a1f4-1bd30ff047a0",
+      "name": "Pasha Baba Qebr",
+      "name_normalized": "pasha baba qebr",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.4294182,
+        "lon": 49.7539524
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/5493233221",
+          "release": "azerbaijan-261020",
+          "source_category": "historic"
+        }
+      ]
+    },
+    {
+      "id": "72c6d12b-3a31-5d99-8e4e-80f20a113385",
+      "name": "Iceland Aysland Dondurma",
+      "name_normalized": "iceland aysland dondurma",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4325407,
+        "lon": 49.7749612
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/5550469822",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "7c11731a-306a-586e-8074-0c8b6ecdf289",
+      "name": "Heydər Mərasim Evi",
+      "name_normalized": "heyder merasim evi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.430035,
+        "lon": 49.8252793
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/6297515586",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "13216d48-b489-5363-a926-77ef8932906a",
+      "name": "Qapı darvaza çexi, sifarişlə",
+      "name_normalized": "qapi darvaza cexi sifarisle",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4428209,
+        "lon": 49.7857594
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/6447291287",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "bada9b8e-3034-512d-95c0-07fc33a736f6",
+      "name": "Tuğ usaq musiqi məktəbi",
+      "name_normalized": "tug usaq musiqi mektebi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.4650749,
+        "lon": 49.6250063
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/6475161086",
+          "release": "azerbaijan-261020",
+          "source_category": "culture"
+        }
+      ]
+    },
+    {
+      "id": "e748d12c-23f4-5640-962b-adff349882e7",
+      "name": "Sevil MMC",
+      "name_normalized": "sevil mmc",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4489128,
+        "lon": 49.6900999
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/8492074201",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "b143b16d-29f3-563e-885b-ef33e69ccddb",
+      "name": "Vorovski dairəsi",
+      "name_normalized": "vorovski dairesi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4214836,
+        "lon": 49.8372459
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9740293951",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "2fdda40d-8f25-5779-90d1-d5bbfccaa7c1",
+      "name": "Memorial Kompleksi \\ Dərnəgül",
+      "name_normalized": "memorial kompleksi dernegul",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.4258976,
+        "lon": 49.8566433
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10131092668",
+          "release": "azerbaijan-261020",
+          "source_category": "historic"
+        }
+      ]
+    },
+    {
+      "id": "d790298f-798e-5d4b-89fb-0150fef94fac",
+      "name": "Uşaq Kitabxanası",
+      "name_normalized": "usaq kitabxanasi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.4658702,
+        "lon": 49.8299865
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10268140631",
+          "release": "azerbaijan-261020",
+          "source_category": "culture"
+        }
+      ]
+    },
+    {
+      "id": "b0c7f10d-97b5-5bde-9ed6-620853f5a275",
+      "name": "Binəqədi Mərkəz",
+      "name_normalized": "bineqedi merkez",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4667415,
+        "lon": 49.8276745
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10268212444",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "51746aae-6ef0-5801-b70c-d18f2af1f2d4",
+      "name": "Binəqədi Neft Qaz İdarəsi",
+      "name_normalized": "bineqedi neft qaz i daresi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4650234,
+        "lon": 49.8284952
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10268386258",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "14325149-6470-515c-a727-9c651b1141b8",
+      "name": "Mərkəzi Mədəniyyət Evi",
+      "name_normalized": "merkezi medeniyyet evi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.4662732,
+        "lon": 49.8277093
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10268386287",
+          "release": "azerbaijan-261020",
+          "source_category": "culture"
+        }
+      ]
+    },
+    {
+      "id": "ac7adef0-3d78-5cac-9ee5-e0087875dbc4",
+      "name": "Mərkəzi Kitabxana",
+      "name_normalized": "merkezi kitabxana",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.4662426,
+        "lon": 49.8275699
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10268386288",
+          "release": "azerbaijan-261020",
+          "source_category": "culture"
+        }
+      ]
+    },
+    {
+      "id": "e49ca524-bd76-5796-9ff4-9f84ae4ee064",
+      "name": "Binəqədi Oil Neft Şirkəti",
+      "name_normalized": "bineqedi oil neft sirketi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4690576,
+        "lon": 49.8417024
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10268422235",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "aea2d23f-678f-55e4-a4ca-ce21a1fe7c85",
+      "name": "Şəhidlər Abidəsi",
+      "name_normalized": "sehidler abidesi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.4687071,
+        "lon": 49.8417816
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10268422236",
+          "release": "azerbaijan-261020",
+          "source_category": "historic"
+        }
+      ]
+    },
+    {
+      "id": "0ca1d34f-a5d7-5e10-86e4-20ff787f1ece",
+      "name": "Qaz İstismar Sahəsi 7",
+      "name_normalized": "qaz i stismar sahesi 7",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4700411,
+        "lon": 49.8262221
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10269913566",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "1a81cbbb-3c89-5be1-b6e2-8d118c2bbca0",
+      "name": "Binəqədi İcra Nümayəndəliyi",
+      "name_normalized": "bineqedi i cra numayendeliyi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4721652,
+        "lon": 49.8247147
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10269950203",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "618020e7-ff84-5cc9-9f91-795614ce2d3a",
+      "name": "Zəngəzur Hamamı",
+      "name_normalized": "zengezur hamami",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4507854,
+        "lon": 49.8435531
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10276526761",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "293357f6-6fe5-5d79-89f5-bde64bd13b17",
+      "name": "Torpaq Layihə Smeta Bürosu",
+      "name_normalized": "torpaq layihe smeta burosu",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4384348,
+        "lon": 49.8447789
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10276527037",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "ec29166b-3545-5742-b099-a1c7b8ec2d6f",
+      "name": "11 saylı Musiqi Məktəbi",
+      "name_normalized": "11 sayli musiqi mektebi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.4317181,
+        "lon": 49.8427767
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10278922352",
+          "release": "azerbaijan-261020",
+          "source_category": "culture"
+        }
+      ]
+    },
+    {
+      "id": "63d59895-b78e-5bf8-9e40-743bb4411e46",
+      "name": "Nur Kitab Evi",
+      "name_normalized": "nur kitab evi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.4707491,
+        "lon": 49.8257366
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10284983426",
+          "release": "azerbaijan-261020",
+          "source_category": "culture"
+        }
+      ]
+    },
+    {
+      "id": "ca164929-5b2f-5bea-9a9c-8c2748dc182b",
+      "name": "Binəqədi Bələdiyyəsi",
+      "name_normalized": "bineqedi belediyyesi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4656519,
+        "lon": 49.82737
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10285167964",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "e8cdeb1b-5d7f-55bb-b09b-fcaf729751f8",
+      "name": "20 Yanvar Abidəsi",
+      "name_normalized": "20 yanvar abidesi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.437215,
+        "lon": 49.8058547
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10288192670",
+          "release": "azerbaijan-261020",
+          "source_category": "historic"
+        }
+      ]
+    },
+    {
+      "id": "4b1f4e52-c2f0-5b70-bc7c-d700805c0b17",
+      "name": "1941-1945",
+      "name_normalized": "1941 1945",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.4363015,
+        "lon": 49.8145759
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10292075809",
+          "release": "azerbaijan-261020",
+          "source_category": "historic"
+        }
+      ]
+    },
+    {
+      "id": "a3c90e6c-23f8-548e-a811-d315d87834a8",
+      "name": "VBF Center",
+      "name_normalized": "vbf center",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4493597,
+        "lon": 49.8040657
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10299316044",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "a9b4bc7d-1ba3-525d-8d10-536264041e59",
+      "name": "Biləcəri Bələdiyyəsi",
+      "name_normalized": "bileceri belediyyesi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.437854,
+        "lon": 49.8091511
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10299354439",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "b886576e-66f2-5bdd-97b8-c03972ae0f5e",
+      "name": "6 saylı Uşaq Gənclər",
+      "name_normalized": "6 sayli usaq gencler",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.4360891,
+        "lon": 49.8000813
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10299354470",
+          "release": "azerbaijan-261020",
+          "source_category": "culture"
+        }
+      ]
+    },
+    {
+      "id": "87e3a5b3-fb84-54b1-a146-9109913a656e",
+      "name": "Dəmiryol İstismar İdarəsi",
+      "name_normalized": "demiryol i stismar i daresi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4355951,
+        "lon": 49.7989708
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10299354481",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "a2ad37ed-dcc5-5526-a288-0295e20d61fe",
+      "name": "2 saylı Müəsissə",
+      "name_normalized": "2 sayli muesisse",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4362974,
+        "lon": 49.796707
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10299354482",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "2aed85b9-dce2-574c-97d4-f3bfac18d2d3",
+      "name": "Biləcəri Yol Distansiyası 2",
+      "name_normalized": "bileceri yol distansiyasi 2",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4365362,
+        "lon": 49.7974151
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10299354488",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "0451315d-67d8-5de3-9b9e-e8b2d1e85c1f",
+      "name": "MKİS 113 Biləcəri",
+      "name_normalized": "mki s 113 bileceri",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4363382,
+        "lon": 49.7954008
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10299359588",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "b498ce01-308b-54ba-bc54-d61d999ba5ba",
+      "name": "Biləcəri İşarəvermə Kommunikasiya Distansiyası",
+      "name_normalized": "bileceri i sareverme kommunikasiya distansiyasi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4389023,
+        "lon": 49.7997299
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10299359601",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "abf1e3e7-3f5e-5878-b186-2b5ecda52c33",
+      "name": "MKİS 107 Biləcəri",
+      "name_normalized": "mki s 107 bileceri",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4400832,
+        "lon": 49.8108476
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10300930257",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "15f595ee-fa76-5acb-b190-eee917603a6b",
+      "name": "Məscid",
+      "name_normalized": "mescid",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.4418796,
+        "lon": 49.8308073
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10302993969",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "a96da1be-a584-5b04-a80a-5112b3d067f8",
+      "name": "Nihad Mebel",
+      "name_normalized": "nihad mebel",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.4361443,
+        "lon": 49.8116791
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10302993972",
+          "release": "azerbaijan-261020",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "b6b0fe00-6963-53c8-aa58-c109c9df5e4a",
+      "name": "Aristoktat Pub",
+      "name_normalized": "aristoktat pub",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.4361749,
+        "lon": 49.8115229
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10302993973",
+          "release": "azerbaijan-261020",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "31e9b717-0687-573e-8649-383b2b223589",
+      "name": "Körpü Kafe",
+      "name_normalized": "korpu kafe",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.4359616,
+        "lon": 49.8045619
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10302993981",
+          "release": "azerbaijan-261020",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "167321b6-4fe6-5af2-a5e8-aab574b11679",
+      "name": "Biləcəri Enerji Təchizat Satış İdarəsi",
+      "name_normalized": "bileceri enerji techizat satis i daresi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4367955,
+        "lon": 49.8033911
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10302993993",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "bb89f187-443b-5bbb-91bb-996ba7a34944",
+      "name": "Dayfon",
+      "name_normalized": "dayfon",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4406805,
+        "lon": 49.7742559
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10561650409",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "8e671a4f-a069-5088-b545-32d8e33c3685",
+      "name": "Be Forfard Car",
+      "name_normalized": "be forfard car",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4344498,
+        "lon": 49.7829312
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10992411952",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "30da0473-ac63-5469-81f4-4f17f28e2440",
+      "name": "MTrans MMC Texniki Xidmət",
+      "name_normalized": "mtrans mmc texniki xidmet",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4376488,
+        "lon": 49.7905044
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10992437818",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "e7745844-f3dd-554c-a6ad-6e93add36130",
+      "name": "İrəvan Dram Teatrı",
+      "name_normalized": "i revan dram teatri",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.4374814,
+        "lon": 49.8471326
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11002078435",
+          "release": "azerbaijan-261020",
+          "source_category": "culture"
+        }
+      ]
+    },
+    {
+      "id": "a0b0cf5b-7e94-5161-80cd-603dbdee5b3d",
+      "name": "Avtomobil Yolları Dövlət Agentliyi",
+      "name_normalized": "avtomobil yollari dovlet agentliyi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4227935,
+        "lon": 49.8027205
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11034662699",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "0ac5d3a4-a1dc-54d4-a7a4-71d8860cc196",
+      "name": "2 saylı Yol İstismar MMC",
+      "name_normalized": "2 sayli yol i stismar mmc",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4222381,
+        "lon": 49.8016664
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11034662700",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "87c42c73-ea53-5896-8d83-37526fc272e3",
+      "name": "Kombinat Biləcəri",
+      "name_normalized": "kombinat bileceri",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4284943,
+        "lon": 49.8038404
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11034693026",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "65f6bf03-2ef7-530e-95e9-dc70bddf5bdd",
+      "name": "Kabel Magestral Texniki Qovşağı",
+      "name_normalized": "kabel magestral texniki qovsagi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4237593,
+        "lon": 49.800548
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11034695033",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "eed49d11-e6e6-519d-9ef5-0961bf9d8c6d",
+      "name": "Mədəniyyət evi",
+      "name_normalized": "medeniyyet evi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.4659396,
+        "lon": 49.6259737
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11053908408",
+          "release": "azerbaijan-261020",
+          "source_category": "culture"
+        }
+      ]
+    },
+    {
+      "id": "277a33ad-8fb5-5e14-88e9-3c9b1adbc221",
+      "name": "Binəqədi Nümayəndəliyi",
+      "name_normalized": "bineqedi numayendeliyi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4639153,
+        "lon": 49.6412408
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11144336244",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "ab8aad9e-18c1-50e2-b259-4a6f59d9511f",
+      "name": "Milla Süd Zavodu",
+      "name_normalized": "milla sud zavodu",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.456095,
+        "lon": 49.6648939
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11144343346",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "47fafd5f-7da4-5fa6-85e2-4ea4e816ba0a",
+      "name": "İnvest Qrup MMC",
+      "name_normalized": "i nvest qrup mmc",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4503649,
+        "lon": 49.6854544
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11144492874",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "ce5cc962-2542-5e92-9240-3fd3f69a0378",
+      "name": "Debet Uniform Manufacture",
+      "name_normalized": "debet uniform manufacture",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4497006,
+        "lon": 49.6796367
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11144512909",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "7533852b-fd0e-594e-b042-17738228960d",
+      "name": "Hamam",
+      "name_normalized": "hamam",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4688311,
+        "lon": 49.6199857
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11144641411",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "ea4e94b7-1ee4-58b8-afc6-9238ed4120cc",
+      "name": "Mikayıl Müşfiq Abidəsi",
+      "name_normalized": "mikayil musfiq abidesi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.4660141,
+        "lon": 49.6264994
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11144641436",
+          "release": "azerbaijan-261020",
+          "source_category": "historic"
+        }
+      ]
+    },
+    {
+      "id": "0ccc8a1e-f176-5899-8496-b43689a84081",
+      "name": "Müşfiqabad Bələdiyyəsi",
+      "name_normalized": "musfiqabad belediyyesi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4655804,
+        "lon": 49.625511
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11144641462",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "834cdf0b-6a6b-5c8d-b7b7-0beb3c9719c5",
+      "name": "Müşfiqabad İcra Nümayəndəliyi",
+      "name_normalized": "musfiqabad i cra numayendeliyi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.465357,
+        "lon": 49.6253112
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11144641463",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "a8fdca1f-9be7-553c-9d1e-e7063b5bc7eb",
+      "name": "Seyid Mətləb Ağa",
+      "name_normalized": "seyid metleb aga",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.4376876,
+        "lon": 49.7211707
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11153634010",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "d91d1a03-74a2-5957-9318-69aafdf6023c",
+      "name": "Afsan Plastik Qablar Zavodu",
+      "name_normalized": "afsan plastik qablar zavodu",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4315303,
+        "lon": 49.7688402
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11161825286",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "6743a77e-3520-5506-953e-bdf01a2aa198",
+      "name": "Aqua Vita",
+      "name_normalized": "aqua vita",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.432057,
+        "lon": 49.7685492
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11161825293",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "22d4108d-0d9b-508a-a9de-277beeb05ecb",
+      "name": "Pepsi Cola",
+      "name_normalized": "pepsi cola",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4313874,
+        "lon": 49.7813326
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11161870714",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "7d41861d-6a69-5374-a31f-dfaa1a8e6eb0",
+      "name": "Lider Cola",
+      "name_normalized": "lider cola",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4308627,
+        "lon": 49.7833174
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11161870715",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "04f5a652-9e2b-53b2-adeb-331d8145d5df",
+      "name": "MDU Bakı ( MQU ) \\ Xocəsəm",
+      "name_normalized": "mdu baki mqu xocesem",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.4036091,
+        "lon": 49.7605723
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11165772812",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "cb672b0c-e623-56dd-9a47-c0f92c58dba6",
+      "name": "MDU - MQU",
+      "name_normalized": "mdu mqu",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4028763,
+        "lon": 49.7702035
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11165772903",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "7b78eaf7-ef3d-587e-9b76-18efbe3db0ec",
+      "name": "Xocəsən Məscid",
+      "name_normalized": "xocesen mescid",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.4130539,
+        "lon": 49.7718108
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11167805445",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "b1a16364-b5ff-55a1-bdca-92ae5250df64",
+      "name": "Elektrik Yarımstansiya",
+      "name_normalized": "elektrik yarimstansiya",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4325378,
+        "lon": 49.7586237
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11170191224",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "250b75bf-6e4c-52d0-ab56-66c66336af9f",
+      "name": "Bələdiyyə",
+      "name_normalized": "belediyye",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4324296,
+        "lon": 49.7668017
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11170224641",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "842f4a20-2308-58ae-8add-594778ec869c",
+      "name": "1941-1945 Xocasən",
+      "name_normalized": "1941 1945 xocasen",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.4126812,
+        "lon": 49.7724049
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11170224792",
+          "release": "azerbaijan-261020",
+          "source_category": "historic"
+        }
+      ]
+    },
+    {
+      "id": "52338b19-f0fd-5d96-95ae-fce30a231693",
+      "name": "Saleh MMC",
+      "name_normalized": "saleh mmc",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4180571,
+        "lon": 49.7737004
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11172557258",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "7970e1e8-3c4a-5a5d-8aa8-572339c75718",
+      "name": "Mədəniyyət Turizm Şöbəsi",
+      "name_normalized": "medeniyyet turizm sobesi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4120073,
+        "lon": 49.7711804
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11172587740",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "a9becb0b-24c9-51da-a047-f3856774b1d0",
+      "name": "Əhalinin Qeydiyyat Şöbəsi",
+      "name_normalized": "ehalinin qeydiyyat sobesi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.41146,
+        "lon": 49.7684231
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11172587741",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "3e170245-1b99-5e00-8159-50640f7510ed",
+      "name": "Şəhid Bulağı",
+      "name_normalized": "sehid bulagi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4320203,
+        "lon": 49.7729735
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11172587787",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "c86296d7-a114-503a-8ff9-d7f75218ae88",
+      "name": "Elektrik Yarımstansiya 80",
+      "name_normalized": "elektrik yarimstansiya 80",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4296295,
+        "lon": 49.78571
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11172695767",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "132b18a5-ca19-5338-a7cc-fb410c7d0ae7",
+      "name": "Səhiyyə Nazirliyinin Təchizat Depo Anbarı",
+      "name_normalized": "sehiyye nazirliyinin techizat depo anbari",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4280227,
+        "lon": 49.7851709
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11172695814",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "f6748724-a088-5bce-8582-14985df6b0f5",
+      "name": "Tamasha Food - Tamaşa MMC",
+      "name_normalized": "tamasha food tamasa mmc",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4289292,
+        "lon": 49.7843957
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11172695826",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "b122e8f3-168a-5da0-992f-4b28eaaf08bb",
+      "name": "Bilos MMC",
+      "name_normalized": "bilos mmc",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4216092,
+        "lon": 49.777371
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11172695841",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "9f7f32ab-3ade-5f43-a98d-79c7094e15e3",
+      "name": "Mega Texnika MMC",
+      "name_normalized": "mega texnika mmc",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4204269,
+        "lon": 49.7765931
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11172695855",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "6aa559be-a6c6-5eb4-86eb-8e7e2b8f1bc8",
+      "name": "Baba Türk Un Dəyirmanı",
+      "name_normalized": "baba turk un deyirmani",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4268711,
+        "lon": 49.7674361
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11175118225",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "0b683484-fd73-5250-b54b-f180f682ec94",
+      "name": "Motodrom Qoşa Arka",
+      "name_normalized": "motodrom qosa arka",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4190874,
+        "lon": 49.7949046
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11177444423",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "6b1142d3-88aa-52da-86a8-625a054a7b94",
+      "name": "UDT Texnika \\ Bakı Dairəvi Yolu",
+      "name_normalized": "udt texnika baki dairevi yolu",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.3983004,
+        "lon": 49.7886403
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11177599725",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "af220c43-54b7-5ac1-83b8-13585d64df34",
+      "name": "Şəhid Teymur Zeynalov bulağı",
+      "name_normalized": "sehid teymur zeynalov bulagi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.4206225,
+        "lon": 49.8267217
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/12288996929",
+          "release": "azerbaijan-261020",
+          "source_category": "historic"
+        }
+      ]
+    },
+    {
+      "id": "1e2e9e51-34fd-56ef-93d9-5fcdae7c568b",
+      "name": "Heydər Məscidi",
+      "name_normalized": "heyder mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.4291371,
+        "lon": 49.8242442
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/12766646790",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "c03b3c6f-e875-5de3-98c3-5684c5919cf5",
+      "name": "Yufis Doma",
+      "name_normalized": "yufis doma",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.4480904,
+        "lon": 49.8397777
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/12950186425",
+          "release": "azerbaijan-261020",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "cdc14a9d-8e0e-5901-93a6-cf2b88555511",
+      "name": "Qamət Abbasov Abidəsi",
+      "name_normalized": "qamet abbasov abidesi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.4398261,
+        "lon": 49.8092745
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/13519842371",
+          "release": "azerbaijan-261020",
+          "source_category": "historic"
+        }
+      ]
+    },
+    {
+      "id": "d2551cb5-0031-50cd-90ca-09409ea5dae2",
+      "name": "Həmzə Babaşovun heykəli",
+      "name_normalized": "hemze babasovun heykeli",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.4270833,
+        "lon": 49.8215899
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/14067098872",
+          "release": "azerbaijan-261020",
+          "source_category": "historic"
+        }
+      ]
+    }
+  ]
+}

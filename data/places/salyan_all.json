@@ -1,0 +1,174 @@
+{
+  "area_id": "bce4d2f6-bfcc-56e6-8571-97c50f3e74f2",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "95dd67fa-22bb-5320-a3ab-6e64fbf675e7",
+      "name": "Kür Qaraqașlı",
+      "name_normalized": "kur qaraqa li",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.58017,
+        "lon": 48.98032
+      },
+      "area_id": "bce4d2f6-bfcc-56e6-8571-97c50f3e74f2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8037704825401306,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e46222e3-f053-46cb-8d75-633d2bbc54e3",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "4acb0c5e-84b2-57c4-a19f-0e29ca1b787c",
+      "name": "Salyan",
+      "name_normalized": "salyan",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.59621,
+        "lon": 48.98479
+      },
+      "area_id": "bce4d2f6-bfcc-56e6-8571-97c50f3e74f2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7985273599624634,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1ec054e2-8e1f-4f61-86b5-2d4982a853aa",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "abc8bd8f-d10c-5e34-8677-d16b591f5944",
+      "name": "Hacıoğlu Park",
+      "name_normalized": "hacioglu park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 39.59599824,
+        "lon": 48.9040122
+      },
+      "area_id": "bce4d2f6-bfcc-56e6-8571-97c50f3e74f2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7924604415893555,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e3fab6fd-436b-4bb6-97b7-13efbebc247a",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "fffddb5a-c590-5335-890e-404a67b79ed8",
+      "name": "Qarabagli kendi",
+      "name_normalized": "qarabagli kendi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.757302,
+        "lon": 49.002067
+      },
+      "area_id": "bce4d2f6-bfcc-56e6-8571-97c50f3e74f2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5815988779067993,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7faa19c8-f83b-4c09-9384-9d488e687536",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "c00a04b7-1226-5d28-a2f0-1c568499e822",
+      "name": "Şirvan Milli Parkı",
+      "name_normalized": "sirvan milli parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 39.7517068,
+        "lon": 49.14363687
+      },
+      "area_id": "bce4d2f6-bfcc-56e6-8571-97c50f3e74f2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9727088212966919,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a535449e-9267-4b1b-8b2d-f94b6d4db178",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "754e63b6-936c-5fcc-952e-1a4f03cc5cac",
+      "name": "Cənub-Şərqi Şirvan Düzü",
+      "name_normalized": "cenub serqi sirvan duzu",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.71919,
+        "lon": 49.30051
+      },
+      "area_id": "bce4d2f6-bfcc-56e6-8571-97c50f3e74f2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8060638308525085,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "153d021e-5cf9-4662-8c6b-dc9cc1ba3f62",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "4d19915a-7a65-501e-b8b8-d4c29c9b8b95",
+      "name": "Gora Durovdag",
+      "name_normalized": "gora durovdag",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.51222962,
+        "lon": 49.10944392
+      },
+      "area_id": "bce4d2f6-bfcc-56e6-8571-97c50f3e74f2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8037704825401306,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "dfc52410-b1a1-4989-9cde-8e5ebe5d5f9f",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

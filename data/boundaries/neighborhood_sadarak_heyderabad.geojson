@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "2b82646b-78a4-5f0d-ac77-ab3d0d707661",
+      "properties": {
+        "id": "2b82646b-78a4-5f0d-ac77-ab3d0d707661",
+        "name": "Heydərabad",
+        "type": "neighborhood",
+        "parent_id": "99a0e3f5-b601-5aef-8438-5162dd895e3a",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              44.8521553,
+              39.7253903
+            ],
+            [
+              44.8444735,
+              39.7258854
+            ],
+            [
+              44.8414909,
+              39.7251758
+            ],
+            [
+              44.8490654,
+              39.7161973
+            ],
+            [
+              44.8520266,
+              39.7164283
+            ],
+            [
+              44.8521553,
+              39.7253903
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

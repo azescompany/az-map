@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "3d458a7f-4443-5e34-87fb-29994bd9670e",
+      "properties": {
+        "id": "3d458a7f-4443-5e34-87fb-29994bd9670e",
+        "name": "Köhnə Daxar",
+        "type": "neighborhood",
+        "parent_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.2914759,
+              40.8095489
+            ],
+            [
+              48.2954599,
+              40.8107233
+            ],
+            [
+              48.2941084,
+              40.8135192
+            ],
+            [
+              48.291403,
+              40.8128754
+            ],
+            [
+              48.2894075,
+              40.8116013
+            ],
+            [
+              48.2898618,
+              40.8098704
+            ],
+            [
+              48.2914759,
+              40.8095489
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

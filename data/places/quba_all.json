@@ -1,0 +1,942 @@
+{
+  "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "bf5ac4ab-5108-5953-93cf-1c5626e5bdbe",
+      "name": "Susay Çayı (vattendrag i Azerbajdzjan, Quba)",
+      "name_normalized": "susay cayi vattendrag i azerbajdzjan quba",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.43278,
+        "lon": 48.54889
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8144127726554871,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "837d190a-d10e-4268-ad40-14959dfb7388",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "d6ae7ea5-fae3-5b3f-bb75-94aa5956486f",
+      "name": "Qımılçay",
+      "name_normalized": "qimilcay",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.37668,
+        "lon": 48.5329
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7848480343818665,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3d45b1bb-f8f9-444f-91aa-f7f9700a5adf",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "187b9664-db26-51d4-a9de-a3d216c25f52",
+      "name": "Mirzəməmmədkənd",
+      "name_normalized": "mirzememmedkend",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.37869,
+        "lon": 48.52982
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8060638308525085,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "52d350eb-e008-4934-b80b-d1ec6ac2e417",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "2daed490-ae2d-5d08-a225-74a9b9929614",
+      "name": "Cume Mescidi",
+      "name_normalized": "cume mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 41.374436669921,
+        "lon": 48.524483798537
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5790980458259583,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4fc6bf2f-2bc8-49b2-a4b7-173a77eababe",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "eae226ca-a056-5e22-956a-b47b2ba9d19c",
+      "name": "Музей горских евреев",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 41.3737,
+        "lon": 48.5203
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8075503706932068,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c61d8cc0-c8fa-482b-82dc-63a8ebdc8339",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "255399da-e059-5650-ad06-ab8981e7bf05",
+      "name": "Quba Ağ Məscid",
+      "name_normalized": "quba ag mescid",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 41.36892792,
+        "lon": 48.5337571
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6173563003540039,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "68a97254-55d4-496e-9978-11e95faf45f4",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "57512d4e-89be-5901-95db-a38e9c5e1ad9",
+      "name": "Амсар (Азербайджан)",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.3388888889,
+        "lon": 48.5272222222
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7999033331871033,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d1255007-be25-4eb3-8e9b-518865ce99f8",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "35dbb976-bbee-5558-a5f9-df13dca77b75",
+      "name": "Quba Nerimanabad kendi",
+      "name_normalized": "quba nerimanabad kendi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.364270649645,
+        "lon": 48.569239911222
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7040768265724182,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "19b18f65-e0ba-4e5f-bbaa-4c5f2a5809c4",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "ed6372b0-53ff-5e27-aa97-9694dc3da234",
+      "name": "Heydər Parkı",
+      "name_normalized": "heyder parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.365185,
+        "lon": 48.554447
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.731092631816864,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "90e34494-3f92-4cd9-8b0b-c8ab848467d7",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "52c62aa3-c1bd-5c1c-b5f1-77f25b0d4025",
+      "name": "Quba Meydanı",
+      "name_normalized": "quba meydani",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.362269007692404,
+        "lon": 48.513038253702206
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8171897530555725,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f9dc3bdd-38e3-4cf2-8983-cc887f7a99e9",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "4440be8e-cfe9-5e6f-8538-7e811e0720d7",
+      "name": "Quba şəhər \"cümə\" məscidi",
+      "name_normalized": "quba seher cume mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 41.363414,
+        "lon": 48.511813
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.73984295129776,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "65c56f4e-80f3-4f5e-857f-bf06fcaf3d75",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "92acc1c9-4a7d-51ca-b17f-4c3c9e09c7d3",
+      "name": "Quba ' Nizami ' Istirahet Parki",
+      "name_normalized": "quba nizami istirahet parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.3632927150976,
+        "lon": 48.50511715177438
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8199616074562073,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f9281f36-b969-4606-a217-b106bb3ff4ce",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "b0575a05-f0a2-516a-876e-86363e075e71",
+      "name": "Guba mass grave",
+      "name_normalized": "guba mass grave",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.361188888889,
+        "lon": 48.491741666667
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7623228430747986,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8ad1e3c8-a525-4199-9f62-b50b9377c09f",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "11360b37-536e-5462-a745-cccd7fe69586",
+      "name": "Quba Mestdergah",
+      "name_normalized": "quba mestdergah",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.359562,
+        "lon": 48.508005
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5506314039230347,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "958de0b9-cbf5-45d8-8372-c709e5056e9c",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "817b0563-9926-5221-b8bb-24eb6f4c1c02",
+      "name": "Vələs Garden",
+      "name_normalized": "veles garden",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.30860972000493,
+        "lon": 48.37906784001966
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8832960724830627,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "57fd0666-16cd-4a4b-86de-b6c223195361",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "1456cfb8-f264-5d55-9455-0e2be4e067b2",
+      "name": "River Park Quba",
+      "name_normalized": "river park quba",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.33520234,
+        "lon": 48.39831468
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7293916344642639,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3ddc93b5-de4d-41fd-b3c1-29f6dd1a19f5",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "e0ce40bf-e301-5c97-bcac-6c254c6cecf5",
+      "name": "Dede Qorqud parki",
+      "name_normalized": "dede qorqud parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.370005108339,
+        "lon": 48.509307032111
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5229926705360413,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e6014d9d-4ede-4002-aed1-60b9ad8af0a5",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "d1a338fe-ddeb-5039-aa75-62f6bf9915e1",
+      "name": "Qımılqazma",
+      "name_normalized": "qimilqazma",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.286329629308,
+        "lon": 48.35868852618
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7016697525978088,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ff992e33-ccf2-4326-850d-48e64e53409f",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "26c51146-83fa-5b77-a113-31e5aa6aae66",
+      "name": "Кырыз",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.21377,
+        "lon": 48.24259
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7377278208732605,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "008f488d-d3a5-4963-b749-6b0f1f4f041e",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "c29a2cad-132a-5974-8437-ff147ccba068",
+      "name": "Xınalıq kəndi",
+      "name_normalized": "xinaliq kendi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.179019561327,
+        "lon": 48.126816148777
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6861588954925537,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "fdcfc311-f453-4112-8f8b-ab114047c012",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "d378c863-096c-5aab-9e1f-4d6586457902",
+      "name": "Elik,Kuba",
+      "name_normalized": "elik kuba",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.1775,
+        "lon": 48.2369444444
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7848480343818665,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1f39ccac-74cd-4ecb-bc7f-c2ae9a6e05d2",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "2ae11e90-64fe-59fb-be71-0798cf8906cb",
+      "name": "Qaradağ",
+      "name_normalized": "qaradag",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.0504,
+        "lon": 48.2194
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8036375045776367,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3824e0bd-df89-4a44-b5b4-9dffc211ba6e",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "270045e7-be42-5d1e-aaed-f9d8005025b4",
+      "name": "Şahbulaq",
+      "name_normalized": "sahbulaq",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.02354,
+        "lon": 48.50636
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7548577785491943,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "02dc74e5-6d4e-437c-9c8e-8856eae2cefe",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "47e6b4d4-2ec2-5bf9-9fd6-39d1a21f5aaa",
+      "name": "İstisu Bulaqı",
+      "name_normalized": "i stisu bulaqi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.00838,
+        "lon": 48.54036
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8116234540939331,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8e371b8d-6eae-4e7d-a05a-fb182027c1cc",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "c32f1a1f-6b8b-5975-a2bc-95ef50237ef3",
+      "name": "Dzhimi",
+      "name_normalized": "dzhimi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.05319,
+        "lon": 48.56511
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.73880934715271,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b061d810-b423-4fcb-8f57-2b9ee4602f2a",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "ae55d4af-9ceb-569e-b0d7-50302d1400ad",
+      "name": "Meşədibi Bulaq",
+      "name_normalized": "mesedibi bulaq",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.1129,
+        "lon": 48.46438
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.808411180973053,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9a2612fa-e297-437b-91a5-11dd8ea479d6",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "081c278c-a6e7-5f00-b44a-763d4a6b9754",
+      "name": "Qayadibi Bulaqı",
+      "name_normalized": "qayadibi bulaqi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.12206,
+        "lon": 48.42274
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.786430299282074,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b1889f1a-6c34-456c-87ee-9e1741169dfb",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "fa4fbe1c-5195-56f0-85de-806abffbd1ab",
+      "name": "Ağbulaq (källa i Azerbajdzjan, Quba, lat 41,13, long 48,48)",
+      "name_normalized": "agbulaq k lla i azerbajdzjan quba lat 41 13 long 48 48",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.13135,
+        "lon": 48.47804
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7666023373603821,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "dded0229-8ff6-4836-81ec-96d3f77353bd",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "d0735186-d7eb-5213-9712-08a9d4bf3127",
+      "name": "Buduq, Kuba",
+      "name_normalized": "buduq kuba",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.186111111111,
+        "lon": 48.368611111111
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8137412667274475,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6f8ce23b-6eab-45c0-8dcc-ab692887159b",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "f4789b5e-8ca4-593d-96b7-1f1576231ff3",
+      "name": "Tülər Dağı",
+      "name_normalized": "tuler dagi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.26399,
+        "lon": 48.47376
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8037704825401306,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b7cb8b38-4224-41cb-ba78-2029116d52d3",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "858874fb-5d36-5c76-a165-d8e3b741b22d",
+      "name": "Bağçalı",
+      "name_normalized": "bagcali",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.2333,
+        "lon": 48.5833
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7185516357421875,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "278b55c6-b4a8-410f-ba09-96d88617ee1c",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "1ca2f3bb-ea29-56b8-a24c-1bf2fcbde880",
+      "name": "Шудух",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.25206,
+        "lon": 48.51997
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7761825919151306,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "50adcf68-32a1-4066-9fe6-12eaedb75f3e",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "1fff02eb-d1d7-54f2-b021-3aa25dcc583a",
+      "name": "Gora Chilyagirdag",
+      "name_normalized": "gora chilyagirdag",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.2765,
+        "lon": 48.5569
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.808864951133728,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "563a2438-180a-4fa7-987e-278952b0b463",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "ac5df978-8bcf-500a-aeb3-9ce06847aa63",
+      "name": "Quba Tengealti",
+      "name_normalized": "quba tengealti",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.253032440653,
+        "lon": 48.628234863281
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6804510951042175,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1356bb92-0648-435a-9d4a-c8dd24638750",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "6f765bdc-6641-5735-b8e2-17dfe13b5394",
+      "name": "Güləzi",
+      "name_normalized": "gulezi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.15908,
+        "lon": 48.58038
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7633651494979858,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "dec3fb49-2476-4f29-94bc-12daef5cb7b5",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "1cb45e12-6ea9-5521-a5c9-1910d46efa3a",
+      "name": "Qoşabulaq",
+      "name_normalized": "qosabulaq",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.12592,
+        "lon": 48.53877
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7986155152320862,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8787d9c5-7ee5-4d30-a823-4cb527c39a41",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "b7bebf25-bb62-5d54-b622-9d6a32ba97e2",
+      "name": "Kükürdsu Bulaqı",
+      "name_normalized": "kukurdsu bulaqi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.1855,
+        "lon": 48.71782
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8091861009597778,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "51c4fab8-4b47-48ab-82a9-6dbe2eb4f123",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "a0fad117-2cab-5e1e-b337-bfd41ce5b238",
+      "name": "Халтан",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.974,
+        "lon": 48.68259
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7848480343818665,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "38fa2773-b67b-4e7b-81de-4d157d245a04",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "cfab8633-e72c-5d71-a2e3-06efc0c1f395",
+      "name": "Taxtakörpüçay",
+      "name_normalized": "taxtakorpucay",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.24132,
+        "lon": 49.09255
+      },
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7951884269714355,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "cb4ebd19-df2f-4c11-bbd5-de2d71e45022",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

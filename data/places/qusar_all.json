@@ -1,0 +1,366 @@
+{
+  "area_id": "6fec85b0-0967-5a32-8c49-4804119a40ae",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "09fa136b-505a-5ca7-a937-a03deb359b09",
+      "name": "Qusar Neriman Nerimanov adina park",
+      "name_normalized": "qusar neriman nerimanov adina park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.42484730003522,
+        "lon": 48.43105159994596
+      },
+      "area_id": "6fec85b0-0967-5a32-8c49-4804119a40ae",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7012780904769897,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "24ec17d3-5a2e-4192-b7ea-14660fdef1a1",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "11ffe16d-364d-5199-b54e-5614766c649b",
+      "name": "Nəriman Nərimanov Abidəsi",
+      "name_normalized": "neriman nerimanov abidesi",
+      "alt_names": [],
+      "category": "monument",
+      "coordinates": {
+        "lat": 41.42602,
+        "lon": 48.42985
+      },
+      "area_id": "6fec85b0-0967-5a32-8c49-4804119a40ae",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5541319251060486,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c215301b-abda-4613-bc6a-15d9a67bf548",
+          "release": "2026-09-23.1",
+          "source_category": "monument"
+        }
+      ]
+    },
+    {
+      "id": "a8cc457a-a776-5453-a471-b1d326cff309",
+      "name": "Qusar Narimanov Park",
+      "name_normalized": "qusar narimanov park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.42624396,
+        "lon": 48.43000738
+      },
+      "area_id": "6fec85b0-0967-5a32-8c49-4804119a40ae",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7534409165382385,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c474e505-151e-4b25-acaa-724079f4c2fa",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "aba34a63-47d1-5879-92b2-c630c723d4ea",
+      "name": "Qusar Tarix-Diyarşünaslıq Muzeyi",
+      "name_normalized": "qusar tarix diyarsunasliq muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 41.42642,
+        "lon": 48.43081
+      },
+      "area_id": "6fec85b0-0967-5a32-8c49-4804119a40ae",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7421922087669373,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8c425711-1e77-4527-aa53-96df25491739",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "6b95c171-79a2-5351-88c0-d5f7886c01e5",
+      "name": "Nәrimanov Parkı - Qusar",
+      "name_normalized": "n rimanov parki qusar",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.426873288138985,
+        "lon": 48.42988034644493
+      },
+      "area_id": "6fec85b0-0967-5a32-8c49-4804119a40ae",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7840203046798706,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "76b9a6a0-edfe-46fd-a315-a00697ec7d6f",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "08dab8e0-4800-58e8-8c99-baf5560bb652",
+      "name": "Кусары",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.4275,
+        "lon": 48.4302
+      },
+      "area_id": "6fec85b0-0967-5a32-8c49-4804119a40ae",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7039288282394409,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ab726d74-017e-41b1-a681-4622f8a2cb23",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "ec61cf01-1828-527d-8367-491ac6d25265",
+      "name": "Soevk@t Orduxanov Stadium",
+      "name_normalized": "soevk t orduxanov stadium",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 41.4219444444,
+        "lon": 48.4213888889
+      },
+      "area_id": "6fec85b0-0967-5a32-8c49-4804119a40ae",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7675105333328247,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "407a5e3a-1899-4977-b2a4-15685099cfb9",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "6650a06d-0a4b-5b5c-ad59-fe1345d895e7",
+      "name": "Uşaq Parkı",
+      "name_normalized": "usaq parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.4150057,
+        "lon": 48.4123502
+      },
+      "area_id": "6fec85b0-0967-5a32-8c49-4804119a40ae",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.803928017616272,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "889212e9-1696-47b4-8c9a-4c55c95e2bdc",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "e02d88bc-06cd-5151-91dd-2175db473bac",
+      "name": "Edem Garden",
+      "name_normalized": "edem garden",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.5338884157,
+        "lon": 48.536772166081
+      },
+      "area_id": "6fec85b0-0967-5a32-8c49-4804119a40ae",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8357887864112854,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c7351a10-3f80-4043-8eb1-bfc8bdc31934",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "2ae8c198-e30a-5bad-9079-15831fb4d42d",
+      "name": "Kanal Imam-Kuli",
+      "name_normalized": "kanal imam kuli",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.68333,
+        "lon": 48.46667
+      },
+      "area_id": "6fec85b0-0967-5a32-8c49-4804119a40ae",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8056168556213379,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3eb90b71-8f55-45c2-8ec0-c570d366687d",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "df93b4bd-9621-5ecb-9cc4-9809b3051609",
+      "name": "Keçelbaş Dağı",
+      "name_normalized": "kecelbas dagi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.3079,
+        "lon": 48.03798
+      },
+      "area_id": "6fec85b0-0967-5a32-8c49-4804119a40ae",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8116234540939331,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "dd0adf1b-39ed-44b8-8041-a7fcdfe74aac",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "788bf30f-f2ba-537a-a929-ca8d7719d4e9",
+      "name": "Mausoleum of Sheikh Juneyd",
+      "name_normalized": "mausoleum of sheikh juneyd",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 41.50549541,
+        "lon": 48.2485885
+      },
+      "area_id": "6fec85b0-0967-5a32-8c49-4804119a40ae",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.49685731530189514,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6836384f-00b2-4782-a16b-1897e9221fbc",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "39581445-72ea-5c23-a625-b8c8b257a687",
+      "name": "Shakh-Dyuz",
+      "name_normalized": "shakh dyuz",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.33304,
+        "lon": 48.13273
+      },
+      "area_id": "6fec85b0-0967-5a32-8c49-4804119a40ae",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.77814120054245,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9e7ca99e-28e0-47c2-8fff-0818cde0ebf9",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "e58299e0-2c11-5c1d-b973-7acb78e10849",
+      "name": "Mount Shahdagh",
+      "name_normalized": "mount shahdagh",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.2725,
+        "lon": 48.0044
+      },
+      "area_id": "6fec85b0-0967-5a32-8c49-4804119a40ae",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8245629072189331,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f4d48edf-b051-45a3-ada5-84e9aeaf88bb",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "1a4903fe-b0da-5052-9bb0-c5ffe0d4a2a5",
+      "name": "Zəfər Zirvəsi 4301m",
+      "name_normalized": "zefer zirvesi 4301m",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.208331564805,
+        "lon": 47.862539291382
+      },
+      "area_id": "6fec85b0-0967-5a32-8c49-4804119a40ae",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7047072052955627,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "75d2c39d-3373-4287-9b96-7fd1188598a8",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

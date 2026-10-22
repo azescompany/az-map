@@ -1,0 +1,246 @@
+{
+  "area_id": "4770b1b1-5aff-55d8-a01a-7f51601bf4cb",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "25a2abe6-f575-5e4b-9b8d-bcdcf1b575aa",
+      "name": "Şirvan şəhər Mərkəzləşdirilmiş Kitabxana Sistemi",
+      "name_normalized": "sirvan seher merkezlesdirilmis kitabxana sistemi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 39.95343,
+        "lon": 48.94601
+      },
+      "area_id": "4770b1b1-5aff-55d8-a01a-7f51601bf4cb",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.383419394493103,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "dc792b91-8269-42fe-8520-85950380b13b",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "4df12579-34bc-50b7-85c1-334a41df186b",
+      "name": "N.Nərimanov Park",
+      "name_normalized": "n nerimanov park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 39.95274305,
+        "lon": 48.93710752
+      },
+      "area_id": "4770b1b1-5aff-55d8-a01a-7f51601bf4cb",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.3758334815502167,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a0c5c609-0463-4090-b70e-5bb789d0d023",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "3e48209f-6a8d-57c1-ab08-e1efea374509",
+      "name": "Shirvan Merkezi Park",
+      "name_normalized": "shirvan merkezi park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 39.95546556945421,
+        "lon": 48.94466485160988
+      },
+      "area_id": "4770b1b1-5aff-55d8-a01a-7f51601bf4cb",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7617950439453125,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9987a398-fe50-4fc3-8d79-4a185d939510",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "919072fe-ea21-50a1-ae53-5b79b7a29f31",
+      "name": "Heydər Əliyev Parkı",
+      "name_normalized": "heyder eliyev parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 39.9552742652695,
+        "lon": 48.94520073668905
+      },
+      "area_id": "4770b1b1-5aff-55d8-a01a-7f51601bf4cb",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6388814449310303,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4ec07131-1e25-433e-beb6-5a4e9304996b",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "e46c2ca7-840d-5364-ae17-82f8ef6f57ac",
+      "name": "Haci Zeynalabdin Tagiyev Məscidi",
+      "name_normalized": "haci zeynalabdin tagiyev mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 39.94478145,
+        "lon": 48.93027849
+      },
+      "area_id": "4770b1b1-5aff-55d8-a01a-7f51601bf4cb",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6903084516525269,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c7f19c4a-d1c9-4903-bcf3-b4ca485b7d2a",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "a39f105e-bfdb-5f5c-bf17-0d1c1278c68c",
+      "name": "Baş Şirvan Kollektoru",
+      "name_normalized": "bas sirvan kollektoru",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.9419,
+        "lon": 48.93813
+      },
+      "area_id": "4770b1b1-5aff-55d8-a01a-7f51601bf4cb",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7909231781959534,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1813a6cd-8aff-4897-a21d-50ffea70de85",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "57845d37-aa97-599c-9cbd-7ef52e67de61",
+      "name": "LENiN PARK",
+      "name_normalized": "lenin park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 39.934489866795,
+        "lon": 48.910937633164
+      },
+      "area_id": "4770b1b1-5aff-55d8-a01a-7f51601bf4cb",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5117828249931335,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b839f870-a16a-479d-b995-8a96643a1d6a",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "7d34b942-95ff-5230-810b-7e694bc92631",
+      "name": "PARK MOOD",
+      "name_normalized": "park mood",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 39.957167,
+        "lon": 48.9463
+      },
+      "area_id": "4770b1b1-5aff-55d8-a01a-7f51601bf4cb",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.45907050371170044,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b896a0b9-ddf4-4e7a-a7c2-2fb9afa55101",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "80eb9679-67b0-5ae9-9db1-70b53eebcccc",
+      "name": "Şirvan Olimpiya İdman Kompleksi",
+      "name_normalized": "sirvan olimpiya i dman kompleksi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 39.970168254130016,
+        "lon": 48.93963370057543
+      },
+      "area_id": "4770b1b1-5aff-55d8-a01a-7f51601bf4cb",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7394471168518066,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "db4e2403-b748-4129-a565-3b040776bffa",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "1fd316b1-e716-5f4a-840c-36c1f16da13d",
+      "name": "Şirvan Gənclər evi",
+      "name_normalized": "sirvan gencler evi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.96858767,
+        "lon": 48.95012092
+      },
+      "area_id": "4770b1b1-5aff-55d8-a01a-7f51601bf4cb",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8501588106155396,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "de8279be-4faa-40bc-ad1e-77459e47a248",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

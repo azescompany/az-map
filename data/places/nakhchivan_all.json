@@ -1,0 +1,846 @@
+{
+  "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "acee59ac-74d0-5703-b50b-2a40eac2d7e4",
+      "name": "2-ci mikrarayon",
+      "name_normalized": "2 ci mikrarayon",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 39.1958568333581,
+        "lon": 45.403309666624146
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6582363843917847,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "dd1c3b2a-7491-47bd-8ac6-d490aaa09c01",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "165e42b0-575f-5f14-93bf-3aba03d8b560",
+      "name": "nahçıvan bağları",
+      "name_normalized": "nahcivan baglari",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 39.19124801298519,
+        "lon": 45.40780101989351
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7088654041290283,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "52a01823-357e-4646-b9a8-cb40f916dc53",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "c4ee70b9-2719-54d3-8da7-58cecff2391a",
+      "name": "Cehenem Cennet",
+      "name_normalized": "cehenem cennet",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.199634767418,
+        "lon": 45.416143061568
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.44173353910446167,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2e2cf8c9-75af-4c6d-a616-d416287691b1",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "ce3a562e-31c8-53f1-b8d9-06d948199a93",
+      "name": "Naxçıvan Qalası",
+      "name_normalized": "naxcivan qalasi",
+      "alt_names": [],
+      "category": "monument",
+      "coordinates": {
+        "lat": 39.1973341107,
+        "lon": 45.4131257189
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.887653112411499,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "fa0db486-5f32-478e-8364-c7849131e896",
+          "release": "2026-09-23.1",
+          "source_category": "monument"
+        }
+      ]
+    },
+    {
+      "id": "8181d9a0-e5fd-5c4c-9f78-55dce08e6358",
+      "name": "Noah’s Mausoleum",
+      "name_normalized": "noah s mausoleum",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.195071,
+        "lon": 45.411294
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8039969205856323,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1925ea74-a4f3-46b5-8148-cceaf8f23e83",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "4ba24761-e9f2-5cf7-93b1-46e4436c6f2e",
+      "name": "Heydər Bulağı",
+      "name_normalized": "heyder bulagi",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 39.203503,
+        "lon": 45.407688
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6294639706611633,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f9abe9d3-fb88-4d80-9649-fca6bdbcc6da",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "1322719a-965d-5657-87be-58ebc3d9a228",
+      "name": "Nahçivan Çarşı",
+      "name_normalized": "nahcivan carsi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 39.206333,
+        "lon": 45.408925
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7530621886253357,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ced0e499-18a6-4852-b3cc-d09a9e8647d1",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "48e16161-348f-503f-93a9-adf9987b8715",
+      "name": "Juma Mosque",
+      "name_normalized": "juma mosque",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 39.20794564,
+        "lon": 45.4075447
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.43347883224487305,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7b0a4769-fb91-4446-aaf3-984e95dcca8d",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "3a3b629d-ad91-5887-9941-334aa97568b0",
+      "name": "Yusif ibn Kuseyir Mausoleum",
+      "name_normalized": "yusif ibn kuseyir mausoleum",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.20188453,
+        "lon": 45.41388525
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6805481910705566,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f6550fd7-ba3d-4213-b9b3-74f3c4358cef",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "0426544c-8b6a-514b-8678-deccf9fef2f1",
+      "name": "Elit",
+      "name_normalized": "elit",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.20286043,
+        "lon": 45.42419709
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.4401584267616272,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "bd3899e9-d016-4728-a610-2cc9566471a5",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "a5d9093d-d59c-5fd1-a36e-9f0e79931148",
+      "name": "Qoçüstü məhəlləsi",
+      "name_normalized": "qocustu mehellesi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.20439146622573,
+        "lon": 45.42372679619749
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5932345390319824,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "469b0344-f8c3-4d30-be8a-58dd0cf23395",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "6d622f61-8c60-5362-8056-d7728be2b3c7",
+      "name": "naxcivan cahan ticaret merkezi",
+      "name_normalized": "naxcivan cahan ticaret merkezi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 39.205990350457,
+        "lon": 45.425283998984
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7479891180992126,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "dd2d8b23-bc2d-4e1f-bc1d-8530d0933d4f",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "930077c4-eb60-5f88-8c15-fc52669ad804",
+      "name": "Cahan Construction-Gençler Şehri Şantiyesi",
+      "name_normalized": "cahan construction gencler sehri santiyesi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.206125,
+        "lon": 45.422775
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5061120390892029,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "53673115-b554-43b5-a6a1-b75f26f8811f",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "3f5731aa-e04f-5952-8c3c-21036b9629d5",
+      "name": "Naxivannn",
+      "name_normalized": "naxivannn",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 39.21493,
+        "lon": 45.41422
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6695868968963623,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0c51d8a5-cd6c-46ff-8e8a-308a485e2432",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "e211747b-96e1-589b-9388-c8d97425fb01",
+      "name": "Nakhchivan City",
+      "name_normalized": "nakhchivan city",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.20938,
+        "lon": 45.41748
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8229334354400635,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2cb6f8c7-b555-40ff-a8cc-4a1ca6d1d6ce",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "7428cffb-5dd7-5907-a4b6-f30cfff9e12b",
+      "name": "Нахичеванская Автономная Республика",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.2088888889,
+        "lon": 45.4122222222
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7938610911369324,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "943390d0-c0aa-44f1-bbe4-519dde447c2a",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "95ae758a-d6a7-5fd4-8519-ee9b248cdd34",
+      "name": "Naxçıvan Olimpiya İdman Kompleksi",
+      "name_normalized": "naxcivan olimpiya i dman kompleksi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 39.2089,
+        "lon": 45.4122
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8142918348312378,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "87e24e33-1673-46d9-a42d-89ae1e362e8b",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "429050b2-f0bd-587b-9acd-af3f62c45671",
+      "name": "Նախիջեվան",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.2088888889,
+        "lon": 45.4122222222
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7909231781959534,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7bfdb626-8fbc-4f35-a45d-58ad66ee0fe0",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "fd96bc31-c063-5a5e-91ff-01ed98107ffc",
+      "name": "Http://az.wikipedia.org/wiki/Naxçıvan Muxtar Respublikası",
+      "name_normalized": "http az wikipedia org wiki naxcivan muxtar respublikasi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.2088888889,
+        "lon": 45.4122222222
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7511960864067078,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e3d960e1-3198-45c4-9975-8b393013bde2",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "2b921611-f798-505a-bfab-1cb49cdfd121",
+      "name": "Uşaq Gənclər İdman Məktəbi",
+      "name_normalized": "usaq gencler i dman mektebi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 39.2089,
+        "lon": 45.4122
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6028085350990295,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "81d86eec-d8b5-4862-94fc-90382882ea02",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "e6ac23a6-3422-558c-b790-d513c8816ac5",
+      "name": "Tebrız Cay Evı",
+      "name_normalized": "tebriz cay evi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 39.210231212973,
+        "lon": 45.409132340562
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.4611940085887909,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "67e1c85d-8aec-441c-b321-9a24554eb020",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "fbfe29c7-36b6-5728-a986-7207dc0b1319",
+      "name": "dede qorqud parki",
+      "name_normalized": "dede qorqud parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 39.20996,
+        "lon": 45.40846
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6908817887306213,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "dbba4cd0-3562-470d-8cd0-0b5c453b3890",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "83a18a4c-4115-5859-8a6f-a97bd389fd74",
+      "name": "Dostlugh Bilardo Salonu",
+      "name_normalized": "dostlugh bilardo salonu",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 39.212355781516,
+        "lon": 45.408079827439
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6928635835647583,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5039adc3-c80b-409e-82d7-079d5d476bfe",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "344f9ad8-a715-553e-a70b-78aca0059a8d",
+      "name": "Huseyn Cavid Məqbərəsi",
+      "name_normalized": "huseyn cavid meqberesi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.21473861,
+        "lon": 45.4119449
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7338359355926514,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1778e906-b6bc-4a7c-8345-188f45abf7f6",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "64bff13f-4859-52ac-a6c5-6e37d891e018",
+      "name": "Hüseyin Cavid Meqberesi",
+      "name_normalized": "huseyin cavid meqberesi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 39.215806,
+        "lon": 45.411315
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7068080902099609,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c272bc9e-27a8-402a-9a46-e79764eb05ee",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "e24d9d67-8c09-558b-991a-26355f559001",
+      "name": "Saat Kulesi",
+      "name_normalized": "saat kulesi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 39.214265,
+        "lon": 45.406808
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6740806102752686,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1ea99321-38f1-4f1b-8516-f2850c2cd830",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "c6bb2778-b462-5219-a4f6-bc5db4ce22f5",
+      "name": "Böyük bağ",
+      "name_normalized": "boyuk bag",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 39.21280923,
+        "lon": 45.4051464
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8244810104370117,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a8188b1b-b054-499f-9318-d4ac7163ab87",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "94f5fcbb-58d6-501e-b1cb-c4fec89b9407",
+      "name": "Naxcivan Park Avm",
+      "name_normalized": "naxcivan park avm",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 39.208920706930286,
+        "lon": 45.406539277350795
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8047418594360352,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ee0618ee-0b0b-4396-86df-4dd4c24d9731",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "40b2c267-0e03-5e77-9308-c43d93af2a1d",
+      "name": "Qızlar Bulağı",
+      "name_normalized": "qizlar bulagi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.20774825754497,
+        "lon": 45.405609018892584
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6318573951721191,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0baa5f17-7c99-4a2f-8922-b56c66e1c675",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "6d1d4c31-8de8-57ef-b64d-41d8834af011",
+      "name": "Мавзолей Момина Хатун",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.2050722222,
+        "lon": 45.4061583333
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8249112367630005,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "bd3fca42-1b46-4384-a685-086ac53cfa81",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "d9913f64-4c17-56d7-94a3-6f8785e4abd1",
+      "name": "Momine Khatun Mausoleum",
+      "name_normalized": "momine khatun mausoleum",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.204424,
+        "lon": 45.406451
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8083090782165527,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1c462d3f-5298-4f12-9864-e3bdab1c522b",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "9ba99ecc-6743-51a7-a47d-8ccae1c58afb",
+      "name": "Xan Sarayı Naxcıvan",
+      "name_normalized": "xan sarayi naxcivan",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 39.2046198607,
+        "lon": 45.4056979036
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7196792960166931,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7602cbd1-8382-4004-8862-3401e9d3551b",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "e2d74340-563f-52a4-b032-6d906c16057c",
+      "name": "Bayraq meydani",
+      "name_normalized": "bayraq meydani",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 39.22009321,
+        "lon": 45.40279646
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7912027835845947,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9ec1eaa8-5b69-4e4a-b81d-42916d27276b",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "73dc0d02-fcec-5281-819c-fa075d3d1e14",
+      "name": "Ushaq Sheherciyi",
+      "name_normalized": "ushaq sheherciyi",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 39.217889,
+        "lon": 45.411422
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.47436627745628357,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d183a6e5-070b-4992-b512-378939d95841",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "c81169a3-72af-5f2d-a2b1-81d3547755bc",
+      "name": "şehercik",
+      "name_normalized": "sehercik",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 39.218275,
+        "lon": 45.412558
+      },
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7113082408905029,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ea0966ff-7fdc-4853-a43a-6f24c3364c8b",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    }
+  ]
+}

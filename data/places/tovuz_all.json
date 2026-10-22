@@ -1,0 +1,294 @@
+{
+  "area_id": "f1b03783-185a-5fe7-ad0a-3b6ea4d9c633",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "bacef235-5ac2-5851-a952-00a55ed312a5",
+      "name": "Tovuz Heyder Park",
+      "name_normalized": "tovuz heyder park",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.9877455678,
+        "lon": 45.6450946323
+      },
+      "area_id": "f1b03783-185a-5fe7-ad0a-3b6ea4d9c633",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8505036234855652,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "aa098da6-047d-4dc9-9bf1-9663c7e05965",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "79a82ed0-ac69-5c4b-9189-c382ef1f924c",
+      "name": "Tovuz Qalası",
+      "name_normalized": "tovuz qalasi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.98560628,
+        "lon": 45.64249348
+      },
+      "area_id": "f1b03783-185a-5fe7-ad0a-3b6ea4d9c633",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.47458118200302124,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "73c2dc18-4c17-4e54-96d5-49286bfa49ec",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "fed7bd33-f339-54d6-98cb-d79eb98e7417",
+      "name": "Tovuz Olimpiya Kompleksi",
+      "name_normalized": "tovuz olimpiya kompleksi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.98615,
+        "lon": 45.63375
+      },
+      "area_id": "f1b03783-185a-5fe7-ad0a-3b6ea4d9c633",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9529430270195007,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8266e175-0575-4afe-933b-b11a870186db",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "460460d4-6d6a-5698-9b4f-58454ee91db9",
+      "name": "Abulbəyli",
+      "name_normalized": "abulbeyli",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.9833,
+        "lon": 45.6333
+      },
+      "area_id": "f1b03783-185a-5fe7-ad0a-3b6ea4d9c633",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7159649729728699,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "db67c042-cda9-44b8-96f2-633070c0f8e9",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "94d308c6-a4e9-5485-97a5-107bf5d563ea",
+      "name": "Tovuz City Stadium",
+      "name_normalized": "tovuz city stadium",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.99206426,
+        "lon": 45.62512887
+      },
+      "area_id": "f1b03783-185a-5fe7-ad0a-3b6ea4d9c633",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8082275986671448,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8576cc08-39f2-45fb-aa85-7bcda19bf564",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "6476823c-137e-5b6e-ae89-8792fe135548",
+      "name": "Tovuzçay",
+      "name_normalized": "tovuzcay",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.06396,
+        "lon": 45.79495
+      },
+      "area_id": "f1b03783-185a-5fe7-ad0a-3b6ea4d9c633",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7962563633918762,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f333d231-ca67-4584-997b-e87c3b5e47d9",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "96161d69-8a97-52dd-8aa5-e6ca2e4904a5",
+      "name": "Əyyublu",
+      "name_normalized": "eyyublu",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.922495948930475,
+        "lon": 45.82683336972714
+      },
+      "area_id": "f1b03783-185a-5fe7-ad0a-3b6ea4d9c633",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6704204678535461,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e08aa073-a387-42f4-9a34-642ed4a84252",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "a26da79c-b184-57dc-81d4-53aa5fa49d79",
+      "name": "Dönük Qırıqlı",
+      "name_normalized": "donuk qiriqli",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.9358,
+        "lon": 45.75449
+      },
+      "area_id": "f1b03783-185a-5fe7-ad0a-3b6ea4d9c633",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.809441089630127,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b91e2921-aef0-43b2-b082-10fe59a32255",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "c6090dc6-661a-571f-9757-00a273a8827c",
+      "name": "Aşağı Quşçu",
+      "name_normalized": "asagi quscu",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.94504210000001,
+        "lon": 45.671341000000005
+      },
+      "area_id": "f1b03783-185a-5fe7-ad0a-3b6ea4d9c633",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8144127726554871,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b725ce0e-70d6-42b2-979b-41064841fa64",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "cc65ac3e-213e-58e3-97f5-b2ec159c24b2",
+      "name": "Çatax",
+      "name_normalized": "catax",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.72622,
+        "lon": 45.55919
+      },
+      "area_id": "f1b03783-185a-5fe7-ad0a-3b6ea4d9c633",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7685045599937439,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "bab3dcc4-a1f3-414f-95bf-553267adbde4",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "de36aed5-31e7-58b5-bd9d-cc1cac057392",
+      "name": "Chirkinli",
+      "name_normalized": "chirkinli",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.6958333333,
+        "lon": 45.5677777778
+      },
+      "area_id": "f1b03783-185a-5fe7-ad0a-3b6ea4d9c633",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.767874538898468,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "77f84be7-e84d-4579-83e1-cf99f7f0ae1f",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "a8c31473-56d7-5d17-8df8-c11d2f9220b1",
+      "name": "Cheshmali",
+      "name_normalized": "cheshmali",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.69522,
+        "lon": 45.566
+      },
+      "area_id": "f1b03783-185a-5fe7-ad0a-3b6ea4d9c633",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7461826801300049,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ad94104d-d24a-4ef9-b064-b943a508b23d",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

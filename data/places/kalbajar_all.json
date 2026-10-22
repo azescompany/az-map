@@ -1,0 +1,54 @@
+{
+  "area_id": "8bc90433-a4ad-5e10-9bea-d0f1148ab298",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "c70d6de2-bfbe-51e1-ae9a-83486ae71629",
+      "name": "Mt. Istisu",
+      "name_normalized": "mt istisu",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.0553,
+        "lon": 46.1227
+      },
+      "area_id": "8bc90433-a4ad-5e10-9bea-d0f1148ab298",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8037704825401306,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "88ac0082-dadc-4942-b8c9-d5b1f67e4aa4",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "ece8fbf8-6619-5001-84fd-6c525322490c",
+      "name": "Zovasar Lerr",
+      "name_normalized": "zovasar lerr",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.1356,
+        "lon": 46.1241
+      },
+      "area_id": "8bc90433-a4ad-5e10-9bea-d0f1148ab298",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.808864951133728,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c878e7ca-7313-4569-8559-f2b87908fa4e",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "d4f77c59-1bfe-5686-bbe9-8acc13f3808d",
+      "properties": {
+        "id": "d4f77c59-1bfe-5686-bbe9-8acc13f3808d",
+        "name": "Qələbə meydanı",
+        "type": "neighborhood",
+        "parent_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              49.8503626,
+              40.4006538
+            ],
+            [
+              49.850387,
+              40.4003338
+            ],
+            [
+              49.8518184,
+              40.4005874
+            ],
+            [
+              49.8515652,
+              40.4011618
+            ],
+            [
+              49.8513758,
+              40.4011161
+            ],
+            [
+              49.8510244,
+              40.4012469
+            ],
+            [
+              49.8504729,
+              40.4011279
+            ],
+            [
+              49.8503626,
+              40.4006538
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

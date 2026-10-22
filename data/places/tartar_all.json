@@ -1,0 +1,102 @@
+{
+  "area_id": "9f564169-32e9-5a49-a8e0-beda6446010f",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "fa05fa7d-d239-5651-864d-76f5b147c589",
+      "name": "TERTER___and___AZERBAIJAN",
+      "name_normalized": "terter and azerbaijan",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.345,
+        "lon": 46.9289
+      },
+      "area_id": "9f564169-32e9-5a49-a8e0-beda6446010f",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.51241534948349,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7ab9b896-0da7-42c4-8c5a-75ce7e3d666a",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "f1543af9-ff13-5a97-92ce-16bcd3ea75c7",
+      "name": "Mirbǝşir Rayonu",
+      "name_normalized": "mirb sir rayonu",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.33333,
+        "lon": 47.0
+      },
+      "area_id": "9f564169-32e9-5a49-a8e0-beda6446010f",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8037704825401306,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b7739b09-5846-483e-8f0e-ad8b33877921",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "f026eee6-6696-5bd2-998b-73c513007381",
+      "name": "Muzur",
+      "name_normalized": "muzur",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.26382,
+        "lon": 47.01669
+      },
+      "area_id": "9f564169-32e9-5a49-a8e0-beda6446010f",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7416176795959473,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "03d030c4-f39c-4bce-bd11-89ed67222a2e",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "e87296d3-c755-5133-aeb2-28197cf31ef6",
+      "name": "Bayat Castle",
+      "name_normalized": "bayat castle",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.27,
+        "lon": 47.01
+      },
+      "area_id": "9f564169-32e9-5a49-a8e0-beda6446010f",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7055643200874329,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "70c1def9-4408-4eb0-ad19-984edcc96de5",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

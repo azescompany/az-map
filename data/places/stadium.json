@@ -1,5 +1,6 @@
 {
   "category": "stadium",
+  "scope": "baki_rayons",
   "places": [
     {
       "id": "9eb6a72c-f9b1-5fbf-815d-1f46922b2be9",
@@ -92,6 +93,1638 @@
         {
           "source": "overture",
           "source_id": "714141a2-b1d7-4acc-bc3e-6f8e9a517f22",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "be4e3129-a30b-585f-9c53-51b1bd48dd67",
+      "name": "ТСК Сирдаш",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.377023175,
+        "lon": 49.844104
+      },
+      "area_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5272220373153687,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "091a5d01-e8df-4026-b83a-dda16a72dc6c",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "cd06f984-7739-552e-a1ac-da0c97a53036",
+      "name": "Спортивно-концертный комплекс имени Гейдара Алиева",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.391845983645716,
+        "lon": 49.8250356348035
+      },
+      "area_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.825385332107544,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "62c4a27d-4dd1-4200-947d-e74ea3f567f5",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "01dd1078-8cf9-5b26-8abc-ab6e37160940",
+      "name": "Allianz arena",
+      "name_normalized": "allianz arena",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.38900514,
+        "lon": 49.82811749
+      },
+      "area_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9049785137176514,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b45b8e41-84cd-40f4-a368-d2c01a8ecb60",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "7354876f-76b1-5642-a802-44b53d44e9fe",
+      "name": "GamerRing Arena",
+      "name_normalized": "gamerring arena",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.38863,
+        "lon": 49.83476
+      },
+      "area_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8118917346000671,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "469a3cf9-3282-40f3-a0bf-10429b048d6a",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "ec5b3775-2bf8-5d5c-a370-e1e7cc2b7f5f",
+      "name": "Qayaya Dirmanma Kompleksi.",
+      "name_normalized": "qayaya dirmanma kompleksi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.379562548852,
+        "lon": 49.8336571455
+      },
+      "area_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.3893202245235443,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "93966fcc-2928-4dd6-949d-fcaa6820e97e",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "6e745cb5-088c-5e75-8af1-787da4cf3467",
+      "name": "Atilla Cudo Klub",
+      "name_normalized": "atilla cudo klub",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.37885089558168,
+        "lon": 49.84336111350456
+      },
+      "area_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.553090512752533,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "82df6e7c-64a4-4000-974c-fe7426b56501",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "7497ea5a-495f-55d5-876d-da417c2cb2b4",
+      "name": "Ипподром / Hippodrome",
+      "name_normalized": "hippodrome",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.409516,
+        "lon": 49.837989
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.4151779115200043,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0299df3c-7742-4609-a128-0d685e1233b9",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "be605964-bed7-51c6-ab3b-7e3845555c4d",
+      "name": "Real Madrid",
+      "name_normalized": "real madrid",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.3953,
+        "lon": 49.8822
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.4901410937309265,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "039b0f9f-4f01-4b7e-9b23-d50892fe12f4",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "bde4e2fa-5888-5c5a-a674-175ab15012bd",
+      "name": "Murad",
+      "name_normalized": "murad",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.397528207436,
+        "lon": 49.882973492178
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.4917600452899933,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2f11dccf-ebb3-4205-bd5c-cdc767edbdaa",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "8d46ae99-e282-5d66-8753-fffb1e098958",
+      "name": "Stadion",
+      "name_normalized": "stadion",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.40168947,
+        "lon": 49.86251792
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6115632057189941,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f95e73cf-f432-4a43-998a-d11d4e24cb87",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "4eadc38e-367a-5b6d-86f8-857e95a79e25",
+      "name": "AZFAR GROUP stadion",
+      "name_normalized": "azfar group stadion",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.401750702234,
+        "lon": 49.855688259157
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.725969135761261,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "17337510-6666-4463-b855-c74df9936f6e",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "203f1e94-e904-5fbf-a548-2bfeedfb58d9",
+      "name": "Ganclik",
+      "name_normalized": "ganclik",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.401425795317,
+        "lon": 49.857572932403
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7125051021575928,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1eb10336-fc7d-4a00-a7f4-c83a4595a8c5",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "99e0c4a9-95d8-5054-b8c9-5fc6c5398da3",
+      "name": "Beden Terbiyesi İdman Akademiyası",
+      "name_normalized": "beden terbiyesi i dman akademiyasi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.40105985682477,
+        "lon": 49.8567838097692
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.64557284116745,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3079cf12-982c-46f9-a660-e628a29149da",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "ca02ef85-6c71-5180-930a-25afd2e6748f",
+      "name": "Respublika olimpiya merkezi",
+      "name_normalized": "respublika olimpiya merkezi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.40038555185724,
+        "lon": 49.85468917755653
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9240183234214783,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a70b38a9-a41a-46f2-8722-4d3a23ff77af",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "79ef8ed7-6d21-5729-98e4-5112368c7c50",
+      "name": "Ganjlik Sports Center",
+      "name_normalized": "ganjlik sports center",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.3992,
+        "lon": 49.85511
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8860708475112915,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5006745d-18a6-41ff-8f7e-1f3f4271cf13",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "bedc3ee2-e289-530a-b838-28207ac700c7",
+      "name": "Спорткомплекс \"Гянджлик\"",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.39841437289,
+        "lon": 49.855881175754
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9827511405944824,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9f7e593c-33e4-445f-bb2d-63205768cc11",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "9171699c-d4f7-5d59-b293-95f551954138",
+      "name": "Республиканский стадион имени Тофика Бахрамова",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.397423430421505,
+        "lon": 49.852371117470874
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8391464352607727,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a29f2fa3-f50f-4a98-9df5-d2654a4ff681",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "63168039-eb78-56d1-a133-3bf7583d3d5c",
+      "name": "Vip Sport",
+      "name_normalized": "vip sport",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.396698939042,
+        "lon": 49.852266311646
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5304436087608337,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "cb5313b5-5962-4c9d-9418-787684e4205d",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "57295138-7dd1-5dd4-943b-42eb2fdcdb91",
+      "name": "Lokomotiv Idman Klubu",
+      "name_normalized": "lokomotiv idman klubu",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.38953,
+        "lon": 49.85313
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.33933326601982117,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e7e2c18c-00a5-435d-9fd6-2d80b01bef11",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "6beff62d-6747-5f60-b4bc-a5e04c98d61b",
+      "name": "Skif Stadionu",
+      "name_normalized": "skif stadionu",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.3997222,
+        "lon": 49.8569444
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3908310378",
+          "release": "azerbaijan-261020",
+          "source_category": "stadium"
+        }
+      ]
+    },
+    {
+      "id": "0164db0f-458d-5af0-9f70-09f97225367c",
+      "name": "sederek futbol klubu",
+      "name_normalized": "sederek futbol klubu",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.411406,
+        "lon": 49.937005
+      },
+      "area_id": "efdc6d2d-b895-5692-a7c4-724ef5302eda",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7061319947242737,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2976c9c3-b078-4ad0-ad29-c952305cd821",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "fcd939db-62a8-5303-a038-b0367b857e9c",
+      "name": "ASK Arena",
+      "name_normalized": "ask arena",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.41109865,
+        "lon": 49.89778118
+      },
+      "area_id": "efdc6d2d-b895-5692-a7c4-724ef5302eda",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6674392819404602,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "159c7dac-1d2a-4da6-bf14-d08a867df972",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "f2f5ee8b-f650-544a-b446-665232e74b09",
+      "name": "Шафа",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.4109862,
+        "lon": 49.897711
+      },
+      "area_id": "efdc6d2d-b895-5692-a7c4-724ef5302eda",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7972742319107056,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1f12d250-5998-4ed3-983e-267a019ed2fc",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "1fccb85e-3d63-5a4e-b280-0eeb6a4e7288",
+      "name": "Şəfa stadionu",
+      "name_normalized": "sefa stadionu",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.41068255,
+        "lon": 49.89738518
+      },
+      "area_id": "efdc6d2d-b895-5692-a7c4-724ef5302eda",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5857799649238586,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "91c1f164-9e21-4139-b247-dff95ff6045a",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "dac96800-8e10-5a63-a54a-5adbca6f9b6b",
+      "name": "Баксель Арена",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.40021912943665,
+        "lon": 49.94364351916547
+      },
+      "area_id": "efdc6d2d-b895-5692-a7c4-724ef5302eda",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.840363621711731,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4b2f46fb-7335-410a-9a5f-0838be28518a",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "9b8eb93e-cc73-5c19-b920-768f00fbc478",
+      "name": "Stadion",
+      "name_normalized": "stadion",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.4042817,
+        "lon": 49.95383457
+      },
+      "area_id": "efdc6d2d-b895-5692-a7c4-724ef5302eda",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.39771702885627747,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f857a8dd-4220-4da0-90f6-1d6f707ddde9",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "b036d337-034e-51c2-a171-c421a18e3eb1",
+      "name": "Stadium",
+      "name_normalized": "stadium",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.40674224,
+        "lon": 49.94252495
+      },
+      "area_id": "efdc6d2d-b895-5692-a7c4-724ef5302eda",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.3504523038864136,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d9d5a557-8fd6-4c6d-a573-ea83431fa4c7",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "9efb3a95-3fe8-58cf-a4f7-dbc14aa70679",
+      "name": "Kesle Stadion",
+      "name_normalized": "kesle stadion",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.39133598734143,
+        "lon": 49.8918306284159
+      },
+      "area_id": "efdc6d2d-b895-5692-a7c4-724ef5302eda",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7913054823875427,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "728ca268-6226-4915-86b3-0ddfe0ef30e2",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "f0a81d88-b640-5dae-a376-2df35a0e3872",
+      "name": "Huntsman",
+      "name_normalized": "huntsman",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.413060979124,
+        "lon": 49.78795573574
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6202702522277832,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "938859ad-9bb1-46cc-8694-e725544bdde7",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "7026877b-f34c-5bb5-ac86-9f4d4ed67831",
+      "name": "\"Azfar Group\"idman Kompleksi.",
+      "name_normalized": "azfar group idman kompleksi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.41538,
+        "lon": 49.80391
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8029608726501465,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7c623254-9add-4165-a924-5be663af494b",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "b9d9b8f0-5b6d-51d6-a52e-a7f01cd745b2",
+      "name": "Azfar Stadium 9 mkr",
+      "name_normalized": "azfar stadium 9 mkr",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.41806836,
+        "lon": 49.80981598
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5964202880859375,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f85f2cba-d12c-4575-a60f-db94a8c2cd8a",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "fa917f69-5c09-5e09-8b90-1ab6d484b1c8",
+      "name": "Daşlıq stadion",
+      "name_normalized": "dasliq stadion",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.41791874,
+        "lon": 49.80912262
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6016157269477844,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5aef15a6-aae9-4722-8ef2-a70f8b38bf42",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "3d157130-b0c9-50cf-b2d4-8f655a230dc0",
+      "name": "İdman və Sağlamlıq məkanı 8ci mikrorayon",
+      "name_normalized": "i dman ve saglamliq mekani 8ci mikrorayon",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.42089,
+        "lon": 49.8412
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6050239205360413,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "90d0c082-a2f9-4826-8800-d9852eec239c",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "bd5cfbed-c285-549d-8942-c848fff19ecd",
+      "name": "Jeet Kune Do Centre of Azerbaijan",
+      "name_normalized": "jeet kune do centre of azerbaijan",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.42062,
+        "lon": 49.83636
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6011463403701782,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2c8d443e-9ac3-4917-b9f5-bc3ae3600613",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "cd9f9ff9-443b-5231-b9c8-2eb4c2f7a2a2",
+      "name": "Veten Fk",
+      "name_normalized": "veten fk",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.427432304357,
+        "lon": 49.853960802398
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5039079189300537,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "bca4e995-ea27-4fbc-aa4c-1f96dfd0504b",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "2cd42e61-aa7a-5946-80c0-6f916958b902",
+      "name": "707 Stadium",
+      "name_normalized": "707 stadium",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.42567363438258,
+        "lon": 49.847325095287395
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7595120668411255,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c99d9f2a-aeba-4938-8012-4eca255f0361",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "7204d9b3-c38e-5965-88f6-725484e2a185",
+      "name": "707 Stadion Azadliq",
+      "name_normalized": "707 stadion azadliq",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.42555589,
+        "lon": 49.84773963
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.795914888381958,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "816770f2-5c8b-474c-b479-e0d702a5a07a",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "bdbdf3e0-488b-5fcb-aa6f-09c327116e95",
+      "name": "MOIK Stadium",
+      "name_normalized": "moik stadium",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.36028987,
+        "lon": 49.81973324
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7966488003730774,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7dd2197e-56e4-4ac2-9358-0190c14ad090",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "bf05c962-b441-5a92-b095-88171422b6ff",
+      "name": "Bakı İdman Sarayı",
+      "name_normalized": "baki i dman sarayi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.358718552007126,
+        "lon": 49.834971185829545
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8572044372558594,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a71c7856-2569-452d-929d-1a33edffe5be",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "c81a51e0-8adf-53fe-8bd9-82fc9631bf2e",
+      "name": "Baku Sports Hall",
+      "name_normalized": "baku sports hall",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.35872015,
+        "lon": 49.83487516
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.924908459186554,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "77a88aaa-1d18-4311-be3b-a892bfc250e8",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "490badab-f36b-5074-ae20-b9a247465b9b",
+      "name": "Khazar Sailing Club",
+      "name_normalized": "khazar sailing club",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.371589280596595,
+        "lon": 49.84929681513571
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5323999524116516,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d289d7fb-f740-426e-a036-c1daa76917fa",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "b2ed2043-a1f2-5ab3-a02f-aee21a8e0fb8",
+      "name": "Sports and Culture - Baku",
+      "name_normalized": "sports and culture baku",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.343966631766,
+        "lon": 49.841387507629
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.33932098746299744,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "65f4587d-e50d-4cf8-873b-5907d895b87d",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "a0df4293-3d86-5072-a844-27fe724d6e54",
+      "name": "Bayil Arena",
+      "name_normalized": "bayil arena",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.33154,
+        "lon": 49.81724
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9433497190475464,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "93eb18d8-42a5-46df-bc3d-7e4234e78b51",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "dfcdea2e-227d-55ad-8d10-2bd327f27319",
+      "name": "Stadion Champion",
+      "name_normalized": "stadion champion",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.32686,
+        "lon": 49.81573
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5923212766647339,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0f0913d4-7b06-4110-bc1b-384d79cdc047",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "98179c51-3a61-5434-8699-2b4edb1fbb00",
+      "name": "Baku Olimpic Stadium",
+      "name_normalized": "baku olimpic stadium",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.373886500883,
+        "lon": 49.952650081869
+      },
+      "area_id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5550418496131897,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8aa599e1-b65f-4125-882a-eed0ec44cccd",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "1d3cbd82-4a70-5194-a320-2978ec95f347",
+      "name": "204 Stadion",
+      "name_normalized": "204 stadion",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.37684464,
+        "lon": 49.96534789
+      },
+      "area_id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7035599946975708,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0eb7fbd4-e406-4713-bd8e-4ac1530c1ebf",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "1da2487e-b7a3-5e68-99b5-1ece68eae8d5",
+      "name": "Lider İdman Klubu",
+      "name_normalized": "lider i dman klubu",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.3616145,
+        "lon": 49.9486302
+      },
+      "area_id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7639290690422058,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0a92f38f-e3cf-47a0-84a5-477eb35c7fa9",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "1e57cfdf-7539-5102-92c4-2aff18c64ccd",
+      "name": "Sarhadci Stadium",
+      "name_normalized": "sarhadci stadium",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.3938251329,
+        "lon": 49.9563587564
+      },
+      "area_id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7120625376701355,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e6f8710f-6786-4d4f-92c2-8bf0ae362233",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "bb56c84f-7e59-54ea-9f75-79bf6e2e471a",
+      "name": "Olimpik idman klubu",
+      "name_normalized": "olimpik idman klubu",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.39330658575316,
+        "lon": 49.959334042827734
+      },
+      "area_id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5170503258705139,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d41f1b1b-beb5-444b-8532-4d04385bff5b",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "7759339e-7a53-5aec-af6f-e536b8f3ad07",
+      "name": "Boxing Center Baku",
+      "name_normalized": "boxing center baku",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.379905809756,
+        "lon": 49.880719184875
+      },
+      "area_id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7096439003944397,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ece650b9-0d27-40aa-a960-721366b1a4c6",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "0c4ce31c-08c5-5f59-a329-89a31290ddd6",
+      "name": "Boks Federasyonu Şantiyesi",
+      "name_normalized": "boks federasyonu santiyesi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.379997,
+        "lon": 49.880008
+      },
+      "area_id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6334879398345947,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "601d84c8-a4a6-4d72-a019-41685ec97b6a",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "04fd13d9-6820-5224-be51-914fcf976e9d",
+      "name": "Tonus",
+      "name_normalized": "tonus",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.38089382865338,
+        "lon": 49.86642227635739
+      },
+      "area_id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.48832687735557556,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b16ecb00-1711-4380-b4d4-c6be2d4b74c9",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "b21daf59-dc92-575a-a35a-d3c03d5a667f",
+      "name": "Дом Болельщиков в Баку",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.38239,
+        "lon": 49.86909
+      },
+      "area_id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.395498126745224,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7d357dae-268b-4c09-9ffa-f1596a44b430",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "b9424c28-f38b-5352-bf22-fbc9fd253aad",
+      "name": "Neftchifc Stadionulu",
+      "name_normalized": "neftchifc stadionulu",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.436436,
+        "lon": 49.955024
+      },
+      "area_id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.600871205329895,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "da655c5b-4d86-4898-a882-c14e2aec5a85",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "09874e1f-5219-55d8-8162-8153ec09c650",
+      "name": "Spor salonu",
+      "name_normalized": "spor salonu",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.41811568001193,
+        "lon": 49.971126099995054
+      },
+      "area_id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.3879816234111786,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9daa9c25-6f72-491f-8c12-9e98fd8d9a79",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "18306d2b-c953-599b-94d5-3f48b41f0cc0",
+      "name": "Fhn idman sağlamliq",
+      "name_normalized": "fhn idman saglamliq",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.36726557205219,
+        "lon": 50.07961910985221
+      },
+      "area_id": "d2981fa1-7fe5-5b12-9a6b-99cd9baaea16",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7643306255340576,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "89f239d1-fb89-4ad4-beab-28277b80c02f",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "9b157683-e79d-5b27-9040-2ef46d3b55a1",
+      "name": "Hovsan Olimpiya Kompleksi",
+      "name_normalized": "hovsan olimpiya kompleksi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.36574602134104,
+        "lon": 50.075775891652896
+      },
+      "area_id": "d2981fa1-7fe5-5b12-9a6b-99cd9baaea16",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7405065298080444,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1e80b39c-1f0b-4f69-aba1-9ea23352e947",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "d9b0661e-0c43-5114-9091-461aba2f6a65",
+      "name": "Hövsan Idman Kompleksi",
+      "name_normalized": "hovsan idman kompleksi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.35775381162718,
+        "lon": 50.05815999283224
+      },
+      "area_id": "d2981fa1-7fe5-5b12-9a6b-99cd9baaea16",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7190108299255371,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d6cc36d6-e709-4c7f-bb28-49b733d038a3",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "2ad4a1d9-4954-5989-b085-0b166d956e85",
+      "name": "Azərsun Arena",
+      "name_normalized": "azersun arena",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.42126676,
+        "lon": 49.99681743
+      },
+      "area_id": "d2981fa1-7fe5-5b12-9a6b-99cd9baaea16",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8435935378074646,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ea052dd8-7ccf-407d-a8e5-4aa4fe5d9132",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "b0dffd66-17ec-59a4-84ba-fe1d1a9e0b92",
+      "name": "Qarabağ FK",
+      "name_normalized": "qarabag fk",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.42198304,
+        "lon": 49.99613121
+      },
+      "area_id": "d2981fa1-7fe5-5b12-9a6b-99cd9baaea16",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5409510731697083,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4799c445-8b1c-4bae-83f9-f040ab26eff1",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "13f105a2-8060-5006-b31d-3d4e37ae4de2",
+      "name": "Qarabağ Stadionu",
+      "name_normalized": "qarabag stadionu",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.421748,
+        "lon": 49.9971472
+      },
+      "area_id": "d2981fa1-7fe5-5b12-9a6b-99cd9baaea16",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10040408149",
+          "release": "azerbaijan-261020",
+          "source_category": "stadium"
+        }
+      ]
+    },
+    {
+      "id": "45117198-1286-5175-82df-c532311eb159",
+      "name": "Zirə Olimpiya Kompleksi",
+      "name_normalized": "zire olimpiya kompleksi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.3589912,
+        "lon": 50.29313769
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6853022575378418,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "16581106-3c9e-48fc-a7be-c75c82258223",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "f0d68b7d-cdf8-5330-8b4e-e380232c6aad",
+      "name": "Dalğa Arena",
+      "name_normalized": "dalga arena",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.51105897,
+        "lon": 50.16628393
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6882756352424622,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "bbcc3176-cf2f-4911-993d-2f3eeaf5edd4",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "3d204a5a-91fc-535b-982a-3b649fe15428",
+      "name": "Azal Arena",
+      "name_normalized": "azal arena",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.49677454,
+        "lon": 50.19645802
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8364399671554565,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "49caddf9-9a17-44c7-a499-241dffa56425",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "01525479-cdbb-548f-b0da-00a5270aa281",
+      "name": "Estafet.Az",
+      "name_normalized": "estafet az",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.4817581,
+        "lon": 50.1875687
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.38173940777778625,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f06115e3-19e2-4a0f-89ec-1e2bb83cdc62",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "a154ad2b-533c-516a-b1ea-94f38f46c1b6",
+      "name": "Binə stadionu",
+      "name_normalized": "bine stadionu",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.447763,
+        "lon": 50.077829
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6441653966903687,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a58312b1-8546-4431-81af-ee3a65b79dc5",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "eb894ae0-3547-50e6-827c-ea347b8913e2",
+      "name": "Buffalo Fight Club",
+      "name_normalized": "buffalo fight club",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.378851502845,
+        "lon": 50.291290283203
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.4580366611480713,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f6f853ff-14e2-48a3-9308-132e348aac97",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "ca1f7634-fa50-5c00-89f4-6f5aa9db3971",
+      "name": "Gunesli Arena V massivi Xezer marketi arxasi",
+      "name_normalized": "gunesli arena v massivi xezer marketi arxasi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.345137679089,
+        "lon": 49.756801370729
+      },
+      "area_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.36105990409851074,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d1f2f36a-65f0-4914-ba66-e0970e431044",
           "release": "2026-09-23.1",
           "source_category": "stadium_arena"
         }

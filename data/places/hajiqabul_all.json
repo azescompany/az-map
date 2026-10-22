@@ -1,0 +1,126 @@
+{
+  "area_id": "14df867e-3d94-587c-b56b-28bb657bbb07",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "a12ecf6d-d473-5998-b302-3c75a4e9130b",
+      "name": "Hajigabul",
+      "name_normalized": "hajigabul",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.0433333333,
+        "lon": 48.9355555556
+      },
+      "area_id": "14df867e-3d94-587c-b56b-28bb657bbb07",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7051671147346497,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5c80ef61-52a6-4263-80ad-731f9f07a693",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "4339ab89-85b3-5c75-a89f-d9cc2d14b587",
+      "name": "Hacıqabul",
+      "name_normalized": "haciqabul",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.03874,
+        "lon": 48.94286
+      },
+      "area_id": "14df867e-3d94-587c-b56b-28bb657bbb07",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8153896331787109,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1a96a692-bf05-4cc0-b26d-6a65ca186b0a",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "a8b7f7a9-d434-5de8-9f6c-736e97a2a673",
+      "name": "Kubah",
+      "name_normalized": "kubah",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.12607,
+        "lon": 49.05938
+      },
+      "area_id": "14df867e-3d94-587c-b56b-28bb657bbb07",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7685045599937439,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "272d8105-6f2a-48a5-9f93-4ec8a6d405da",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "710d0acb-b6b8-5ad1-9a6d-0871e014fa79",
+      "name": "Karasu Yazlık",
+      "name_normalized": "karasu yazlik",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.133947241919,
+        "lon": 48.735201480499
+      },
+      "area_id": "14df867e-3d94-587c-b56b-28bb657bbb07",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.731515109539032,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d4315390-3ea3-4bd6-aefc-f618ca9b07aa",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "c1210563-30df-50d8-a95b-099b500bc837",
+      "name": "Wirvan Weheri",
+      "name_normalized": "wirvan weheri",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.010608,
+        "lon": 48.943452
+      },
+      "area_id": "14df867e-3d94-587c-b56b-28bb657bbb07",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7025934457778931,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b2250ea0-8ac6-45e2-a727-5925b6190daf",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    }
+  ]
+}

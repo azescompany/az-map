@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "7eaa7b3d-db06-5cfb-a894-492f59e84820",
+      "properties": {
+        "id": "7eaa7b3d-db06-5cfb-a894-492f59e84820",
+        "name": "Aydınkənd",
+        "type": "neighborhood",
+        "parent_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.5658735,
+              41.1272839
+            ],
+            [
+              48.5658628,
+              41.128189
+            ],
+            [
+              48.5642832,
+              41.1281972
+            ],
+            [
+              48.5640102,
+              41.1259549
+            ],
+            [
+              48.5657345,
+              41.1248097
+            ],
+            [
+              48.5679655,
+              41.126885
+            ],
+            [
+              48.567898,
+              41.1273283
+            ],
+            [
+              48.5658735,
+              41.1272839
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "03692a5f-de1f-548d-8bfa-75937a2b8084",
+      "properties": {
+        "id": "03692a5f-de1f-548d-8bfa-75937a2b8084",
+        "name": "Qaçqın Şəhərciyi",
+        "type": "neighborhood",
+        "parent_id": "bc57b59f-7be7-5534-b28f-fa95ac1f3097",
+        "parent_status": "verified",
+        "subtype": "neighborhood"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.4518019,
+              40.5985333
+            ],
+            [
+              47.4527675,
+              40.6004599
+            ],
+            [
+              47.4508738,
+              40.6010179
+            ],
+            [
+              47.449927,
+              40.5991178
+            ],
+            [
+              47.4518019,
+              40.5985333
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

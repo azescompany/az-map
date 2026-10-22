@@ -1,0 +1,46 @@
+{
+  "city": "Gəncə",
+  "rayons": {
+    "Kəpəz rayonu": {
+      "parent_status": "verified",
+      "verified_hoods": [
+        "2-ci mikrorayon",
+        "Quşqara",
+        "Yeni Gəncə"
+      ],
+      "conflicts": [],
+      "places": 14,
+      "places_skipped_dup": 0
+    },
+    "Nizami rayonu": {
+      "parent_status": "verified",
+      "verified_hoods": [
+        "1-ci mikrorayon",
+        "3-cü mikrorayon",
+        "4-cü mikrorayon",
+        "5-ci mikrorayon",
+        "Bəstə qəsəbəsi",
+        "Gülüstan",
+        "Mahrasa Bağı"
+      ],
+      "conflicts": [],
+      "places": 31,
+      "places_skipped_dup": 0
+    }
+  },
+  "places": {},
+  "reparented_from_baki_nizami": [
+    "1-ci mikrorayon",
+    "3-cü mikrorayon",
+    "4-cü mikrorayon",
+    "5-ci mikrorayon",
+    "Bəstə qəsəbəsi",
+    "Gülüstan",
+    "Mahrasa Bağı"
+  ],
+  "places_total_index": 2223,
+  "areas_total": 212,
+  "generated_at": "2026-10-21T13:48:55.103397+00:00",
+  "osm_release": "azerbaijan-261020",
+  "overture_release": "2026-09-23.1"
+}

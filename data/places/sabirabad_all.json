@@ -1,0 +1,102 @@
+{
+  "area_id": "db042a83-0a77-509e-b8c1-3f0573c42f17",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "b00011f1-2b86-567f-9a88-54ab91970de0",
+      "name": "M.Ə. Sabirin Heykəli",
+      "name_normalized": "m e sabirin heykeli",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.00218925,
+        "lon": 48.47003438
+      },
+      "area_id": "db042a83-0a77-509e-b8c1-3f0573c42f17",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6536239981651306,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1eaa44ee-7001-4979-9efb-ded60792cec3",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "4645475b-49ed-57f8-835a-21440769a604",
+      "name": "Muğan Parkı",
+      "name_normalized": "mugan parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.0034422,
+        "lon": 48.4706444
+      },
+      "area_id": "db042a83-0a77-509e-b8c1-3f0573c42f17",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5491831302642822,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e94cae38-35ec-46aa-ada5-787b1f452d30",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "075ad772-3cb4-5365-8dc4-15c376434d42",
+      "name": "Kür-Araz Ovalığı",
+      "name_normalized": "kur araz ovaligi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.0,
+        "lon": 48.5
+      },
+      "area_id": "db042a83-0a77-509e-b8c1-3f0573c42f17",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.783858597278595,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b1bd2274-99f0-4f73-81a4-94c7dceef009",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "dafecdf2-a651-5782-9978-c088592bb961",
+      "name": "Sabirabad MKS Şıxsalahlı kənd kitabxanası",
+      "name_normalized": "sabirabad mks sixsalahli kend kitabxanasi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 39.98901,
+        "lon": 48.81423
+      },
+      "area_id": "db042a83-0a77-509e-b8c1-3f0573c42f17",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6831936240196228,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "066793ef-0f9c-42a2-9001-dc02630cce8c",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    }
+  ]
+}

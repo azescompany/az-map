@@ -1,0 +1,126 @@
+{
+  "area_id": "191a84bf-14b3-5a84-864c-5c67ced931ec",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "85070dd2-1197-538c-9fd9-47e31cf67bb0",
+      "name": "Axar-Baxar Aşırımı",
+      "name_normalized": "axar baxar asirimi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.8333374,
+        "lon": 48.95000182
+      },
+      "area_id": "191a84bf-14b3-5a84-864c-5c67ced931ec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8120031356811523,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "dbd04245-dd09-44ce-8de7-1d8a1bfda424",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "d46cd190-aa0d-5919-9f8d-30036a339566",
+      "name": "Altıağac Dağı",
+      "name_normalized": "altiagac dagi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.85683,
+        "lon": 48.92781
+      },
+      "area_id": "191a84bf-14b3-5a84-864c-5c67ced931ec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8227025866508484,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "490f2cc6-dae5-4f13-94a4-e3368a021918",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "5823d1e0-8689-5e54-af81-21221b3b7294",
+      "name": "Şuraabad",
+      "name_normalized": "suraabad",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.81943,
+        "lon": 49.46787
+      },
+      "area_id": "191a84bf-14b3-5a84-864c-5c67ced931ec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7018121480941772,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1db950a7-ff61-4c14-b0d6-c9079a496bf4",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "83fb0872-9e59-5253-b904-5ff1ba794cfc",
+      "name": "Altiagac Milli Parki",
+      "name_normalized": "altiagac milli parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.918288826134,
+        "lon": 49.022622436647
+      },
+      "area_id": "191a84bf-14b3-5a84-864c-5c67ced931ec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7714166641235352,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "26338f7b-b8df-45b2-9759-74e5578f20f6",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "e07739e9-9b5d-5ccf-91e3-7560d11ceb0b",
+      "name": "Sitalçay",
+      "name_normalized": "sitalcay",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.78472,
+        "lon": 49.38833
+      },
+      "area_id": "191a84bf-14b3-5a84-864c-5c67ced931ec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7947090864181519,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c232eee3-1f93-4d09-a045-45e9dca1845f",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

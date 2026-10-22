@@ -1,0 +1,54 @@
+{
+  "area_id": "abcafc86-adf9-5cf7-a469-04f49245b9d6",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "d32ed8c4-1366-5239-940d-c2e7dc96c644",
+      "name": "Beyləqan Tarix Diyarşünaslıq Muzeyi",
+      "name_normalized": "beyleqan tarix diyarsunasliq muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 39.77042,
+        "lon": 47.61209
+      },
+      "area_id": "abcafc86-adf9-5cf7-a469-04f49245b9d6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6232966780662537,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2fcfb4a1-e205-4867-bc52-eb792d75e5c4",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "abb530d4-9c75-5cba-996e-76d745b4118d",
+      "name": "Orconikidze (ort i Azerbajdzjan, Bejläqan)",
+      "name_normalized": "orconikidze ort i azerbajdzjan bejl qan",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.63238,
+        "lon": 47.6898
+      },
+      "area_id": "abcafc86-adf9-5cf7-a469-04f49245b9d6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7900738716125488,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c29136ec-24ed-44fd-bbc4-ad551866e58e",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "1d0abb51-9f08-55ce-9b2d-fcf2f46d7e72",
+      "properties": {
+        "id": "1d0abb51-9f08-55ce-9b2d-fcf2f46d7e72",
+        "name": "Buduq",
+        "type": "neighborhood",
+        "parent_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.371129,
+              41.1835958
+            ],
+            [
+              48.3699639,
+              41.185649
+            ],
+            [
+              48.3669228,
+              41.1849347
+            ],
+            [
+              48.3677724,
+              41.1813908
+            ],
+            [
+              48.3724165,
+              41.1801398
+            ],
+            [
+              48.3734894,
+              41.1825946
+            ],
+            [
+              48.371129,
+              41.1835958
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

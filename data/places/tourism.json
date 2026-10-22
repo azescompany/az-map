@@ -1,5 +1,6 @@
 {
   "category": "tourism",
+  "scope": "baki_rayons",
   "places": [
     {
       "id": "1f410d01-6538-5124-ab47-857941004f11",
@@ -44,6 +45,3102 @@
         {
           "source": "osm",
           "source_id": "node/13782740475",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "7805d1e3-df3e-5c98-a5a2-97ca2db9ca4d",
+      "name": "Uşaq Əyləncə Mərkəzi",
+      "name_normalized": "usaq eylence merkezi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4180442,
+        "lon": 49.8114685
+      },
+      "area_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3175307313",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "5c099f6e-d8a2-59c3-9729-7d8fa03f6190",
+      "name": "Tayfa əyləncə mərkəzi",
+      "name_normalized": "tayfa eylence merkezi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3874806,
+        "lon": 49.8378986
+      },
+      "area_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3550417769",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "ff160956-a499-5c28-ac2d-ab6845711dc8",
+      "name": "Abu Park",
+      "name_normalized": "abu park",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3824104,
+        "lon": 49.8412941
+      },
+      "area_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4167928291",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "1e42c217-a308-54b1-b4b3-c616b7384b45",
+      "name": "Bakı Su Kanal İdarәsi \\ Alatava",
+      "name_normalized": "baki su kanal i dar si alatava",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4038597,
+        "lon": 49.8188271
+      },
+      "area_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4686324292",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "4009cff6-d171-5aad-956b-0f02ba9677aa",
+      "name": "Şamaxinka Bakı",
+      "name_normalized": "samaxinka baki",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4112272,
+        "lon": 49.8043003
+      },
+      "area_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9733532284",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "595a14b1-d629-5f6f-a7a8-979ed5d0f762",
+      "name": "20 Yanvar Dairəsi",
+      "name_normalized": "20 yanvar dairesi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4042279,
+        "lon": 49.8076813
+      },
+      "area_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9733565257",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "4a49c0ce-dade-57f0-b9f0-8517da23f071",
+      "name": "Aşıq Ələsgər",
+      "name_normalized": "asiq elesger",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3894377,
+        "lon": 49.8391542
+      },
+      "area_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/12222043989",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "6d1fdc16-00a9-5bf3-81e7-108d4a220d61",
+      "name": "Qələbə Parkı",
+      "name_normalized": "qelebe parki",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4108697,
+        "lon": 49.8536786
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3909305220",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "7735df12-7b92-5d63-b8fe-ff581bf84775",
+      "name": "Empire Studio",
+      "name_normalized": "empire studio",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4059588,
+        "lon": 49.8735153
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4588451389",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "f144511a-3151-5f94-864b-63b0d81ee6b1",
+      "name": "Fidem office",
+      "name_normalized": "fidem office",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3985315,
+        "lon": 49.8422697
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4869228322",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "872ea99a-0ba1-5e11-9a33-b3c4617919db",
+      "name": "Stamperia Poliqraf",
+      "name_normalized": "stamperia poliqraf",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4149065,
+        "lon": 49.8562396
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/5542345121",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "d470fb5a-06b8-5d22-9be5-3367988c8f62",
+      "name": "I love Baku",
+      "name_normalized": "i love baku",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3940696,
+        "lon": 49.8649459
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/5913443990",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "50500767-e7db-58bd-9835-0a01b809651b",
+      "name": "İqamətgah / Gənclik",
+      "name_normalized": "i qametgah genclik",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4061437,
+        "lon": 49.8559034
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9749794412",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "b923db70-4ac0-51e0-a8af-6bbf373aa92d",
+      "name": "Atillla Dairəsi",
+      "name_normalized": "atillla dairesi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4216327,
+        "lon": 49.9101041
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9765228504",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "3437fb04-8d2c-568a-b7d2-6ec1f1885f10",
+      "name": "SOCAR Tower",
+      "name_normalized": "socar tower",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4055433,
+        "lon": 49.8836911
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11002239446",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "f29b2e67-59a5-5c20-9bad-2898e1860948",
+      "name": "Saat Binası \\ Heydər Əliyev Prospekti",
+      "name_normalized": "saat binasi heyder eliyev prospekti",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3997629,
+        "lon": 49.8758268
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11002239482",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "8588ef2e-5330-59f0-aff0-a2a9a2ebfd35",
+      "name": "Baku Tower",
+      "name_normalized": "baku tower",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4130774,
+        "lon": 49.8979859
+      },
+      "area_id": "efdc6d2d-b895-5692-a7c4-724ef5302eda",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9765268371",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "f9c74a75-bb2c-575f-80e4-384099ab00e2",
+      "name": "8-ci kilometr dairəsi",
+      "name_normalized": "8 ci kilometr dairesi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3952609,
+        "lon": 49.9403071
+      },
+      "area_id": "efdc6d2d-b895-5692-a7c4-724ef5302eda",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9780143277",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "81d0e7a9-c225-5dbb-a4ef-a7d388d8f4c0",
+      "name": "Bliss Land Əyləncə",
+      "name_normalized": "bliss land eylence",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4114906,
+        "lon": 49.9613705
+      },
+      "area_id": "efdc6d2d-b895-5692-a7c4-724ef5302eda",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10080655676",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "0de17816-a6c7-543b-bba9-da1950d4aaee",
+      "name": "Yuxarı Sulutəpə",
+      "name_normalized": "yuxari sulutepe",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4317727,
+        "lon": 49.7589406
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/1877218732",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "24084d5b-3d21-50a3-b41a-a32a24f279d8",
+      "name": "Aşağı Sulutəpə",
+      "name_normalized": "asagi sulutepe",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4322093,
+        "lon": 49.7703672
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/1877218774",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "dea8b81d-fbc5-5786-900a-41a22e2ed05b",
+      "name": "Tml evi",
+      "name_normalized": "tml evi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4175454,
+        "lon": 49.8448191
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4686322395",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "13216d48-b489-5363-a926-77ef8932906a",
+      "name": "Qapı darvaza çexi, sifarişlə",
+      "name_normalized": "qapi darvaza cexi sifarisle",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4428209,
+        "lon": 49.7857594
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/6447291287",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "b143b16d-29f3-563e-885b-ef33e69ccddb",
+      "name": "Vorovski dairəsi",
+      "name_normalized": "vorovski dairesi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4214836,
+        "lon": 49.8372459
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9740293951",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "b0c7f10d-97b5-5bde-9ed6-620853f5a275",
+      "name": "Binəqədi Mərkəz",
+      "name_normalized": "bineqedi merkez",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4667415,
+        "lon": 49.8276745
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10268212444",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "618020e7-ff84-5cc9-9f91-795614ce2d3a",
+      "name": "Zəngəzur Hamamı",
+      "name_normalized": "zengezur hamami",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4507854,
+        "lon": 49.8435531
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10276526761",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "7533852b-fd0e-594e-b042-17738228960d",
+      "name": "Hamam",
+      "name_normalized": "hamam",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4688311,
+        "lon": 49.6199857
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11144641411",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "cb672b0c-e623-56dd-9a47-c0f92c58dba6",
+      "name": "MDU - MQU",
+      "name_normalized": "mdu mqu",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4028763,
+        "lon": 49.7702035
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11165772903",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "3e170245-1b99-5e00-8159-50640f7510ed",
+      "name": "Şəhid Bulağı",
+      "name_normalized": "sehid bulagi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4320203,
+        "lon": 49.7729735
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11172587787",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "0b683484-fd73-5250-b54b-f180f682ec94",
+      "name": "Motodrom Qoşa Arka",
+      "name_normalized": "motodrom qosa arka",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4190874,
+        "lon": 49.7949046
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11177444423",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "a0dc5e79-3707-500e-97b7-72adbc31da6f",
+      "name": "Şəlalə Parkı",
+      "name_normalized": "selale parki",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3632074,
+        "lon": 49.8279411
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3409522231",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "dee9fb46-7d36-5f93-808f-ee87877427c7",
+      "name": "Цигель Цигель. Бриллиантовая рука",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3681943,
+        "lon": 49.8356476
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4161263990",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "9d28263f-4d3b-538f-8701-be427d9d5fd2",
+      "name": "Аптека. Бриллиантовая рука.",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3640898,
+        "lon": 49.8332689
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4161318789",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "e77a66d7-23d4-5cc0-aad3-25ad0f05a3bd",
+      "name": "YARAT Contemporary Art Center",
+      "name_normalized": "yarat contemporary art center",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3393701,
+        "lon": 49.8375124
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4370535798",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "ea708e86-db27-5f89-8693-5c543fbdf50a",
+      "name": "Mənzərə nöqtəsi / Bayıl",
+      "name_normalized": "menzere noqtesi bayil",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3450708,
+        "lon": 49.8317759
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4485089689",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "36eb2f6e-2c2b-59df-a58b-1c0c3bfe40de",
+      "name": "921 Davud badamdar",
+      "name_normalized": "921 davud badamdar",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3480648,
+        "lon": 49.8119614
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4686319401",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "aa7d019e-36cc-51b0-9b0c-e4b976897432",
+      "name": "Bakı panorama",
+      "name_normalized": "baki panorama",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3576567,
+        "lon": 49.830319
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4695487769",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "4988d69c-1f31-52ee-8c99-d0afa86a56fe",
+      "name": "Paraşüt Qülləsi",
+      "name_normalized": "parasut qullesi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3685653,
+        "lon": 49.8440045
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4720927490",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "af0f94c9-275e-535b-b20f-a8d18dd4eb3d",
+      "name": "Oil Pump Field",
+      "name_normalized": "oil pump field",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3198906,
+        "lon": 49.8308885
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4786122089",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "58ca6861-2bbd-56c1-bb99-5916c129b5d9",
+      "name": "İşıqlı Pilləkən / Illuminated Staircase",
+      "name_normalized": "i siqli pilleken illuminated staircase",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3585002,
+        "lon": 49.8298444
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/6514000086",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "7ad488ea-eeda-50e8-99de-4417acd5714b",
+      "name": "Azneft Meydanı",
+      "name_normalized": "azneft meydani",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3625454,
+        "lon": 49.835481
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9813036370",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "e49cd43b-b6dd-5db7-b333-e2e449018fed",
+      "name": "20-ci Sahə dairəsi",
+      "name_normalized": "20 ci sahe dairesi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3299021,
+        "lon": 49.8187977
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9895709165",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "410179c4-532f-58ab-8856-82e792ed1e60",
+      "name": "Bayıl Dairəsi / Bulvar",
+      "name_normalized": "bayil dairesi bulvar",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3383831,
+        "lon": 49.8341668
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9895991304",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "7096994c-f3a6-5c7f-bd4f-f944b5389e1b",
+      "name": "16 mərtəbə",
+      "name_normalized": "16 mertebe",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3420794,
+        "lon": 49.8389679
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11004303807",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "c2bf6b5d-4d72-5dd8-9e51-b68d96812340",
+      "name": "Hand",
+      "name_normalized": "hand",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3594236,
+        "lon": 49.836088
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/12757920586",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "2f992e1a-53e6-5430-abe2-c004f105cde9",
+      "name": "Girl",
+      "name_normalized": "girl",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3712952,
+        "lon": 49.8374821
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/12763079664",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "b5687e74-e8cf-5c2c-848e-d59c5a721ce3",
+      "name": "Zontikli Qız",
+      "name_normalized": "zontikli qiz",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3716992,
+        "lon": 49.8378847
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/12763079668",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "4a35994b-6d48-5165-8c03-0fb2c8303eb7",
+      "name": "Captain",
+      "name_normalized": "captain",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.368315,
+        "lon": 49.8441735
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/12763079676",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "99871f12-ec3a-5e68-bec1-4f8f98ea61e6",
+      "name": "Fisherman",
+      "name_normalized": "fisherman",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3675587,
+        "lon": 49.8440462
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/12763079678",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "97ec7158-197d-556f-b0e6-038479f1b515",
+      "name": "Love Baku",
+      "name_normalized": "love baku",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3678005,
+        "lon": 49.8438729
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/12763079681",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "c53fe569-526f-5f9a-9fbd-45363245d7ea",
+      "name": "Monument to Mugham Musical Instruments",
+      "name_normalized": "monument to mugham musical instruments",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3684481,
+        "lon": 49.8369718
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/12965484696",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "534dbe02-5032-5084-8165-bda1b0ba6c06",
+      "name": "Çəmbərəkənd Parkı",
+      "name_normalized": "cemberekend parki",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3634907,
+        "lon": 49.8260155
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/13830623338",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "7d29e4e9-a1ff-5f47-a583-3e917082e935",
+      "name": "Yeni il və Novruz Yarmarkaları",
+      "name_normalized": "yeni il ve novruz yarmarkalari",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3662589,
+        "lon": 49.8397617
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/13923844086",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "77292046-777b-5130-8ef9-6fda587915fc",
+      "name": "Mega Fun Əyləncə Mərkəzi",
+      "name_normalized": "mega fun eylence merkezi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3781252,
+        "lon": 49.875115
+      },
+      "area_id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4492784194",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "eabfc5ba-e5a9-5bc4-a5c2-5190e3a39114",
+      "name": "Baki Əyləncə Mərkəzi",
+      "name_normalized": "baki eylence merkezi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.385041,
+        "lon": 49.8686584
+      },
+      "area_id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4512725647",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "c28cd16a-78ff-5447-9356-17f5b6f5a434",
+      "name": "Topkapı Hamamı",
+      "name_normalized": "topkapi hamami",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3944422,
+        "lon": 49.9672225
+      },
+      "area_id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4848728723",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "e798a4c5-9f7f-5372-8ca7-9e781cffc3dc",
+      "name": "Qırat Dairəsi",
+      "name_normalized": "qirat dairesi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3631605,
+        "lon": 49.9600652
+      },
+      "area_id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/8570547517",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "db96b288-8156-5340-99fb-99deaefff2b7",
+      "name": "Gümüş Dairəsi Zığ",
+      "name_normalized": "gumus dairesi zig",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3487948,
+        "lon": 49.9611399
+      },
+      "area_id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9799459645",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "e83a19de-f4f9-5c3f-a7db-3375119f28bf",
+      "name": "Zığ Dairəsi",
+      "name_normalized": "zig dairesi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3484309,
+        "lon": 49.9618319
+      },
+      "area_id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9799467436",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "0d9b07d4-548e-59b5-b6c5-4f48af1a07bb",
+      "name": "2020 Business Center",
+      "name_normalized": "2020 business center",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3844205,
+        "lon": 49.8882873
+      },
+      "area_id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11964088522",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "9eabf1da-d6c4-587e-8d2f-33cc9f323658",
+      "name": "Transformator",
+      "name_normalized": "transformator",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.5697628,
+        "lon": 49.9366704
+      },
+      "area_id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3837261386",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "58c18551-4a1a-5c00-a636-3e83b0087a45",
+      "name": "Hacı Abusalam Hamamı",
+      "name_normalized": "haci abusalam hamami",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.5614878,
+        "lon": 49.8909621
+      },
+      "area_id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/5139899421",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "c2cfb955-638a-5e19-b645-0771eb38d3a3",
+      "name": "Sabunçu Yerüstü Keçid",
+      "name_normalized": "sabuncu yerustu kecid",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4388394,
+        "lon": 49.9358711
+      },
+      "area_id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/5950683657",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "b988a27f-db7f-5a01-9e18-eefa66e82825",
+      "name": "Nardaran Mayakı",
+      "name_normalized": "nardaran mayaki",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.5831788,
+        "lon": 49.9848691
+      },
+      "area_id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/6737605984",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "eaf1dfdb-8e62-5117-bdd0-d2b8303ace22",
+      "name": "Xan Sarayı",
+      "name_normalized": "xan sarayi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.5618613,
+        "lon": 50.0133175
+      },
+      "area_id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/7459335788",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "c788896f-77af-5924-8bee-f5a2463e36f8",
+      "name": "Məşədi İbad",
+      "name_normalized": "mesedi i bad",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4601683,
+        "lon": 49.9190902
+      },
+      "area_id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/7815953963",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "49881e94-b972-576c-97fe-64fb7b0699b7",
+      "name": "Karvansaray",
+      "name_normalized": "karvansaray",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4586765,
+        "lon": 49.922278
+      },
+      "area_id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/7815957761",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "8db51647-7135-54e7-b830-bf0b33ce0900",
+      "name": "Yarımçıq Tikili Sanatoriya",
+      "name_normalized": "yarimciq tikili sanatoriya",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.5648807,
+        "lon": 49.8260718
+      },
+      "area_id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9854208447",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "a2c10da4-4767-5380-8cd3-f253c7a51e2f",
+      "name": "Kiddyland Uşaq Əyləncə",
+      "name_normalized": "kiddyland usaq eylence",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.417175,
+        "lon": 49.9669468
+      },
+      "area_id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10082583793",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "0fbd4e09-7c8c-5713-9104-e9b82ad4aa3c",
+      "name": "Kinder Land",
+      "name_normalized": "kinder land",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4216715,
+        "lon": 49.9622315
+      },
+      "area_id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10090412483",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "1521ac2b-0498-5847-9085-04886ee1ec86",
+      "name": "Sabunçu Dairəsi",
+      "name_normalized": "sabuncu dairesi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.438346,
+        "lon": 49.9338698
+      },
+      "area_id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10816852173",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "8343359d-d001-526f-ab12-9cde153a844d",
+      "name": "Sabunçu Hamamı",
+      "name_normalized": "sabuncu hamami",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4434229,
+        "lon": 49.9510279
+      },
+      "area_id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10822565558",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "ccaf6e02-c617-5697-852d-ba96ee756a0f",
+      "name": "Yeni Bakı Hamam",
+      "name_normalized": "yeni baki hamam",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4277552,
+        "lon": 49.9411896
+      },
+      "area_id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10827741850",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "d9ca6140-9033-54b0-8577-141a0f11bbe0",
+      "name": "Gilavar Sanatoriyası",
+      "name_normalized": "gilavar sanatoriyasi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.5626393,
+        "lon": 49.8781899
+      },
+      "area_id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11110453411",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "2fb06106-bcc6-5730-8289-9d078cd459bf",
+      "name": "Abbas Bulağı",
+      "name_normalized": "abbas bulagi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.5609348,
+        "lon": 49.862393
+      },
+      "area_id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11110492090",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "77c4cec5-24a8-57f2-8483-6ae6939c5bef",
+      "name": "Hacı Zeynal Hamamı",
+      "name_normalized": "haci zeynal hamami",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.5474193,
+        "lon": 49.9190801
+      },
+      "area_id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11119503616",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "28b0085e-acc7-5a14-b97b-6f09786a97e1",
+      "name": "Oil fields viewpoint",
+      "name_normalized": "oil fields viewpoint",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4520503,
+        "lon": 49.9098064
+      },
+      "area_id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/12208797096",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "e81c0f88-62e5-5bfb-ae9c-c543bca7459f",
+      "name": "Böyük Şor Dairəsi \\ Dörd Yol",
+      "name_normalized": "boyuk sor dairesi dord yol",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4520895,
+        "lon": 49.9010031
+      },
+      "area_id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/12762975504",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "b1557945-244e-5d0a-888a-2d53ae0d4a20",
+      "name": "Koroğlu Körpüsü",
+      "name_normalized": "koroglu korpusu",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4229163,
+        "lon": 49.9203028
+      },
+      "area_id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/13791767201",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "6536ece6-9806-5178-b964-d48032da7785",
+      "name": "1-ci döngə Bülbülə",
+      "name_normalized": "1 ci donge bulbule",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4352515,
+        "lon": 49.9779115
+      },
+      "area_id": "d2981fa1-7fe5-5b12-9a6b-99cd9baaea16",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/2987284744",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "6bc17e7e-bac8-5947-b4c7-e7fd8668d6f7",
+      "name": "11-ci döngə Bülbülə",
+      "name_normalized": "11 ci donge bulbule",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4341069,
+        "lon": 49.9807803
+      },
+      "area_id": "d2981fa1-7fe5-5b12-9a6b-99cd9baaea16",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3473869693",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "66b68e5c-ef73-584e-acdd-481bdc3074e4",
+      "name": "Atəşgah Məbədi",
+      "name_normalized": "atesgah mebedi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.416155,
+        "lon": 50.0093289
+      },
+      "area_id": "d2981fa1-7fe5-5b12-9a6b-99cd9baaea16",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/6419014585",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "71c65dfe-2a84-5da6-9786-b3811b22c86b",
+      "name": "Xəyal Adaları",
+      "name_normalized": "xeyal adalari",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3953301,
+        "lon": 50.0900885
+      },
+      "area_id": "d2981fa1-7fe5-5b12-9a6b-99cd9baaea16",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9932475909",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "e1b19d85-91bc-5012-a474-4e1c4877caca",
+      "name": "Əlibəy Vəlibəy Hamamı",
+      "name_normalized": "elibey velibey hamami",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4321846,
+        "lon": 49.9781129
+      },
+      "area_id": "d2981fa1-7fe5-5b12-9a6b-99cd9baaea16",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10038060882",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "37d5bed2-b902-515d-b6f0-f2b19fc8bc5f",
+      "name": "Hamam",
+      "name_normalized": "hamam",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4202166,
+        "lon": 49.9870621
+      },
+      "area_id": "d2981fa1-7fe5-5b12-9a6b-99cd9baaea16",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10040279576",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "bff4379f-b6fe-5dc5-8e12-7d4be0f99a1c",
+      "name": "Suraxanı Dairəsi",
+      "name_normalized": "suraxani dairesi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4204124,
+        "lon": 50.0033168
+      },
+      "area_id": "d2981fa1-7fe5-5b12-9a6b-99cd9baaea16",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10043414607",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "f0604fb9-7fd9-57b8-96eb-24a5545f933a",
+      "name": "Hamam",
+      "name_normalized": "hamam",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4143088,
+        "lon": 49.98992
+      },
+      "area_id": "d2981fa1-7fe5-5b12-9a6b-99cd9baaea16",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10051987576",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "24a67607-0d0b-57ef-abfe-ed3381ddd32d",
+      "name": "Köhnə Hamam",
+      "name_normalized": "kohne hamam",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4186483,
+        "lon": 49.9872753
+      },
+      "area_id": "d2981fa1-7fe5-5b12-9a6b-99cd9baaea16",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10051987658",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "568c01cf-0416-56c2-994b-35872bd5defa",
+      "name": "Günəş Park Əykəncə Mərkəzi",
+      "name_normalized": "gunes park eykence merkezi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3914306,
+        "lon": 49.976002
+      },
+      "area_id": "d2981fa1-7fe5-5b12-9a6b-99cd9baaea16",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10087686905",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "6a9195aa-88a4-5262-b330-a96d39467383",
+      "name": "Mərdəkan Dendrari",
+      "name_normalized": "merdekan dendrari",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4890442,
+        "lon": 50.1599371
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3910223341",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "0e3ac1d3-f98e-51e8-a603-ebbc2bf6b6ae",
+      "name": "Şəmsi Əsədullayev bağı",
+      "name_normalized": "semsi esedullayev bagi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4906623,
+        "lon": 50.1641276
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3910223342",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "9e053e30-4898-538a-b138-7c81edd6011f",
+      "name": "bag",
+      "name_normalized": "bag",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.5097888,
+        "lon": 50.1241063
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4432156292",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "6c13e87c-9326-5084-af13-8da394f90a56",
+      "name": "Turkan reydi",
+      "name_normalized": "turkan reydi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.2812598,
+        "lon": 50.2644337
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4586740389",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "bcdca702-a0d9-5462-8956-94ea3128a268",
+      "name": "Oba Market \\ Şağan 2",
+      "name_normalized": "oba market sagan 2",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4824134,
+        "lon": 50.1246932
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4948377726",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "6aa58408-f349-5aa1-ab77-04acf59576bf",
+      "name": "Oba Market",
+      "name_normalized": "oba market",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4969386,
+        "lon": 50.1103648
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4948797624",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "6dd8fd72-f146-5394-a269-080a7b04aeb3",
+      "name": "AzərAviaNaviqasiya AZANS",
+      "name_normalized": "azeravianaviqasiya azans",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4552868,
+        "lon": 50.0530801
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/5519983222",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "bbd7fd4c-1065-591f-a5e6-dcb51b157795",
+      "name": "Təhməzovlar Hamamı (XIX əsr)",
+      "name_normalized": "tehmezovlar hamami xix esr",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.5205005,
+        "lon": 50.1139748
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9834559481",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "ef94f8a2-4235-54c7-81f0-23cfc1b0b227",
+      "name": "Timland Əyləncə Mərkəzi",
+      "name_normalized": "timland eylence merkezi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4501017,
+        "lon": 50.0898202
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9943495110",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "c036f301-5473-5b4b-ae68-66b1e421925c",
+      "name": "Radio Mayak Türkan",
+      "name_normalized": "radio mayak turkan",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3601338,
+        "lon": 50.200877
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9993500910",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "93a4e488-b06e-5c77-994c-c569a93b9c1b",
+      "name": "Qala Əyləncə Mərkəzi",
+      "name_normalized": "qala eylence merkezi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4646846,
+        "lon": 50.1203424
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10698026582",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "b93ccb24-2994-5169-8f5f-85f1a5c46371",
+      "name": "Şəvəlan Mayakı 1913",
+      "name_normalized": "sevelan mayaki 1913",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.5038968,
+        "lon": 50.1966801
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10717704946",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "9fa1a733-24e1-58b9-8964-eff762282d55",
+      "name": "Macara Adası Şüvəlan",
+      "name_normalized": "macara adasi suvelan",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4845575,
+        "lon": 50.1842795
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10726518461",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "1673255f-13de-52d4-81db-4b7b717774b4",
+      "name": "Kinderland Şüvəlan",
+      "name_normalized": "kinderland suvelan",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4846463,
+        "lon": 50.1842567
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10726518462",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "39bdc2f3-ea37-59ba-9d27-4f7411dec327",
+      "name": "Zoopark",
+      "name_normalized": "zoopark",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4037214,
+        "lon": 50.3017938
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746666167",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "bee0c56e-e836-576d-9dd6-c0615f2e8854",
+      "name": "Shuvalan",
+      "name_normalized": "shuvalan",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4979582,
+        "lon": 50.2296913
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11200668152",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "9cdf7953-fc3c-536c-9a9c-afd4659892dc",
+      "name": "Qayalıq Daşları Şüvəlan",
+      "name_normalized": "qayaliq daslari suvelan",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4982793,
+        "lon": 50.230757
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/13832220201",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "4fa3f6c4-e2ba-5d20-b0c4-784a68e2a1c0",
+      "name": "Absheron",
+      "name_normalized": "absheron",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4069721,
+        "lon": 50.3250277
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/2011660842",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "d23b24b6-65fe-5ac2-80c0-8fa6c3a24036",
+      "name": "Şah Dili Qoruğu",
+      "name_normalized": "sah dili qorugu",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.241385,
+        "lon": 50.3661534
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9984182893",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "9719df68-5af3-5fc4-9ffb-1846f423e9d8",
+      "name": "Palçıq vulkanı",
+      "name_normalized": "palciq vulkani",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 39.9987547,
+        "lon": 49.4750478
+      },
+      "area_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/244344664",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "c5d1d35b-c8f0-5c93-915c-5cf0be4fa685",
+      "name": "Palçıq vulkanı",
+      "name_normalized": "palciq vulkani",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 39.9980442,
+        "lon": 49.455127
+      },
+      "area_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/244370734",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "bb880165-15c2-502e-8010-3206fe1b349d",
+      "name": "Böyük Kənizədağ Palçıq vulkanı",
+      "name_normalized": "boyuk kenizedag palciq vulkani",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.1417688,
+        "lon": 49.3821644
+      },
+      "area_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/244371752",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "8c28563e-585e-56f9-bd2d-25e2fa88db14",
+      "name": "Palçıq vulkanı",
+      "name_normalized": "palciq vulkani",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.2576436,
+        "lon": 49.5507751
+      },
+      "area_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4705126890",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "d0d87110-27e0-5aa1-910d-06485edcb5ff",
+      "name": "Karvansara Sanqaçal",
+      "name_normalized": "karvansara sanqacal",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.1814128,
+        "lon": 49.4773405
+      },
+      "area_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/5208673531",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "f3539cd8-85ee-5a79-b659-16819700ff33",
+      "name": "Bozdağ Palçıq Vulkanı",
+      "name_normalized": "bozdag palciq vulkani",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3813835,
+        "lon": 49.6104942
+      },
+      "area_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/5320153817",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "7419bded-3fd6-504a-a2e1-09b958e0f6aa",
+      "name": "Palçıq Vulkanı",
+      "name_normalized": "palciq vulkani",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.0206624,
+        "lon": 49.3725643
+      },
+      "area_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/5320166675",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "8ce6f8d6-2a12-5e13-8c72-44f2f8f1d86f",
+      "name": "Lökbatan palçıq vulkanı",
+      "name_normalized": "lokbatan palciq vulkani",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3044513,
+        "lon": 49.7090073
+      },
+      "area_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/5320172364",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "0fae0bc1-11be-5de0-97f1-4be0720e2d16",
+      "name": "Palçıq Vulkanı",
+      "name_normalized": "palciq vulkani",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 39.9962126,
+        "lon": 49.405791
+      },
+      "area_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/5842069986",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "be111396-9e26-548e-a611-e76f5ff0e209",
+      "name": "Lökbatan yazısı",
+      "name_normalized": "lokbatan yazisi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3178345,
+        "lon": 49.747813
+      },
+      "area_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11188839599",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "fc4bacab-4a7a-5ea4-b550-1e4287b4df88",
+      "name": "Qaradağ Mayakı",
+      "name_normalized": "qaradag mayaki",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.2838871,
+        "lon": 49.7347735
+      },
+      "area_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11200633479",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "17bcf386-bdb9-5ade-9a7f-a78af16b3756",
+      "name": "SOCAR Metanol Zavodu",
+      "name_normalized": "socar metanol zavodu",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.2726048,
+        "lon": 49.6698305
+      },
+      "area_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11200807138",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "d7cb7385-4639-5c51-8213-985f6a0b2d83",
+      "name": "Lökbatan palçıq vulkanı",
+      "name_normalized": "lokbatan palciq vulkani",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.3036692,
+        "lon": 49.7092938
+      },
+      "area_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11216328929",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "1b83ac5e-5097-51a3-a020-c1e8f84a24c3",
+      "name": "Səngəçal Neft Terminalı",
+      "name_normalized": "sengecal neft terminali",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.1916188,
+        "lon": 49.5010954
+      },
+      "area_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11216767895",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "15c95c93-075d-5d22-a2bb-99667d90c9fe",
+      "name": "Arka 2 Park",
+      "name_normalized": "arka 2 park",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.2222633,
+        "lon": 49.5772926
+      },
+      "area_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11294049536",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "b9168319-6db9-530c-beb3-186a55a7bbc8",
+      "name": "Arka 1 Park",
+      "name_normalized": "arka 1 park",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.2229446,
+        "lon": 49.5786511
+      },
+      "area_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11294049713",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "8c8b9f95-7b02-5745-9452-2689f65c349a",
+      "name": "Palçıq vulkanı",
+      "name_normalized": "palciq vulkani",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 39.9987722,
+        "lon": 49.4707274
+      },
+      "area_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11331435130",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "588260fc-c1dd-5bf5-9c35-aea11baf22e6",
+      "name": "Qotur palçıq vulkanı",
+      "name_normalized": "qotur palciq vulkani",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.1290489,
+        "lon": 49.407835
+      },
+      "area_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11336695182",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "aac508cf-6412-586e-9428-d8f07fdbbdf6",
+      "name": "Ayrantəkan palçıq vulkanı",
+      "name_normalized": "ayrantekan palciq vulkani",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 39.9893897,
+        "lon": 49.3108624
+      },
+      "area_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11336695754",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "7d52c054-5f97-5c1a-9883-497bf026f921",
+      "name": "Qoturdağ palçıq vulkanı",
+      "name_normalized": "qoturdag palciq vulkani",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 39.9729599,
+        "lon": 49.3590188
+      },
+      "area_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11336695893",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "522928d1-f587-5815-9026-06b52c51c3f0",
+      "name": "Diləngəz Palçıq Vulkanı",
+      "name_normalized": "dilengez palciq vulkani",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.0056017,
+        "lon": 49.3702304
+      },
+      "area_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11336696157",
           "release": "azerbaijan-261020",
           "source_category": "tourism"
         }

@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "697d2445-52fa-5e64-bffb-6ca8d337a007",
+      "properties": {
+        "id": "697d2445-52fa-5e64-bffb-6ca8d337a007",
+        "name": "Səbzəbar Məhəlləsi",
+        "type": "neighborhood",
+        "parent_id": "3bd2f01d-ea83-5489-a16e-9905cd0b8d9c",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.1497396,
+              40.6082776
+            ],
+            [
+              47.1512121,
+              40.6139769
+            ],
+            [
+              47.148031,
+              40.6144778
+            ],
+            [
+              47.1465772,
+              40.6092489
+            ],
+            [
+              47.1473336,
+              40.6091186
+            ],
+            [
+              47.1475133,
+              40.6090249
+            ],
+            [
+              47.1492165,
+              40.6077685
+            ],
+            [
+              47.1496698,
+              40.6081269
+            ],
+            [
+              47.1497396,
+              40.6082776
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

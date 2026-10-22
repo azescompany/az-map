@@ -281,6 +281,35 @@ def audit_and_fix() -> dict:
         area["center_status"] = center_status
         area["center_within_boundary"] = center_within
 
+    # Optional municipal extents (e.g. Sumqayıt admin_level=6) for satellite settlements
+    extent_cache: dict[str, object | None] = {}
+
+    def parent_extent_geom(parent_area: dict):
+        name = parent_area.get("name")
+        if name == "Sumqayıt" and parent_area.get("type") == "city":
+            key = "boundaries/extent_sumqayit_al6.geojson"
+            if key not in extent_cache:
+                path = DATA / key
+                if path.exists():
+                    gj = load(path)
+                    geoms_e = []
+                    for f in gj.get("features") or []:
+                        g = f.get("geometry")
+                        if g and g.get("type") in ("Polygon", "MultiPolygon"):
+                            geoms_e.append(shape(g))
+                    if not geoms_e:
+                        extent_cache[key] = None
+                    elif len(geoms_e) == 1:
+                        extent_cache[key] = geoms_e[0]
+                    else:
+                        from shapely.ops import unary_union
+
+                        extent_cache[key] = unary_union(geoms_e)
+                else:
+                    extent_cache[key] = None
+            return extent_cache[key]
+        return None
+
     # Second pass: child-parent geometry relationship
     parent_geom_warnings = []
     for area in areas:
@@ -290,6 +319,15 @@ def audit_and_fix() -> dict:
         child_g = geoms.get(area["id"])
         parent_g = geoms.get(pid)
         ok = child_within_parent(child_g, parent_g)
+        # Satellites of Sumqayıt: accept containment in broader OSM admin_level=6 extent
+        if ok is False:
+            parent_area = by_id.get(pid) or {}
+            ext = parent_extent_geom(parent_area)
+            if ext is not None and child_within_parent(child_g, ext):
+                ok = True
+                for audit in audits:
+                    if audit["id"] == area["id"]:
+                        audit["child_inside_parent_extent"] = True
         for audit in audits:
             if audit["id"] == area["id"]:
                 audit["child_inside_parent_geom"] = ok
@@ -391,7 +429,11 @@ def audit_and_fix() -> dict:
     # update manifest quality section
     manifest_path = DATA / "manifest.json"
     manifest = load(manifest_path)
-    manifest["dataset_version"] = "0.1.1-pilot"
+    # preserve extract version bump if newer; fall back for fresh runs
+    if not str(manifest.get("dataset_version") or "").startswith("0.1."):
+        manifest["dataset_version"] = "0.1.3-pilot"
+    else:
+        manifest["dataset_version"] = manifest.get("dataset_version") or "0.1.3-pilot"
     manifest["quality_gate"] = {
         "applied_at": report["generated_at"],
         "geom_status_counts": dict(status_counts),

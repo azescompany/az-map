@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "2bd7b071-1f3a-5134-b127-8db23fec93ea",
+      "properties": {
+        "id": "2bd7b071-1f3a-5134-b127-8db23fec93ea",
+        "name": "Həmir",
+        "type": "neighborhood",
+        "parent_id": "6fec85b0-0967-5a32-8c49-4804119a40ae",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.5318684,
+              41.6670854
+            ],
+            [
+              48.5309565,
+              41.6662519
+            ],
+            [
+              48.5297012,
+              41.6653783
+            ],
+            [
+              48.5303557,
+              41.6635909
+            ],
+            [
+              48.5340679,
+              41.6644325
+            ],
+            [
+              48.5356021,
+              41.6660836
+            ],
+            [
+              48.5318684,
+              41.6670854
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

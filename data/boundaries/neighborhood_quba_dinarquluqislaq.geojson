@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "83d394de-5d5e-5bfa-8d80-74a69b122c53",
+      "properties": {
+        "id": "83d394de-5d5e-5bfa-8d80-74a69b122c53",
+        "name": "Dinarquluqışlaq",
+        "type": "neighborhood",
+        "parent_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.6728239,
+              41.4376594
+            ],
+            [
+              48.6712012,
+              41.4397605
+            ],
+            [
+              48.6679301,
+              41.4386118
+            ],
+            [
+              48.6679798,
+              41.4382868
+            ],
+            [
+              48.666873,
+              41.4379553
+            ],
+            [
+              48.6671353,
+              41.4359021
+            ],
+            [
+              48.6728239,
+              41.4376594
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

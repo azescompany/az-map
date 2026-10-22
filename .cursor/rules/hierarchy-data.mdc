@@ -1,0 +1,14 @@
+---
+description: Hierarchy verified parent/child və data/ yazma qaydaları
+globs: data/**/*,scripts/**/*,Hierarchy.md,WORKER.md
+alwaysApply: false
+---
+
+# Hierarchy + data extract
+
+- Parent/child təsdiqi: [`Hierarchy.md`](mdc:Hierarchy.md) — Overture parent id + geom containment + adlı + mənbə id.
+- Admin hierarchy ≠ containment; ikisini də saxla; conflict → review, UI-da gizlə.
+- `geom_status=verified` yalnız real mənbə polygon + EPSG:4326 + interior center.
+- Mərkəz `rep_point` / `interior_representative_point` rəsmi inzibati mərkəz deyil — metodu göstər.
+- Places: stabil UUID id; `area_id` rayon; UI-da şəhər → uşaq rayon fayllarının birləşməsi (`loadPlacesForArea`); məhəllədə area_id/bbox filter; sintetik aggregate fayl / polygon uydurma yox.
+- İş siyahısı və checkbox hesabat: [`WORKER.md`](mdc:WORKER.md).

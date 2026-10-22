@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "d5f31491-1eb9-5863-ad32-bf92a7ecca63",
+      "properties": {
+        "id": "d5f31491-1eb9-5863-ad32-bf92a7ecca63",
+        "name": "Yeni Yaşayış Kompleksi Ucar",
+        "type": "neighborhood",
+        "parent_id": "5bfacc06-2a5a-5d9d-af55-e26a19b9d6f2",
+        "parent_status": "verified",
+        "subtype": "macrohood"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.640152,
+              40.522518
+            ],
+            [
+              47.6410103,
+              40.5221102
+            ],
+            [
+              47.6428449,
+              40.5241246
+            ],
+            [
+              47.6410746,
+              40.5249972
+            ],
+            [
+              47.6401305,
+              40.5240798
+            ],
+            [
+              47.640152,
+              40.522518
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

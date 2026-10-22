@@ -1,0 +1,126 @@
+{
+  "area_id": "748abe04-6d06-5fa2-a6b3-1f9f967ee02a",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "fb64cec1-b209-56cc-b8bb-09ce2ed57d59",
+      "name": "Kürdəmir Olimpiya İdman Kompleksi",
+      "name_normalized": "kurdemir olimpiya i dman kompleksi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.33733,
+        "lon": 48.14824
+      },
+      "area_id": "748abe04-6d06-5fa2-a6b3-1f9f967ee02a",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7053772211074829,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "20ef07f8-8533-4961-af4c-8dfd1f7e28c1",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "43ed8414-20f2-59d0-8c6c-257e62d6beca",
+      "name": "Kürdəmir Məscidi",
+      "name_normalized": "kurdemir mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.34931117,
+        "lon": 48.16140684
+      },
+      "area_id": "748abe04-6d06-5fa2-a6b3-1f9f967ee02a",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.549892246723175,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "011ce8e0-19c4-4c5b-8ee4-1670e41cd5da",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "4bcddcdf-aa7d-5f39-acee-3db19ef93d40",
+      "name": "Kyurdamir",
+      "name_normalized": "kyurdamir",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.27365,
+        "lon": 48.16058
+      },
+      "area_id": "748abe04-6d06-5fa2-a6b3-1f9f967ee02a",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7991161346435547,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9740e469-3f46-4215-b4ce-0672bbb7dae4",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "43ac0baf-5471-52ca-a383-89bede9e1e29",
+      "name": "Kara-Kobi",
+      "name_normalized": "kara kobi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.1275,
+        "lon": 48.34111
+      },
+      "area_id": "748abe04-6d06-5fa2-a6b3-1f9f967ee02a",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7666023373603821,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "182a1a6d-c34e-446e-9da8-3db27380da89",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "7ff19057-abd7-5be6-ab6c-7ec9ea02b195",
+      "name": "Axtaçı-Qarabucaq kənd kitabxanası",
+      "name_normalized": "axtaci qarabucaq kend kitabxanasi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.38891,
+        "lon": 48.03789
+      },
+      "area_id": "748abe04-6d06-5fa2-a6b3-1f9f967ee02a",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5354264974594116,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "84e601c9-7c95-497b-8522-5580e4b5bedc",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    }
+  ]
+}

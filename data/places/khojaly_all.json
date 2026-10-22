@@ -1,0 +1,270 @@
+{
+  "area_id": "953def2b-b93d-5343-acd7-ef5cffbd9eba",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "d1dec8f8-ac1c-5104-8d8e-7f82a9777a6f",
+      "name": "Gora Chakh-Makh",
+      "name_normalized": "gora chakh makh",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.7297,
+        "lon": 46.771
+      },
+      "area_id": "953def2b-b93d-5343-acd7-ef5cffbd9eba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8037704825401306,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b375148d-662a-45f2-bfa1-2ce6bdb1c753",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "55b9db6c-ae30-5ccb-a0b5-2a156880ddb8",
+      "name": "Քարաշեն",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.80008,
+        "lon": 46.78248
+      },
+      "area_id": "953def2b-b93d-5343-acd7-ef5cffbd9eba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.73880934715271,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "57e6b5be-87e1-471f-afe0-1d51ed558fcb",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "8c103f31-1f8b-57cd-88e6-e6b245a0d0c5",
+      "name": "Masakra w Xocalı",
+      "name_normalized": "masakra w xocali",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.911111,
+        "lon": 46.789167
+      },
+      "area_id": "953def2b-b93d-5343-acd7-ef5cffbd9eba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7135826945304871,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "cfa1988c-e43b-43f5-959a-dd5303b2ab3a",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "1857ffe1-6a99-591a-a643-bdf7885358e7",
+      "name": "Hocalı Katliamı",
+      "name_normalized": "hocali katliami",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.911111,
+        "lon": 46.789167
+      },
+      "area_id": "953def2b-b93d-5343-acd7-ef5cffbd9eba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8092828989028931,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "350b1be3-e0da-4f3f-b989-75e289b3c761",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "651a69e2-a486-5e54-bee4-3e6be9da6f62",
+      "name": "Ходжалинская резня",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.911111111111,
+        "lon": 46.789166666667
+      },
+      "area_id": "953def2b-b93d-5343-acd7-ef5cffbd9eba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.716272234916687,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2661844e-2244-42ac-a163-c5a02dd5a0c1",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "80079c9c-fde4-54bf-be0a-4e16791dbae9",
+      "name": "Ukhtasar",
+      "name_normalized": "ukhtasar",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.95000001,
+        "lon": 46.90000001
+      },
+      "area_id": "953def2b-b93d-5343-acd7-ef5cffbd9eba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7100855112075806,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c820344b-6bde-42a5-9288-f6d5249a73e8",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "e8ab6540-2bc8-5cb2-8609-2c2d6c002dc6",
+      "name": "Askeran Fortress",
+      "name_normalized": "askeran fortress",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.93352764,
+        "lon": 46.83179917
+      },
+      "area_id": "953def2b-b93d-5343-acd7-ef5cffbd9eba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.768740713596344,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "40ba071c-4309-4bfa-a492-df049ca821a7",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "d8fc6923-d9d3-5e51-8676-cf4a3fc1164e",
+      "name": "Հիլիս",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.95626,
+        "lon": 46.69787
+      },
+      "area_id": "953def2b-b93d-5343-acd7-ef5cffbd9eba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7683596014976501,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1eae8209-90ee-49a5-80d2-3b142c395b43",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "57031735-1420-5477-a5cc-df789c8e11f2",
+      "name": "Tsaghkashat",
+      "name_normalized": "tsaghkashat",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.9738889,
+        "lon": 46.71694445
+      },
+      "area_id": "953def2b-b93d-5343-acd7-ef5cffbd9eba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7571019530296326,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "aa368f98-92af-4bb5-9946-7ef402005424",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "6d78c15f-7eb9-5bb5-a006-1c78f1bd1223",
+      "name": "Մատենադարան Գանձասար Matenadaran Gandzasar",
+      "name_normalized": "matenadaran gandzasar",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.006579667839,
+        "lon": 46.759872436523
+      },
+      "area_id": "953def2b-b93d-5343-acd7-ef5cffbd9eba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7999032139778137,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "cc12070d-c299-4594-997d-fb37264b82fa",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "906cc3b4-43e6-5a08-98ab-474bc7d17b69",
+      "name": "Khachin-Turbatli Mausoleum",
+      "name_normalized": "khachin turbatli mausoleum",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.03301369,
+        "lon": 46.81703429
+      },
+      "area_id": "953def2b-b93d-5343-acd7-ef5cffbd9eba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8060638308525085,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "71710edb-1575-42fe-8c1d-bcda83fa5588",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

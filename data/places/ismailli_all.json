@@ -1,0 +1,558 @@
+{
+  "area_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "6cff9353-27c6-5ac5-a970-5c7d64621edd",
+      "name": "Burovdal",
+      "name_normalized": "burovdal",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.98388,
+        "lon": 48.34745
+      },
+      "area_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8144127726554871,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "377b3578-8696-49f9-ad3c-938909b59081",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "d3ac15b9-36b2-5f48-8fac-eb76a3d84420",
+      "name": "İsmayıllı Rayonu Qalacıq Kəndi",
+      "name_normalized": "i smayilli rayonu qalaciq kendi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.95899,
+        "lon": 48.04628
+      },
+      "area_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8171887397766113,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6dab1d0f-4008-4467-a1ad-7281d19d168e",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "d2642194-78cd-57bd-98da-deca58978211",
+      "name": "Göyçay Qoruğu",
+      "name_normalized": "goycay qorugu",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.6625,
+        "lon": 47.90222
+      },
+      "area_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8035719394683838,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6c3aaa7d-8e91-4110-9dc3-830fe3c220e7",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "0e0a701a-a112-53c8-bcd2-a0b993750725",
+      "name": "Kürdmaşı",
+      "name_normalized": "kurdmasi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.6684,
+        "lon": 48.03415
+      },
+      "area_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8144127726554871,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "cbff6916-e189-4b05-b2e3-c396ff2e1f4f",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "85e4db9a-3db7-5891-a5fb-ed6fb6c7cb7e",
+      "name": "Qalagah",
+      "name_normalized": "qalagah",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.7169444444,
+        "lon": 47.9325
+      },
+      "area_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8098887205123901,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "84f288f1-3232-4506-9bb0-fed8d7d6b8e3",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "b0712be5-c872-54b1-8a2e-e2f226d39747",
+      "name": "Park İvanovka",
+      "name_normalized": "park i vanovka",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.74577,
+        "lon": 48.0296
+      },
+      "area_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6115046143531799,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "32d8ba88-ef01-4a6a-a869-af598ecb1dd3",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "d42df6da-c49f-57c4-9747-12a143ba23b5",
+      "name": "Qızılqaya Dağı (berg i Azerbajdzjan, Ismajylly)",
+      "name_normalized": "qizilqaya dagi berg i azerbajdzjan ismajylly",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.8114,
+        "lon": 47.927
+      },
+      "area_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8092468976974487,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3a1d75c2-521e-436e-a8e0-15680504b54b",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "e8f809ef-cda2-55c6-9f02-36b497a5684d",
+      "name": "Talistan Forest Park",
+      "name_normalized": "talistan forest park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.80504392430105,
+        "lon": 48.208195110166656
+      },
+      "area_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9069472551345825,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9f929c5b-0023-4aba-a63a-51deaf349cf8",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "82150afe-91ac-52ae-a518-272733ad833d",
+      "name": "Talistan Forest Park",
+      "name_normalized": "talistan forest park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.80504392430105,
+        "lon": 48.208195110166656
+      },
+      "area_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8904213905334473,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "bb94ef8e-47c0-448d-82d7-3e3a450c8f05",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "b61e388f-5b87-5c8b-bce0-6c4143cc3f00",
+      "name": "Ismayilli, Gunes parki",
+      "name_normalized": "ismayilli gunes parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.82826904025,
+        "lon": 48.148479871497
+      },
+      "area_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9002841114997864,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b8ef968d-0f05-4f7d-86d0-d127b11685e1",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "3d8a0da6-bf9e-57d7-b33f-7bef82881ca5",
+      "name": "İsmayıllı Qoruğu",
+      "name_normalized": "i smayilli qorugu",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.90806,
+        "lon": 48.15972
+      },
+      "area_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8063905835151672,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c9da03ea-2959-4093-a4de-d09cdae9c9fd",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "9333085a-a3c8-5db7-b0bf-268de4b655be",
+      "name": "Qızıldərə İstirahət Mərkəzi",
+      "name_normalized": "qizildere i stirahet merkezi",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.790198597077,
+        "lon": 48.31629312884957
+      },
+      "area_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7102990746498108,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d090d21d-2320-49b8-9cb0-6a2e2354aca9",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "9ca7cad0-c3ec-5256-80db-dd5fa682a1ba",
+      "name": "Heydər Əliyev Parkı",
+      "name_normalized": "heyder eliyev parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.78118,
+        "lon": 48.14635
+      },
+      "area_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6760164499282837,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "54a5157f-0dbb-48bb-b1a1-c82e71bd3b53",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "132055d8-098e-544a-8853-08789875968e",
+      "name": "İsmayıllı rayon Tarix Diyarşünaslıq Muzeyi",
+      "name_normalized": "i smayilli rayon tarix diyarsunasliq muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.780645219746,
+        "lon": 48.147463488227
+      },
+      "area_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5975582599639893,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b95b6383-fc30-4ed7-8be3-cfbda1e6ee5e",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "19f060c7-4b43-543a-a62d-bed2d43ae2fb",
+      "name": "Şirvan Ailəvi İstirahət Mərkəzi",
+      "name_normalized": "sirvan ailevi i stirahet merkezi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.78208,
+        "lon": 48.15388
+      },
+      "area_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.47363874316215515,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "bd8fd68c-1922-42cb-9a4f-3f62d5b4945f",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "56c8536d-402a-56e8-94a9-a9ae63c2a885",
+      "name": "Lahij",
+      "name_normalized": "lahij",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.786193,
+        "lon": 48.1576
+      },
+      "area_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5668280720710754,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f7645dc8-f350-4729-87be-50f7c296d3d3",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "ef2e6914-f961-50ce-aab4-374f9cf48ced",
+      "name": "Zərifə Əliyeva adına Park",
+      "name_normalized": "zerife eliyeva adina park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.79378131,
+        "lon": 48.15930578
+      },
+      "area_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6165415644645691,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0c0d9d13-09f6-4ade-a5c2-666688b56375",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "66544bed-9133-5561-b811-a5a6076bde9d",
+      "name": "Topçu Bələdiyyəsi Qonaqlama Evləri",
+      "name_normalized": "topcu belediyyesi qonaqlama evleri",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.79,
+        "lon": 48.1519
+      },
+      "area_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.560516893863678,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "90eea148-3226-45bc-b007-ee0c01969105",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "be9d2b5f-8dda-5f37-809e-c52ffaf43d48",
+      "name": "İsmayıllı rayon Mərkəzləşdirilmiş Kitabxana Sistemi",
+      "name_normalized": "i smayilli rayon merkezlesdirilmis kitabxana sistemi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.79,
+        "lon": 48.1519
+      },
+      "area_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.615339994430542,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9f8560e1-195c-48bb-b747-28b135e30363",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "de5b82e6-621f-5222-975a-68a97ebe7a34",
+      "name": "Qırxbulaq",
+      "name_normalized": "qirxbulaq",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.71093,
+        "lon": 48.33592
+      },
+      "area_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7014774084091187,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "97aa3d7d-737e-402b-aeea-f8d38bae4037",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "3d072609-9237-5665-9a53-7047e1a406a0",
+      "name": "Fitdağ",
+      "name_normalized": "fitdag",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.7939,
+        "lon": 48.4259
+      },
+      "area_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7999700903892517,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d45da50c-1902-4ebe-98f5-e95fe0ba824f",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "105870ac-9fd2-5ed6-bf94-109bfa1a4821",
+      "name": "Lahıc Aşırımı",
+      "name_normalized": "lahic asirimi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.86046,
+        "lon": 48.49015
+      },
+      "area_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8162308931350708,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "44471687-29a8-47c0-9640-e7980ed60ce8",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "6c546d96-a680-5a71-badc-a62a6366fc11",
+      "name": "Историко-краеведческий музей",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.8452,
+        "lon": 48.3832
+      },
+      "area_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7862454056739807,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0ef2cc67-02b2-4b30-908b-f21c0ee7eb30",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    }
+  ]
+}

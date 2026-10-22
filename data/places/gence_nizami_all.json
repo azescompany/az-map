@@ -1,0 +1,750 @@
+{
+  "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+  "parent_area_id": "3da2308e-8084-55a5-962a-7bd358136873",
+  "places": [
+    {
+      "id": "8d4a3bb0-114d-52b0-882b-498e1cc0d157",
+      "name": "Comerd Qessab Turbesi",
+      "name_normalized": "comerd qessab turbesi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.70299023,
+        "lon": 46.40943519
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5895803570747375,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "abf64ae2-b708-4e4a-8970-a838c2224347",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "176e3f3c-95a5-5379-857f-1dc4c4a09e5d",
+      "name": "Nizami Ganjavi Mausoleum",
+      "name_normalized": "nizami ganjavi mausoleum",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.68570613,
+        "lon": 46.43212617
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8318841457366943,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6c1792e0-3664-43e4-aaec-0167a42e37fd",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "9d4ff2bc-fc5d-50f3-9978-02530a76d3a3",
+      "name": "Nizami Məqbərəsi",
+      "name_normalized": "nizami meqberesi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.685380488473925,
+        "lon": 46.43262266156523
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.77,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b34202ca-5670-4794-81ba-736b6eca19e7",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "4a7ed05b-4c42-5da8-84bd-28a14a5a45df",
+      "name": "Мавзолей Низами Гянджеви",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.683888888889,
+        "lon": 46.432777777778
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.821064293384552,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "43b0cfe4-1d39-401b-b084-755042d54f1c",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "ede5d1d4-643a-5746-bd9a-f5a86094cb5c",
+      "name": "Tağı Arani",
+      "name_normalized": "tagi arani",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.69095831,
+        "lon": 46.38601071
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.44983646273612976,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ac03f618-dfae-4360-91c1-6e2e5108aa36",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "c3d4b8b3-dd3a-55f3-9926-c1683419140b",
+      "name": "Imperial Fun Centre",
+      "name_normalized": "imperial fun centre",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.688426,
+        "lon": 46.381928
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7284714579582214,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6fba01b5-df2d-427a-a9d0-2ac45a712e6a",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "6eef7755-09af-5aeb-b814-f836f963178f",
+      "name": "M.Füzuli parkı",
+      "name_normalized": "m fuzuli parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.68685051,
+        "lon": 46.38454865
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8428655862808228,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ac9a1766-47ea-4e21-a1d1-97e47b36d65c",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "e50eeeae-bac2-599f-ae88-55ce85ecdb8d",
+      "name": "Xəmsə Bağı",
+      "name_normalized": "xemse bagi",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.67953079,
+        "lon": 46.36895043
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8867900371551514,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "203bec96-ad5e-4d18-90a2-58603980ec9b",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "9c574b42-ddd0-5358-b8c3-1c4e9fa81412",
+      "name": "Nariman Narimanov Parkı",
+      "name_normalized": "nariman narimanov parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.67672993,
+        "lon": 46.37266888
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.2449304163455963,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ca936923-c0f0-4004-b131-87248fd2efeb",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "659e1381-f27f-555b-9eb0-8f242fa40c43",
+      "name": "Gəncəçay Park Bulvarı",
+      "name_normalized": "gencecay park bulvari",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.67661325,
+        "lon": 46.36760712
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5616222620010376,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d65ee89f-f1ea-4b1d-9e5a-0868c9d6d347",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "b82d4e2a-d1fb-532a-bc3d-bbe282f6b62d",
+      "name": "Gəncə Bayraq Meydanı",
+      "name_normalized": "gence bayraq meydani",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.675008249072164,
+        "lon": 46.36555462448603
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7483806014060974,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2515872d-b462-4584-a986-2047d0557f06",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "7fc8ce2e-4f87-50c9-b656-21216ccf1d57",
+      "name": "Gəncə • Ganja • Гянджа",
+      "name_normalized": "gence ganja",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.67346145516,
+        "lon": 46.359450817108
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8228373527526855,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "beeda3de-4b6e-403c-858e-85d26b80a8d4",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "494a5959-e1b8-599d-b78c-a7f36c0683ab",
+      "name": "Cavad Khan Str(Sabir Kucesi)",
+      "name_normalized": "cavad khan str sabir kucesi",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.675923829592534,
+        "lon": 46.360210216209985
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.753338634967804,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4455cf92-0670-425c-8490-dbcc406d5d7a",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "5fbfce35-7549-5fab-b4ca-78e1b34a0283",
+      "name": "Arena PUB",
+      "name_normalized": "arena pub",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.677294421407126,
+        "lon": 46.35987711475138
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5630257725715637,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b9b0e07d-3d36-4673-8abb-4954e0191a58",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "3548f9a8-d324-5fdc-a080-c3fb38adbf07",
+      "name": "Shah Abbas Karvansaraayı",
+      "name_normalized": "shah abbas karvansaraayi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.67888203,
+        "lon": 46.36073828
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5946164727210999,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ba74faf7-cd23-4b9b-84ea-375add1673d2",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "91037055-d66a-5f7a-ad31-b58b4ec8a620",
+      "name": "Art Garden Ganja",
+      "name_normalized": "art garden ganja",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.677871638466,
+        "lon": 46.362648010254
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.919152021408081,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "69909520-3093-47a9-8cee-f13c52e6d99a",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "4075f143-d68c-53bb-9e8a-956f211c5965",
+      "name": "Gəncə Şəhər Mərkəzləşdirilmiş Kitabxana Sistemi",
+      "name_normalized": "gence seher merkezlesdirilmis kitabxana sistemi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.68111548,
+        "lon": 46.3635835
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.48451438546180725,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0d1aa1c7-e9c7-412d-b9fd-ad7b07ba7bdb",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "90de4a6c-e28c-5ac7-a9bc-36fe850bc408",
+      "name": "Kitab Oxu",
+      "name_normalized": "kitab oxu",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.68165653,
+        "lon": 46.3593632
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6986812353134155,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1dea711f-3d30-44f8-a6af-37f10aaa7b58",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "58c16cce-a803-5e51-a606-1551c9ef15c0",
+      "name": "Aleksandr Nevskiy Kilsəsi Gəncə",
+      "name_normalized": "aleksandr nevskiy kilsesi gence",
+      "alt_names": [],
+      "category": "monument",
+      "coordinates": {
+        "lat": 40.68948616671343,
+        "lon": 46.36765233328467
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7413453459739685,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f90a399b-558b-4225-a8e6-a476d77b56cf",
+          "release": "2026-09-23.1",
+          "source_category": "monument"
+        }
+      ]
+    },
+    {
+      "id": "83946b89-c3e8-5e76-9252-0c3b26fe6fed",
+      "name": "Savxoz",
+      "name_normalized": "savxoz",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.706932,
+        "lon": 46.378456
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7289559841156006,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ca742e53-2d5e-4e6f-b272-985ba527a02a",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "ec4e3d76-d2b2-5790-89a9-80ee66353a4f",
+      "name": "Juma Mosque, Ganja",
+      "name_normalized": "juma mosque ganja",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.67765498449435,
+        "lon": 46.35848404151106
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8270540833473206,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "75a69368-7c1d-45f3-b7fa-459ef3375219",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "19c6b1ed-3ada-5906-ab3a-21e7008e600c",
+      "name": "Şah Abbas Cümə Məscidi",
+      "name_normalized": "sah abbas cume mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.67933,
+        "lon": 46.3488
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9194105267524719,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7197177c-f675-4dd6-a061-2c4e8fb6a02f",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "3dd73f77-219b-5907-90e3-371b3c6440a3",
+      "name": "Mahrasa Bağı",
+      "name_normalized": "mahrasa bagi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.67473367,
+        "lon": 46.34042826
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5079613327980042,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "031b205d-29d4-42ca-a996-8b9cbadd691d",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "ab80f872-b451-5353-8e8f-392566179b94",
+      "name": "Gəncə Xan bağı",
+      "name_normalized": "gence xan bagi",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.676613569781395,
+        "lon": 46.35499886945555
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8011082410812378,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2b39d775-aad6-4baa-abaf-3d6768dd58e3",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "5f91cfff-523e-546b-b141-fc4fbc71ce8e",
+      "name": "Cırtdan Parkı",
+      "name_normalized": "cirtdan parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.677202167,
+        "lon": 46.3582615927
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7371849417686462,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0bc612db-d776-4aa8-b039-096a7c801428",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "21f98069-1aa0-5668-906d-027cf4c674c1",
+      "name": "Heyder Eliyev Parki",
+      "name_normalized": "heyder eliyev parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.671674,
+        "lon": 46.342305
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6180753707885742,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8b456ae7-c8a4-4df5-9423-c7e5bb6cc6de",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "ebd9ac34-5e1c-5e00-a37e-73a33ce2d2dd",
+      "name": "Tələbə Parkı",
+      "name_normalized": "telebe parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.66983509,
+        "lon": 46.34547273
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6247692704200745,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "bd2a0b3b-bb61-473b-b307-a3ba58e72cfa",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "4d4435aa-d1ac-5227-9089-5178c2c78369",
+      "name": "Antalya istirahet merkezi",
+      "name_normalized": "antalya istirahet merkezi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.654299834744,
+        "lon": 46.342833560699
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.43495503067970276,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "eec02570-0fde-462d-9a3c-654f98734e4e",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "d7253208-9e31-556f-81b9-434006beb7d6",
+      "name": "İstiqlal Parkı",
+      "name_normalized": "i stiqlal parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.64187051,
+        "lon": 46.34104614
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5904302000999451,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e4c2b9c8-9df5-4794-a041-120936a57ae9",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "e404b44c-d8e0-5bdf-810d-d86cd57798a8",
+      "name": "Gəncə Olimpiya İdman Kompleksi",
+      "name_normalized": "gence olimpiya i dman kompleksi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.64483,
+        "lon": 46.34451
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5780621767044067,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9f11d0d5-ccd9-4cf2-9942-a1fc6168cebb",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "31a6b60d-3bdb-5f68-9038-aedb5ab1ceba",
+      "name": "S.Rahimov (avtozavod qəsəbəsi)",
+      "name_normalized": "s rahimov avtozavod qesebesi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.64066984935604,
+        "lon": 46.36583574114409
+      },
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7389578819274902,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9040f89f-c556-4f16-a28c-fdfe4f6c34e5",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

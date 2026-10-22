@@ -1,0 +1,78 @@
+{
+  "area_id": "666fc78b-9053-5fe5-b2e6-8156dcdd80c7",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "660af1f3-4958-55f3-918b-e7d7a99bd806",
+      "name": "Qoşqar (vattendrag i Azerbajdzjan)",
+      "name_normalized": "qosqar vattendrag i azerbajdzjan",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.43239,
+        "lon": 45.84506
+      },
+      "area_id": "666fc78b-9053-5fe5-b2e6-8156dcdd80c7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8061936497688293,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7563ad89-276e-4f08-8d33-e97d2a807b8d",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "7e0aa3fb-28fa-5120-a113-5da880e4aac9",
+      "name": "Quşçu",
+      "name_normalized": "quscu",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.55809,
+        "lon": 46.0908
+      },
+      "area_id": "666fc78b-9053-5fe5-b2e6-8156dcdd80c7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8083294630050659,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e259244e-d327-49a2-8b11-bf2fc2b38d20",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "7f26a56e-1234-5bba-8d89-3a8d562ef358",
+      "name": "Daşkəsən rayonu Quşçu körpüsü qəsəbə ümumi orta ümumtəhsil məktəb",
+      "name_normalized": "daskesen rayonu quscu korpusu qesebe umumi orta umumtehsil mekteb",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.55832,
+        "lon": 46.09047
+      },
+      "area_id": "666fc78b-9053-5fe5-b2e6-8156dcdd80c7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.45894110202789307,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "941971d0-b25f-4bdd-8592-757ac87a2b22",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

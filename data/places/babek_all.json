@@ -1,0 +1,126 @@
+{
+  "area_id": "9324a75e-3c25-5db7-a1f5-ad37a0b1694a",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "bece6e94-a053-5526-9944-9c0c23755cf6",
+      "name": "Istochnik Sirab",
+      "name_normalized": "istochnik sirab",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.30895,
+        "lon": 45.54033
+      },
+      "area_id": "9324a75e-3c25-5db7-a1f5-ad37a0b1694a",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7951884269714355,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "42cb6c9c-1612-4a5b-8a53-7aa810f39221",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "031c7a2e-d78c-5325-9aaf-13ca28c49ddb",
+      "name": "Sirab (vattendrag)",
+      "name_normalized": "sirab vattendrag",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.29565,
+        "lon": 45.491
+      },
+      "area_id": "9324a75e-3c25-5db7-a1f5-ad37a0b1694a",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7855327129364014,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "929b16ed-be8f-417f-9914-3d2d122462d3",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "e81c4a35-fcea-576e-b1d2-5e5709b6de88",
+      "name": "Babek",
+      "name_normalized": "babek",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.150842827908,
+        "lon": 45.447382857349
+      },
+      "area_id": "9324a75e-3c25-5db7-a1f5-ad37a0b1694a",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.4416316747665405,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c1f217df-39cd-481c-b3bd-7859f88df4e9",
+          "release": "2026-09-23.1",
+          "source_category": "castle"
+        }
+      ]
+    },
+    {
+      "id": "4312f4fe-334e-5721-bad0-c9596818d2a0",
+      "name": "Şəkərabad",
+      "name_normalized": "sekerabad",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.19228,
+        "lon": 45.43676
+      },
+      "area_id": "9324a75e-3c25-5db7-a1f5-ad37a0b1694a",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.809441089630127,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "da25ef37-01dd-4b5d-a4a4-3360713ce2ea",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "170928b7-cbea-5e1d-a49a-78e0ae3d0b56",
+      "name": "Nehrem",
+      "name_normalized": "nehrem",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 39.11696268731281,
+        "lon": 45.47409436097236
+      },
+      "area_id": "9324a75e-3c25-5db7-a1f5-ad37a0b1694a",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6530663371086121,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "69158695-4ace-40f0-bb78-1624631b33b9",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    }
+  ]
+}

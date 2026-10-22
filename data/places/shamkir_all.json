@@ -1,0 +1,390 @@
+{
+  "area_id": "e81a5840-32d7-5889-98a6-69120e5d7ed7",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "2b892d3e-ed18-5da1-b5b5-b654194194bb",
+      "name": "Zəyəm",
+      "name_normalized": "zeyem",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.9033,
+        "lon": 45.88564
+      },
+      "area_id": "e81a5840-32d7-5889-98a6-69120e5d7ed7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7069635987281799,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "87a2950f-9bc1-4dad-bec8-b0de1740e223",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "25eea4f3-651c-577f-8daa-a6aab34f0548",
+      "name": "Qaranlıq Çayı",
+      "name_normalized": "qaranliq cayi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.8545,
+        "lon": 45.8944
+      },
+      "area_id": "e81a5840-32d7-5889-98a6-69120e5d7ed7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7837744951248169,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6697aedf-bd3b-4e13-8e97-75bd8f77a86f",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "48a7ee95-9b6c-5b61-8fca-788650d28f63",
+      "name": "Atabek",
+      "name_normalized": "atabek",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.75204,
+        "lon": 45.82218
+      },
+      "area_id": "e81a5840-32d7-5889-98a6-69120e5d7ed7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7943592667579651,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "58d7965d-932f-4743-9127-29ab20f1d85e",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "461ee68f-f383-528d-820c-d9dee243164f",
+      "name": "German Heritage Center",
+      "name_normalized": "german heritage center",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.83384720000001,
+        "lon": 46.02163329999999
+      },
+      "area_id": "e81a5840-32d7-5889-98a6-69120e5d7ed7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8743937015533447,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c515fd28-b679-481e-812f-5347f6b5ddba",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "c2110e4e-965c-5167-9252-9f3b2133a9aa",
+      "name": "Semkir Xeqani Parki",
+      "name_normalized": "semkir xeqani parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.835095890836,
+        "lon": 46.022193543656
+      },
+      "area_id": "e81a5840-32d7-5889-98a6-69120e5d7ed7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.747132420539856,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "30a7be3f-462f-48e2-b52b-65a8b0c6c82c",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "757bb57f-12bf-5347-ae95-6ff2d2e07952",
+      "name": "İstiqlal parkı",
+      "name_normalized": "i stiqlal parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.82978349,
+        "lon": 46.02307996
+      },
+      "area_id": "e81a5840-32d7-5889-98a6-69120e5d7ed7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6846721172332764,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9586c0d0-182f-40b3-986e-9e34bb9cbef9",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "0f6d6266-57ee-5346-ae2e-62ff56bb6022",
+      "name": "Məscid",
+      "name_normalized": "mescid",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.82955,
+        "lon": 46.02388
+      },
+      "area_id": "e81a5840-32d7-5889-98a6-69120e5d7ed7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7111128568649292,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "79adb5ad-77ef-4942-b931-d94737928205",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "47ed3e82-d961-5e54-8d78-c2a6706b7967",
+      "name": "Düyərli Kənd Kitabxanası",
+      "name_normalized": "duyerli kend kitabxanasi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.8297,
+        "lon": 46.0189
+      },
+      "area_id": "e81a5840-32d7-5889-98a6-69120e5d7ed7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6522992849349976,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "bdfd1077-2b79-4081-8ae6-77fa5f21ceb3",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "81566746-320c-52e2-a0d2-f928af150253",
+      "name": "German Heritage Center",
+      "name_normalized": "german heritage center",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.82881375,
+        "lon": 46.01668728
+      },
+      "area_id": "e81a5840-32d7-5889-98a6-69120e5d7ed7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7868833541870117,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e7536467-f70c-45a3-9060-eb5bd4d779da",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "5849f51d-3c48-51df-9b24-fd54240430ac",
+      "name": "Shamkir Azerbaycan abideler parkı",
+      "name_normalized": "shamkir azerbaycan abideler parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.82453,
+        "lon": 46.01503
+      },
+      "area_id": "e81a5840-32d7-5889-98a6-69120e5d7ed7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5818623900413513,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "51454271-2057-4c61-8928-1f46f850f0a4",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "5ff82bad-888f-54dc-af61-781ad0c6840a",
+      "name": "Gədəbəy-Kadabek",
+      "name_normalized": "gedebey kadabek",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.8178,
+        "lon": 46.1106
+      },
+      "area_id": "e81a5840-32d7-5889-98a6-69120e5d7ed7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8764460682868958,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "94b6f56d-2ee0-430c-98f4-cc9da22d32e8",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "e2b62358-76df-5196-9bcf-148fcf8e97f9",
+      "name": "Shamkhorskiy Rayon",
+      "name_normalized": "shamkhorskiy rayon",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.83333,
+        "lon": 46.08333
+      },
+      "area_id": "e81a5840-32d7-5889-98a6-69120e5d7ed7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8037704825401306,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "08cff516-c69f-47b0-8cb0-56d4806bba0f",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "472fede6-e12e-5cea-ba99-bbc708e855d2",
+      "name": "Haydar Aliyev Park",
+      "name_normalized": "haydar aliyev park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.843384,
+        "lon": 46.02768
+      },
+      "area_id": "e81a5840-32d7-5889-98a6-69120e5d7ed7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8096457123756409,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "70f740d6-6f0c-427a-991b-c025521cae68",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "a4d2e0a7-decf-584e-aa44-9090f4d725da",
+      "name": "Shemkir rayonu",
+      "name_normalized": "shemkir rayonu",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.850773,
+        "lon": 46.032449
+      },
+      "area_id": "e81a5840-32d7-5889-98a6-69120e5d7ed7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7704888582229614,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0d910a66-71fe-4dfa-a01c-001c2e3b159d",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "c3c043ec-db68-501f-ad10-7ae6a196258f",
+      "name": "Shamkir Olympic Sports Complex",
+      "name_normalized": "shamkir olympic sports complex",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.85441782,
+        "lon": 46.03577136
+      },
+      "area_id": "e81a5840-32d7-5889-98a6-69120e5d7ed7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8132098913192749,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "df796bb8-fdfb-4ae0-92c0-39ce3716b2d6",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "0c95f9e0-12fa-5718-890a-4289d9407dac",
+      "name": "Şəmkir Gülçülük OKİ",
+      "name_normalized": "semkir gulculuk oki",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.89148697,
+        "lon": 45.98938528
+      },
+      "area_id": "e81a5840-32d7-5889-98a6-69120e5d7ed7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.24950507283210754,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e23fe3ac-608c-4255-98bd-e6a7b3cd09f6",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    }
+  ]
+}

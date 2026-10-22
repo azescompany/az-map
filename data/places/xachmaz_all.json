@@ -1,0 +1,438 @@
+{
+  "area_id": "45206736-f118-53dd-8252-b8d32a2b5cba",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "a2fb56aa-5781-5932-ab91-af9b3d6d5f83",
+      "name": "Qusarçay (vattendrag)",
+      "name_normalized": "qusarcay vattendrag",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.60576,
+        "lon": 48.84936
+      },
+      "area_id": "45206736-f118-53dd-8252-b8d32a2b5cba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7911381125450134,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "35eaec42-21cf-4e69-a1a9-c107731670ab",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "89af0f2b-9ce6-586d-8c8f-af0beab764ee",
+      "name": "Dəvəçi Ovalığı",
+      "name_normalized": "deveci ovaligi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.58333,
+        "lon": 48.8
+      },
+      "area_id": "45206736-f118-53dd-8252-b8d32a2b5cba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7919632792472839,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4aa1deb3-fcf6-467b-9ce9-6af445c31cd9",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "436d0eac-c244-548f-9b61-6700a199ecc5",
+      "name": "Çoban Bulaq",
+      "name_normalized": "coban bulaq",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.582381,
+        "lon": 48.715274
+      },
+      "area_id": "45206736-f118-53dd-8252-b8d32a2b5cba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5880019068717957,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e387791d-2543-47a6-a37f-a44194e02265",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "7ca5e962-fbf2-53cf-9054-8016e80b7595",
+      "name": "Zəfər Parkı",
+      "name_normalized": "zefer parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.46903439,
+        "lon": 48.79725363
+      },
+      "area_id": "45206736-f118-53dd-8252-b8d32a2b5cba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.4032847285270691,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8ed9f06e-0b49-4baf-819d-444fb5d38ba4",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "522abbdc-8784-55ed-8f29-826f95bdad60",
+      "name": "Xalça Muzeyi",
+      "name_normalized": "xalca muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 41.46516072,
+        "lon": 48.80069259
+      },
+      "area_id": "45206736-f118-53dd-8252-b8d32a2b5cba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7444782257080078,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f603d42d-3514-4dcb-86b6-777b37ef01f5",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "a5c45d17-566b-58c3-9ea8-58ceb658bf1d",
+      "name": "Şəxsiyyətlər Parkı",
+      "name_normalized": "sexsiyyetler parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.46547881,
+        "lon": 48.80524044
+      },
+      "area_id": "45206736-f118-53dd-8252-b8d32a2b5cba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7695330381393433,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9cdb7e26-f43a-45ea-bc6c-47833e5264e6",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "0d1a3175-5d15-5efb-b942-7c08cdbbd5f0",
+      "name": "Хачмас",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.46426,
+        "lon": 48.80565
+      },
+      "area_id": "45206736-f118-53dd-8252-b8d32a2b5cba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7519047856330872,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2b5a7660-4ae7-42a6-ae89-47aa925821f2",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "967a63f4-e0d7-5ba6-9747-d4954eb8fbc0",
+      "name": "Xaçmaz parkı",
+      "name_normalized": "xacmaz parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.455892077857,
+        "lon": 48.805168979285
+      },
+      "area_id": "45206736-f118-53dd-8252-b8d32a2b5cba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6744984984397888,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a2e2b4a1-aaa0-4ea0-a696-e56371d413db",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "bde064bb-8b9b-5a4e-8665-e09a319bb1b7",
+      "name": "Xaçmaz MKS - Uşaq Şöbəsi",
+      "name_normalized": "xacmaz mks usaq sobesi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.4708,
+        "lon": 48.8097
+      },
+      "area_id": "45206736-f118-53dd-8252-b8d32a2b5cba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5576494932174683,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "653eae45-c30e-42af-9769-42634a28150e",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "62f191d0-44a7-5dbf-955e-2cca4f54b591",
+      "name": "Çənlibel Park",
+      "name_normalized": "cenlibel park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.44073375,
+        "lon": 48.80013737
+      },
+      "area_id": "45206736-f118-53dd-8252-b8d32a2b5cba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.31040364503860474,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b1db3ec8-df6a-4c8c-bbe2-1ee407b3ef0d",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "16d96548-517a-5930-9c6d-31e2cd44cb66",
+      "name": "Xaçmaz Şəhər Bayraq Meydanı",
+      "name_normalized": "xacmaz seher bayraq meydani",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.44268109,
+        "lon": 48.79866082
+      },
+      "area_id": "45206736-f118-53dd-8252-b8d32a2b5cba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.2930596172809601,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "09040fec-b0f5-4129-ac4c-54109e5a2939",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "cebc3366-66c4-5aef-be43-32aa320d0b1f",
+      "name": "Qıraqlı kəndi Qələbə Parkı",
+      "name_normalized": "qiraqli kendi qelebe parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.49447427,
+        "lon": 48.64005333
+      },
+      "area_id": "45206736-f118-53dd-8252-b8d32a2b5cba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7797526121139526,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6687f497-8dd7-4d15-a462-6f4b5024e4b6",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "0d2bbb3a-976c-5e5b-9410-3ca0d5809df4",
+      "name": "Khudat's Forest",
+      "name_normalized": "khudat s forest",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.630889,
+        "lon": 48.678483
+      },
+      "area_id": "45206736-f118-53dd-8252-b8d32a2b5cba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5513526797294617,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1efdef78-dcaa-48fb-91b2-092ba61d663a",
+          "release": "2026-09-23.1",
+          "source_category": "castle"
+        }
+      ]
+    },
+    {
+      "id": "2ca04cba-11ee-5e2f-bab0-e3e5368d3826",
+      "name": "Muqtadir",
+      "name_normalized": "muqtadir",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.6641666667,
+        "lon": 48.7805555556
+      },
+      "area_id": "45206736-f118-53dd-8252-b8d32a2b5cba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7063513994216919,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d0e4353a-af85-4d17-9593-11942302cddd",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "7c10c5ad-7acc-572a-a618-a4781a66297d",
+      "name": "Jungle Beach",
+      "name_normalized": "jungle beach",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.75111989,
+        "lon": 48.70802935
+      },
+      "area_id": "45206736-f118-53dd-8252-b8d32a2b5cba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.2922138273715973,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3c9b4421-1ac8-4595-98b8-425f1e107795",
+          "release": "2026-09-23.1",
+          "source_category": "beach"
+        }
+      ]
+    },
+    {
+      "id": "86dc10f0-a775-5c33-a0a6-617b49d0f621",
+      "name": "Nabran Ev",
+      "name_normalized": "nabran ev",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.764332001922,
+        "lon": 48.692863114451
+      },
+      "area_id": "45206736-f118-53dd-8252-b8d32a2b5cba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5435890555381775,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6194eb12-5891-4421-90ad-f9d840739e10",
+          "release": "2026-09-23.1",
+          "source_category": "beach"
+        }
+      ]
+    },
+    {
+      "id": "d20b87af-2d4c-5370-988b-3fd0967baa2f",
+      "name": "Sunset beach. Nabran.",
+      "name_normalized": "sunset beach nabran",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.7643945109,
+        "lon": 48.6933575522
+      },
+      "area_id": "45206736-f118-53dd-8252-b8d32a2b5cba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7685620188713074,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b1eb712a-81f8-44fd-84d5-809ccb195d02",
+          "release": "2026-09-23.1",
+          "source_category": "beach"
+        }
+      ]
+    },
+    {
+      "id": "125fd342-97ef-5722-8b19-156fd63b172e",
+      "name": "Tel Bulaq",
+      "name_normalized": "tel bulaq",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.783466,
+        "lon": 48.627334
+      },
+      "area_id": "45206736-f118-53dd-8252-b8d32a2b5cba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7396430969238281,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "774b835d-f249-4200-a510-c4b70cbe6dc9",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "area_id": "a26e4ff2-54c0-5c88-b180-5020d105d64d",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "0d0182ad-e14e-5dd5-b007-4f4f44be29ea",
+      "name": "Məlikkənd",
+      "name_normalized": "melikkend",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.53353,
+        "lon": 47.78815
+      },
+      "area_id": "a26e4ff2-54c0-5c88-b180-5020d105d64d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8012564778327942,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "194ceda4-29b6-44cc-a1ac-db0d21279459",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "91b66d15-7fd8-5e9e-b220-38fd0d3dd89c",
+      "name": "Hacalıkənd",
+      "name_normalized": "hacalikend",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.62655,
+        "lon": 47.813
+      },
+      "area_id": "a26e4ff2-54c0-5c88-b180-5020d105d64d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8010455965995789,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b57e7078-e9e8-4289-8f41-1d56bb90a90b",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "07b5fe17-81f8-5e12-8429-9d7b82034d27",
+      "name": "Карамарьям",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.61269,
+        "lon": 48.01498
+      },
+      "area_id": "a26e4ff2-54c0-5c88-b180-5020d105d64d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8037704825401306,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f8eef39e-4733-4907-b5e8-29a4c9232ec2",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "9d815068-0fa5-527e-ab8f-82f9ec7529b3",
+      "name": "Gora Karagush",
+      "name_normalized": "gora karagush",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.6032,
+        "lon": 48.0654
+      },
+      "area_id": "a26e4ff2-54c0-5c88-b180-5020d105d64d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.786430299282074,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1fd01e90-f5b9-4439-b9b2-094d8f25334c",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "bb5c0a25-e20e-5c13-84e1-12f3813c1c84",
+      "name": "Shakhadat",
+      "name_normalized": "shakhadat",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.63212,
+        "lon": 47.71209
+      },
+      "area_id": "a26e4ff2-54c0-5c88-b180-5020d105d64d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7848480343818665,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5b4b1b3f-7708-443b-8108-04e956163552",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "dc12e7f8-4895-5a54-9ab5-39b91cf737a9",
+      "name": "Əbəlfəzil abbas məscidi",
+      "name_normalized": "ebelfezil abbas mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.65202408980596,
+        "lon": 47.739319431648724
+      },
+      "area_id": "a26e4ff2-54c0-5c88-b180-5020d105d64d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6872884035110474,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "41faa336-b521-491e-8bc2-45b8fba2626d",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "b849f1ce-3ed3-58d3-bc92-0a6f16ad087f",
+      "name": "Çərəkə Göl İstirahət Mərkəzi",
+      "name_normalized": "cereke gol i stirahet merkezi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.64924039333896,
+        "lon": 47.75103096332783
+      },
+      "area_id": "a26e4ff2-54c0-5c88-b180-5020d105d64d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8305167555809021,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a1505501-4b73-414b-89a2-943a97c47424",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "b65a8795-688a-54d8-aecf-b7555f55a81a",
+      "name": "Геокчай",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.65055,
+        "lon": 47.74219
+      },
+      "area_id": "a26e4ff2-54c0-5c88-b180-5020d105d64d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7475672364234924,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e31b3d43-6dae-4e2d-b12e-f2980c48e045",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "d6021a8b-c9bf-58e6-aebb-12492fc48e0c",
+      "name": "Əli Kərim Parkı",
+      "name_normalized": "eli kerim parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.650182593006,
+        "lon": 47.74277219879
+      },
+      "area_id": "a26e4ff2-54c0-5c88-b180-5020d105d64d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6379517316818237,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "bc4905f1-6caa-4983-97f8-6cb0d4712a38",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "5ff69837-d001-58a8-b93f-e4598c36288e",
+      "name": "Göyçay Şəhər Məhkəməsi",
+      "name_normalized": "goycay seher mehkemesi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.65142,
+        "lon": 47.74144
+      },
+      "area_id": "a26e4ff2-54c0-5c88-b180-5020d105d64d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5736477971076965,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9ee921ba-db5d-409e-a597-68aa967057d9",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "dc558ccb-eab8-50b8-80c6-cd0b3e990873",
+      "name": "Goycay Stadion",
+      "name_normalized": "goycay stadion",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.65168707140937,
+        "lon": 47.73322172683056
+      },
+      "area_id": "a26e4ff2-54c0-5c88-b180-5020d105d64d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8240500688552856,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3370f950-e1d2-401b-b9db-9104755c2e1e",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "0b125635-6bb4-50d2-9793-268c8ad05b78",
+      "name": "Göyçay Olimpiya İdman Komleksi",
+      "name_normalized": "goycay olimpiya i dman komleksi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.638446295579,
+        "lon": 47.765808105469
+      },
+      "area_id": "a26e4ff2-54c0-5c88-b180-5020d105d64d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.887134313583374,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5f465fe9-401e-49f5-b37a-d7226e192f81",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "dea35eaf-8964-55a2-832d-7195c0c829aa",
+      "name": "Qarabaqqal Cümə Məscidi",
+      "name_normalized": "qarabaqqal cume mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.64106435714287,
+        "lon": 47.787159685714265
+      },
+      "area_id": "a26e4ff2-54c0-5c88-b180-5020d105d64d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7992767691612244,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "389216aa-bbe9-498b-a7f7-67b6a2db0570",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    }
+  ]
+}

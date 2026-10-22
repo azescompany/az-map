@@ -1,0 +1,15 @@
+{
+  "rayon": "Sədərək rayonu",
+  "verified_settlements": [
+    "Dəmirçi",
+    "Heydərabad",
+    "Qaraağac",
+    "Sədərək"
+  ],
+  "conflicts": [],
+  "places": 0,
+  "areas_total": 3356,
+  "generated_at": "2026-10-22T07:08:57.263637+00:00",
+  "osm_release": "azerbaijan-261020",
+  "overture_release": "2026-09-23.1"
+}

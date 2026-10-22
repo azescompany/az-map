@@ -1,0 +1,198 @@
+{
+  "area_id": "6454c0d8-662c-5533-8a2e-8bc7b34dcdfa",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "9a29919c-709b-5d33-94c8-51a5eb2836f0",
+      "name": "Vardablur Lerr",
+      "name_normalized": "vardablur lerr",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.85603,
+        "lon": 46.91829
+      },
+      "area_id": "6454c0d8-662c-5533-8a2e-8bc7b34dcdfa",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8037704825401306,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "099e9304-5e78-4963-9b55-a792f0de4bdf",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "bd8e3ecc-8077-58c8-bb56-52f50c42c9fd",
+      "name": "Merzili, Agdam, Azerbaycan",
+      "name_normalized": "merzili agdam azerbaycan",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.93162,
+        "lon": 47.05554
+      },
+      "area_id": "6454c0d8-662c-5533-8a2e-8bc7b34dcdfa",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.4576835334300995,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "88ea527f-d856-4a3c-892f-e119e3378047",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "8d071268-6942-5357-a3c3-93dff2e79059",
+      "name": "Ağdam Olimpiya Idman Kompleksi.",
+      "name_normalized": "agdam olimpiya idman kompleksi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 39.99749,
+        "lon": 46.92668
+      },
+      "area_id": "6454c0d8-662c-5533-8a2e-8bc7b34dcdfa",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5002993941307068,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "52618207-39d2-4992-a444-50bdcd336450",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "19922b78-4f3c-51e6-ab4e-827c65086428",
+      "name": "Ağdam Çörək Muzeyi",
+      "name_normalized": "agdam corek muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 39.99156021,
+        "lon": 46.93175332
+      },
+      "area_id": "6454c0d8-662c-5533-8a2e-8bc7b34dcdfa",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.24313083291053772,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "97562ed7-dd64-48bb-9313-febd70a547d1",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "f8d830c3-6b05-5957-8fc5-9f5a447605cb",
+      "name": "İmarət stadionu",
+      "name_normalized": "i maret stadionu",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 39.989962691237,
+        "lon": 46.927963
+      },
+      "area_id": "6454c0d8-662c-5533-8a2e-8bc7b34dcdfa",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8314895033836365,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c9671810-e7c6-4a4a-960e-c1d3f00e1e56",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "c87c4629-2edd-5325-9a6a-5c4c6d1af355",
+      "name": "Hovvasar Lerr (berg i Azerbajdzjan, Aghdam)",
+      "name_normalized": "hovvasar lerr berg i azerbajdzjan aghdam",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.07495,
+        "lon": 46.88897
+      },
+      "area_id": "6454c0d8-662c-5533-8a2e-8bc7b34dcdfa",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7975567579269409,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "79697193-41d6-4bbc-a7ea-f0c574e0c3fc",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "0a4084b1-419b-5b01-8bb3-4a4170d5a6d1",
+      "name": "Papravand Mausoleum",
+      "name_normalized": "papravand mausoleum",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.157047,
+        "lon": 46.841712
+      },
+      "area_id": "6454c0d8-662c-5533-8a2e-8bc7b34dcdfa",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.808864951133728,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8fd63f40-488d-4c05-b659-c4f1df28181f",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "36cb8bab-f45f-5480-abb2-aa7600c40117",
+      "name": "Agdam City Center",
+      "name_normalized": "agdam city center",
+      "alt_names": [],
+      "category": "monument",
+      "coordinates": {
+        "lat": 40.156685969539,
+        "lon": 47.161992750546
+      },
+      "area_id": "6454c0d8-662c-5533-8a2e-8bc7b34dcdfa",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7548972964286804,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f3e63b5f-1445-4d28-9818-f8d0702d5017",
+          "release": "2026-09-23.1",
+          "source_category": "monument"
+        }
+      ]
+    }
+  ]
+}

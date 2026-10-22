@@ -1,0 +1,318 @@
+{
+  "category": "monument",
+  "scope": "baki_rayons",
+  "places": [
+    {
+      "id": "3189b58f-a1a8-576f-8da7-3c12531abbfe",
+      "name": "Koroğlu Heykəli",
+      "name_normalized": "koroglu heykeli",
+      "alt_names": [],
+      "category": "monument",
+      "coordinates": {
+        "lat": 40.392320798334225,
+        "lon": 49.842339614086704
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5771521925926208,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e3eac221-fc7e-4fc5-a011-1d20b7d7c1b5",
+          "release": "2026-09-23.1",
+          "source_category": "monument"
+        }
+      ]
+    },
+    {
+      "id": "ee0918a6-9002-5882-ac3e-1a68aea52e17",
+      "name": "Bayıl Qəsri",
+      "name_normalized": "bayil qesri",
+      "alt_names": [],
+      "category": "monument",
+      "coordinates": {
+        "lat": 40.35345,
+        "lon": 49.83702
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5532379746437073,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "21022cd0-94b1-4ccd-a950-6ee124f00e1b",
+          "release": "2026-09-23.1",
+          "source_category": "monument"
+        }
+      ]
+    },
+    {
+      "id": "ad5e787a-bb1b-500f-b6fc-0ddc3c8d1c46",
+      "name": "Baku Turkish Martyrs' Memorial",
+      "name_normalized": "baku turkish martyrs memorial",
+      "alt_names": [],
+      "category": "monument",
+      "coordinates": {
+        "lat": 40.35777778,
+        "lon": 49.82777778
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.823441207408905,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6e7942bd-7442-476f-8f5f-45797593ee0f",
+          "release": "2026-09-23.1",
+          "source_category": "monument"
+        }
+      ]
+    },
+    {
+      "id": "5bdc30c4-5b20-5836-8594-2a7fd1af2c29",
+      "name": "Şəhidlər Xiyabanı",
+      "name_normalized": "sehidler xiyabani",
+      "alt_names": [],
+      "category": "monument",
+      "coordinates": {
+        "lat": 40.35645696853,
+        "lon": 49.828879955991
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9388145226240158,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2576124a-0d36-4511-8c55-29df8b2028ca",
+          "release": "2026-09-23.1",
+          "source_category": "monument"
+        }
+      ]
+    },
+    {
+      "id": "25bb13cc-58be-5d5b-b79a-b364d81f5663",
+      "name": "Azerbaycan Xalq Cumhuriyyeti Monument",
+      "name_normalized": "azerbaycan xalq cumhuriyyeti monument",
+      "alt_names": [],
+      "category": "monument",
+      "coordinates": {
+        "lat": 40.368128,
+        "lon": 49.832677
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.662179708480835,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ba42c0ad-5f9e-4e45-b0f9-cb296e4eb2b3",
+          "release": "2026-09-23.1",
+          "source_category": "monument"
+        }
+      ]
+    },
+    {
+      "id": "43947bf1-bc8d-5cd0-80ac-893dd4b98234",
+      "name": "Monument to Mirza Alakbar Sabir",
+      "name_normalized": "monument to mirza alakbar sabir",
+      "alt_names": [],
+      "category": "monument",
+      "coordinates": {
+        "lat": 40.36862363,
+        "lon": 49.8344446
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7339669466018677,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "09d191d5-822b-4c94-a75c-6fcd719e16cf",
+          "release": "2026-09-23.1",
+          "source_category": "monument"
+        }
+      ]
+    },
+    {
+      "id": "ca1984d0-b512-5af1-aa07-fb3baa6ea906",
+      "name": "Natavan Monument",
+      "name_normalized": "natavan monument",
+      "alt_names": [],
+      "category": "monument",
+      "coordinates": {
+        "lat": 40.36921583,
+        "lon": 49.8372395
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6923686861991882,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5d370ce5-a6a8-4637-a991-f3dd04c56df4",
+          "release": "2026-09-23.1",
+          "source_category": "monument"
+        }
+      ]
+    },
+    {
+      "id": "3b9ed5ff-e4a9-5f0a-9c98-292c928bad48",
+      "name": "Azerbaijan Youth Foundation",
+      "name_normalized": "azerbaijan youth foundation",
+      "alt_names": [],
+      "category": "monument",
+      "coordinates": {
+        "lat": 40.37229043941572,
+        "lon": 49.84451455627356
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.77,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "82e9649d-5bf9-45b4-ae11-b0fac6bd59fa",
+          "release": "2026-09-23.1",
+          "source_category": "monument"
+        }
+      ]
+    },
+    {
+      "id": "284b1134-e23d-5622-8d49-cca425092a01",
+      "name": "Baku Boulevard",
+      "name_normalized": "baku boulevard",
+      "alt_names": [],
+      "category": "monument",
+      "coordinates": {
+        "lat": 40.3707647,
+        "lon": 49.8376911
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5992569923400879,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4bcab349-31d1-4a3b-988b-dd98db3cb0f0",
+          "release": "2026-09-23.1",
+          "source_category": "monument"
+        }
+      ]
+    },
+    {
+      "id": "833db382-58da-5c48-8b55-93afef7339ca",
+      "name": "Khojaly Genocide Memorial",
+      "name_normalized": "khojaly genocide memorial",
+      "alt_names": [],
+      "category": "monument",
+      "coordinates": {
+        "lat": 40.382991,
+        "lon": 49.873932
+      },
+      "area_id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.799624502658844,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "658c264e-d6a2-4c67-af93-8c3cc0a7a34b",
+          "release": "2026-09-23.1",
+          "source_category": "monument"
+        }
+      ]
+    },
+    {
+      "id": "f8ed0c0e-6a1f-5dee-a60f-029b339d2fc5",
+      "name": "Ana Harayı Abidesi",
+      "name_normalized": "ana harayi abidesi",
+      "alt_names": [],
+      "category": "monument",
+      "coordinates": {
+        "lat": 40.38300955,
+        "lon": 49.87392664
+      },
+      "area_id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.38190025091171265,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8dea244e-f784-4c18-9b29-b705ce05f191",
+          "release": "2026-09-23.1",
+          "source_category": "monument"
+        }
+      ]
+    },
+    {
+      "id": "54559bfe-89b7-58ce-adeb-8fda686c9b3a",
+      "name": "Şah İsmayıl Xətainin Büstü",
+      "name_normalized": "sah i smayil xetainin bustu",
+      "alt_names": [],
+      "category": "monument",
+      "coordinates": {
+        "lat": 40.38389,
+        "lon": 49.87607
+      },
+      "area_id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5962640047073364,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c49aab8e-df97-4948-89b5-d4fb81f06089",
+          "release": "2026-09-23.1",
+          "source_category": "monument"
+        }
+      ]
+    },
+    {
+      "id": "000b9aea-4600-59be-bb88-8157cec79862",
+      "name": "Razin Mağarası",
+      "name_normalized": "razin magarasi",
+      "alt_names": [],
+      "category": "monument",
+      "coordinates": {
+        "lat": 40.42714,
+        "lon": 49.95181
+      },
+      "area_id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6592862606048584,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "45881a80-6048-4c4c-8ec2-84febcfcc8c3",
+          "release": "2026-09-23.1",
+          "source_category": "monument"
+        }
+      ]
+    }
+  ]
+}

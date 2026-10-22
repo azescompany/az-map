@@ -125,13 +125,23 @@ export type PlaceCategory =
   | "government"
   | "other_poi";
 
+export type NameStatus = "named" | "unnamed" | "needs_review";
+
 export interface Place {
   id: string;
   name: string;
   name_normalized: string;
   alt_names: string[];
+  /** UI-safe display name; null when unnamed (hidden from users). */
+  displayName?: string | null;
+  nameStatus?: NameStatus;
+  /** Naming completeness — independent from geographic verification. */
+  verificationStatus?: string | null;
   category: PlaceCategory | string;
   coordinates: PlaceCoordinates;
+  /** Optional place footprint; most pilot places are points only. */
+  boundary_file?: string | null;
+  geometry_type?: "Point" | "Polygon" | "MultiPolygon" | null;
   area_id: string | null;
   area_assign_method: string | null;
   area_assign_status: ParentStatus | string | null;

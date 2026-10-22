@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "62c0f68d-053b-5f69-9feb-5c6efaa9b8ae",
+      "properties": {
+        "id": "62c0f68d-053b-5f69-9feb-5c6efaa9b8ae",
+        "name": "Meydan",
+        "type": "neighborhood",
+        "parent_id": "953def2b-b93d-5343-acd7-ef5cffbd9eba",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.6628226,
+              39.9243273
+            ],
+            [
+              46.6626697,
+              39.9244239
+            ],
+            [
+              46.6626348,
+              39.9244178
+            ],
+            [
+              46.6626147,
+              39.9243602
+            ],
+            [
+              46.6626858,
+              39.9242882
+            ],
+            [
+              46.6627649,
+              39.9242604
+            ],
+            [
+              46.6628226,
+              39.9243273
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

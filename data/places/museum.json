@@ -1,5 +1,6 @@
 {
   "category": "museum",
+  "scope": "baki_rayons",
   "places": [
     {
       "id": "94603391-0c34-5d43-89f5-ef29af37701c",
@@ -140,6 +141,1974 @@
         {
           "source": "osm",
           "source_id": "node/9791242002",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "fd42a760-b145-5e92-831f-b35cbf47d6ef",
+      "name": "Azərbaycan Dövlət Filarmoniyasının kamera və orqan musiqisi zalı",
+      "name_normalized": "azerbaycan dovlet filarmoniyasinin kamera ve orqan musiqisi zali",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.37683466,
+        "lon": 49.84771033
+      },
+      "area_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6366528272628784,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1bcaa282-454f-42e3-b247-ddef0f75e295",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "8d9acbed-0946-5b1c-a78a-8b9277f0ef54",
+      "name": "Niyazinin Mənzil-Muzeyi",
+      "name_normalized": "niyazinin menzil muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.37464133,
+        "lon": 49.8432622
+      },
+      "area_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7876854538917542,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5c383e04-cba0-40dc-bb3f-30078717b08e",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "b242e53f-0ca3-5624-9ac7-096e89b0de85",
+      "name": "Əzim Əzimzadənin Ev Muzeyi",
+      "name_normalized": "ezim ezimzadenin ev muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.37528787,
+        "lon": 49.83712694
+      },
+      "area_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6111343502998352,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7f716be4-1016-404f-9bc4-531f53b8ab62",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "61195c5a-49e7-5276-8d4a-00e1c2c886d2",
+      "name": "Museum Center",
+      "name_normalized": "museum center",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.373876,
+        "lon": 49.843301
+      },
+      "area_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6515824794769287,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2e47abfb-2202-4c7b-b2e1-8cc2de2693fa",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "c4a8c697-d983-5c27-87d6-85eb5475ce6b",
+      "name": "Haider Ali Museum; Baku ; Azarbaijan",
+      "name_normalized": "haider ali museum baku azarbaijan",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3961518,
+        "lon": 49.8168022
+      },
+      "area_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.703123927116394,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c25cb920-a0e3-4945-ba47-b2f6db4ee851",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "acc6c25a-54d2-5339-a6d2-07bd4f359b67",
+      "name": "Azərbaycan Dəmiryol Muzeyi",
+      "name_normalized": "azerbaycan demiryol muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.37972199,
+        "lon": 49.84801182
+      },
+      "area_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8315396904945374,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7762c4f4-68d2-4545-9f28-c6f22c165549",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "a029f771-a190-5f4c-8570-c5029cd1ff07",
+      "name": "Niyazinin ev-muzeyi",
+      "name_normalized": "niyazinin ev muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3748526,
+        "lon": 49.8430356
+      },
+      "area_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/1889750062",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "4f76be73-7dd8-5b67-8a29-6c55f607fb37",
+      "name": "Təhsil Muzeyi",
+      "name_normalized": "tehsil muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3922253,
+        "lon": 49.8614234
+      },
+      "area_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/2035130642",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "9a6d78f4-4495-5ad3-b88f-3d555c98e3a2",
+      "name": "Elçin Abbasov İnteraktiv Elm Muzeyi",
+      "name_normalized": "elcin abbasov i nteraktiv elm muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.4000704,
+        "lon": 49.8132102
+      },
+      "area_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/12492174501",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "78e5a2fa-a9e8-53a2-a3a2-e352571d0b5d",
+      "name": "Museum",
+      "name_normalized": "museum",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.409264,
+        "lon": 49.867092
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5109581351280212,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0ba11024-c533-4536-a58e-641ec948a16a",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "dc2aa801-5bcf-5359-888f-bf2fe9c14e69",
+      "name": "Mini_Azerbaijan/buldings,sights",
+      "name_normalized": "mini azerbaijan buldings sights",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.396131,
+        "lon": 49.866652
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.4712652862071991,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b93712a1-74a1-47fe-8e36-538d84a4f052",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "88247bbe-0d82-56ff-9cb3-cf9c66f0543e",
+      "name": "Azerbaycan Mülki Aviasiya Muzeyi",
+      "name_normalized": "azerbaycan mulki aviasiya muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3953,
+        "lon": 49.8822
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6999360918998718,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "eb3621f4-b982-416d-b823-829677c793ad",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "a4a678df-052d-5c01-8cf7-9ef03218bd53",
+      "name": "Semed Vurğun",
+      "name_normalized": "semed vurgun",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.400083,
+        "lon": 49.832241
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.46465545892715454,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5c5865db-ec15-49ee-9a40-c921fe854ee9",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "2fe8a5ae-4f30-56e4-a827-2eaf76936774",
+      "name": "Wine Museum Baku",
+      "name_normalized": "wine museum baku",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.414087108292,
+        "lon": 49.904947167286
+      },
+      "area_id": "efdc6d2d-b895-5692-a7c4-724ef5302eda",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8220544457435608,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a93a4ffc-2454-45e7-a213-bb2d1a85f6c1",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "8cc35ca2-9a78-5e80-abce-111984d4cdad",
+      "name": "Biləsuvar Rayon Heydər Əliyev Mərkəzi",
+      "name_normalized": "bilesuvar rayon heyder eliyev merkezi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.426653589539,
+        "lon": 49.826919555664
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8882226943969727,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b6ab377d-5a11-4052-96b5-d218893b6821",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "f7c8f567-12a0-5659-92da-72c1b4be2fe9",
+      "name": "Badamdar Texniki Yaradıcılıq Klubu",
+      "name_normalized": "badamdar texniki yaradiciliq klubu",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.35233379,
+        "lon": 49.80338097
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.2727591097354889,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "70a49bd4-5fa7-4780-aaad-4dbabe87c7c3",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "80057023-f6cf-59de-a7a7-5d01ba302ecb",
+      "name": "Azerbaijan Carpet Museum",
+      "name_normalized": "azerbaijan carpet museum",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.35992296,
+        "lon": 49.83580422
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8364098072052002,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3b86799d-2efd-47fb-8a67-991b466e54b5",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "766e361b-d9cc-5065-a152-894c223a0ead",
+      "name": "Cəbrayıl Tarix-Diyarşünaslıq Muzeyi ",
+      "name_normalized": "cebrayil tarix diyarsunasliq muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.35799,
+        "lon": 49.83571
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6710934042930603,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "405bc2ea-1a7a-432d-a4b1-5d6b0bceb362",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "8a650d7c-b6d3-55b6-85b4-27efb644c63f",
+      "name": "Губернаторский Садик",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3635481444913,
+        "lon": 49.83357192272325
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9111486673355103,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c43c65af-afa6-4105-88c8-0a5a8e66b245",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "f8625e9a-21b8-5ebb-82b2-b33292749584",
+      "name": "Vagif Mustafazadeh's House Museum",
+      "name_normalized": "vagif mustafazadeh s house museum",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.36507119,
+        "lon": 49.83480551
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.37746864557266235,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ec0832f8-2ff5-4f7b-acad-de5e30b53f5d",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "b5f66827-8695-5dbb-936c-8c0281c4161b",
+      "name": "Tolerantlıq Evi (The House of Tolerance)",
+      "name_normalized": "tolerantliq evi the house of tolerance",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.36578222,
+        "lon": 49.83547684
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6004603505134583,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "cc763cba-d7c5-494b-861e-2429cfa4de84",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "5b222add-fea6-5384-8a11-4328c5571891",
+      "name": "Art Salon",
+      "name_normalized": "art salon",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.36510992,
+        "lon": 49.83562982
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5917613506317139,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "af1ce18b-0c84-443b-b738-f2447107ec22",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "f1051261-24a5-57c6-8555-a9a6e9edb1c8",
+      "name": "Miniatür Kitab Muzeyi / Museum of Miniature Books",
+      "name_normalized": "miniatur kitab muzeyi museum of miniature books",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3662243468186,
+        "lon": 49.83260261106092
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.77,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4a1055ee-013a-45cf-b5b2-eaf3a19e0fb1",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "e7aedf8d-7cab-51f7-9b93-b2950ff6a3a6",
+      "name": "Museum of Miniature Books",
+      "name_normalized": "museum of miniature books",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.36632777,
+        "lon": 49.83254124
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7916443347930908,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d21dea7c-11c2-4135-a3a1-93294bb83fe7",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "8996ca1d-714d-5d4c-b25a-cb436b61de09",
+      "name": "Leyla Akhmedova Fashion Museum",
+      "name_normalized": "leyla akhmedova fashion museum",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.36604768,
+        "lon": 49.83592068
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.27140140533447266,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "28ed069c-4566-46f5-9254-ab08ca1873b7",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "cd96a9a4-7f28-555f-a7c4-9efaa9d10eaf",
+      "name": " NAR Gallery",
+      "name_normalized": "nar gallery",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.36607091,
+        "lon": 49.83665295
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7069929242134094,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b89f5763-654d-47dd-88c3-c53d2a83bcfd",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "bddfff03-afbf-5dd0-b0f8-73f9bcba6199",
+      "name": "Museum of Archaeology and Ethnography",
+      "name_normalized": "museum of archaeology and ethnography",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.36766777,
+        "lon": 49.83660305
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.4784805476665497,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b7fc824e-2673-4032-abc5-606f95a49c15",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "2c1d5499-b35c-57bd-81ab-d1e311b7f423",
+      "name": "Nəriman Nərimanovun Xatirə Muzeyi",
+      "name_normalized": "neriman nerimanovun xatire muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.36737463,
+        "lon": 49.83130665
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7863976359367371,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "607db6e6-7c88-4a1d-8ad7-7b50e39df04d",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "39d4a214-48da-533e-a7bb-d9e5b39bd004",
+      "name": "Hussein Javid's Home Museum",
+      "name_normalized": "hussein javid s home museum",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.36811702,
+        "lon": 49.83285238
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6677142977714539,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3993cb45-396e-4e5c-b11a-5509a827e9f1",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "ac582f41-18cf-5737-aa4b-d7b8fa5bd3f4",
+      "name": "AMEA Məhəmməd Füzuli adına Əlyazmalar İnstitutu.  Bərpa labaratoriyası",
+      "name_normalized": "amea mehemmed fuzuli adina elyazmalar i nstitutu berpa labaratoriyasi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.368183,
+        "lon": 49.83277
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.4827578067779541,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7369cd2a-45f5-4222-97bb-e2ccaec15cf2",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "35abe248-e2ff-513c-b5c2-cb22f7561a90",
+      "name": "Səadət Sarayı / Rəsmi Qəbullar Sarayı",
+      "name_normalized": "seadet sarayi resmi qebullar sarayi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.36857,
+        "lon": 49.83169
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8578238487243652,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e9e5429b-225c-459b-866f-4d5982d836ae",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "1db7f3ed-c08e-5acd-aa70-60e0aaaef4a4",
+      "name": "Samad Vurgun's House Museum",
+      "name_normalized": "samad vurgun s house museum",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.36854569,
+        "lon": 49.83960698
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8826671242713928,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "425f77af-ca4c-409f-ad96-a960ae67dd82",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "efa07a1a-c14b-5c3f-bc1d-b5708fcd6803",
+      "name": "Haci Zeynalabdin Tagiyevin Ev Muzeyi",
+      "name_normalized": "haci zeynalabdin tagiyevin ev muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.369166212121,
+        "lon": 49.839627341598
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7032577991485596,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "dae1e239-3da1-4a9c-88f8-1bcf80bfae10",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "595f1c4c-a725-5bd7-af76-d526991193b3",
+      "name": "The Museum Center",
+      "name_normalized": "the museum center",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.36972549,
+        "lon": 49.84262646
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7738445401191711,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "90eac2ab-7dcc-44da-b3ab-004b86069387",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "3d9e2495-e5de-5f8e-970f-779689d8789d",
+      "name": "Independence Museum of Azerbaijan",
+      "name_normalized": "independence museum of azerbaijan",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.36947601,
+        "lon": 49.84266985
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8024578094482422,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "eb45c33b-7fd5-4893-bfe1-3ada0bb9e36f",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "17c5fa1b-aaef-57b6-90f8-b5b81c0d79c7",
+      "name": "National Museum of History of Azerbaijan",
+      "name_normalized": "national museum of history of azerbaijan",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.36945876,
+        "lon": 49.8401209
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9522882473468781,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e7fce7bf-d61f-4ec3-929a-f3ffcc05c8aa",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "0c982a6e-482b-5dc3-9e5e-0508d77276f6",
+      "name": "Azerbaycan Musiqi Medeniyyeti Muzeyi",
+      "name_normalized": "azerbaycan musiqi medeniyyeti muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.37270945039936,
+        "lon": 49.847484921034884
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5748079419136047,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1130c693-f6c3-4e9e-a3c5-ef6a03d16f78",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "3afa10ee-153d-52c6-a044-0765fa7780bd",
+      "name": "Sunny Carpets Gallery",
+      "name_normalized": "sunny carpets gallery",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.37240329,
+        "lon": 49.8419848
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6821387410163879,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "846a7ab6-9ba9-4a00-9914-be7d4ab38911",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "8ff68d5b-d3ed-5232-aa10-f65cf43b3276",
+      "name": "Nizami Museum of Azerbaijani Literature",
+      "name_normalized": "nizami museum of azerbaijani literature",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3698319,
+        "lon": 49.83620799
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7700805068016052,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f96ce736-6d58-47b6-b3ac-04117a5ee6a3",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "07f43fa8-7fa8-5b7e-ab19-bcf3512a7e0b",
+      "name": "ICOM Azerbaijan",
+      "name_normalized": "icom azerbaijan",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.34668,
+        "lon": 49.83802
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.681718111038208,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0bc9d46b-53e4-424d-b100-79227e3f91f1",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "f72bb260-5048-568f-82ac-ede6fbe8104b",
+      "name": "Azərbaycan Milli Xalça Muzeyi - Azerbaijan National Carpet Museum",
+      "name_normalized": "azerbaycan milli xalca muzeyi azerbaijan national carpet museum",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.34626,
+        "lon": 49.83879
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9325816035270691,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1688424c-8c7d-46f4-99a3-97c40584541b",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "9fea384d-6bfe-5980-a145-c01ebfc3d8ad",
+      "name": "Rinay",
+      "name_normalized": "rinay",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.34196859,
+        "lon": 49.83899074
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.40536385774612427,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "08147ba9-3cbc-46e0-b6f2-50cb3089f22d",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "852658ef-91bb-5e90-b004-eb5937f90c62",
+      "name": "Stone Chronicle Museum",
+      "name_normalized": "stone chronicle museum",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.34011858,
+        "lon": 49.84119436
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6121397018432617,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "22f7fe49-6543-4b9a-8e8d-f31ab7d75b29",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "0118b635-9916-51bd-8ffe-5dbcba4a419c",
+      "name": "Painting Museum",
+      "name_normalized": "painting museum",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.33916245273558,
+        "lon": 49.837427234225615
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7253620028495789,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3c0c0a5a-38cc-4690-9d1f-1c44cdaf94ad",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "79fd5925-c52d-5771-8c98-93bb636d2a58",
+      "name": "Suraxanı gəmi-muzeyi/Surakhani ship-museum",
+      "name_normalized": "suraxani gemi muzeyi surakhani ship museum",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.337494704520346,
+        "lon": 49.84161542670531
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9426810145378113,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "847374ea-fa7e-4ec0-935b-074384847bb3",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "3d5f5767-3fa5-5054-85e5-1bd0dd2b36cb",
+      "name": "Xalq Təhsili Muzeyi",
+      "name_normalized": "xalq tehsili muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3634899,
+        "lon": 49.8312734
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3031326885",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "7dc824c9-180d-540e-986e-97ed065e03ec",
+      "name": "Azərbaycan Milli İncəsənət Müzeyi",
+      "name_normalized": "azerbaycan milli i ncesenet muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3632725,
+        "lon": 49.8318442
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3031326886",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "41ebc323-b85e-59c4-ae81-ff49d66fd636",
+      "name": "Rəngkarlıq Muzeyi",
+      "name_normalized": "rengkarliq muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3395882,
+        "lon": 49.8382892
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4396755397",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "e9280ae2-1b82-54b2-a585-f782db588c29",
+      "name": "Miniatür kitab muzeyi",
+      "name_normalized": "miniatur kitab muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3663731,
+        "lon": 49.8326143
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4427698089",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "d0c02095-9ea8-57a1-9428-4524c594abea",
+      "name": "Tahir Salahovun ev muzeyi",
+      "name_normalized": "tahir salahovun ev muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3665989,
+        "lon": 49.8347159
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4428061589",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "79681f55-bdd3-5601-925c-0e9b805b3209",
+      "name": "Nizami Gəncəvi adına Milli Azərbaycan Ədəbiyyatı muzeyi",
+      "name_normalized": "nizami gencevi adina milli azerbaycan edebiyyati muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3698913,
+        "lon": 49.8363524
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4452302341",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "e81f4364-0b8c-5efe-9d90-073a74319a17",
+      "name": "Milli Azərbaycan Tarixi Muzeyi",
+      "name_normalized": "milli azerbaycan tarixi muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3693478,
+        "lon": 49.8400713
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4618962458",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "bcbd8b10-712d-5c65-a3c2-01d40b827110",
+      "name": "Hacı Zeynal Abdin Tağıyevin ev muzeyi",
+      "name_normalized": "haci zeynal abdin tagiyevin ev muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3694389,
+        "lon": 49.8399693
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4618962459",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "7d5b44f0-b87e-52f2-8faa-446fa67cc15a",
+      "name": "AMEA Arxeologiya və Etnoqrafiya mueyi",
+      "name_normalized": "amea arxeologiya ve etnoqrafiya mueyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.367711,
+        "lon": 49.8366108
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/5986103490",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "5b7e85ea-b03b-5b35-81f9-f2c8ccf15696",
+      "name": "\"SURAXANI\" Ship Museum",
+      "name_normalized": "suraxani ship museum",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3373731,
+        "lon": 49.8420034
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/8931310062",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "432ea2c8-f4ab-57b5-b292-04732a1c6a2f",
+      "name": "Musiqi Mədəniyyət Muzeyi",
+      "name_normalized": "musiqi medeniyyet muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3727072,
+        "lon": 49.8474088
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9812774518",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "0c2265b2-6034-544a-a5bc-b2396ce38408",
+      "name": "Dövlət Xalçaçılıq Muzeyi",
+      "name_normalized": "dovlet xalcaciliq muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.369642,
+        "lon": 49.8426882
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9812789069",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "74897735-1aee-5839-975a-99c55e11e11d",
+      "name": "Din Tarixi Muzeyi",
+      "name_normalized": "din tarixi muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3695838,
+        "lon": 49.8425729
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9812789070",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "7b10a7cd-6c4a-5d4a-991e-cfd484ce66f7",
+      "name": "Dövlət İstiqlal Muzeyi",
+      "name_normalized": "dovlet i stiqlal muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.369692,
+        "lon": 49.8427968
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9812789071",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "5848e229-d4f3-5cda-896f-938760d6da43",
+      "name": "Dövlət Teatr Muzeyi",
+      "name_normalized": "dovlet teatr muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3695337,
+        "lon": 49.8424642
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9812789072",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "f5b9de7e-cc47-5541-85f7-9d5b1a6fcb40",
+      "name": "Siyasi Repressiya Qurbanları Muzeyi",
+      "name_normalized": "siyasi repressiya qurbanlari muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3710561,
+        "lon": 49.8475429
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9812811342",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "ed0f307c-40fe-5a96-947e-c1c53b4a5aac",
+      "name": "Bakı Fotoqrafiya Evi",
+      "name_normalized": "baki fotoqrafiya evi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3676395,
+        "lon": 49.8365563
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11879170178",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "91acc052-499c-5b0d-92bd-c3f7c26dc937",
+      "name": "Mona Müasir Incəsənət Qalereyası",
+      "name_normalized": "mona muasir incesenet qalereyasi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3783372,
+        "lon": 49.8659367
+      },
+      "area_id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9581774711608887,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7b3200a4-1cd5-40b6-b0cb-581dc5c148dc",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "de57499e-95f4-53df-99b2-03e395d3d935",
+      "name": "Villa Petrolea",
+      "name_normalized": "villa petrolea",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.37972,
+        "lon": 49.89361
+      },
+      "area_id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9640397429466248,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "87e6792a-d43a-42d4-8fff-c32e7d25d5f6",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "18a0c4cb-1c39-5a1f-bdf5-e3f44ab919a5",
+      "name": "Qala_museum",
+      "name_normalized": "qala museum",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3820556,
+        "lon": 49.9545396
+      },
+      "area_id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8598470091819763,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e5447637-dbce-4663-87e7-72ff4accba1b",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "96501251-7ad8-59fd-8013-3776d993a430",
+      "name": "Museum of Modern Art",
+      "name_normalized": "museum of modern art",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3780948,
+        "lon": 49.8646068
+      },
+      "area_id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4356471292",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "210c7ca6-f07c-5874-aa2d-0fcfca616f3a",
+      "name": "The Victory Museum",
+      "name_normalized": "the victory museum",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3759877,
+        "lon": 49.8658258
+      },
+      "area_id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/13620463801",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "c1ab5565-54d6-5f85-b153-35dc53dd8468",
+      "name": "Farhouse Neon Art Museum",
+      "name_normalized": "farhouse neon art museum",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.55885364,
+        "lon": 49.80234126
+      },
+      "area_id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5930638313293457,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "548e109e-02d0-4c07-9464-f924ca591749",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "c5adc08b-943a-51f4-9be1-9fd6171aac2b",
+      "name": "Sariban Milli Dekor Evi",
+      "name_normalized": "sariban milli dekor evi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.45970834,
+        "lon": 49.91955985
+      },
+      "area_id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7233299612998962,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "20f4b196-33ae-4133-ba51-4d29057305c8",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "6c584942-ed9b-5f6d-a2f5-778102db8538",
+      "name": "Ramana Qalası",
+      "name_normalized": "ramana qalasi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.45613038,
+        "lon": 49.98001192
+      },
+      "area_id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6065367460250854,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d000edd9-f311-46ed-8a72-e36600ea7e98",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "7638ad2a-4649-5413-8234-6b4dfe19b18f",
+      "name": "Heydər Əliyev Muzeyi",
+      "name_normalized": "heyder eliyev muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.4249399,
+        "lon": 49.9956144
+      },
+      "area_id": "d2981fa1-7fe5-5b12-9a6b-99cd9baaea16",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3517082447",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "70b2b11c-78d3-5128-b1e3-3007733e6b24",
+      "name": "Səttar Bəhlulzadə Ev Muzeyi",
+      "name_normalized": "settar behlulzade ev muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.4232826,
+        "lon": 49.9883549
+      },
+      "area_id": "d2981fa1-7fe5-5b12-9a6b-99cd9baaea16",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10040160757",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "eec14145-b9c9-5a44-bdc3-15d126a8aab8",
+      "name": "Merdakan Qalasi",
+      "name_normalized": "merdakan qalasi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.49212454,
+        "lon": 50.14069768
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.920426607131958,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b9193b81-403d-40e3-9420-a9942eee8c8a",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "e4f96a3f-720e-54bc-bcc7-611799411bba",
+      "name": "From Waste to Art Museum",
+      "name_normalized": "from waste to art museum",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.43907402,
+        "lon": 50.16940756
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7825249433517456,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d4671849-d211-4554-a135-14348a9fbf87",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "e8b0759f-bb62-532e-bb0d-0068d5dfbef0",
+      "name": "Qala Arxeoloji Etnoqrafik Muzey Kompleksi",
+      "name_normalized": "qala arxeoloji etnoqrafik muzey kompleksi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.43936,
+        "lon": 50.16856
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.783271849155426,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "33dcf365-dbd6-4e3e-a2fe-73d2d2514518",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "ccb45b63-6040-5d15-a735-7c281747d116",
+      "name": "Qala Qoruğu",
+      "name_normalized": "qala qorugu",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.4400267,
+        "lon": 50.16952646
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9219323396682739,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "38f7d536-5b31-492a-9c24-50330f897259",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "cd323b1a-95be-5d19-95d5-8910e754b044",
+      "name": "Zire Eco Park",
+      "name_normalized": "zire eco park",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.4052501,
+        "lon": 50.2999114
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/5768517154",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "9375605a-eb2a-548c-9472-f5f8eb20a449",
+      "name": "Qala Əntiq Əşyalar Muzeyi",
+      "name_normalized": "qala entiq esyalar muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.4400965,
+        "lon": 50.169923
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10000416402",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "3989bdae-4bd3-568f-a32b-88c0284aac6e",
+      "name": "Qala Tarix və Etnoqrafiya Muzeyi",
+      "name_normalized": "qala tarix ve etnoqrafiya muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.4395341,
+        "lon": 50.1683848
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10000416403",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "fa1f3cd1-b890-53e3-b205-60166429457d",
+      "name": "Zirə Xalça Muzeyi",
+      "name_normalized": "zire xalca muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.404759,
+        "lon": 50.3002059
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746701725",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "3a12eb20-818e-5676-aa34-7cde188da459",
+      "name": "Muzey",
+      "name_normalized": "muzey",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.4601665,
+        "lon": 50.3323254
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9980320360",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "2c92b994-5cfd-5869-9280-9982278bd09a",
+      "name": "Heydər Əliyev Muzeyi",
+      "name_normalized": "heyder eliyev muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.3252645,
+        "lon": 49.7281229
+      },
+      "area_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11282147764",
           "release": "azerbaijan-261020",
           "source_category": "museum"
         }

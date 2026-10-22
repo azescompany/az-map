@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "e213181e-fab4-5a70-b729-59aa4b8a3dd5",
+      "properties": {
+        "id": "e213181e-fab4-5a70-b729-59aa4b8a3dd5",
+        "name": "Ağcabədi Yeni Yaşayış Kompleksi",
+        "type": "neighborhood",
+        "parent_id": "6a9aa3fd-1253-5da5-a0fc-e1e2f071ea3c",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.4117619,
+              40.0527244
+            ],
+            [
+              47.4117941,
+              40.0545024
+            ],
+            [
+              47.405802,
+              40.0547488
+            ],
+            [
+              47.406081,
+              40.0525191
+            ],
+            [
+              47.4063545,
+              40.051665
+            ],
+            [
+              47.4117619,
+              40.0527244
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

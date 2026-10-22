@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "1094f998-3fbe-5c62-8e21-f67053d86744",
+      "properties": {
+        "id": "1094f998-3fbe-5c62-8e21-f67053d86744",
+        "name": "Qərsələ",
+        "type": "neighborhood",
+        "parent_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.2730051,
+              40.7844189
+            ],
+            [
+              48.2724881,
+              40.7840225
+            ],
+            [
+              48.2721001,
+              40.7832395
+            ],
+            [
+              48.2745372,
+              40.7815166
+            ],
+            [
+              48.2762465,
+              40.7818378
+            ],
+            [
+              48.2757371,
+              40.7830273
+            ],
+            [
+              48.2730051,
+              40.7844189
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

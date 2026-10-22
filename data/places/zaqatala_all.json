@@ -1,0 +1,462 @@
+{
+  "area_id": "52e46674-ff8f-57de-90bd-5327e24e7bb4",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "915e7e1c-07d5-5529-81be-480514cc71f4",
+      "name": "Faladari-Chay",
+      "name_normalized": "faladari chay",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.48976,
+        "lon": 46.53943
+      },
+      "area_id": "52e46674-ff8f-57de-90bd-5327e24e7bb4",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8116234540939331,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "78e3c038-403c-47c1-a43a-4507780ac4ef",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "132df3fa-9678-5d0a-9c5e-cc628aa1a6f7",
+      "name": "Mamrukh",
+      "name_normalized": "mamrukh",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.54243,
+        "lon": 46.767
+      },
+      "area_id": "52e46674-ff8f-57de-90bd-5327e24e7bb4",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7848480343818665,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7c212b6a-7744-4c8c-95b4-8f2430f50541",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "1af6f0ad-65f9-5879-9f76-8cca9eba8817",
+      "name": "Əliabad",
+      "name_normalized": "eliabad",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.47300531764401,
+        "lon": 46.63738484937901
+      },
+      "area_id": "52e46674-ff8f-57de-90bd-5327e24e7bb4",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8030890226364136,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c53b0502-6ff7-4be4-85a0-6791d156c07a",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "5da82048-446c-508a-b09c-b41ea8c9b3e5",
+      "name": "Așağı Tala",
+      "name_normalized": "a agi tala",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.60262,
+        "lon": 46.65212
+      },
+      "area_id": "52e46674-ff8f-57de-90bd-5327e24e7bb4",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7947090864181519,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "27bdf059-abfc-45ab-bb45-51ce6461b7b3",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "308ee52d-3005-51d5-9cfa-23fb7a52a319",
+      "name": "Lezzet Istirahet Merkezi",
+      "name_normalized": "lezzet istirahet merkezi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.63699939202,
+        "lon": 46.630096435547
+      },
+      "area_id": "52e46674-ff8f-57de-90bd-5327e24e7bb4",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.551347017288208,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ef3a4c34-aab7-4d78-8a1e-c40d06be6424",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "281b2197-40b3-5f76-a342-6d16845feb40",
+      "name": "Zaqatala Qalası",
+      "name_normalized": "zaqatala qalasi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 41.6382729,
+        "lon": 46.6494969
+      },
+      "area_id": "52e46674-ff8f-57de-90bd-5327e24e7bb4",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6169775128364563,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2b1297b0-dcd1-4fd6-adbd-eab2fa90a1ac",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "08719556-0781-5606-b170-bd7b7e65c836",
+      "name": "Zaqatala SuKanal Sahəsi",
+      "name_normalized": "zaqatala sukanal sahesi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.63876,
+        "lon": 46.64708
+      },
+      "area_id": "52e46674-ff8f-57de-90bd-5327e24e7bb4",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6361032724380493,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a3101468-b7c8-45a1-8f3e-d1b77d9eeffe",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "b8a13281-9567-5bf2-830e-705188f42be3",
+      "name": "Zaqatala Milli Olimpiya Kompleksi",
+      "name_normalized": "zaqatala milli olimpiya kompleksi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 41.640390825820475,
+        "lon": 46.65064788141934
+      },
+      "area_id": "52e46674-ff8f-57de-90bd-5327e24e7bb4",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.761400043964386,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d2f1ba49-ec90-4c37-91e4-182bbb25ef67",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "4252196c-5d34-52d3-b178-d682edb35c59",
+      "name": "Mərkəzi Məscid",
+      "name_normalized": "merkezi mescid",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 41.63196348002271,
+        "lon": 46.64173146014261
+      },
+      "area_id": "52e46674-ff8f-57de-90bd-5327e24e7bb4",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6503329277038574,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "29d406d1-59fe-41bf-a241-0c049bbfc522",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "d7ce32ce-2129-50d4-8d05-ed72931a8c8f",
+      "name": "Zerife Aliyeva adina Park Zaqatala",
+      "name_normalized": "zerife aliyeva adina park zaqatala",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.6336,
+        "lon": 46.6433
+      },
+      "area_id": "52e46674-ff8f-57de-90bd-5327e24e7bb4",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7616078853607178,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1cc010b1-c468-4f8f-8290-bf4ee1091f5f",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "122743e2-e5dc-5e7a-9f60-4262c0b98e45",
+      "name": "Zaqatala Qalası - 1830",
+      "name_normalized": "zaqatala qalasi 1830",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.6336,
+        "lon": 46.6433
+      },
+      "area_id": "52e46674-ff8f-57de-90bd-5327e24e7bb4",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8584902882575989,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d849bcc5-1177-4b4a-81e0-8bdb9f384d7e",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "c9019232-3e1c-5ec7-b397-c1d03d94aa78",
+      "name": "Zaqatala Tarix-Diyarşünaslıq Muzeyi",
+      "name_normalized": "zaqatala tarix diyarsunasliq muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 41.63444898,
+        "lon": 46.65064647
+      },
+      "area_id": "52e46674-ff8f-57de-90bd-5327e24e7bb4",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.569293200969696,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "71efb110-89aa-4636-8900-7302041786f5",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "ff789075-7e35-5db0-82f2-e12382073aa4",
+      "name": "Dede Gorgud Park",
+      "name_normalized": "dede gorgud park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.63600435,
+        "lon": 46.65252968
+      },
+      "area_id": "52e46674-ff8f-57de-90bd-5327e24e7bb4",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7456496953964233,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "62f7e2f1-8b8f-4dca-8696-e3415c30f326",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "b2249e3c-e990-5767-932b-ccb3a5bee1f7",
+      "name": "Zaqatala",
+      "name_normalized": "zaqatala",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.62826214,
+        "lon": 46.63877767
+      },
+      "area_id": "52e46674-ff8f-57de-90bd-5327e24e7bb4",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.35780084133148193,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e315d1d9-8f4d-42a1-bdc0-8cef83ef2422",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "93560ee1-28c3-56a5-93c2-a719fb4f77ef",
+      "name": "Zərifə Əliyeva adına park",
+      "name_normalized": "zerife eliyeva adina park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.6284492,
+        "lon": 46.64262513
+      },
+      "area_id": "52e46674-ff8f-57de-90bd-5327e24e7bb4",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.29367944598197937,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "310dac54-102d-4444-9070-979c9a077748",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "c1421b75-f354-5db6-b510-5c23192bd513",
+      "name": "Zaqatala Ilahiyyat Universitet",
+      "name_normalized": "zaqatala ilahiyyat universitet",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 41.631520950000024,
+        "lon": 46.64165349999979
+      },
+      "area_id": "52e46674-ff8f-57de-90bd-5327e24e7bb4",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.759148120880127,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "08f380ec-1d9c-4dec-8f88-aa18948e02bc",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "c6a5c082-4eb1-59c6-a6e9-a47e558e99e6",
+      "name": "Yuxarı Tala",
+      "name_normalized": "yuxari tala",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.6233333333,
+        "lon": 46.6605555556
+      },
+      "area_id": "52e46674-ff8f-57de-90bd-5327e24e7bb4",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7887144684791565,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c1b3d304-6d51-4b96-bf3d-e0e6295a8bce",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "0adc0d9d-ba28-5564-af68-032d01b27590",
+      "name": "Zaqatala Heyder Əliyev Parkı",
+      "name_normalized": "zaqatala heyder eliyev parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.639446258545,
+        "lon": 46.655555725098
+      },
+      "area_id": "52e46674-ff8f-57de-90bd-5327e24e7bb4",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8720747232437134,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "503a7bbd-a992-4c4c-a491-707b407b0c89",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "99015802-c83d-593b-be31-fe140374ac4d",
+      "name": "Zaqatala Qaladüzü parkı",
+      "name_normalized": "zaqatala qaladuzu parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.64396,
+        "lon": 46.66444
+      },
+      "area_id": "52e46674-ff8f-57de-90bd-5327e24e7bb4",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7020074129104614,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "57279bdc-ee1d-4df8-951c-91cedd6fd348",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "area_id": "3ea08ec5-7ec1-5a5f-b418-2cc100be9264",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "3ab630a1-37dc-5961-a24a-74e84deff686",
+      "name": "Samux Şəhər Parkı",
+      "name_normalized": "samux seher parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.75446,
+        "lon": 46.39693
+      },
+      "area_id": "3ea08ec5-7ec1-5a5f-b418-2cc100be9264",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6636677980422974,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f0403249-917f-42e3-8631-13517a22314e",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "ea8be03c-4151-5eff-aba6-79df42708b5d",
+      "name": "Nebiağalı",
+      "name_normalized": "nebiagali",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.7658333333,
+        "lon": 46.4088888889
+      },
+      "area_id": "3ea08ec5-7ec1-5a5f-b418-2cc100be9264",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7639697194099426,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0ddad782-5574-4aa9-95d6-be5edecd2ac2",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

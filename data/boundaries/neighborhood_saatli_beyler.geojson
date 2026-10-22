@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "f31e8ba9-75c0-50fb-af3b-897696cf1332",
+      "properties": {
+        "id": "f31e8ba9-75c0-50fb-af3b-897696cf1332",
+        "name": "Bəylər",
+        "type": "neighborhood",
+        "parent_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.333162,
+              39.9025339
+            ],
+            [
+              48.3393191,
+              39.9078802
+            ],
+            [
+              48.3279159,
+              39.9136174
+            ],
+            [
+              48.3219991,
+              39.9077217
+            ],
+            [
+              48.3267244,
+              39.9046956
+            ],
+            [
+              48.329889,
+              39.905344
+            ],
+            [
+              48.333162,
+              39.9025339
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

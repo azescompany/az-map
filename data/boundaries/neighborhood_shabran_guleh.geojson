@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "2facfc1c-e29e-524b-a530-d7b1c246e93e",
+      "properties": {
+        "id": "2facfc1c-e29e-524b-a530-d7b1c246e93e",
+        "name": "Güləh",
+        "type": "neighborhood",
+        "parent_id": "5fb6cd28-0ea7-5ac3-994f-48bb0bf88343",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.9472028,
+              41.0720937
+            ],
+            [
+              48.9459693,
+              41.0717486
+            ],
+            [
+              48.9462038,
+              41.0713674
+            ],
+            [
+              48.9475121,
+              41.0703991
+            ],
+            [
+              48.9487724,
+              41.0710412
+            ],
+            [
+              48.9484397,
+              41.0721116
+            ],
+            [
+              48.9472028,
+              41.0720937
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

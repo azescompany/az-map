@@ -1,0 +1,198 @@
+{
+  "area_id": "eb593579-9816-5449-a5cd-1dacaafbcef9",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "8650b5c6-66e7-5d6f-b92d-f863103685c3",
+      "name": "Mir Ali Tomb",
+      "name_normalized": "mir ali tomb",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.697317,
+        "lon": 47.19807932
+      },
+      "area_id": "eb593579-9816-5449-a5cd-1dacaafbcef9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7834012508392334,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "762e3bbb-710c-4068-a518-5440bfcefa08",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "9a4f6453-2b88-5bbc-aea0-5d596f17272b",
+      "name": "Каргабазар",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.538333333333,
+        "lon": 47.157222222222
+      },
+      "area_id": "eb593579-9816-5449-a5cd-1dacaafbcef9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7257136106491089,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "667fb36a-e14e-4525-a034-1f2fe2f31f5d",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "8d50f5a8-a872-5343-a427-6958d7bd8dbf",
+      "name": "Garghabazar Caravanserai",
+      "name_normalized": "garghabazar caravanserai",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.53878361,
+        "lon": 47.15705633
+      },
+      "area_id": "eb593579-9816-5449-a5cd-1dacaafbcef9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7806974649429321,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "56ca7241-b6c6-4d11-a935-b2ef5b644fb0",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "31425a8e-dbe0-5fa9-846e-8d105c65f91f",
+      "name": "Aşağı Güzlək və Aşağı Rəfədinli",
+      "name_normalized": "asagi guzlek ve asagi refedinli",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.6003,
+        "lon": 47.1431
+      },
+      "area_id": "eb593579-9816-5449-a5cd-1dacaafbcef9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6727503538131714,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "aad3de99-b1f8-4193-a2be-f1fb6a89e3d5",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "1b284b92-4877-53dc-b1ed-5026369849ee",
+      "name": "Ahmedalilar Mausoleum",
+      "name_normalized": "ahmedalilar mausoleum",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.4230051,
+        "lon": 47.33460517
+      },
+      "area_id": "eb593579-9816-5449-a5cd-1dacaafbcef9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.437722384929657,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ddd094b6-774a-4208-afb9-1b2ddf5ad726",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "b4dae006-f78e-52cb-a2d4-a94e96764770",
+      "name": "Horadiz şəhər kitabxanası",
+      "name_normalized": "horadiz seher kitabxanasi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 39.4460946,
+        "lon": 47.3410117
+      },
+      "area_id": "eb593579-9816-5449-a5cd-1dacaafbcef9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6224708557128906,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6563bf26-ced4-4fa1-985d-b14ec78f4e7b",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "302b5636-21fe-5c46-91dc-04d63733d106",
+      "name": "Quruçay",
+      "name_normalized": "qurucay",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.49822,
+        "lon": 47.39052
+      },
+      "area_id": "eb593579-9816-5449-a5cd-1dacaafbcef9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7646433115005493,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "244ddd5f-348c-4884-8fcd-5eab91cd30a8",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "b9ca53fa-9f7c-5363-8fcd-df2f83125bf9",
+      "name": "Fuzuli Rayonu",
+      "name_normalized": "fuzuli rayonu",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 39.573029052898,
+        "lon": 47.598504177985
+      },
+      "area_id": "eb593579-9816-5449-a5cd-1dacaafbcef9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.721482515335083,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0817bcc2-20ae-4833-aae4-0dd09d4769d0",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    }
+  ]
+}

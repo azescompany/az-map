@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "fd235bff-3435-5e72-933b-fc94315bd013",
+      "properties": {
+        "id": "fd235bff-3435-5e72-933b-fc94315bd013",
+        "name": "Rivanlı",
+        "type": "neighborhood",
+        "parent_id": "bf911836-dec1-5c87-9cef-a1d22d111f4e",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.1399307,
+              40.5733335
+            ],
+            [
+              47.136959,
+              40.5735514
+            ],
+            [
+              47.1362623,
+              40.5681268
+            ],
+            [
+              47.1392092,
+              40.5678492
+            ],
+            [
+              47.1399307,
+              40.5733335
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

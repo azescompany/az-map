@@ -1,0 +1,366 @@
+{
+  "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "5092325c-250a-536f-967d-6548e420453f",
+      "name": "Məscid",
+      "name_normalized": "mescid",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 38.86484,
+        "lon": 48.7364
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6104841828346252,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "31cdd04a-657b-4fbe-94f8-a75b79061b4b",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "ed441ada-6a7c-53b6-b6c8-28324a6ec545",
+      "name": "Qızılağac Milli Parkı - Gizilagaj National Park",
+      "name_normalized": "qizilagac milli parki gizilagaj national park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 38.959506586079,
+        "lon": 48.923138
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9438690543174744,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "474ae761-fac6-465a-b7a8-f810bc69532f",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "a9f630fa-d479-5ab5-b380-577b8998430f",
+      "name": "Göyșaban",
+      "name_normalized": "goy aban",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.80584,
+        "lon": 48.82831
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8036931753158569,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "da0e7a6a-4fe0-4cc8-93f3-5d3ae5edd86c",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "d8358df6-b88b-5948-a959-4d4d42bc63f9",
+      "name": "Vilvan",
+      "name_normalized": "vilvan",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.823888888889,
+        "lon": 48.745833333333
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7909231781959534,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ff6846d2-3373-4d97-9dee-e66fe9671b93",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "9ef7b04e-391c-571f-bab7-f0da71a73a0a",
+      "name": "Lənkəran Sahili",
+      "name_normalized": "lenkeran sahili",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 38.785046,
+        "lon": 48.842128
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8499482870101929,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "219ac918-7182-4876-a972-920180e479d9",
+          "release": "2026-09-23.1",
+          "source_category": "beach"
+        }
+      ]
+    },
+    {
+      "id": "fe7a3097-f29e-5215-832a-29700ba5fd46",
+      "name": "Lenkeran Stadyumu",
+      "name_normalized": "lenkeran stadyumu",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 38.747189,
+        "lon": 48.857131
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.817659318447113,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5183aaea-40ad-4319-96c8-16dfc4375560",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "a70741d1-aba2-5d4e-8e89-d536847ba3c8",
+      "name": "Khazar Lankaran Mərkəzi Stadion",
+      "name_normalized": "khazar lankaran merkezi stadion",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 38.74653435,
+        "lon": 48.8570865
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5835381746292114,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "eb245f68-0f76-490d-9489-8924087701bb",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "c0e6839d-dd31-5eae-be7c-5abfd93bc150",
+      "name": "Beluqa İstirahət Mərkəzi",
+      "name_normalized": "beluqa i stirahet merkezi",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 38.737423715144,
+        "lon": 48.866194968831
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7134672403335571,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "87cb01c9-ea7c-4e79-95b4-0dc1985625a1",
+          "release": "2026-09-23.1",
+          "source_category": "beach"
+        }
+      ]
+    },
+    {
+      "id": "445b55dc-5422-521b-9db9-5b14a63d1a45",
+      "name": "Xolmili",
+      "name_normalized": "xolmili",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.678888888889,
+        "lon": 48.863611111111
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7544583678245544,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1cc72026-b81c-4abf-8958-834709f2d32c",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "a702a831-424e-5537-bb1a-662d37c792e5",
+      "name": "Lənkəran rayonu Yuxarı Nüvədi kənd tam orta ümumtəhsil məktəbin kitabxanası",
+      "name_normalized": "lenkeran rayonu yuxari nuvedi kend tam orta umumtehsil mektebin kitabxanasi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 38.70084,
+        "lon": 48.79348
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5823965668678284,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "fb885433-f9ab-44ad-9d13-77fb2a2febe1",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "536af540-555e-5fdb-bc7c-725a6c250969",
+      "name": "Lüvəsər kəndi",
+      "name_normalized": "luveser kendi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.712472208784,
+        "lon": 48.80256
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7772344946861267,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a2c9f78f-fbbf-4023-9100-55f00647ffb7",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "235a77d0-3acf-5bb6-a78c-b2c8ef02bac1",
+      "name": "Bala Şürük",
+      "name_normalized": "bala suruk",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.71039,
+        "lon": 48.82041
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.809441089630127,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a1ebdd8b-3f99-47a0-a914-313703ac3666",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "b4ba0bb5-35b1-512b-9526-f0ec3aaa3c32",
+      "name": "Gərmətük",
+      "name_normalized": "germetuk",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.72144,
+        "lon": 48.83285
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7268837094306946,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ccabb822-79b6-4625-aa91-8e5afc9a3700",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "9462fb57-d5ff-554d-9c4a-15bc74511485",
+      "name": "Ballabur",
+      "name_normalized": "ballabur",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.71666667,
+        "lon": 48.78333333
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7390893697738647,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "32c916f2-6299-4ad4-9c0e-9b942572e172",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "8f2d1405-b7fd-5dd7-9183-20c7d3e8809f",
+      "name": "Bəlləbur qalası",
+      "name_normalized": "bellebur qalasi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.712585,
+        "lon": 48.77457
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.3515371084213257,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a3dba6a0-a90a-4081-a3ea-1699e3b3ad7b",
+          "release": "2026-09-23.1",
+          "source_category": "castle"
+        }
+      ]
+    }
+  ]
+}

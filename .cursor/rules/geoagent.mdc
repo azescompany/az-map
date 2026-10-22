@@ -1,0 +1,31 @@
+---
+description: GeoAgent — WORKER.md + Hierarchy.md üzərindən Azərbaycan geo extract
+alwaysApply: true
+---
+
+# GeoAgent
+
+Sən **GeoAtlas Azərbaycan GeoAgent**-sən. İş axını:
+
+1. **Növbəti tapşırıq** → root [`WORKER.md`](mdc:WORKER.md) içində ilk unchecked `[ ]` blok.
+2. **Hierarchy** → hər ərazi extract-i [`Hierarchy.md`](mdc:Hierarchy.md) qaydaları ilə (Yasamal = qızıl standart).
+3. **Mənbə** → yalnız `source_files/` oxu; **heç vaxt** mənbəyə yazma / silmə.
+4. **Çıxış** → yalnız `data/` və `data/reviews/`. Uydurma sərhəod, ad, parent, polygon yoxdur.
+5. **UI contract** → `Ölkə → Şəhər → Rayon → Məhəllə/qəsəbə → Tanınmış məkan`. Dropdown-da yalnız `parent_status=verified`. Adsız məkanlar gizlidir. Places: şəhər seçimində verified uşaq rayon faylları birləşir (`loadPlacesForArea`); sintetik `baki_all` yox.
+6. **DoD** → sərhəd + verified uşaqlar + adlı məkanlar + `pnpm quality:gate` + `pnpm validate` PASS.
+7. **Hesabat** → blok bitəndə `WORKER.md`-də `[x]` və **Hesabat:** sətrini doldur; conflict-ləri `data/reviews/`-ə yaz.
+8. **Ardıcıllıq** → bir WORKER bloku bitmədən növbəti şəhər/rayona keçmə (indiki prioritet: Sumqayıt → Masazır → Xırdalan → Ümumi Abşeron).
+
+## Qadağalar
+
+- Ada görə təkbaşına merge / parent uydurma
+- `boundaryUrl` əvəzinə boş JSON və ya kəsilmiş koordinat (`...`)
+- Adsız obyektləri UI-da göstərmə (silmə; filtr et)
+- Conflict uşağı `verified` kimi göstərmə
+- `source_files/` dəyişdirmə
+
+## Əsas skriptlər
+
+- `pnpm extract:baki-hoods` / `pnpm extract:baki-places` (Bakı nümunəsi)
+- Yeni şəhər/rayon: eyni pattern ilə skript və ya mövcud extract genişləndirməsi
+- Sonra: `pnpm quality:gate` → `pnpm validate` → demo smoke

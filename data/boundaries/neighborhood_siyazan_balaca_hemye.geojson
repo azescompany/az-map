@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "02bca60f-5369-5b63-b2b4-8e5562a9c5b8",
+      "properties": {
+        "id": "02bca60f-5369-5b63-b2b4-8e5562a9c5b8",
+        "name": "Balaca Həmyə",
+        "type": "neighborhood",
+        "parent_id": "cac9becb-d9eb-5a5e-9340-cab7a24f3d70",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              49.1438627,
+              41.0890028
+            ],
+            [
+              49.1419302,
+              41.0884297
+            ],
+            [
+              49.1433183,
+              41.0793639
+            ],
+            [
+              49.1445474,
+              41.079233
+            ],
+            [
+              49.1462407,
+              41.0835796
+            ],
+            [
+              49.1460371,
+              41.0857213
+            ],
+            [
+              49.1444597,
+              41.0876866
+            ],
+            [
+              49.1438627,
+              41.0890028
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

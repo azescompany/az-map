@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "4ca3bd4f-bbca-5bb7-b1aa-c1cb942c639a",
+      "properties": {
+        "id": "4ca3bd4f-bbca-5bb7-b1aa-c1cb942c639a",
+        "name": "Uryanoba",
+        "type": "neighborhood",
+        "parent_id": "45206736-f118-53dd-8252-b8d32a2b5cba",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.7567663,
+              41.4504628
+            ],
+            [
+              48.7560904,
+              41.4511062
+            ],
+            [
+              48.7555583,
+              41.4509211
+            ],
+            [
+              48.7558512,
+              41.4497117
+            ],
+            [
+              48.7609903,
+              41.4501276
+            ],
+            [
+              48.7608485,
+              41.4507561
+            ],
+            [
+              48.7567663,
+              41.4504628
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

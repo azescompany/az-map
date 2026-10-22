@@ -1,0 +1,54 @@
+{
+  "area_id": "a0e3d6ff-4788-53c1-b202-a22f53d7b21d",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "c9e6a330-8232-505e-8df5-7cff266c2780",
+      "name": "KOLANI",
+      "name_normalized": "kolani",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.455198,
+        "lon": 45.685834
+      },
+      "area_id": "a0e3d6ff-4788-53c1-b202-a22f53d7b21d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5080080032348633,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1fe4bde5-a6d1-4f3a-b293-fed45a7348de",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "4b1c9b8f-e513-56e8-b028-394a95656c6e",
+      "name": "Shahbuz Rayon",
+      "name_normalized": "shahbuz rayon",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.41667,
+        "lon": 45.58333
+      },
+      "area_id": "a0e3d6ff-4788-53c1-b202-a22f53d7b21d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7953389883041382,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "959b64bc-bfb9-48d5-a91c-2d85dd4d6ea2",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

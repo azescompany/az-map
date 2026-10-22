@@ -1,0 +1,174 @@
+{
+  "area_id": "5fb6cd28-0ea7-5ac3-994f-48bb0bf88343",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "75cd0493-4a2f-505d-9cf9-42ec824a0f09",
+      "name": "Шабран",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.29555556,
+        "lon": 48.88138889
+      },
+      "area_id": "5fb6cd28-0ea7-5ac3-994f-48bb0bf88343",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7386941909790039,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4ce4042d-6636-42d3-9d8a-8fee56467250",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "c40c8141-8368-5622-a963-d6319310c00c",
+      "name": "Uza İzır Dağı",
+      "name_normalized": "uza i zir dagi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.18198,
+        "lon": 48.89224
+      },
+      "area_id": "5fb6cd28-0ea7-5ac3-994f-48bb0bf88343",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.808864951133728,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b8e9e7e0-1564-4aeb-8b2b-a6b767955932",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "369eb52e-09b2-59ad-9c15-0aecd85a5c87",
+      "name": "Bilici Qorqan",
+      "name_normalized": "bilici qorqan",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.1667,
+        "lon": 48.8167
+      },
+      "area_id": "5fb6cd28-0ea7-5ac3-994f-48bb0bf88343",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7516890168190002,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4551fdf3-2023-441f-b7c2-41f3b3df3a6f",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "ef307e8d-825a-53f1-959f-94cd9609ec89",
+      "name": "Duz Bilici",
+      "name_normalized": "duz bilici",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.15935,
+        "lon": 48.84568
+      },
+      "area_id": "5fb6cd28-0ea7-5ac3-994f-48bb0bf88343",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7919632792472839,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b3b946cb-9aab-4805-b0bf-7573456e3dec",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "390dea81-ff48-5948-9e53-0c0d80b16da5",
+      "name": "Chirag Gala",
+      "name_normalized": "chirag gala",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.080384,
+        "lon": 48.945291
+      },
+      "area_id": "5fb6cd28-0ea7-5ac3-994f-48bb0bf88343",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7930163741111755,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8513a8fd-9b8a-49be-8ca7-40969101cb5b",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "7582cfbb-7773-5e78-9f25-63314deb80cf",
+      "name": "Xıdır-Zində məscidi",
+      "name_normalized": "xidir zinde mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 41.200133425462,
+        "lon": 48.989078141749
+      },
+      "area_id": "5fb6cd28-0ea7-5ac3-994f-48bb0bf88343",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6999232172966003,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c003ef0b-3d76-490e-9f79-a2470b7bf706",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "846038e9-5b17-5ccb-bef8-535dfaaa4536",
+      "name": "Heydar Aliyev Park",
+      "name_normalized": "heydar aliyev park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.20795238,
+        "lon": 48.99372018
+      },
+      "area_id": "5fb6cd28-0ea7-5ac3-994f-48bb0bf88343",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5482253432273865,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6ac0796d-6264-4d68-9130-c9d7babcbad4",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "area_id": "5bfacc06-2a5a-5d9d-af55-e26a19b9d6f2",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "c07bbbc4-be12-5fda-b19d-61b48bd4c8a7",
+      "name": "Sarısuqobu Kollektoru",
+      "name_normalized": "sarisuqobu kollektoru",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.35866,
+        "lon": 47.66922
+      },
+      "area_id": "5bfacc06-2a5a-5d9d-af55-e26a19b9d6f2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.808864951133728,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b449bc59-59e9-4f82-997c-e06fa5929c8c",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "6eb601f8-a80f-5634-9536-3de6eb2a0f49",
+      "name": "Azerbaijan State Economy University",
+      "name_normalized": "azerbaijan state economy university",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.356,
+        "lon": 47.869
+      },
+      "area_id": "5bfacc06-2a5a-5d9d-af55-e26a19b9d6f2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d8456687-ec74-4b95-905b-d5315d2078f2",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "b860a74f-974a-54df-927a-47558b6154f0",
+      "name": "Uşaq Əyləncə Parkı",
+      "name_normalized": "usaq eylence parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.509794,
+        "lon": 47.650471
+      },
+      "area_id": "5bfacc06-2a5a-5d9d-af55-e26a19b9d6f2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6678048968315125,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e39eab20-5a7b-4658-82a0-d428d961ccd3",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "711db39a-4698-5790-a327-ef28a5f98f31",
+      "name": "Qazıqumlaq",
+      "name_normalized": "qaziqumlaq",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.53053,
+        "lon": 47.51225
+      },
+      "area_id": "5bfacc06-2a5a-5d9d-af55-e26a19b9d6f2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8087558150291443,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d37ba944-740b-490b-9867-da1dc4e360d5",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

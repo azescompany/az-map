@@ -36,6 +36,69 @@
       "entity": "Pirallahı rayonu",
       "detail": "Representative point is outside Bakı city OSM polygon (island). Admin parent kept verified; containment check failed.",
       "status": "open"
+    },
+    {
+      "id": "da18c63b-7210-5228-b067-8fe1a02c0b7b",
+      "kind": "hierarchy_conflict",
+      "entity": "1-ci mikrorayon",
+      "detail": "Overture parent matches rayon but geometry not contained in rayon boundary",
+      "overture_id": "3ac6123d-4821-450f-b98f-fc1cefdc0e6b",
+      "overture_parent_id": "eb694761-46e4-4479-b827-ab7043270cbb",
+      "status": "open"
+    },
+    {
+      "id": "28f15f60-7ba2-51b1-8707-5e77912223b3",
+      "kind": "hierarchy_conflict",
+      "entity": "3-cü mikrorayon",
+      "detail": "Overture parent matches rayon but geometry not contained in rayon boundary",
+      "overture_id": "381f8cca-aca7-4173-a0f8-6e5222b3e8fd",
+      "overture_parent_id": "eb694761-46e4-4479-b827-ab7043270cbb",
+      "status": "open"
+    },
+    {
+      "id": "25a43eb6-3fa5-57ae-92a5-a46670843af2",
+      "kind": "hierarchy_conflict",
+      "entity": "4-cü mikrorayon",
+      "detail": "Overture parent matches rayon but geometry not contained in rayon boundary",
+      "overture_id": "1c1127ec-33ce-4be7-9627-66004e2dabc7",
+      "overture_parent_id": "eb694761-46e4-4479-b827-ab7043270cbb",
+      "status": "open"
+    },
+    {
+      "id": "8b7a1a51-53dc-5dd4-b244-af950f9a11ad",
+      "kind": "hierarchy_conflict",
+      "entity": "5-ci mikrorayon",
+      "detail": "Overture parent matches rayon but geometry not contained in rayon boundary",
+      "overture_id": "5c17b333-c7ba-412c-9850-7c90b5832ae8",
+      "overture_parent_id": "eb694761-46e4-4479-b827-ab7043270cbb",
+      "status": "open"
+    },
+    {
+      "id": "60d4efb0-b314-5d3f-9961-f73f0f90d1ba",
+      "kind": "hierarchy_conflict",
+      "entity": "Bəstə qəsəbəsi",
+      "detail": "Overture parent matches rayon but geometry not contained in rayon boundary",
+      "overture_id": "c8d67411-2d4c-4fb3-88ee-31c1418d7ccd",
+      "overture_parent_id": "eb694761-46e4-4479-b827-ab7043270cbb",
+      "status": "open"
+    },
+    {
+      "id": "e64472d6-611e-5175-be70-a53cfa507651",
+      "kind": "hierarchy_conflict",
+      "entity": "Gülüstan",
+      "detail": "Overture parent matches rayon but geometry not contained in rayon boundary",
+      "overture_id": "813f32d4-06e3-4a11-9432-c0aa5ce08e04",
+      "overture_parent_id": "eb694761-46e4-4479-b827-ab7043270cbb",
+      "status": "open"
+    },
+    {
+      "id": "58e16adb-8e5c-5f79-8d4c-6047a2929a7c",
+      "kind": "hierarchy_conflict",
+      "entity": "Mahrasa Bağı",
+      "detail": "Overture parent matches rayon but geometry not contained in rayon boundary",
+      "overture_id": "b85c3e93-fee9-48f5-9258-33fe1e84beee",
+      "overture_parent_id": "eb694761-46e4-4479-b827-ab7043270cbb",
+      "status": "open"
     }
   ]
 }

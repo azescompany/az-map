@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "2e4d534d-2029-5f3e-8506-913205dbc745",
+      "properties": {
+        "id": "2e4d534d-2029-5f3e-8506-913205dbc745",
+        "name": "Arcan",
+        "type": "neighborhood",
+        "parent_id": "6fec85b0-0967-5a32-8c49-4804119a40ae",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.0648336,
+              41.3573609
+            ],
+            [
+              48.0654878,
+              41.358223
+            ],
+            [
+              48.0649534,
+              41.3586821
+            ],
+            [
+              48.0629754,
+              41.3579109
+            ],
+            [
+              48.0632061,
+              41.3575324
+            ],
+            [
+              48.0639636,
+              41.3569619
+            ],
+            [
+              48.0648336,
+              41.3573609
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -870,72 +870,7 @@ def main():
             }
         )
 
-    # --- Places inside Yasamal (curated landmark) ---
-    print("Collecting notable places in Yasamal…")
-    places = []
-    if yasamal_geom is not None:
-        ov_places = extract_overture_places_in(yasamal_geom, max_places=250)
-        for p in ov_places:
-            pid = cid("place", "overture", p["overture_id"])
-            places.append(
-                {
-                    "id": pid,
-                    "name": p["name"],
-                    "name_normalized": norm(p["name"]),
-                    "alt_names": [],
-                    "category": p["category"],
-                    "coordinates": {"lat": p["lat"], "lon": p["lon"]},
-                    "area_id": yasamal_id,
-                    "area_assign_method": "containment_verified",
-                    "area_assign_status": "verified",
-                    "confidence": p["confidence"],
-                    "status": "silver",
-                    "source_refs": [
-                        {
-                            "source": "overture",
-                            "source_id": p["overture_id"],
-                            "release": OVERTURE_RELEASE,
-                            "source_category": p["raw_category"],
-                        }
-                    ],
-                }
-            )
-
-        # OSM notables in Yasamal bbox/poly
-        minx, miny, maxx, maxy = yasamal_geom.bounds
-        osm_added = 0
-        for n in props_handler.notable:
-            if not (minx <= n["lon"] <= maxx and miny <= n["lat"] <= maxy):
-                continue
-            pt = Point(n["lon"], n["lat"])
-            if not (yasamal_geom.covers(pt) or yasamal_geom.intersects(pt)):
-                continue
-            pid = cid("place", "osm", n["osm_type"], str(n["osm_id"]))
-            places.append(
-                {
-                    "id": pid,
-                    "name": n["name"],
-                    "name_normalized": norm(n["name"]),
-                    "alt_names": [],
-                    "category": n["category"],
-                    "coordinates": {"lat": n["lat"], "lon": n["lon"]},
-                    "area_id": yasamal_id,
-                    "area_assign_method": "containment_verified",
-                    "area_assign_status": "verified",
-                    "confidence": None,
-                    "status": "silver",
-                    "source_refs": [
-                        {
-                            "source": "osm",
-                            "source_id": f"{n['osm_type']}/{n['osm_id']}",
-                            "release": OSM_RELEASE,
-                            "source_category": n["category"],
-                        }
-                    ],
-                }
-            )
-            osm_added += 1
-        print(f"  Overture landmarks: {len(ov_places)}; OSM notables added: {osm_added}")
+    # Places for all Bakı rayons: scripts/extract_baki_district_places.py (pnpm extract:baki-places)
 
     # Write areas index (no heavy geom)
     areas_out = []
@@ -955,38 +890,18 @@ def main():
         boundary_index.append({"file": f"boundaries/{fname}.geojson", "area_id": feat["properties"]["id"], "name": feat["properties"]["name"]})
     write_json(bdir / "index.json", {"boundaries": boundary_index})
 
-    # Places by category
-    pdir = OUT / "places"
-    pdir.mkdir(parents=True, exist_ok=True)
-    by_cat = defaultdict(list)
-    for p in places:
-        by_cat[p["category"]].append(p)
-    for cat, items in by_cat.items():
-        write_json(pdir / f"{cat}.json", {"category": cat, "places": items})
-    write_json(
-        pdir / "index.json",
-        {
-            "region": "yasamal_pilot",
-            "area_id": yasamal_id,
-            "total": len(places),
-            "by_category": {k: len(v) for k, v in sorted(by_cat.items())},
-            "files": [f"places/{k}.json" for k in sorted(by_cat)],
-        },
-    )
-    write_json(pdir / "yasamal_all.json", {"area_id": yasamal_id, "places": places})
-
     write_json(OUT / "reviews" / "pilot_reviews.json", {"reviews": reviews})
 
     manifest = {
         "name": "GeoAtlas Azerbaijan",
-        "dataset_version": "0.1.0-pilot",
+        "dataset_version": "0.1.2-pilot",
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "coverage": {
             "scope": "pilot",
-            "description": "Country + Bakı city/districts + Yasamal neighborhoods + Yasamal notable places. Not full national coverage.",
+            "description": "Country + Bakı city/districts + Yasamal neighborhoods. Run extract:baki-places for per-rayon notable places.",
             "areas": len(areas_out),
             "boundaries": len(boundary_index),
-            "places": len(places),
+            "places": 0,
             "reviews": len(reviews),
         },
         "sources": {

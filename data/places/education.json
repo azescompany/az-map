@@ -1,5 +1,6 @@
 {
   "category": "education",
+  "scope": "baki_rayons",
   "places": [
     {
       "id": "e637ec12-2109-5b6c-b783-511f59d3a84b",
@@ -116,6 +117,486 @@
         {
           "source": "osm",
           "source_id": "node/11003951597",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "663788a8-7b03-5d2e-a3bb-71c8b02c8389",
+      "name": "Tibb Universiteti, ATU",
+      "name_normalized": "tibb universiteti atu",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.3955993,
+        "lon": 49.8332473
+      },
+      "area_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/5055513706",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "fe4606c9-2492-5bcc-9545-31bffdf8c046",
+      "name": "Xəzər Dəniz Gəmiçiliyi Akademiyası",
+      "name_normalized": "xezer deniz gemiciliyi akademiyasi",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.3759163,
+        "lon": 49.8570084
+      },
+      "area_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9811487822",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "439d9729-2688-590b-83e8-9b57edeeecd4",
+      "name": "Azərbaycan Dövlət Bədən Tərbiyəsi və İdman Akademiyası",
+      "name_normalized": "azerbaycan dovlet beden terbiyesi ve i dman akademiyasi",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.4009535,
+        "lon": 49.8564398
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/2037930732",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "9e8811f1-cb05-5480-ac57-e510b81de6b6",
+      "name": "Azərbaycan Kooperasiya Universiteti",
+      "name_normalized": "azerbaycan kooperasiya universiteti",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.4098693,
+        "lon": 49.8377824
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/2485919776",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "62a4dfac-3f01-566b-a143-32106dbee804",
+      "name": "Azərbaycan Turizm və Menecment Universiteti",
+      "name_normalized": "azerbaycan turizm ve menecment universiteti",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.3979571,
+        "lon": 49.8571244
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/2943396262",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "d2443aa3-2863-5cec-abae-61cdbb0193a8",
+      "name": "Pedaqoji Psixologiya İnstitutu",
+      "name_normalized": "pedaqoji psixologiya i nstitutu",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.3970012,
+        "lon": 49.8357643
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4034607399",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "239a991a-c993-50d6-b1e6-e364c98a295d",
+      "name": "İqtisad Universitetinin 4-cü tədris binası",
+      "name_normalized": "i qtisad universitetinin 4 cu tedris binasi",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.3964964,
+        "lon": 49.8354175
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4034607400",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "cc306361-b484-5e25-bff1-d8ed265b57ec",
+      "name": "Təfəkkür Universiteti",
+      "name_normalized": "tefekkur universiteti",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.3887796,
+        "lon": 49.8527293
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4469809991",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "a9a1a459-9370-5869-b3b6-174221649656",
+      "name": "Avrasiya Universiteti Bakı",
+      "name_normalized": "avrasiya universiteti baki",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.4058948,
+        "lon": 49.8597561
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4586673394",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "db33dadd-374c-5d5b-a339-04bf777be900",
+      "name": "Azərbaycan Dövlət Rəssamlıq Akademiyası",
+      "name_normalized": "azerbaycan dovlet ressamliq akademiyasi",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.396508,
+        "lon": 49.8740157
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4730766821",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "e90d8a2e-592f-57f7-9ba4-7d31e2ecd733",
+      "name": "Azərbaycan Metrologiya İnstitutu",
+      "name_normalized": "azerbaycan metrologiya i nstitutu",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.4218171,
+        "lon": 49.9019143
+      },
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9937924856",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "f3b54d1b-3183-5171-84ff-885231569989",
+      "name": "Oksbric Akademiyası",
+      "name_normalized": "oksbric akademiyasi",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.4202574,
+        "lon": 49.9098882
+      },
+      "area_id": "efdc6d2d-b895-5692-a7c4-724ef5302eda",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9764979957",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "04f5a652-9e2b-53b2-adeb-331d8145d5df",
+      "name": "MDU Bakı ( MQU ) \\ Xocəsəm",
+      "name_normalized": "mdu baki mqu xocesem",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.4036091,
+        "lon": 49.7605723
+      },
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11165772812",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "a9e78735-cc34-54ff-b601-f2e70ef73c14",
+      "name": "Qərbi Kaspi Universiteti",
+      "name_normalized": "qerbi kaspi universiteti",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.3651243,
+        "lon": 49.8308436
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/2066367012",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "b5bfd1a9-61ff-5e73-8ceb-f7c2ef64d9c7",
+      "name": "Xəzər Dəniz Layihə İnstitutu",
+      "name_normalized": "xezer deniz layihe i nstitutu",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.3504666,
+        "lon": 49.8330726
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4379043692",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "40ff377d-92d1-5871-a8e1-e9fb6f775cb9",
+      "name": "Bakı Ali Neft Məktəbi Kampusu / 20-ci Sahə",
+      "name_normalized": "baki ali neft mektebi kampusu 20 ci sahe",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.3205877,
+        "lon": 49.8270723
+      },
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9895916071",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "43c36657-ccf9-54e2-abe9-fc02aca7060f",
+      "name": "Bakı Ali Neft Məktəbi",
+      "name_normalized": "baki ali neft mektebi",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.3822783,
+        "lon": 49.8721005
+      },
+      "area_id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3930434906",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "72139f34-5ae2-5d86-ad30-1ff122d16475",
+      "name": "Milli Aviasiya Akademiyası",
+      "name_normalized": "milli aviasiya akademiyasi",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.4521874,
+        "lon": 50.0646716
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3507558488",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "e39a79e1-fc70-5a48-975c-115781017867",
+      "name": "Dendrologiya İnstitutu",
+      "name_normalized": "dendrologiya i nstitutu",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.4882886,
+        "lon": 50.1582152
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10726723208",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "a0087df2-a39b-5501-9a42-528f0aae5963",
+      "name": "Daxili Qoşunların Ali Hərbi Məktəbi",
+      "name_normalized": "daxili qosunlarin ali herbi mektebi",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.4764846,
+        "lon": 50.1148224
+      },
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10749329595",
           "release": "azerbaijan-261020",
           "source_category": "education"
         }

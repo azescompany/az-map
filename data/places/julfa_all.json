@@ -1,0 +1,198 @@
+{
+  "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "da49e89f-3461-547e-aca4-08599679779b",
+      "name": "Elince Qalasi",
+      "name_normalized": "elince qalasi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.195049,
+        "lon": 45.693589
+      },
+      "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6204876899719238,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "48ff0638-1169-4d7b-b6fb-eef0f392b3db",
+          "release": "2026-09-23.1",
+          "source_category": "castle"
+        }
+      ]
+    },
+    {
+      "id": "01920c65-d3df-58f9-81c1-72dd376c877a",
+      "name": "Khanegah Tomb",
+      "name_normalized": "khanegah tomb",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.18883333,
+        "lon": 45.71547222
+      },
+      "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8138099312782288,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "327104d5-3b73-427a-aa3d-77b0ec0faf3f",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "9ab0601a-0cf0-5992-8b39-1be9bfbee1ad",
+      "name": "Əbrəqunus Çökəkliyi",
+      "name_normalized": "ebrequnus cokekliyi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.12344,
+        "lon": 45.65821
+      },
+      "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7947090864181519,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "beb4c4d4-8a17-4702-9e86-d1c28f84bce2",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "e0458466-d2c3-52aa-9c8c-6ece11c793d9",
+      "name": "Pereval Kara-Mulla",
+      "name_normalized": "pereval kara mulla",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.24528,
+        "lon": 45.62028
+      },
+      "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7993894219398499,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "15f2e4f2-b33a-4966-bdba-f206e997d265",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "6f469dd2-148f-5db0-bc0d-6d38f23a76f4",
+      "name": "Ashab-i Kehf",
+      "name_normalized": "ashab i kehf",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.22509,
+        "lon": 45.58858
+      },
+      "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8059319257736206,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a9b4b9e0-942a-4c17-9001-0234e6a0114f",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "05a094e3-ca9d-5898-8dc0-7b72eee2976f",
+      "name": "آسیاب خرابه Asyab Kharabeh",
+      "name_normalized": "asyab kharabeh",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 38.960587,
+        "lon": 45.629196
+      },
+      "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6299721002578735,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1ca0b7fd-8263-4b2f-a483-ba67f42aa455",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "f9c35ed8-dd23-5d21-9cb0-eb5845eda24c",
+      "name": "Əlincə Qalası, Alinja Fortress",
+      "name_normalized": "elince qalasi alinja fortress",
+      "alt_names": [],
+      "category": "monument",
+      "coordinates": {
+        "lat": 38.95676,
+        "lon": 45.63054
+      },
+      "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5626725554466248,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9fa3dcb7-af70-41a0-a85e-abf2a6e8ce4b",
+          "release": "2026-09-23.1",
+          "source_category": "monument"
+        }
+      ]
+    },
+    {
+      "id": "647e70ae-1481-5f2b-908e-a87c5614612d",
+      "name": "Xoşkeşin kənd tam orta məktəbi",
+      "name_normalized": "xoskesin kend tam orta mektebi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.95,
+        "lon": 45.6319
+      },
+      "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.851508617401123,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c11d8af2-22d3-433b-9de2-ed12dbf2efa8",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

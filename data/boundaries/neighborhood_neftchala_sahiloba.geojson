@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "c334ecdf-ec12-55ee-ac16-ac2495291cad",
+      "properties": {
+        "id": "c334ecdf-ec12-55ee-ac16-ac2495291cad",
+        "name": "Sahiloba",
+        "type": "neighborhood",
+        "parent_id": "18688643-9cef-5e65-a2fa-a84819393c6c",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              49.2105614,
+              39.1355558
+            ],
+            [
+              49.2087854,
+              39.1329272
+            ],
+            [
+              49.204708,
+              39.1293145
+            ],
+            [
+              49.2049798,
+              39.12871
+            ],
+            [
+              49.2065564,
+              39.1295534
+            ],
+            [
+              49.2087129,
+              39.1312404
+            ],
+            [
+              49.2104527,
+              39.1315637
+            ],
+            [
+              49.2124824,
+              39.1355137
+            ],
+            [
+              49.2105614,
+              39.1355558
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

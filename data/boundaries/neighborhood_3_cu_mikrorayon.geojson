@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "7ffc03f0-1fb3-500a-b78f-112fa3eebcec",
+      "properties": {
+        "id": "7ffc03f0-1fb3-500a-b78f-112fa3eebcec",
+        "name": "3-cü mikrorayon",
+        "type": "neighborhood",
+        "parent_id": "efdc6d2d-b895-5692-a7c4-724ef5302eda",
+        "parent_status": "conflict",
+        "subtype": "neighborhood"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.375172,
+              40.6974829
+            ],
+            [
+              46.3746513,
+              40.6970554
+            ],
+            [
+              46.3784705,
+              40.6939834
+            ],
+            [
+              46.3849402,
+              40.6988191
+            ],
+            [
+              46.3810577,
+              40.7020616
+            ],
+            [
+              46.3781348,
+              40.6997937
+            ],
+            [
+              46.3750519,
+              40.6975997
+            ],
+            [
+              46.375172,
+              40.6974829
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "7b8a2341-ecf9-5d63-840f-446adf20e8df",
+      "properties": {
+        "id": "7b8a2341-ecf9-5d63-840f-446adf20e8df",
+        "name": "Əlix",
+        "type": "neighborhood",
+        "parent_id": "6fec85b0-0967-5a32-8c49-4804119a40ae",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.041663,
+              41.3360092
+            ],
+            [
+              48.0398502,
+              41.3365729
+            ],
+            [
+              48.0383203,
+              41.3364798
+            ],
+            [
+              48.0384815,
+              41.3352537
+            ],
+            [
+              48.0400228,
+              41.3344104
+            ],
+            [
+              48.0409989,
+              41.3349995
+            ],
+            [
+              48.041663,
+              41.3360092
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

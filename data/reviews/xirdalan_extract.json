@@ -1,0 +1,18 @@
+{
+  "xirdalan_id": "2dd82823-5406-5468-85af-f06df3a8e3b6",
+  "parent": "Abşeron rayonu",
+  "parent_status": "verified",
+  "verified_microhoods": [
+    "24-cü Məhəllə",
+    "27-ci Məhəllə",
+    "28-ci Məhəllə",
+    "AAAF Park",
+    "Krisral Abşeron 1",
+    "Kristal Abşeron 2",
+    "Quşçuluq",
+    "Villa Butik Paradis"
+  ],
+  "conflicts": [],
+  "places": 21,
+  "areas_total": 181
+}

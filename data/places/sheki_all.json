@@ -1,0 +1,414 @@
+{
+  "area_id": "84652ade-57b0-5975-a105-b7cdb2444bcc",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "41bac554-9e35-5be6-9e9c-e44a124bb299",
+      "name": "Seki",
+      "name_normalized": "seki",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.1764488,
+        "lon": 47.17342
+      },
+      "area_id": "84652ade-57b0-5975-a105-b7cdb2444bcc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.524179995059967,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "cfc04c3c-65df-405f-82f6-fe09fdaaf752",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "20bad607-2604-5e62-bc83-721d3a4fd28e",
+      "name": "Sheki Abide Park",
+      "name_normalized": "sheki abide park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.1760755,
+        "lon": 47.1679333
+      },
+      "area_id": "84652ade-57b0-5975-a105-b7cdb2444bcc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7274970412254333,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9d3cd84f-e855-407d-af65-177c5d765fa9",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "459ebc26-2491-56f2-b5fb-19ad7b3fec94",
+      "name": "Nuxa",
+      "name_normalized": "nuxa",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.191944444444,
+        "lon": 47.170555555556
+      },
+      "area_id": "84652ade-57b0-5975-a105-b7cdb2444bcc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7108383774757385,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "bf0f2057-238f-47f5-adb3-30b55c1143d1",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "d3167694-c8b4-5fcc-abd2-82a2cddc3482",
+      "name": "Axundov Parkta",
+      "name_normalized": "axundov parkta",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.204473120199,
+        "lon": 47.166803358167
+      },
+      "area_id": "84652ade-57b0-5975-a105-b7cdb2444bcc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8478204011917114,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "873893d0-89c4-446d-b019-42e334c07349",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "55154c3c-5b77-5bbf-a4b5-bc1cf23cb064",
+      "name": "Baxtiyar Vahabzade Parki",
+      "name_normalized": "baxtiyar vahabzade parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.20308181,
+        "lon": 47.17993991
+      },
+      "area_id": "84652ade-57b0-5975-a105-b7cdb2444bcc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.885122537612915,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "33d7a5cf-ac78-4fc4-a693-b705fb7ef752",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "d5fa5585-f5ef-5213-a741-66d98adea5dd",
+      "name": "Palace of Shaki Khans",
+      "name_normalized": "palace of shaki khans",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 41.20442501,
+        "lon": 47.19758061
+      },
+      "area_id": "84652ade-57b0-5975-a105-b7cdb2444bcc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8410589098930359,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5a40db78-a92e-4e4c-bb46-2af98c140322",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "f64aaaf6-1447-5a3c-ae32-5935f54cb56e",
+      "name": "Mirzə Fətəli Axundovun Ev Muzeyi",
+      "name_normalized": "mirze feteli axundovun ev muzeyi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.20379590000001,
+        "lon": 47.1968058
+      },
+      "area_id": "84652ade-57b0-5975-a105-b7cdb2444bcc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5721011161804199,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "47d66226-2148-4e0f-a160-74f8db0ec131",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "0cda3b83-ea00-5310-968d-0a1ce838bbc5",
+      "name": "Дворец Шекинских Ханов",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.204031213446115,
+        "lon": 47.1972744318111
+      },
+      "area_id": "84652ade-57b0-5975-a105-b7cdb2444bcc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7611963748931885,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ff09b343-1663-4c23-bf3c-31a957e86669",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "2252ddd8-e09a-5f81-b0b1-9ee3acc99584",
+      "name": "Dairəvi Məbəd",
+      "name_normalized": "dairevi mebed",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.203408,
+        "lon": 47.196792
+      },
+      "area_id": "84652ade-57b0-5975-a105-b7cdb2444bcc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7101330161094666,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ee8cfc85-c4bf-4961-982e-cf0191f8c85a",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "248b28c2-115b-561d-8d7d-1e85948e0a9e",
+      "name": "Bakhtiyar Vahabzade House Museum",
+      "name_normalized": "bakhtiyar vahabzade house museum",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 41.20479453,
+        "lon": 47.20653378
+      },
+      "area_id": "84652ade-57b0-5975-a105-b7cdb2444bcc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6654468178749084,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ac1ba8c1-5e4b-4ee8-b0a0-f15c91db7e25",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "cfad16c4-1e5d-54d7-9d6f-83cda6a35cfe",
+      "name": "Qəbələ Nohur Göl",
+      "name_normalized": "qebele nohur gol",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.2009788,
+        "lon": 47.1948888
+      },
+      "area_id": "84652ade-57b0-5975-a105-b7cdb2444bcc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.712527871131897,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "28dea4b9-7af4-48d5-8dc4-5f7cc0b59be9",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "b230ba68-5c32-5a59-aeb7-04d05befc11d",
+      "name": "Upper Caravanserai",
+      "name_normalized": "upper caravanserai",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.20099696,
+        "lon": 47.19403267
+      },
+      "area_id": "84652ade-57b0-5975-a105-b7cdb2444bcc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7641157507896423,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ae66b318-0754-4f13-84ff-4b6dfdd20707",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "4644ba35-1f6e-5e93-976c-32beedfedc52",
+      "name": "Kiş, Alban mebedi",
+      "name_normalized": "kis alban mebedi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 41.20142,
+        "lon": 47.189154
+      },
+      "area_id": "84652ade-57b0-5975-a105-b7cdb2444bcc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.590988278388977,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d6868251-ac26-4dc2-af53-9d3a66cc59ec",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "d1c5eeb9-48db-5273-b658-fe64ffc1cd24",
+      "name": "Sheki Mərkəzi Cümə Məscidi",
+      "name_normalized": "sheki merkezi cume mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 41.20245744,
+        "lon": 47.18110211
+      },
+      "area_id": "84652ade-57b0-5975-a105-b7cdb2444bcc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8487365245819092,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ed573a58-8054-4442-85e1-811faf3de760",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "7c28ee85-819f-509d-a184-ca2807233e90",
+      "name": "Nəriman Nərimanov Parkı",
+      "name_normalized": "neriman nerimanov parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.20223,
+        "lon": 47.17577
+      },
+      "area_id": "84652ade-57b0-5975-a105-b7cdb2444bcc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6633371114730835,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9df2cfd9-7dba-4464-9f89-c8127fb89759",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "97950309-05db-5b5d-bae5-48eb7c46b0fe",
+      "name": "Kanal-S",
+      "name_normalized": "kanal s",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.19431338,
+        "lon": 47.17723175
+      },
+      "area_id": "84652ade-57b0-5975-a105-b7cdb2444bcc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7509859204292297,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "395c5d75-f647-4b96-9e5f-a6d353598b47",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "760e90d7-a8c6-5f1c-ae95-d8561799d4eb",
+      "name": "Çay Başi",
+      "name_normalized": "cay basi",
+      "alt_names": [],
+      "category": "monument",
+      "coordinates": {
+        "lat": 41.17618137133199,
+        "lon": 47.17550033027956
+      },
+      "area_id": "84652ade-57b0-5975-a105-b7cdb2444bcc",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5222768187522888,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b3c9225e-4362-49b2-8eff-48d8cd6faf3e",
+          "release": "2026-09-23.1",
+          "source_category": "monument"
+        }
+      ]
+    }
+  ]
+}

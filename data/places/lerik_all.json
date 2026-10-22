@@ -1,0 +1,102 @@
+{
+  "area_id": "4a92fe72-1565-543e-859d-94af4b3318a8",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "e714717c-61e8-562f-8f15-65d1caa696a4",
+      "name": "Bobogil türbəsi",
+      "name_normalized": "bobogil turbesi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 38.802078,
+        "lon": 48.513921
+      },
+      "area_id": "4a92fe72-1565-543e-859d-94af4b3318a8",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8130547404289246,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "72096ecd-0efe-4e2b-85e5-e724ce0cf05d",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "34e795f4-7987-5493-8d56-e9a658cc529b",
+      "name": "Lerik rayon Tarix Diyarşünaslıq Muzeyi",
+      "name_normalized": "lerik rayon tarix diyarsunasliq muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 38.775294667182,
+        "lon": 48.418757021427
+      },
+      "area_id": "4a92fe72-1565-543e-859d-94af4b3318a8",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.825519323348999,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0bde7a17-896e-4c46-842b-b97c179084f7",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "95dc05e5-9451-5c68-ac7d-ecafc1ec0c29",
+      "name": "Relax Ailəvi İstirahət Mərkəzi",
+      "name_normalized": "relax ailevi i stirahet merkezi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.77331,
+        "lon": 48.42096
+      },
+      "area_id": "4a92fe72-1565-543e-859d-94af4b3318a8",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8566890954971313,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "086e48e0-b553-44e3-9f95-22e796901073",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "a10236e7-b3c0-5d61-8af3-6f410e08a471",
+      "name": "Heydar Aliyev Park",
+      "name_normalized": "heydar aliyev park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 38.77527194,
+        "lon": 48.41781837
+      },
+      "area_id": "4a92fe72-1565-543e-859d-94af4b3318a8",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7927298545837402,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "96babb68-be73-4507-b45e-b8847923e286",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    }
+  ]
+}

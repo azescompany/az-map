@@ -1,0 +1,126 @@
+{
+  "area_id": "359a014a-e4e6-5647-bbf4-98ce4dd98870",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "52ede80a-b2e4-5200-a974-9da24ab8d655",
+      "name": "Yuxarı Qarabağ Kanalı",
+      "name_normalized": "yuxari qarabag kanali",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.73139,
+        "lon": 47.96776
+      },
+      "area_id": "359a014a-e4e6-5647-bbf4-98ce4dd98870",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8126379251480103,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "11b7268c-c185-44e0-ac4d-05896803f5c7",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "fa0f244e-0577-59ef-9b2a-ca3004ccb704",
+      "name": "Behremtepe",
+      "name_normalized": "behremtepe",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.7379,
+        "lon": 47.9538
+      },
+      "area_id": "359a014a-e4e6-5647-bbf4-98ce4dd98870",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.716443657875061,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c9cfd87f-02ea-4b05-9013-e5af1ccf80b0",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "4edff127-cef2-5c4c-a1de-80b1343ac284",
+      "name": "Semyonovka",
+      "name_normalized": "semyonovka",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.72,
+        "lon": 48.08
+      },
+      "area_id": "359a014a-e4e6-5647-bbf4-98ce4dd98870",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8082134127616882,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1c36047c-4075-4a78-bb12-4780bddf8327",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "5bf12b39-af81-5ade-8e69-45a850aab078",
+      "name": "Azizbekovskiy Kollektor",
+      "name_normalized": "azizbekovskiy kollektor",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.73385,
+        "lon": 48.01673
+      },
+      "area_id": "359a014a-e4e6-5647-bbf4-98ce4dd98870",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7930765748023987,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "15b669d3-1101-4787-b650-6d54da14f244",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "b36ab25d-418b-5bcb-80ed-7690e613db26",
+      "name": "Имишлинский городской стадион имени Гейдара Алиева",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 39.86972222,
+        "lon": 48.06
+      },
+      "area_id": "359a014a-e4e6-5647-bbf4-98ce4dd98870",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8097644448280334,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "eb9c6801-3e94-42fc-8174-982b54801f62",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "3780a993-0d44-50e8-a2a8-ed03c9046ebf",
+      "properties": {
+        "id": "3780a993-0d44-50e8-a2a8-ed03c9046ebf",
+        "name": "Kürünc",
+        "type": "neighborhood",
+        "parent_id": "709fbdf8-acbb-5197-a685-6d1bf6c77d87",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.1788198,
+              39.2208851
+            ],
+            [
+              48.1795064,
+              39.2230126
+            ],
+            [
+              48.176453,
+              39.2236565
+            ],
+            [
+              48.174574,
+              39.2221168
+            ],
+            [
+              48.175658,
+              39.2206471
+            ],
+            [
+              48.1788198,
+              39.2208851
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

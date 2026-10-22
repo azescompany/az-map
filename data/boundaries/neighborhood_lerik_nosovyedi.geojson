@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "fdee6162-47e4-58bb-91b7-ac6a0c49bfaa",
+      "properties": {
+        "id": "fdee6162-47e4-58bb-91b7-ac6a0c49bfaa",
+        "name": "Nosovyədi",
+        "type": "neighborhood",
+        "parent_id": "4a92fe72-1565-543e-859d-94af4b3318a8",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.6054611,
+              38.6294727
+            ],
+            [
+              48.6035703,
+              38.6289771
+            ],
+            [
+              48.6033165,
+              38.6276487
+            ],
+            [
+              48.6044332,
+              38.6268953
+            ],
+            [
+              48.6058094,
+              38.6276857
+            ],
+            [
+              48.6076024,
+              38.6271248
+            ],
+            [
+              48.608202,
+              38.6282038
+            ],
+            [
+              48.6054611,
+              38.6294727
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

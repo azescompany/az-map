@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "071c0c8e-4b61-5099-8d52-022d133fe1a1",
+      "properties": {
+        "id": "071c0c8e-4b61-5099-8d52-022d133fe1a1",
+        "name": "Araz Zərgər",
+        "type": "neighborhood",
+        "parent_id": "eb593579-9816-5449-a5cd-1dacaafbcef9",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.620196,
+              39.5706331
+            ],
+            [
+              47.6164395,
+              39.5693921
+            ],
+            [
+              47.6155289,
+              39.5674741
+            ],
+            [
+              47.6182121,
+              39.5655561
+            ],
+            [
+              47.6272212,
+              39.5693795
+            ],
+            [
+              47.625904,
+              39.573817
+            ],
+            [
+              47.620196,
+              39.5706331
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

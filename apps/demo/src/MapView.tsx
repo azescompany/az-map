@@ -129,36 +129,51 @@ export default function MapView({
           "circle-radius": [
             "case",
             ["boolean", ["get", "selected"], false],
-            9,
+            10,
             6,
           ],
           "circle-color": [
-            "match",
-            ["get", "category"],
-            "historic",
-            "#e8a44a",
-            "park",
-            "#3ecf8e",
-            "museum",
-            "#c084fc",
-            "religious",
-            "#60a5fa",
-            "stadium",
-            "#f472b6",
-            "monument",
-            "#fbbf24",
-            "tourism",
-            "#34d399",
-            "culture",
-            "#a78bfa",
-            "education",
-            "#38bdf8",
-            "government",
-            "#94a3b8",
-            "#3d9cf0",
+            "case",
+            ["boolean", ["get", "selected"], false],
+            "#ff6b6b",
+            [
+              "match",
+              ["get", "category"],
+              "historic",
+              "#e8a44a",
+              "park",
+              "#3ecf8e",
+              "museum",
+              "#c084fc",
+              "religious",
+              "#60a5fa",
+              "stadium",
+              "#f472b6",
+              "monument",
+              "#fbbf24",
+              "tourism",
+              "#34d399",
+              "culture",
+              "#a78bfa",
+              "education",
+              "#38bdf8",
+              "government",
+              "#94a3b8",
+              "#3d9cf0",
+            ],
           ],
-          "circle-stroke-width": 1.5,
-          "circle-stroke-color": "#0f1419",
+          "circle-stroke-width": [
+            "case",
+            ["boolean", ["get", "selected"], false],
+            2.5,
+            1.5,
+          ],
+          "circle-stroke-color": [
+            "case",
+            ["boolean", ["get", "selected"], false],
+            "#ffffff",
+            "#0f1419",
+          ],
           "circle-opacity": 0.95,
         },
       });
@@ -273,15 +288,27 @@ export default function MapView({
   useEffect(() => {
     const map = mapRef.current;
     if (!map || !ready) return;
+    // Only plot places with real coordinates — never invent markers.
+    // When a named place is selected, show only that dot (hide the rest).
+    const visible = selectedPlaceId
+      ? places.filter((p) => p.id === selectedPlaceId)
+      : places;
+    const withCoords = visible.filter(
+      (p) =>
+        p.coordinates &&
+        Number.isFinite(p.coordinates.lon) &&
+        Number.isFinite(p.coordinates.lat),
+    );
     (map.getSource("places") as GeoJSONSource).setData({
       type: "FeatureCollection",
-      features: places.map((p) => ({
+      features: withCoords.map((p) => ({
         type: "Feature",
         properties: {
           id: p.id,
-          name: p.name,
+          name: p.displayName ?? p.name,
           category: p.category,
           selected: p.id === selectedPlaceId,
+          role: "named_place",
         },
         geometry: {
           type: "Point",
@@ -295,11 +322,17 @@ export default function MapView({
     const map = mapRef.current;
     if (!map || !ready || !selectedPlaceId) return;
     const place = places.find((p) => p.id === selectedPlaceId);
-    if (!place) return;
+    if (
+      !place?.coordinates ||
+      !Number.isFinite(place.coordinates.lon) ||
+      !Number.isFinite(place.coordinates.lat)
+    ) {
+      return;
+    }
     map.flyTo({
       center: [place.coordinates.lon, place.coordinates.lat],
-      zoom: Math.max(map.getZoom(), 13.5),
-      duration: 500,
+      zoom: 16,
+      duration: 700,
     });
   }, [selectedPlaceId, places, ready]);
 

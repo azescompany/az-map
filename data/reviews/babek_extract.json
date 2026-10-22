@@ -1,0 +1,20 @@
+{
+  "rayon": "Babək rayonu",
+  "verified_settlements": [
+    "Araz",
+    "Babək",
+    "Badaşqan",
+    "Güznüt",
+    "Naxışnərgiz",
+    "Nehrəm",
+    "Qoşadizə",
+    "Yuxarı Buzqov",
+    "Şəkərabad"
+  ],
+  "conflicts": [],
+  "places": 5,
+  "areas_total": 3339,
+  "generated_at": "2026-10-22T07:07:24.587895+00:00",
+  "osm_release": "azerbaijan-261020",
+  "overture_release": "2026-09-23.1"
+}

@@ -1,0 +1,52 @@
+{
+  "parent": "Abşeron rayonu",
+  "skipped_dedicated": [
+    "Masazır",
+    "Xırdalan"
+  ],
+  "verified_settlements": [
+    "Aşağı Güzdək",
+    "Digah",
+    "Fatmayı",
+    "Goradil",
+    "Güzdək",
+    "Hökməli",
+    "Mehdiabad",
+    "Məhəmmədli",
+    "Novxanı",
+    "Novxanı Bağları",
+    "Pirəkəşkül",
+    "Qobu",
+    "Qobustan qəsəbəsi",
+    "Qurd Dərəsi",
+    "Saray",
+    "Saray Bağları",
+    "Saray H MTK \\ Saray",
+    "Saray Üzümlük",
+    "Yeni Ceyranbatan",
+    "Yeni Saray",
+    "Çaylı",
+    "Şəfəq",
+    "Əliçıraq"
+  ],
+  "nested_verified": {
+    "Məhəmmədli": [
+      "Villalar \\ Məmmədli"
+    ],
+    "Qobu": [
+      "Qobu Village YS"
+    ]
+  },
+  "conflicts": [],
+  "places": 22,
+  "areas_total": 206,
+  "overlap_notes": [
+    "Masazır and Xırdalan kept as dedicated WORKER blocks; not re-extracted.",
+    "Sumqayıt children Ceyranbatan / Novxanı bağları use different Overture ids than Absheron Yeni Ceyranbatan / Novxanı Bağları — no id collision.",
+    "Absheron places file skips landmarks already in masazir_all / xirdalan_all / other rayon files.",
+    "Digah qəsəbəsi and Şəfəq qəsəbəsi are Overture children without division_area — skipped (no invented geometry)."
+  ],
+  "generated_at": "2026-10-21T13:46:39.865151+00:00",
+  "osm_release": "azerbaijan-261020",
+  "overture_release": "2026-09-23.1"
+}

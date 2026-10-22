@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "92491fcd-8b14-5904-9621-4b07caa69160",
+      "properties": {
+        "id": "92491fcd-8b14-5904-9621-4b07caa69160",
+        "name": "Talabı",
+        "type": "neighborhood",
+        "parent_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.6644765,
+              41.2635456
+            ],
+            [
+              48.6646758,
+              41.2677908
+            ],
+            [
+              48.6577849,
+              41.2701241
+            ],
+            [
+              48.6547276,
+              41.2669006
+            ],
+            [
+              48.65843,
+              41.262197
+            ],
+            [
+              48.6644765,
+              41.2635456
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,534 @@
+{
+  "area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "cc189dcd-dd0d-5176-89f9-a44d2f3d02db",
+      "name": "Qurd Deresi 3",
+      "name_normalized": "qurd deresi 3",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.5506621,
+        "lon": 49.73590149
+      },
+      "area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6128266453742981,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a73d72ac-c492-49e4-a4d8-2f69127629b7",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "10338741-f035-5607-b7a0-08356acb9a8e",
+      "name": "Novxanı bağ",
+      "name_normalized": "novxani bag",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.54937763,
+        "lon": 49.75221442
+      },
+      "area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6008509993553162,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "bc754cb9-63fb-48ce-8bd6-354ce7916f68",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "89b97610-1c50-5c8e-a250-f37ce0be502a",
+      "name": "Orion beach club",
+      "name_normalized": "orion beach club",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.5556796,
+        "lon": 49.7555829
+      },
+      "area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.3900960087776184,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "da0c9a19-fa1f-45a5-9dd4-7f61a6b99eac",
+          "release": "2026-09-23.1",
+          "source_category": "beach"
+        }
+      ]
+    },
+    {
+      "id": "5abcc363-d0ce-5431-8863-974f1cd5b4d0",
+      "name": "Firavan Park Yaşayış Kompleksi",
+      "name_normalized": "firavan park yasayis kompleksi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.505985819448,
+        "lon": 49.759555346526
+      },
+      "area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7576096057891846,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3defd6d4-78d2-4dbe-86ec-f346b3eece8e",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "c2e3ea8d-ebb6-53c9-8e83-4c05d865ee88",
+      "name": "Xancan Cılğası",
+      "name_normalized": "xancan cilgasi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.51517,
+        "lon": 49.55999
+      },
+      "area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.808864951133728,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0123c175-9bfe-49f5-afe3-d690512f07d3",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "6151c62e-ab08-54ee-aad0-675ff8dcfe36",
+      "name": "Science City Yaşayış Kompleksi",
+      "name_normalized": "science city yasayis kompleksi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.52865442,
+        "lon": 49.74372892
+      },
+      "area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8414302468299866,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3ce50598-7dbd-4316-939a-45e5da3348c1",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "c3c413f9-5139-5096-9774-ed71c8e4a87a",
+      "name": "Saray Qəsəbəsi",
+      "name_normalized": "saray qesebesi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.533949792845,
+        "lon": 49.71159665221
+      },
+      "area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7167109251022339,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c6988b9b-9e58-43fb-ba23-339748c79c5a",
+          "release": "2026-09-23.1",
+          "source_category": "castle"
+        }
+      ]
+    },
+    {
+      "id": "ef623049-d4f4-5c4c-9c36-832a5cc50ed2",
+      "name": "Fatmayı kəndi",
+      "name_normalized": "fatmayi kendi",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.535177739695946,
+        "lon": 49.836004595905145
+      },
+      "area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.572727382183075,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9dec1764-6b4e-40ac-9081-d0d1be507ea7",
+          "release": "2026-09-23.1",
+          "source_category": "beach"
+        }
+      ]
+    },
+    {
+      "id": "30984009-85e2-5c73-a91d-7edfe0bb9bcb",
+      "name": "Fatmayı Məscid",
+      "name_normalized": "fatmayi mescid",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.5283767,
+        "lon": 49.84371641
+      },
+      "area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7386070489883423,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a55f5c55-5ea3-4c2d-9b85-662896c517e9",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "af1300c3-f19d-583c-ab2e-3ec6e5c066dd",
+      "name": "Saray Baglari",
+      "name_normalized": "saray baglari",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.526327081454,
+        "lon": 49.705601857141
+      },
+      "area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7383207678794861,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "44c052bb-6216-4043-a5c4-ca98b4728073",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "eaf3e637-c4b9-53a1-95e2-6ac652229055",
+      "name": "Yanar Dag",
+      "name_normalized": "yanar dag",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.50180244,
+        "lon": 49.89126835
+      },
+      "area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5522605776786804,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b9afc854-1a12-4fd6-9dbe-92d9619a5f71",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "b13a1eeb-75d5-5ef2-821b-471ef344af22",
+      "name": "Qurtuluş 93 Yaşayış Kompleksi",
+      "name_normalized": "qurtulus 93 yasayis kompleksi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.4900783979022,
+        "lon": 49.75824782487014
+      },
+      "area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.686870276927948,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d3a8fbf3-291e-47ad-88eb-4d61e096ee3e",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "7aab1833-e6b7-52b0-a7e4-c2e6f4eb29bc",
+      "name": "Turkish Bath",
+      "name_normalized": "turkish bath",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.490016800024016,
+        "lon": 49.754949449945826
+      },
+      "area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.4854937791824341,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3f0980e6-c1be-4b36-b365-8a30386fcc97",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "e482d620-c795-5e62-b27b-e5e8ac198675",
+      "name": "Yeni Masazır Park",
+      "name_normalized": "yeni masazir park",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.490907850283,
+        "lon": 49.759397506714
+      },
+      "area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7097708582878113,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a1e9ed6c-502a-4a27-8194-95c1552d8aef",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "bc4f691b-7616-5010-89a2-f730fbb9a2da",
+      "name": "Yeni Bakı Bina",
+      "name_normalized": "yeni baki bina",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.491496,
+        "lon": 49.74605517
+      },
+      "area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7590055465698242,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6b8312d5-5264-4f3b-b6cc-bd9e2ebdaa6c",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "d57d81a1-cca6-5398-9ad1-ea9533c93d4b",
+      "name": "Mehdiabad Məscidi",
+      "name_normalized": "mehdiabad mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.4958567,
+        "lon": 49.85317932
+      },
+      "area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6692997217178345,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a590721c-f2ff-486e-833e-e14618d928c3",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "a07caca3-99d5-5dd0-a7ee-0d9fe3eb0a56",
+      "name": "Mehdiabad",
+      "name_normalized": "mehdiabad",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.49234808,
+        "lon": 49.84841322
+      },
+      "area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.23409698903560638,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ffbb4bb6-16c4-4475-a33d-1e0a5d51a35c",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "26b913c8-fa2f-5484-9186-2fb51ca22e96",
+      "name": "Bineqedi Gencler Seherciyu",
+      "name_normalized": "bineqedi gencler seherciyu",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.48261189,
+        "lon": 49.8375077
+      },
+      "area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5355151891708374,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7fdec1ab-e0b0-4407-a5a7-768c2ac7e998",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "e6650876-4b5f-563f-a177-bf213e488f3b",
+      "name": "Blue City",
+      "name_normalized": "blue city",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.47883987,
+        "lon": 49.72770223
+      },
+      "area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8139423727989197,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "dc389520-646a-4453-b10c-97fe2b4764e5",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "2469786b-4b85-5442-9e9f-aa59dbf72943",
+      "name": "Cennet Park",
+      "name_normalized": "cennet park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.46051487506,
+        "lon": 49.655890439737
+      },
+      "area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9114685654640198,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4f25b5c7-b994-4109-a0fc-3ecfcd2d1393",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "c704e801-915f-5f65-a00e-e12c6b044981",
+      "name": "Hökməli İmam Sadiq Məscidi",
+      "name_normalized": "hokmeli i mam sadiq mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.43021135,
+        "lon": 49.73642908
+      },
+      "area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.46356871724128723,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1aa39dd8-f6e5-4cbc-bd0d-e0eda355131c",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "6ab6a5b2-8f0e-56e1-9096-8be7c7b8fa2c",
+      "name": "Qobu Village",
+      "name_normalized": "qobu village",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.39249791393151,
+        "lon": 49.731841791212986
+      },
+      "area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8786280155181885,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0455327c-1f34-4a02-bc21-9f3468777f93",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

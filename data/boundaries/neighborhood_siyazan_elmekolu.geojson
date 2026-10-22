@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "62b5ca2b-dbbf-55ba-9b7e-3cfb871833a9",
+      "properties": {
+        "id": "62b5ca2b-dbbf-55ba-9b7e-3cfb871833a9",
+        "name": "Əlməkolu",
+        "type": "neighborhood",
+        "parent_id": "cac9becb-d9eb-5a5e-9340-cab7a24f3d70",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.9456947,
+              40.9812382
+            ],
+            [
+              48.9450969,
+              40.9814813
+            ],
+            [
+              48.9441689,
+              40.9809718
+            ],
+            [
+              48.9445808,
+              40.9802974
+            ],
+            [
+              48.9452249,
+              40.9804207
+            ],
+            [
+              48.9456947,
+              40.9812382
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "2db6a5b7-3c96-5c8c-a48c-2f1020fbc516",
+      "name": "Gora Dzharadzhur",
+      "name_normalized": "gora dzharadzhur",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.1128,
+        "lon": 45.8089
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.786430299282074,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a5631655-0c57-42b1-85f4-047309c5053a",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "52751397-3a39-598a-af1b-640060954d3c",
+      "name": "Qeyseriyye",
+      "name_normalized": "qeyseriyye",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 38.91014,
+        "lon": 46.022102
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6109128594398499,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "69108c32-e493-4992-bad7-2e0d8803daa6",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "874d536b-0990-5763-9041-66a30eb9de31",
+      "name": "Джума-мечеть (Ордубад)",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 38.9097,
+        "lon": 46.0228
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8281035423278809,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1a86d253-60fd-4a48-8481-c1efd4e2a441",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "c204c106-17fc-5503-9eee-cc3958c4636a",
+      "name": "Ordubad Əylis",
+      "name_normalized": "ordubad eylis",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 38.9102,
+        "lon": 46.0156
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6012734174728394,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6bb37521-a78a-4ef3-b29a-a2a386b6b88b",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "74993f4c-5b0a-58f4-9d49-35336e11a238",
+      "name": "Nüsnüs",
+      "name_normalized": "nusnus",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 38.95917138,
+        "lon": 46.02509724
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8010455965995789,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f157b68b-1c1d-4e65-8515-de83e88a1c5a",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "b39c4a2d-f028-54c3-8543-db24bef34be6",
+      "name": "Dırnıs",
+      "name_normalized": "dirnis",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.986111111111,
+        "lon": 45.979166666667
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8075469732284546,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "740bc20d-d62c-41cc-b17e-b8c4516e4446",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "c51b95d3-a166-52f1-8621-9d598d0e75ad",
+      "name": "Berdak",
+      "name_normalized": "berdak",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.97052778,
+        "lon": 45.95394444
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7695273160934448,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b5e899b9-2215-4873-b220-f239099b5ee7",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "ad770ed4-d934-5d8d-afd5-31446e3a4cfe",
+      "name": "Ebulfez Elcibeyin Ev Muzeyi",
+      "name_normalized": "ebulfez elcibeyin ev muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 39.005186678531,
+        "lon": 45.979958
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7801513671875,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "36bb42de-2972-4daf-a367-54e5f3f37477",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "4828ee28-7d67-503f-b0d9-f0d090b75ba0",
+      "name": "Ordubad Milli Parkı",
+      "name_normalized": "ordubad milli parki",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.03522,
+        "lon": 45.92331
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8037704825401306,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "afb65354-8456-426b-825c-9dc47a74246b",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "bd8671d7-6eb5-5eac-9345-4e04c260711c",
+      "name": "Ağdərə, Ordubad",
+      "name_normalized": "agdere ordubad",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.11027778,
+        "lon": 45.91388889
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.805281937122345,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0c1802ad-c35b-4a35-9f13-5282ae63e365",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "0987a548-c073-53d8-b284-b60d69368662",
+      "name": "Zengezur Millî Parkı",
+      "name_normalized": "zengezur mill parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 39.1622,
+        "lon": 45.9297
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8070471882820129,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "38605e92-9377-44dc-914a-70abbcc91ced",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "26c8705b-e38d-5d57-80cc-d1f1283e8daa",
+      "name": "Nəsirvaz kəndi",
+      "name_normalized": "nesirvaz kendi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.169398139835,
+        "lon": 45.936498641968
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5550563931465149,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "992ec4c4-9902-43d9-9163-e91378adfdfd",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "area_id": "1c9117db-930f-544f-86d3-4c3be06cacdb",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "c7db33f8-c364-5f0b-944f-59c08bc7bf3e",
+      "name": "Gədəbəy Cümə Məscidi",
+      "name_normalized": "gedebey cume mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.56654809,
+        "lon": 45.81630778
+      },
+      "area_id": "1c9117db-930f-544f-86d3-4c3be06cacdb",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.22270134091377258,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "dc0c45a5-59ad-436f-b68e-5a8836e1a1a2",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "e7996e48-2ff0-5930-ac3b-614826cbfa2a",
+      "name": "Soyuqbulaq-Gedebey",
+      "name_normalized": "soyuqbulaq gedebey",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.5656,
+        "lon": 45.8161
+      },
+      "area_id": "1c9117db-930f-544f-86d3-4c3be06cacdb",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9024675488471985,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5e745158-9b0e-4fd0-a965-be57c14cb1bc",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "fa4c52dd-b364-5778-811b-a4a05134f59d",
+      "name": "İmam Hüseyn Məscidi",
+      "name_normalized": "i mam huseyn mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.55931244,
+        "lon": 45.7978899
+      },
+      "area_id": "1c9117db-930f-544f-86d3-4c3be06cacdb",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.22905750572681427,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1d64080c-4561-4814-a360-76677bcbe54d",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "93feff5d-b646-5d7d-9782-0023b5cd6456",
+      "name": "Babagançay",
+      "name_normalized": "babagancay",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.56247,
+        "lon": 45.58651
+      },
+      "area_id": "1c9117db-930f-544f-86d3-4c3be06cacdb",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7494021058082581,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e255cc58-f119-4edd-a102-86e7926183d6",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "ab748fa3-890c-593f-919e-25b9ec741ccc",
+      "name": "Pereval Chambarakskiy",
+      "name_normalized": "pereval chambarakskiy",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.61250161,
+        "lon": 45.39222463
+      },
+      "area_id": "1c9117db-930f-544f-86d3-4c3be06cacdb",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.43118050694465637,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6abfd5f3-6335-45c8-89db-fd124227959e",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "7b6a2b7d-30db-55c9-81bd-a74a5ac678ed",
+      "name": "Qaradağ (berg i Azerbajdzjan, Gädäbäj)",
+      "name_normalized": "qaradag berg i azerbajdzjan g d b j",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.61613,
+        "lon": 45.81697
+      },
+      "area_id": "1c9117db-930f-544f-86d3-4c3be06cacdb",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.808411180973053,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a6ed923d-1022-47c6-8b50-118cf3544689",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "72ece8f1-47da-529f-a962-560b65e6632a",
+      "name": "Gedebey",
+      "name_normalized": "gedebey",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.57274054159686,
+        "lon": 45.81110856884948
+      },
+      "area_id": "1c9117db-930f-544f-86d3-4c3be06cacdb",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8424879908561707,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2d50e744-e809-4c65-a3e7-570252bfbd8f",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "f7850182-2f3d-5857-b881-d72a58cbc505",
+      "name": "Gədəbəy",
+      "name_normalized": "gedebey",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.57055,
+        "lon": 45.81229
+      },
+      "area_id": "1c9117db-930f-544f-86d3-4c3be06cacdb",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8232976794242859,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4cb672eb-b93e-4a89-83d0-74fd9bcbca9a",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

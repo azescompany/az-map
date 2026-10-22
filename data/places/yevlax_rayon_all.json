@@ -1,0 +1,102 @@
+{
+  "area_id": "bf911836-dec1-5c87-9cef-a1d22d111f4e",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "73ddbff5-d062-5746-a072-e213a6d34754",
+      "name": "Facebook",
+      "name_normalized": "facebook",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.614840769839,
+        "lon": 47.09919978847
+      },
+      "area_id": "bf911836-dec1-5c87-9cef-a1d22d111f4e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.1866368055343628,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "58182f66-70ae-4b74-973d-c92afc2f2aa2",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "04033c37-cb22-5405-8a20-35e5a6e53933",
+      "name": "Kotanıarx Kanalı",
+      "name_normalized": "kotaniarx kanali",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.71332,
+        "lon": 47.04304
+      },
+      "area_id": "bf911836-dec1-5c87-9cef-a1d22d111f4e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8037704825401306,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "803dc4e7-3e13-4904-b3a8-02d94e47d42e",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "a92a4b0e-28bf-5b11-9741-548924722c74",
+      "name": "Yuxarı Şirvan Kanalı",
+      "name_normalized": "yuxari sirvan kanali",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.78722,
+        "lon": 47.16889
+      },
+      "area_id": "bf911836-dec1-5c87-9cef-a1d22d111f4e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8126379251480103,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4229c72f-79f9-4514-9df4-de128003836c",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "ad832519-ceef-5636-a531-148a1f84a2b8",
+      "name": "Xaldanarx Kanalı",
+      "name_normalized": "xaldanarx kanali",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.73282,
+        "lon": 47.236
+      },
+      "area_id": "bf911836-dec1-5c87-9cef-a1d22d111f4e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8037704825401306,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5d54897f-9a3e-4cea-9513-437d283b1640",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

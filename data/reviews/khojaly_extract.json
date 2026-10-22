@@ -1,0 +1,23 @@
+{
+  "rayon": "Xocalı rayonu",
+  "verified_settlements": [
+    "Axçaabad məhəlləsi",
+    "Ağgədik",
+    "Ballıca",
+    "Dağlaroba",
+    "Dərə məhəllə",
+    "Harov",
+    "Meydan",
+    "Məlikli məhəlləsi",
+    "Qarakötük",
+    "Təzəbinə",
+    "Xocalı",
+    "Əlibel məhəlləsi"
+  ],
+  "conflicts": [],
+  "places": 11,
+  "areas_total": 3243,
+  "generated_at": "2026-10-22T07:03:07.060138+00:00",
+  "osm_release": "azerbaijan-261020",
+  "overture_release": "2026-09-23.1"
+}

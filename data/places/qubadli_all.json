@@ -1,0 +1,54 @@
+{
+  "area_id": "d902bc7f-786d-51bb-a91c-b3131400b2e6",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "d33999e6-5e66-58e9-aa5c-bdcb2c65df45",
+      "name": "Սանասար",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.34441,
+        "lon": 46.58183
+      },
+      "area_id": "d902bc7f-786d-51bb-a91c-b3131400b2e6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7654429078102112,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7f202c5a-bc80-4eff-8987-c1c5f44277c8",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "40bc4ce6-aeaa-5440-908b-e5e1af1ae7b8",
+      "name": "Məmər",
+      "name_normalized": "memer",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.251388888889,
+        "lon": 46.693888888889
+      },
+      "area_id": "d902bc7f-786d-51bb-a91c-b3131400b2e6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7363503575325012,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "18762550-fecb-4bb9-b891-15545848a3f6",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

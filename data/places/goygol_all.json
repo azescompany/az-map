@@ -1,0 +1,294 @@
+{
+  "area_id": "7cf52e77-47b7-5712-b6ce-739698bc83d3",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "c4a39686-2c42-548c-99e1-2d674b21f6ca",
+      "name": "Pereval Omar",
+      "name_normalized": "pereval omar",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.30021,
+        "lon": 46.2785
+      },
+      "area_id": "7cf52e77-47b7-5712-b6ce-739698bc83d3",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7734338045120239,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6e60df8d-e4d3-4d8c-b056-37173b4f58f4",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "ff448602-7d03-5728-845a-8410149a00ab",
+      "name": "Göygöl Milli Parkı • Goygol National Park",
+      "name_normalized": "goygol milli parki goygol national park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.41712337212,
+        "lon": 46.328834028635
+      },
+      "area_id": "7cf52e77-47b7-5712-b6ce-739698bc83d3",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7449480891227722,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f99b448c-44d6-44db-afc3-41781c336dfa",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "9e7bb12e-1dd7-585e-84ce-95e6b9919eaa",
+      "name": "Գետաշեն",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.49712,
+        "lon": 46.35866
+      },
+      "area_id": "7cf52e77-47b7-5712-b6ce-739698bc83d3",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7962563633918762,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "881b8080-1cd5-4809-8bfb-0c9bc2e0d117",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "b308c183-a45e-524b-ab76-db9c6ea96893",
+      "name": "Qelebe Parkı",
+      "name_normalized": "qelebe parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.579435,
+        "lon": 46.32324
+      },
+      "area_id": "7cf52e77-47b7-5712-b6ce-739698bc83d3",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7367550730705261,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8ed44597-66ae-40f3-adb7-e2303e8e3db5",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "3bf9bd3d-3db5-57f3-a47b-e3fb2aef237e",
+      "name": "Göygöl Milli Parkı",
+      "name_normalized": "goygol milli parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.5869,
+        "lon": 46.3158
+      },
+      "area_id": "7cf52e77-47b7-5712-b6ce-739698bc83d3",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9420942664146423,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9fc7dabe-b91a-4488-a685-2fc64fae6ea7",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "afee00cc-d0df-53e4-8d22-173603b50d29",
+      "name": "Karakeshish",
+      "name_normalized": "karakeshish",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.55557,
+        "lon": 46.21482
+      },
+      "area_id": "7cf52e77-47b7-5712-b6ce-739698bc83d3",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.706199049949646,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e735abc4-a9a6-4d61-974e-9c5e260a5223",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "e99ca1dc-8494-5003-99ce-ee792d0ca0a3",
+      "name": "Göygöl Olimpiya İdman Kompleksi",
+      "name_normalized": "goygol olimpiya i dman kompleksi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.55783528732045,
+        "lon": 46.326821491971785
+      },
+      "area_id": "7cf52e77-47b7-5712-b6ce-739698bc83d3",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9662666320800781,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "98628999-3400-4711-84a5-8a50a431ae1b",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "317098ca-a6c1-556e-be32-e07d2cd2043a",
+      "name": "Rodnik Ak-Bulak (källa i Azerbajdzjan)",
+      "name_normalized": "rodnik ak bulak k lla i azerbajdzjan",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.55,
+        "lon": 46.36667
+      },
+      "area_id": "7cf52e77-47b7-5712-b6ce-739698bc83d3",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7849650382995605,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1ab74a5c-541b-4eef-8959-9bbf7d0008ee",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "c514e049-99f0-507e-b626-dbf290b563e5",
+      "name": "Aşıqlı",
+      "name_normalized": "asiqli",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.53578,
+        "lon": 46.33476
+      },
+      "area_id": "7cf52e77-47b7-5712-b6ce-739698bc83d3",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7506294250488281,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1d1a7ba5-7e96-468d-b784-44b5e1cd0b9a",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "b2a572e3-dc26-5efd-8d15-427695cc4bbc",
+      "name": "Şəhriyar",
+      "name_normalized": "sehriyar",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.52564,
+        "lon": 46.20306
+      },
+      "area_id": "7cf52e77-47b7-5712-b6ce-739698bc83d3",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.798505425453186,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "03ec60b1-6687-4903-9cc5-f5f682d46628",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "46cdc26d-cf50-51a0-8467-b01ae739a40b",
+      "name": "Buzluq (vattendrag)",
+      "name_normalized": "buzluq vattendrag",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.51518,
+        "lon": 46.45187
+      },
+      "area_id": "7cf52e77-47b7-5712-b6ce-739698bc83d3",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7478275895118713,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "bdaf880d-bc8c-443e-8fab-7a27e1789c81",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "e911964b-e0e6-5e15-bd1a-6b6d701910fd",
+      "name": "Gence Lukoil Park Restoran",
+      "name_normalized": "gence lukoil park restoran",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.70144076892964,
+        "lon": 46.28144297881271
+      },
+      "area_id": "7cf52e77-47b7-5712-b6ce-739698bc83d3",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8274904489517212,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "80d87004-658e-4d2f-b6f9-acbb2aed7c0b",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    }
+  ]
+}

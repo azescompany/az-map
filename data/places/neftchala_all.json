@@ -1,0 +1,174 @@
+{
+  "area_id": "18688643-9cef-5e65-a2fa-a84819393c6c",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "96092a76-826d-5642-a077-d00371b7b6fc",
+      "name": "Muğan-Salyan Kanalı",
+      "name_normalized": "mugan salyan kanali",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.23256,
+        "lon": 49.23251
+      },
+      "area_id": "18688643-9cef-5e65-a2fa-a84819393c6c",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8120031356811523,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e4fd5aa8-dded-45b7-85f2-f3ee82dae4e0",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "dcc70a8a-ae88-5c0a-a027-bfbecfda6c3d",
+      "name": "Müşviq Çimərliyi - Neftçala",
+      "name_normalized": "musviq cimerliyi neftcala",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 39.3586,
+        "lon": 49.2469
+      },
+      "area_id": "18688643-9cef-5e65-a2fa-a84819393c6c",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8023310899734497,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4bfcdee8-de25-485c-aabf-592c18d65601",
+          "release": "2026-09-23.1",
+          "source_category": "beach"
+        }
+      ]
+    },
+    {
+      "id": "4cb9a7a0-a85a-557b-a513-517d70c75595",
+      "name": "Neriman Nerimanov Stadyumu",
+      "name_normalized": "neriman nerimanov stadyumu",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 39.3680555556,
+        "lon": 49.2455555556
+      },
+      "area_id": "18688643-9cef-5e65-a2fa-a84819393c6c",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8075564503669739,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2fd9f484-1245-4696-9bb2-228d096f7b1b",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "65bbba66-881b-5a92-adc8-857521810ce7",
+      "name": "Mərkəzi Kollektor",
+      "name_normalized": "merkezi kollektor",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.3703,
+        "lon": 48.85765
+      },
+      "area_id": "18688643-9cef-5e65-a2fa-a84819393c6c",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7685385942459106,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "40ee42b0-695b-4e5d-a795-445fe1f2e0bc",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "819ba6f1-704e-5db1-a50b-81a27f6bcefa",
+      "name": "Așağı Surra",
+      "name_normalized": "a agi surra",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.48082,
+        "lon": 49.00817
+      },
+      "area_id": "18688643-9cef-5e65-a2fa-a84819393c6c",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.809441089630127,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2c62815f-f963-451b-be3b-3ad99052d96b",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "1014ed84-2f80-5d0d-bfea-2d1b7896ba1d",
+      "name": "Khilly",
+      "name_normalized": "khilly",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.43012,
+        "lon": 49.10166
+      },
+      "area_id": "18688643-9cef-5e65-a2fa-a84819393c6c",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7251593470573425,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4dfd3177-da12-4d05-9a3d-3f85611535dd",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "2930803b-8395-5cc4-878c-706c7f77f2ca",
+      "name": "Müşfiq çimərliyi | Mushfig beach",
+      "name_normalized": "musfiq cimerliyi mushfig beach",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 39.413292,
+        "lon": 49.245811
+      },
+      "area_id": "18688643-9cef-5e65-a2fa-a84819393c6c",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6182308197021484,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2b0678f0-e419-4e9a-a4cf-7ea8c2fd04b3",
+          "release": "2026-09-23.1",
+          "source_category": "beach"
+        }
+      ]
+    }
+  ]
+}

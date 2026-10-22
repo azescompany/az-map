@@ -1,0 +1,150 @@
+{
+  "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "e93a2a49-11f4-5efe-93df-15a7243c3b81",
+      "name": "Vergyaduzskiy Rayon",
+      "name_normalized": "vergyaduzskiy rayon",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.91667,
+        "lon": 48.25
+      },
+      "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7970505356788635,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "80658b63-1913-45b6-83b8-950182145dda",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "53d9bc43-0aa0-52b4-90e8-66d02eef4920",
+      "name": "Yardimli  İdman Kompleksi",
+      "name_normalized": "yardimli i dman kompleksi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 38.911473708866,
+        "lon": 48.268487600599
+      },
+      "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8743564486503601,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "10a05d13-4ab9-4729-989f-93b48e9dc2ac",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "bacaca48-e239-5949-b4d8-7f9e67c27df4",
+      "name": "Bürzünbül, Yardımlı",
+      "name_normalized": "burzunbul yardimli",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.881666666667,
+        "lon": 48.288611111111
+      },
+      "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7196099162101746,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b44d9988-4c51-4c9e-82d9-6ae5880889cd",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "6c034cf1-3823-5d93-8758-4f3e81f8a748",
+      "name": "Abbasabad,Yardımlı",
+      "name_normalized": "abbasabad yardimli",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.868888888889,
+        "lon": 48.287777777778
+      },
+      "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7331451177597046,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5dd74121-89c2-4183-8089-1632cf88c0e9",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "7b578273-f7a0-559e-98f7-0fd8f2bb056c",
+      "name": "Azərbaycan, Yardımlı, Yolocaq",
+      "name_normalized": "azerbaycan yardimli yolocaq",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.931303306677,
+        "lon": 48.398556
+      },
+      "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6178343892097473,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "fba9e361-c548-4e44-a970-03cf730d515e",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "f4968c39-1de5-589a-85e6-749aba235354",
+      "name": "Bərcan",
+      "name_normalized": "bercan",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.01701,
+        "lon": 48.39908
+      },
+      "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8103560209274292,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "df35e54a-5757-4a03-80ad-b80152ec758b",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

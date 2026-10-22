@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "10f78fa1-35ce-5384-8468-a96a793f5aa9",
+      "properties": {
+        "id": "10f78fa1-35ce-5384-8468-a96a793f5aa9",
+        "name": "Ordahal",
+        "type": "neighborhood",
+        "parent_id": "4a92fe72-1565-543e-859d-94af4b3318a8",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.4569597,
+              38.8818465
+            ],
+            [
+              48.4556937,
+              38.8838008
+            ],
+            [
+              48.4527325,
+              38.8834333
+            ],
+            [
+              48.4521317,
+              38.878656
+            ],
+            [
+              48.45402,
+              38.8775535
+            ],
+            [
+              48.4556508,
+              38.8778709
+            ],
+            [
+              48.4569597,
+              38.8818465
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

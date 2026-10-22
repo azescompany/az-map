@@ -1,0 +1,102 @@
+{
+  "area_id": "709fbdf8-acbb-5197-a685-6d1bf6c77d87",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "e08dd4e5-4fa6-5e85-884f-d707658b52db",
+      "name": "Novoqolovka",
+      "name_normalized": "novoqolovka",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.23111111,
+        "lon": 48.64305556
+      },
+      "area_id": "709fbdf8-acbb-5197-a685-6d1bf6c77d87",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7453310489654541,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "aa044e51-817c-4099-bc77-65d1cafca1a2",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "1e9d3838-1c81-5768-8235-29cc00277db1",
+      "name": "Haydar Aliyev Parkı",
+      "name_normalized": "haydar aliyev parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 39.20855521939,
+        "lon": 48.497313042828
+      },
+      "area_id": "709fbdf8-acbb-5197-a685-6d1bf6c77d87",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7069264054298401,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8502d6eb-de37-467e-a21b-a639c27a60c6",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "cdb295f4-a44a-50a3-bc00-7351d69b313c",
+      "name": "Babalı kənd Bayraq meydanı",
+      "name_normalized": "babali kend bayraq meydani",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 39.243476300000005,
+        "lon": 48.33699314999982
+      },
+      "area_id": "709fbdf8-acbb-5197-a685-6d1bf6c77d87",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.70675128698349,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e699f322-10bb-427a-962e-2504d4ec5e14",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "768de3c3-3768-5300-949b-5d73fcb28b9c",
+      "name": "Goytepe",
+      "name_normalized": "goytepe",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 39.116009384455,
+        "lon": 48.594379296133
+      },
+      "area_id": "709fbdf8-acbb-5197-a685-6d1bf6c77d87",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7806651592254639,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "fd2bc2de-d250-4ef2-91e4-404942cbc7d2",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    }
+  ]
+}

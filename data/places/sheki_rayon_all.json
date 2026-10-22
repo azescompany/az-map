@@ -1,0 +1,462 @@
+{
+  "area_id": "5a88d1bb-f472-597d-9c8c-193cd2052033",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "266e94dd-5ba5-5e85-bf74-4a43486b1864",
+      "name": "Acınohur Düzü (slätt i Azerbajdzjan, Sjäki)",
+      "name_normalized": "acinohur duzu sl tt i azerbajdzjan sj ki",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.88022,
+        "lon": 47.16633
+      },
+      "area_id": "5a88d1bb-f472-597d-9c8c-193cd2052033",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.808864951133728,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ea4bda88-6434-4693-b91d-160611035061",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "95a4e3bb-c253-56cb-ba8b-834733035c57",
+      "name": "Qarasu (vattendrag i Azerbajdzjan, Sjäki)",
+      "name_normalized": "qarasu vattendrag i azerbajdzjan sj ki",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.11591,
+        "lon": 47.08042
+      },
+      "area_id": "5a88d1bb-f472-597d-9c8c-193cd2052033",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.788566529750824,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8eedd861-90f1-473b-92d2-fc10be00c073",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "f52b66f5-5d78-5aae-8028-a12f059786ca",
+      "name": "Daşlıçay",
+      "name_normalized": "daslicay",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.24061,
+        "lon": 47.04172
+      },
+      "area_id": "5a88d1bb-f472-597d-9c8c-193cd2052033",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.808411180973053,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2d6e5ccd-e88b-402f-9bc9-24ccd5915c1d",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "ee8a7cb8-ba13-57da-afcb-793b865b6b6f",
+      "name": "Zunut-Dag-Dibi",
+      "name_normalized": "zunut dag dibi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.26678,
+        "lon": 47.10748
+      },
+      "area_id": "5a88d1bb-f472-597d-9c8c-193cd2052033",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7919632792472839,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "251e7025-e2a2-49c8-8761-18028899542d",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "dc3e077e-a781-556d-8c53-1eb9ba184c07",
+      "name": "Qax şeheri",
+      "name_normalized": "qax seheri",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.353075,
+        "lon": 46.934015
+      },
+      "area_id": "5a88d1bb-f472-597d-9c8c-193cd2052033",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7071597576141357,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9e604aa3-4be0-4862-a596-5e51b597768b",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "0f66b09f-79c2-586d-b8a3-b62be7fba507",
+      "name": "Aşağı Göynük",
+      "name_normalized": "asagi goynuk",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.285833600000004,
+        "lon": 47.02130050000001
+      },
+      "area_id": "5a88d1bb-f472-597d-9c8c-193cd2052033",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8184476494789124,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6c28a106-351f-4955-85c3-502df7b92723",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "c465f7d2-a3e4-5e2e-b993-ee7224982e53",
+      "name": "Novo Gyuinuk",
+      "name_normalized": "novo gyuinuk",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.28478,
+        "lon": 47.02272
+      },
+      "area_id": "5a88d1bb-f472-597d-9c8c-193cd2052033",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7843151092529297,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3f9772b1-d2e8-4e96-b26b-1aa5ffd70a9e",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "abdcf1c0-2754-51ae-a157-1a80c31ae518",
+      "name": "Şabalıdçay (vattendrag i Azerbajdzjan, lat 41,30, long 47,08)",
+      "name_normalized": "sabalidcay vattendrag i azerbajdzjan lat 41 30 long 47 08",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.30378,
+        "lon": 47.07975
+      },
+      "area_id": "5a88d1bb-f472-597d-9c8c-193cd2052033",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8028637766838074,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1e9a2cb6-ac0f-47db-8431-70a57f8c377c",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "6c7a73c7-bf81-59f5-9450-6544fbb091aa",
+      "name": "Əyriçay Çökəkliyi",
+      "name_normalized": "eyricay cokekliyi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.30204,
+        "lon": 47.07101
+      },
+      "area_id": "5a88d1bb-f472-597d-9c8c-193cd2052033",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7947090864181519,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4f231dd0-30a5-444a-aa5b-ca1b0e4c69ed",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "15a071a2-bcf9-529c-8270-a53a08f99e5f",
+      "name": "Баш Гейнюк",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.32582,
+        "lon": 47.11357
+      },
+      "area_id": "5a88d1bb-f472-597d-9c8c-193cd2052033",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8116234540939331,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5a25f6b7-254e-44de-9e65-1c8f5a1da7d8",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "f8a178de-cf49-5389-afb6-024a375e4be8",
+      "name": "Sheki , Ördek Gölü",
+      "name_normalized": "sheki ordek golu",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.343157449776,
+        "lon": 47.077843286141
+      },
+      "area_id": "5a88d1bb-f472-597d-9c8c-193cd2052033",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8629142642021179,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b8085d4d-d9f3-4b76-9ad1-a976f0070e62",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "a05805ab-5f04-5245-88bb-92570a3ed67e",
+      "name": "Qızılqaya Dağı (berg i Azerbajdzjan, Sjäki)",
+      "name_normalized": "qizilqaya dagi berg i azerbajdzjan sj ki",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.2545,
+        "lon": 47.3046
+      },
+      "area_id": "5a88d1bb-f472-597d-9c8c-193cd2052033",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.808864951133728,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0a22e1bc-ea50-4a8e-8f36-65d0acb6f433",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "fe9b56fc-a1a9-58d0-838b-a68958f44007",
+      "name": "Киш (Шекинский район)",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.259444444444,
+        "lon": 47.188055555556
+      },
+      "area_id": "5a88d1bb-f472-597d-9c8c-193cd2052033",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.815919816493988,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5118f840-55fa-4c11-9196-ffcde4cc5e12",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "a6a95038-d042-5d86-b9ec-8001a6321060",
+      "name": "Kiş, Shaki",
+      "name_normalized": "kis shaki",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.2594444444,
+        "lon": 47.1880555556
+      },
+      "area_id": "5a88d1bb-f472-597d-9c8c-193cd2052033",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7907180190086365,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a37f4c6e-6aa0-440a-8063-3b0d9fc234c1",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "b9303e1b-cdf0-5ae9-ace8-ab037d57b388",
+      "name": "Kish Alban Mebedi 1-5 Esr",
+      "name_normalized": "kish alban mebedi 1 5 esr",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.249152,
+        "lon": 47.192954
+      },
+      "area_id": "5a88d1bb-f472-597d-9c8c-193cd2052033",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7286178469657898,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "96b124bd-415e-4162-88ce-325d949ac2ca",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "17e455dc-adee-51ca-a2cc-203cf2c95e00",
+      "name": "Seki Park",
+      "name_normalized": "seki park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.25345616953402,
+        "lon": 47.20998217768788
+      },
+      "area_id": "5a88d1bb-f472-597d-9c8c-193cd2052033",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8910640478134155,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "81e97be6-4c6b-4817-a221-90761c98c388",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "c63573e6-3b7f-564f-9a65-025cf03c8439",
+      "name": "Bash khungut",
+      "name_normalized": "bash khungut",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.1620483,
+        "lon": 47.3219604
+      },
+      "area_id": "5a88d1bb-f472-597d-9c8c-193cd2052033",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7524773478507996,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a0cb6492-8b27-482a-9227-de99d308ab03",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "b41fe076-6f81-54df-8898-126ec02e9e56",
+      "name": "Kanal Melikarkh",
+      "name_normalized": "kanal melikarkh",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.9171,
+        "lon": 47.20353
+      },
+      "area_id": "5a88d1bb-f472-597d-9c8c-193cd2052033",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8081780672073364,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e4515650-78a9-4502-846c-285b2fc06d29",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "437bb19c-b524-5204-9ba5-6b48ef5858bd",
+      "name": "Turğun Dağı",
+      "name_normalized": "turgun dagi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.83929,
+        "lon": 47.20087
+      },
+      "area_id": "5a88d1bb-f472-597d-9c8c-193cd2052033",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8060638308525085,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0be7d188-e738-4d92-b104-f59cbded53dc",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

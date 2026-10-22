@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "18743d74-c3fb-5929-8e53-4a7ade8876ee",
+      "properties": {
+        "id": "18743d74-c3fb-5929-8e53-4a7ade8876ee",
+        "name": "Azadlıq Meydanı",
+        "type": "neighborhood",
+        "parent_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              49.854566,
+              40.3742798
+            ],
+            [
+              49.8540132,
+              40.3753089
+            ],
+            [
+              49.850408,
+              40.3741609
+            ],
+            [
+              49.8515568,
+              40.372216
+            ],
+            [
+              49.855134,
+              40.3733853
+            ],
+            [
+              49.854566,
+              40.3742798
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

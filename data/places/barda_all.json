@@ -1,0 +1,150 @@
+{
+  "area_id": "7a77c6ff-8d53-5940-883c-2931d809622a",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "cb0ae48a-aaf1-51b7-b2a6-4af08d311ed9",
+      "name": "Qəhrəmanlar Parkı",
+      "name_normalized": "qehremanlar parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.37692872,
+        "lon": 47.11448614
+      },
+      "area_id": "7a77c6ff-8d53-5940-883c-2931d809622a",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6738650798797607,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "51bb6274-6e62-4549-86f8-a75ac604ba56",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "bcf207a6-64bd-5269-a64a-be5b898890a2",
+      "name": "Avara",
+      "name_normalized": "avara",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.3744,
+        "lon": 47.1267
+      },
+      "area_id": "7a77c6ff-8d53-5940-883c-2931d809622a",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.41861870884895325,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1e0a423f-0c0d-49d7-b8b9-4459edcdf9dd",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "39433989-9c3f-5b8b-9eb5-2b646c2ffc11",
+      "name": "Мечеть Угурбейли",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.36669074,
+        "lon": 47.11667928
+      },
+      "area_id": "7a77c6ff-8d53-5940-883c-2931d809622a",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.3749684989452362,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "afd493bd-e200-4f89-9a10-c276429a70fb",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "36611247-e818-565b-ac00-bc249a71615b",
+      "name": "Yeni Taşkent, Berde",
+      "name_normalized": "yeni taskent berde",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.385833333333,
+        "lon": 47.036111111111
+      },
+      "area_id": "7a77c6ff-8d53-5940-883c-2931d809622a",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7844557166099548,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "651799ae-c379-4a78-b054-1abe19e627d2",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "6b884341-d2c7-5371-aa71-f2018fbbe61c",
+      "name": "Barda Mausoleum",
+      "name_normalized": "barda mausoleum",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.383055555556,
+        "lon": 47.127777777778
+      },
+      "area_id": "7a77c6ff-8d53-5940-883c-2931d809622a",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8100137710571289,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "574889bb-fc5c-4165-9cf5-c0f6d4f1acdc",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "cde608c2-c6c3-5cf5-863b-96a78432382e",
+      "name": "Imamzade Complex",
+      "name_normalized": "imamzade complex",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.37995531,
+        "lon": 47.12835886
+      },
+      "area_id": "7a77c6ff-8d53-5940-883c-2931d809622a",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.3964284360408783,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "22fb0d38-e9d9-4960-b755-ba6e66e4d969",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    }
+  ]
+}

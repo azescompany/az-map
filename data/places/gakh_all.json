@@ -1,0 +1,462 @@
+{
+  "area_id": "fd5f5117-b94a-549e-8b7d-7112381298ad",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "b137485f-a579-502f-bd9d-207e2d612220",
+      "name": "Acınohur Düzü",
+      "name_normalized": "acinohur duzu",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.97789,
+        "lon": 46.90852
+      },
+      "area_id": "fd5f5117-b94a-549e-8b7d-7112381298ad",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8144127726554871,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "428e2c8d-90df-4647-ac1b-023639ad2ade",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "4bc1c487-f339-5da4-8e88-b066e42b3f3e",
+      "name": "Ulu Agro Mmc",
+      "name_normalized": "ulu agro mmc",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.25495,
+        "lon": 46.796917
+      },
+      "area_id": "fd5f5117-b94a-549e-8b7d-7112381298ad",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7870916724205017,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b0cd0ad2-17ca-49f4-baec-6a92604ad5a9",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "7fba7a14-2935-5c0c-ae75-e1bffc12d41b",
+      "name": "zeyem",
+      "name_normalized": "zeyem",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.412265777588,
+        "lon": 46.682987213135
+      },
+      "area_id": "fd5f5117-b94a-549e-8b7d-7112381298ad",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.4174479842185974,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "96eea9ae-cc54-4c27-a166-79aca342893d",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "70c6e65e-a562-502a-bc6f-79d9d263c5cb",
+      "name": "Mollahacıbulaq",
+      "name_normalized": "mollahacibulaq",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.42873,
+        "lon": 46.81259
+      },
+      "area_id": "fd5f5117-b94a-549e-8b7d-7112381298ad",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7962267398834229,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "579d8cb4-dc1f-455e-ae7b-c6fcbc65bc73",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "b8b8b18e-572c-5987-95a1-83595baa9298",
+      "name": "Qax rayon Mərkəzləşdirilmiş Kitabxana Sistemi",
+      "name_normalized": "qax rayon merkezlesdirilmis kitabxana sistemi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.385051949707,
+        "lon": 47.032470703125
+      },
+      "area_id": "fd5f5117-b94a-549e-8b7d-7112381298ad",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7011735439300537,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9ece63e0-2010-4a13-9e4a-08e83a5cc478",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "0d26cad6-b6e3-5c71-bed1-24e11cd613dd",
+      "name": "Qax Dağı",
+      "name_normalized": "qax dagi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.3995,
+        "lon": 46.9425
+      },
+      "area_id": "fd5f5117-b94a-549e-8b7d-7112381298ad",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8037704825401306,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c089523e-5bb5-4d7c-a0d0-632a9139c77a",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "e54fe664-d28b-56c4-8ba0-17a2494b5278",
+      "name": "Qax rayon MKS-inin 3 saylı şəhər filialı Kitabxanası",
+      "name_normalized": "qax rayon mks inin 3 sayli seher filiali kitabxanasi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.416792095276,
+        "lon": 46.92681312561
+      },
+      "area_id": "fd5f5117-b94a-549e-8b7d-7112381298ad",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5570788383483887,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d9fc91bd-c2e7-4a26-ae0e-52a79d75e987",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "28b8df65-39f1-5bca-aeec-1d36abfabafe",
+      "name": "Qax Heyder Aliyev parkı",
+      "name_normalized": "qax heyder aliyev parki",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.425415,
+        "lon": 46.938534
+      },
+      "area_id": "fd5f5117-b94a-549e-8b7d-7112381298ad",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7301653623580933,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "679454d3-f5b1-4c9f-aa98-7d47492f70ca",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "9802e10f-8ebf-5aba-9205-94234b94c295",
+      "name": "Şeher parkı",
+      "name_normalized": "seher parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.419423336072,
+        "lon": 46.929020662948
+      },
+      "area_id": "fd5f5117-b94a-549e-8b7d-7112381298ad",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.609910786151886,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e28d0383-7711-4dd3-b172-e04c138faab8",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "8c888099-043f-50b8-819f-2134138f738f",
+      "name": "Nizami Parki",
+      "name_normalized": "nizami parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.41751019,
+        "lon": 46.92767088
+      },
+      "area_id": "fd5f5117-b94a-549e-8b7d-7112381298ad",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6116899251937866,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "26548ff0-9586-4936-b3e8-5eb58571e6c8",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "8d77b894-9e6e-5444-a573-9115e7598afc",
+      "name": "İlisu, Qax, Azərbaycan",
+      "name_normalized": "i lisu qax azerbaycan",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.42038,
+        "lon": 46.92443
+      },
+      "area_id": "fd5f5117-b94a-549e-8b7d-7112381298ad",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5305830240249634,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "cc08cd1a-47b9-4b3e-9a61-4a0998532378",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "b01f35f9-4cb2-586e-83a5-99364d383260",
+      "name": "Heydar Park",
+      "name_normalized": "heydar park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.42162994,
+        "lon": 46.92663237
+      },
+      "area_id": "fd5f5117-b94a-549e-8b7d-7112381298ad",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7433622479438782,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c152ea13-20dd-43e1-9f99-726e6ad90041",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "319bd746-858c-56f8-9c51-9a0a96feef87",
+      "name": "Qax Seher Parkı",
+      "name_normalized": "qax seher parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.4197883335936,
+        "lon": 46.920090333685195
+      },
+      "area_id": "fd5f5117-b94a-549e-8b7d-7112381298ad",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7710709571838379,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "cc0e20e5-c29d-4aaf-856b-43523a7e3279",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "97843444-fa3a-5416-93d8-50d0ed29f6a5",
+      "name": "Qax rayon Tarix-Diyarşünaslıq muzeyi",
+      "name_normalized": "qax rayon tarix diyarsunasliq muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 41.4225,
+        "lon": 46.9242
+      },
+      "area_id": "fd5f5117-b94a-549e-8b7d-7112381298ad",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6088647246360779,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "910227d0-b463-4de5-bc65-e15a742d8065",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "4fa6098c-f70d-5740-bcaf-f7a794976b2f",
+      "name": "İlisu Qoruğu",
+      "name_normalized": "i lisu qorugu",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.48333,
+        "lon": 46.96667
+      },
+      "area_id": "fd5f5117-b94a-549e-8b7d-7112381298ad",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8169325590133667,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "598c265e-dd8d-43e5-a7f0-ffe341dd38c3",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "6d9b0b17-921a-5a18-8091-de01bf5eedd4",
+      "name": "Qax Yasil Park",
+      "name_normalized": "qax yasil park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.45628185750688,
+        "lon": 47.01728404125312
+      },
+      "area_id": "fd5f5117-b94a-549e-8b7d-7112381298ad",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7720308899879456,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7f516866-b900-423a-842b-4d6fa15dcb9b",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "6c5ae009-a2f5-5722-9a37-c7f5b04697a7",
+      "name": "Sumux Qalası",
+      "name_normalized": "sumux qalasi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.46421,
+        "lon": 47.050214
+      },
+      "area_id": "fd5f5117-b94a-549e-8b7d-7112381298ad",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9598788619041443,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c6992015-e748-4faa-8470-6f07d753da92",
+          "release": "2026-09-23.1",
+          "source_category": "castle"
+        }
+      ]
+    },
+    {
+      "id": "d771a80e-147e-5760-8a24-0e2466258a6a",
+      "name": "Лекит",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.48392,
+        "lon": 46.84896
+      },
+      "area_id": "fd5f5117-b94a-549e-8b7d-7112381298ad",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.725787878036499,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3612f7e3-2573-48c8-b985-798218d313d7",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "2cdb1d8c-d3df-5e76-bca6-ec56e0850d6a",
+      "name": "Gora Arpat'yandag",
+      "name_normalized": "gora arpat yandag",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.52,
+        "lon": 46.7746
+      },
+      "area_id": "fd5f5117-b94a-549e-8b7d-7112381298ad",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7834012508392334,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "52857505-c1c2-4976-8c4b-8f54ab072454",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

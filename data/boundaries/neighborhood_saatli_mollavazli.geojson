@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "d8d7e5b8-befa-533d-af20-feb2fa190383",
+      "properties": {
+        "id": "d8d7e5b8-befa-533d-af20-feb2fa190383",
+        "name": "Mollavazlı",
+        "type": "neighborhood",
+        "parent_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.3454499,
+              39.9136653
+            ],
+            [
+              48.3499367,
+              39.9188522
+            ],
+            [
+              48.3434557,
+              39.9231577
+            ],
+            [
+              48.3381669,
+              39.9197997
+            ],
+            [
+              48.3337451,
+              39.914297
+            ],
+            [
+              48.3357392,
+              39.9104066
+            ],
+            [
+              48.3403128,
+              39.9088437
+            ],
+            [
+              48.3454499,
+              39.9136653
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

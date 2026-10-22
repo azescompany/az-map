@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "32b1cc99-0d1d-5a70-9700-4eaed2bae996",
+      "properties": {
+        "id": "32b1cc99-0d1d-5a70-9700-4eaed2bae996",
+        "name": "Ləkit Malax",
+        "type": "neighborhood",
+        "parent_id": "fd5f5117-b94a-549e-8b7d-7112381298ad",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8703862,
+              41.4756474
+            ],
+            [
+              46.8661952,
+              41.4744785
+            ],
+            [
+              46.8620661,
+              41.4736968
+            ],
+            [
+              46.8622779,
+              41.472608
+            ],
+            [
+              46.8672438,
+              41.4727225
+            ],
+            [
+              46.8708661,
+              41.4745928
+            ],
+            [
+              46.8703862,
+              41.4756474
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

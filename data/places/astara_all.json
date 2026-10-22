@@ -1,0 +1,246 @@
+{
+  "area_id": "df1151dd-8b83-55c1-bbe8-55e8ea430523",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "b0a0cc3f-d709-5e24-a5f2-78041a93eb50",
+      "name": "Pensər kəndi \"Hacı Teymur\" Cümə məscidi",
+      "name_normalized": "penser kendi haci teymur cume mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 38.60561926470685,
+        "lon": 48.823621199997326
+      },
+      "area_id": "df1151dd-8b83-55c1-bbe8-55e8ea430523",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7318727970123291,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "acd3defc-8321-462e-b794-c68ee6f6eca0",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "1cc19a61-1f42-51ed-a1b3-12bbdfaedd4e",
+      "name": "Kakalos",
+      "name_normalized": "kakalos",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.61136,
+        "lon": 48.84292
+      },
+      "area_id": "df1151dd-8b83-55c1-bbe8-55e8ea430523",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7227804064750671,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3c8578c5-d7f4-4374-9ee8-5a39ba12360f",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "adeef6cc-166c-5fdc-9101-c21665da0273",
+      "name": "Tangyaryu",
+      "name_normalized": "tangyaryu",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.5972,
+        "lon": 48.80656
+      },
+      "area_id": "df1151dd-8b83-55c1-bbe8-55e8ea430523",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7594139575958252,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d870b46d-7c2f-4e3b-8430-359bc537955d",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "62a3aa01-d75b-5147-8900-ac73d4add434",
+      "name": "Hirkan Milli Parkı",
+      "name_normalized": "hirkan milli parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 38.5639,
+        "lon": 48.72575
+      },
+      "area_id": "df1151dd-8b83-55c1-bbe8-55e8ea430523",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8125566244125366,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6abafe29-e97a-4ec2-86c5-c373136a9001",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "9f5137c6-91b9-534d-8a65-9b71465d5499",
+      "name": "Ərçivan hamamı",
+      "name_normalized": "ercivan hamami",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.5042403,
+        "lon": 48.83019568
+      },
+      "area_id": "df1151dd-8b83-55c1-bbe8-55e8ea430523",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.809441089630127,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "07905bb0-a17a-4856-82bd-3dc2b2d8aa7f",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "55c88f7a-c536-5e92-9af3-16d6a4baaafe",
+      "name": "Lovainskoye Vodokhranilishche",
+      "name_normalized": "lovainskoye vodokhranilishche",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.52861,
+        "lon": 48.79376
+      },
+      "area_id": "df1151dd-8b83-55c1-bbe8-55e8ea430523",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7536237239837646,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1e7bd0c6-810c-4813-83f6-7ea923532da2",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "ba4ffe16-7093-572f-8fc2-7114104b6ae7",
+      "name": "Աստարա",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.4561111111,
+        "lon": 48.8786111111
+      },
+      "area_id": "df1151dd-8b83-55c1-bbe8-55e8ea430523",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7053874731063843,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9e4400bc-9dd7-4f36-8d8d-fdf2251d85e3",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "17cf9222-1000-5793-ad6c-89ec8d39c1a1",
+      "name": "Azerbaydzhanskaya Astara",
+      "name_normalized": "azerbaydzhanskaya astara",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.4561111111,
+        "lon": 48.8786111111
+      },
+      "area_id": "df1151dd-8b83-55c1-bbe8-55e8ea430523",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7839100956916809,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "503a1e33-e2f1-40cd-aacc-1fdc5ff0a78e",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "838914d0-a7f8-588a-8b28-c07f0115ce43",
+      "name": "Pəlikəş Bələdiyyəsi Qonaqlama evləri",
+      "name_normalized": "pelikes belediyyesi qonaqlama evleri",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.4561,
+        "lon": 48.8786
+      },
+      "area_id": "df1151dd-8b83-55c1-bbe8-55e8ea430523",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6141499876976013,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d39eb71e-2ada-44a3-b830-2bca811cc9fe",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "d01ef72d-45df-5f03-b8eb-4705ff9dc1b3",
+      "name": "İstisu-Astara",
+      "name_normalized": "i stisu astara",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 38.4516493,
+        "lon": 48.7654879
+      },
+      "area_id": "df1151dd-8b83-55c1-bbe8-55e8ea430523",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7084571123123169,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "52729a4d-810e-4c2e-95d8-a461ac4aa58e",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    }
+  ]
+}

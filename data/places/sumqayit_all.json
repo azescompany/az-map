@@ -1,0 +1,1374 @@
+{
+  "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+  "city_key": "sumqayit",
+  "places": [
+    {
+      "id": "f37eed39-29d3-560f-8ced-5f91876fad58",
+      "name": "Imam Sadiq Mescidi",
+      "name_normalized": "imam sadiq mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.60515565,
+        "lon": 49.65175636
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6135290861129761,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "098b7b54-d41c-4b12-b126-0e185564b533",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "323b8ad0-12ac-5719-927a-168788dff3a2",
+      "name": "Kapital Bank Arena",
+      "name_normalized": "kapital bank arena",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.60317152,
+        "lon": 49.67315542
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8330133557319641,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f84eabe4-acf3-4e05-bb9c-fa42a05b4416",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "48575b51-026c-50d7-b76a-ea4250527421",
+      "name": "sumqayit sdadion",
+      "name_normalized": "sumqayit sdadion",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.602786,
+        "lon": 49.67362
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6296199560165405,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5f386945-3acb-4972-a9f5-f3d702c29f0d",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "516e9c49-2f60-5d97-8925-0dfbef2843c6",
+      "name": "Nizami Parki Sumqayit",
+      "name_normalized": "nizami parki sumqayit",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.60153123543101,
+        "lon": 49.682928953735
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7151826024055481,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "532c39c0-ed58-4f6b-9105-f98fb08cf500",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "96bfa941-3648-50ea-9cf8-5b280a18bda9",
+      "name": "Mehdi Huseynzade Stadium",
+      "name_normalized": "mehdi huseynzade stadium",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.60115342,
+        "lon": 49.67435237
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7573608756065369,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "943ea557-6e1c-4b6e-a3e3-9f36d4a07078",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "9b5b9bc1-21a4-53a8-b494-ca5c34c75e07",
+      "name": "Cume Mescidi 313",
+      "name_normalized": "cume mescidi 313",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.61366,
+        "lon": 49.60703
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.53609299659729,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "be44cb3e-5f57-45c9-8ab9-12d6722a6a48",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "8bf2f5fb-7119-5b1a-8dc4-6d4af152c553",
+      "name": "SumQayit PaRki",
+      "name_normalized": "sumqayit parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.598739,
+        "lon": 49.676945
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7705644965171814,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "fdcdd861-e76c-44f5-a28f-ba93be28c805",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "e35cfe47-c0af-5911-9c3a-a3fbdb33fd29",
+      "name": "Belediyye Bagi",
+      "name_normalized": "belediyye bagi",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.59739986,
+        "lon": 49.66880219
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7122240662574768,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8f808cee-9129-4702-974d-0a8d883b2852",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "d2e3dbaf-84ef-5948-ac9e-9b80b458ccdb",
+      "name": "Aleka",
+      "name_normalized": "aleka",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.59719168,
+        "lon": 49.67312259
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6818206906318665,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5ba5732a-7189-46ed-99db-f5b436ef890c",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "8f42c19f-d304-5f63-a1ec-c8b7b95180b0",
+      "name": "4 saylı Gənclər Kitabxanası",
+      "name_normalized": "4 sayli gencler kitabxanasi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.59678828,
+        "lon": 49.67127257
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.38407617807388306,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2dae344a-24b7-4b19-8da2-4513a210488b",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "7e3ea36f-822a-5d69-8401-5aaac2534021",
+      "name": "Sumqayit sh aleyka",
+      "name_normalized": "sumqayit sh aleyka",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.595237242828,
+        "lon": 49.671529069161
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.3739771246910095,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "44c5f19b-8f68-434f-a733-4949e6179299",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "e0541671-53b1-5ef3-aaff-1c9c547b8c47",
+      "name": "Sumqayıt Bulvarı / Sumgait Boulevard",
+      "name_normalized": "sumqayit bulvari sumgait boulevard",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.595706501569,
+        "lon": 49.68017578125
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9292678833007812,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "32fbcf05-3a6f-4f86-97a7-8ecfafc52a19",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "1b4ef506-9cf3-58ff-867b-02dce31f13c2",
+      "name": "Gimnastika Fərid Ağazadə",
+      "name_normalized": "gimnastika ferid agazade",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.595286068,
+        "lon": 49.6680974
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6740423440933228,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "86d5e5be-610f-428b-9b4a-8ae738516dbf",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "fa123429-e748-5416-87a2-b009243c88fc",
+      "name": "Bayraq meydani (Sumqayit)",
+      "name_normalized": "bayraq meydani sumqayit",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.59514,
+        "lon": 49.669554
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5963733792304993,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6ebb098e-00a0-45ad-9774-dab82afdca00",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "a6540c9b-db2c-5d9b-a705-a8077bac3381",
+      "name": "14 kvartal",
+      "name_normalized": "14 kvartal",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.593801,
+        "lon": 49.675802
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.42608827352523804,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2e748615-d27e-4b07-b566-1510e61ae950",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "1c30628a-ab21-5bd4-b1de-b3670e114ec6",
+      "name": "Kristal Abşeron",
+      "name_normalized": "kristal abseron",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.59301401,
+        "lon": 49.68284447
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5721856355667114,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "241d65e5-2375-4618-8251-dc4bbb300032",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "da1b0f6f-dda3-50aa-acfd-8ec34c0c325e",
+      "name": "Goyercin",
+      "name_normalized": "goyercin",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.592325,
+        "lon": 49.681624
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6386811137199402,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "89015fd9-aad0-411f-b018-77fda4ccbcce",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "57677f84-3356-593f-bb80-77eb0625c6b2",
+      "name": "Sky Park Mahal Yaşayış Kompleksi",
+      "name_normalized": "sky park mahal yasayis kompleksi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.59249527,
+        "lon": 49.66961267
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8561561107635498,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a9f9fbf9-ee31-4151-9e76-7ece47cb24f7",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "a432ef1c-28dd-5639-a926-e565b34972f5",
+      "name": "Peace Dove",
+      "name_normalized": "peace dove",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.59130393,
+        "lon": 49.66952245
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7561895847320557,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "df2e36f7-6481-4cfe-b13f-3736098e51f3",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "889c40ac-f204-58f5-86f8-06b8120994ea",
+      "name": "dənizkenari parki,sumgayit,Azərbijan",
+      "name_normalized": "denizkenari parki sumgayit azerbijan",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.591927,
+        "lon": 49.681236
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8110950589179993,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e7bc8044-d405-4e68-809b-26cd3349bb54",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "feedfe17-f238-5ffd-b71b-abcf632ea946",
+      "name": "Sahil Park 3",
+      "name_normalized": "sahil park 3",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.59105653,
+        "lon": 49.68440649
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9294010996818542,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6859025c-b340-47ce-87a5-56dc0b244cca",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "1b2f7925-1b9b-5f2f-901f-6c2b28775f1e",
+      "name": "Karvan Avm",
+      "name_normalized": "karvan avm",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.59054005000979,
+        "lon": 49.674911450079634
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5352460741996765,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3632c36e-eca4-42da-b722-a60df3137a81",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "4b8eded8-de2a-56c0-a17b-a684baef05f5",
+      "name": "PELE Game Center",
+      "name_normalized": "pele game center",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.589694025274,
+        "lon": 49.668588638306
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5341808795928955,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ba2b026a-ad4d-4f15-b41f-90c5b79abf0c",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "5814331f-4562-5fbb-838b-5e3a57e6adfa",
+      "name": "Sumqayitim",
+      "name_normalized": "sumqayitim",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.5897,
+        "lon": 49.6686
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.3972826898097992,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f5024681-6757-431b-afef-ee2258d3d67a",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "890a12ea-9da8-57b5-83ae-8a7d52f64461",
+      "name": "Ressamliq Merkezi Sumqayit",
+      "name_normalized": "ressamliq merkezi sumqayit",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.5897,
+        "lon": 49.6686
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5305259823799133,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c8aad773-7304-43d5-8496-8c8643f69feb",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "ff39555d-0c85-5355-8a64-45b16d60138f",
+      "name": "Nərimanov Parkı",
+      "name_normalized": "nerimanov parki",
+      "alt_names": [],
+      "category": "monument",
+      "coordinates": {
+        "lat": 40.58879448,
+        "lon": 49.66861113
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5502158999443054,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3f648423-e0e0-4b75-b023-fa60098dbad4",
+          "release": "2026-09-23.1",
+          "source_category": "monument"
+        }
+      ]
+    },
+    {
+      "id": "62ee5c63-4319-53b0-a671-55b633e9132c",
+      "name": "Сумгаит",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.58591151069751,
+        "lon": 49.669077891144504
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6113700866699219,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ff5077b4-2635-415b-8a41-a11c84a0afea",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "56e8b342-fa6d-510a-8fe8-ce1b29e083cb",
+      "name": "Sumqayıt şəhəri Mərkəzi Kitabxana",
+      "name_normalized": "sumqayit seheri merkezi kitabxana",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.586994861416,
+        "lon": 49.67871409947
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6489386558532715,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2b97c26c-1d56-4a93-9fbc-0e0e14514ac5",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "980acf8b-2ab0-5705-b4a7-c597e1d3599c",
+      "name": "3mkr",
+      "name_normalized": "3mkr",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.582814,
+        "lon": 49.668412
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.4055987596511841,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2cf0e8b8-6838-443d-b364-993a4e893415",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "044896fc-83ad-5b42-8ccd-28394e0341c0",
+      "name": "Kimyacilar Sarayi",
+      "name_normalized": "kimyacilar sarayi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.5794710872801,
+        "lon": 49.682162592724296
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7139768004417419,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f3e83067-c98b-4259-90c2-f8a7bc184839",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "40174f63-5048-550e-b3e7-f7814f5d8bbb",
+      "name": "Kimyaçılar parkı",
+      "name_normalized": "kimyacilar parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.579658,
+        "lon": 49.675158
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7048038840293884,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2422abb2-e9f9-4120-b8ce-01a35173b735",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "32339146-5f2e-5b61-b916-17e73d2b3723",
+      "name": "Ravnina Kara Bogaz",
+      "name_normalized": "ravnina kara bogaz",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.58228,
+        "lon": 49.55866
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8022513389587402,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ab05eaa0-f6e9-4feb-941f-c4d00c5a3976",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "549459ae-f758-5cb8-a7ac-770b7812e526",
+      "name": "Sumqayıt 6 Mkr",
+      "name_normalized": "sumqayit 6 mkr",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.57873704,
+        "lon": 49.68642857
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.716719925403595,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "996fa461-15ec-4e85-95b2-353c4e059453",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "5041f0b4-2686-5861-a36f-170c4d715ab3",
+      "name": "Heydar Park",
+      "name_normalized": "heydar park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.5785257,
+        "lon": 49.68328378
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6969610452651978,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "67a7218f-b0aa-4fb9-b002-daaa1c976ad6",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "79b978f1-c1b7-5361-a4cd-e45e26f8cccf",
+      "name": "9-Mkr Towers",
+      "name_normalized": "9 mkr towers",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.577176606695,
+        "lon": 49.681259833768
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.636940062046051,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "29c00cc1-de42-44e7-9a6f-284230925871",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "03b82fb8-a822-5f47-9c90-b7d2b482b513",
+      "name": "Təhsil RİMİN Sumqayit Şəhər 2 UGİSM",
+      "name_normalized": "tehsil ri mi n sumqayit seher 2 ugi sm",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.57527,
+        "lon": 49.68711
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.584484338760376,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "dff5ccf6-4eb2-4111-9480-d2e4aa874f79",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "2146ce9a-b69c-502c-9a07-79317f2b8ab6",
+      "name": "Qərbi Azərbaycansız",
+      "name_normalized": "qerbi azerbaycansiz",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.57459152500086,
+        "lon": 49.672789150006224
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7156674265861511,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "95e80cae-3197-497c-a656-0b64830b5e65",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "18286a55-9310-5ba5-b941-b7b89c5f8191",
+      "name": "Sumgayıt 9. mkr",
+      "name_normalized": "sumgayit 9 mkr",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.57156505612927,
+        "lon": 49.6882365036858
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6205528378486633,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a51d6bd0-ea38-4661-b853-b553727a332d",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "3087b36d-8566-581b-930c-43ce0f7c7cf6",
+      "name": "Camp Nou",
+      "name_normalized": "camp nou",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.572276,
+        "lon": 49.695104
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6772366762161255,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "446d78c3-cf8a-4d81-9263-30233192e96e",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "54da577a-c1c4-563c-8722-6dc932c1ee30",
+      "name": "Kohne Hamam",
+      "name_normalized": "kohne hamam",
+      "alt_names": [],
+      "category": "monument",
+      "coordinates": {
+        "lat": 40.57192008,
+        "lon": 49.70793326
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.4473560154438019,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c4a7d5aa-2696-4968-aa82-6b1ef2a330f1",
+          "release": "2026-09-23.1",
+          "source_category": "monument"
+        }
+      ]
+    },
+    {
+      "id": "39ca6ca1-a16d-5354-8fc2-7a8c8a3ce45d",
+      "name": "Corat Cümə Məscidi",
+      "name_normalized": "corat cume mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.571779,
+        "lon": 49.70794975
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.45045703649520874,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "60d9cdb1-482d-4ebf-9a95-4081d402ccdf",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "321ed296-f759-530a-8ac7-3c45d21bd7fe",
+      "name": "Sumqayit 13 mkr",
+      "name_normalized": "sumqayit 13 mkr",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.572647,
+        "lon": 49.693755
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6605024933815002,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c744db2b-6d63-4970-99e7-1ff91601fc77",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "623dbfbe-462c-536c-b652-058f93ac3f2c",
+      "name": "Yuxu Anticafe",
+      "name_normalized": "yuxu anticafe",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.57416104,
+        "lon": 49.7157805
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.27310648560523987,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f99bd7c3-6986-434c-9b23-fbd11c9c117c",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "26b7c238-6c2f-56a9-a186-be9aefcedba5",
+      "name": "Sunset Absheron Beach",
+      "name_normalized": "sunset absheron beach",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.574177790744194,
+        "lon": 49.76429951973679
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8146076202392578,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "96166620-802d-4884-a832-fd2b568f4651",
+          "release": "2026-09-23.1",
+          "source_category": "beach"
+        }
+      ]
+    },
+    {
+      "id": "79b7a8fc-7710-5ba6-bfbf-bd643aa6d03a",
+      "name": "Novkhani Beach",
+      "name_normalized": "novkhani beach",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.574269966816,
+        "lon": 49.761247656911
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5558395981788635,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c1e80ae2-d280-43c1-b667-d65910a15ee3",
+          "release": "2026-09-23.1",
+          "source_category": "beach"
+        }
+      ]
+    },
+    {
+      "id": "a428a6c0-edce-519a-8329-a3eec2e7b753",
+      "name": "Novxanı çimərliyi",
+      "name_normalized": "novxani cimerliyi",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.574112,
+        "lon": 49.760662
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7815793752670288,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "33039a8e-5892-475e-8206-a14884856bfc",
+          "release": "2026-09-23.1",
+          "source_category": "beach"
+        }
+      ]
+    },
+    {
+      "id": "2c94f0a0-286e-5d9b-bac3-c79675a639cd",
+      "name": "Neptun Beach",
+      "name_normalized": "neptun beach",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.57380267,
+        "lon": 49.76317225
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9116250872612,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "344b8b20-5448-493c-b6b9-6e580b6da30b",
+          "release": "2026-09-23.1",
+          "source_category": "beach"
+        }
+      ]
+    },
+    {
+      "id": "ac131346-df0d-54ec-a948-a313b22d7f53",
+      "name": "Alma Beach&Club",
+      "name_normalized": "alma beach club",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.573711082603,
+        "lon": 49.759279489517
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.49073997139930725,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9e717379-bf38-4b8d-8418-f98389344cdd",
+          "release": "2026-09-23.1",
+          "source_category": "beach"
+        }
+      ]
+    },
+    {
+      "id": "2253fe91-4d6c-534d-baba-4c68838fcdb9",
+      "name": "Novkhani Gardens",
+      "name_normalized": "novkhani gardens",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.5737627,
+        "lon": 49.7726844
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6522798538208008,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "dfcdfd9d-05a5-4cae-aeef-d7981f7c6f4c",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "5090cf16-8941-508e-9536-5fe4aa468faf",
+      "name": "Ceyranbatan",
+      "name_normalized": "ceyranbatan",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.54548687,
+        "lon": 49.65806544
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9119793772697449,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5aed1055-3914-4244-b1cc-5dd52de1b74b",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "2238224e-11e3-58ea-801f-89409544c38e",
+      "name": "Sumqayit",
+      "name_normalized": "sumqayit",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.55620671,
+        "lon": 49.70347073
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.24065810441970825,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a363afe2-601f-4096-86b8-6e4f30747d25",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "0b57048a-9e75-52fa-ba54-c742202ffb80",
+      "name": "şeyx hamamı",
+      "name_normalized": "seyx hamami",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.55686,
+        "lon": 49.69634
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6702260971069336,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "fd53cd46-facf-4f20-906e-785cf6869d3f",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "0d9947de-3073-5228-bbfe-5afa7bb9c55b",
+      "name": "Koroğlu Prospekti (Koroglu Avenue)",
+      "name_normalized": "koroglu prospekti koroglu avenue",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.561587,
+        "lon": 49.694956
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6500824689865112,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b43373a6-1e14-47d9-bd9b-bded94fd3e24",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "91195ba3-71ca-529f-9f66-73a64294518f",
+      "name": "Sumqayıt Olimpiya İdman Kompleksi",
+      "name_normalized": "sumqayit olimpiya i dman kompleksi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.56295,
+        "lon": 49.70859
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8832148909568787,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a1cbac12-b73d-4640-ace5-4d26b0de2b0f",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "adb5e82e-2c35-5bb7-8533-3f3b3fd598da",
+      "name": "Sumqayıt Paralimpiya Mərkəzi",
+      "name_normalized": "sumqayit paralimpiya merkezi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.56526,
+        "lon": 49.70998
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6732699871063232,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "860dddfb-b54b-4c5a-aa46-f55efa9ea019",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "cecc603f-6148-5a1d-8d82-3fff1e0a3132",
+      "name": "Sumqayıt",
+      "name_normalized": "sumqayit",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.56600268,
+        "lon": 49.69237917
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.2750057876110077,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4caa087d-0b5b-47e0-8190-230b4dedbebe",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "66ff8083-31df-5869-9ee4-05f33503e815",
+      "name": "12 mkr",
+      "name_normalized": "12 mkr",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.56212347,
+        "lon": 49.6899111
+      },
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6410002708435059,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9bb09f33-8c33-436a-b85b-b07a74074359",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

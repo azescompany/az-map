@@ -1,0 +1,102 @@
+{
+  "area_id": "3bd2f01d-ea83-5489-a16e-9905cd0b8d9c",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "3c2c025e-65cd-58b6-8356-60c0ca1ddc44",
+      "name": "Yevlax şəhəri",
+      "name_normalized": "yevlax seheri",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.60869,
+        "lon": 47.14409
+      },
+      "area_id": "3bd2f01d-ea83-5489-a16e-9905cd0b8d9c",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7747344970703125,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ed1e4640-d4f0-4380-984a-9cff8af1b61e",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "68a402e9-18fb-5e07-ac74-ffb3d0a84a1f",
+      "name": "Veten",
+      "name_normalized": "veten",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.6172,
+        "lon": 47.15
+      },
+      "area_id": "3bd2f01d-ea83-5489-a16e-9905cd0b8d9c",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5084713697433472,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2d5fad33-13a4-48ed-8e1b-7979c953f7bc",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "36626396-0b0e-5c7e-a65a-e5c6da2992fc",
+      "name": "Yevlax city",
+      "name_normalized": "yevlax city",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.6172,
+        "lon": 47.15
+      },
+      "area_id": "3bd2f01d-ea83-5489-a16e-9905cd0b8d9c",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6400585770606995,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f3e259e8-055e-4495-a050-e564eaf07b8b",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "977a415f-adfb-55b6-9309-b9d0172b2edd",
+      "name": "Heydər Əliyev Parkı",
+      "name_normalized": "heyder eliyev parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.61523,
+        "lon": 47.14816
+      },
+      "area_id": "3bd2f01d-ea83-5489-a16e-9905cd0b8d9c",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5768753886222839,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "45881c39-7a7d-45e2-be16-bd31d41093ad",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    }
+  ]
+}

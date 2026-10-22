@@ -1,0 +1,294 @@
+{
+  "area_id": "286e9a90-aeb8-5495-a7f5-ac396d834cc6",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "f2a6c339-c4b8-539f-a65f-1dd252ab4c71",
+      "name": "Yaşıl Park",
+      "name_normalized": "yasil park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.61447671876143,
+        "lon": 48.44612903796597
+      },
+      "area_id": "286e9a90-aeb8-5495-a7f5-ac396d834cc6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7350513935089111,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2e40b71f-9d6c-4abe-ad60-83fd3b069fba",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "bf8384f5-cad0-5180-ac89-17b758881f64",
+      "name": "Yeddi Gumbaz Mausoleum",
+      "name_normalized": "yeddi gumbaz mausoleum",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.62030166,
+        "lon": 48.63608891
+      },
+      "area_id": "286e9a90-aeb8-5495-a7f5-ac396d834cc6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.4806177616119385,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "be7f7152-7efc-49a5-95a2-f05375f01c99",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "b8d8df9c-1d27-5897-a7b5-4b17159b6cdd",
+      "name": "Şamaxı",
+      "name_normalized": "samaxi",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.6303,
+        "lon": 48.6414
+      },
+      "area_id": "286e9a90-aeb8-5495-a7f5-ac396d834cc6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5330374836921692,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f71a69b9-39cf-4efa-8342-8d16e72ff813",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "44c11e6b-f811-5763-8606-a8d772be075a",
+      "name": "Cümə Məscidi",
+      "name_normalized": "cume mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.62678604441102,
+        "lon": 48.6441989500403
+      },
+      "area_id": "286e9a90-aeb8-5495-a7f5-ac396d834cc6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7643271088600159,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c401a2ac-bcf6-4390-9a0f-0975660ead8c",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "17949fa0-83d3-5ed2-bbd5-dab236aab758",
+      "name": "Jummah Mosque",
+      "name_normalized": "jummah mosque",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.62685952,
+        "lon": 48.64383378
+      },
+      "area_id": "286e9a90-aeb8-5495-a7f5-ac396d834cc6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9219805598258972,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "bcb072e3-d01e-4ce2-a1fa-b41ae2444d28",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "2d285794-6e41-538b-ae86-69495de248e4",
+      "name": "Şamaxı",
+      "name_normalized": "samaxi",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.6119558,
+        "lon": 48.67138686
+      },
+      "area_id": "286e9a90-aeb8-5495-a7f5-ac396d834cc6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.2329367846250534,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3628f4d3-281d-4706-ac69-7a7ba932731c",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "0108b7c3-8c1a-5699-a8d0-6ad853918dec",
+      "name": "Buğurt qalası",
+      "name_normalized": "bugurt qalasi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.75548989,
+        "lon": 48.5506211
+      },
+      "area_id": "286e9a90-aeb8-5495-a7f5-ac396d834cc6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.2970729172229767,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "973a28df-2697-4bde-8501-ac465c9e3a55",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "a67692a3-2d86-5c88-820b-c54b6ed0dceb",
+      "name": "Pirqulu Qoruğu",
+      "name_normalized": "pirqulu qorugu",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.77167,
+        "lon": 48.59056
+      },
+      "area_id": "286e9a90-aeb8-5495-a7f5-ac396d834cc6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8302232623100281,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8b0f17ff-bbee-4631-946e-d3228f0053a5",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "3957c138-8915-5712-b1d3-cbdcaa03ff6e",
+      "name": "Samaxi, Pirqulu",
+      "name_normalized": "samaxi pirqulu",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.750930424521,
+        "lon": 48.625252939128
+      },
+      "area_id": "286e9a90-aeb8-5495-a7f5-ac396d834cc6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6507256627082825,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d1e721d8-386b-44cc-ab65-234983097063",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "c5cdd5bc-d77b-5e0c-a32f-45ab106042ed",
+      "name": "Rose Park",
+      "name_normalized": "rose park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.69775207248786,
+        "lon": 48.62730771527109
+      },
+      "area_id": "286e9a90-aeb8-5495-a7f5-ac396d834cc6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.751848042011261,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "bf92fb29-b3e8-4869-aa8d-d7b7809c0809",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "694992ef-23b5-5492-bcd6-99dd495de8a3",
+      "name": "Safari Park Shamakhi",
+      "name_normalized": "safari park shamakhi",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.81666452,
+        "lon": 48.5710949
+      },
+      "area_id": "286e9a90-aeb8-5495-a7f5-ac396d834cc6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6063282489776611,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3ec7a577-d84a-4f8f-abab-3d01a4ac834d",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "bf6042f7-660a-5256-b2e4-9a8b349fc348",
+      "name": "Şamaxı rayonu Dəmirçi kəndi",
+      "name_normalized": "samaxi rayonu demirci kendi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.839008879306,
+        "lon": 48.561244010925
+      },
+      "area_id": "286e9a90-aeb8-5495-a7f5-ac396d834cc6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7295728325843811,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f6dfb04b-81f5-4066-8c13-013c1adcfa09",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

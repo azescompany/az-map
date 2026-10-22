@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "9e11cea4-21db-5c24-860d-0cca0d1f5cc5",
+      "properties": {
+        "id": "9e11cea4-21db-5c24-860d-0cca0d1f5cc5",
+        "name": "Yeni Yevlax Məhəlləsi",
+        "type": "neighborhood",
+        "parent_id": "3bd2f01d-ea83-5489-a16e-9905cd0b8d9c",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.1434967,
+              40.599575
+            ],
+            [
+              47.1437824,
+              40.6016859
+            ],
+            [
+              47.1406066,
+              40.602195
+            ],
+            [
+              47.140089,
+              40.6000709
+            ],
+            [
+              47.1434967,
+              40.599575
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "5f6b6325-3699-5c27-ad6e-5e16e3d16fa9",
+      "properties": {
+        "id": "5f6b6325-3699-5c27-ad6e-5e16e3d16fa9",
+        "name": "Kəndaxan",
+        "type": "neighborhood",
+        "parent_id": "0b66ddcc-de63-5256-a51b-f003d95e945e",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.3725207,
+              40.6654863
+            ],
+            [
+              48.3708621,
+              40.6660706
+            ],
+            [
+              48.3696319,
+              40.6661548
+            ],
+            [
+              48.3694597,
+              40.6652798
+            ],
+            [
+              48.3704885,
+              40.6643213
+            ],
+            [
+              48.3719198,
+              40.6643413
+            ],
+            [
+              48.3725207,
+              40.6654863
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "09db9184-41ee-54af-b295-c975bb84c64b",
+      "properties": {
+        "id": "09db9184-41ee-54af-b295-c975bb84c64b",
+        "name": "Hilədərə",
+        "type": "neighborhood",
+        "parent_id": "4a92fe72-1565-543e-859d-94af4b3318a8",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.2923726,
+              38.7050246
+            ],
+            [
+              48.2930808,
+              38.7065232
+            ],
+            [
+              48.289669,
+              38.70726
+            ],
+            [
+              48.289551,
+              38.7066321
+            ],
+            [
+              48.2907204,
+              38.7063056
+            ],
+            [
+              48.2906238,
+              38.7056525
+            ],
+            [
+              48.2923726,
+              38.7050246
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

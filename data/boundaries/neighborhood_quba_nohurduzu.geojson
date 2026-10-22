@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "fb963ae6-14fc-5ee7-bd1b-14ea5d18914d",
+      "properties": {
+        "id": "fb963ae6-14fc-5ee7-bd1b-14ea5d18914d",
+        "name": "Nohurdüzü",
+        "type": "neighborhood",
+        "parent_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.5302994,
+              41.0898566
+            ],
+            [
+              48.5268447,
+              41.089145
+            ],
+            [
+              48.5271236,
+              41.0877299
+            ],
+            [
+              48.5286096,
+              41.0875601
+            ],
+            [
+              48.5341779,
+              41.0898768
+            ],
+            [
+              48.5337916,
+              41.0905439
+            ],
+            [
+              48.5321769,
+              41.0905115
+            ],
+            [
+              48.5301009,
+              41.0902326
+            ],
+            [
+              48.5302994,
+              41.0898566
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

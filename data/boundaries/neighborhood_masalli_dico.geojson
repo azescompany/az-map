@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "6716febe-3442-5f8d-aa12-ccc56e0620bc",
+      "properties": {
+        "id": "6716febe-3442-5f8d-aa12-ccc56e0620bc",
+        "name": "Dico",
+        "type": "neighborhood",
+        "parent_id": "b1d864f5-f0ea-5660-91eb-01a56351cfea",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.6170581,
+              38.8913005
+            ],
+            [
+              48.6176757,
+              38.8922912
+            ],
+            [
+              48.6153635,
+              38.8931353
+            ],
+            [
+              48.6148362,
+              38.8923674
+            ],
+            [
+              48.6155819,
+              38.8920684
+            ],
+            [
+              48.6148965,
+              38.891066
+            ],
+            [
+              48.6154237,
+              38.8909253
+            ],
+            [
+              48.6159133,
+              38.8916522
+            ],
+            [
+              48.6170581,
+              38.8913005
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

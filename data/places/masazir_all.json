@@ -1,0 +1,126 @@
+{
+  "area_id": "fbfbd698-3dee-5bda-a63a-71b21920d989",
+  "parent_area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+  "places": [
+    {
+      "id": "32042820-24c7-5efd-9674-effacf612868",
+      "name": "Masazir",
+      "name_normalized": "masazir",
+      "alt_names": [],
+      "category": "monument",
+      "coordinates": {
+        "lat": 40.4825,
+        "lon": 49.7597
+      },
+      "area_id": "fbfbd698-3dee-5bda-a63a-71b21920d989",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6342297792434692,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a895c70b-3a9d-4b9c-a6e8-65f93059890d",
+          "release": "2026-09-23.1",
+          "source_category": "monument"
+        }
+      ]
+    },
+    {
+      "id": "b037b8dc-88e9-5256-a2c2-16707cdb8337",
+      "name": "Mehli Yashayish Kompleksi",
+      "name_normalized": "mehli yashayish kompleksi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.48124515,
+        "lon": 49.74992127
+      },
+      "area_id": "fbfbd698-3dee-5bda-a63a-71b21920d989",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7502719759941101,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7ab37f1f-88ab-42cb-ab45-72d057cfc41d",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "7990b5ee-ee86-5b5c-a260-fa0e39d8462b",
+      "name": "Bank Respublika Arena",
+      "name_normalized": "bank respublika arena",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.48649133,
+        "lon": 49.76628037
+      },
+      "area_id": "fbfbd698-3dee-5bda-a63a-71b21920d989",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8806537985801697,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "17575e88-ceca-408a-a43b-085736fcfa3d",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "ca7f0928-e702-59f8-8bf2-0bd336918644",
+      "name": "Masazir",
+      "name_normalized": "masazir",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.45448103,
+        "lon": 49.76937477
+      },
+      "area_id": "fbfbd698-3dee-5bda-a63a-71b21920d989",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.24709895253181458,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c9a30f9d-3c5b-4ea4-9b92-02ddf09ac8b5",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "22acac7b-e09e-5a1e-be48-6fea8e29d72a",
+      "name": "Fateh MTK",
+      "name_normalized": "fateh mtk",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.47105,
+        "lon": 49.74913
+      },
+      "area_id": "fbfbd698-3dee-5bda-a63a-71b21920d989",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5372738242149353,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ebed1f93-2890-4800-94a8-951ab6f6e2e4",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "area_id": "8604052b-f28f-5c80-be49-3d3770ef7374",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "92250c2f-9f75-58f2-9f90-f4767065955f",
+      "name": "Khrebet Tuzlukh",
+      "name_normalized": "khrebet tuzlukh",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.18643,
+        "lon": 47.58186
+      },
+      "area_id": "8604052b-f28f-5c80-be49-3d3770ef7374",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.786430299282074,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "993dbb87-b0da-46d7-8b80-7e06479ac447",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "f91f1da6-0be3-528c-91fc-49986a074ed7",
+      "name": "Gora Gemir",
+      "name_normalized": "gora gemir",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.11948,
+        "lon": 47.43812
+      },
+      "area_id": "8604052b-f28f-5c80-be49-3d3770ef7374",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8022513389587402,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "73333ca0-918a-4f29-9e3f-4b030aab7c99",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "b6247c89-149a-5e37-a595-789246d93de3",
+      "name": "Oğuz CitY",
+      "name_normalized": "oguz city",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.08466224000001,
+        "lon": 47.42399854
+      },
+      "area_id": "8604052b-f28f-5c80-be49-3d3770ef7374",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6710163950920105,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "183ccb41-2311-4bd1-87b3-e14d23fafcd7",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "859a95b9-6f1a-503a-9950-a284b725037e",
+      "name": "Yapon Döyüş Növləri və Mədəniyyəti Assosiasiyanın Şəki-Zaqa Regional Şöbəsi",
+      "name_normalized": "yapon doyus novleri ve medeniyyeti assosiasiyanin seki zaqa regional sobesi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.9761684,
+        "lon": 47.4827215
+      },
+      "area_id": "8604052b-f28f-5c80-be49-3d3770ef7374",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.38875892758369446,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "504cdb01-32ff-48de-a4b6-a74b0cee0bbf",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "2f0a29e9-6768-5d65-be83-bf5214b380d1",
+      "name": "Kerimli, Oguz",
+      "name_normalized": "kerimli oguz",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.970122,
+        "lon": 47.488297
+      },
+      "area_id": "8604052b-f28f-5c80-be49-3d3770ef7374",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6804713010787964,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6e7668b7-8b2d-4e36-ab69-5eec73b4ec24",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "15b60bad-7f0d-5094-889d-8d65d3940662",
+      "name": "Oğuz Rayon MKS-nin Tayıflı Kənd Kitabxana Filialı",
+      "name_normalized": "oguz rayon mks nin tayifli kend kitabxana filiali",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.00603672,
+        "lon": 47.50882523
+      },
+      "area_id": "8604052b-f28f-5c80-be49-3d3770ef7374",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.42136627435684204,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2f569a88-1808-47b6-8f9b-78754357f28d",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "89e76ba4-0de7-592f-9d64-a6c5defb1d07",
+      "name": "Zoğallıdağ (berg i Azerbajdzjan, Oghuz)",
+      "name_normalized": "zogallidag berg i azerbajdzjan oghuz",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 41.0595,
+        "lon": 47.6254
+      },
+      "area_id": "8604052b-f28f-5c80-be49-3d3770ef7374",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7815214991569519,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6ee8c4bd-1b5a-4d3a-aab9-a99e2af565bb",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    }
+  ]
+}

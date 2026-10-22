@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "30c81975-f08d-5827-a6c1-d76c39742ed0",
+      "properties": {
+        "id": "30c81975-f08d-5827-a6c1-d76c39742ed0",
+        "name": "Çələbixan qaçqın şəhərciyi",
+        "type": "neighborhood",
+        "parent_id": "5a88d1bb-f472-597d-9c8c-193cd2052033",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.1362186,
+              41.1933209
+            ],
+            [
+              47.1313262,
+              41.1997994
+            ],
+            [
+              47.1224696,
+              41.1959648
+            ],
+            [
+              47.1278125,
+              41.1891307
+            ],
+            [
+              47.1346628,
+              41.1920816
+            ],
+            [
+              47.1342766,
+              41.1925054
+            ],
+            [
+              47.1362186,
+              41.1933209
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

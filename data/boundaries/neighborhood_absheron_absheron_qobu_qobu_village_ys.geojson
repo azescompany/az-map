@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "78444ebf-7901-551c-894c-4379b9e7c5a8",
+      "properties": {
+        "id": "78444ebf-7901-551c-894c-4379b9e7c5a8",
+        "name": "Qobu Village YS",
+        "type": "neighborhood",
+        "parent_id": "b99713bb-25f5-5696-98a5-4a88b3a00c6a",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              49.6918192,
+              40.3995464
+            ],
+            [
+              49.6917388,
+              40.4007658
+            ],
+            [
+              49.6892658,
+              40.4006208
+            ],
+            [
+              49.6893087,
+              40.3994729
+            ],
+            [
+              49.6918192,
+              40.3995464
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

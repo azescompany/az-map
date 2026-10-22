@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "7403facb-7044-5c94-a8fc-59b02ff8d8de",
+      "properties": {
+        "id": "7403facb-7044-5c94-a8fc-59b02ff8d8de",
+        "name": "Ceyrankeçməz",
+        "type": "neighborhood",
+        "parent_id": "1f23b55d-e32f-5613-89f6-803737d7f924",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              49.0574312,
+              40.4845555
+            ],
+            [
+              49.0572971,
+              40.4855877
+            ],
+            [
+              49.0562779,
+              40.4855347
+            ],
+            [
+              49.0562135,
+              40.4844943
+            ],
+            [
+              49.0574312,
+              40.4845555
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

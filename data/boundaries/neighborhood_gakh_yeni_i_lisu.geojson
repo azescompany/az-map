@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "1065ebb1-08b3-5e43-8ad2-9d78d9ea2dc1",
+      "properties": {
+        "id": "1065ebb1-08b3-5e43-8ad2-9d78d9ea2dc1",
+        "name": "Yeni İlisu",
+        "type": "neighborhood",
+        "parent_id": "fd5f5117-b94a-549e-8b7d-7112381298ad",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.7456814,
+              41.2409149
+            ],
+            [
+              46.7447839,
+              41.2411615
+            ],
+            [
+              46.7422491,
+              41.2412141
+            ],
+            [
+              46.7419275,
+              41.2390266
+            ],
+            [
+              46.7432819,
+              41.2385698
+            ],
+            [
+              46.7452111,
+              41.2388694
+            ],
+            [
+              46.7456814,
+              41.2409149
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

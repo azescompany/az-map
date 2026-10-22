@@ -1,0 +1,54 @@
+{
+  "area_id": "cac9becb-d9eb-5a5e-9340-cab7a24f3d70",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "a14d0cb9-becf-5ec6-8bbc-be125bd5b4a8",
+      "name": "Çıraqqala",
+      "name_normalized": "ciraqqala",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.089337001800516,
+        "lon": 48.936893385258585
+      },
+      "area_id": "cac9becb-d9eb-5a5e-9340-cab7a24f3d70",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5881405472755432,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2166d0cd-7e7e-4e86-9bec-bc93c46b4fba",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "c11628f8-f86f-5fb6-beed-2f2d2af84d52",
+      "name": "Beshbarmak",
+      "name_normalized": "beshbarmak",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.95773988,
+        "lon": 49.23213413
+      },
+      "area_id": "cac9becb-d9eb-5a5e-9340-cab7a24f3d70",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.831225574016571,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0bbd2ec7-a1e6-488b-a106-82541730af97",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

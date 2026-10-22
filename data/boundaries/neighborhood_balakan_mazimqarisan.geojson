@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "72e55262-519d-597a-8ccc-3454be34c62b",
+      "properties": {
+        "id": "72e55262-519d-597a-8ccc-3454be34c62b",
+        "name": "Mazımqarışan",
+        "type": "neighborhood",
+        "parent_id": "b22a65cb-a5a1-515c-bda5-758a3f5d829c",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.2659387,
+              41.6381033
+            ],
+            [
+              46.2697353,
+              41.6409045
+            ],
+            [
+              46.2691936,
+              41.6413093
+            ],
+            [
+              46.2670299,
+              41.6402387
+            ],
+            [
+              46.2662446,
+              41.64055
+            ],
+            [
+              46.2643622,
+              41.6391853
+            ],
+            [
+              46.2659387,
+              41.6381033
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

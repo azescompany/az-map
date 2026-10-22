@@ -16,6 +16,7 @@
     "@geoatlas/types": "workspace:*"
   },
   "devDependencies": {
+    "@types/geojson": "^7946.0.16",
     "typescript": "^5.9.2"
   }
 }

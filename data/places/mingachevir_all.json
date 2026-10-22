@@ -1,0 +1,486 @@
+{
+  "area_id": "6f487a89-3bdb-54b5-bc82-3beeecb84be9",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "f79c5be0-7fc3-58e3-b45a-c11f89bd8757",
+      "name": "Səməd Vurğun Parkı",
+      "name_normalized": "semed vurgun parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.77310665,
+        "lon": 47.05286139
+      },
+      "area_id": "6f487a89-3bdb-54b5-bc82-3beeecb84be9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6502869725227356,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f7c7d24c-16d2-4099-9648-34917907ab0d",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "c13f5461-0a69-541f-9765-e766984a945f",
+      "name": "Heyder Parki",
+      "name_normalized": "heyder parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.77258564,
+        "lon": 47.04653988
+      },
+      "area_id": "6f487a89-3bdb-54b5-bc82-3beeecb84be9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7676846981048584,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2a827a06-f241-4bb6-bb92-798fe198cf95",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "8ddc9d36-5718-5d92-bf12-46d802ed6727",
+      "name": "Mingachevir History Museum",
+      "name_normalized": "mingachevir history museum",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.77274105,
+        "lon": 47.04580488
+      },
+      "area_id": "6f487a89-3bdb-54b5-bc82-3beeecb84be9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6002594828605652,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a149e5fa-8c23-438c-8f36-4325ed066cd0",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "62c5e5bf-c2eb-5166-a18f-b9bfcd04632d",
+      "name": "Mingo Park",
+      "name_normalized": "mingo park",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.771735,
+        "lon": 47.046455
+      },
+      "area_id": "6f487a89-3bdb-54b5-bc82-3beeecb84be9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7447426915168762,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b9807b5c-233f-473d-a32c-fce0d5094a7b",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "dca7cf1d-184c-5b46-b129-2d076f34e41a",
+      "name": "Mingəçevir Şəhər Stadionu",
+      "name_normalized": "mingecevir seher stadionu",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.77,
+        "lon": 47.0489
+      },
+      "area_id": "6f487a89-3bdb-54b5-bc82-3beeecb84be9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7139890789985657,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "fa54b070-1b2c-459b-ba90-09f9a06dedaf",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "31f5d83d-b59b-535b-8718-a8676c573432",
+      "name": "Bakcell Arena",
+      "name_normalized": "bakcell arena",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.76560426565498,
+        "lon": 47.05090763116825
+      },
+      "area_id": "6f487a89-3bdb-54b5-bc82-3beeecb84be9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9326598048210144,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a0696476-b360-4ce5-affe-347c50798a25",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "04ad073c-1496-5475-bfa7-a89fd67395c6",
+      "name": "Qəbələ Şəhər Stadionu",
+      "name_normalized": "qebele seher stadionu",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.76563959167859,
+        "lon": 47.05088229166652
+      },
+      "area_id": "6f487a89-3bdb-54b5-bc82-3beeecb84be9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7030874490737915,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9d04015b-2e79-424e-9ec5-197bfb75a764",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "4c5bee00-265b-553d-84b3-7bcb61373169",
+      "name": "Gullubag",
+      "name_normalized": "gullubag",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.76042932,
+        "lon": 47.04660572
+      },
+      "area_id": "6f487a89-3bdb-54b5-bc82-3beeecb84be9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.22801242768764496,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0038c341-bfdb-4652-b5f6-50993b88fd35",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "cb8735cb-f73e-5834-b7ae-a6e5a25cd95f",
+      "name": "Yashar Mammadzade Stadium",
+      "name_normalized": "yashar mammadzade stadium",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.76299711,
+        "lon": 47.04241597
+      },
+      "area_id": "6f487a89-3bdb-54b5-bc82-3beeecb84be9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8547806739807129,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d875516a-c19a-4979-aaaf-9fff20a72ac1",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "378c715b-addd-5775-8056-6d32cd496474",
+      "name": "Mingəçevir Bülvarı",
+      "name_normalized": "mingecevir bulvari",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.76190851164804,
+        "lon": 47.038267022461895
+      },
+      "area_id": "6f487a89-3bdb-54b5-bc82-3beeecb84be9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7647588849067688,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "624359c0-6213-47f7-8299-1fa64476165c",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "264a45fa-b811-5a18-81e4-a592a14ce35e",
+      "name": "Mingo Beach",
+      "name_normalized": "mingo beach",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.76334463548747,
+        "lon": 47.035611255411354
+      },
+      "area_id": "6f487a89-3bdb-54b5-bc82-3beeecb84be9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7084312438964844,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e75771b4-828b-40e1-a928-b107bea7123e",
+          "release": "2026-09-23.1",
+          "source_category": "beach"
+        }
+      ]
+    },
+    {
+      "id": "811b8bca-78b6-5eea-a3ba-6c175d120266",
+      "name": "Park Residence Mingəçevir",
+      "name_normalized": "park residence mingecevir",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.767769187756,
+        "lon": 47.040581703186
+      },
+      "area_id": "6f487a89-3bdb-54b5-bc82-3beeecb84be9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6401685476303101,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ae372990-1050-4a91-9142-ae61b1464fd2",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "4a9b44b9-7688-5ff0-aca0-f1037fedab35",
+      "name": "Mingecevir Tarix Muzeyi",
+      "name_normalized": "mingecevir tarix muzeyi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.77161,
+        "lon": 47.03386
+      },
+      "area_id": "6f487a89-3bdb-54b5-bc82-3beeecb84be9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6855084896087646,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4ed1dcac-08dc-402e-80f4-c3192292b07c",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "3c498311-e2bb-5f1b-824b-d143cd6ab49c",
+      "name": "Mingəçevir Su Anbarında",
+      "name_normalized": "mingecevir su anbarinda",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.794739098862,
+        "lon": 47.037857355073
+      },
+      "area_id": "6f487a89-3bdb-54b5-bc82-3beeecb84be9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7081202268600464,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7076d438-529e-447b-8e6d-730e8d9b858a",
+          "release": "2026-09-23.1",
+          "source_category": "beach"
+        }
+      ]
+    },
+    {
+      "id": "273a97b9-d6e0-5ceb-8cbd-b95809e27fb7",
+      "name": "Mingachevir Dam",
+      "name_normalized": "mingachevir dam",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.79,
+        "lon": 47.02833333
+      },
+      "area_id": "6f487a89-3bdb-54b5-bc82-3beeecb84be9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8108341693878174,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e5e6e032-f63a-41f9-96d5-042513ba03cf",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "dffe56fc-ce6c-519e-a0b4-88db1dfc180b",
+      "name": "Qediroglu Idman Kompleksi",
+      "name_normalized": "qediroglu idman kompleksi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.76954895161004,
+        "lon": 46.98951859799799
+      },
+      "area_id": "6f487a89-3bdb-54b5-bc82-3beeecb84be9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7087256908416748,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "53a5e75e-e1d4-4886-9a47-2a4ea1becbb2",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "f93f006a-dddb-5770-be40-eaf69386ce1b",
+      "name": "Dostluk Parkı Mingecevir",
+      "name_normalized": "dostluk parki mingecevir",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.769554575074906,
+        "lon": 46.99096124998925
+      },
+      "area_id": "6f487a89-3bdb-54b5-bc82-3beeecb84be9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7743043899536133,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "fed02e37-5f8c-4073-8e3d-16f7d9d83107",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "bb177315-afe4-57c6-9ab0-8ab3d2f81f07",
+      "name": "Mingəçevir Sag Sahil",
+      "name_normalized": "mingecevir sag sahil",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.77259011200878,
+        "lon": 47.023805163105436
+      },
+      "area_id": "6f487a89-3bdb-54b5-bc82-3beeecb84be9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.92996746301651,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "372d474e-ffca-4a47-b58b-22c8f31b669a",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "372f9240-19d0-53cf-996e-b514e952550a",
+      "name": "Mingəçevir Heydər Məscidi",
+      "name_normalized": "mingecevir heyder mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.772551920657364,
+        "lon": 47.02393306591276
+      },
+      "area_id": "6f487a89-3bdb-54b5-bc82-3beeecb84be9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8323965668678284,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d59205c5-9b24-4e1b-bcea-3d3641c5da43",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "f46738f9-1c8b-5b3f-80df-0abaa843fa1a",
+      "name": "Mingechevir Beach",
+      "name_normalized": "mingechevir beach",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.794858,
+        "lon": 47.03753
+      },
+      "area_id": "6f487a89-3bdb-54b5-bc82-3beeecb84be9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7475889921188354,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f50c1c66-e643-49c9-8a68-704c719cd5c0",
+          "release": "2026-09-23.1",
+          "source_category": "beach"
+        }
+      ]
+    }
+  ]
+}

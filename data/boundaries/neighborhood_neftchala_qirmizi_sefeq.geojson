@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "bd43a8d5-2f5e-5258-9743-96ff69ab3aed",
+      "properties": {
+        "id": "bd43a8d5-2f5e-5258-9743-96ff69ab3aed",
+        "name": "Qırmızı Şəfəq",
+        "type": "neighborhood",
+        "parent_id": "18688643-9cef-5e65-a2fa-a84819393c6c",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              49.3269709,
+              39.3737317
+            ],
+            [
+              49.3150654,
+              39.380447
+            ],
+            [
+              49.3049661,
+              39.3861431
+            ],
+            [
+              49.3039991,
+              39.3851189
+            ],
+            [
+              49.3260039,
+              39.3727073
+            ],
+            [
+              49.3269709,
+              39.3737317
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

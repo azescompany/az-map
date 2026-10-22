@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "7a4153ad-242a-5f7e-8a45-fe28f6dde052",
+      "properties": {
+        "id": "7a4153ad-242a-5f7e-8a45-fe28f6dde052",
+        "name": "Müşkəmir",
+        "type": "neighborhood",
+        "parent_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.3340122,
+              40.8197422
+            ],
+            [
+              48.3329607,
+              40.8205697
+            ],
+            [
+              48.3308423,
+              40.8196675
+            ],
+            [
+              48.3311722,
+              40.819089
+            ],
+            [
+              48.3324623,
+              40.8192616
+            ],
+            [
+              48.3332064,
+              40.8186728
+            ],
+            [
+              48.3344422,
+              40.819003
+            ],
+            [
+              48.3340122,
+              40.8197422
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

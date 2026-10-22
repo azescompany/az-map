@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "6c53e93d-65a3-5bfb-abb6-bde81243144b",
+      "properties": {
+        "id": "6c53e93d-65a3-5bfb-abb6-bde81243144b",
+        "name": "Mahmudqışlaq",
+        "type": "neighborhood",
+        "parent_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.7518233,
+              41.2658165
+            ],
+            [
+              48.7505505,
+              41.265578
+            ],
+            [
+              48.7495089,
+              41.2657807
+            ],
+            [
+              48.7482785,
+              41.2646136
+            ],
+            [
+              48.7510149,
+              41.2631178
+            ],
+            [
+              48.753384,
+              41.2645188
+            ],
+            [
+              48.7518233,
+              41.2658165
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

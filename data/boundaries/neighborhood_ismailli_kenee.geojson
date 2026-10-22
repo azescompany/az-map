@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "5fec8711-f9d0-585c-a3c3-c0df0f161948",
+      "properties": {
+        "id": "5fec8711-f9d0-585c-a3c3-c0df0f161948",
+        "name": "Kənəə",
+        "type": "neighborhood",
+        "parent_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.3143221,
+              40.8389225
+            ],
+            [
+              48.3113179,
+              40.8387505
+            ],
+            [
+              48.3113963,
+              40.8379862
+            ],
+            [
+              48.312055,
+              40.8378847
+            ],
+            [
+              48.3140432,
+              40.8375553
+            ],
+            [
+              48.3144191,
+              40.8380496
+            ],
+            [
+              48.3143221,
+              40.8389225
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

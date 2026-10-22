@@ -1,0 +1,126 @@
+{
+  "area_id": "df974046-9d94-5c48-a161-d71e59239929",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "71c78d9b-1621-547f-9aeb-3a98c57e72f2",
+      "name": "Guyulug Mosque",
+      "name_normalized": "guyulug mosque",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 39.4516,
+        "lon": 46.7516
+      },
+      "area_id": "df974046-9d94-5c48-a161-d71e59239929",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7946793437004089,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2a2c627e-f116-4ede-ba16-e2564fecbf90",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "165e254e-43f1-5a9e-96d6-cd9cde985339",
+      "name": "Gora Ziyarat",
+      "name_normalized": "gora ziyarat",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.53302,
+        "lon": 46.8564
+      },
+      "area_id": "df974046-9d94-5c48-a161-d71e59239929",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8012564778327942,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c27ca6e2-b144-4c8a-a450-6913c640231e",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "0ca2f6f1-ff8c-57a2-ab21-931a6084d8fe",
+      "name": "Berdasar Lerr (berg i Azerbajdzjan, Chodzjavänd)",
+      "name_normalized": "berdasar lerr berg i azerbajdzjan chodzjav nd",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.74278,
+        "lon": 47.01066
+      },
+      "area_id": "df974046-9d94-5c48-a161-d71e59239929",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8085001707077026,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "05b7f04f-fa11-425e-b267-28bfaedff04c",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "66f2a299-3170-55f8-a815-d64bee5653bb",
+      "name": "Մուշկապատ/Mushkapat",
+      "name_normalized": "mushkapat",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.77084,
+        "lon": 46.98145
+      },
+      "area_id": "df974046-9d94-5c48-a161-d71e59239929",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5026419758796692,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "75d9ea98-a829-4433-9931-07460ab22e79",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "93d344ef-023b-557d-a5ce-c7c303787ca3",
+      "name": "Azykh cave",
+      "name_normalized": "azykh cave",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.61924096,
+        "lon": 46.98853872
+      },
+      "area_id": "df974046-9d94-5c48-a161-d71e59239929",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8115108609199524,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ade4ad17-6157-425e-b0ad-7a5cca60a0db",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

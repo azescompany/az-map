@@ -7,6 +7,22 @@ import type {
   PlaceCollection,
   ReviewItem,
 } from "@geoatlas/types";
+import { normalize } from "./normalize";
+import { enrichPlace, filterNamedPlaces, searchNamedPlaces } from "./places";
+
+export { normalize };
+export {
+  areaBreadcrumb,
+  CATEGORY_LABELS,
+  categoryLabel,
+  enrichPlace,
+  filterNamedPlaces,
+  filterPlacesByCategory,
+  hasReliableName,
+  isDisplayableNamedPlace,
+  placeInAreaBbox,
+  searchNamedPlaces,
+} from "./places";
 
 export type GeoAtlasDataset = {
   manifest: Manifest;
@@ -44,6 +60,22 @@ export function verifiedChildrenOf(areas: Area[], parentId: string | null): Area
     .sort((a, b) => a.name.localeCompare(b.name, "az"));
 }
 
+/** Verified children of a given area type (strict parent→child typing). */
+export function verifiedChildrenOfType(
+  areas: Area[],
+  parentId: string | null,
+  type: Area["type"] | Area["type"][],
+): Area[] {
+  const types = new Set(Array.isArray(type) ? type : [type]);
+  return verifiedChildrenOf(areas, parentId).filter((a) => types.has(a.type));
+}
+
+/** True when city has at least one verified rayon child (Bakı); false for Sumqayıt-style. */
+export function cityHasRayonLevel(areas: Area[], cityId: string | null): boolean {
+  if (!cityId) return false;
+  return verifiedChildrenOfType(areas, cityId, "rayon").length > 0;
+}
+
 export function getArea(areas: Area[], id: string): Area | undefined {
   return areas.find((a) => a.id === id);
 }
@@ -59,29 +91,9 @@ export function searchAreas(areas: Area[], query: string, limit = 20): Area[] {
     .slice(0, limit);
 }
 
+/** Search named places only — unnamed objects are excluded from UI. */
 export function searchPlaces(places: Place[], query: string, limit = 30): Place[] {
-  const q = normalize(query);
-  if (!q) return [];
-  return places
-    .filter(
-      (p) =>
-        p.name_normalized.includes(q) ||
-        p.alt_names.some((n) => normalize(n).includes(q)),
-    )
-    .slice(0, limit);
-}
-
-export function normalize(s: string): string {
-  let out = (s || "").toLocaleLowerCase("az");
-  out = out
-    .replace(/ə/g, "e")
-    .replace(/ı/g, "i")
-    .replace(/ö/g, "o")
-    .replace(/ü/g, "u")
-    .replace(/ğ/g, "g")
-    .replace(/ş/g, "s")
-    .replace(/ç/g, "c");
-  return out.replace(/[^a-z0-9]+/g, " ").trim().replace(/\s+/g, " ");
+  return searchNamedPlaces(places, query, limit);
 }
 
 export async function loadManifest(baseUrl: string): Promise<Manifest> {
@@ -104,29 +116,236 @@ export async function loadReviews(baseUrl: string): Promise<ReviewItem[]> {
   return data.reviews ?? [];
 }
 
+export type PlacesIndex = {
+  region?: string;
+  total?: number;
+  files?: string[];
+  by_rayon?: Record<
+    string,
+    { name: string; area_id: string; count: number; file: string }
+  >;
+};
+
+/** Load places index (all Bakı rayon place files). */
+export async function loadPlacesIndex(
+  baseUrl: string,
+): Promise<PlacesIndex | null> {
+  const res = await fetch(join(baseUrl, "places/index.json"));
+  if (!res.ok) return null;
+  return res.json();
+}
+
+/** Load every named-place file listed in places/index.json (catalog / search). */
+export async function loadAllCatalogPlaces(baseUrl: string): Promise<Place[]> {
+  const index = await loadPlacesIndex(baseUrl);
+  const files =
+    index?.files?.length
+      ? index.files
+      : index?.by_rayon
+        ? Object.values(index.by_rayon).map((r) => r.file)
+        : ["places/yasamal_all.json"];
+  const chunks = await Promise.all(
+    files.map(async (f) => {
+      const res = await fetch(join(baseUrl, f.replace(/^\//, "")));
+      if (!res.ok) return [] as Place[];
+      const data = (await res.json()) as PlaceCollection;
+      return (data.places ?? []).map(enrichPlace);
+    }),
+  );
+  const byId = new Map<string, Place>();
+  for (const list of chunks) {
+    for (const p of list) byId.set(p.id, p);
+  }
+  return [...byId.values()];
+}
+
+async function fetchPlacesFile(
+  baseUrl: string,
+  file: string,
+): Promise<Place[]> {
+  try {
+    const res = await fetch(join(baseUrl, file));
+    if (!res.ok) return [];
+    // Vite SPA fallback serves index.html (200) for missing public files —
+    // treat non-JSON as "file absent" so city cascade is not aborted.
+    const ctype = res.headers.get("content-type") ?? "";
+    if (!ctype.includes("json")) return [];
+    const data = (await res.json()) as PlaceCollection;
+    if (!data || !Array.isArray(data.places)) return [];
+    return data.places.map(enrichPlace);
+  } catch {
+    return [];
+  }
+}
+
+/**
+ * City with verified rayon children (Bakı, Gəncə), or country-level rayon
+ * whose verified settlements have distinct places files (Abşeron → Masazır/Xırdalan).
+ * Does not invent aggregate files (no synthetic baki_all.json).
+ */
+function needsPlacesCascade(area: Area, allAreas: Area[]): boolean {
+  if (area.type === "city") {
+    return verifiedChildrenOfType(allAreas, area.id, "rayon").length > 0;
+  }
+  if (area.type === "rayon") {
+    const parent = area.parent_id
+      ? getArea(allAreas, area.parent_id)
+      : undefined;
+    if (parent?.type !== "country") return false;
+    const ownFile = resolvePlacesFileForArea(area, allAreas);
+    return verifiedChildrenOf(allAreas, area.id).some((child) => {
+      if (child.type !== "neighborhood" && child.type !== "settlement") {
+        return false;
+      }
+      const childFile = resolvePlacesFileForArea(child, allAreas);
+      return !!childFile && childFile !== ownFile;
+    });
+  }
+  return false;
+}
+
+/** Union places from own file (if any) + verified children with places files; dedupe by id. */
+async function loadCascadedPlaces(
+  baseUrl: string,
+  area: Area,
+  allAreas: Area[],
+): Promise<Place[]> {
+  const byId = new Map<string, Place>();
+
+  const ownFile = resolvePlacesFileForArea(area, allAreas);
+  if (ownFile) {
+    for (const p of await fetchPlacesFile(baseUrl, ownFile)) {
+      byId.set(p.id, p);
+    }
+  }
+
+  for (const child of verifiedChildrenOf(allAreas, area.id)) {
+    if (child.type === "rayon") {
+      const file = resolvePlacesFileForArea(child, allAreas);
+      if (!file) continue;
+      for (const p of await fetchPlacesFile(baseUrl, file)) {
+        byId.set(p.id, p);
+      }
+      continue;
+    }
+    if (child.type !== "neighborhood" && child.type !== "settlement") continue;
+    const childFile = resolvePlacesFileForArea(child, allAreas);
+    if (!childFile || childFile === ownFile) continue;
+    for (const p of await fetchPlacesFile(baseUrl, childFile)) {
+      byId.set(p.id, p);
+    }
+  }
+
+  return [...byId.values()];
+}
+
+/**
+ * Load places for an area following hierarchy cascade:
+ * - country: empty (unchanged)
+ * - city with rayon children: union of verified child rayon place files (dedupe by id)
+ * - rayon: that rayon's places file (full list); country-level rayon may also
+ *   union distinct child settlement files (e.g. Abşeron + Masazır/Xırdalan)
+ * - neighborhood / settlement / microhood: parent file filtered by area_id, else bbox
+ * Returns enriched records; UI must filter with filterNamedPlaces.
+ * Does not invent aggregate place files or rewrite extract area_id.
+ */
 export async function loadPlacesForArea(
   baseUrl: string,
   area: Area,
+  allAreas?: Area[],
 ): Promise<Place[]> {
-  // Pilot: Yasamal places file; later region chunks
-  if (area.boundary_file?.includes("yasamal") || area.name.includes("Yasamal")) {
-    const res = await fetch(join(baseUrl, "places/yasamal_all.json"));
-    if (!res.ok) return [];
-    const data = (await res.json()) as PlaceCollection;
-    if (area.name === "Yasamal rayonu") return data.places;
-    // child neighborhood: filter by containment already done at extract for rayon;
-    // for neighborhood, filter by name/area later — for now filter client-side by bbox if present
-    if (!area.bbox) return [];
-    const [minLon, minLat, maxLon, maxLat] = area.bbox;
-    return data.places.filter(
-      (p) =>
-        p.coordinates.lon >= minLon &&
-        p.coordinates.lon <= maxLon &&
-        p.coordinates.lat >= minLat &&
-        p.coordinates.lat <= maxLat,
-    );
+  if (area.type === "country") return [];
+
+  if (allAreas && needsPlacesCascade(area, allAreas)) {
+    return loadCascadedPlaces(baseUrl, area, allAreas);
   }
-  return [];
+
+  const file = resolvePlacesFileForArea(area, allAreas);
+  if (!file) return [];
+
+  const places = await fetchPlacesFile(baseUrl, file);
+  if (!places.length) return [];
+
+  if (area.type === "rayon" || area.type === "city") return places;
+
+  // Neighborhood / settlement / microhood: prefer area_id, else bbox under parent file.
+  const byAreaId = places.filter((p) => p.area_id === area.id);
+  if (byAreaId.length) return byAreaId;
+
+  if (!area.bbox || area.bbox.length < 4) return [];
+  const [minLon, minLat, maxLon, maxLat] = area.bbox;
+  return places.filter(
+    (p) =>
+      p.coordinates &&
+      p.coordinates.lon >= minLon &&
+      p.coordinates.lon <= maxLon &&
+      p.coordinates.lat >= minLat &&
+      p.coordinates.lat <= maxLat,
+  );
+}
+
+function areaKeyFromBoundaryFile(boundaryFile: string | null | undefined): string | null {
+  if (!boundaryFile) return null;
+  const path = boundaryFile.replace(/\\/g, "/");
+  const rayon = /rayon_([a-z0-9_]+)\.geojson$/i.exec(path);
+  if (rayon) return rayon[1];
+  const city = /city_([a-z0-9_]+)\.geojson$/i.exec(path);
+  if (city) return city[1];
+  return null;
+}
+
+/** Resolve places/{key}_all.json path for an area (no fetch; file may be absent). */
+export function resolvePlacesFileForArea(
+  area: Area,
+  allAreas?: Area[],
+): string | null {
+  if (area.type === "rayon" || area.type === "city") {
+    const key = areaKeyFromBoundaryFile(area.boundary_file);
+    if (key) {
+      // Prefer dedicated file when present (e.g. masazir under absheron later)
+      return `places/${key}_all.json`;
+    }
+    if (area.name.includes("Yasamal")) return "places/yasamal_all.json";
+    if (area.name === "Sumqayıt") return "places/sumqayit_all.json";
+    if (area.name === "Mingəçevir") return "places/mingachevir_all.json";
+    if (area.name === "Şirvan" && area.type === "city") return "places/shirvan_all.json";
+    if (area.name === "Naftalan") return "places/naftalan_all.json";
+    if (area.name === "Yevlax" && area.type === "city") return "places/yevlax_all.json";
+    if (area.name === "Lənkəran" && area.type === "city") return "places/lankaran_all.json";
+    if (area.name === "Şəki" && area.type === "city") return "places/sheki_all.json";
+    if (area.name === "Naxçıvan" && area.type === "city") return "places/nakhchivan_all.json";
+    return null;
+  }
+
+  if (area.type === "neighborhood" || area.type === "settlement") {
+    if (area.name === "Masazır" || area.boundary_file?.includes("masazir")) {
+      return "places/masazir_all.json";
+    }
+    if (area.name === "Xırdalan" || area.boundary_file?.includes("xirdalan")) {
+      return "places/xirdalan_all.json";
+    }
+    const parent = area.parent_id
+      ? allAreas?.find((a) => a.id === area.parent_id)
+      : undefined;
+    // Microhood under Xırdalan → parent settlement places file
+    if (
+      parent &&
+      (parent.type === "neighborhood" || parent.type === "settlement")
+    ) {
+      return resolvePlacesFileForArea(parent, allAreas);
+    }
+    if (parent && (parent.type === "rayon" || parent.type === "city")) {
+      return resolvePlacesFileForArea(parent, allAreas);
+    }
+    if (area.name.includes("Yasamal") || area.boundary_file?.includes("yasamal")) {
+      return "places/yasamal_all.json";
+    }
+    if (area.boundary_file?.includes("sumqayit")) {
+      return "places/sumqayit_all.json";
+    }
+  }
+
+  return null;
 }
 
 export async function loadBoundary(
@@ -168,7 +387,9 @@ export async function getAreaDetail(
   areas: Area[],
   area: Area,
 ): Promise<AreaDetail> {
-  const places = await loadPlacesForArea(baseUrl, area);
+  const places = filterNamedPlaces(
+    await loadPlacesForArea(baseUrl, area, areas),
+  );
   const c = centerOf(area);
   return {
     id: area.id,

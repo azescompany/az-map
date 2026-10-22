@@ -1,0 +1,281 @@
+{
+  "added_records": 137,
+  "verified_by_rayon": {
+    "Binəqədi rayonu": {
+      "count": 17,
+      "names": [
+        "6-cı mikrorayon",
+        "Atyalı",
+        "Biləcəri",
+        "Binəqədi",
+        "Binəqədi 1 siəd",
+        "Binəqədi 2 siəd",
+        "Böyükşor Qəsəbəsi",
+        "Motodrom YS",
+        "Nübar",
+        "Rəsulzadə qəsəbəsi",
+        "Sevil Massivi",
+        "Sulutəpə",
+        "Sulutəpə Yeni Massiv",
+        "Xocəsən",
+        "Xutor",
+        "Yeni Müşfiqabad qəsəbəsi",
+        "Çiçək qəsəbəsi"
+      ]
+    },
+    "Nizami rayonu": {
+      "count": 0,
+      "names": []
+    },
+    "Nərimanov rayonu": {
+      "count": 3,
+      "names": [
+        "205-ci Qəsəbə",
+        "Montin Qəsəbəsi",
+        "Qələbə meydanı"
+      ]
+    },
+    "Nəsimi rayonu": {
+      "count": 6,
+      "names": [
+        "1-ci mikrorayon",
+        "2-ci mikrorayon",
+        "3-cü mikrorayon",
+        "4-cü mikrorayon",
+        "5-ci mikrorayon",
+        "Azadlıq Meydanı"
+      ]
+    },
+    "Pirallahı rayonu": {
+      "count": 4,
+      "names": [
+        "Dübəndi",
+        "Gürgan",
+        "Pirallahı",
+        "Qoşaqışlaq Zirə"
+      ]
+    },
+    "Qaradağ rayonu": {
+      "count": 24,
+      "names": [
+        "Bakı Cənub Qapısı YK",
+        "Baş Ələt",
+        "Korgöz",
+        "Kotal",
+        "Lökbatan",
+        "Nübar Səngəçal",
+        "Oğlandərə",
+        "Puta",
+        "Qaradağ Stansiyası",
+        "Qarakosa",
+        "Qobu Park 1 YK",
+        "Qobu Park 2 YK",
+        "Qobu Park 3 YK",
+        "Qobustan",
+        "Qızıldaş",
+        "Sahil",
+        "Səngəçal",
+        "Vəlilər",
+        "Çeyildağ",
+        "Ümid",
+        "Şonqar",
+        "Şubanı",
+        "Şıxlar",
+        "Ələt"
+      ]
+    },
+    "Sabunçu rayonu": {
+      "count": 24,
+      "names": [
+        "2-ci Sovxoz",
+        "Bakıxanov",
+        "Balaxanı",
+        "Bilgəh",
+        "Fatmayı bağları",
+        "Goradil bağları",
+        "Kürdəxanı",
+        "Ləhiş bağları",
+        "Maştağa",
+        "Məmmədli",
+        "Nardaran",
+        "Pirşağı",
+        "Ramana",
+        "Ramana",
+        "Ramana Südçülük",
+        "Sabunçu",
+        "Sarı Qaya",
+        "Savalan qəsəbəsi",
+        "Subtropik Maştağa",
+        "Yeni Balaxanı",
+        "Yeni Ramana",
+        "Zabrat",
+        "Zəfəran Qəsəbəsi",
+        "Şuşa qəsəbəsi"
+      ]
+    },
+    "Suraxanı rayonu": {
+      "count": 12,
+      "names": [
+        "Bahar Qəsəbəsi",
+        "Bülbülə",
+        "Dədə Qorqud",
+        "Hövsan",
+        "Qaraçuxur",
+        "Suraxanı",
+        "Xəyal Adaları Hövsan \\ Dreamland Golf Villas",
+        "Yeni Günəşli",
+        "Yeni Günəşli Yaylası",
+        "Yeni Ramana",
+        "Yeni Suraxanı",
+        "Əmircan"
+      ]
+    },
+    "Səbail rayonu": {
+      "count": 12,
+      "names": [
+        "20-ci Sahə",
+        "Badamdar",
+        "Bayıl",
+        "Bibiheybət",
+        "Green City Socar",
+        "Panorama Villa",
+        "Qrand Park",
+        "Sea Life Residence",
+        "Səbail 2 siəd",
+        "İçəri Şəhər",
+        "Şıx qəsəbəsi",
+        "Şıxov Sədərək"
+      ]
+    },
+    "Xətai rayonu": {
+      "count": 6,
+      "names": [
+        "Həzi Aslanov Qəsəbəsi \\ Elektrotok",
+        "Time Square",
+        "Uğur 1 YK",
+        "Zeytunluq Yaşayış Sahəsi",
+        "Zığ",
+        "Əhmədli"
+      ]
+    },
+    "Xəzər rayonu": {
+      "count": 20,
+      "names": [
+        "Akademiya Bağları Türkan",
+        "Albalılıq",
+        "Binə Atçılıq",
+        "Buzovna",
+        "Gülçülük Şüvəlan",
+        "Mərdəkan",
+        "Qala",
+        "Qala 2",
+        "Qala Bağları",
+        "Türkan",
+        "Türkan Bağları",
+        "Türkan Bağları",
+        "Xaşaxuna",
+        "Yeni Türkan",
+        "Zirə",
+        "Zirə Südçülük",
+        "Üzümçülük Türkan",
+        "Şağan",
+        "Şüvəlan",
+        "Şüvəlan Şimal Qres"
+      ]
+    },
+    "Yasamal rayonu": {
+      "count": 2,
+      "names": [
+        "Mirvari Park kompleksi",
+        "Park Yasamal YK"
+      ]
+    }
+  },
+  "conflicts": [
+    [
+      "Nizami rayonu",
+      "1-ci mikrorayon"
+    ],
+    [
+      "Nizami rayonu",
+      "3-cü mikrorayon"
+    ],
+    [
+      "Nizami rayonu",
+      "4-cü mikrorayon"
+    ],
+    [
+      "Nizami rayonu",
+      "5-ci mikrorayon"
+    ],
+    [
+      "Nizami rayonu",
+      "Bəstə qəsəbəsi"
+    ],
+    [
+      "Nizami rayonu",
+      "Gülüstan"
+    ],
+    [
+      "Nizami rayonu",
+      "Mahrasa Bağı"
+    ]
+  ],
+  "skipped_sample": [
+    [
+      "Binəqədi rayonu",
+      "Binəqədi",
+      "no_geom_no_parent"
+    ],
+    [
+      "Binəqədi rayonu",
+      "Dərnəgül",
+      "no_geom_no_parent"
+    ],
+    [
+      "Binəqədi rayonu",
+      "Motodrom YS",
+      "no_geom_no_parent"
+    ],
+    [
+      "Nizami rayonu",
+      "Cavadxan",
+      "no_geom_no_parent"
+    ],
+    [
+      "Nizami rayonu",
+      "Fizuli qəsəbəsi",
+      "no_geom_no_parent"
+    ],
+    [
+      "Nizami rayonu",
+      "Qızılqaya",
+      "no_geom_no_parent"
+    ],
+    [
+      "Nərimanov rayonu",
+      "Bakı Dövlət Cıdır Meydanı",
+      "no_geom_no_parent"
+    ],
+    [
+      "Nəsimi rayonu",
+      "4-cü Mikrorayon",
+      "no_geom_no_parent"
+    ],
+    [
+      "Pirallahı rayonu",
+      "Çilov",
+      "no_geom_no_parent"
+    ],
+    [
+      "Xətai rayonu",
+      "Əhmədli",
+      "no_geom_no_parent"
+    ],
+    [
+      "Yasamal rayonu",
+      "Bakı",
+      "skip_baku_locality"
+    ]
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "area_id": "bc57b59f-7be7-5534-b28f-fa95ac1f3097",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "3c155018-1d35-5f67-9019-049e121915c8",
+      "name": "Şirvan Göl İstirahət Mərkəzi",
+      "name_normalized": "sirvan gol i stirahet merkezi",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.58344,
+        "lon": 47.28438
+      },
+      "area_id": "bc57b59f-7be7-5534-b28f-fa95ac1f3097",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7010361552238464,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "73c01fe5-2980-4748-8f20-36c88a75c6e5",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "3c6b38dd-aad7-580e-8db0-dfece3b0bdb4",
+      "name": "Ləki qəsəbəsi",
+      "name_normalized": "leki qesebesi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.538434061292996,
+        "lon": 47.424184118460644
+      },
+      "area_id": "bc57b59f-7be7-5534-b28f-fa95ac1f3097",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7833285331726074,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "421fc6e2-4f04-43d2-a032-50c849e3a0bf",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "b276e283-c158-510f-85f0-9a3582509e28",
+      "name": "Kanal Shekili Pervyy",
+      "name_normalized": "kanal shekili pervyy",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.73363,
+        "lon": 47.42475
+      },
+      "area_id": "bc57b59f-7be7-5534-b28f-fa95ac1f3097",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8028444647789001,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "641d04ac-d311-491b-9342-7b399c507a98",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "24dd5cf2-2e96-5905-8352-ccfe019a4fd6",
+      "name": "Türyançay Qoruğu",
+      "name_normalized": "turyancay qorugu",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.7534,
+        "lon": 47.4319
+      },
+      "area_id": "bc57b59f-7be7-5534-b28f-fa95ac1f3097",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8144127726554871,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a370df72-5b31-4771-a375-69f1b3266eee",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "90c5c3b6-1615-5083-8863-f76e447bb6eb",
+      "name": "Hacılararx Kanalı",
+      "name_normalized": "hacilararx kanali",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.72469,
+        "lon": 47.33639
+      },
+      "area_id": "bc57b59f-7be7-5534-b28f-fa95ac1f3097",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.808864951133728,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e63e7658-caac-41b3-a66f-75d35f52c201",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "199df195-9b50-5171-a5a7-e851c4feb4d8",
+      "name": "Ağdaş / Aghdash / Агдаш",
+      "name_normalized": "agdas aghdash",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.643782,
+        "lon": 47.469897
+      },
+      "area_id": "bc57b59f-7be7-5534-b28f-fa95ac1f3097",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7661815881729126,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1c27a3e4-2028-4eeb-8d56-6531c356ea93",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "e26395bc-2735-50bf-ae3a-30cec46369fa",
+      "name": "Hacı Osman Mescidi",
+      "name_normalized": "haci osman mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.64228571,
+        "lon": 47.47288291
+      },
+      "area_id": "bc57b59f-7be7-5534-b28f-fa95ac1f3097",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5208683013916016,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ed64da30-609a-4a1c-bc60-8a9f763297b7",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "31962758-a3c9-5bc9-9d4d-a0de02d3928b",
+      "name": "Ağdaş Olimpiya İdman Kompleksi",
+      "name_normalized": "agdas olimpiya i dman kompleksi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 40.644277699466784,
+        "lon": 47.47156089181411
+      },
+      "area_id": "bc57b59f-7be7-5534-b28f-fa95ac1f3097",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6309870481491089,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7a9af449-7498-4785-a819-3bd1bb80ca9f",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "af9ca091-9d55-51d0-87b9-749d3336d131",
+      "name": "Tapbulaq",
+      "name_normalized": "tapbulaq",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.74758,
+        "lon": 47.54275
+      },
+      "area_id": "bc57b59f-7be7-5534-b28f-fa95ac1f3097",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7467330098152161,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "671133ba-4378-4f54-9b95-83a9b7527668",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

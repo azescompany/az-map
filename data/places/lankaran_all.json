@@ -1,0 +1,366 @@
+{
+  "area_id": "c8842d4f-3e6b-5f4b-8e94-2abf53b507d6",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "87c4ea1e-8f09-5b90-991b-4fb13d711716",
+      "name": "Şilavar",
+      "name_normalized": "silavar",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 38.74978,
+        "lon": 48.8332032
+      },
+      "area_id": "c8842d4f-3e6b-5f4b-8e94-2abf53b507d6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7309544682502747,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f3d4f66c-6217-4ae9-9654-12826ed1964e",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "6e47604e-10a5-5b34-a244-3fc1be980d96",
+      "name": "Digah, Lankaran",
+      "name_normalized": "digah lankaran",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.7613888889,
+        "lon": 48.8263888889
+      },
+      "area_id": "c8842d4f-3e6b-5f4b-8e94-2abf53b507d6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7303106188774109,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d89e1902-6232-4ea5-b20a-8d5c0c656024",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "ec05cead-fe85-586e-a9c7-ffa037883f86",
+      "name": "Şilim kəndi - Lənkəran",
+      "name_normalized": "silim kendi lenkeran",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 38.76571,
+        "lon": 48.83767
+      },
+      "area_id": "c8842d4f-3e6b-5f4b-8e94-2abf53b507d6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7412837743759155,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "97ac2c53-24e6-420e-a832-9b69873e5301",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "70ec1772-4d7f-5ee8-8c38-68db211eb45e",
+      "name": "Lənkəran",
+      "name_normalized": "lenkeran",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.76480791,
+        "lon": 48.84664497
+      },
+      "area_id": "c8842d4f-3e6b-5f4b-8e94-2abf53b507d6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.2445048689842224,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1d8f6daa-f437-4f1a-b8db-931b735a060a",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "dacd5daa-692d-5bcd-8a70-22b9cc27b276",
+      "name": "Lenkeran-Sahil(deniz)",
+      "name_normalized": "lenkeran sahil deniz",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 38.767327,
+        "lon": 48.851967
+      },
+      "area_id": "c8842d4f-3e6b-5f4b-8e94-2abf53b507d6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7221106290817261,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c175e209-2a52-44e3-bb20-1ce6383cc7be",
+          "release": "2026-09-23.1",
+          "source_category": "beach"
+        }
+      ]
+    },
+    {
+      "id": "34249050-5be3-52d6-8a84-ca55fa3528fd",
+      "name": "ADEN Cennet Bagi Evleri",
+      "name_normalized": "aden cennet bagi evleri",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.77118,
+        "lon": 48.84728
+      },
+      "area_id": "c8842d4f-3e6b-5f4b-8e94-2abf53b507d6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.35774868726730347,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "03948e5d-ad36-4169-9e31-b12f26b9dd00",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "f86de27c-2c14-53e8-bb9c-f516753803cb",
+      "name": "Sahil parkı",
+      "name_normalized": "sahil parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 38.78309935,
+        "lon": 48.84187551
+      },
+      "area_id": "c8842d4f-3e6b-5f4b-8e94-2abf53b507d6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9407656788825989,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ad2e7ce5-9430-4903-bc9e-ed33963e9bb2",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "a57de436-3af8-508d-b2c4-661d9cccb851",
+      "name": "Hazi Aslanov Memorial Park",
+      "name_normalized": "hazi aslanov memorial park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 38.75875663,
+        "lon": 48.85537323
+      },
+      "area_id": "c8842d4f-3e6b-5f4b-8e94-2abf53b507d6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9192987084388733,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0d1bb1c8-0f47-4803-b808-85567f5fcfb5",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "17d385e9-0580-5bad-8db2-810a08ff57d4",
+      "name": "Lankaran Qala",
+      "name_normalized": "lankaran qala",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.757746,
+        "lon": 48.852555
+      },
+      "area_id": "c8842d4f-3e6b-5f4b-8e94-2abf53b507d6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.769342839717865,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ef8fb2fe-e060-4ec1-93a2-0b1230b6a4df",
+          "release": "2026-09-23.1",
+          "source_category": "castle"
+        }
+      ]
+    },
+    {
+      "id": "b114d72c-529d-5b37-ad1d-49e7c8b7bc38",
+      "name": "Lənkəran Mərkəzi Qala Çay evi",
+      "name_normalized": "lenkeran merkezi qala cay evi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.7581725,
+        "lon": 48.8534895
+      },
+      "area_id": "c8842d4f-3e6b-5f4b-8e94-2abf53b507d6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8848206996917725,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b1d5a821-afd2-49c0-a941-25ce3e2b8339",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "ceaebab5-908a-5e79-b9c4-b64642008791",
+      "name": "Delfin",
+      "name_normalized": "delfin",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 38.76279447309,
+        "lon": 48.846575214363
+      },
+      "area_id": "c8842d4f-3e6b-5f4b-8e94-2abf53b507d6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5121354460716248,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "eacca6cf-51c2-4a2c-9e84-f42217a55294",
+          "release": "2026-09-23.1",
+          "source_category": "beach"
+        }
+      ]
+    },
+    {
+      "id": "e8a02864-e378-54a7-9f3e-3abcaef7463f",
+      "name": "Dosa Park",
+      "name_normalized": "dosa park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 38.75370418,
+        "lon": 48.85214662
+      },
+      "area_id": "c8842d4f-3e6b-5f4b-8e94-2abf53b507d6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7501558661460876,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "afc0c201-f0f2-4d91-bd6d-b6357249bbbb",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "e6272a80-bca7-54a7-9e32-90aeabc3d9a9",
+      "name": "Lənkəran Qala",
+      "name_normalized": "lenkeran qala",
+      "alt_names": [],
+      "category": "monument",
+      "coordinates": {
+        "lat": 38.753611111111,
+        "lon": 48.851111111111
+      },
+      "area_id": "c8842d4f-3e6b-5f4b-8e94-2abf53b507d6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8018373847007751,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "394fbaa8-f5cc-4927-a03c-227496891ba6",
+          "release": "2026-09-23.1",
+          "source_category": "monument"
+        }
+      ]
+    },
+    {
+      "id": "f09703c0-9fc6-5c1c-803b-f97bdfb76315",
+      "name": "Haydar Aliyev Parki, Dosa Meydanii",
+      "name_normalized": "haydar aliyev parki dosa meydanii",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 38.754238,
+        "lon": 48.853087
+      },
+      "area_id": "c8842d4f-3e6b-5f4b-8e94-2abf53b507d6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8057815432548523,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1b4ba692-c82c-4ff0-8ad6-7ba96641fdae",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "57775c27-f7e1-5074-aad3-0e8de4ca2a01",
+      "name": "Heydər Əliyev Parkı",
+      "name_normalized": "heyder eliyev parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 38.75509761200077,
+        "lon": 48.85359423772215
+      },
+      "area_id": "c8842d4f-3e6b-5f4b-8e94-2abf53b507d6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.687057614326477,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "df0b2a20-a8db-49ce-aa4b-59e12fd045d6",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    }
+  ]
+}

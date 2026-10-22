@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "42876735-b6e9-52d3-a806-fa4f52102d1e",
+      "properties": {
+        "id": "42876735-b6e9-52d3-a806-fa4f52102d1e",
+        "name": "Fındıqlıqışlaq",
+        "type": "neighborhood",
+        "parent_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.1523841,
+              38.8227059
+            ],
+            [
+              48.1510752,
+              38.8231908
+            ],
+            [
+              48.1507775,
+              38.823149
+            ],
+            [
+              48.1508499,
+              38.8224531
+            ],
+            [
+              48.1522017,
+              38.8223653
+            ],
+            [
+              48.1523841,
+              38.8227059
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

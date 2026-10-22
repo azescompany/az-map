@@ -1,0 +1,270 @@
+{
+  "area_id": "b1d864f5-f0ea-5660-91eb-01a56351cfea",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "102fabac-f5c7-5bb5-a84c-503b5e75896b",
+      "name": "Kəlbəhüseyinli Kəndi",
+      "name_normalized": "kelbehuseyinli kendi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.08704794,
+        "lon": 48.65586548
+      },
+      "area_id": "b1d864f5-f0ea-5660-91eb-01a56351cfea",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6430429816246033,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a5f62303-be0d-4356-8774-691028fc3b87",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "65a3348a-7040-54b5-8582-6460832ab2ed",
+      "name": "Masallı, Təzəkənd",
+      "name_normalized": "masalli tezekend",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.11902,
+        "lon": 48.65677
+      },
+      "area_id": "b1d864f5-f0ea-5660-91eb-01a56351cfea",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6259563565254211,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b62c9a92-5e1b-4117-ba25-3e007bb9517b",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "e9fbb0f3-9576-5960-984f-c9a4f721f36a",
+      "name": "Masallı Cümə Məscidi",
+      "name_normalized": "masalli cume mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 39.027507001467,
+        "lon": 48.667619664331
+      },
+      "area_id": "b1d864f5-f0ea-5660-91eb-01a56351cfea",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6513019800186157,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8b422a0c-0221-4fbd-9fc6-26aa9a172d15",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "57269350-f069-59da-bdaf-bcf05ecb2fd8",
+      "name": "Dadva",
+      "name_normalized": "dadva",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.03333,
+        "lon": 48.66667
+      },
+      "area_id": "b1d864f5-f0ea-5660-91eb-01a56351cfea",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7848480343818665,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5232c099-f65f-4d4f-8802-23fd652342fb",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "feb060d1-db90-575c-88d3-eaed120c74fa",
+      "name": "Masallı rayonu, Qasımlı kəndi Масаллинский район, село Гасымлы",
+      "name_normalized": "masalli rayonu qasimli kendi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.036199834797,
+        "lon": 48.665714
+      },
+      "area_id": "b1d864f5-f0ea-5660-91eb-01a56351cfea",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.3469429910182953,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b11e3eff-baaa-4b45-91ed-bb6b1bec16c2",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "c4c2ca7e-08b7-5897-abbe-ceeb3d920ad0",
+      "name": "Heydər Əliyev Parkı",
+      "name_normalized": "heyder eliyev parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 39.04100687204468,
+        "lon": 48.66489514435998
+      },
+      "area_id": "b1d864f5-f0ea-5660-91eb-01a56351cfea",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7705218195915222,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7a6c2993-fba3-495c-8af9-50f1f5464bf4",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "84d8a9b0-6bbe-5e6f-9ee0-5e98a2c3109b",
+      "name": "Köhnə Alvadı",
+      "name_normalized": "kohne alvadi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.04968,
+        "lon": 48.63548
+      },
+      "area_id": "b1d864f5-f0ea-5660-91eb-01a56351cfea",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.809441089630127,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0acd71c6-f866-4ff0-8687-6317cc9199ff",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "4ba89a59-4b9a-57ff-a3be-fb64f95791dc",
+      "name": "Parque de xil",
+      "name_normalized": "parque de xil",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 38.975817096197,
+        "lon": 48.756236561416
+      },
+      "area_id": "b1d864f5-f0ea-5660-91eb-01a56351cfea",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5913464426994324,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a7932fc8-92d4-41e7-ab96-27980ba728c7",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "9f714db6-6a09-5b9c-a9aa-816ed372964b",
+      "name": "Boradigah Məscidi",
+      "name_normalized": "boradigah mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 38.92658045,
+        "lon": 48.70535379
+      },
+      "area_id": "b1d864f5-f0ea-5660-91eb-01a56351cfea",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6948213577270508,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7e2af0f3-ef53-4ce2-a81d-e35ce9e49dd4",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "a4702948-92df-5a36-bdd0-1c9b7f4ee02f",
+      "name": "Masallı rayon 20 saylı Öncəqala kənd kitabxanası",
+      "name_normalized": "masalli rayon 20 sayli onceqala kend kitabxanasi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 39.03367,
+        "lon": 48.7181
+      },
+      "area_id": "b1d864f5-f0ea-5660-91eb-01a56351cfea",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6636344790458679,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8fb49654-5d5c-4291-b228-4059d90d6b74",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "48bbe38a-5b8d-5057-bf9d-de17e589bea4",
+      "name": "Lankaran Lowland",
+      "name_normalized": "lankaran lowland",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.121388888889,
+        "lon": 48.7075
+      },
+      "area_id": "b1d864f5-f0ea-5660-91eb-01a56351cfea",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7827572822570801,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5ba39c5d-b776-473e-8764-4cf1d3c94644",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

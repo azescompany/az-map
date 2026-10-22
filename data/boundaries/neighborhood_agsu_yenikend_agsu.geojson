@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "81387668-5864-5ef8-9fb6-3ccf7b808282",
+      "properties": {
+        "id": "81387668-5864-5ef8-9fb6-3ccf7b808282",
+        "name": "Yenikənd Ağsu",
+        "type": "neighborhood",
+        "parent_id": "0b66ddcc-de63-5256-a51b-f003d95e945e",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.3763373,
+              40.6577426
+            ],
+            [
+              48.3760567,
+              40.6583083
+            ],
+            [
+              48.3721133,
+              40.6573261
+            ],
+            [
+              48.3722085,
+              40.6565576
+            ],
+            [
+              48.3737705,
+              40.6556629
+            ],
+            [
+              48.3750009,
+              40.6558386
+            ],
+            [
+              48.3759195,
+              40.6569492
+            ],
+            [
+              48.3763373,
+              40.6577426
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

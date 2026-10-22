@@ -1,0 +1,54 @@
+{
+  "area_id": "997eb0a1-8425-5919-80da-907d8f479cf7",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "a7b0107a-5e33-5d9e-9968-9f5ed58eb36f",
+      "name": "납탈란",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.5066666667,
+        "lon": 46.825
+      },
+      "area_id": "997eb0a1-8425-5919-80da-907d8f479cf7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7890894412994385,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "427c251d-7f74-491f-87ec-6bb01b0554dd",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "9195b14f-7a6e-58cf-837c-2f9d3aa898be",
+      "name": "Naftalan Şəhəri",
+      "name_normalized": "naftalan seheri",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.50525,
+        "lon": 46.81163
+      },
+      "area_id": "997eb0a1-8425-5919-80da-907d8f479cf7",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8304463028907776,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f88fff28-19c9-443e-a344-5b7c8cf575ac",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    }
+  ]
+}

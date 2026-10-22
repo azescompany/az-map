@@ -1,0 +1,54 @@
+{
+  "area_id": "9ff4b809-be4e-5596-a7a1-63e9c06a7396",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "404236f0-1844-5884-ae71-7dd23e541cb7",
+      "name": "Böyük Düz",
+      "name_normalized": "boyuk duz",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.25329,
+        "lon": 45.20239
+      },
+      "area_id": "9ff4b809-be4e-5596-a7a1-63e9c06a7396",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.786430299282074,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9f4898d8-67fd-4d68-b1e1-407d1b254f67",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "53920dbf-1a26-505a-929e-b393d9c8d9d0",
+      "name": "Gora Khok",
+      "name_normalized": "gora khok",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.35218,
+        "lon": 45.22958
+      },
+      "area_id": "9ff4b809-be4e-5596-a7a1-63e9c06a7396",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.77814120054245,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c4d31aa9-181c-48cb-bff2-b2c45f62bd0e",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

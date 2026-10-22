@@ -1,0 +1,102 @@
+{
+  "area_id": "1f23b55d-e32f-5613-89f6-803737d7f924",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "555643c2-d8dd-5d82-8095-636bac04f180",
+      "name": "Diri Baba Mausoleum",
+      "name_normalized": "diri baba mausoleum",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.5325789,
+        "lon": 48.94202518
+      },
+      "area_id": "1f23b55d-e32f-5613-89f6-803737d7f924",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.49170953035354614,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "22e60453-1048-49c8-9944-4e80b14d74b7",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "13c3dfb6-81e7-5a6d-b9cb-51adb3f78483",
+      "name": "Diribaba Piri",
+      "name_normalized": "diribaba piri",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.527572631787,
+        "lon": 48.929306030134
+      },
+      "area_id": "1f23b55d-e32f-5613-89f6-803737d7f924",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7465934753417969,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "66870c66-eb40-4dde-8b55-0f2b2af63d5f",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "de56b7cb-bb65-54c7-910a-edb8c0590589",
+      "name": "Dəyirmanbulaq",
+      "name_normalized": "deyirmanbulaq",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.67636,
+        "lon": 48.91627
+      },
+      "area_id": "1f23b55d-e32f-5613-89f6-803737d7f924",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7697972059249878,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "78d53135-e142-401d-975f-f0ade3fb223c",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "7f4b81ce-16d5-54a4-bf3f-b3451179b5fa",
+      "name": "Ağbulaq (källa i Azerbajdzjan, Qobustan)",
+      "name_normalized": "agbulaq k lla i azerbajdzjan qobustan",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.70079,
+        "lon": 48.81389
+      },
+      "area_id": "1f23b55d-e32f-5613-89f6-803737d7f924",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7693259716033936,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "35cfe5e1-5de7-46f5-a50e-15c08e61c8ea",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

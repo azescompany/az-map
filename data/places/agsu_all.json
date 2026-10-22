@@ -1,0 +1,246 @@
+{
+  "area_id": "0b66ddcc-de63-5256-a51b-f003d95e945e",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "9a77a091-e47d-5223-be19-48d945495e3d",
+      "name": "Ərəbsarvan (Sarvan)",
+      "name_normalized": "erebsarvan sarvan",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.53661227,
+        "lon": 48.2203911
+      },
+      "area_id": "0b66ddcc-de63-5256-a51b-f003d95e945e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8031206727027893,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "76a316c3-e492-4f78-8dfd-2ebadbfb7f85",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "c7b32059-6d41-574f-9ad5-93572779602c",
+      "name": "Gəgəli",
+      "name_normalized": "gegeli",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.53849,
+        "lon": 48.49424
+      },
+      "area_id": "0b66ddcc-de63-5256-a51b-f003d95e945e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7931424975395203,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f505e507-dbd6-4618-961d-7f80d60e6427",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "0b9a5d6f-4d43-5484-a0f2-5cd9b180a98f",
+      "name": "Agsu Rayon Medeniyyet Merkezi Yenilik Kend Senetkarliq Klubu",
+      "name_normalized": "agsu rayon medeniyyet merkezi yenilik kend senetkarliq klubu",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.5850106,
+        "lon": 48.3407518
+      },
+      "area_id": "0b66ddcc-de63-5256-a51b-f003d95e945e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5378763675689697,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0bc59dd0-f2ee-4c46-b3ce-e46248efc3b9",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "f30cc635-7372-5f09-b9da-ace7a84a7fcf",
+      "name": "Пиргасанли",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.58059,
+        "lon": 48.36045
+      },
+      "area_id": "0b66ddcc-de63-5256-a51b-f003d95e945e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7685045599937439,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4a67df4b-a9a3-4ef1-b93f-f94029c6e1e0",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "7e179945-6d88-5ad6-bbd9-23eb9b8a39cf",
+      "name": "AGSU TARIX Diyarsunasliq Muzeyi",
+      "name_normalized": "agsu tarix diyarsunasliq muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.56769373000001,
+        "lon": 48.398872510000004
+      },
+      "area_id": "0b66ddcc-de63-5256-a51b-f003d95e945e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7900269627571106,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "dc284568-3e77-4ff5-b56e-35644149de5e",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "d91c06ed-da13-5764-905e-6342ade7875e",
+      "name": "Aghsu (distriktshuvudort)",
+      "name_normalized": "aghsu distriktshuvudort",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.57028,
+        "lon": 48.40087
+      },
+      "area_id": "0b66ddcc-de63-5256-a51b-f003d95e945e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8121452927589417,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "097e3139-c189-4d07-b4c0-0ac38376e3c4",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "33d7ac58-b04e-56a7-b0ce-381b8b7b8d4a",
+      "name": "Ağsu rayon Mərkəzləşdirilmiş Kitabxana Sistemi",
+      "name_normalized": "agsu rayon merkezlesdirilmis kitabxana sistemi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.5708944,
+        "lon": 48.4020328
+      },
+      "area_id": "0b66ddcc-de63-5256-a51b-f003d95e945e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7382140159606934,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8e549251-c71a-40d0-8f3e-67c666eb1c12",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "cd87b0e5-541a-57af-97ed-adf4de094210",
+      "name": "Şamaxı rayonu",
+      "name_normalized": "samaxi rayonu",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.686554,
+        "lon": 48.480055
+      },
+      "area_id": "0b66ddcc-de63-5256-a51b-f003d95e945e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7910266518592834,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0d3deb35-4b54-479f-98b5-45a88a56722c",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "ee922c64-98be-5dcb-8d00-5c39cbd3c7b5",
+      "name": "Dilman Kendi",
+      "name_normalized": "dilman kendi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.72507989,
+        "lon": 48.50158089
+      },
+      "area_id": "0b66ddcc-de63-5256-a51b-f003d95e945e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8974643349647522,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a3deb8a2-76ca-4083-99c2-af6634ee4926",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "89f0d7da-197c-53e6-9334-7aa439befa4c",
+      "name": "Pirkuli Reserve",
+      "name_normalized": "pirkuli reserve",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.77703,
+        "lon": 48.51494
+      },
+      "area_id": "0b66ddcc-de63-5256-a51b-f003d95e945e",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7970505356788635,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c9ced5bf-f8df-4ae2-a80b-84a9610767a5",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

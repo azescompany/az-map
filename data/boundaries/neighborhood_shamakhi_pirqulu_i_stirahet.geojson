@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "0fbe035a-d110-5eac-b411-21e8d1aa527f",
+      "properties": {
+        "id": "0fbe035a-d110-5eac-b411-21e8d1aa527f",
+        "name": "Pirqulu İstirahət",
+        "type": "neighborhood",
+        "parent_id": "286e9a90-aeb8-5495-a7f5-ac396d834cc6",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.5980439,
+              40.787808
+            ],
+            [
+              48.5978267,
+              40.7880761
+            ],
+            [
+              48.5966009,
+              40.7877776
+            ],
+            [
+              48.5966492,
+              40.787407
+            ],
+            [
+              48.5971534,
+              40.7863986
+            ],
+            [
+              48.5982048,
+              40.7867032
+            ],
+            [
+              48.5980439,
+              40.787808
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

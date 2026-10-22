@@ -1,14 +1,14 @@
 {
   "name": "GeoAtlas Azerbaijan",
-  "dataset_version": "0.1.1-pilot",
-  "generated_at": "2026-10-21T12:00:20.196831+00:00",
+  "dataset_version": "0.2.0-national",
+  "generated_at": "2026-10-22T07:26:02.658235+00:00",
   "coverage": {
-    "scope": "pilot",
-    "description": "Country + Bakı city/districts + Yasamal neighborhoods + Yasamal notable places. Not full national coverage.",
-    "areas": 18,
-    "boundaries": 18,
-    "places": 170,
-    "reviews": 5
+    "scope": "national",
+    "description": "Azərbaycan ölkə + şəhərlər + inzibati rayonlar (Hierarchy.md / WORKER.md Faza 0–4).",
+    "areas": 3421,
+    "boundaries": 3421,
+    "places": 2847,
+    "reviews": 12
   },
   "sources": {
     "overture": {
@@ -34,19 +34,22 @@
     "note": "External basemap for context only. Administrative boundaries and place markers come from GeoAtlas data/."
   },
   "hierarchy_policy": {
-    "baki_districts": "OSM admin relations",
-    "alatava": "2-ci under Yasamal only if verified; 1-ci under Nəsimi",
-    "no_name_only_merge": true
+    "ui_cascade": "country → city|top-level rayon → (city rayon) → neighborhood → place",
+    "verified_children_only": true,
+    "no_name_only_merge": true,
+    "no_invented_geometry": true
   },
   "quality_gate": {
-    "applied_at": "2026-10-21T12:11:44.187145+00:00",
+    "applied_at": "2026-10-22T07:25:51.911175+00:00",
     "geom_status_counts": {
-      "verified": 18
+      "verified": 3421
     },
     "center_status_counts": {
-      "verified": 18
+      "verified": 3421
     },
     "crs": "EPSG:4326",
     "audit_report": "reviews/boundary_quality_audit.json"
-  }
+  },
+  "notes": {},
+  "description": "National pilot: country, Bakı, republic cities, Absheron agglomeration, and administrative rayons including Naxçıvan MR. Hierarchy.md / WORKER.md."
 }

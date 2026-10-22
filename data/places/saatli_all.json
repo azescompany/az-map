@@ -1,0 +1,78 @@
+{
+  "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "ba09e5f4-dfa5-5156-9d0a-c8f960340a1d",
+      "name": "Əhmədbəyli",
+      "name_normalized": "ehmedbeyli",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.87867,
+        "lon": 48.39901
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7312310338020325,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "954ff6b0-c5ad-4a8e-9db9-54359e245042",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "d05f2316-1edb-53ee-9d03-6924cc7dcc27",
+      "name": "Heydar Aliyev park",
+      "name_normalized": "heydar aliyev park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 39.961205751389,
+        "lon": 48.418337824321
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5569022297859192,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9e8b79c4-9f17-4429-8591-b15c8873ea4b",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "61a65fca-eedd-5e24-bccf-2f02e3d7efdf",
+      "name": "Levoberezhnyy Kanal (kanal i Azerbajdzjan)",
+      "name_normalized": "levoberezhnyy kanal kanal i azerbajdzjan",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.923,
+        "lon": 48.37548
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8182554841041565,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "65db5d3e-e86f-4a84-85c2-35352d20b07a",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "3b98eee3-5e9e-583f-864a-bf132e7fcbec",
+      "properties": {
+        "id": "3b98eee3-5e9e-583f-864a-bf132e7fcbec",
+        "name": "Qaraçılar Məhəlləsi",
+        "type": "neighborhood",
+        "parent_id": "3bd2f01d-ea83-5489-a16e-9905cd0b8d9c",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.1450001,
+              40.6035879
+            ],
+            [
+              47.1451101,
+              40.6042029
+            ],
+            [
+              47.1453086,
+              40.6051193
+            ],
+            [
+              47.1395391,
+              40.6061211
+            ],
+            [
+              47.1390295,
+              40.6042029
+            ],
+            [
+              47.1404752,
+              40.6040013
+            ],
+            [
+              47.1417975,
+              40.6038445
+            ],
+            [
+              47.1428838,
+              40.6037406
+            ],
+            [
+              47.1450001,
+              40.6035879
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

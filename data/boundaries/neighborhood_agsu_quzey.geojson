@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "9db74c5d-fa1a-585a-b3d5-1060015c2089",
+      "properties": {
+        "id": "9db74c5d-fa1a-585a-b3d5-1060015c2089",
+        "name": "Quzey",
+        "type": "neighborhood",
+        "parent_id": "0b66ddcc-de63-5256-a51b-f003d95e945e",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.446939,
+              40.6937849
+            ],
+            [
+              48.4471886,
+              40.6943329
+            ],
+            [
+              48.4459831,
+              40.6944377
+            ],
+            [
+              48.444415,
+              40.6926666
+            ],
+            [
+              48.4452733,
+              40.6919951
+            ],
+            [
+              48.4468,
+              40.6921329
+            ],
+            [
+              48.4475089,
+              40.6927806
+            ],
+            [
+              48.446939,
+              40.6937849
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

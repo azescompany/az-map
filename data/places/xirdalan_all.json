@@ -1,0 +1,510 @@
+{
+  "area_id": "2dd82823-5406-5468-85af-f06df3a8e3b6",
+  "parent_area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+  "places": [
+    {
+      "id": "c6dd824c-1af2-5866-85a4-fa66bda08712",
+      "name": "Qafqaz University",
+      "name_normalized": "qafqaz university",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.47598,
+        "lon": 49.72672
+      },
+      "area_id": "2dd82823-5406-5468-85af-f06df3a8e3b6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.954,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f52cf3ca-90dc-42cd-aa55-3b72b42165d0",
+          "release": "2026-09-23.1",
+          "source_category": "library"
+        }
+      ]
+    },
+    {
+      "id": "1beb042c-f63a-5069-9cb7-2603a7a90e14",
+      "name": "Misir Parkı",
+      "name_normalized": "misir parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.45639095,
+        "lon": 49.7415407
+      },
+      "area_id": "2dd82823-5406-5468-85af-f06df3a8e3b6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.888454020023346,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "fba01138-0eb4-45f3-9305-b43ab7672d27",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "1ed4a8de-24b8-5d7c-9df6-6ec127762c8e",
+      "name": "Mehlede",
+      "name_normalized": "mehlede",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.455924,
+        "lon": 49.729796
+      },
+      "area_id": "2dd82823-5406-5468-85af-f06df3a8e3b6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5958014726638794,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "015cda35-2eed-4e21-bee1-7f73ab2ad5f7",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "6ff8e28e-8fe7-5faf-94c9-5e1c0a839614",
+      "name": "Heyder Park",
+      "name_normalized": "heyder park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.452286,
+        "lon": 49.746147
+      },
+      "area_id": "2dd82823-5406-5468-85af-f06df3a8e3b6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6767064929008484,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8aea8a11-e7e3-4b14-bf98-01f5f2812ffb",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "e5d89c17-b2c8-53fe-acc8-c7e5ca0e5393",
+      "name": "Xırdalan Heydər Əliyev Parkı",
+      "name_normalized": "xirdalan heyder eliyev parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.452499389648,
+        "lon": 49.747501373291
+      },
+      "area_id": "2dd82823-5406-5468-85af-f06df3a8e3b6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7013893127441406,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "de0f62c3-3a7f-47c3-8d86-7570f109f5da",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "321c93d6-5906-5067-9a48-665eda355baf",
+      "name": "Heydar Aliyev Parki",
+      "name_normalized": "heydar aliyev parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.45256541,
+        "lon": 49.74514886
+      },
+      "area_id": "2dd82823-5406-5468-85af-f06df3a8e3b6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.78315669298172,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "632abeff-beb0-40a1-bf56-72ff99c9f891",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "f0931308-80e5-5022-8bff-5cd6cde5f4a7",
+      "name": "Park Fitness",
+      "name_normalized": "park fitness",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.4515,
+        "lon": 49.72753
+      },
+      "area_id": "2dd82823-5406-5468-85af-f06df3a8e3b6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7210643291473389,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "bf9affb6-cb5e-48b0-b232-5dff32f0f6f3",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "e02a36f7-95e1-5cb1-aa03-455743058896",
+      "name": "Fatimeye Zəhra Məscidi مسجد فاطمة الزهراء",
+      "name_normalized": "fatimeye zehra mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.449127892748,
+        "lon": 49.750599639034
+      },
+      "area_id": "2dd82823-5406-5468-85af-f06df3a8e3b6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6138464212417603,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6eb60d5d-4f2e-4985-ab62-be01a3792afb",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "434e6ad3-daa5-5fd7-aa6f-9fa2dc4f6447",
+      "name": "Baku City Residence",
+      "name_normalized": "baku city residence",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.44154,
+        "lon": 49.7601
+      },
+      "area_id": "2dd82823-5406-5468-85af-f06df3a8e3b6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9025487899780273,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ccb79763-0ee1-4aab-a3df-c0104499aa30",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "b3b5adca-fe6f-50e8-b13d-714ad23f60fc",
+      "name": "qobu",
+      "name_normalized": "qobu",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.442769,
+        "lon": 49.732487
+      },
+      "area_id": "2dd82823-5406-5468-85af-f06df3a8e3b6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5291455388069153,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "944fd4c7-54b5-45c1-9dc1-ed0dd25e0d10",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "b205d3a1-98ed-5fbd-bdfb-f4e23bd78889",
+      "name": "Kristal Absheron 2",
+      "name_normalized": "kristal absheron 2",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.44671384,
+        "lon": 49.75048843
+      },
+      "area_id": "2dd82823-5406-5468-85af-f06df3a8e3b6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8155297040939331,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9e659775-dedd-472e-8263-35a38895c61d",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "3c62c4a0-2a81-52a6-844e-cd1b6a8099c0",
+      "name": "Xirdalan Cume Mescidi",
+      "name_normalized": "xirdalan cume mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.44745898,
+        "lon": 49.75612859
+      },
+      "area_id": "2dd82823-5406-5468-85af-f06df3a8e3b6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.785961925983429,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "fe55feb2-f1d9-4713-9fa6-5c246c48c559",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "9b80e2cf-645f-5a81-a6b9-e1a3547b0dd4",
+      "name": "Xirdalan Park",
+      "name_normalized": "xirdalan park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.4486,
+        "lon": 49.7564
+      },
+      "area_id": "2dd82823-5406-5468-85af-f06df3a8e3b6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8807200789451599,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "87af9653-9ef5-4ba5-86ce-11208219ec1e",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "d1ae3e56-9e64-5833-bc15-0eb6809b2431",
+      "name": "Aaaf Park Zirve",
+      "name_normalized": "aaaf park zirve",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.4486,
+        "lon": 49.7564
+      },
+      "area_id": "2dd82823-5406-5468-85af-f06df3a8e3b6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7468522787094116,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a6761bd6-0a10-4a6a-9674-38c0bea8e405",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "6e5e2186-9aea-5d47-b3a3-22eb1959b0f1",
+      "name": "AAAF Park",
+      "name_normalized": "aaaf park",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.460269,
+        "lon": 49.725512
+      },
+      "area_id": "2dd82823-5406-5468-85af-f06df3a8e3b6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8967463970184326,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9302d973-17cc-4dde-8bb5-3af9695a1ebd",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "39534425-288f-5589-8a9c-09a320f213eb",
+      "name": "Tarqoviy Street",
+      "name_normalized": "tarqoviy street",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.459402992872,
+        "lon": 49.750415093123
+      },
+      "area_id": "2dd82823-5406-5468-85af-f06df3a8e3b6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.612805187702179,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "206341c8-abf6-4f62-9e41-b0de74cf67b5",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "230bb6ac-2ef9-58e7-bf20-a2ae49bc385d",
+      "name": "Bakü Heyder Parkì",
+      "name_normalized": "baku heyder park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.457573877229,
+        "lon": 49.743226133287
+      },
+      "area_id": "2dd82823-5406-5468-85af-f06df3a8e3b6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7030888199806213,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6f069ff2-9c34-4ea5-80a4-556b1b58b07c",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "6fbc53e6-b170-50c8-af82-d11b512593a5",
+      "name": "مقاطعة آب شوران",
+      "name_normalized": "",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.457182,
+        "lon": 49.738348
+      },
+      "area_id": "2dd82823-5406-5468-85af-f06df3a8e3b6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7018784284591675,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7932ea3d-54d3-4cce-b298-1e47d9ff2c37",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "5228b336-8707-5bc2-ae16-38a662cdeb84",
+      "name": "Xirdalan Aff Park",
+      "name_normalized": "xirdalan aff park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.46199818739617,
+        "lon": 49.726460164383425
+      },
+      "area_id": "2dd82823-5406-5468-85af-f06df3a8e3b6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7306291460990906,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "90e5b09b-fab7-4141-bc6e-e64a5bcef9ba",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "a30b909d-2807-5e4c-bcb6-b9e64dddd751",
+      "name": "Xırdalan",
+      "name_normalized": "xirdalan",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.46202892,
+        "lon": 49.72549663
+      },
+      "area_id": "2dd82823-5406-5468-85af-f06df3a8e3b6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.2787608206272125,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "31f4c3dd-0daf-4c75-86fe-20c9865aa07a",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "48dd54ac-09f2-5824-bbad-def5ab299612",
+      "name": "Limuland Ushaq Eylence Merkezi",
+      "name_normalized": "limuland ushaq eylence merkezi",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.463662,
+        "lon": 49.724141
+      },
+      "area_id": "2dd82823-5406-5468-85af-f06df3a8e3b6",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5759699940681458,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "530c2d61-fcc4-4f22-933a-0bca5690f733",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    }
+  ]
+}

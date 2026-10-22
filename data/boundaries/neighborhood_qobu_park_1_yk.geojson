@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "68bfcab6-20d0-550e-b134-d2ebeed2b497",
+      "properties": {
+        "id": "68bfcab6-20d0-550e-b134-d2ebeed2b497",
+        "name": "Qobu Park 1 YK",
+        "type": "neighborhood",
+        "parent_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              49.7514642,
+              40.3460741
+            ],
+            [
+              49.749994,
+              40.3483975
+            ],
+            [
+              49.7473981,
+              40.3474241
+            ],
+            [
+              49.7486097,
+              40.3455097
+            ],
+            [
+              49.7489315,
+              40.3456201
+            ],
+            [
+              49.749161,
+              40.3452538
+            ],
+            [
+              49.7514642,
+              40.3460741
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

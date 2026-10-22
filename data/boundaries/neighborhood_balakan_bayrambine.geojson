@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "960d5d47-86c5-5726-b415-6e03f7991a77",
+      "properties": {
+        "id": "960d5d47-86c5-5726-b415-6e03f7991a77",
+        "name": "Bayrambinə",
+        "type": "neighborhood",
+        "parent_id": "b22a65cb-a5a1-515c-bda5-758a3f5d829c",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.2473274,
+              41.6540353
+            ],
+            [
+              46.2522895,
+              41.653337
+            ],
+            [
+              46.2539896,
+              41.6563272
+            ],
+            [
+              46.250639,
+              41.6573389
+            ],
+            [
+              46.2503493,
+              41.6559842
+            ],
+            [
+              46.2481779,
+              41.6560364
+            ],
+            [
+              46.2473274,
+              41.6540353
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

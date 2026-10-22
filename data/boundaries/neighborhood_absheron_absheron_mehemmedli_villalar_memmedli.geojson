@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "4fda2bcd-d166-55ef-ae77-03144ba4bf7a",
+      "properties": {
+        "id": "4fda2bcd-d166-55ef-ae77-03144ba4bf7a",
+        "name": "Villalar \\ Məmmədli",
+        "type": "neighborhood",
+        "parent_id": "880819f5-54c8-5a0a-803e-12c9ddfe2a10",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              49.9027428,
+              40.4944367
+            ],
+            [
+              49.9036226,
+              40.4947834
+            ],
+            [
+              49.9029842,
+              40.4961235
+            ],
+            [
+              49.902091,
+              40.4957911
+            ],
+            [
+              49.9027428,
+              40.4944367
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

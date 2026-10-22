@@ -1,0 +1,126 @@
+{
+  "area_id": "b22a65cb-a5a1-515c-bda5-758a3f5d829c",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "59403aa1-9d53-5e9e-baa0-36b0a498e392",
+      "name": "Zaqatala Qoruğu",
+      "name_normalized": "zaqatala qorugu",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.80072,
+        "lon": 46.52121
+      },
+      "area_id": "b22a65cb-a5a1-515c-bda5-758a3f5d829c",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8144127726554871,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "02b91cc3-a921-4608-9e34-1369935bbc4d",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "a828594a-2897-512e-8520-d7b5323deb7c",
+      "name": "Balaken Heyder Parki",
+      "name_normalized": "balaken heyder parki",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 41.720668150001,
+        "lon": 46.418027149999
+      },
+      "area_id": "b22a65cb-a5a1-515c-bda5-758a3f5d829c",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7321107983589172,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "03f634ae-bcac-4318-8b12-8ef06476ea6c",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "1881f3c2-8cc9-5184-8874-8461334b7219",
+      "name": "Solbançay",
+      "name_normalized": "solbancay",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.72537,
+        "lon": 46.43125
+      },
+      "area_id": "b22a65cb-a5a1-515c-bda5-758a3f5d829c",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7873038649559021,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4ac20afd-4e60-4d9b-be34-d3ff48dc0916",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "4fd6956d-09e1-5546-b550-fd95dfcda0e8",
+      "name": "Balaken Rayonu",
+      "name_normalized": "balaken rayonu",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.724488290371916,
+        "lon": 46.40392394807177
+      },
+      "area_id": "b22a65cb-a5a1-515c-bda5-758a3f5d829c",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8418791890144348,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e34b407a-278e-4984-80fb-7597266277e4",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "a09cd097-1660-550e-bc64-ac6966f95e19",
+      "name": "Belokanskiy Rayon",
+      "name_normalized": "belokanskiy rayon",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 41.75,
+        "lon": 46.41667
+      },
+      "area_id": "b22a65cb-a5a1-515c-bda5-758a3f5d829c",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.809441089630127,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "003442a4-6c2a-467f-a36f-49ebdcf7e406",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

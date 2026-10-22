@@ -1,0 +1,32 @@
+{
+  "rayon": "Qubadlı rayonu",
+  "verified_settlements": [
+    "Balasoltanlı",
+    "Göyər Abbas",
+    "Kavdadıq",
+    "Mamar",
+    "Muradxanlı",
+    "Qaracallı",
+    "Qaraimanlı",
+    "Qarakişilər",
+    "Qarağac",
+    "Qubadlı",
+    "Qılıcan",
+    "Qəzyan",
+    "Sarıyataq",
+    "Seytaş",
+    "Tinli",
+    "Xanlıq",
+    "Xocahan",
+    "Xəndək",
+    "Çaytumas",
+    "İşıqlı",
+    "Əbilcə"
+  ],
+  "conflicts": [],
+  "places": 2,
+  "areas_total": 3295,
+  "generated_at": "2026-10-22T07:05:13.307016+00:00",
+  "osm_release": "azerbaijan-261020",
+  "overture_release": "2026-09-23.1"
+}

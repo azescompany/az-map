@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "84393d5a-1439-5fc8-b2fe-2f9f7c608f3c",
+      "properties": {
+        "id": "84393d5a-1439-5fc8-b2fe-2f9f7c608f3c",
+        "name": "İbrahimhaput",
+        "type": "neighborhood",
+        "parent_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.796197,
+              41.3477693
+            ],
+            [
+              48.795041,
+              41.3472422
+            ],
+            [
+              48.7951976,
+              41.3464121
+            ],
+            [
+              48.7963611,
+              41.3464021
+            ],
+            [
+              48.7969294,
+              41.3455144
+            ],
+            [
+              48.7992412,
+              41.3464429
+            ],
+            [
+              48.7976421,
+              41.3478416
+            ],
+            [
+              48.796197,
+              41.3477693
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

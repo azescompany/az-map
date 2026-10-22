@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "62c18970-8572-5f82-86be-a8cfc175ea2f",
+      "properties": {
+        "id": "62c18970-8572-5f82-86be-a8cfc175ea2f",
+        "name": "Dərə Zarat",
+        "type": "neighborhood",
+        "parent_id": "cac9becb-d9eb-5a5e-9340-cab7a24f3d70",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              49.115329,
+              40.9918879
+            ],
+            [
+              49.112975,
+              40.9924812
+            ],
+            [
+              49.110121,
+              40.9914194
+            ],
+            [
+              49.1091549,
+              40.9906697
+            ],
+            [
+              49.1098349,
+              40.9895942
+            ],
+            [
+              49.1124401,
+              40.9881268
+            ],
+            [
+              49.1143739,
+              40.9884865
+            ],
+            [
+              49.1160106,
+              40.9897627
+            ],
+            [
+              49.115329,
+              40.9918879
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

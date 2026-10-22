@@ -1,0 +1,78 @@
+{
+  "area_id": "303b54e3-194c-526f-bdd9-f68cacfec815",
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "places": [
+    {
+      "id": "0f377cb3-a2f6-5025-bbbb-9a70aa4a7ab0",
+      "name": "Qarabağ Yaylası",
+      "name_normalized": "qarabag yaylasi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.8,
+        "lon": 46.01667
+      },
+      "area_id": "303b54e3-194c-526f-bdd9-f68cacfec815",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.809441089630127,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9947259a-d64d-443d-a7d9-1067828b6080",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "a613cf1f-8c8d-5d91-99b9-cb4340d3d294",
+      "name": "Kirsavan",
+      "name_normalized": "kirsavan",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 39.634622,
+        "lon": 46.705361
+      },
+      "area_id": "303b54e3-194c-526f-bdd9-f68cacfec815",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7330132126808167,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "760dd98a-03ee-4b10-8b12-ccf0cfe0d041",
+          "release": "2026-09-23.1",
+          "source_category": "arts_and_entertainment"
+        }
+      ]
+    },
+    {
+      "id": "8f00b6a5-2a72-55df-b2c8-297100ae7a54",
+      "name": "Gora Nardevan",
+      "name_normalized": "gora nardevan",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.92197,
+        "lon": 46.23408
+      },
+      "area_id": "303b54e3-194c-526f-bdd9-f68cacfec815",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8053432703018188,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ea50e1a6-3be5-47a8-9d28-a1b7711e77a8",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "2a70eb14-8f65-514c-83f0-a207504bafaa",
+      "properties": {
+        "id": "2a70eb14-8f65-514c-83f0-a207504bafaa",
+        "name": "Yeni Xocavənd",
+        "type": "neighborhood",
+        "parent_id": "abcafc86-adf9-5cf7-a469-04f49245b9d6",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.5220758,
+              39.7441622
+            ],
+            [
+              47.5246507,
+              39.7405488
+            ],
+            [
+              47.5301439,
+              39.7410603
+            ],
+            [
+              47.527805,
+              39.7568817
+            ],
+            [
+              47.5229985,
+              39.7566178
+            ],
+            [
+              47.5212819,
+              39.7514213
+            ],
+            [
+              47.5220758,
+              39.7441622
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

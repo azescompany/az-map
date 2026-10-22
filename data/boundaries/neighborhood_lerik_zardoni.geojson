@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "cd1c7f9f-774b-5b57-aef5-9f2a714e71dd",
+      "properties": {
+        "id": "cd1c7f9f-774b-5b57-aef5-9f2a714e71dd",
+        "name": "Zardoni",
+        "type": "neighborhood",
+        "parent_id": "4a92fe72-1565-543e-859d-94af4b3318a8",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.532142,
+              38.7223327
+            ],
+            [
+              48.5311335,
+              38.7229521
+            ],
+            [
+              48.5286015,
+              38.7229019
+            ],
+            [
+              48.5275929,
+              38.7200056
+            ],
+            [
+              48.5282581,
+              38.719721
+            ],
+            [
+              48.528065,
+              38.7188672
+            ],
+            [
+              48.5300391,
+              38.7184654
+            ],
+            [
+              48.532142,
+              38.7223327
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
