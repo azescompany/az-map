@@ -15,6 +15,7 @@ import {
   loadManifest,
   loadAllCatalogPlaces,
   loadPlacesForArea,
+  loadPlacesIndex,
   loadReviews,
   verifiedChildrenOf,
   verifiedChildrenOfType,
@@ -96,6 +97,8 @@ export default function App() {
           loadManifest(DATA_BASE),
           loadAreas(DATA_BASE),
           loadReviews(DATA_BASE),
+          // Warm places/index.json so resolvePlacesFileForArea never invents 404 paths
+          loadPlacesIndex(DATA_BASE),
         ]);
         if (cancelled) return;
         setManifest(m);

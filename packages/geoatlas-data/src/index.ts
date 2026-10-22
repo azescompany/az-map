@@ -143,13 +143,42 @@ export type PlacesIndex = {
   >;
 };
 
+/** area_id → places/*.json and boundary-key → places/*.json (from index). */
+let placesFileByAreaId: Map<string, string> | null = null;
+let placesFileByKey: Map<string, string> | null = null;
+
+/** Cache places/index.json mappings so resolvePlacesFileForArea never invents missing paths. */
+export function rememberPlacesIndex(index: PlacesIndex | null | undefined): void {
+  const byArea = new Map<string, string>();
+  const byKey = new Map<string, string>();
+  for (const [key, meta] of Object.entries(index?.by_rayon ?? {})) {
+    if (!meta?.file) continue;
+    const file = meta.file.replace(/^\//, "");
+    byKey.set(key, file);
+    if (meta.area_id) byArea.set(meta.area_id, file);
+  }
+  placesFileByAreaId = byArea;
+  placesFileByKey = byKey;
+}
+
+function neighborhoodKeyFromBoundary(
+  boundaryFile: string | null | undefined,
+): string | null {
+  if (!boundaryFile) return null;
+  const path = boundaryFile.replace(/\\/g, "/");
+  const m = /neighborhood_([a-z0-9_]+)\.geojson$/i.exec(path);
+  return m ? m[1] : null;
+}
+
 /** Load places index (all Bakı rayon place files). */
 export async function loadPlacesIndex(
   baseUrl: string = DEFAULT_DATA_BASE,
 ): Promise<PlacesIndex | null> {
   const res = await fetch(join(baseUrl, "places/index.json"));
   if (!res.ok) return null;
-  return res.json();
+  const index = (await res.json()) as PlacesIndex;
+  rememberPlacesIndex(index);
+  return index;
 }
 
 /** Load every named-place file listed in places/index.json (catalog / search). */
@@ -167,8 +196,15 @@ export async function loadAllCatalogPlaces(
     files.map(async (f) => {
       const res = await fetch(join(baseUrl, f.replace(/^\//, "")));
       if (!res.ok) return [] as Place[];
-      const data = (await res.json()) as PlaceCollection;
-      return (data.places ?? []).map(enrichPlace);
+      // jsDelivr 404 HTML / SPA fallback — skip non-JSON
+      const ctype = res.headers.get("content-type") ?? "";
+      if (ctype && !ctype.includes("json")) return [] as Place[];
+      try {
+        const data = (await res.json()) as PlaceCollection;
+        return (data.places ?? []).map(enrichPlace);
+      } catch {
+        return [] as Place[];
+      }
     }),
   );
   const byId = new Map<string, Place>();
@@ -318,10 +354,21 @@ export function resolvePlacesFileForArea(
   area: Area,
   allAreas?: Area[],
 ): string | null {
+  // Authoritative: places/index.json (avoids inventing missing CDN paths)
+  const fromAreaId = placesFileByAreaId?.get(area.id);
+  if (fromAreaId) return fromAreaId;
+
+  const hoodKey = neighborhoodKeyFromBoundary(area.boundary_file);
+  if (hoodKey) {
+    const fromKey = placesFileByKey?.get(hoodKey);
+    if (fromKey) return fromKey;
+  }
+
   if (area.type === "rayon" || area.type === "city") {
     const key = areaKeyFromBoundaryFile(area.boundary_file);
     if (key) {
-      // Prefer dedicated file when present (e.g. masazir under absheron later)
+      const fromRayonKey = placesFileByKey?.get(key);
+      if (fromRayonKey) return fromRayonKey;
       return `places/${key}_all.json`;
     }
     if (area.name.includes("Yasamal")) return "places/yasamal_all.json";
@@ -337,16 +384,25 @@ export function resolvePlacesFileForArea(
   }
 
   if (area.type === "neighborhood" || area.type === "settlement") {
-    if (area.name === "Masazır" || area.boundary_file?.includes("masazir")) {
+    // Only request dedicated files that exist in the index (e.g. Absheron children).
+    // Do NOT invent places/xirdalan_aaaf_park_all.json etc. — those 404 on jsDelivr.
+    if (hoodKey && placesFileByKey?.has(hoodKey)) {
+      return placesFileByKey.get(hoodKey)!;
+    }
+    if (area.name === "Masazır" || hoodKey === "masazir") {
       return "places/masazir_all.json";
     }
-    if (area.name === "Xırdalan" || area.boundary_file?.includes("xirdalan")) {
+    if (area.name === "Xırdalan" || hoodKey === "xirdalan") {
       return "places/xirdalan_all.json";
+    }
+    // Absheron child settlements have dedicated files even before index warm
+    if (hoodKey?.startsWith("absheron_absheron_")) {
+      return `places/${hoodKey}_all.json`;
     }
     const parent = area.parent_id
       ? allAreas?.find((a) => a.id === area.parent_id)
       : undefined;
-    // Microhood under Xırdalan → parent settlement places file
+    // Microhood under Xırdalan / nested hood → parent settlement places file
     if (
       parent &&
       (parent.type === "neighborhood" || parent.type === "settlement")
