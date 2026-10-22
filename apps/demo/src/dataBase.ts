@@ -16,12 +16,12 @@ function withTrailingSlash(url: string): string {
  * Resolve curated data root.
  *
  * Default = **CDN** (`DEFAULT_DATA_BASE` / jsDelivr pin).
- * Local Vite `publicDir` when `VITE_GEOATLAS_DATA_BASE=local`.
+ * Local Vite `publicDir` only when `VITE_GEOATLAS_DATA_BASE=local` (or `/`).
  */
 export function resolveDataBase(
   envValue: string | undefined = import.meta.env.VITE_GEOATLAS_DATA_BASE,
 ): ResolvedDataBase {
-  const raw = (envValue ?? "cdn").trim().toLowerCase();
+  const raw = (envValue ?? "").trim().toLowerCase();
   const localRaw = (import.meta.env.VITE_GEOATLAS_DATA_LOCAL ?? "/").trim() || "/";
   // Root-relative `/` must stay a single slash for join() → `/manifest.json`
   const localBase = localRaw === "/" ? "/" : withTrailingSlash(localRaw);
@@ -30,10 +30,11 @@ export function resolveDataBase(
       DEFAULT_DATA_BASE,
   );
 
-  if (raw === "cdn") {
+  // unset / empty / explicit cdn → jsDelivr pin (never Vite publicDir)
+  if (!raw || raw === "cdn" || raw === "default") {
     return { base: cdnBase, source: "cdn" };
   }
-  if (raw === "local" || raw === "/" || raw === "") {
+  if (raw === "local" || raw === "/") {
     return { base: localBase, source: "local" };
   }
 

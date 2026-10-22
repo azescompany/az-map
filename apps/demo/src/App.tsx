@@ -29,7 +29,7 @@ import { resolveDataBase } from "./dataBase";
 
 /** CDN (jsDelivr pin) by default; set VITE_GEOATLAS_DATA_BASE=local for repo data/. */
 const { base: DATA_BASE, source: DATA_SOURCE } = resolveDataBase(
-  import.meta.env.VITE_GEOATLAS_DATA_BASE ?? "cdn",
+  import.meta.env.VITE_GEOATLAS_DATA_BASE,
 );
 const APP_MODE = resolveAppMode();
 const IS_CUSTOMER = APP_MODE === "customer";
