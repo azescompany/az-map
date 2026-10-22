@@ -1,0 +1,46 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "f9266fa0-b9d6-5bed-8eb3-d45197b9306b",
+      "properties": {
+        "id": "f9266fa0-b9d6-5bed-8eb3-d45197b9306b",
+        "name": "12-ci Mikrorayon",
+        "type": "neighborhood",
+        "parent_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+        "parent_status": "verified",
+        "subtype": "macrohood"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                49.6830647,
+                40.56349
+              ],
+              [
+                49.6913014,
+                40.5586416
+              ],
+              [
+                49.693968,
+                40.5612195
+              ],
+              [
+                49.6856025,
+                40.5660646
+              ],
+              [
+                49.6830647,
+                40.56349
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

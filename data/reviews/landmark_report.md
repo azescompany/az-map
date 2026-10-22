@@ -3,12 +3,45 @@
 LandmarkAgent blok hesabatları. Hər tamamlanmış `LANDMARK.md` bloku üçün
 bir qeyd əlavə et (tarix, key, before→after count, dedupe, conflict, validate).
 
-**Dataset pin:** `0.2.2-national` · places total **9822** (lokal Sumqayıt enrich daxil)  
-**Status:** Sumqayıt lokal DONE · Faza 2 növbəti Masazır · Git/CDN yox
+**Dataset pin:** `0.2.2-national` · places total **12377** (lokal Abşeron uşaqlar daxil)  
+**Status:** Faza 2 Abşeron uşaqlar DONE · Git/CDN yox
 
 ---
 
 ## Jurnal
+
+### 2026-10-22 — absheron children (Abşeron rayonu uşaqları)
+
+- Metod: tək OSM+Overture scan · children-first PIP · **ayrı** `places/{key}_all.json`
+- Exclude: Masazır + Xırdalan (əvvəlki bloklar)
+- Uşaqlara **767** · residual `absheron_all` **305** · conflict **0**
+- Top: Novxanı 189, Saray 114, Mehdiabad 76, Qobu 68, Digah 50, Goradil 46
+- Boş (named POI yox): Novxanı Bağları, Saray Bağları, Çaylı
+- Review: `landmark_absheron_children_enrich.json`
+- Validate + named-places: **PASS** · Git/CDN: **yox**
+- Skript: `enrich_absheron_children_places.py`
+
+### 2026-10-22 — xirdalan (Xırdalan)
+
+- Baseline → after: **21 → 1268** (named)
+- OSM **1106** + Overture **177** · yalnız Xırdalan polygon
+- Dedupe **36**; disambiguate **353**; `landmark_xirdalan_disambiguate.json`
+- Children-first: **8** verified uşaq · uşağa **383** · parent-only **885** · conflict **0**
+  (`landmark_xirdalan_reassign.json`)
+- Kateqoriya (top): shop 734, food 214, healthcare 85, education 76
+- Validate + named-places: **PASS** · Git/CDN: **yox**
+- Skript: `enrich_landmark_places.py --key xirdalan`
+
+### 2026-10-22 — masazir (Masazır)
+
+- Baseline → after: **5 → 263** (named)
+- OSM **224** + Overture **44** · yalnız Masazır polygon
+- Dedupe **10**; disambiguate **70**; `landmark_masazir_disambiguate.json`
+- Verified uşaq geom **0** → hamısı parent containment · conflict **0**
+  (`landmark_masazir_reassign.json`)
+- Kateqoriya (top): shop 148, food 50, education 25, healthcare 15
+- Validate + named-places: **PASS** · Git/CDN: **yox**
+- Skript: `enrich_landmark_places.py --key masazir`
 
 ### 2026-10-22 — sumqayit (Sumqayıt şəhəri)
 

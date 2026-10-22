@@ -1,0 +1,18 @@
+{
+  "key": "absheron_absheron_saray",
+  "area_id": "21739a0b-085f-5e97-81e7-be011f2793cf",
+  "notes": [
+    "street collision for 'AL Market' → #2",
+    "street collision for 'İnşaat Malları' → #3",
+    "street collision for 'Market' → #3",
+    "street collision for 'Market' → #10",
+    "street collision for 'Oba Market' → #3",
+    "street collision for 'PVC Sexi' → #2",
+    "street collision for 'Aptek' → #2",
+    "street collision for 'Ət Dükanı' → #2",
+    "street collision for 'Ət Dükanı' → #3",
+    "no street for duplicate name 'Araz' @ 40.53024,49.71457 → coord suffix",
+    "no street for duplicate name 'Araz' @ 40.53956,49.71872 → coord suffix"
+  ],
+  "count": 11
+}

@@ -1,0 +1,443 @@
+{
+  "area_id": "01894af5-94fe-50ea-acfc-f0efcae35cf1",
+  "parent_area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+  "settlement_key": "absheron_absheron_hokmeli",
+  "places": [
+    {
+      "id": "6c5c05a6-36fd-5f8f-bf61-67b79bde9383",
+      "name": "Lime mərasim sifarişi",
+      "name_normalized": "lime merasim sifarisi",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.4291968,
+        "lon": 49.7323686
+      },
+      "area_id": "01894af5-94fe-50ea-acfc-f0efcae35cf1",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4949509524",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "8e649d83-ac1a-5249-bb1f-d83cdd78fceb",
+      "name": "Vulkan Kafe",
+      "name_normalized": "vulkan kafe",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.4304667,
+        "lon": 49.7051619
+      },
+      "area_id": "01894af5-94fe-50ea-acfc-f0efcae35cf1",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/6328359086",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "a6010e55-d283-531b-9b95-e7474b7a9966",
+      "name": "Bələdiyyə",
+      "name_normalized": "belediyye",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4315977,
+        "lon": 49.7394446
+      },
+      "area_id": "01894af5-94fe-50ea-acfc-f0efcae35cf1",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11170407268",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "2a539538-aec5-5ba9-b40a-9f99e72958ad",
+      "name": "Qobu Polis Bölməsi",
+      "name_normalized": "qobu polis bolmesi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4293477,
+        "lon": 49.7111177
+      },
+      "area_id": "01894af5-94fe-50ea-acfc-f0efcae35cf1",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11184409487",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "9b08958a-316a-5301-a1ad-cb957f8060a9",
+      "name": "Xəstəxana",
+      "name_normalized": "xestexana",
+      "alt_names": [],
+      "category": "healthcare",
+      "coordinates": {
+        "lat": 40.4316936,
+        "lon": 49.7394311
+      },
+      "area_id": "01894af5-94fe-50ea-acfc-f0efcae35cf1",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11154407235",
+          "release": "azerbaijan-261020",
+          "source_category": "healthcare"
+        }
+      ]
+    },
+    {
+      "id": "88388dde-486c-5ab9-9669-b9303b261573",
+      "name": "Hökməli Muzeyi",
+      "name_normalized": "hokmeli muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.4305095,
+        "lon": 49.7410002
+      },
+      "area_id": "01894af5-94fe-50ea-acfc-f0efcae35cf1",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11049723453",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "aa4328dc-8587-54f0-aa0f-61c7ab422d26",
+      "name": "Cümə Məscidi",
+      "name_normalized": "cume mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.4301896,
+        "lon": 49.7363616
+      },
+      "area_id": "01894af5-94fe-50ea-acfc-f0efcae35cf1",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3388042056",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "339ac6a2-baa7-5dc5-803c-e3742dce5fa3",
+      "name": "Hacı Məhəmməd Həsən Məscidi",
+      "name_normalized": "haci mehemmed hesen mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.4316916,
+        "lon": 49.7377856
+      },
+      "area_id": "01894af5-94fe-50ea-acfc-f0efcae35cf1",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11049741010",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "c704e801-915f-5f65-a00e-e12c6b044981",
+      "name": "Hökməli İmam Sadiq Məscidi",
+      "name_normalized": "hokmeli i mam sadiq mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.43021135,
+        "lon": 49.73642908
+      },
+      "area_id": "01894af5-94fe-50ea-acfc-f0efcae35cf1",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.46356871724128723,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1aa39dd8-f6e5-4cbc-bd0d-e0eda355131c",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "897952fa-54fd-51b9-ab33-4551721e2f2a",
+      "name": "Məscid",
+      "name_normalized": "mescid",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.4290558,
+        "lon": 49.7339232
+      },
+      "area_id": "01894af5-94fe-50ea-acfc-f0efcae35cf1",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11033322675",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "7c162eaf-7f81-5adc-90f8-a6c9c26c6880",
+      "name": "Ağ Bazar",
+      "name_normalized": "ag bazar",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4397015,
+        "lon": 49.7404647
+      },
+      "area_id": "01894af5-94fe-50ea-acfc-f0efcae35cf1",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/6328359885",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "bfc31f2c-4e10-52db-8dfc-789a2cbf4453",
+      "name": "Hokmeli",
+      "name_normalized": "hokmeli",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.42969251,
+        "lon": 49.73082644
+      },
+      "area_id": "01894af5-94fe-50ea-acfc-f0efcae35cf1",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.2505626380443573,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "487e4b14-5642-42d5-8276-a12b2049425f",
+          "release": "2026-09-23.1",
+          "source_category": "beauty_supply_store"
+        }
+      ]
+    },
+    {
+      "id": "5f963702-38a6-5954-84ff-6c50dfd6d3bb",
+      "name": "Market (İsmət Qayibov küç.)",
+      "name_normalized": "market i smet qayibov kuc",
+      "alt_names": [
+        "Market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4283983,
+        "lon": 49.7408769
+      },
+      "area_id": "01894af5-94fe-50ea-acfc-f0efcae35cf1",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11170407267",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "36976809-bad5-5b31-a75c-57e597246f71",
+      "name": "Market (Mirzəağa Əliyev küç.)",
+      "name_normalized": "market mirzeaga eliyev kuc",
+      "alt_names": [
+        "Market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4312853,
+        "lon": 49.7412188
+      },
+      "area_id": "01894af5-94fe-50ea-acfc-f0efcae35cf1",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11170407278",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "baa151cc-b708-5206-9c90-a2b1e142875b",
+      "name": "Oba Market \\ Hökməli 2",
+      "name_normalized": "oba market hokmeli 2",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.431222,
+        "lon": 49.7396296
+      },
+      "area_id": "01894af5-94fe-50ea-acfc-f0efcae35cf1",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11170407273",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "3675fbd9-82b5-53dc-a921-8331a501102c",
+      "name": "Omid",
+      "name_normalized": "omid",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.440119,
+        "lon": 49.7415715
+      },
+      "area_id": "01894af5-94fe-50ea-acfc-f0efcae35cf1",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11159558161",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "e1ff5657-9eab-5de5-b32f-6d40f0f80b28",
+      "name": "Perla Binə",
+      "name_normalized": "perla bine",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.42676,
+        "lon": 49.74165
+      },
+      "area_id": "01894af5-94fe-50ea-acfc-f0efcae35cf1",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5081181526184082,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f5272ddf-4455-479e-b1f9-5037b6026757",
+          "release": "2026-09-23.1",
+          "source_category": "furniture_store"
+        }
+      ]
+    },
+    {
+      "id": "151aa9e9-8721-5bd8-a38f-a6124365f108",
+      "name": "Qobu - giriş",
+      "name_normalized": "qobu giris",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4318223,
+        "lon": 49.7139743
+      },
+      "area_id": "01894af5-94fe-50ea-acfc-f0efcae35cf1",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11151586996",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    }
+  ]
+}

@@ -10,9 +10,21 @@ importers:
 
   apps/demo:
     dependencies:
+      '@geoatlas/cascade':
+        specifier: workspace:*
+        version: link:../../packages/geoatlas-cascade
+      '@geoatlas/cascade-react':
+        specifier: workspace:*
+        version: link:../../packages/geoatlas-cascade-react
       '@geoatlas/data':
         specifier: workspace:*
         version: link:../../packages/geoatlas-data
+      '@geoatlas/map-react':
+        specifier: workspace:*
+        version: link:../../packages/geoatlas-map-react
+      '@geoatlas/shell-react':
+        specifier: workspace:*
+        version: link:../../packages/geoatlas-shell-react
       '@geoatlas/types':
         specifier: workspace:*
         version: link:../../packages/geoatlas-types
@@ -45,6 +57,47 @@ importers:
         specifier: ^7.1.5
         version: 7.3.7
 
+  packages/geoatlas-cascade:
+    dependencies:
+      '@geoatlas/data':
+        specifier: workspace:*
+        version: link:../geoatlas-data
+      '@geoatlas/types':
+        specifier: workspace:*
+        version: link:../geoatlas-types
+    devDependencies:
+      '@types/geojson':
+        specifier: ^7946.0.16
+        version: 7946.0.16
+      typescript:
+        specifier: ^5.9.2
+        version: 5.9.3
+
+  packages/geoatlas-cascade-react:
+    dependencies:
+      '@geoatlas/cascade':
+        specifier: workspace:*
+        version: link:../geoatlas-cascade
+      '@geoatlas/data':
+        specifier: workspace:*
+        version: link:../geoatlas-data
+      '@geoatlas/types':
+        specifier: workspace:*
+        version: link:../geoatlas-types
+    devDependencies:
+      '@types/geojson':
+        specifier: ^7946.0.16
+        version: 7946.0.16
+      '@types/react':
+        specifier: ^19.1.12
+        version: 19.3.0
+      react:
+        specifier: ^19.1.1
+        version: 19.3.1
+      typescript:
+        specifier: ^5.9.2
+        version: 5.9.3
+
   packages/geoatlas-data:
     dependencies:
       '@geoatlas/types':
@@ -54,6 +107,53 @@ importers:
       '@types/geojson':
         specifier: ^7946.0.16
         version: 7946.0.16
+      typescript:
+        specifier: ^5.9.2
+        version: 5.9.3
+
+  packages/geoatlas-map-react:
+    dependencies:
+      '@geoatlas/data':
+        specifier: workspace:*
+        version: link:../geoatlas-data
+      '@geoatlas/types':
+        specifier: workspace:*
+        version: link:../geoatlas-types
+      react-dom:
+        specifier: '>=18'
+        version: 19.3.1(react@19.3.1)
+    devDependencies:
+      '@types/geojson':
+        specifier: ^7946.0.16
+        version: 7946.0.16
+      '@types/react':
+        specifier: ^19.1.12
+        version: 19.3.0
+      maplibre-gl:
+        specifier: ^5.7.1
+        version: 5.24.0
+      react:
+        specifier: ^19.1.1
+        version: 19.3.1
+      typescript:
+        specifier: ^5.9.2
+        version: 5.9.3
+
+  packages/geoatlas-shell-react:
+    dependencies:
+      react-dom:
+        specifier: '>=18'
+        version: 19.3.1(react@19.3.1)
+    devDependencies:
+      '@types/react':
+        specifier: ^19.1.12
+        version: 19.3.0
+      '@types/react-dom':
+        specifier: ^19.1.9
+        version: 19.3.0(@types/react@19.3.0)
+      react:
+        specifier: ^19.1.1
+        version: 19.3.1
       typescript:
         specifier: ^5.9.2
         version: 5.9.3

@@ -1,4 +1,5 @@
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import type { Map as MapLibreMap } from "maplibre-gl";
 import type { Area, Manifest, Place, ReviewItem } from "@geoatlas/types";
 import {
   areaBreadcrumb,
@@ -18,15 +19,18 @@ import {
   verifiedChildrenOf,
   verifiedChildrenOfType,
 } from "@geoatlas/data";
+import { GeoAtlasShell } from "@geoatlas/shell-react";
 import MapView from "./MapView";
-import GeoJSONInspector from "./GeoJSONInspector";
 import SearchableSelect from "./components/SearchableSelect";
 import GlobalSearch from "./components/GlobalSearch";
 import TruncatedText from "./components/TruncatedText";
 import { resolveAppMode } from "./appMode";
 import { resolveDataBase } from "./dataBase";
 
-const { base: DATA_BASE, source: DATA_SOURCE } = resolveDataBase();
+/** CDN (jsDelivr pin) by default; set VITE_GEOATLAS_DATA_BASE=local for repo data/. */
+const { base: DATA_BASE, source: DATA_SOURCE } = resolveDataBase(
+  import.meta.env.VITE_GEOATLAS_DATA_BASE ?? "cdn",
+);
 const APP_MODE = resolveAppMode();
 const IS_CUSTOMER = APP_MODE === "customer";
 
@@ -80,6 +84,8 @@ export default function App() {
   const [placesLoading, setPlacesLoading] = useState(false);
   const [selectedPlaceId, setSelectedPlaceId] = useState<string | null>(null);
   const [category, setCategory] = useState<(typeof CATEGORIES)[number]>("all");
+  const [devDrawerOpen, setDevDrawerOpen] = useState(false);
+  const mapApiRef = useRef<MapLibreMap | null>(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -402,6 +408,51 @@ export default function App() {
     [filteredPlaces],
   );
 
+  const geojsonText = useMemo(() => {
+    if (selectedPlace?.coordinates) {
+      return JSON.stringify(
+        {
+          type: "FeatureCollection",
+          features: [
+            {
+              type: "Feature",
+              properties: {
+                id: selectedPlace.id,
+                name: selectedPlace.displayName ?? selectedPlace.name,
+                category: selectedPlace.category,
+              },
+              geometry: {
+                type: "Point",
+                coordinates: [
+                  selectedPlace.coordinates.lon,
+                  selectedPlace.coordinates.lat,
+                ],
+              },
+            },
+          ],
+        },
+        null,
+        2,
+      );
+    }
+    if (selectedBoundary) {
+      return JSON.stringify(selectedBoundary, null, 2);
+    }
+    return null;
+  }, [selectedPlace, selectedBoundary]);
+
+  const resultItems = useMemo(
+    () =>
+      filteredPlaces.slice(0, 40).map((p) => ({
+        id: p.id,
+        title: p.displayName ?? p.name,
+        subtitle: categoryLabel(String(p.category)),
+        active: p.id === selectedPlaceId,
+        onClick: () => setSelectedPlaceId(p.id),
+      })),
+    [filteredPlaces, selectedPlaceId],
+  );
+
   if (loading) {
     return (
       <div className="loading">
@@ -422,9 +473,6 @@ export default function App() {
       </div>
     );
   }
-
-  const countryName =
-    (countryId ? getArea(areas, countryId)?.name : undefined) ?? "Azərbaycan";
 
   const hoodEmptyHint = showRayonDropdown && !rayonId && cityId
     ? "Əvvəlcə rayon seçin."
@@ -448,158 +496,234 @@ export default function App() {
           : "Şəhər və ya məhəllə seçin";
 
   return (
-    <div className={`app mode-${APP_MODE}`}>
-      <aside className="sidebar">
-        <div className="brand">
-          <h1>GeoAtlas Azərbaycan</h1>
-          <p className="map-title">{countryName} xəritəsi</p>
-          {!IS_CUSTOMER && (
-            <p>
-              Şəhər/rayon → (daxili rayon, varsa) → məhəllə/qəsəbə → məkan.
-              Daxili rayon yoxdursa o səviyyə gizlidir.
-            </p>
-          )}
-        </div>
+    <div className={`app demo-root mode-${APP_MODE}`}>
+      <GeoAtlasShell
+        theme="dark"
+        showDeveloperPanel={!IS_CUSTOMER}
+        developerOpen={devDrawerOpen}
+        onDeveloperOpenChange={setDevDrawerOpen}
+        labels={{ brand: "GeoAtlas Azərbaycan" }}
+        map={
+          <MapView
+            className="geoatlas-map map"
+            countryBoundary={countryBoundary}
+            selectedBoundary={
+              mapBoundaryMode === "none" ? null : selectedBoundary
+            }
+            boundaryMode={mapBoundaryMode}
+            places={filteredPlaces}
+            selectedPlaceId={selectedPlaceId}
+            selectedArea={selectedArea ?? null}
+            onPlaceClick={setSelectedPlaceId}
+            clipToCountry
+            showNavigationControl={false}
+            onMapReady={(m) => {
+              mapApiRef.current = m;
+            }}
+          />
+        }
+        search={
+          <GlobalSearch
+            areas={areas}
+            places={catalogPlaces}
+            customer={IS_CUSTOMER}
+            onSelectArea={(a) => void selectArea(a)}
+            onSelectPlace={selectPlaceById}
+          />
+        }
+        cascade={
+          <>
+            <SearchableSelect
+              label="Şəhər / rayon"
+              options={midOptions}
+              value={cityId}
+              disabled={!midLevelUnits.length}
+              onChange={(id) => {
+                if (!id) {
+                  const country = countryId
+                    ? getArea(areas, countryId)
+                    : undefined;
+                  if (country) void selectArea(country);
+                  return;
+                }
+                const a = getArea(areas, id);
+                if (a) void selectArea(a);
+              }}
+            />
 
-        {!IS_CUSTOMER && (
-          <div className="badge-row">
-            <span className="badge ok">{APP_MODE}</span>
-            <span className="badge ok">
+            {showRayonDropdown && (
+              <SearchableSelect
+                label="Rayon"
+                options={rayonOptions}
+                value={rayonId}
+                disabled={!rayons.length}
+                onChange={(id) => {
+                  if (!id) {
+                    const city = cityId ? getArea(areas, cityId) : undefined;
+                    if (city) void selectArea(city);
+                    return;
+                  }
+                  const a = getArea(areas, id);
+                  if (a) void selectArea(a);
+                }}
+              />
+            )}
+
+            <SearchableSelect
+              label="Məhəllə / qəsəbə"
+              options={neighborhoodOptions}
+              value={neighborhoodId}
+              disabled={
+                !neighborhoods.length || (showRayonDropdown && !rayonId)
+              }
+              emptyHint={hoodEmptyHint}
+              onChange={(id) => {
+                if (!id) {
+                  const parent = showRayonDropdown
+                    ? rayonId
+                      ? getArea(areas, rayonId)
+                      : undefined
+                    : cityId
+                      ? getArea(areas, cityId)
+                      : undefined;
+                  if (parent) void selectArea(parent);
+                  else setNeighborhoodId("");
+                  return;
+                }
+                const a = getArea(areas, id);
+                if (a) void selectArea(a);
+              }}
+            />
+
+            {showMicrohoodDropdown && (
+              <SearchableSelect
+                label="Mikrorayon / məhəllə"
+                options={microhoodOptions}
+                value={microhoodId}
+                onChange={(id) => {
+                  if (!id) {
+                    const parent = neighborhoodId
+                      ? getArea(areas, neighborhoodId)
+                      : undefined;
+                    if (parent) void selectArea(parent);
+                    else setMicrohoodId("");
+                    return;
+                  }
+                  const a = getArea(areas, id);
+                  if (a) void selectArea(a);
+                }}
+              />
+            )}
+
+            <SearchableSelect
+              label="Tanınmış məkan"
+              options={placeOptions}
+              value={selectedPlaceId ?? ""}
+              disabled={!filteredPlaces.length}
+              emptyHint={placeEmptyHint}
+              onChange={(id) => {
+                if (!id) {
+                  setSelectedPlaceId(null);
+                  return;
+                }
+                setSelectedPlaceId(id);
+              }}
+            />
+          </>
+        }
+        chips={CATEGORIES.map((c) => ({
+          id: c,
+          label: categoryLabel(c),
+          active: category === c,
+          onClick: () => setCategory(c),
+        }))}
+        showResults={Boolean(cityId || rayonId || neighborhoodId)}
+        results={resultItems}
+        resultsLoading={placesLoading}
+        onZoomIn={() => mapApiRef.current?.zoomIn()}
+        onZoomOut={() => mapApiRef.current?.zoomOut()}
+        onLocate={() => {
+          const c = selectedCenter;
+          if (c && mapApiRef.current) {
+            mapApiRef.current.easeTo({
+              center: [c.longitude, c.latitude],
+              zoom: Math.max(mapApiRef.current.getZoom(), 12),
+            });
+          }
+        }}
+        onFullscreen={() => {
+          const el = document.querySelector(".geoatlas-shell");
+          if (!el) return;
+          if (document.fullscreenElement) void document.exitFullscreen();
+          else void el.requestFullscreen();
+        }}
+        status={
+          <div className="geoatlas-status__card geoatlas-glass">
+            {selectedArea ? (
+              <TruncatedText
+                text={
+                  IS_CUSTOMER
+                    ? selectedArea.name
+                    : `${selectedArea.name} · boundary ${selectedArea.geom_status} · center ${selectedArea.center_status ?? "?"} · parent ${selectedArea.parent_status}`
+                }
+              />
+            ) : (
+              "Ərazi seçin"
+            )}
+            {placesLoading ? " · məkanlar yüklənir…" : ""}
+            {boundaryLoadError ? ` · ${boundaryLoadError}` : ""}
+            {boundaryLoading ? " · sərhəd…" : ""}
+          </div>
+        }
+        legend={
+          <div className="geoatlas-legend geoatlas-glass">
+            <span className="geoatlas-legend__item">
+              <i className="geoatlas-swatch geoatlas-swatch--center" /> Ərazi
+              mərkəzi
+            </span>
+            <span className="geoatlas-legend__item">
+              <i className="geoatlas-swatch geoatlas-swatch--place" /> Tanınmış
+              məkan
+            </span>
+            <span className="geoatlas-legend__item">
+              <i className="geoatlas-swatch geoatlas-swatch--selected" /> Seçilmiş
+              məkan
+            </span>
+          </div>
+        }
+        developerBadges={
+          <>
+            <span className="geoatlas-badge geoatlas-badge--ok">{APP_MODE}</span>
+            <span className="geoatlas-badge geoatlas-badge--ok">
               {manifest?.dataset_version ?? "—"}
             </span>
-            <span className="badge" title={DATA_BASE}>
+            <span className="geoatlas-badge" title={DATA_BASE}>
               data:{DATA_SOURCE}
             </span>
-            <span className="badge">
+            <span className="geoatlas-badge">
               {manifest?.coverage.areas ?? areas.length} area
             </span>
-            <span className="badge">
+            <span className="geoatlas-badge">
               {manifest?.coverage.places ?? "?"} place
             </span>
-            <span className="badge warn">{reviews.length} review</span>
-          </div>
-        )}
-
-        <GlobalSearch
-          areas={areas}
-          places={catalogPlaces}
-          customer={IS_CUSTOMER}
-          onSelectArea={(a) => void selectArea(a)}
-          onSelectPlace={selectPlaceById}
-        />
-
-        <div className="cascade">
-          <SearchableSelect
-            label="Şəhər / rayon"
-            options={midOptions}
-            value={cityId}
-            disabled={!midLevelUnits.length}
-            onChange={(id) => {
-              if (!id) {
-                const country = countryId
-                  ? getArea(areas, countryId)
-                  : undefined;
-                if (country) void selectArea(country);
-                return;
-              }
-              const a = getArea(areas, id);
-              if (a) void selectArea(a);
-            }}
-          />
-
-          {showRayonDropdown && (
-            <SearchableSelect
-              label="Rayon"
-              options={rayonOptions}
-              value={rayonId}
-              disabled={!rayons.length}
-              onChange={(id) => {
-                if (!id) {
-                  const city = cityId ? getArea(areas, cityId) : undefined;
-                  if (city) void selectArea(city);
-                  return;
-                }
-                const a = getArea(areas, id);
-                if (a) void selectArea(a);
-              }}
-            />
-          )}
-
-          <SearchableSelect
-            label="Məhəllə / qəsəbə"
-            options={neighborhoodOptions}
-            value={neighborhoodId}
-            disabled={
-              !neighborhoods.length || (showRayonDropdown && !rayonId)
-            }
-            emptyHint={hoodEmptyHint}
-            onChange={(id) => {
-              if (!id) {
-                const parent = showRayonDropdown
-                  ? rayonId
-                    ? getArea(areas, rayonId)
-                    : undefined
-                  : cityId
-                    ? getArea(areas, cityId)
-                    : undefined;
-                if (parent) void selectArea(parent);
-                else setNeighborhoodId("");
-                return;
-              }
-              const a = getArea(areas, id);
-              if (a) void selectArea(a);
-            }}
-          />
-
-          {showMicrohoodDropdown && (
-            <SearchableSelect
-              label="Mikrorayon / məhəllə"
-              options={microhoodOptions}
-              value={microhoodId}
-              onChange={(id) => {
-                if (!id) {
-                  const parent = neighborhoodId
-                    ? getArea(areas, neighborhoodId)
-                    : undefined;
-                  if (parent) void selectArea(parent);
-                  else setMicrohoodId("");
-                  return;
-                }
-                const a = getArea(areas, id);
-                if (a) void selectArea(a);
-              }}
-            />
-          )}
-
-          <SearchableSelect
-            label="Tanınmış məkan"
-            options={placeOptions}
-            value={selectedPlaceId ?? ""}
-            disabled={!filteredPlaces.length}
-            emptyHint={placeEmptyHint}
-            onChange={(id) => {
-              if (!id) {
-                setSelectedPlaceId(null);
-                return;
-              }
-              setSelectedPlaceId(id);
-            }}
-          />
-        </div>
-
-        {selectedArea && (
-          <div className="detail">
-            <h2>
-              <TruncatedText text={selectedArea.name} as="span" />
-            </h2>
-            <p className="meta breadcrumb">
-              <TruncatedText
-                text={areaBreadcrumb(areas, selectedArea.id)}
-              />
-            </p>
-            {!IS_CUSTOMER && (
+            <span className="geoatlas-badge geoatlas-badge--warn">
+              {reviews.length} review
+            </span>
+          </>
+        }
+        metadataPanel={
+          <div className="geoatlas-detail">
+            {selectedArea ? (
               <>
-                <div className="badge-row">
+                <h2>
+                  <TruncatedText text={selectedArea.name} as="span" />
+                </h2>
+                <p className="meta">
+                  <TruncatedText
+                    text={areaBreadcrumb(areas, selectedArea.id)}
+                  />
+                </p>
+                <div className="geoatlas-badge-row" style={{ marginBottom: 8 }}>
                   <StatusBadge
                     label={`parent: ${selectedArea.parent_status}`}
                     tone={toneFor(selectedArea.parent_status)}
@@ -615,26 +739,11 @@ export default function App() {
                     )}
                   />
                 </div>
-                {selectedArea.geom_status !== "verified" && (
-                  <p className="meta">
-                    Sərhəd dəqiq verified deyil
-                    {selectedArea.geom_status_reason
-                      ? ` — ${selectedArea.geom_status_reason}`
-                      : ""}
-                    . Xəritədə{" "}
-                    {mapBoundaryMode === "partial_outline"
-                      ? "qırıq xətt / xəbərdarlıq rəngi"
-                      : "sərhəd çəkilmir"}
-                    .
-                  </p>
-                )}
                 <dl>
                   <dt>Tip</dt>
                   <dd>
                     {selectedArea.type}
-                    {selectedArea.subtype
-                      ? ` / ${selectedArea.subtype}`
-                      : ""}
+                    {selectedArea.subtype ? ` / ${selectedArea.subtype}` : ""}
                   </dd>
                   <dt>Wikidata</dt>
                   <dd>{selectedArea.wikidata ?? "—"}</dd>
@@ -644,23 +753,10 @@ export default function App() {
                       ? `${selectedCenter.latitude.toFixed(6)}, ${selectedCenter.longitude.toFixed(6)}`
                       : "missing"}
                   </dd>
-                  <dt>Center method</dt>
-                  <dd>
-                    {selectedArea.center_method ?? "—"}
-                    {selectedArea.center_within_boundary == null
-                      ? ""
-                      : selectedArea.center_within_boundary
-                        ? " · within boundary"
-                        : " · OUTSIDE boundary"}
-                  </dd>
                   <dt>Boundary</dt>
                   <dd>
-                    <TruncatedText
-                      text={selectedArea.boundary_file ?? "—"}
-                    />
+                    <TruncatedText text={selectedArea.boundary_file ?? "—"} />
                   </dd>
-                  <dt>CRS</dt>
-                  <dd>{selectedArea.crs ?? "—"}</dd>
                   <dt>Məkanlar</dt>
                   <dd>
                     {placesLoading
@@ -668,158 +764,57 @@ export default function App() {
                       : `${filteredPlaces.length} adlı / ${places.length} cəmi`}
                   </dd>
                 </dl>
-                {selectedArea.notes && (
-                  <p className="meta">
-                    <TruncatedText text={selectedArea.notes} />
-                  </p>
-                )}
+              </>
+            ) : (
+              <p className="meta">Ərazi seçin — metadata burada görünəcək.</p>
+            )}
+            {selectedPlace && (
+              <>
+                <h2 style={{ marginTop: 16 }}>
+                  <TruncatedText
+                    text={selectedPlace.displayName ?? selectedPlace.name}
+                    as="span"
+                  />
+                </h2>
+                <dl>
+                  <dt>ID</dt>
+                  <dd>
+                    <code>{selectedPlace.id}</code>
+                  </dd>
+                  <dt>Kateqoriya</dt>
+                  <dd>{categoryLabel(String(selectedPlace.category))}</dd>
+                  <dt>Koordinat</dt>
+                  <dd>
+                    {selectedPlace.coordinates
+                      ? `${selectedPlace.coordinates.lat.toFixed(6)}, ${selectedPlace.coordinates.lon.toFixed(6)}`
+                      : "—"}
+                  </dd>
+                </dl>
               </>
             )}
+            <p className="geoatlas-attribution">
+              Dataset {manifest?.dataset_version ?? "—"} · {DATA_SOURCE}. Basemap:{" "}
+              {manifest?.basemap.provider}. OSM © OpenStreetMap contributors.
+            </p>
           </div>
-        )}
-
-        <div className="field">
-          <label>Kateqoriya filtri</label>
-          <div className="filters">
-            {CATEGORIES.map((c) => (
-              <button
-                key={c}
-                type="button"
-                className={category === c ? "on" : ""}
-                onClick={() => setCategory(c)}
-              >
-                {categoryLabel(c)}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        {selectedPlace && (
-          <div className="detail">
-            <h2>
-              <TruncatedText
-                text={selectedPlace.displayName ?? selectedPlace.name}
-                as="span"
-              />
-            </h2>
-            {IS_CUSTOMER ? (
-              <p className="meta">
-                <TruncatedText
-                  text={`${categoryLabel(String(selectedPlace.category))}${
-                    selectedPlace.area_id
-                      ? ` · ${getArea(areas, selectedPlace.area_id)?.name ?? ""}`
-                      : ""
-                  }`}
-                />
-              </p>
+        }
+        reviewPanel={
+          <div className="geoatlas-detail">
+            {reviews.length ? (
+              <ul style={{ margin: 0, paddingLeft: "1.1rem" }}>
+                {reviews.slice(0, 20).map((r) => (
+                  <li key={r.id} className="meta">
+                    <strong>{r.entity}</strong> — {r.kind}: {r.detail}
+                  </li>
+                ))}
+              </ul>
             ) : (
-              <dl>
-                <dt>ID</dt>
-                <dd>
-                  <code>{selectedPlace.id}</code>
-                </dd>
-                <dt>Kateqoriya</dt>
-                <dd>{categoryLabel(String(selectedPlace.category))}</dd>
-                <dt>Name status</dt>
-                <dd>{selectedPlace.nameStatus ?? "named"}</dd>
-                <dt>Yoxlama</dt>
-                <dd>
-                  {selectedPlace.verificationStatus ??
-                    selectedPlace.area_assign_status ??
-                    "—"}
-                </dd>
-                <dt>Area</dt>
-                <dd>
-                  {selectedPlace.area_id
-                    ? (getArea(areas, selectedPlace.area_id)?.name ??
-                      selectedPlace.area_id)
-                    : "—"}
-                </dd>
-                <dt>Mənbə</dt>
-                <dd>
-                  <TruncatedText
-                    text={selectedPlace.source_refs
-                      .map((r) => `${r.source}:${r.source_id}`)
-                      .join(", ")}
-                  />
-                </dd>
-              </dl>
+              <p className="meta">Açıq review yoxdur.</p>
             )}
           </div>
-        )}
-
-        {!IS_CUSTOMER && !!reviews.length && (
-          <div className="detail">
-            <h2>Açıq review-lar</h2>
-            <ul style={{ margin: 0, paddingLeft: "1.1rem" }}>
-              {reviews.slice(0, 6).map((r) => (
-                <li key={r.id} className="meta">
-                  <strong>{r.entity}</strong> — {r.kind}: {r.detail}
-                </li>
-              ))}
-            </ul>
-          </div>
-        )}
-
-        <p className="attribution">
-          {IS_CUSTOMER
-            ? `© GeoAtlas · ${manifest?.dataset_version ?? "—"} · ${DATA_SOURCE}`
-            : `Dataset ${manifest?.dataset_version ?? "—"} · source ${DATA_SOURCE}. Sərhədlər və markerlər: GeoAtlas canonical data. Basemap: ${manifest?.basemap.provider}. OSM © OpenStreetMap contributors (ODbL). Overture Maps Foundation. GeoNames CC BY 4.0.`}
-        </p>
-      </aside>
-
-      <main className="map-wrap">
-        <div className="map-pane">
-          <MapView
-            countryBoundary={countryBoundary}
-            selectedBoundary={
-              mapBoundaryMode === "none" ? null : selectedBoundary
-            }
-            boundaryMode={mapBoundaryMode}
-            places={filteredPlaces}
-            selectedPlaceId={selectedPlaceId}
-            selectedArea={selectedArea ?? null}
-            onPlaceClick={setSelectedPlaceId}
-          />
-          <div className="map-overlay">
-            <div className="card meta">
-              {selectedArea ? (
-                <TruncatedText
-                  text={
-                    IS_CUSTOMER
-                      ? selectedArea.name
-                      : `${selectedArea.name} · boundary ${selectedArea.geom_status} · center ${selectedArea.center_status ?? "?"} · parent ${selectedArea.parent_status}`
-                  }
-                />
-              ) : (
-                "Ərazi seçin"
-              )}
-              {placesLoading ? " · məkanlar yüklənir…" : ""}
-            </div>
-            <div className="map-legend card meta">
-              <span className="legend-item">
-                <i className="swatch center" /> Ərazi mərkəzi
-              </span>
-              <span className="legend-item">
-                <i className="swatch place" /> Tanınmış məkan
-              </span>
-              <span className="legend-item">
-                <i className="swatch place-selected" /> Seçilmiş məkan
-              </span>
-            </div>
-          </div>
-        </div>
-        {!IS_CUSTOMER && (
-          <GeoJSONInspector
-            areas={areas}
-            selectedArea={selectedArea ?? null}
-            selectedBoundary={selectedBoundary}
-            boundaryLoadError={boundaryLoadError}
-            boundaryLoading={boundaryLoading}
-            selectedPlace={selectedPlace ?? null}
-          />
-        )}
-      </main>
+        }
+        geojsonText={geojsonText}
+      />
     </div>
   );
 }
@@ -831,7 +826,9 @@ function StatusBadge({
   label: string;
   tone: "ok" | "warn" | "err";
 }) {
-  return <span className={`badge ${tone}`}>{label}</span>;
+  return (
+    <span className={`geoatlas-badge geoatlas-badge--${tone}`}>{label}</span>
+  );
 }
 
 function toneFor(status: string): "ok" | "warn" | "err" {

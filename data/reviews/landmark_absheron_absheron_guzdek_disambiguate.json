@@ -1,0 +1,13 @@
+{
+  "key": "absheron_absheron_guzdek",
+  "area_id": "cbee1416-2799-55b0-9c61-3471779a11e7",
+  "notes": [
+    "no street for duplicate name 'Market' @ 40.37201,49.68508 → coord suffix",
+    "no street for duplicate name 'Market' @ 40.37450,49.68662 → coord suffix",
+    "no street for duplicate name 'Market' @ 40.37061,49.67965 → coord suffix",
+    "no street for duplicate name 'Market' @ 40.36992,49.67869 → coord suffix",
+    "no street for duplicate name 'Market' @ 40.37252,49.68413 → coord suffix",
+    "street collision for 'Market' → #8"
+  ],
+  "count": 6
+}

@@ -1,0 +1,49 @@
+{
+  "key": "sumqayit",
+  "city_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+  "count": 6,
+  "items": [
+    {
+      "id": "32339146-5f2e-5b61-b916-17e73d2b3723",
+      "name": "Ravnina Kara Bogaz",
+      "lat": 40.58228,
+      "lon": 49.55866,
+      "reason": "outside_city_and_children"
+    },
+    {
+      "id": "ac131346-df0d-54ec-a948-a313b22d7f53",
+      "name": "Alma Beach&Club",
+      "lat": 40.573711082603,
+      "lon": 49.759279489517,
+      "reason": "outside_city_and_children"
+    },
+    {
+      "id": "2c94f0a0-286e-5d9b-bac3-c79675a639cd",
+      "name": "Neptun Beach",
+      "lat": 40.57380267,
+      "lon": 49.76317225,
+      "reason": "outside_city_and_children"
+    },
+    {
+      "id": "79b7a8fc-7710-5ba6-bfbf-bd643aa6d03a",
+      "name": "Novkhani Beach",
+      "lat": 40.574269966816,
+      "lon": 49.761247656911,
+      "reason": "outside_city_and_children"
+    },
+    {
+      "id": "a428a6c0-edce-519a-8329-a3eec2e7b753",
+      "name": "Novxanı çimərliyi",
+      "lat": 40.574112,
+      "lon": 49.760662,
+      "reason": "outside_city_and_children"
+    },
+    {
+      "id": "26b7c238-6c2f-56a9-a186-be9aefcedba5",
+      "name": "Sunset Absheron Beach",
+      "lat": 40.574177790744194,
+      "lon": 49.76429951973679,
+      "reason": "outside_city_and_children"
+    }
+  ]
+}

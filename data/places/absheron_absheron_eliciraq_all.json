@@ -1,0 +1,79 @@
+{
+  "area_id": "ac5221df-eb9c-566b-9c0f-c391668e63b9",
+  "parent_area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+  "settlement_key": "absheron_absheron_eliciraq",
+  "places": [
+    {
+      "id": "55888a93-8cbb-5bf8-9ced-656592162870",
+      "name": "Gədəbəy Kafe",
+      "name_normalized": "gedebey kafe",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.4828428,
+        "lon": 49.8716855
+      },
+      "area_id": "ac5221df-eb9c-566b-9c0f-c391668e63b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10249396096",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "795bd6e0-230d-59f1-80c2-47885b304f3e",
+      "name": "Əliçıraq Məscidi",
+      "name_normalized": "eliciraq mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.4824777,
+        "lon": 49.8768608
+      },
+      "area_id": "ac5221df-eb9c-566b-9c0f-c391668e63b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10879572311",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "b2af49b3-2571-504a-92af-de8ce07a03d2",
+      "name": "Bərəkət Market",
+      "name_normalized": "bereket market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4826511,
+        "lon": 49.8783267
+      },
+      "area_id": "ac5221df-eb9c-566b-9c0f-c391668e63b9",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10879572310",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    }
+  ]
+}

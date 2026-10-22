@@ -7,7 +7,7 @@ MapLibre UI over the canonical Azerbaijan dataset.
 By default the demo loads curated JSON/GeoJSON from jsDelivr (not from the npm package):
 
 ```text
-https://cdn.jsdelivr.net/gh/azescompany/az-map@v0.2.2-national/data/
+https://cdn.jsdelivr.net/gh/azescompany/az-map@v0.2.3-national/data/
 ```
 
 Consumer one-liner:

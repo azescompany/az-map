@@ -1,0 +1,13 @@
+{
+  "key": "absheron_absheron_mehdiabad",
+  "area_id": "9b14b878-27df-5acb-b2bc-a2883d32e39c",
+  "notes": [
+    "no street for duplicate name 'Ülvi Şadlıq Sarayı' @ 40.49274,49.85468 → coord suffix",
+    "no street for duplicate name 'Araz' @ 40.48677,49.83952 → coord suffix",
+    "no street for duplicate name 'Araz' @ 40.48621,49.83827 → coord suffix",
+    "no street for duplicate name 'Aptek' @ 40.49654,49.85462 → coord suffix",
+    "no street for duplicate name 'Aptek' @ 40.50581,49.85696 → coord suffix",
+    "no street for duplicate name 'Market' @ 40.50550,49.85669 → coord suffix"
+  ],
+  "count": 6
+}

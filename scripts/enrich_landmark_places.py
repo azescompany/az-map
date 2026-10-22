@@ -110,11 +110,16 @@ def load_boundary_geom(boundary_file: str | None):
 def rayon_key_from_boundary(boundary_file: str | None) -> str | None:
     if not boundary_file:
         return None
-    m = re.search(r"rayon_([a-z0-9_]+)\.geojson$", boundary_file.replace("\\", "/"))
-    if m:
-        return m.group(1)
-    m = re.search(r"city_([a-z0-9_]+)\.geojson$", boundary_file.replace("\\", "/"))
-    return m.group(1) if m else None
+    bf = boundary_file.replace("\\", "/")
+    for pat in (
+        r"rayon_([a-z0-9_]+)\.geojson$",
+        r"city_([a-z0-9_]+)\.geojson$",
+        r"neighborhood_([a-z0-9_]+)\.geojson$",
+    ):
+        m = re.search(pat, bf)
+        if m:
+            return m.group(1)
+    return None
 
 
 def street_suffix(street: str | None) -> str | None:
@@ -423,9 +428,96 @@ def existing_to_working(p: dict) -> dict:
     return w
 
 
+def resolve_area_by_key(areas: list, key: str):
+    for a in areas:
+        if rayon_key_from_boundary(a.get("boundary_file")) == key:
+            return a
+    idx = load_json(OUT / "places" / "index.json")
+    meta = (idx.get("by_rayon") or {}).get(key)
+    if meta:
+        return next((x for x in areas if x["id"] == meta["area_id"]), None)
+    return None
+
+
+def point_in_any(pt: Point, geoms: list) -> bool:
+    for g in geoms:
+        if g is None:
+            continue
+        if g.covers(pt) or g.intersects(pt):
+            return True
+    return False
+
+
+def assign_city_children(places: list[dict], city: dict, areas: list) -> dict:
+    """Children-first containment for city-direct place files (e.g. Sumqayıt).
+
+    Smallest overlapping child wins; else city polygon; else conflict.
+    """
+    city_id = city["id"]
+    city_geom = load_boundary_geom(city.get("boundary_file"))
+    child_geoms: list[tuple[dict, object, float]] = []
+    for a in areas:
+        if a.get("parent_id") != city_id:
+            continue
+        if a.get("parent_status") != "verified" or a.get("geom_status") != "verified":
+            continue
+        if a.get("type") not in ("neighborhood", "settlement"):
+            continue
+        g = load_boundary_geom(a.get("boundary_file"))
+        if g is None or g.is_empty:
+            continue
+        child_geoms.append((a, g, float(g.area)))
+    child_geoms.sort(key=lambda t: t[2])
+
+    by_child: dict[str, int] = defaultdict(int)
+    city_only = 0
+    conflict_n = 0
+    for p in places:
+        coords = p.get("coordinates") or {}
+        lat, lon = coords.get("lat"), coords.get("lon")
+        if lat is None or lon is None:
+            p["area_assign_method"] = "conflict_outside"
+            p["area_assign_status"] = "conflict"
+            conflict_n += 1
+            continue
+        pt = Point(float(lon), float(lat))
+        assigned = None
+        for a, g, _ar in child_geoms:
+            if g.covers(pt) or g.contains(pt) or g.intersects(pt):
+                assigned = a
+                break
+        if assigned is not None:
+            p["area_id"] = assigned["id"]
+            p["area_assign_method"] = "containment_verified"
+            p["area_assign_status"] = "verified"
+            by_child[assigned["name"]] += 1
+        elif city_geom is not None and (
+            city_geom.covers(pt) or city_geom.contains(pt) or city_geom.intersects(pt)
+        ):
+            p["area_id"] = city_id
+            p["area_assign_method"] = "containment_verified"
+            p["area_assign_status"] = "verified"
+            city_only += 1
+        else:
+            p["area_assign_method"] = "conflict_outside"
+            p["area_assign_status"] = "conflict"
+            conflict_n += 1
+    return {
+        "children": len(child_geoms),
+        "city_only": city_only,
+        "by_child": dict(by_child),
+        "conflict": conflict_n,
+    }
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--key", required=True, help="places key, e.g. yasamal")
+    ap.add_argument(
+        "--exclude-keys",
+        default="",
+        help="comma-separated place keys whose polygons are subtracted (e.g. masazir,xirdalan)",
+    )
     ap.add_argument("--bump-version", default=None, help="manifest.dataset_version")
     args = ap.parse_args()
     key = args.key
@@ -434,17 +526,7 @@ def main() -> int:
     assert OSM_PBF.exists(), OSM_PBF
 
     areas = load_json(OUT / "areas" / "areas.json")["areas"]
-    area = None
-    for a in areas:
-        if rayon_key_from_boundary(a.get("boundary_file")) == key:
-            area = a
-            break
-    if not area:
-        # fallback index area_id
-        idx = load_json(OUT / "places" / "index.json")
-        meta = (idx.get("by_rayon") or {}).get(key)
-        if meta:
-            area = next((x for x in areas if x["id"] == meta["area_id"]), None)
+    area = resolve_area_by_key(areas, key)
     if not area:
         print(f"ERROR: no area for key={key}")
         return 1
@@ -453,24 +535,68 @@ def main() -> int:
     if geom is None:
         print("ERROR: no boundary")
         return 1
+
+    exclude_keys = [k.strip() for k in (args.exclude_keys or "").split(",") if k.strip()]
+    # Abşeron remaining: Masazır / Xırdalan go to their own place files
+    if key == "absheron" and not exclude_keys:
+        exclude_keys = ["masazir", "xirdalan"]
+    exclude_geoms = []
+    for ek in exclude_keys:
+        ea = resolve_area_by_key(areas, ek)
+        if not ea:
+            print(f"  WARN: exclude key={ek} area not found")
+            continue
+        eg = load_boundary_geom(ea.get("boundary_file"))
+        if eg is None:
+            print(f"  WARN: exclude key={ek} no boundary")
+            continue
+        exclude_geoms.append(eg)
+        print(f"  exclude polygon: {ek} · {ea['name']}")
+
     minx, miny, maxx, maxy = geom.bounds
     area_id = area["id"]
     print(f"Enrich {key} · {area['name']} · {area_id}")
 
     places_path = OUT / "places" / f"{key}_all.json"
-    before = []
-    if places_path.exists():
-        before = load_json(places_path).get("places") or []
+    before_payload = load_json(places_path) if places_path.exists() else {}
+    before = before_payload.get("places") or []
     print(f"  baseline: {len(before)}")
 
     print("  OSM scan…")
     handler = OsmCollector(geom, minx, miny, maxx, maxy)
     handler.apply_file(str(OSM_PBF).replace("\\", "/"), locations=True)
+    if exclude_geoms:
+        handler.rows = [
+            r
+            for r in handler.rows
+            if not point_in_any(Point(r["lon"], r["lat"]), exclude_geoms)
+        ]
     print(f"  OSM candidates: {len(handler.rows)}")
 
     print("  Overture scan…")
     ov = collect_overture(geom, minx, miny, maxx, maxy)
+    if exclude_geoms:
+        ov = [
+            r
+            for r in ov
+            if not point_in_any(Point(r["lon"], r["lat"]), exclude_geoms)
+        ]
     print(f"  Overture candidates: {len(ov)}")
+
+    # Drop baseline rows that now belong to excluded child polygons
+    if exclude_geoms:
+        kept_before = []
+        dropped = 0
+        for p in before:
+            c = p.get("coordinates") or {}
+            pt = Point(float(c.get("lon") or 0), float(c.get("lat") or 0))
+            if point_in_any(pt, exclude_geoms):
+                dropped += 1
+                continue
+            kept_before.append(p)
+        if dropped:
+            print(f"  baseline dropped (in exclude polygons): {dropped}")
+        before = kept_before
 
     working = [existing_to_working(p) for p in before]
     for c in ov + handler.rows:
@@ -483,16 +609,33 @@ def main() -> int:
     print(f"  disambiguated names: {dis_n}")
 
     final = [strip_private(p) for p in disambiged]
+    child_assign_stats = None
+    # City-direct + Abşeron settlements (Xırdalan/Masazır): children-first PIP
+    if area.get("type") == "city" or key in ("masazir", "xirdalan"):
+        child_assign_stats = assign_city_children(final, area, areas)
+        print(
+            f"  children-first assign: parent_only={child_assign_stats['city_only']} "
+            f"children={child_assign_stats['children']} "
+            f"conflict={child_assign_stats['conflict']} "
+            f"by_child={child_assign_stats['by_child']}"
+        )
     final.sort(key=lambda p: (p.get("category") or "", p.get("name_normalized") or ""))
 
     by_cat = defaultdict(int)
     for p in final:
         by_cat[p.get("category") or "other_poi"] += 1
 
-    write_json(
-        places_path,
-        {"area_id": area_id, "rayon_key": key, "places": final},
-    )
+    payload = {"area_id": area_id, "places": final}
+    parent_area_id = before_payload.get("parent_area_id") or area.get("parent_id")
+    if parent_area_id:
+        payload["parent_area_id"] = parent_area_id
+    if area.get("type") == "city":
+        payload["city_key"] = key
+    elif key in ("masazir", "xirdalan"):
+        payload["settlement_key"] = key
+    else:
+        payload["rayon_key"] = key
+    write_json(places_path, payload)
 
     # index.json — patch entry only
     idx_path = OUT / "places" / "index.json"

@@ -1,0 +1,18 @@
+{
+  "key": "lankaran",
+  "area_id": "c8842d4f-3e6b-5f4b-8e94-2abf53b507d6",
+  "notes": [
+    "no street for duplicate name 'Kapital Bank' @ 38.75338,48.85231 → coord suffix",
+    "no street for duplicate name 'Bazarstore' @ 38.75786,48.85425 → coord suffix",
+    "no street for duplicate name 'Bazarstore' @ 38.75869,48.83476 → coord suffix",
+    "no street for duplicate name 'Bazarstore' @ 38.75396,48.84955 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 38.75592,48.85298 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 38.75548,48.85109 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 38.75216,48.85195 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 38.75447,48.84966 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 38.75325,48.85203 → coord suffix",
+    "no street for duplicate name 'Bravo' @ 38.75400,48.85221 → coord suffix",
+    "no street for duplicate name 'Bravo' @ 38.75707,48.83361 → coord suffix"
+  ],
+  "count": 11
+}

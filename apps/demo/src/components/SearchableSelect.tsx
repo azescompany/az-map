@@ -8,6 +8,7 @@ import {
 } from "react";
 import { normalize } from "@geoatlas/data";
 import TruncatedText from "./TruncatedText";
+import PortalMenu, { isInsideCombo } from "./PortalMenu";
 
 export type SelectOption = { id: string; label: string };
 
@@ -24,6 +25,7 @@ type Props = {
 /**
  * MUI Autocomplete–style control: type-in-field filter, live list,
  * keyboard ↑↓ Enter Esc, clear ×, popup caret.
+ * Menu is portaled above the control card (no card scroll).
  */
 export default function SearchableSelect({
   label,
@@ -37,6 +39,8 @@ export default function SearchableSelect({
   const listId = useId();
   const inputId = useId();
   const rootRef = useRef<HTMLDivElement>(null);
+  const anchorRef = useRef<HTMLDivElement>(null);
+  const panelRef = useRef<HTMLDivElement>(null);
   const listRef = useRef<HTMLUListElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const [open, setOpen] = useState(false);
@@ -53,7 +57,6 @@ export default function SearchableSelect({
     return options.filter((o) => normalize(o.label).includes(q));
   }, [options, inputValue]);
 
-  // Sync closed field text with selected option
   useEffect(() => {
     if (!open) setInputValue(selectedLabel);
   }, [selectedLabel, open, value]);
@@ -65,7 +68,13 @@ export default function SearchableSelect({
   useEffect(() => {
     if (!open) return;
     const onDoc = (e: MouseEvent) => {
-      if (!rootRef.current?.contains(e.target as Node)) {
+      if (
+        !isInsideCombo(
+          e.target as Node,
+          rootRef.current,
+          panelRef.current,
+        )
+      ) {
         setOpen(false);
         setInputValue(selectedLabel);
       }
@@ -159,7 +168,10 @@ export default function SearchableSelect({
       ref={rootRef}
     >
       <label htmlFor={inputId}>{label}</label>
-      <div className={`combobox-row ${open ? "open" : ""}`}>
+      <div
+        ref={anchorRef}
+        className={`combobox-row ${open ? "open" : ""}`}
+      >
         <div className="autocomplete-input-wrap">
           <input
             ref={inputRef}
@@ -242,50 +254,56 @@ export default function SearchableSelect({
         </div>
       </div>
 
-      {open && !disabled && (
-        <div className="combobox-panel autocomplete-panel">
-          <ul
-            id={listId}
-            ref={listRef}
-            className="combobox-list"
-            role="listbox"
-            aria-label={label}
-          >
-            {filtered.map((o, i) => (
-              <li
-                key={o.id}
-                id={`${listId}-opt-${o.id}`}
-                role="option"
-                aria-selected={o.id === value}
-                data-idx={i}
+      <PortalMenu
+        open={open && !disabled}
+        anchorRef={anchorRef}
+        panelRef={panelRef}
+      >
+        <ul
+          id={listId}
+          ref={listRef}
+          className="combobox-list"
+          role="listbox"
+          aria-label={label}
+        >
+          {filtered.map((o, i) => (
+            <li
+              key={o.id}
+              id={`${listId}-opt-${o.id}`}
+              role="option"
+              aria-selected={o.id === value}
+              data-idx={i}
+            >
+              <button
+                type="button"
+                className={[
+                  o.id === value ? "on" : "",
+                  i === highlight ? "hl" : "",
+                ]
+                  .filter(Boolean)
+                  .join(" ")}
+                onMouseEnter={() => setHighlight(i)}
+                onMouseDown={(e) => e.preventDefault()}
+                onClick={() => commit(o.id)}
               >
-                <button
-                  type="button"
-                  className={[
-                    o.id === value ? "on" : "",
-                    i === highlight ? "hl" : "",
-                  ]
-                    .filter(Boolean)
-                    .join(" ")}
-                  onMouseEnter={() => setHighlight(i)}
-                  onMouseDown={(e) => e.preventDefault()}
-                  onClick={() => commit(o.id)}
-                >
-                  <TruncatedText text={o.label} />
-                </button>
-              </li>
-            ))}
-            {!filtered.length && (
-              <li>
-                <div className="empty" style={{ padding: "0.55rem 0.75rem" }}>
-                  Nəticə yoxdur
-                </div>
-              </li>
-            )}
-          </ul>
-        </div>
-      )}
-      {emptyHint ? <span className="empty">{emptyHint}</span> : null}
+                <TruncatedText text={o.label} />
+              </button>
+            </li>
+          ))}
+          {!filtered.length && (
+            <li>
+              <div className="empty" style={{ padding: "0.55rem 0.75rem" }}>
+                Nəticə yoxdur
+              </div>
+            </li>
+          )}
+        </ul>
+      </PortalMenu>
+      {emptyHint ? (
+        <span className="field-hint" title={emptyHint}>
+          {emptyHint}
+        </span>
+      ) : null}
     </div>
   );
 }

@@ -1,0 +1,10 @@
+{
+  "key": "saatli",
+  "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+  "notes": [
+    "no street for duplicate name 'Saatlı Rayon Mərkəzi Xəstəxanası' @ 39.91977,48.35374 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 39.93836,48.36671 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 39.93810,48.37228 → coord suffix"
+  ],
+  "count": 3
+}

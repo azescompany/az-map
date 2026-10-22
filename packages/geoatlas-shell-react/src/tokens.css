@@ -1,0 +1,118 @@
+/**
+ * GeoAtlas design tokens — scoped under .geoatlas-shell
+ * Override via CSS variables or data-theme / style={{ --geoatlas-color-accent }}
+ */
+
+.geoatlas-shell {
+  /* Surfaces */
+  --geoatlas-color-bg: #0b0f14;
+  --geoatlas-color-surface: rgba(22, 28, 36, 0.72);
+  --geoatlas-color-surface-solid: #161c24;
+  --geoatlas-color-surface-2: rgba(32, 40, 52, 0.88);
+  --geoatlas-color-border: rgba(255, 255, 255, 0.1);
+  --geoatlas-color-border-strong: rgba(255, 255, 255, 0.18);
+
+  /* Text */
+  --geoatlas-color-text: #f2f5f8;
+  --geoatlas-color-text-muted: #9aa8b8;
+  --geoatlas-color-text-subtle: #6b7a8c;
+
+  /* Accent + status */
+  --geoatlas-color-accent: #3d9cf0;
+  --geoatlas-color-accent-soft: rgba(61, 156, 240, 0.18);
+  --geoatlas-color-ok: #3ecf8e;
+  --geoatlas-color-warn: #f0b429;
+  --geoatlas-color-danger: #e85d5d;
+
+  /* Elevations */
+  --geoatlas-shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.2);
+  --geoatlas-shadow-md: 0 8px 28px rgba(0, 0, 0, 0.32);
+  --geoatlas-shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.42);
+
+  /* Radius */
+  --geoatlas-radius-sm: 8px;
+  --geoatlas-radius-md: 12px;
+  --geoatlas-radius-lg: 16px;
+  --geoatlas-radius-pill: 999px;
+
+  /* Spacing */
+  --geoatlas-space-1: 4px;
+  --geoatlas-space-2: 8px;
+  --geoatlas-space-3: 12px;
+  --geoatlas-space-4: 16px;
+  --geoatlas-space-5: 20px;
+  --geoatlas-space-6: 24px;
+
+  /* Type */
+  --geoatlas-font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  --geoatlas-font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --geoatlas-text-xs: 12px;
+  --geoatlas-text-sm: 13px;
+  --geoatlas-text-md: 14px;
+  --geoatlas-text-lg: 16px;
+
+  /* Motion */
+  --geoatlas-duration: 180ms;
+  --geoatlas-ease: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* Z-index scale (inside shell only) */
+  --geoatlas-z-map: 0;
+  --geoatlas-z-overlay: 2;
+  --geoatlas-z-panel: 4;
+  --geoatlas-z-chips: 5;
+  --geoatlas-z-toolbar: 6;
+  --geoatlas-z-drawer: 8;
+  --geoatlas-z-drawer-pill: 9;
+
+  /* Glass */
+  --geoatlas-blur: 18px;
+  --geoatlas-glass-bg: var(--geoatlas-color-surface);
+  --geoatlas-control-max-width: 420px;
+
+  color: var(--geoatlas-color-text);
+  font-family: var(--geoatlas-font-sans);
+  font-size: var(--geoatlas-text-md);
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+}
+
+.geoatlas-shell[data-theme="light"] {
+  --geoatlas-color-bg: #e8eef4;
+  --geoatlas-color-surface: rgba(255, 255, 255, 0.78);
+  --geoatlas-color-surface-solid: #ffffff;
+  --geoatlas-color-surface-2: rgba(248, 250, 252, 0.92);
+  --geoatlas-color-border: rgba(15, 23, 42, 0.1);
+  --geoatlas-color-border-strong: rgba(15, 23, 42, 0.16);
+  --geoatlas-color-text: #0f172a;
+  --geoatlas-color-text-muted: #64748b;
+  --geoatlas-color-text-subtle: #94a3b8;
+  --geoatlas-color-accent-soft: rgba(37, 99, 235, 0.12);
+  --geoatlas-shadow-sm: 0 2px 8px rgba(15, 23, 42, 0.08);
+  --geoatlas-shadow-md: 0 8px 28px rgba(15, 23, 42, 0.12);
+  --geoatlas-shadow-lg: 0 16px 48px rgba(15, 23, 42, 0.16);
+}
+
+@media (prefers-color-scheme: light) {
+  .geoatlas-shell[data-theme="system"] {
+    --geoatlas-color-bg: #e8eef4;
+    --geoatlas-color-surface: rgba(255, 255, 255, 0.78);
+    --geoatlas-color-surface-solid: #ffffff;
+    --geoatlas-color-surface-2: rgba(248, 250, 252, 0.92);
+    --geoatlas-color-border: rgba(15, 23, 42, 0.1);
+    --geoatlas-color-border-strong: rgba(15, 23, 42, 0.16);
+    --geoatlas-color-text: #0f172a;
+    --geoatlas-color-text-muted: #64748b;
+    --geoatlas-color-text-subtle: #94a3b8;
+    --geoatlas-color-accent-soft: rgba(37, 99, 235, 0.12);
+    --geoatlas-shadow-sm: 0 2px 8px rgba(15, 23, 42, 0.08);
+    --geoatlas-shadow-md: 0 8px 28px rgba(15, 23, 42, 0.12);
+    --geoatlas-shadow-lg: 0 16px 48px rgba(15, 23, 42, 0.16);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .geoatlas-shell {
+    --geoatlas-duration: 1ms;
+  }
+}

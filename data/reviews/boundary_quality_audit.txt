@@ -1,6 +1,6 @@
 # Boundary quality audit
-Generated: 2026-10-22T07:25:51.911175+00:00
-Counts geom_status: {'verified': 3421} | center_status: {'verified': 3421}
+Generated: 2026-10-22T12:17:17.111264+00:00
+Counts geom_status: {'verified': 3486} | center_status: {'verified': 3486}
 
 ## Azərbaycan (`44517494-dccb-54df-a06f-9ea3bbaf49ff`)
 - boundary: overture `827d1842-72b3-470a-8bf0-68c2002c2a83` @ 2026-09-23.1
@@ -23948,3 +23948,458 @@ Counts geom_status: {'verified': 3421} | center_status: {'verified': 3421}
 - geom_status: verified → verified reasons=[]
 - center: lat=39.0648149 lon=46.615010630234465 method=interior_representative_point status=verified within=True
 - parent: 4c12a8aa-1aea-557d-a81f-136903ad485c status=verified child_in_parent=True
+
+## 1-ci Mikrorayon (`211f2c1c-b709-55d9-bb6c-be8b4a172f72`)
+- boundary: osm `way/96583635` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.58799715 lon=49.68031979152637 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 1-ci Məhəllə (`8315b273-6643-5454-9bc8-0fbc36e89207`)
+- boundary: osm `way/96584796` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.598688249999995 lon=49.67194151890533 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 10-cu Mikrorayon (`6bc564cb-91c1-58b3-a552-ac11bbdf79cd`)
+- boundary: osm `way/96583651` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.566066199999995 lon=49.691624065536644 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 10-cu Məhəllə (`0da28af1-8f62-549c-9f1f-b80e50b747d4`)
+- boundary: osm `way/241746480` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.6009861 lon=49.66587349088567 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 11-ci Mikrorayon (`3da567b3-1439-52b3-ae37-884a491fd134`)
+- boundary: osm `way/96583632` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.567128100000005 lon=49.68036130039296 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 12-ci Mikrorayon (`f9266fa0-b9d6-5bed-8eb3-d45197b9306b`)
+- boundary: osm `way/250141303` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.56235475 lon=49.688500603716044 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 13-cü Mikrorayon (`a6b18584-3495-537f-a5a1-ce9583f01631`)
+- boundary: osm `way/96583638` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.5694134 lon=49.6952503665311 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 14-cü Məhəllə (`49284bf6-f43a-56db-974f-e43d89b8422e`)
+- boundary: osm `way/96583634` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.5933139 lon=49.676470025539516 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 15-ci Məhəllə (`459f29f3-c6fe-5c79-8dd5-26ac78d13eb5`)
+- boundary: osm `way/96584802` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.590089449999994 lon=49.66330582120584 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 16-cı Mikrorayon (`b8f254d3-8135-534f-9825-fc079f588f11`)
+- boundary: osm `way/371587105` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.567216599999995 lon=49.70331431022203 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 16-cı Məhəllə (`a1bfd35b-a561-59da-8e6c-4ec5182cf210`)
+- boundary: osm `way/96584801` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.59066249999999 lon=49.66980473425912 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 17-ci Mikrorayon (`d9fe4829-191c-5dd0-8110-75e7e44dc25e`)
+- boundary: osm `way/96583661` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.5626063 lon=49.70363556004513 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 17-ci Məhəllə (`f61732a0-5cd8-5c34-afca-6324012dfb9f`)
+- boundary: osm `way/96584813` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.60414555 lon=49.65337363018105 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 18-ci Mikrorayon (`8154c2fb-0639-53c7-8dd1-e1ca35cb4c78`)
+- boundary: osm `way/96583644` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.557563 lon=49.70163156539324 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 18-ci Məhəllə (`4fc5d3a6-eebb-5c6e-a599-cdcafc4e940c`)
+- boundary: osm `way/96584788` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.59284195 lon=49.66439721635943 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 19-cu Məhəllə (`d6b850f8-5fe7-591c-8ee1-ba24fb6c8cb1`)
+- boundary: osm `way/96584818` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.5935657 lon=49.66235196772159 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 2-ci Mikrorayon (`b6c41fa5-c89f-5030-a42e-bc32bb2df7d2`)
+- boundary: osm `way/96583652` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.58644535 lon=49.674268836403655 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 2-ci Məhəllə (`705f75d7-5b12-5034-8368-be12e5f80349`)
+- boundary: osm `way/96584799` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.595796899999996 lon=49.674009143233036 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 20-ci Mikrorayon (`726413ba-32c2-5cbb-8ec5-27548bd0797c`)
+- boundary: osm `way/498489598` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.56484915 lon=49.71555172203355 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 20-ci Məhəllə (`77fe9480-1d2a-54c2-bf4d-4d7de430626e`)
+- boundary: osm `way/96584811` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.595051850000004 lon=49.66123254232982 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 21-ci Mikrorayon (`42e5f501-d35b-5cdd-a1b0-d27179f039c7`)
+- boundary: osm `way/358864868` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.5607057 lon=49.71523431202499 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 21-ci Məhəllə (`86463a7a-6a44-55d0-b709-70ec353c0c06`)
+- boundary: osm `way/96584789` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.5984936 lon=49.66169163863326 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 22-ci Məhəllə (`e1a1340c-b4e0-5ed1-bb9f-7cb5f4e6790f`)
+- boundary: osm `way/96584794` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.601092550000004 lon=49.66308691507099 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 25-cı Məhəllə (`34b509b2-98d2-558c-8739-0fde329358ad`)
+- boundary: osm `way/96584810` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.601232949999996 lon=49.660681554881485 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 26-cı Məhəllə (`fabcfc6f-8fbc-5d3d-b618-ca0e42a99b16`)
+- boundary: osm `way/96584793` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.6033653 lon=49.66328955791689 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 29-cu Məhəllə (`f6cec2df-e1f1-5913-8c74-1644b8b8e1b8`)
+- boundary: osm `way/96583636` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.5917546 lon=49.67283694041721 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 3-cü Mikrorayon (`bbf9256c-d14d-51c7-8cb1-34b51538d1ca`)
+- boundary: osm `way/96583641` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.5831739 lon=49.66936866329595 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 3-cü Məhəllə (`457b2585-8a5b-5bb3-8f54-e7046b60c11c`)
+- boundary: osm `way/96584787` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.5945146 lon=49.67084090221442 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 30-cu Məhəllə (`7355c385-61b6-537d-be2e-916404a98b40`)
+- boundary: osm `way/96583648` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.59135875 lon=49.67789329856764 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 34-cü Məhəllə (`4e8af88f-1545-5073-aa8b-4798c231890d`)
+- boundary: osm `way/96583650` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.58854745 lon=49.67129045282928 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 36-cı Məhəllə (`0f1b5e63-6363-5489-a271-467a288d50d2`)
+- boundary: osm `way/96583657` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.587638049999995 lon=49.66794407430398 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 39-cu Məhəllə (`dc3e2b23-b0b4-5574-a25a-a0f76601909a`)
+- boundary: osm `way/96586436` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.57801055 lon=49.67012492596599 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 4-cü Mikrorayon (`1ceda5ca-db8d-5bc9-a6a3-d8f455520127`)
+- boundary: osm `way/96583653` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.57970465 lon=49.67648069651861 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 4-cü Məhəllə (`955ab089-5cdd-5ebb-bbf2-0b4860600a6a`)
+- boundary: osm `way/96584814` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.5932728 lon=49.667926300000005 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 40-cı Məhəllə (`fc0bb867-cfed-54ac-9e0f-5ea3170f7f85`)
+- boundary: osm `way/231201998` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.58203025 lon=49.67254051404768 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 41-ci Məhəllə (`a91f216d-b270-5fb6-850d-7b1be2d63099`)
+- boundary: osm `way/96583654` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.58172945 lon=49.667027501558806 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 41A Məhəllə (`d50f65a1-05f8-58c3-90d3-5ff74010e8b0`)
+- boundary: osm `way/96583658` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.5773893 lon=49.6671949503352 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 42-ci Məhəllə (`b2675ca2-0487-5e14-a34c-7f48c136e912`)
+- boundary: osm `way/96583642` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.57210555 lon=49.6719146691906 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 44-cü Məhəllə (`468152d3-712a-59b4-a021-61ba4a22d1ab`)
+- boundary: osm `way/231594236` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.57757085 lon=49.680262188607045 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 45-ci Məhəllə (`21e65255-f9a8-555c-8c36-e50e1a0eddaa`)
+- boundary: osm `way/96583646` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.58205845 lon=49.67932434955147 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 47-ci Məhəllə (`14782def-8c20-5d13-96c3-7eb8aefc745e`)
+- boundary: osm `way/96583659` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.56326180000001 lon=49.69698996550915 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 48-ci Məhəllə (`77e0cf7b-deca-5817-82fd-60d6d7cc3132`)
+- boundary: osm `way/96583640` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.55887385 lon=49.69440526883736 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 5-ci Mikrorayon (`6f10b6c6-835c-5345-9a34-9ba5d1c6bc51`)
+- boundary: osm `way/96583633` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.583381200000005 lon=49.683674247278056 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 5-ci Məhəllə (`e7ab5d0a-ae8d-5475-8a11-b3fe45ba94a6`)
+- boundary: osm `way/96584807` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.59575515 lon=49.66613739357619 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 51-ci Məhəllə (`e94894a0-bba8-52b2-b13a-3c112ade2c08`)
+- boundary: osm `way/498489597` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.56489395 lon=49.70837004850675 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 52-ci Məhəllə (`6d69cf8c-9c9f-5ef6-a21e-f464549c05df`)
+- boundary: osm `way/498466842` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.556480949999994 lon=49.713138222704856 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 6-cı Mikrorayon (`16521215-70e8-584c-8194-728dadd249d8`)
+- boundary: osm `way/96583660` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.57871405 lon=49.689984182747565 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 71-ci Məhəllə (`0a0c6662-a0ec-51c0-9f9a-e0b432888666`)
+- boundary: osm `way/700572862` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.57687115 lon=49.69585335466756 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 72-ci məhəllə (`85db5076-79ea-5bc6-b283-9019fd7701f8`)
+- boundary: osm `way/700705732` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.5765378 lon=49.697192849536094 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 73-cü məhəllə (`b453fea1-2626-596a-a77c-0bd3dcc047eb`)
+- boundary: osm `way/700705733` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.5762903 lon=49.69825297892569 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 74-cü məhəllə (`b0a54f94-57a0-5962-a222-38f5af4a7d4e`)
+- boundary: osm `way/700705734` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.576034750000005 lon=49.69932701212615 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 76-cı məhəllə (`ae5fc0be-8cd0-56c6-b2bd-42cf5a402ad2`)
+- boundary: osm `way/700705735` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.57391575 lon=49.69427953700845 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 77-ci məhəllə (`03ef6a09-1cf9-54f8-9a10-f505f46b5228`)
+- boundary: osm `way/700705736` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.5738708 lon=49.695899359964834 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 78-ci məhəllə (`311bceb9-8896-56aa-b95b-87d586d05181`)
+- boundary: osm `way/700705737` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.5735326 lon=49.69694570711441 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 79-cu məhəllə (`f104739b-e864-58be-8592-4fc41017a830`)
+- boundary: osm `way/1028463090` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.57329545 lon=49.69800606046372 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 8-ci Mikrorayon (`60e194f2-cc5b-5eac-85d1-d9367c03cdf9`)
+- boundary: osm `way/96583639` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.575982100000004 lon=49.67328170636149 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 80-ci məhəllə (`80122e13-53e0-5a59-be79-c5159e1d5aad`)
+- boundary: osm `way/1028463089` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.572998049999995 lon=49.699063525692495 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## 9-cu Məhəllə (`d04adc35-0e47-5c3d-b408-4b95a410250f`)
+- boundary: osm `way/96584806` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.597890250000006 lon=49.66528033751888 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## Birlik MTK (`5ef87a64-a0bd-545a-b937-98cea6c95045`)
+- boundary: osm `way/553316183` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.623127749999995 lon=49.56614745 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## Kimyaçılar qəsəbəsi (`078b8d5e-dc85-5a6d-b107-5967798c5f68`)
+- boundary: osm `way/273537388` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.6094001 lon=49.637939962770275 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## Qızılqum qəsəbəsi (`a9da044c-0029-57b2-9a23-86f213b4eaf2`)
+- boundary: osm `way/96588108` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.576413200000005 lon=49.6935589362475 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## Xəzər Bağları (`0120b540-e46e-5a8a-8420-b4e42a3cf484`)
+- boundary: osm `way/266763478` @ azerbaijan-261020
+- geometry: type=MultiPolygon valid=True empty=False crs=EPSG:4326 parts=1
+- geom_status: verified → verified reasons=[]
+- center: lat=40.60731105 lon=49.663432355134816 method=interior_representative_point status=verified within=True
+- parent: a02b58f1-3009-5ce3-a728-69d77b411dec status=verified child_in_parent=True
+
+## Təzə Corat (`819a70bb-1f9f-5d0e-bf98-3902915c7193`)
+- boundary: overture `481b9068-77f6-4ee4-a3f1-13750b9e2b2b` @ 2026-09-23.1
+- geometry: type=Polygon valid=True empty=False crs=EPSG:4326 parts=None
+- geom_status: verified → verified reasons=[]
+- center: lat=40.57430165 lon=49.69745355626762 method=interior_representative_point status=verified within=True
+- parent: 815ddf8f-c6ea-5198-8d24-23f89753ac84 status=verified child_in_parent=True
+
+## Köhnə Corat (`ef553c9a-d746-5116-88ed-141952e1c510`)
+- boundary: overture `57d5ed83-1635-4bd1-bbed-1771463d9756` @ 2026-09-23.1
+- geometry: type=Polygon valid=True empty=False crs=EPSG:4326 parts=None
+- geom_status: verified → verified reasons=[]
+- center: lat=40.57124185 lon=49.709858692740745 method=interior_representative_point status=verified within=True
+- parent: 815ddf8f-c6ea-5198-8d24-23f89753ac84 status=verified child_in_parent=True
+
+## 75-ci məhəllə (`f2fb7a16-4051-59d6-b2a6-db8af8b1f58a`)
+- boundary: overture `b3778456-d591-4d2c-a63e-2b2cd4347b97` @ 2026-09-23.1
+- geometry: type=Polygon valid=True empty=False crs=EPSG:4326 parts=None
+- geom_status: verified → verified reasons=[]
+- center: lat=40.5753904 lon=49.700243725448736 method=interior_representative_point status=verified within=True
+- parent: 819a70bb-1f9f-5d0e-bf98-3902915c7193 status=verified child_in_parent=True

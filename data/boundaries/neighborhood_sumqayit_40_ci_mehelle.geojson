@@ -1,0 +1,46 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "fc0bb867-cfed-54ac-9e0f-5ea3170f7f85",
+      "properties": {
+        "id": "fc0bb867-cfed-54ac-9e0f-5ea3170f7f85",
+        "name": "40-cı Məhəllə",
+        "type": "neighborhood",
+        "parent_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                49.6695964,
+                40.5813763
+              ],
+              [
+                49.6724408,
+                40.5797106
+              ],
+              [
+                49.6755034,
+                40.5826842
+              ],
+              [
+                49.6726214,
+                40.5843976
+              ],
+              [
+                49.6695964,
+                40.5813763
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

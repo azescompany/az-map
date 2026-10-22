@@ -1,0 +1,25 @@
+{
+  "key": "absheron_absheron_novxani",
+  "area_id": "d38daa07-2f74-5c22-aa04-4a17e6613808",
+  "notes": [
+    "street collision for 'Aptek' → #2",
+    "street collision for 'Aptek' → #3",
+    "street collision for 'Avtoservis' → #2",
+    "no street for duplicate name 'Avtoservis' @ 40.53916,49.78310 → coord suffix",
+    "street collision for 'Avtoservis' → #4",
+    "no street for duplicate name 'Avtoservis' @ 40.53859,49.78295 → coord suffix",
+    "street collision for 'Avtoservis' → #7",
+    "no street for duplicate name 'Tikinti Materialları' @ 40.54835,49.78226 → coord suffix",
+    "no street for duplicate name 'Tikinti Materialları' @ 40.54044,49.78274 → coord suffix",
+    "no street for duplicate name '1001 Xırdavat' @ 40.54032,49.78273 → coord suffix",
+    "no street for duplicate name 'Zoo Mağaza' @ 40.53124,49.78602 → coord suffix",
+    "street collision for 'Market' → #2",
+    "no street for duplicate name 'Market' @ 40.53932,49.78309 → coord suffix",
+    "street collision for 'Market' → #6",
+    "street collision for 'Market' → #8",
+    "street collision for 'Təndir' → #2",
+    "street collision for 'Yem Dükanı' → #2",
+    "street collision for 'Şərab Evi' → #2"
+  ],
+  "count": 18
+}

@@ -19,7 +19,7 @@ Git: `azescompany/az-map` @ tag `v0.2.0-national` (= `d80cf64`).
 **Base (pin):**
 
 ```text
-https://cdn.jsdelivr.net/gh/azescompany/az-map@v0.2.2-national/data/
+https://cdn.jsdelivr.net/gh/azescompany/az-map@v0.2.3-national/data/
 ```
 
 Nümunə: `manifest.json`, `areas/areas.json`, `places/yasamal_all.json`, `boundaries/city_baki.geojson`.

@@ -1,0 +1,46 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "e7ab5d0a-ae8d-5475-8a11-b3fe45ba94a6",
+      "properties": {
+        "id": "e7ab5d0a-ae8d-5475-8a11-b3fe45ba94a6",
+        "name": "5-ci Məhəllə",
+        "type": "neighborhood",
+        "parent_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                49.6636241,
+                40.5961518
+              ],
+              [
+                49.6652136,
+                40.5939365
+              ],
+              [
+                49.6686507,
+                40.5953585
+              ],
+              [
+                49.6670612,
+                40.5975737
+              ],
+              [
+                49.6636241,
+                40.5961518
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

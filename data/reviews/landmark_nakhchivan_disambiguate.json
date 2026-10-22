@@ -1,0 +1,27 @@
+{
+  "key": "nakhchivan",
+  "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+  "notes": [
+    "no street for duplicate name 'Нахичеванская Автономная Республика' @ 39.20889,45.41222 → coord suffix",
+    "no street for duplicate name 'Мавзолей Момина Хатун' @ 39.20507,45.40616 → coord suffix",
+    "no street for duplicate name 'Hüseyn Cavid məqbərəsi' @ 39.21461,45.41239 → coord suffix",
+    "no street for duplicate name 'Böyük Bağ' @ 39.21207,45.40475 → coord suffix",
+    "no street for duplicate name 'Naxçıvan Mr Xəstəxanası' @ 39.22155,45.41540 → coord suffix",
+    "no street for duplicate name 'Naxcivan MR Xestexanasi' @ 39.22211,45.41184 → coord suffix",
+    "no street for duplicate name 'Təcili yardım' @ 39.22331,45.41261 → coord suffix",
+    "no street for duplicate name 'Təcili Yardım' @ 39.16793,45.42325 → coord suffix",
+    "no street for duplicate name 'Məktəb' @ 39.19858,45.40754 → coord suffix",
+    "no street for duplicate name 'Məktəb' @ 39.19386,45.40466 → coord suffix",
+    "no street for duplicate name 'Firma Mağazası' @ 39.19272,45.40705 → coord suffix",
+    "no street for duplicate name 'Firma Mağazası' @ 39.20605,45.40914 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 39.19329,45.41048 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 39.20865,45.41267 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 39.19356,45.40772 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 39.21223,45.40974 → coord suffix",
+    "no street for duplicate name 'Araz' @ 39.21372,45.40785 → coord suffix",
+    "no street for duplicate name 'Araz' @ 39.19691,45.42075 → coord suffix",
+    "no street for duplicate name 'Kapital Bank' @ 39.22095,45.40487 → coord suffix",
+    "no street for duplicate name 'Kapital Bank' @ 39.21284,45.41064 → coord suffix"
+  ],
+  "count": 20
+}

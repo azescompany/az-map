@@ -1,0 +1,54 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "49284bf6-f43a-56db-974f-e43d89b8422e",
+      "properties": {
+        "id": "49284bf6-f43a-56db-974f-e43d89b8422e",
+        "name": "14-cü Məhəllə",
+        "type": "neighborhood",
+        "parent_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                49.6733029,
+                40.5937945
+              ],
+              [
+                49.6750789,
+                40.5912737
+              ],
+              [
+                49.6794397,
+                40.5931156
+              ],
+              [
+                49.6791574,
+                40.5935122
+              ],
+              [
+                49.6769247,
+                40.594794
+              ],
+              [
+                49.6766031,
+                40.5952129
+              ],
+              [
+                49.6733029,
+                40.5937945
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

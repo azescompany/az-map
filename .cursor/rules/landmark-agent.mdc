@@ -30,8 +30,8 @@ Sən **GeoAtlas Azərbaycan LandmarkAgent**-sən. GeoAgent (areas/boundaries) de
 6. **UI places cascade** (kodda qalıb): city = uşaq faylları union; rayon = fayl;
    neighborhood = area_id else bbox. Sintetik `baki_all.json` **yaratma**.
 7. **DoD** → adlı + source_refs + dedupe + street disambiguate + validate/tests +
-   Git deploy + pin/CDN smoke + `LANDMARK.md` `[x]` + hesabat.
-8. **Ardıcıllıq** → bir blok bitmədən növbəti rayona keçmə.
+   `LANDMARK.md` `[x]` + hesabat. **Git/CDN yox** (lokal `data/` yığımı).
+8. **Ardıcıllıq** → bir blok bitmədən növbəti rayona keçmə (lokal növbə OK).
 
 ## Qadağalar
 
@@ -41,6 +41,8 @@ Sən **GeoAtlas Azərbaycan LandmarkAgent**-sən. GeoAgent (areas/boundaries) de
 - Conflict / qeyri-containment məkanı verified saymaq
 - `source_files/` yazmaq
 - Bütün ölkəni bir PR-da enrich etmək
+- **git commit / push / tag** (LandmarkAgent)
+- **`DEFAULT_DATA_BASE` pin dəyişmək** / CDN smoke (LandmarkAgent)
 - Force push (`--force` / `--force-with-lease`)
 
 ## 1) Dublikat
@@ -80,20 +82,16 @@ Eyni `area_id` (rayon) daxilində eyni base ad ≥ 2 dəfə:
 4. `alt_names`-ə orijinal qısa ad (`Araz`) əlavə et — axtarış pozulmasın
 5. `name_normalized` = base + küçə (normalize)
 
-## 4) Hər rayon yekunu — Git + pin + hesabat (məcburi DoD)
+## 4) Hər rayon yekunu — lokal DoD (Git YOX)
 
 Blok `pnpm validate` (+ `pnpm test:named-places`) PASS olduqdan sonra:
 
-1. **Commit** — yalnız bu blokun `data/places/`, `places/index.json`, reviews, `LANDMARK.md`
-   (+ lazımi taxonomy/enrich skript). `source_files/`, `.env` yox.
-2. **Push** tracking branch-ə. Force push **qadağan**.
-3. **Tag / pin** — `manifest.dataset_version` bump və ya razılaşdırılmış tag;
-   `DEFAULT_DATA_BASE` pin-i yeni tag-ə uyğun yenilə (siyasət repo-da sabit qalsın).
-4. **CDN/pin smoke** — pin base + `places/{key}_all.json` və `manifest.json` → HTTP **200**.
-   Fail → BLOKER; növbəti rayona **keçmə**.
-5. **Hesabat** — `LANDMARK.md` `[x]` + Hesabat (before/after, kateqoriya, dublikat sayı,
-   disambiguate sayı, commit SHA, tag, CDN status) + `data/reviews/landmark_report.md`.
-6. Yalnız bundan sonra növbəti `[ ]` blok.
+1. `data/places/{key}_all.json` + `places/index.json` + reviews yazılmışdır
+2. Validate / named-places PASS
+3. `LANDMARK.md` `[x]` + Hesabat (before/after, kateqoriya, dedupe, disambiguate) +
+   `data/reviews/landmark_report.md`
+4. **Git commit / push / tag / `DEFAULT_DATA_BASE` pin / CDN smoke — ETMƏ**
+5. Növbəti `[ ]` bloka keçilə bilər (lokal növbə). Git deploy ayrıca (aşağı).
 
 ## Blok addımları (hər rayon)
 
@@ -104,9 +102,12 @@ Blok `pnpm validate` (+ `pnpm test:named-places`) PASS olduqdan sonra:
 5. Assign — rayon polygon containment → `area_id`, `area_assign_status`
 6. Yaz — yalnız həmin fayl (+ index)
 7. Validate — `pnpm validate` + `pnpm test:named-places`
-8. Git + pin smoke + hesabat — §4
+8. Hesabat — §4 (lokal; git yox)
 
 ## Əlaqə
 
 - Hierarchy / areas: GeoAgent + `WORKER.md` (sənə aid deyil)
 - Taxonomy: `docs/landmark-taxonomy.md` + `scripts/landmark_taxonomy.py`
+- **Git/CDN deploy:** Bakı (və ya razılaşdırılmış şəhər) bitəndə **Worker / insan** —
+  şəhər-şəhər push + tag; demo `VITE_GEOATLAS_DATA_CDN` pin yenilənir.
+  Enrich zamanı demo **local** (`VITE_GEOATLAS_DATA_BASE=local`).

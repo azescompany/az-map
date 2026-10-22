@@ -17104,6 +17104,331 @@
       "file": "boundaries/neighborhood_zangilan_sefibeyli.geojson",
       "area_id": "42f63157-07cb-52c6-b7fe-6e06388d2406",
       "name": "Şəfibəyli"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_1_ci_mikrorayon.geojson",
+      "area_id": "211f2c1c-b709-55d9-bb6c-be8b4a172f72",
+      "name": "1-ci Mikrorayon"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_1_ci_mehelle.geojson",
+      "area_id": "8315b273-6643-5454-9bc8-0fbc36e89207",
+      "name": "1-ci Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_10_cu_mikrorayon.geojson",
+      "area_id": "6bc564cb-91c1-58b3-a552-ac11bbdf79cd",
+      "name": "10-cu Mikrorayon"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_10_cu_mehelle.geojson",
+      "area_id": "0da28af1-8f62-549c-9f1f-b80e50b747d4",
+      "name": "10-cu Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_11_ci_mikrorayon.geojson",
+      "area_id": "3da567b3-1439-52b3-ae37-884a491fd134",
+      "name": "11-ci Mikrorayon"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_12_ci_mikrorayon.geojson",
+      "area_id": "f9266fa0-b9d6-5bed-8eb3-d45197b9306b",
+      "name": "12-ci Mikrorayon"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_13_cu_mikrorayon.geojson",
+      "area_id": "a6b18584-3495-537f-a5a1-ce9583f01631",
+      "name": "13-cü Mikrorayon"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_14_cu_mehelle.geojson",
+      "area_id": "49284bf6-f43a-56db-974f-e43d89b8422e",
+      "name": "14-cü Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_15_ci_mehelle.geojson",
+      "area_id": "459f29f3-c6fe-5c79-8dd5-26ac78d13eb5",
+      "name": "15-ci Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_16_ci_mikrorayon.geojson",
+      "area_id": "b8f254d3-8135-534f-9825-fc079f588f11",
+      "name": "16-cı Mikrorayon"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_16_ci_mehelle.geojson",
+      "area_id": "a1bfd35b-a561-59da-8e6c-4ec5182cf210",
+      "name": "16-cı Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_17_ci_mikrorayon.geojson",
+      "area_id": "d9fe4829-191c-5dd0-8110-75e7e44dc25e",
+      "name": "17-ci Mikrorayon"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_17_ci_mehelle.geojson",
+      "area_id": "f61732a0-5cd8-5c34-afca-6324012dfb9f",
+      "name": "17-ci Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_18_ci_mikrorayon.geojson",
+      "area_id": "8154c2fb-0639-53c7-8dd1-e1ca35cb4c78",
+      "name": "18-ci Mikrorayon"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_18_ci_mehelle.geojson",
+      "area_id": "4fc5d3a6-eebb-5c6e-a599-cdcafc4e940c",
+      "name": "18-ci Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_19_cu_mehelle.geojson",
+      "area_id": "d6b850f8-5fe7-591c-8ee1-ba24fb6c8cb1",
+      "name": "19-cu Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_2_ci_mikrorayon.geojson",
+      "area_id": "b6c41fa5-c89f-5030-a42e-bc32bb2df7d2",
+      "name": "2-ci Mikrorayon"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_2_ci_mehelle.geojson",
+      "area_id": "705f75d7-5b12-5034-8368-be12e5f80349",
+      "name": "2-ci Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_20_ci_mikrorayon.geojson",
+      "area_id": "726413ba-32c2-5cbb-8ec5-27548bd0797c",
+      "name": "20-ci Mikrorayon"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_20_ci_mehelle.geojson",
+      "area_id": "77fe9480-1d2a-54c2-bf4d-4d7de430626e",
+      "name": "20-ci Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_21_ci_mikrorayon.geojson",
+      "area_id": "42e5f501-d35b-5cdd-a1b0-d27179f039c7",
+      "name": "21-ci Mikrorayon"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_21_ci_mehelle.geojson",
+      "area_id": "86463a7a-6a44-55d0-b709-70ec353c0c06",
+      "name": "21-ci Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_22_ci_mehelle.geojson",
+      "area_id": "e1a1340c-b4e0-5ed1-bb9f-7cb5f4e6790f",
+      "name": "22-ci Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_25_ci_mehelle.geojson",
+      "area_id": "34b509b2-98d2-558c-8739-0fde329358ad",
+      "name": "25-cı Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_26_ci_mehelle.geojson",
+      "area_id": "fabcfc6f-8fbc-5d3d-b618-ca0e42a99b16",
+      "name": "26-cı Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_29_cu_mehelle.geojson",
+      "area_id": "f6cec2df-e1f1-5913-8c74-1644b8b8e1b8",
+      "name": "29-cu Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_3_cu_mikrorayon.geojson",
+      "area_id": "bbf9256c-d14d-51c7-8cb1-34b51538d1ca",
+      "name": "3-cü Mikrorayon"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_3_cu_mehelle.geojson",
+      "area_id": "457b2585-8a5b-5bb3-8f54-e7046b60c11c",
+      "name": "3-cü Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_30_cu_mehelle.geojson",
+      "area_id": "7355c385-61b6-537d-be2e-916404a98b40",
+      "name": "30-cu Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_34_cu_mehelle.geojson",
+      "area_id": "4e8af88f-1545-5073-aa8b-4798c231890d",
+      "name": "34-cü Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_36_ci_mehelle.geojson",
+      "area_id": "0f1b5e63-6363-5489-a271-467a288d50d2",
+      "name": "36-cı Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_39_cu_mehelle.geojson",
+      "area_id": "dc3e2b23-b0b4-5574-a25a-a0f76601909a",
+      "name": "39-cu Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_4_cu_mikrorayon.geojson",
+      "area_id": "1ceda5ca-db8d-5bc9-a6a3-d8f455520127",
+      "name": "4-cü Mikrorayon"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_4_cu_mehelle.geojson",
+      "area_id": "955ab089-5cdd-5ebb-bbf2-0b4860600a6a",
+      "name": "4-cü Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_40_ci_mehelle.geojson",
+      "area_id": "fc0bb867-cfed-54ac-9e0f-5ea3170f7f85",
+      "name": "40-cı Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_41_ci_mehelle.geojson",
+      "area_id": "a91f216d-b270-5fb6-850d-7b1be2d63099",
+      "name": "41-ci Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_41a_mehelle.geojson",
+      "area_id": "d50f65a1-05f8-58c3-90d3-5ff74010e8b0",
+      "name": "41A Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_42_ci_mehelle.geojson",
+      "area_id": "b2675ca2-0487-5e14-a34c-7f48c136e912",
+      "name": "42-ci Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_44_cu_mehelle.geojson",
+      "area_id": "468152d3-712a-59b4-a021-61ba4a22d1ab",
+      "name": "44-cü Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_45_ci_mehelle.geojson",
+      "area_id": "21e65255-f9a8-555c-8c36-e50e1a0eddaa",
+      "name": "45-ci Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_47_ci_mehelle.geojson",
+      "area_id": "14782def-8c20-5d13-96c3-7eb8aefc745e",
+      "name": "47-ci Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_48_ci_mehelle.geojson",
+      "area_id": "77e0cf7b-deca-5817-82fd-60d6d7cc3132",
+      "name": "48-ci Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_5_ci_mikrorayon.geojson",
+      "area_id": "6f10b6c6-835c-5345-9a34-9ba5d1c6bc51",
+      "name": "5-ci Mikrorayon"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_5_ci_mehelle.geojson",
+      "area_id": "e7ab5d0a-ae8d-5475-8a11-b3fe45ba94a6",
+      "name": "5-ci Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_51_ci_mehelle.geojson",
+      "area_id": "e94894a0-bba8-52b2-b13a-3c112ade2c08",
+      "name": "51-ci Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_52_ci_mehelle.geojson",
+      "area_id": "6d69cf8c-9c9f-5ef6-a21e-f464549c05df",
+      "name": "52-ci Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_6_ci_mikrorayon.geojson",
+      "area_id": "16521215-70e8-584c-8194-728dadd249d8",
+      "name": "6-cı Mikrorayon"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_71_ci_mehelle.geojson",
+      "area_id": "0a0c6662-a0ec-51c0-9f9a-e0b432888666",
+      "name": "71-ci Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_72_ci_mehelle.geojson",
+      "area_id": "85db5076-79ea-5bc6-b283-9019fd7701f8",
+      "name": "72-ci məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_73_cu_mehelle.geojson",
+      "area_id": "b453fea1-2626-596a-a77c-0bd3dcc047eb",
+      "name": "73-cü məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_74_cu_mehelle.geojson",
+      "area_id": "b0a54f94-57a0-5962-a222-38f5af4a7d4e",
+      "name": "74-cü məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_76_ci_mehelle.geojson",
+      "area_id": "ae5fc0be-8cd0-56c6-b2bd-42cf5a402ad2",
+      "name": "76-cı məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_77_ci_mehelle.geojson",
+      "area_id": "03ef6a09-1cf9-54f8-9a10-f505f46b5228",
+      "name": "77-ci məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_78_ci_mehelle.geojson",
+      "area_id": "311bceb9-8896-56aa-b95b-87d586d05181",
+      "name": "78-ci məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_79_cu_mehelle.geojson",
+      "area_id": "f104739b-e864-58be-8592-4fc41017a830",
+      "name": "79-cu məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_8_ci_mikrorayon.geojson",
+      "area_id": "60e194f2-cc5b-5eac-85d1-d9367c03cdf9",
+      "name": "8-ci Mikrorayon"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_80_ci_mehelle.geojson",
+      "area_id": "80122e13-53e0-5a59-be79-c5159e1d5aad",
+      "name": "80-ci məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_9_cu_mehelle.geojson",
+      "area_id": "d04adc35-0e47-5c3d-b408-4b95a410250f",
+      "name": "9-cu Məhəllə"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_birlik_mtk.geojson",
+      "area_id": "5ef87a64-a0bd-545a-b937-98cea6c95045",
+      "name": "Birlik MTK"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_kimyacilar_qesebesi.geojson",
+      "area_id": "078b8d5e-dc85-5a6d-b107-5967798c5f68",
+      "name": "Kimyaçılar qəsəbəsi"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_qizilqum_qesebesi.geojson",
+      "area_id": "a9da044c-0029-57b2-9a23-86f213b4eaf2",
+      "name": "Qızılqum qəsəbəsi"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_xezer_baglari.geojson",
+      "area_id": "0120b540-e46e-5a8a-8420-b4e42a3cf484",
+      "name": "Xəzər Bağları"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_teze_corat.geojson",
+      "area_id": "819a70bb-1f9f-5d0e-bf98-3902915c7193",
+      "name": "Təzə Corat"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_kohne_corat_2.geojson",
+      "area_id": "ef553c9a-d746-5116-88ed-141952e1c510",
+      "name": "Köhnə Corat"
+    },
+    {
+      "file": "boundaries/neighborhood_sumqayit_75_ci_mehelle_2.geojson",
+      "area_id": "f2fb7a16-4051-59d6-b2a6-db8af8b1f58a",
+      "name": "75-ci məhəllə"
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "key": "naftalan",
+  "area_id": "997eb0a1-8425-5919-80da-907d8f479cf7",
+  "notes": [
+    "no street for duplicate name 'Market' @ 40.50695,46.82450 → coord suffix",
+    "no street for duplicate name 'Market' @ 40.50716,46.81259 → coord suffix",
+    "no street for duplicate name 'Market' @ 40.50696,46.81345 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 40.50820,46.81497 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 40.50657,46.81443 → coord suffix",
+    "no street for duplicate name 'Kafe' @ 40.50688,46.82684 → coord suffix",
+    "no street for duplicate name 'Kafe' @ 40.50627,46.81292 → coord suffix",
+    "no street for duplicate name 'İnşaat Malları' @ 40.50688,46.81340 → coord suffix",
+    "no street for duplicate name 'İnşaat Malları' @ 40.50755,46.81424 → coord suffix"
+  ],
+  "count": 9
+}

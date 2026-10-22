@@ -1,0 +1,319 @@
+{
+  "area_id": "ea7f2c43-d441-5202-a8df-b28e717c184d",
+  "parent_area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+  "settlement_key": "absheron_absheron_saray_h_mtk_saray",
+  "places": [
+    {
+      "id": "88895c0b-9c1f-5a5a-8c54-531b2933ec1a",
+      "name": "Asland Academy Kursları",
+      "name_normalized": "asland academy kurslari",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.548364,
+        "lon": 49.7130838
+      },
+      "area_id": "ea7f2c43-d441-5202-a8df-b28e717c184d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10896480983",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "6e4e4e1e-84f1-5fe7-8dda-9f2459b71af0",
+      "name": "Panda School",
+      "name_normalized": "panda school",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.549218,
+        "lon": 49.7128934
+      },
+      "area_id": "ea7f2c43-d441-5202-a8df-b28e717c184d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10896480993",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "25893a0b-dbe9-50db-9d69-0f14a892cb18",
+      "name": "Panda School Saray",
+      "name_normalized": "panda school saray",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.54901907,
+        "lon": 49.712872
+      },
+      "area_id": "ea7f2c43-d441-5202-a8df-b28e717c184d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7044422030448914,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3b190af4-fcc9-4894-8fbc-85823f43799c",
+          "release": "2026-09-23.1",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "bf2cdb4f-7bb2-5a5c-b36b-690d9550522d",
+      "name": "Osmanlı Restoran",
+      "name_normalized": "osmanli restoran",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.5479564,
+        "lon": 49.7131616
+      },
+      "area_id": "ea7f2c43-d441-5202-a8df-b28e717c184d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10896480982",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "ff2a6193-b845-5bb8-b8be-521dc4e63b0f",
+      "name": "Rich Aptek",
+      "name_normalized": "rich aptek",
+      "alt_names": [],
+      "category": "healthcare",
+      "coordinates": {
+        "lat": 40.5470779,
+        "lon": 49.7136444
+      },
+      "area_id": "ea7f2c43-d441-5202-a8df-b28e717c184d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10896480979",
+          "release": "azerbaijan-261020",
+          "source_category": "healthcare"
+        }
+      ]
+    },
+    {
+      "id": "ecd96b67-33cd-5a8b-8a53-8272f3957841",
+      "name": "056 Avtosalon",
+      "name_normalized": "056 avtosalon",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.5496256,
+        "lon": 49.7127968
+      },
+      "area_id": "ea7f2c43-d441-5202-a8df-b28e717c184d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10896480994",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "0a411777-0f4c-573f-b5e6-ef473461ee03",
+      "name": "Araz",
+      "name_normalized": "araz",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.5474081,
+        "lon": 49.7149855
+      },
+      "area_id": "ea7f2c43-d441-5202-a8df-b28e717c184d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/13336013958",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "f09f8ddc-966f-5ddb-bddb-e49ac8c7fbf2",
+      "name": "Araz Market",
+      "name_normalized": "araz market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.5481622,
+        "lon": 49.7131224
+      },
+      "area_id": "ea7f2c43-d441-5202-a8df-b28e717c184d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/8757391485",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "a887a274-6e45-5031-9ca0-0750a5ef2190",
+      "name": "Araz Supermarket",
+      "name_normalized": "araz supermarket",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.5501983,
+        "lon": 49.712593
+      },
+      "area_id": "ea7f2c43-d441-5202-a8df-b28e717c184d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/13336013960",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "9a1b93e4-ad23-53f4-b797-215a8fd7e404",
+      "name": "Güvən Cars Avtosalon",
+      "name_normalized": "guven cars avtosalon",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.5493932,
+        "lon": 49.7128504
+      },
+      "area_id": "ea7f2c43-d441-5202-a8df-b28e717c184d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10896480995",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "99b3ea81-15b3-5bf8-a86f-575102eb4314",
+      "name": "NN Cars Avtosalon",
+      "name_normalized": "nn cars avtosalon",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.5500801,
+        "lon": 49.7126815
+      },
+      "area_id": "ea7f2c43-d441-5202-a8df-b28e717c184d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10896486606",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "385c3e5e-f5a0-5252-b401-2b388fca14c4",
+      "name": "Omid Topdan Satış",
+      "name_normalized": "omid topdan satis",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.5504367,
+        "lon": 49.712609
+      },
+      "area_id": "ea7f2c43-d441-5202-a8df-b28e717c184d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10896486608",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "143d50da-cad2-5386-9184-a5c960066546",
+      "name": "Tort Luxury Şirniyyat",
+      "name_normalized": "tort luxury sirniyyat",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.5469312,
+        "lon": 49.7137678
+      },
+      "area_id": "ea7f2c43-d441-5202-a8df-b28e717c184d",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10896876785",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    }
+  ]
+}

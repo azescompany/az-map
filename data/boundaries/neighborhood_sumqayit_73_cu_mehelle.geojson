@@ -1,0 +1,46 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "b453fea1-2626-596a-a77c-0bd3dcc047eb",
+      "properties": {
+        "id": "b453fea1-2626-596a-a77c-0bd3dcc047eb",
+        "name": "73-cü məhəllə",
+        "type": "neighborhood",
+        "parent_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                49.6971418,
+                40.5750571
+              ],
+              [
+                49.6980641,
+                40.5748127
+              ],
+              [
+                49.6993743,
+                40.5775235
+              ],
+              [
+                49.6984031,
+                40.5777119
+              ],
+              [
+                49.6971418,
+                40.5750571
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

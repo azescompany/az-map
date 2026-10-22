@@ -1,0 +1,15 @@
+{
+  "key": "imishli",
+  "area_id": "359a014a-e4e6-5647-bbf4-98ce4dd98870",
+  "notes": [
+    "no street for duplicate name 'Market' @ 39.78639,48.03885 → coord suffix",
+    "no street for duplicate name 'Market' @ 39.78206,48.03041 → coord suffix",
+    "no street for duplicate name 'Market' @ 40.11793,48.07508 → coord suffix",
+    "no street for duplicate name 'Market' @ 39.75148,47.99206 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 39.86901,48.05857 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 39.87050,48.06193 → coord suffix",
+    "no street for duplicate name 'Kapital Bank' @ 39.86814,48.05503 → coord suffix",
+    "no street for duplicate name 'Kapital Bank' @ 39.87837,48.08435 → coord suffix"
+  ],
+  "count": 8
+}

@@ -1,0 +1,54 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "fabcfc6f-8fbc-5d3d-b618-ca0e42a99b16",
+      "properties": {
+        "id": "fabcfc6f-8fbc-5d3d-b618-ca0e42a99b16",
+        "name": "26-cı Məhəllə",
+        "type": "neighborhood",
+        "parent_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                49.6618353,
+                40.6028538
+              ],
+              [
+                49.664436,
+                40.6025139
+              ],
+              [
+                49.6647741,
+                40.6040107
+              ],
+              [
+                49.6621775,
+                40.604369
+              ],
+              [
+                49.6621651,
+                40.6043141
+              ],
+              [
+                49.6620663,
+                40.6038768
+              ],
+              [
+                49.6618353,
+                40.6028538
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

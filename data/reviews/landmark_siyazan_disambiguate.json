@@ -1,0 +1,13 @@
+{
+  "key": "siyazan",
+  "area_id": "cac9becb-d9eb-5a5e-9340-cab7a24f3d70",
+  "notes": [
+    "no street for duplicate name 'Çıraqqala' @ 41.08934,48.93689 → coord suffix",
+    "no street for duplicate name 'ÇıraqQala' @ 41.07459,49.11280 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 41.07617,49.11182 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 41.07881,49.10881 → coord suffix",
+    "no street for duplicate name 'Araz' @ 41.07353,49.11381 → coord suffix",
+    "no street for duplicate name 'Araz' @ 41.08698,49.10212 → coord suffix"
+  ],
+  "count": 6
+}

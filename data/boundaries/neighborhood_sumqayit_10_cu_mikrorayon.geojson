@@ -1,0 +1,62 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "6bc564cb-91c1-58b3-a552-ac11bbdf79cd",
+      "properties": {
+        "id": "6bc564cb-91c1-58b3-a552-ac11bbdf79cd",
+        "name": "10-cu Mikrorayon",
+        "type": "neighborhood",
+        "parent_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+        "parent_status": "verified",
+        "subtype": "macrohood"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                49.6860104,
+                40.566474
+              ],
+              [
+                49.6899876,
+                40.5641638
+              ],
+              [
+                49.6902484,
+                40.5640123
+              ],
+              [
+                49.6942343,
+                40.561697
+              ],
+              [
+                49.6975309,
+                40.5649565
+              ],
+              [
+                49.6977181,
+                40.5655666
+              ],
+              [
+                49.6972421,
+                40.5656584
+              ],
+              [
+                49.6897054,
+                40.5700091
+              ],
+              [
+                49.6860104,
+                40.566474
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

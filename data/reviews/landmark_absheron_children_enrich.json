@@ -1,0 +1,346 @@
+{
+  "parent": "Abşeron rayonu",
+  "parent_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+  "osm": 965,
+  "overture": 121,
+  "dedupe_merges": 14,
+  "children_enriched": 23,
+  "skipped": [
+    "masazir",
+    "xirdalan"
+  ],
+  "residual_absheron": 305,
+  "conflict": 0,
+  "by_child": {
+    "Novxanı": 189,
+    "Qurd Dərəsi": 16,
+    "Saray H MTK \\ Saray": 13,
+    "Yeni Ceyranbatan": 23,
+    "Yeni Saray": 33,
+    "Fatmayı": 22,
+    "Saray": 114,
+    "Məhəmmədli": 36,
+    "Digah": 50,
+    "Mehdiabad": 76,
+    "Hökməli": 18,
+    "Qobu": 68,
+    "Aşağı Güzdək": 22,
+    "Goradil": 46,
+    "Saray Üzümlük": 14,
+    "Pirəkəşkül": 3,
+    "Qobustan qəsəbəsi": 4,
+    "Əliçıraq": 3,
+    "Güzdək": 16,
+    "Şəfəq": 1
+  },
+  "summary": [
+    {
+      "key": "absheron_absheron_asagi_guzdek",
+      "name": "Aşağı Güzdək",
+      "count": 22,
+      "disambiguated": 9,
+      "by_category": {
+        "education": 1,
+        "food": 2,
+        "government": 3,
+        "healthcare": 1,
+        "monument": 1,
+        "other_poi": 1,
+        "shop": 12,
+        "tourism": 1
+      }
+    },
+    {
+      "key": "absheron_absheron_digah",
+      "name": "Digah",
+      "count": 50,
+      "disambiguated": 11,
+      "by_category": {
+        "education": 3,
+        "food": 10,
+        "government": 3,
+        "healthcare": 4,
+        "museum": 1,
+        "other_poi": 1,
+        "services": 1,
+        "shop": 27
+      }
+    },
+    {
+      "key": "absheron_absheron_fatmayi",
+      "name": "Fatmayı",
+      "count": 22,
+      "disambiguated": 0,
+      "by_category": {
+        "education": 1,
+        "food": 4,
+        "government": 1,
+        "healthcare": 1,
+        "monument": 1,
+        "museum": 1,
+        "park": 1,
+        "religious": 4,
+        "shop": 8
+      }
+    },
+    {
+      "key": "absheron_absheron_goradil",
+      "name": "Goradil",
+      "count": 46,
+      "disambiguated": 16,
+      "by_category": {
+        "education": 1,
+        "food": 12,
+        "government": 4,
+        "healthcare": 4,
+        "park": 1,
+        "religious": 1,
+        "shop": 21,
+        "tourism": 2
+      }
+    },
+    {
+      "key": "absheron_absheron_guzdek",
+      "name": "Güzdək",
+      "count": 16,
+      "disambiguated": 8,
+      "by_category": {
+        "food": 1,
+        "government": 2,
+        "healthcare": 1,
+        "religious": 1,
+        "shop": 11
+      }
+    },
+    {
+      "key": "absheron_absheron_hokmeli",
+      "name": "Hökməli",
+      "count": 18,
+      "disambiguated": 2,
+      "by_category": {
+        "food": 2,
+        "government": 2,
+        "healthcare": 1,
+        "museum": 1,
+        "religious": 4,
+        "shop": 7,
+        "tourism": 1
+      }
+    },
+    {
+      "key": "absheron_absheron_mehdiabad",
+      "name": "Mehdiabad",
+      "count": 76,
+      "disambiguated": 10,
+      "by_category": {
+        "culture": 1,
+        "education": 4,
+        "food": 14,
+        "government": 4,
+        "healthcare": 4,
+        "historic": 1,
+        "other_poi": 1,
+        "religious": 2,
+        "services": 1,
+        "shop": 44
+      }
+    },
+    {
+      "key": "absheron_absheron_mehemmedli",
+      "name": "Məhəmmədli",
+      "count": 36,
+      "disambiguated": 6,
+      "by_category": {
+        "culture": 1,
+        "food": 4,
+        "government": 4,
+        "healthcare": 2,
+        "monument": 1,
+        "museum": 1,
+        "religious": 1,
+        "services": 1,
+        "shop": 21
+      }
+    },
+    {
+      "key": "absheron_absheron_novxani",
+      "name": "Novxanı",
+      "count": 189,
+      "disambiguated": 36,
+      "by_category": {
+        "education": 2,
+        "food": 33,
+        "government": 7,
+        "healthcare": 6,
+        "historic": 1,
+        "monument": 3,
+        "museum": 1,
+        "park": 1,
+        "religious": 4,
+        "shop": 124,
+        "sport": 4,
+        "tourism": 2,
+        "transport": 1
+      }
+    },
+    {
+      "key": "absheron_absheron_novxani_baglari",
+      "name": "Novxanı Bağları",
+      "count": 0,
+      "disambiguated": 0,
+      "by_category": {}
+    },
+    {
+      "key": "absheron_absheron_pirekeskul",
+      "name": "Pirəkəşkül",
+      "count": 3,
+      "disambiguated": 0,
+      "by_category": {
+        "shop": 3
+      }
+    },
+    {
+      "key": "absheron_absheron_qobu",
+      "name": "Qobu",
+      "count": 68,
+      "disambiguated": 19,
+      "by_category": {
+        "culture": 1,
+        "education": 5,
+        "food": 7,
+        "government": 4,
+        "healthcare": 3,
+        "historic": 1,
+        "market": 1,
+        "other_poi": 1,
+        "religious": 4,
+        "shop": 36,
+        "sport": 1,
+        "tourism": 4
+      }
+    },
+    {
+      "key": "absheron_absheron_qobustan_qesebesi",
+      "name": "Qobustan qəsəbəsi",
+      "count": 4,
+      "disambiguated": 0,
+      "by_category": {
+        "food": 1,
+        "healthcare": 1,
+        "shop": 2
+      }
+    },
+    {
+      "key": "absheron_absheron_qurd_deresi",
+      "name": "Qurd Dərəsi",
+      "count": 16,
+      "disambiguated": 3,
+      "by_category": {
+        "food": 2,
+        "historic": 2,
+        "shop": 12
+      }
+    },
+    {
+      "key": "absheron_absheron_saray",
+      "name": "Saray",
+      "count": 114,
+      "disambiguated": 29,
+      "by_category": {
+        "culture": 3,
+        "education": 2,
+        "food": 17,
+        "government": 2,
+        "healthcare": 4,
+        "historic": 1,
+        "monument": 2,
+        "other_poi": 1,
+        "religious": 1,
+        "shop": 79,
+        "sport": 1,
+        "transport": 1
+      }
+    },
+    {
+      "key": "absheron_absheron_saray_baglari",
+      "name": "Saray Bağları",
+      "count": 0,
+      "disambiguated": 0,
+      "by_category": {}
+    },
+    {
+      "key": "absheron_absheron_saray_h_mtk_saray",
+      "name": "Saray H MTK \\ Saray",
+      "count": 13,
+      "disambiguated": 0,
+      "by_category": {
+        "education": 3,
+        "food": 1,
+        "healthcare": 1,
+        "shop": 8
+      }
+    },
+    {
+      "key": "absheron_absheron_saray_uzumluk",
+      "name": "Saray Üzümlük",
+      "count": 14,
+      "disambiguated": 0,
+      "by_category": {
+        "food": 1,
+        "monument": 1,
+        "shop": 12
+      }
+    },
+    {
+      "key": "absheron_absheron_yeni_ceyranbatan",
+      "name": "Yeni Ceyranbatan",
+      "count": 23,
+      "disambiguated": 4,
+      "by_category": {
+        "food": 5,
+        "government": 1,
+        "healthcare": 1,
+        "shop": 16
+      }
+    },
+    {
+      "key": "absheron_absheron_yeni_saray",
+      "name": "Yeni Saray",
+      "count": 33,
+      "disambiguated": 7,
+      "by_category": {
+        "food": 6,
+        "shop": 26,
+        "transport": 1
+      }
+    },
+    {
+      "key": "absheron_absheron_cayli",
+      "name": "Çaylı",
+      "count": 0,
+      "disambiguated": 0,
+      "by_category": {}
+    },
+    {
+      "key": "absheron_absheron_sefeq",
+      "name": "Şəfəq",
+      "count": 1,
+      "disambiguated": 0,
+      "by_category": {
+        "shop": 1
+      }
+    },
+    {
+      "key": "absheron_absheron_eliciraq",
+      "name": "Əliçıraq",
+      "count": 3,
+      "disambiguated": 0,
+      "by_category": {
+        "food": 1,
+        "religious": 1,
+        "shop": 1
+      }
+    }
+  ],
+  "index_total": 12377
+}

@@ -1,0 +1,255 @@
+{
+  "parent": "Abşeron rayonu",
+  "children": [
+    {
+      "name": "Aşağı Güzdək",
+      "id": "b41ce73f-fd73-543c-b16f-acd1d03c742b",
+      "type": "neighborhood",
+      "key": "absheron_absheron_asagi_guzdek",
+      "boundary_file": "boundaries/neighborhood_absheron_absheron_asagi_guzdek.geojson",
+      "has_file": false,
+      "count": 0,
+      "skip_done": false
+    },
+    {
+      "name": "Digah",
+      "id": "de481d72-8000-5afa-b899-b592f3b7da8a",
+      "type": "neighborhood",
+      "key": "absheron_absheron_digah",
+      "boundary_file": "boundaries/neighborhood_absheron_absheron_digah.geojson",
+      "has_file": false,
+      "count": 0,
+      "skip_done": false
+    },
+    {
+      "name": "Fatmayı",
+      "id": "9801fad3-acbc-534c-9329-085c3c7ee443",
+      "type": "neighborhood",
+      "key": "absheron_absheron_fatmayi",
+      "boundary_file": "boundaries/neighborhood_absheron_absheron_fatmayi.geojson",
+      "has_file": false,
+      "count": 0,
+      "skip_done": false
+    },
+    {
+      "name": "Goradil",
+      "id": "f83e8612-2518-5127-9826-c549b166bf74",
+      "type": "neighborhood",
+      "key": "absheron_absheron_goradil",
+      "boundary_file": "boundaries/neighborhood_absheron_absheron_goradil.geojson",
+      "has_file": false,
+      "count": 0,
+      "skip_done": false
+    },
+    {
+      "name": "Güzdək",
+      "id": "cbee1416-2799-55b0-9c61-3471779a11e7",
+      "type": "neighborhood",
+      "key": "absheron_absheron_guzdek",
+      "boundary_file": "boundaries/neighborhood_absheron_absheron_guzdek.geojson",
+      "has_file": false,
+      "count": 0,
+      "skip_done": false
+    },
+    {
+      "name": "Hökməli",
+      "id": "01894af5-94fe-50ea-acfc-f0efcae35cf1",
+      "type": "neighborhood",
+      "key": "absheron_absheron_hokmeli",
+      "boundary_file": "boundaries/neighborhood_absheron_absheron_hokmeli.geojson",
+      "has_file": false,
+      "count": 0,
+      "skip_done": false
+    },
+    {
+      "name": "Masazır",
+      "id": "fbfbd698-3dee-5bda-a63a-71b21920d989",
+      "type": "neighborhood",
+      "key": "masazir",
+      "boundary_file": "boundaries/neighborhood_masazir.geojson",
+      "has_file": true,
+      "count": 263,
+      "skip_done": true
+    },
+    {
+      "name": "Mehdiabad",
+      "id": "9b14b878-27df-5acb-b2bc-a2883d32e39c",
+      "type": "neighborhood",
+      "key": "absheron_absheron_mehdiabad",
+      "boundary_file": "boundaries/neighborhood_absheron_absheron_mehdiabad.geojson",
+      "has_file": false,
+      "count": 0,
+      "skip_done": false
+    },
+    {
+      "name": "Məhəmmədli",
+      "id": "880819f5-54c8-5a0a-803e-12c9ddfe2a10",
+      "type": "neighborhood",
+      "key": "absheron_absheron_mehemmedli",
+      "boundary_file": "boundaries/neighborhood_absheron_absheron_mehemmedli.geojson",
+      "has_file": false,
+      "count": 0,
+      "skip_done": false
+    },
+    {
+      "name": "Novxanı",
+      "id": "d38daa07-2f74-5c22-aa04-4a17e6613808",
+      "type": "neighborhood",
+      "key": "absheron_absheron_novxani",
+      "boundary_file": "boundaries/neighborhood_absheron_absheron_novxani.geojson",
+      "has_file": false,
+      "count": 0,
+      "skip_done": false
+    },
+    {
+      "name": "Novxanı Bağları",
+      "id": "8f7f7296-1c55-5a79-bb19-5ce853c8433e",
+      "type": "neighborhood",
+      "key": "absheron_absheron_novxani_baglari",
+      "boundary_file": "boundaries/neighborhood_absheron_absheron_novxani_baglari.geojson",
+      "has_file": false,
+      "count": 0,
+      "skip_done": false
+    },
+    {
+      "name": "Pirəkəşkül",
+      "id": "a6624d03-3978-5acf-9fbd-4f1302c2b55f",
+      "type": "neighborhood",
+      "key": "absheron_absheron_pirekeskul",
+      "boundary_file": "boundaries/neighborhood_absheron_absheron_pirekeskul.geojson",
+      "has_file": false,
+      "count": 0,
+      "skip_done": false
+    },
+    {
+      "name": "Qobu",
+      "id": "b99713bb-25f5-5696-98a5-4a88b3a00c6a",
+      "type": "neighborhood",
+      "key": "absheron_absheron_qobu",
+      "boundary_file": "boundaries/neighborhood_absheron_absheron_qobu.geojson",
+      "has_file": false,
+      "count": 0,
+      "skip_done": false
+    },
+    {
+      "name": "Qobustan qəsəbəsi",
+      "id": "66f82dfc-654b-5e6b-b9ff-8ba853e43889",
+      "type": "neighborhood",
+      "key": "absheron_absheron_qobustan_qesebesi",
+      "boundary_file": "boundaries/neighborhood_absheron_absheron_qobustan_qesebesi.geojson",
+      "has_file": false,
+      "count": 0,
+      "skip_done": false
+    },
+    {
+      "name": "Qurd Dərəsi",
+      "id": "b686e78f-3a5b-5af1-b911-47cf828e4142",
+      "type": "neighborhood",
+      "key": "absheron_absheron_qurd_deresi",
+      "boundary_file": "boundaries/neighborhood_absheron_absheron_qurd_deresi.geojson",
+      "has_file": false,
+      "count": 0,
+      "skip_done": false
+    },
+    {
+      "name": "Saray",
+      "id": "21739a0b-085f-5e97-81e7-be011f2793cf",
+      "type": "neighborhood",
+      "key": "absheron_absheron_saray",
+      "boundary_file": "boundaries/neighborhood_absheron_absheron_saray.geojson",
+      "has_file": false,
+      "count": 0,
+      "skip_done": false
+    },
+    {
+      "name": "Saray Bağları",
+      "id": "dedad3f4-f508-5d25-8463-1887959ecea0",
+      "type": "neighborhood",
+      "key": "absheron_absheron_saray_baglari",
+      "boundary_file": "boundaries/neighborhood_absheron_absheron_saray_baglari.geojson",
+      "has_file": false,
+      "count": 0,
+      "skip_done": false
+    },
+    {
+      "name": "Saray H MTK \\ Saray",
+      "id": "ea7f2c43-d441-5202-a8df-b28e717c184d",
+      "type": "neighborhood",
+      "key": "absheron_absheron_saray_h_mtk_saray",
+      "boundary_file": "boundaries/neighborhood_absheron_absheron_saray_h_mtk_saray.geojson",
+      "has_file": false,
+      "count": 0,
+      "skip_done": false
+    },
+    {
+      "name": "Saray Üzümlük",
+      "id": "5dd6c12a-2d66-5867-a7cf-1d89a588c035",
+      "type": "neighborhood",
+      "key": "absheron_absheron_saray_uzumluk",
+      "boundary_file": "boundaries/neighborhood_absheron_absheron_saray_uzumluk.geojson",
+      "has_file": false,
+      "count": 0,
+      "skip_done": false
+    },
+    {
+      "name": "Xırdalan",
+      "id": "2dd82823-5406-5468-85af-f06df3a8e3b6",
+      "type": "neighborhood",
+      "key": "xirdalan",
+      "boundary_file": "boundaries/neighborhood_xirdalan.geojson",
+      "has_file": true,
+      "count": 1268,
+      "skip_done": true
+    },
+    {
+      "name": "Yeni Ceyranbatan",
+      "id": "939cc19d-43f6-51c8-a888-b713a8295361",
+      "type": "neighborhood",
+      "key": "absheron_absheron_yeni_ceyranbatan",
+      "boundary_file": "boundaries/neighborhood_absheron_absheron_yeni_ceyranbatan.geojson",
+      "has_file": false,
+      "count": 0,
+      "skip_done": false
+    },
+    {
+      "name": "Yeni Saray",
+      "id": "7a2f148e-7f06-52fa-92d6-f993938c6bb3",
+      "type": "neighborhood",
+      "key": "absheron_absheron_yeni_saray",
+      "boundary_file": "boundaries/neighborhood_absheron_absheron_yeni_saray.geojson",
+      "has_file": false,
+      "count": 0,
+      "skip_done": false
+    },
+    {
+      "name": "Çaylı",
+      "id": "27885038-b75c-54d4-99a3-f13b4d19c9d7",
+      "type": "neighborhood",
+      "key": "absheron_absheron_cayli",
+      "boundary_file": "boundaries/neighborhood_absheron_absheron_cayli.geojson",
+      "has_file": false,
+      "count": 0,
+      "skip_done": false
+    },
+    {
+      "name": "Şəfəq",
+      "id": "1b443816-413b-5ff3-981c-8a9ab11cac97",
+      "type": "neighborhood",
+      "key": "absheron_absheron_sefeq",
+      "boundary_file": "boundaries/neighborhood_absheron_absheron_sefeq.geojson",
+      "has_file": false,
+      "count": 0,
+      "skip_done": false
+    },
+    {
+      "name": "Əliçıraq",
+      "id": "ac5221df-eb9c-566b-9c0f-c391668e63b9",
+      "type": "neighborhood",
+      "key": "absheron_absheron_eliciraq",
+      "boundary_file": "boundaries/neighborhood_absheron_absheron_eliciraq.geojson",
+      "has_file": false,
+      "count": 0,
+      "skip_done": false
+    }
+  ]
+}

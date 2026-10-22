@@ -1,0 +1,58 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "d50f65a1-05f8-58c3-90d3-5ff74010e8b0",
+      "properties": {
+        "id": "d50f65a1-05f8-58c3-90d3-5ff74010e8b0",
+        "name": "41A Məhəllə",
+        "type": "neighborhood",
+        "parent_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                49.6652487,
+                40.5783133
+              ],
+              [
+                49.6674496,
+                40.5751922
+              ],
+              [
+                49.6694703,
+                40.5760513
+              ],
+              [
+                49.6694236,
+                40.5761201
+              ],
+              [
+                49.6693131,
+                40.5762659
+              ],
+              [
+                49.6691669,
+                40.5764653
+              ],
+              [
+                49.6671965,
+                40.5791535
+              ],
+              [
+                49.6652487,
+                40.5783133
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "key": "sabirabad",
+  "area_id": "db042a83-0a77-509e-b8c1-3f0573c42f17",
+  "notes": [
+    "no street for duplicate name 'Sabirabad Rayon Mərkəzi xəstəxanası' @ 40.02003,48.47502 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 40.00868,48.47580 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 39.92625,48.85405 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 40.01229,48.47164 → coord suffix"
+  ],
+  "count": 4
+}

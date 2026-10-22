@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "d6b850f8-5fe7-591c-8ee1-ba24fb6c8cb1",
+      "properties": {
+        "id": "d6b850f8-5fe7-591c-8ee1-ba24fb6c8cb1",
+        "name": "19-cu Məhəllə",
+        "type": "neighborhood",
+        "parent_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                49.659893,
+                40.5932657
+              ],
+              [
+                49.6607336,
+                40.5920349
+              ],
+              [
+                49.6650245,
+                40.5938657
+              ],
+              [
+                49.6637671,
+                40.595636
+              ],
+              [
+                49.6610756,
+                40.5939904
+              ],
+              [
+                49.659893,
+                40.5932657
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,701 @@
+{
+  "city_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+  "added_osm_under_sumqayit": [
+    {
+      "name": "1-ci Mikrorayon",
+      "id": "211f2c1c-b709-55d9-bb6c-be8b4a172f72",
+      "source": "way/96583635",
+      "where": "city",
+      "subtype": "macrohood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "1-ci Məhəllə",
+      "id": "8315b273-6643-5454-9bc8-0fbc36e89207",
+      "source": "way/96584796",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "10-cu Mikrorayon",
+      "id": "6bc564cb-91c1-58b3-a552-ac11bbdf79cd",
+      "source": "way/96583651",
+      "where": "city",
+      "subtype": "macrohood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "10-cu Məhəllə",
+      "id": "0da28af1-8f62-549c-9f1f-b80e50b747d4",
+      "source": "way/241746480",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "11-ci Mikrorayon",
+      "id": "3da567b3-1439-52b3-ae37-884a491fd134",
+      "source": "way/96583632",
+      "where": "city",
+      "subtype": "macrohood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "12-ci Mikrorayon",
+      "id": "f9266fa0-b9d6-5bed-8eb3-d45197b9306b",
+      "source": "way/250141303",
+      "where": "city",
+      "subtype": "macrohood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "13-cü Mikrorayon",
+      "id": "a6b18584-3495-537f-a5a1-ce9583f01631",
+      "source": "way/96583638",
+      "where": "city",
+      "subtype": "macrohood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "14-cü Məhəllə",
+      "id": "49284bf6-f43a-56db-974f-e43d89b8422e",
+      "source": "way/96583634",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "15-ci Məhəllə",
+      "id": "459f29f3-c6fe-5c79-8dd5-26ac78d13eb5",
+      "source": "way/96584802",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "16-cı Mikrorayon",
+      "id": "b8f254d3-8135-534f-9825-fc079f588f11",
+      "source": "way/371587105",
+      "where": "city",
+      "subtype": "macrohood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "16-cı Məhəllə",
+      "id": "a1bfd35b-a561-59da-8e6c-4ec5182cf210",
+      "source": "way/96584801",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "17-ci Mikrorayon",
+      "id": "d9fe4829-191c-5dd0-8110-75e7e44dc25e",
+      "source": "way/96583661",
+      "where": "city",
+      "subtype": "macrohood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "17-ci Məhəllə",
+      "id": "f61732a0-5cd8-5c34-afca-6324012dfb9f",
+      "source": "way/96584813",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "18-ci Mikrorayon",
+      "id": "8154c2fb-0639-53c7-8dd1-e1ca35cb4c78",
+      "source": "way/96583644",
+      "where": "city",
+      "subtype": "macrohood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "18-ci Məhəllə",
+      "id": "4fc5d3a6-eebb-5c6e-a599-cdcafc4e940c",
+      "source": "way/96584788",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "19-cu Məhəllə",
+      "id": "d6b850f8-5fe7-591c-8ee1-ba24fb6c8cb1",
+      "source": "way/96584818",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "2-ci Mikrorayon",
+      "id": "b6c41fa5-c89f-5030-a42e-bc32bb2df7d2",
+      "source": "way/96583652",
+      "where": "city",
+      "subtype": "macrohood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "2-ci Məhəllə",
+      "id": "705f75d7-5b12-5034-8368-be12e5f80349",
+      "source": "way/96584799",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "20-ci Mikrorayon",
+      "id": "726413ba-32c2-5cbb-8ec5-27548bd0797c",
+      "source": "way/498489598",
+      "where": "city",
+      "subtype": "macrohood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "20-ci Məhəllə",
+      "id": "77fe9480-1d2a-54c2-bf4d-4d7de430626e",
+      "source": "way/96584811",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "21-ci Mikrorayon",
+      "id": "42e5f501-d35b-5cdd-a1b0-d27179f039c7",
+      "source": "way/358864868",
+      "where": "city",
+      "subtype": "macrohood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "21-ci Məhəllə",
+      "id": "86463a7a-6a44-55d0-b709-70ec353c0c06",
+      "source": "way/96584789",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "22-ci Məhəllə",
+      "id": "e1a1340c-b4e0-5ed1-bb9f-7cb5f4e6790f",
+      "source": "way/96584794",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "25-cı Məhəllə",
+      "id": "34b509b2-98d2-558c-8739-0fde329358ad",
+      "source": "way/96584810",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "26-cı Məhəllə",
+      "id": "fabcfc6f-8fbc-5d3d-b618-ca0e42a99b16",
+      "source": "way/96584793",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "29-cu Məhəllə",
+      "id": "f6cec2df-e1f1-5913-8c74-1644b8b8e1b8",
+      "source": "way/96583636",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "3-cü Mikrorayon",
+      "id": "bbf9256c-d14d-51c7-8cb1-34b51538d1ca",
+      "source": "way/96583641",
+      "where": "city",
+      "subtype": "macrohood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "3-cü Məhəllə",
+      "id": "457b2585-8a5b-5bb3-8f54-e7046b60c11c",
+      "source": "way/96584787",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "30-cu Məhəllə",
+      "id": "7355c385-61b6-537d-be2e-916404a98b40",
+      "source": "way/96583648",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "34-cü Məhəllə",
+      "id": "4e8af88f-1545-5073-aa8b-4798c231890d",
+      "source": "way/96583650",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "36-cı Məhəllə",
+      "id": "0f1b5e63-6363-5489-a271-467a288d50d2",
+      "source": "way/96583657",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "39-cu Məhəllə",
+      "id": "dc3e2b23-b0b4-5574-a25a-a0f76601909a",
+      "source": "way/96586436",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "4-cü Mikrorayon",
+      "id": "1ceda5ca-db8d-5bc9-a6a3-d8f455520127",
+      "source": "way/96583653",
+      "where": "city",
+      "subtype": "macrohood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "4-cü Məhəllə",
+      "id": "955ab089-5cdd-5ebb-bbf2-0b4860600a6a",
+      "source": "way/96584814",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "40-cı Məhəllə",
+      "id": "fc0bb867-cfed-54ac-9e0f-5ea3170f7f85",
+      "source": "way/231201998",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "41-ci Məhəllə",
+      "id": "a91f216d-b270-5fb6-850d-7b1be2d63099",
+      "source": "way/96583654",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "41A Məhəllə",
+      "id": "d50f65a1-05f8-58c3-90d3-5ff74010e8b0",
+      "source": "way/96583658",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "42-ci Məhəllə",
+      "id": "b2675ca2-0487-5e14-a34c-7f48c136e912",
+      "source": "way/96583642",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "44-cü Məhəllə",
+      "id": "468152d3-712a-59b4-a021-61ba4a22d1ab",
+      "source": "way/231594236",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "45-ci Məhəllə",
+      "id": "21e65255-f9a8-555c-8c36-e50e1a0eddaa",
+      "source": "way/96583646",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "47-ci Məhəllə",
+      "id": "14782def-8c20-5d13-96c3-7eb8aefc745e",
+      "source": "way/96583659",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "48-ci Məhəllə",
+      "id": "77e0cf7b-deca-5817-82fd-60d6d7cc3132",
+      "source": "way/96583640",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "5-ci Mikrorayon",
+      "id": "6f10b6c6-835c-5345-9a34-9ba5d1c6bc51",
+      "source": "way/96583633",
+      "where": "city",
+      "subtype": "macrohood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "5-ci Məhəllə",
+      "id": "e7ab5d0a-ae8d-5475-8a11-b3fe45ba94a6",
+      "source": "way/96584807",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "51-ci Məhəllə",
+      "id": "e94894a0-bba8-52b2-b13a-3c112ade2c08",
+      "source": "way/498489597",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "52-ci Məhəllə",
+      "id": "6d69cf8c-9c9f-5ef6-a21e-f464549c05df",
+      "source": "way/498466842",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "6-cı Mikrorayon",
+      "id": "16521215-70e8-584c-8194-728dadd249d8",
+      "source": "way/96583660",
+      "where": "city",
+      "subtype": "macrohood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "71-ci Məhəllə",
+      "id": "0a0c6662-a0ec-51c0-9f9a-e0b432888666",
+      "source": "way/700572862",
+      "where": "broad",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "72-ci məhəllə",
+      "id": "85db5076-79ea-5bc6-b283-9019fd7701f8",
+      "source": "way/700705732",
+      "where": "broad",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "73-cü məhəllə",
+      "id": "b453fea1-2626-596a-a77c-0bd3dcc047eb",
+      "source": "way/700705733",
+      "where": "broad",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "74-cü məhəllə",
+      "id": "b0a54f94-57a0-5962-a222-38f5af4a7d4e",
+      "source": "way/700705734",
+      "where": "broad",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "76-cı məhəllə",
+      "id": "ae5fc0be-8cd0-56c6-b2bd-42cf5a402ad2",
+      "source": "way/700705735",
+      "where": "broad",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "77-ci məhəllə",
+      "id": "03ef6a09-1cf9-54f8-9a10-f505f46b5228",
+      "source": "way/700705736",
+      "where": "broad",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "78-ci məhəllə",
+      "id": "311bceb9-8896-56aa-b95b-87d586d05181",
+      "source": "way/700705737",
+      "where": "broad",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "79-cu məhəllə",
+      "id": "f104739b-e864-58be-8592-4fc41017a830",
+      "source": "way/1028463090",
+      "where": "broad",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "8-ci Mikrorayon",
+      "id": "60e194f2-cc5b-5eac-85d1-d9367c03cdf9",
+      "source": "way/96583639",
+      "where": "city",
+      "subtype": "macrohood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "80-ci məhəllə",
+      "id": "80122e13-53e0-5a59-be79-c5159e1d5aad",
+      "source": "way/1028463089",
+      "where": "broad",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "9-cu Məhəllə",
+      "id": "d04adc35-0e47-5c3d-b408-4b95a410250f",
+      "source": "way/96584806",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "Birlik MTK",
+      "id": "5ef87a64-a0bd-545a-b937-98cea6c95045",
+      "source": "way/553316183",
+      "where": "broad",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "Kimyaçılar qəsəbəsi",
+      "id": "078b8d5e-dc85-5a6d-b107-5967798c5f68",
+      "source": "way/273537388",
+      "where": "city",
+      "subtype": "neighborhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "Qızılqum qəsəbəsi",
+      "id": "a9da044c-0029-57b2-9a23-86f213b4eaf2",
+      "source": "way/96588108",
+      "where": "city",
+      "subtype": "neighborhood",
+      "parent": "Sumqayıt"
+    },
+    {
+      "name": "Xəzər Bağları",
+      "id": "0120b540-e46e-5a8a-8420-b4e42a3cf484",
+      "source": "way/266763478",
+      "where": "city",
+      "subtype": "microhood",
+      "parent": "Sumqayıt"
+    }
+  ],
+  "added_overture_nested_corat": [
+    {
+      "name": "Təzə Corat",
+      "id": "819a70bb-1f9f-5d0e-bf98-3902915c7193",
+      "source": "481b9068-77f6-4ee4-a3f1-13750b9e2b2b",
+      "parent": "Corat"
+    },
+    {
+      "name": "Köhnə Corat",
+      "id": "ef553c9a-d746-5116-88ed-141952e1c510",
+      "source": "57d5ed83-1635-4bd1-bbed-1771463d9756",
+      "parent": "Corat"
+    },
+    {
+      "name": "75-ci məhəllə",
+      "id": "f2fb7a16-4051-59d6-b2a6-db8af8b1f58a",
+      "source": "b3778456-d591-4d2c-a63e-2b2cd4347b97",
+      "parent": "Təzə Corat"
+    }
+  ],
+  "skipped": [
+    {
+      "name": "17-ci Məhəllə",
+      "reason": "duplicate_osm_kept_largest_n=2",
+      "kept": "way/96584813",
+      "dropped": [
+        "way/96584803"
+      ]
+    },
+    {
+      "name": "54-cü Məhəllə",
+      "reason": "already_verified_child",
+      "osm": "way/96584800"
+    },
+    {
+      "name": "9-cu Mikrorayon",
+      "reason": "already_verified_child",
+      "osm": "way/96583630"
+    },
+    {
+      "name": "Birləşmiş (7,8,12) Məhəllə",
+      "reason": "already_verified_child",
+      "osm": "way/96584804"
+    },
+    {
+      "name": "Çinar 2016 MTK",
+      "reason": "already_verified_child",
+      "osm": "way/444570663"
+    },
+    {
+      "name": "Corat bağları",
+      "reason": "already_verified_child",
+      "osm": "way/305690439"
+    },
+    {
+      "name": "Kimyaçılar qəsəbəsi",
+      "reason": "duplicate_osm_kept_largest_n=2",
+      "kept": "way/273537388",
+      "dropped": [
+        "way/96586448"
+      ]
+    },
+    {
+      "name": "Novxanı bağları",
+      "reason": "already_verified_child",
+      "osm": "way/298482184"
+    },
+    {
+      "name": "Şirvan qəsəbəsi",
+      "reason": "already_verified_child",
+      "osm": "way/273554944"
+    },
+    {
+      "name": "Stansiya Sumqayıt",
+      "reason": "already_verified_child",
+      "osm": "way/275028351"
+    },
+    {
+      "name": "Yaşma Bağları",
+      "reason": "already_verified_child",
+      "osm": "way/273678687"
+    },
+    {
+      "name": "Yeni Sumqayıt qəsəbəsi",
+      "reason": "already_verified_child",
+      "osm": "way/408146762"
+    },
+    {
+      "name": "Zeynalabdin Tağıyev qəsəbəsi",
+      "reason": "already_verified_child",
+      "osm": "way/273549687"
+    }
+  ],
+  "verified_children_count": 76,
+  "verified_children": [
+    "1-ci Mikrorayon",
+    "1-ci Məhəllə",
+    "10-cu Mikrorayon",
+    "10-cu Məhəllə",
+    "11-ci Mikrorayon",
+    "12-ci Mikrorayon",
+    "13-cü Mikrorayon",
+    "14-cü Məhəllə",
+    "15-ci Məhəllə",
+    "16-cı Mikrorayon",
+    "16-cı Məhəllə",
+    "17-ci Mikrorayon",
+    "17-ci Məhəllə",
+    "18-ci Mikrorayon",
+    "18-ci Məhəllə",
+    "19-cu Məhəllə",
+    "2-ci Mikrorayon",
+    "2-ci Məhəllə",
+    "20-ci Mikrorayon",
+    "20-ci Məhəllə",
+    "21-ci Mikrorayon",
+    "21-ci Məhəllə",
+    "22-ci Məhəllə",
+    "25-cı Məhəllə",
+    "26-cı Məhəllə",
+    "29-cu Məhəllə",
+    "3-cü Mikrorayon",
+    "3-cü Məhəllə",
+    "30-cu Məhəllə",
+    "34-cü Məhəllə",
+    "36-cı Məhəllə",
+    "39-cu Məhəllə",
+    "4-cü Mikrorayon",
+    "4-cü Məhəllə",
+    "40-cı Məhəllə",
+    "41-ci Məhəllə",
+    "41A Məhəllə",
+    "42-ci Məhəllə",
+    "44-cü Məhəllə",
+    "45-ci Məhəllə",
+    "47-ci Məhəllə",
+    "48-ci Məhəllə",
+    "5-ci Mikrorayon",
+    "5-ci Məhəllə",
+    "51-ci Məhəllə",
+    "52-ci Məhəllə",
+    "54-cü Məhəllə",
+    "6-cı Mikrorayon",
+    "71-ci Məhəllə",
+    "72-ci məhəllə",
+    "73-cü məhəllə",
+    "74-cü məhəllə",
+    "76-cı məhəllə",
+    "77-ci məhəllə",
+    "78-ci məhəllə",
+    "79-cu məhəllə",
+    "8-ci Mikrorayon",
+    "80-ci məhəllə",
+    "9-cu Mikrorayon",
+    "9-cu Məhəllə",
+    "Birlik MTK",
+    "Birləşmiş (7,8,12) Məhəllə",
+    "Ceyranbatan",
+    "Corat",
+    "Corat bağları",
+    "Kimyaçılar qəsəbəsi",
+    "Novxanı bağları",
+    "Qızılqum qəsəbəsi",
+    "Stansiya Sumqayıt",
+    "Xəzər Bağları",
+    "Yaşma Bağları",
+    "Yaşıl Dərə",
+    "Yeni Sumqayıt qəsəbəsi",
+    "Zeynalabdin Tağıyev qəsəbəsi",
+    "Çinar 2016 MTK",
+    "Şirvan qəsəbəsi"
+  ],
+  "areas_total": 3486,
+  "note": "No synthetic hoods. OSM mikrorayon/məhəllə via named polygons + containment. Places not modified — LandmarkAgent may reassign children-first.",
+  "removed_cleanup": [
+    {
+      "name": "75-ci məhəllə",
+      "id": "7039c7b5-c981-5395-8808-a80b793d31f7",
+      "reason": "duplicate_of_corat_nested",
+      "bf": "boundaries/neighborhood_sumqayit_75_ci_mehelle.geojson"
+    },
+    {
+      "name": "Köhnə Corat",
+      "id": "084d807a-699b-58ae-a63a-924de03893f8",
+      "reason": "duplicate_of_corat_nested",
+      "bf": "boundaries/neighborhood_sumqayit_kohne_corat.geojson"
+    },
+    {
+      "name": "Qızıl Qum Çimərkik \\ Novxanı bağları",
+      "id": "ca40554b-36c9-58ae-98b3-c53d1f883471",
+      "reason": "beach_or_composite_name",
+      "bf": "boundaries/neighborhood_sumqayit_qizil_qum_cimerkik_novxani_baglari.geojson"
+    },
+    {
+      "name": "Xəzri Çimərliyi \\ Novxanı bağları",
+      "id": "116c05e1-afe0-5cdc-9930-364218348082",
+      "reason": "beach_or_composite_name",
+      "bf": "boundaries/neighborhood_sumqayit_xezri_cimerliyi_novxani_baglari.geojson"
+    }
+  ]
+}

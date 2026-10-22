@@ -1,0 +1,15 @@
+{
+  "key": "absheron_absheron_digah",
+  "area_id": "de481d72-8000-5afa-b899-b592f3b7da8a",
+  "notes": [
+    "no street for duplicate name 'Aptek' @ 40.48842,49.85514 → coord suffix",
+    "no street for duplicate name 'Market' @ 40.49422,49.85543 → coord suffix",
+    "no street for duplicate name 'Market' @ 40.49046,49.85520 → coord suffix",
+    "no street for duplicate name 'Market' @ 40.49290,49.86997 → coord suffix",
+    "no street for duplicate name 'Market' @ 40.49783,49.88194 → coord suffix",
+    "street collision for 'Market' → #7",
+    "no street for duplicate name 'Araz' @ 40.49176,49.85534 → coord suffix",
+    "no street for duplicate name 'Araz' @ 40.49237,49.86534 → coord suffix"
+  ],
+  "count": 8
+}

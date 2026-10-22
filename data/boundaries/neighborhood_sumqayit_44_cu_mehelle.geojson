@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "468152d3-712a-59b4-a021-61ba4a22d1ab",
+      "properties": {
+        "id": "468152d3-712a-59b4-a021-61ba4a22d1ab",
+        "name": "44-cü Məhəllə",
+        "type": "neighborhood",
+        "parent_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                49.6775509,
+                40.5767358
+              ],
+              [
+                49.6799554,
+                40.5753284
+              ],
+              [
+                49.6828761,
+                40.5783495
+              ],
+              [
+                49.6805545,
+                40.5796828
+              ],
+              [
+                49.6776071,
+                40.5767922
+              ],
+              [
+                49.6775509,
+                40.5767358
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

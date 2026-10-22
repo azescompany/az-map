@@ -1,0 +1,46 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "85db5076-79ea-5bc6-b283-9019fd7701f8",
+      "properties": {
+        "id": "85db5076-79ea-5bc6-b283-9019fd7701f8",
+        "name": "72-ci məhəllə",
+        "type": "neighborhood",
+        "parent_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                49.6961081,
+                40.5753418
+              ],
+              [
+                49.6970191,
+                40.575092
+              ],
+              [
+                49.6982922,
+                40.5777338
+              ],
+              [
+                49.6973218,
+                40.5779258
+              ],
+              [
+                49.6961081,
+                40.5753418
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

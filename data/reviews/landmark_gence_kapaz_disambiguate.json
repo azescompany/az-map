@@ -1,0 +1,15 @@
+{
+  "key": "gence_kapaz",
+  "area_id": "92ac7080-2ca6-50fd-ac4a-e6f759e0e891",
+  "notes": [
+    "no street for duplicate name 'Bravo' @ 40.70153,46.32075 → coord suffix",
+    "no street for duplicate name 'Gence Beynelxalq Xestexanasi' @ 40.66280,46.33440 → coord suffix",
+    "no street for duplicate name 'Zolotoy Manqal' @ 40.69671,46.33487 → coord suffix",
+    "no street for duplicate name 'Əminə Market' @ 40.68656,46.33462 → coord suffix",
+    "no street for duplicate name 'Əminə market' @ 40.69710,46.36173 → coord suffix",
+    "no street for duplicate name 'Araz' @ 40.67480,46.33427 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 40.66228,46.32185 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 40.68181,46.36084 → coord suffix"
+  ],
+  "count": 8
+}

@@ -12,12 +12,17 @@
     "typecheck": "tsc -b --noEmit"
   },
   "dependencies": {
+    "@geoatlas/cascade": "workspace:*",
+    "@geoatlas/cascade-react": "workspace:*",
     "@geoatlas/data": "workspace:*",
+    "@geoatlas/map-react": "workspace:*",
+    "@geoatlas/shell-react": "workspace:*",
     "@geoatlas/types": "workspace:*",
     "maplibre-gl": "^5.7.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
+
   "devDependencies": {
     "@types/geojson": "^7946.0.16",
     "@types/react": "^19.1.12",

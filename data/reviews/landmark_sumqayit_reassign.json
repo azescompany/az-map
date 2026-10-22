@@ -1,0 +1,111 @@
+{
+  "key": "sumqayit",
+  "places": 1724,
+  "status": {
+    "verified": 1718,
+    "conflict": 6
+  },
+  "by_area_name": {
+    "Sumqayıt": 547,
+    "2-ci Mikrorayon": 126,
+    "4-cü Məhəllə": 54,
+    "5-ci Məhəllə": 49,
+    "17-ci Mikrorayon": 45,
+    "9-cu Mikrorayon": 43,
+    "2-ci Məhəllə": 43,
+    "6-cı Mikrorayon": 37,
+    "1-ci Mikrorayon": 35,
+    "20-ci Məhəllə": 35,
+    "19-cu Məhəllə": 34,
+    "1-ci Məhəllə": 33,
+    "Birləşmiş (7,8,12) Məhəllə": 33,
+    "21-ci Məhəllə": 33,
+    "18-ci Məhəllə": 32,
+    "3-cü Məhəllə": 32,
+    "16-cı Məhəllə": 31,
+    "10-cu Mikrorayon": 30,
+    "15-ci Məhəllə": 30,
+    "30-cu Məhəllə": 28,
+    "22-ci Məhəllə": 24,
+    "5-ci Mikrorayon": 21,
+    "26-cı Məhəllə": 21,
+    "Xəzər Bağları": 21,
+    "10-cu Məhəllə": 21,
+    "13-cü Mikrorayon": 20,
+    "36-cı Məhəllə": 20,
+    "45-ci Məhəllə": 19,
+    "14-cü Məhəllə": 18,
+    "18-ci Mikrorayon": 16,
+    "3-cü Mikrorayon": 16,
+    "34-cü Məhəllə": 14,
+    "44-cü Məhəllə": 13,
+    "47-ci Məhəllə": 13,
+    "4-cü Mikrorayon": 12,
+    "9-cu Məhəllə": 11,
+    "29-cu Məhəllə": 11,
+    "40-cı Məhəllə": 11,
+    "12-ci Mikrorayon": 10,
+    "8-ci Mikrorayon": 8,
+    "54-cü Məhəllə": 8,
+    "48-ci Məhəllə": 7,
+    "20-ci Mikrorayon": 7,
+    "16-cı Mikrorayon": 6,
+    "11-ci Mikrorayon": 5,
+    "Stansiya Sumqayıt": 5,
+    "41-ci Məhəllə": 4,
+    "Çinar 2016 MTK": 4,
+    "Kimyaçılar qəsəbəsi": 4,
+    "Qızılqum qəsəbəsi": 4,
+    "Corat": 3,
+    "42-ci Məhəllə": 3,
+    "39-cu Məhəllə": 3,
+    "21-ci Mikrorayon": 3,
+    "41A Məhəllə": 2,
+    "17-ci Məhəllə": 2,
+    "Novxanı bağları": 1,
+    "25-cı Məhəllə": 1,
+    "Ceyranbatan": 1,
+    "51-ci Məhəllə": 1
+  },
+  "conflict_count": 6,
+  "conflict_sample": [
+    {
+      "id": "32339146-5f2e-5b61-b916-17e73d2b3723",
+      "name": "Ravnina Kara Bogaz",
+      "lat": 40.58228,
+      "lon": 49.55866
+    },
+    {
+      "id": "ac131346-df0d-54ec-a948-a313b22d7f53",
+      "name": "Alma Beach&Club",
+      "lat": 40.573711082603,
+      "lon": 49.759279489517
+    },
+    {
+      "id": "2c94f0a0-286e-5d9b-bac3-c79675a639cd",
+      "name": "Neptun Beach",
+      "lat": 40.57380267,
+      "lon": 49.76317225
+    },
+    {
+      "id": "79b7a8fc-7710-5ba6-bfbf-bd643aa6d03a",
+      "name": "Novkhani Beach",
+      "lat": 40.574269966816,
+      "lon": 49.761247656911
+    },
+    {
+      "id": "a428a6c0-edce-519a-8329-a3eec2e7b753",
+      "name": "Novxanı çimərliyi",
+      "lat": 40.574112,
+      "lon": 49.760662
+    },
+    {
+      "id": "26b7c238-6c2f-56a9-a186-be9aefcedba5",
+      "name": "Sunset Absheron Beach",
+      "lat": 40.574177790744194,
+      "lon": 49.76429951973679
+    }
+  ],
+  "city_only": 547,
+  "assigned_to_children": 1171
+}

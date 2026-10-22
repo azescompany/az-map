@@ -1,0 +1,21 @@
+{
+  "key": "gobustan",
+  "area_id": "1f23b55d-e32f-5613-89f6-803737d7f924",
+  "notes": [
+    "no street for duplicate name 'Ərəbqədim kənd məktəbi' @ 40.42497,48.96176 → coord suffix",
+    "no street for duplicate name 'Ərəbqədim kənd məktəbi' @ 40.42752,48.96847 → coord suffix",
+    "no street for duplicate name 'Avtoservis' @ 40.50247,49.27126 → coord suffix",
+    "no street for duplicate name 'Avtoservis' @ 40.51000,48.94624 → coord suffix",
+    "no street for duplicate name 'Avtoservis' @ 40.51017,48.94351 → coord suffix",
+    "no street for duplicate name 'Avtoservis' @ 40.53462,48.91380 → coord suffix",
+    "no street for duplicate name 'Oba Market' @ 40.53318,48.92688 → coord suffix",
+    "no street for duplicate name 'Oba Market' @ 40.52750,48.93745 → coord suffix",
+    "no street for duplicate name 'Market' @ 40.53305,48.92845 → coord suffix",
+    "no street for duplicate name 'Market' @ 40.50998,48.94374 → coord suffix",
+    "no street for duplicate name 'Aptek' @ 40.53373,48.92879 → coord suffix",
+    "no street for duplicate name 'Aptek' @ 40.53189,48.93696 → coord suffix",
+    "no street for duplicate name 'Kafe' @ 40.53443,48.91547 → coord suffix",
+    "no street for duplicate name 'Kafe' @ 40.53493,48.91465 → coord suffix"
+  ],
+  "count": 14
+}

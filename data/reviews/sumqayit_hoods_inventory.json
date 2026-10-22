@@ -1,0 +1,1344 @@
+{
+  "existing_verified": [
+    "54-cü Məhəllə",
+    "9-cu Mikrorayon",
+    "Birləşmiş (7,8,12) Məhəllə",
+    "Ceyranbatan",
+    "Corat",
+    "Corat bağları",
+    "Novxanı bağları",
+    "Stansiya Sumqayıt",
+    "Yaşma Bağları",
+    "Yaşıl Dərə",
+    "Yeni Sumqayıt qəsəbəsi",
+    "Zeynalabdin Tağıyev qəsəbəsi",
+    "Çinar 2016 MTK",
+    "Şirvan qəsəbəsi"
+  ],
+  "overture_direct_children": [
+    {
+      "name": "54-cü Məhəllə",
+      "id": "8f70975e-d6ef-4005-8035-a99ca977bb6d",
+      "subtype": "microhood",
+      "parent": "64c3b64a-507d-446e-bec8-aa018f452238"
+    },
+    {
+      "name": "9-cu Mikrorayon",
+      "id": "d0e5f91e-ae61-4c86-a1de-abc4166a8a2c",
+      "subtype": "macrohood",
+      "parent": "64c3b64a-507d-446e-bec8-aa018f452238"
+    },
+    {
+      "name": "Birləşmiş (7,8,12) Məhəllə",
+      "id": "01ea60cd-82d7-45fd-8571-ab9a3ef0f216",
+      "subtype": "neighborhood",
+      "parent": "64c3b64a-507d-446e-bec8-aa018f452238"
+    },
+    {
+      "name": "Ceyranbatan",
+      "id": "664740dc-4eba-4a72-b7f5-3a11212f48c0",
+      "subtype": "locality",
+      "parent": "9e443014-d237-4d77-971b-b0dc1e4325f8"
+    },
+    {
+      "name": "Corat",
+      "id": "3d5725d7-3102-4785-937b-51839abb6bd2",
+      "subtype": "locality",
+      "parent": "9e443014-d237-4d77-971b-b0dc1e4325f8"
+    },
+    {
+      "name": "Corat bağları",
+      "id": "6ed0ca4f-1f80-447a-8915-94351407ebe8",
+      "subtype": "neighborhood",
+      "parent": "9e443014-d237-4d77-971b-b0dc1e4325f8"
+    },
+    {
+      "name": "Novxanı bağları",
+      "id": "70a76816-cc35-4e11-bcd8-e07db5f2efd5",
+      "subtype": "neighborhood",
+      "parent": "9e443014-d237-4d77-971b-b0dc1e4325f8"
+    },
+    {
+      "name": "Stansiya Sumqayıt",
+      "id": "afe02775-f065-4f3d-bbe6-b7c979bd2059",
+      "subtype": "neighborhood",
+      "parent": "64c3b64a-507d-446e-bec8-aa018f452238"
+    },
+    {
+      "name": "Sumqayıt",
+      "id": "64c3b64a-507d-446e-bec8-aa018f452238",
+      "subtype": "locality",
+      "parent": "9e443014-d237-4d77-971b-b0dc1e4325f8"
+    },
+    {
+      "name": "Yaşma Bağları",
+      "id": "9bf053d6-2fa2-498c-9bd8-881e2e11cded",
+      "subtype": "locality",
+      "parent": "9e443014-d237-4d77-971b-b0dc1e4325f8"
+    },
+    {
+      "name": "Yaşıl Dərə",
+      "id": "3309a9e5-6f6e-4752-8bd0-3204b81b16e6",
+      "subtype": "locality",
+      "parent": "9e443014-d237-4d77-971b-b0dc1e4325f8"
+    },
+    {
+      "name": "Yeni Sumqayıt qəsəbəsi",
+      "id": "8129db60-fa97-4323-878f-12f4241a739f",
+      "subtype": "macrohood",
+      "parent": "64c3b64a-507d-446e-bec8-aa018f452238"
+    },
+    {
+      "name": "Zeynalabdin Tağıyev qəsəbəsi",
+      "id": "8132f505-3c67-45a3-81bf-4d1af2e46634",
+      "subtype": "locality",
+      "parent": "9e443014-d237-4d77-971b-b0dc1e4325f8"
+    },
+    {
+      "name": "Çinar 2016 MTK",
+      "id": "f2042dbe-ce72-46ad-9f5f-8d1693886387",
+      "subtype": "microhood",
+      "parent": "64c3b64a-507d-446e-bec8-aa018f452238"
+    },
+    {
+      "name": "Şirvan qəsəbəsi",
+      "id": "616d154d-9b99-43b7-b815-be09727e9595",
+      "subtype": "neighborhood",
+      "parent": "9e443014-d237-4d77-971b-b0dc1e4325f8"
+    }
+  ],
+  "overture_new_containment": [
+    {
+      "name": "Təzə Corat",
+      "id": "481b9068-77f6-4ee4-a3f1-13750b9e2b2b",
+      "subtype": "locality",
+      "parent": "3d5725d7-3102-4785-937b-51839abb6bd2"
+    },
+    {
+      "name": "75-ci məhəllə",
+      "id": "b3778456-d591-4d2c-a63e-2b2cd4347b97",
+      "subtype": "microhood",
+      "parent": "481b9068-77f6-4ee4-a3f1-13750b9e2b2b"
+    },
+    {
+      "name": "Köhnə Corat",
+      "id": "57d5ed83-1635-4bd1-bbed-1771463d9756",
+      "subtype": "neighborhood",
+      "parent": "3d5725d7-3102-4785-937b-51839abb6bd2"
+    }
+  ],
+  "osm_areas": [
+    {
+      "osm": "way/96583635",
+      "name": "1-ci Mikrorayon",
+      "place": "residential",
+      "where": "city",
+      "area": 2.7216750700011253e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96584796",
+      "name": "1-ci Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 9.987029645010048e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96583651",
+      "name": "10-cu Mikrorayon",
+      "place": "residential",
+      "where": "city",
+      "area": 4.661393270994755e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/241746480",
+      "name": "10-cu Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 1.2309238170001367e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96583632",
+      "name": "11-ci Mikrorayon",
+      "place": "residential",
+      "where": "city",
+      "area": 2.831402051503359e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/250141303",
+      "name": "12-ci Mikrorayon",
+      "place": "residential",
+      "where": "city",
+      "area": 3.399792172495652e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96583638",
+      "name": "13-cü Mikrorayon",
+      "place": "residential",
+      "where": "city",
+      "area": 3.874573058500258e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96583634",
+      "name": "14-cü Məhəllə",
+      "place": "city_block",
+      "where": "city",
+      "area": 1.2609369279996973e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96584802",
+      "name": "15-ci Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 1.1957648354979115e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/371587105",
+      "name": "16-cı Mikrorayon",
+      "place": "residential",
+      "where": "city",
+      "area": 3.9305012465007004e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96584801",
+      "name": "16-cı Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 1.1135585329999731e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96583661",
+      "name": "17-ci Mikrorayon",
+      "place": "residential",
+      "where": "city",
+      "area": 5.3847635674989536e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96584803",
+      "name": "17-ci Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 3.560442615001238e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96584813",
+      "name": "17-ci Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 8.163221690001845e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96583644",
+      "name": "18-ci Mikrorayon",
+      "place": "city_block",
+      "where": "city",
+      "area": 3.363428126499643e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96584788",
+      "name": "18-ci Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 1.1942502369997847e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96584818",
+      "name": "19-cu Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 8.331694070006122e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96583652",
+      "name": "2-ci Mikrorayon",
+      "place": "residential",
+      "where": "city",
+      "area": 2.9029192735017168e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96584799",
+      "name": "2-ci Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 1.0128960845003192e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/498489598",
+      "name": "20-ci Mikrorayon",
+      "place": "residential",
+      "where": "city",
+      "area": 5.76464851600192e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96584811",
+      "name": "20-ci Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 8.249600144998676e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/358864868",
+      "name": "21-ci Mikrorayon",
+      "place": "residential",
+      "where": "city",
+      "area": 5.7692012694975194e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96584789",
+      "name": "21-ci Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 1.068579875998957e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96584794",
+      "name": "22-ci Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 7.466399105003881e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96584810",
+      "name": "25-cı Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 4.21078929000341e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96584793",
+      "name": "26-cı Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 4.032342165010071e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96583636",
+      "name": "29-cu Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 6.4410900849932114e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96583641",
+      "name": "3-cü Mikrorayon",
+      "place": "residential",
+      "where": "city",
+      "area": 1.669241572498738e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96584787",
+      "name": "3-cü Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 6.1334886800042735e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96583648",
+      "name": "30-cu Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 8.377462194992131e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96583650",
+      "name": "34-cü Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 6.451371240015226e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96583657",
+      "name": "36-cı Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 6.246889450000544e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/1169389828",
+      "name": "38 saylı Məktəb \\ Novxanı bağları",
+      "place": "alNone",
+      "where": "broad",
+      "area": 6.520851150051381e-07,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96586436",
+      "name": "39-cu Məhəllə",
+      "place": "industrial",
+      "where": "city",
+      "area": 1.3453813394986312e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96583653",
+      "name": "4-cü Mikrorayon",
+      "place": "residential",
+      "where": "city",
+      "area": 2.2581370795005834e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96584814",
+      "name": "4-cü Məhəllə",
+      "place": "city_block",
+      "where": "city",
+      "area": 1.144714617498582e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/231201998",
+      "name": "40-cı Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 1.372495112999659e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96583654",
+      "name": "41-ci Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 8.262430004999925e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96583658",
+      "name": "41A Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 8.075739990007926e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96583642",
+      "name": "42-ci Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 2.41281848500101e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/231594236",
+      "name": "44-cü Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 1.1112532425004873e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96583646",
+      "name": "45-ci Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 1.0582828500019459e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96583659",
+      "name": "47-ci Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 9.83807214498561e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96583640",
+      "name": "48-ci Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 1.5612223434993064e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96583633",
+      "name": "5-ci Mikrorayon",
+      "place": "residential",
+      "where": "city",
+      "area": 2.938540616499283e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96584807",
+      "name": "5-ci Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 9.87422529999871e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/498489597",
+      "name": "51-ci Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 2.6264865899983924e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/498466842",
+      "name": "52-ci Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 2.1474604564986917e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96584800",
+      "name": "54-cü Məhəllə",
+      "place": "quarter",
+      "where": "city",
+      "area": 3.845968320000015e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96583660",
+      "name": "6-cı Mikrorayon",
+      "place": "residential",
+      "where": "city",
+      "area": 3.397039987497883e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/700572862",
+      "name": "71-ci Məhəllə",
+      "place": "city_block",
+      "where": "broad",
+      "area": 4.062828394995448e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/700705732",
+      "name": "72-ci məhəllə",
+      "place": "city_block",
+      "where": "broad",
+      "area": 2.732622090007782e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/700705733",
+      "name": "73-cü məhəllə",
+      "place": "city_block",
+      "where": "broad",
+      "area": 2.8181772000061358e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/700705734",
+      "name": "74-cü məhəllə",
+      "place": "city_block",
+      "where": "broad",
+      "area": 2.746591529994589e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/700705738",
+      "name": "75-ci məhəllə",
+      "place": "quarter",
+      "where": "broad",
+      "area": 2.8999465149952204e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/700705735",
+      "name": "76-cı məhəllə",
+      "place": "city_block",
+      "where": "broad",
+      "area": 4.676353685000485e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/700705736",
+      "name": "77-ci məhəllə",
+      "place": "city_block",
+      "where": "broad",
+      "area": 2.5290423950015687e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/700705737",
+      "name": "78-ci məhəllə",
+      "place": "city_block",
+      "where": "broad",
+      "area": 2.854381245010656e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/1028463090",
+      "name": "79-cu məhəllə",
+      "place": "city_block",
+      "where": "broad",
+      "area": 2.47441580999883e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96583639",
+      "name": "8-ci Mikrorayon",
+      "place": "residential",
+      "where": "city",
+      "area": 2.240169844502345e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/1028463089",
+      "name": "80-ci məhəllə",
+      "place": "city_block",
+      "where": "broad",
+      "area": 2.5090847650014073e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96583630",
+      "name": "9-cu Mikrorayon",
+      "place": "suburb",
+      "where": "city",
+      "area": 8.295300621000507e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96584806",
+      "name": "9-cu Məhəllə",
+      "place": "residential",
+      "where": "city",
+      "area": 6.776254130001877e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/553316183",
+      "name": "Birlik MTK",
+      "place": "alNone",
+      "where": "broad",
+      "area": 2.3802647000387414e-07,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96584804",
+      "name": "Birləşmiş (7,8,12) Məhəllə",
+      "place": "neighbourhood",
+      "where": "city",
+      "area": 1.7141548939998553e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/236069675",
+      "name": "Birləşmiş (7,8,12) Məhəllə",
+      "place": "alNone",
+      "where": "city",
+      "area": 3.240270999978229e-08,
+      "wikidata": null
+    },
+    {
+      "osm": "way/305690439",
+      "name": "Corat bağları",
+      "place": "neighbourhood",
+      "where": "broad",
+      "area": 0.00021207696111496814,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96586448",
+      "name": "Kimyaçılar qəsəbəsi",
+      "place": "residential",
+      "where": "city",
+      "area": 2.893497945997357e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/273537388",
+      "name": "Kimyaçılar qəsəbəsi",
+      "place": "residential",
+      "where": "city",
+      "area": 5.5864274965011025e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/267966098",
+      "name": "Köhnə Corat",
+      "place": "neighbourhood",
+      "where": "broad",
+      "area": 0.00013541367659002476,
+      "wikidata": null
+    },
+    {
+      "osm": "way/1166221083",
+      "name": "Meduza Beach \\ Novxanı bağları",
+      "place": "alNone",
+      "where": "broad",
+      "area": 2.000694650008012e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/298482184",
+      "name": "Novxanı bağları",
+      "place": "neighbourhood",
+      "where": "broad",
+      "area": 0.0006265764510099737,
+      "wikidata": null
+    },
+    {
+      "osm": "way/1073992835",
+      "name": "Novxanı bağları Dairəsi",
+      "place": "grass",
+      "where": "broad",
+      "area": 1.0009905000428608e-08,
+      "wikidata": null
+    },
+    {
+      "osm": "way/291733035",
+      "name": "Qızıl Qum Çimərkik \\ Novxanı bağları",
+      "place": "alNone",
+      "where": "broad",
+      "area": 2.349396814987446e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/96588108",
+      "name": "Qızılqum qəsəbəsi",
+      "place": "residential",
+      "where": "city",
+      "area": 7.29432035499234e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/275028351",
+      "name": "Stansiya Sumqayıt",
+      "place": "neighbourhood",
+      "where": "city",
+      "area": 0.00011087963252504718,
+      "wikidata": null
+    },
+    {
+      "osm": "way/1073992840",
+      "name": "Xəzri Çimərliyi \\ Novxanı bağları",
+      "place": "alNone",
+      "where": "broad",
+      "area": 4.365855240000373e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/266763478",
+      "name": "Xəzər Bağları",
+      "place": "residential",
+      "where": "city",
+      "area": 0.00013293729356500094,
+      "wikidata": null
+    },
+    {
+      "osm": "way/273678687",
+      "name": "Yaşma Bağları",
+      "place": "village",
+      "where": "broad",
+      "area": 0.0007752323768250358,
+      "wikidata": null
+    },
+    {
+      "osm": "way/408146762",
+      "name": "Yeni Sumqayıt qəsəbəsi",
+      "place": "neighbourhood",
+      "where": "city",
+      "area": 7.272646126001037e-05,
+      "wikidata": null
+    },
+    {
+      "osm": "way/273549687",
+      "name": "Zeynalabdin Tağıyev qəsəbəsi",
+      "place": "village",
+      "where": "broad",
+      "area": 0.00038459423128500063,
+      "wikidata": null
+    },
+    {
+      "osm": "way/545493325",
+      "name": "Zəhmət MTK",
+      "place": "alNone",
+      "where": "city",
+      "area": 2.5473299999367237e-09,
+      "wikidata": null
+    },
+    {
+      "osm": "way/444570663",
+      "name": "Çinar 2016 MTK",
+      "place": "quarter",
+      "where": "city",
+      "area": 4.254366075006432e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/1073976236",
+      "name": "İctimai Çimərlik Novxana Bağları",
+      "place": "alNone",
+      "where": "broad",
+      "area": 4.1084348399873365e-06,
+      "wikidata": null
+    },
+    {
+      "osm": "way/246095890",
+      "name": "İdman Mәrkәzi 6 mkr.",
+      "place": "alNone",
+      "where": "city",
+      "area": 2.3634111999929513e-07,
+      "wikidata": null
+    },
+    {
+      "osm": "way/273554944",
+      "name": "Şirvan qəsəbəsi",
+      "place": "neighbourhood",
+      "where": "broad",
+      "area": 8.482429683995739e-05,
+      "wikidata": null
+    }
+  ],
+  "osm_nodes_no_poly": [
+    {
+      "osm": "node/2784775206",
+      "name": "Zeynalabdin Tağıyev",
+      "place": "suburb",
+      "lat": 40.6228902,
+      "lon": 49.5591196,
+      "where": "broad",
+      "wikidata": null
+    }
+  ],
+  "actionable_new": [
+    {
+      "source": "overture",
+      "id": "481b9068-77f6-4ee4-a3f1-13750b9e2b2b",
+      "name": "Təzə Corat",
+      "subtype": "locality",
+      "parent": "3d5725d7-3102-4785-937b-51839abb6bd2"
+    },
+    {
+      "source": "overture",
+      "id": "b3778456-d591-4d2c-a63e-2b2cd4347b97",
+      "name": "75-ci məhəllə",
+      "subtype": "microhood",
+      "parent": "481b9068-77f6-4ee4-a3f1-13750b9e2b2b"
+    },
+    {
+      "source": "overture",
+      "id": "57d5ed83-1635-4bd1-bbed-1771463d9756",
+      "name": "Köhnə Corat",
+      "subtype": "neighborhood",
+      "parent": "3d5725d7-3102-4785-937b-51839abb6bd2"
+    },
+    {
+      "source": "osm",
+      "id": "way/96583632",
+      "name": "11-ci Mikrorayon",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96583633",
+      "name": "5-ci Mikrorayon",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96583634",
+      "name": "14-cü Məhəllə",
+      "subtype": "city_block",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96583635",
+      "name": "1-ci Mikrorayon",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96583636",
+      "name": "29-cu Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96583638",
+      "name": "13-cü Mikrorayon",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96583639",
+      "name": "8-ci Mikrorayon",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96583640",
+      "name": "48-ci Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96583641",
+      "name": "3-cü Mikrorayon",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96583642",
+      "name": "42-ci Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96583644",
+      "name": "18-ci Mikrorayon",
+      "subtype": "city_block",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96583646",
+      "name": "45-ci Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96583648",
+      "name": "30-cu Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96583650",
+      "name": "34-cü Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96583651",
+      "name": "10-cu Mikrorayon",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96583652",
+      "name": "2-ci Mikrorayon",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96583653",
+      "name": "4-cü Mikrorayon",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96583654",
+      "name": "41-ci Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96583657",
+      "name": "36-cı Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96583658",
+      "name": "41A Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96583659",
+      "name": "47-ci Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96583660",
+      "name": "6-cı Mikrorayon",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96583661",
+      "name": "17-ci Mikrorayon",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96584787",
+      "name": "3-cü Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96584788",
+      "name": "18-ci Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96584789",
+      "name": "21-ci Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96584793",
+      "name": "26-cı Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96584794",
+      "name": "22-ci Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96584796",
+      "name": "1-ci Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96584799",
+      "name": "2-ci Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96584801",
+      "name": "16-cı Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96584802",
+      "name": "15-ci Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96584803",
+      "name": "17-ci Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96584806",
+      "name": "9-cu Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96584807",
+      "name": "5-ci Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96584810",
+      "name": "25-cı Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96584811",
+      "name": "20-ci Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96584814",
+      "name": "4-cü Məhəllə",
+      "subtype": "city_block",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96584818",
+      "name": "19-cu Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96586436",
+      "name": "39-cu Məhəllə",
+      "subtype": "industrial",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96586448",
+      "name": "Kimyaçılar qəsəbəsi",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/96588108",
+      "name": "Qızılqum qəsəbəsi",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/231201998",
+      "name": "40-cı Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/231594236",
+      "name": "44-cü Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/241746480",
+      "name": "10-cu Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/246095890",
+      "name": "İdman Mәrkәzi 6 mkr.",
+      "subtype": "alNone",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/250141303",
+      "name": "12-ci Mikrorayon",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/266763478",
+      "name": "Xəzər Bağları",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/291733035",
+      "name": "Qızıl Qum Çimərkik \\ Novxanı bağları",
+      "subtype": "alNone",
+      "where": "broad"
+    },
+    {
+      "source": "osm",
+      "id": "way/358864868",
+      "name": "21-ci Mikrorayon",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/371587105",
+      "name": "16-cı Mikrorayon",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/498466842",
+      "name": "52-ci Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/498489597",
+      "name": "51-ci Məhəllə",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/498489598",
+      "name": "20-ci Mikrorayon",
+      "subtype": "residential",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/545493325",
+      "name": "Zəhmət MTK",
+      "subtype": "alNone",
+      "where": "city"
+    },
+    {
+      "source": "osm",
+      "id": "way/553316183",
+      "name": "Birlik MTK",
+      "subtype": "alNone",
+      "where": "broad"
+    },
+    {
+      "source": "osm",
+      "id": "way/700572862",
+      "name": "71-ci Məhəllə",
+      "subtype": "city_block",
+      "where": "broad"
+    },
+    {
+      "source": "osm",
+      "id": "way/700705732",
+      "name": "72-ci məhəllə",
+      "subtype": "city_block",
+      "where": "broad"
+    },
+    {
+      "source": "osm",
+      "id": "way/700705733",
+      "name": "73-cü məhəllə",
+      "subtype": "city_block",
+      "where": "broad"
+    },
+    {
+      "source": "osm",
+      "id": "way/700705734",
+      "name": "74-cü məhəllə",
+      "subtype": "city_block",
+      "where": "broad"
+    },
+    {
+      "source": "osm",
+      "id": "way/700705735",
+      "name": "76-cı məhəllə",
+      "subtype": "city_block",
+      "where": "broad"
+    },
+    {
+      "source": "osm",
+      "id": "way/700705736",
+      "name": "77-ci məhəllə",
+      "subtype": "city_block",
+      "where": "broad"
+    },
+    {
+      "source": "osm",
+      "id": "way/700705737",
+      "name": "78-ci məhəllə",
+      "subtype": "city_block",
+      "where": "broad"
+    },
+    {
+      "source": "osm",
+      "id": "way/1028463089",
+      "name": "80-ci məhəllə",
+      "subtype": "city_block",
+      "where": "broad"
+    },
+    {
+      "source": "osm",
+      "id": "way/1028463090",
+      "name": "79-cu məhəllə",
+      "subtype": "city_block",
+      "where": "broad"
+    },
+    {
+      "source": "osm",
+      "id": "way/1073976236",
+      "name": "İctimai Çimərlik Novxana Bağları",
+      "subtype": "alNone",
+      "where": "broad"
+    },
+    {
+      "source": "osm",
+      "id": "way/1073992835",
+      "name": "Novxanı bağları Dairəsi",
+      "subtype": "grass",
+      "where": "broad"
+    },
+    {
+      "source": "osm",
+      "id": "way/1073992840",
+      "name": "Xəzri Çimərliyi \\ Novxanı bağları",
+      "subtype": "alNone",
+      "where": "broad"
+    },
+    {
+      "source": "osm",
+      "id": "way/1166221083",
+      "name": "Meduza Beach \\ Novxanı bağları",
+      "subtype": "alNone",
+      "where": "broad"
+    },
+    {
+      "source": "osm",
+      "id": "way/1169389828",
+      "name": "38 saylı Məktəb \\ Novxanı bağları",
+      "subtype": "alNone",
+      "where": "broad"
+    }
+  ]
+}

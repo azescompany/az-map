@@ -1,0 +1,46 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "f104739b-e864-58be-8592-4fc41017a830",
+      "properties": {
+        "id": "f104739b-e864-58be-8592-4fc41017a830",
+        "name": "79-cu məhəllə",
+        "type": "neighborhood",
+        "parent_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                49.6969664,
+                40.5722116
+              ],
+              [
+                49.6978784,
+                40.5719671
+              ],
+              [
+                49.6990424,
+                40.5743793
+              ],
+              [
+                49.6981358,
+                40.5746197
+              ],
+              [
+                49.6969664,
+                40.5722116
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

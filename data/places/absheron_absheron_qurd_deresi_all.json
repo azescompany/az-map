@@ -1,0 +1,397 @@
+{
+  "area_id": "b686e78f-3a5b-5af1-b911-47cf828e4142",
+  "parent_area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+  "settlement_key": "absheron_absheron_qurd_deresi",
+  "places": [
+    {
+      "id": "28da6d4f-2cca-55ce-93b0-e46eb76f8640",
+      "name": "606 Pub",
+      "name_normalized": "606 pub",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.5536689,
+        "lon": 49.7157553
+      },
+      "area_id": "b686e78f-3a5b-5af1-b911-47cf828e4142",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4898909112",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "87b9b4a2-9fa3-5fe7-b541-a9f7668c028c",
+      "name": "Ərəb Kafe",
+      "name_normalized": "ereb kafe",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.5522648,
+        "lon": 49.7121973
+      },
+      "area_id": "b686e78f-3a5b-5af1-b911-47cf828e4142",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10896486613",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "10338741-f035-5607-b7a0-08356acb9a8e",
+      "name": "Novxanı bağ",
+      "name_normalized": "novxani bag",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.54937763,
+        "lon": 49.75221442
+      },
+      "area_id": "b686e78f-3a5b-5af1-b911-47cf828e4142",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6008509993553162,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "bc754cb9-63fb-48ce-8bd6-354ce7916f68",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "cc189dcd-dd0d-5176-89f9-a44d2f3d02db",
+      "name": "Qurd Deresi 3",
+      "name_normalized": "qurd deresi 3",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.5506621,
+        "lon": 49.73590149
+      },
+      "area_id": "b686e78f-3a5b-5af1-b911-47cf828e4142",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6128266453742981,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a73d72ac-c492-49e4-a4d8-2f69127629b7",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "336cc849-a5f3-5b86-a591-533d7c890961",
+      "name": "Ailəm Market",
+      "name_normalized": "ailem market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.5505692,
+        "lon": 49.7435859
+      },
+      "area_id": "b686e78f-3a5b-5af1-b911-47cf828e4142",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10873935528",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "12832f9b-522e-51f9-b6b5-d5d4583756d3",
+      "name": "Ceyhun Market",
+      "name_normalized": "ceyhun market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.559269,
+        "lon": 49.7353877
+      },
+      "area_id": "b686e78f-3a5b-5af1-b911-47cf828e4142",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10873898521",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "e578e261-2986-546a-94f3-4df4494cff60",
+      "name": "Həkəri Market",
+      "name_normalized": "hekeri market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.5551475,
+        "lon": 49.7440888
+      },
+      "area_id": "b686e78f-3a5b-5af1-b911-47cf828e4142",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10873935534",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "97d69bca-5e72-5a08-82ea-70e92e82e3bb",
+      "name": "Hüseyn Market",
+      "name_normalized": "huseyn market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.554211,
+        "lon": 49.7238529
+      },
+      "area_id": "b686e78f-3a5b-5af1-b911-47cf828e4142",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10873935523",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "149e81e4-dab6-59a4-9090-c3dd17eb00f9",
+      "name": "Malboro Market",
+      "name_normalized": "malboro market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.5540684,
+        "lon": 49.7284743
+      },
+      "area_id": "b686e78f-3a5b-5af1-b911-47cf828e4142",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10873935525",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "6618b6d5-39bd-50ae-98c9-81a44d9fb3f3",
+      "name": "Market (40.5526,49.7344)",
+      "name_normalized": "market market 40 5526 49 7344",
+      "alt_names": [
+        "Market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.5525878,
+        "lon": 49.7344288
+      },
+      "area_id": "b686e78f-3a5b-5af1-b911-47cf828e4142",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10873935526",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "ab7ee9d3-00d4-5092-91d6-3d1a96f18f90",
+      "name": "Market (Qurd Dərəsi yolu küç.)",
+      "name_normalized": "market qurd deresi yolu kuc",
+      "alt_names": [
+        "Market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.5516004,
+        "lon": 49.7379144
+      },
+      "area_id": "b686e78f-3a5b-5af1-b911-47cf828e4142",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10896919455",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "e56a9f80-9182-5dec-b161-29dff56ecb29",
+      "name": "Market (Salatın Əsgərova küç.)",
+      "name_normalized": "market salatin esgerova kuc",
+      "alt_names": [
+        "Market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.5540684,
+        "lon": 49.7461782
+      },
+      "area_id": "b686e78f-3a5b-5af1-b911-47cf828e4142",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10873935529",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "af98ffef-ab06-541c-8818-468dddc27035",
+      "name": "Nicat Market",
+      "name_normalized": "nicat market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.5581329,
+        "lon": 49.7279258
+      },
+      "area_id": "b686e78f-3a5b-5af1-b911-47cf828e4142",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10873898622",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "68ee9533-ec64-50f4-b5b1-5769baa5cddf",
+      "name": "Ruslan Market",
+      "name_normalized": "ruslan market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.5537087,
+        "lon": 49.7159001
+      },
+      "area_id": "b686e78f-3a5b-5af1-b911-47cf828e4142",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10873935520",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "8701e484-6fbb-5b62-86fd-e8280344a49c",
+      "name": "Xırdavat",
+      "name_normalized": "xirdavat",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.5527875,
+        "lon": 49.7337529
+      },
+      "area_id": "b686e78f-3a5b-5af1-b911-47cf828e4142",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10873935527",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "48dd1e35-97a3-508c-9a29-9dca3f47a9ab",
+      "name": "Yem Dükanı",
+      "name_normalized": "yem dukani",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.5593739,
+        "lon": 49.7353394
+      },
+      "area_id": "b686e78f-3a5b-5af1-b911-47cf828e4142",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10873898520",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    }
+  ]
+}

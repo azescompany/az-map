@@ -138,22 +138,24 @@ Baseline counts: `data/places/index.json` (cari: `0.2.2-national`).
 
 ### 14. Masazır
 
-- [ ] Inventar + namizəd + join/dedupe + assign  
-  Fayl: `places/masazir_all.json` · baseline **5**  
-  **Hesabat:** _
+- [x] Inventar + namizəd + join/dedupe + assign  
+  Fayl: `places/masazir_all.json` · **5 → 263**  
+  **Hesabat (2026-10-22):** OSM **224** + Overture **44** (Masazır polygon); dedupe **10**; disambiguate **70** (`landmark_masazir_disambiguate.json`). Verified uşaq geom **0** → hamısı parent containment. Kateqoriya: shop 148, food 50, education 25, healthcare 15, government 8. Validate + named-places PASS. Git/CDN: **yox**. Skript: `enrich_landmark_places.py --key masazir`.
 
 ### 15. Xırdalan
 
-- [ ] Inventar + namizəd + join/dedupe + assign  
-  Fayl: `places/xirdalan_all.json` · baseline **21**  
-  **Hesabat:** _
+- [x] Inventar + namizəd + join/dedupe + children-first assign  
+  Fayl: `places/xirdalan_all.json` · **21 → 1268**  
+  **Hesabat (2026-10-22):** OSM **1106** + Overture **177** (Xırdalan polygon); dedupe **36**; disambiguate **353** (`landmark_xirdalan_disambiguate.json`). Children-first: **8** uşaq · uşağa **383** · parent-only **885** · conflict **0** (`landmark_xirdalan_reassign.json`). Kateqoriya: shop 734, food 214, healthcare 85, education 76, government 37. Validate + named-places PASS. Git/CDN: **yox**. Skript: `enrich_landmark_places.py --key xirdalan`.
 
-### 16. Abşeron rayonu (qalan settlement-lər)
+### 16. Abşeron rayonu (bütün uşaqlar ayrıca)
 
-- [ ] Inventar + namizəd + join/dedupe + assign  
-  Fayl: `places/absheron_all.json` · baseline **22**  
-  Qeyd: Masazır/Xırdalan ayrı fayllar — dublikat id yox.  
-  **Hesabat:** _
+- [x] Hər verified uşaq üçün ayrı places faylı + residual `absheron_all.json`  
+  **Hesabat (2026-10-22):** Bir scan (OSM **965** + Overture **121**, Masazır/Xırdalan polygon exclude); dedupe **14**.  
+  **23 uşaq faylı** (Masazır/Xırdalan əvvəlki enrich saxlanıb): Novxanı 189, Saray 114, Mehdiabad 76, Qobu 68, Digah 50, Goradil 46, Məhəmmədli 36, Yeni Saray 33, Yeni Ceyranbatan 23, Fatmayı/Aşağı Güzdək 22, Hökməli 18, Güzdək/Qurd Dərəsi 16, Saray Üzümlük 14, Saray H MTK 13, digərləri ≤4; **0** POI: Novxanı Bağları, Saray Bağları, Çaylı.  
+  Residual rayon: **22 → 305** (`absheron_all.json`, uşaq sərhədinə düşməyənlər). Conflict **0**.  
+  Review: `landmark_absheron_children_enrich.json` · inventar `absheron_children_places_inventory.json`.  
+  Validate + named-places PASS. Git/CDN: **yox**. Skript: `enrich_absheron_children_places.py`.
 
 ---
 

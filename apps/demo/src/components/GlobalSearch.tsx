@@ -15,6 +15,7 @@ import {
   searchPlaces,
 } from "@geoatlas/data";
 import TruncatedText from "./TruncatedText";
+import PortalMenu, { isInsideCombo } from "./PortalMenu";
 
 type Hit =
   | { kind: "area"; area: Area }
@@ -39,6 +40,8 @@ export default function GlobalSearch({
   const listId = useId();
   const inputId = useId();
   const rootRef = useRef<HTMLDivElement>(null);
+  const anchorRef = useRef<HTMLDivElement>(null);
+  const panelRef = useRef<HTMLDivElement>(null);
   const listRef = useRef<HTMLUListElement>(null);
   const [query, setQuery] = useState("");
   const [open, setOpen] = useState(false);
@@ -50,7 +53,6 @@ export default function GlobalSearch({
     const areaHits = searchAreas(areas, query, 8).map(
       (area): Hit => ({ kind: "area", area }),
     );
-    // Places first in list as user types — primary “məkan adı” UX
     const placeHits = searchPlaces(places, query, 24).map(
       (place): Hit => ({ kind: "place", place }),
     );
@@ -64,7 +66,11 @@ export default function GlobalSearch({
   useEffect(() => {
     if (!open) return;
     const onDoc = (e: MouseEvent) => {
-      if (!rootRef.current?.contains(e.target as Node)) setOpen(false);
+      if (
+        !isInsideCombo(e.target as Node, rootRef.current, panelRef.current)
+      ) {
+        setOpen(false);
+      }
     };
     document.addEventListener("mousedown", onDoc);
     return () => document.removeEventListener("mousedown", onDoc);
@@ -115,7 +121,10 @@ export default function GlobalSearch({
   return (
     <div className="field combobox autocomplete global-search" ref={rootRef}>
       <label htmlFor={inputId}>Axtarış</label>
-      <div className={`combobox-row ${showPanel ? "open" : ""}`}>
+      <div
+        ref={anchorRef}
+        className={`combobox-row ${showPanel ? "open" : ""}`}
+      >
         <div className="autocomplete-input-wrap">
           <input
             id={inputId}
@@ -156,51 +165,26 @@ export default function GlobalSearch({
         </div>
       </div>
 
-      {showPanel && (
-        <div className="combobox-panel autocomplete-panel">
-          <ul
-            id={listId}
-            ref={listRef}
-            className="combobox-list search-hit-list"
-            role="listbox"
-            aria-label="Axtarış nəticələri"
-          >
-            {hits.map((hit, i) => {
-              if (hit.kind === "place") {
-                const p = hit.place;
-                const title = p.displayName ?? p.name;
-                return (
-                  <li
-                    key={`p-${p.id}`}
-                    role="option"
-                    aria-selected={i === highlight}
-                    data-idx={i}
-                  >
-                    <button
-                      type="button"
-                      className={i === highlight ? "hl" : ""}
-                      onMouseEnter={() => setHighlight(i)}
-                      onMouseDown={(e) => e.preventDefault()}
-                      onClick={() => pick(hit)}
-                    >
-                      <TruncatedText text={title} as="strong" />
-                      <div className="meta">
-                        <TruncatedText
-                          text={
-                            customer
-                              ? areaBreadcrumb(areas, p.area_id)
-                              : `məkan · ${categoryLabel(String(p.category))} · ${areaBreadcrumb(areas, p.area_id)}`
-                          }
-                        />
-                      </div>
-                    </button>
-                  </li>
-                );
-              }
-              const a = hit.area;
+      <PortalMenu
+        open={showPanel}
+        anchorRef={anchorRef}
+        panelRef={panelRef}
+        maxHeight={320}
+      >
+        <ul
+          id={listId}
+          ref={listRef}
+          className="combobox-list search-hit-list"
+          role="listbox"
+          aria-label="Axtarış nəticələri"
+        >
+          {hits.map((hit, i) => {
+            if (hit.kind === "place") {
+              const p = hit.place;
+              const title = p.displayName ?? p.name;
               return (
                 <li
-                  key={`a-${a.id}`}
+                  key={`p-${p.id}`}
                   role="option"
                   aria-selected={i === highlight}
                   data-idx={i}
@@ -212,30 +196,58 @@ export default function GlobalSearch({
                     onMouseDown={(e) => e.preventDefault()}
                     onClick={() => pick(hit)}
                   >
-                    <TruncatedText text={a.name} as="strong" />
+                    <TruncatedText text={title} as="strong" />
                     <div className="meta">
                       <TruncatedText
                         text={
                           customer
-                            ? areaBreadcrumb(areas, a.id)
-                            : `ərazi · ${a.type} · ${areaBreadcrumb(areas, a.id)}`
+                            ? areaBreadcrumb(areas, p.area_id)
+                            : `məkan · ${categoryLabel(String(p.category))} · ${areaBreadcrumb(areas, p.area_id)}`
                         }
                       />
                     </div>
                   </button>
                 </li>
               );
-            })}
-            {!hits.length && (
-              <li>
-                <div className="empty" style={{ padding: "0.65rem 0.75rem" }}>
-                  Nəticə yoxdur
-                </div>
+            }
+            const a = hit.area;
+            return (
+              <li
+                key={`a-${a.id}`}
+                role="option"
+                aria-selected={i === highlight}
+                data-idx={i}
+              >
+                <button
+                  type="button"
+                  className={i === highlight ? "hl" : ""}
+                  onMouseEnter={() => setHighlight(i)}
+                  onMouseDown={(e) => e.preventDefault()}
+                  onClick={() => pick(hit)}
+                >
+                  <TruncatedText text={a.name} as="strong" />
+                  <div className="meta">
+                    <TruncatedText
+                      text={
+                        customer
+                          ? areaBreadcrumb(areas, a.id)
+                          : `ərazi · ${a.type} · ${areaBreadcrumb(areas, a.id)}`
+                      }
+                    />
+                  </div>
+                </button>
               </li>
-            )}
-          </ul>
-        </div>
-      )}
+            );
+          })}
+          {!hits.length && (
+            <li>
+              <div className="empty" style={{ padding: "0.65rem 0.75rem" }}>
+                Nəticə yoxdur
+              </div>
+            </li>
+          )}
+        </ul>
+      </PortalMenu>
     </div>
   );
 }

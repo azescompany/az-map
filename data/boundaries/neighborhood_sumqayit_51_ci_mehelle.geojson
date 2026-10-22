@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "e94894a0-bba8-52b2-b13a-3c112ade2c08",
+      "properties": {
+        "id": "e94894a0-bba8-52b2-b13a-3c112ade2c08",
+        "name": "51-ci Məhəllə",
+        "type": "neighborhood",
+        "parent_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                49.7072929,
+                40.5643978
+              ],
+              [
+                49.7091436,
+                40.5641452
+              ],
+              [
+                49.7095567,
+                40.5653901
+              ],
+              [
+                49.7086474,
+                40.5655552
+              ],
+              [
+                49.7074351,
+                40.5656774
+              ],
+              [
+                49.7072929,
+                40.5643978
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "key": "xirdalan",
+  "places": 1268,
+  "status": {
+    "verified": 1268
+  },
+  "parent_only": 885,
+  "by_area_name": {
+    "Xırdalan": 885,
+    "28-ci Məhəllə": 120,
+    "AAAF Park": 95,
+    "27-ci Məhəllə": 73,
+    "Quşçuluq": 37,
+    "24-cü Məhəllə": 27,
+    "Kristal Abşeron 2": 21,
+    "Krisral Abşeron 1": 9,
+    "Villa Butik Paradis": 1
+  },
+  "assigned_to_children": 383
+}

@@ -1,0 +1,535 @@
+{
+  "area_id": "9801fad3-acbc-534c-9329-085c3c7ee443",
+  "parent_area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+  "settlement_key": "absheron_absheron_fatmayi",
+  "places": [
+    {
+      "id": "93f272ae-ae2f-542d-95b9-ac012ec2632c",
+      "name": "D.Bünyadzadə adına Fatmayı kənd tam orta ümumtəhsil məktəbi",
+      "name_normalized": "d bunyadzade adina fatmayi kend tam orta umumtehsil mektebi",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.52924,
+        "lon": 49.84545
+      },
+      "area_id": "9801fad3-acbc-534c-9329-085c3c7ee443",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5643386244773865,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "11758456-7f78-4a1e-baca-387188dc14f5",
+          "release": "2026-09-23.1",
+          "source_category": "school"
+        }
+      ]
+    },
+    {
+      "id": "d2c52ae9-0e76-5e0e-8020-d6b9f01ef929",
+      "name": "Kafe",
+      "name_normalized": "kafe",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.5266068,
+        "lon": 49.8481598
+      },
+      "area_id": "9801fad3-acbc-534c-9329-085c3c7ee443",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11093803480",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "217cb713-63b1-50fd-9784-fd3bef119b96",
+      "name": "Karvan Ailəvi Restoran",
+      "name_normalized": "karvan ailevi restoran",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.5165917,
+        "lon": 49.8507482
+      },
+      "area_id": "9801fad3-acbc-534c-9329-085c3c7ee443",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11093806923",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "6ec28496-5251-5972-94b2-e4add6e74678",
+      "name": "Tohfe Restorani",
+      "name_normalized": "tohfe restorani",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.51932761,
+        "lon": 49.84778114
+      },
+      "area_id": "9801fad3-acbc-534c-9329-085c3c7ee443",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6096670031547546,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7ef42968-c3ed-4f02-9c9f-afe7c20cd299",
+          "release": "2026-09-23.1",
+          "source_category": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "6e85d2a8-a873-54e5-9c9c-2c81a4ca06a9",
+      "name": "Töhfə Şadlıq Sarayı",
+      "name_normalized": "tohfe sadliq sarayi",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.5192161,
+        "lon": 49.8478388
+      },
+      "area_id": "9801fad3-acbc-534c-9329-085c3c7ee443",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4430315095",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "1f1d5465-d502-5792-8270-6aa159f8d308",
+      "name": "Fatmayı İcra Nümayəndəliyi və Bələsiyyə",
+      "name_normalized": "fatmayi i cra numayendeliyi ve belesiyye",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.5282857,
+        "lon": 49.8454106
+      },
+      "area_id": "9801fad3-acbc-534c-9329-085c3c7ee443",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11093847507",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "5cc9268c-63c4-5469-9185-e194a0fd1509",
+      "name": "Tibb Mərkəzi",
+      "name_normalized": "tibb merkezi",
+      "alt_names": [],
+      "category": "healthcare",
+      "coordinates": {
+        "lat": 40.5281339,
+        "lon": 49.8447816
+      },
+      "area_id": "9801fad3-acbc-534c-9329-085c3c7ee443",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11093742344",
+          "release": "azerbaijan-261020",
+          "source_category": "healthcare"
+        }
+      ]
+    },
+    {
+      "id": "2f8306ae-d52c-562f-9ade-46857d665ba0",
+      "name": "Abidə",
+      "name_normalized": "abide",
+      "alt_names": [],
+      "category": "monument",
+      "coordinates": {
+        "lat": 40.5280222,
+        "lon": 49.8454394
+      },
+      "area_id": "9801fad3-acbc-534c-9329-085c3c7ee443",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11093847523",
+          "release": "azerbaijan-261020",
+          "source_category": "monument"
+        }
+      ]
+    },
+    {
+      "id": "0b30415a-4b26-537a-9723-87e2db4c7863",
+      "name": "Tarix Diyarşünaslıq Muzeyi",
+      "name_normalized": "tarix diyarsunasliq muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 40.5294019,
+        "lon": 49.8450793
+      },
+      "area_id": "9801fad3-acbc-534c-9329-085c3c7ee443",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11093742322",
+          "release": "azerbaijan-261020",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "ef623049-d4f4-5c4c-9c36-832a5cc50ed2",
+      "name": "Fatmayı kəndi",
+      "name_normalized": "fatmayi kendi",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.535177739695946,
+        "lon": 49.836004595905145
+      },
+      "area_id": "9801fad3-acbc-534c-9329-085c3c7ee443",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.572727382183075,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9dec1764-6b4e-40ac-9081-d0d1be507ea7",
+          "release": "2026-09-23.1",
+          "source_category": "beach"
+        }
+      ]
+    },
+    {
+      "id": "ac341bae-6f96-542d-a2f8-04580e08070a",
+      "name": "Əlbətti Məscidi",
+      "name_normalized": "elbetti mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.5291012,
+        "lon": 49.8420833
+      },
+      "area_id": "9801fad3-acbc-534c-9329-085c3c7ee443",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11093742330",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "30984009-85e2-5c73-a91d-7edfe0bb9bcb",
+      "name": "Fatmayı Məscid",
+      "name_normalized": "fatmayi mescid",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.5283767,
+        "lon": 49.84371641
+      },
+      "area_id": "9801fad3-acbc-534c-9329-085c3c7ee443",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7386070489883423,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a55f5c55-5ea3-4c2d-9b85-662896c517e9",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "b9326d98-4332-5af3-81b7-3d32adc2ff84",
+      "name": "Hacı Heybət Məscidi",
+      "name_normalized": "haci heybet mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.5284407,
+        "lon": 49.8437168
+      },
+      "area_id": "9801fad3-acbc-534c-9329-085c3c7ee443",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11093742345",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "c2dc0d3e-22ec-54f5-9085-406c9d0fd371",
+      "name": "Salam Məscidi",
+      "name_normalized": "salam mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.5290982,
+        "lon": 49.8447213
+      },
+      "area_id": "9801fad3-acbc-534c-9329-085c3c7ee443",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11093803457",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "0406f299-479e-5249-87c8-86e652d5ee5d",
+      "name": "AL market",
+      "name_normalized": "al market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.5271879,
+        "lon": 49.8487607
+      },
+      "area_id": "9801fad3-acbc-534c-9329-085c3c7ee443",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11093803479",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "3b8f65d1-1c5d-52b3-9b53-c29927f3209c",
+      "name": "Emin Market",
+      "name_normalized": "emin market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.5230155,
+        "lon": 49.8456158
+      },
+      "area_id": "9801fad3-acbc-534c-9329-085c3c7ee443",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11093803504",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "87c715a8-584e-5151-a48c-fb55d26dd38e",
+      "name": "Fərid Market",
+      "name_normalized": "ferid market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.5264886,
+        "lon": 49.8479922
+      },
+      "area_id": "9801fad3-acbc-534c-9329-085c3c7ee443",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11093803481",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "7620baf0-20ab-515d-8f9f-b4e0ea067f19",
+      "name": "İlham Market",
+      "name_normalized": "i lham market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.5228748,
+        "lon": 49.8455098
+      },
+      "area_id": "9801fad3-acbc-534c-9329-085c3c7ee443",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11093803502",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "7cc9bc08-3805-543d-a3af-3bc30ecedf56",
+      "name": "İnşaat Malları",
+      "name_normalized": "i nsaat mallari",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.5248311,
+        "lon": 49.8461931
+      },
+      "area_id": "9801fad3-acbc-534c-9329-085c3c7ee443",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11093803497",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "3092cd76-236a-52f2-80cc-069df1832766",
+      "name": "Market",
+      "name_normalized": "market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.5292195,
+        "lon": 49.8435035
+      },
+      "area_id": "9801fad3-acbc-534c-9329-085c3c7ee443",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11093803455",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "88a3e503-8f31-59c3-84a2-475d211e99b5",
+      "name": "Oba Market",
+      "name_normalized": "oba market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.5180282,
+        "lon": 49.8496404
+      },
+      "area_id": "9801fad3-acbc-534c-9329-085c3c7ee443",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11093806918",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "88bed225-2fd0-5cd1-a5d8-62b2fd77b186",
+      "name": "Oba Market \\ Fatmayı 2",
+      "name_normalized": "oba market fatmayi 2",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.5290931,
+        "lon": 49.8443484
+      },
+      "area_id": "9801fad3-acbc-534c-9329-085c3c7ee443",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11093803456",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    }
+  ]
+}

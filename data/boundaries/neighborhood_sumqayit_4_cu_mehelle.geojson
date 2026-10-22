@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "955ab089-5cdd-5ebb-bbf2-0b4860600a6a",
+      "properties": {
+        "id": "955ab089-5cdd-5ebb-bbf2-0b4860600a6a",
+        "name": "4-cü Məhəllə",
+        "type": "neighborhood",
+        "parent_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                49.6652833,
+                40.5938375
+              ],
+              [
+                49.6671411,
+                40.591275
+              ],
+              [
+                49.6676104,
+                40.5914712
+              ],
+              [
+                49.6705693,
+                40.5927081
+              ],
+              [
+                49.6687115,
+                40.5952706
+              ],
+              [
+                49.6652833,
+                40.5938375
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

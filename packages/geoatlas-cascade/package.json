@@ -1,0 +1,27 @@
+{
+  "name": "@geoatlas/cascade",
+  "version": "0.2.0",
+  "description": "Headless GeoAtlas hierarchy cascade (country → city → rayon → hood → place)",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@geoatlas/data": "workspace:*",
+    "@geoatlas/types": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/geojson": "^7946.0.16",
+    "typescript": "^5.9.2"
+  },
+
+  "publishConfig": {
+    "access": "public"
+  }
+}

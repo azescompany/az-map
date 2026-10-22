@@ -1,0 +1,31 @@
+{
+  "area_id": "1b443816-413b-5ff3-981c-8a9ab11cac97",
+  "parent_area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+  "settlement_key": "absheron_absheron_sefeq",
+  "places": [
+    {
+      "id": "38860d54-cd76-5036-bdd9-e2a55af1f20c",
+      "name": "Araz",
+      "name_normalized": "araz",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.5564303,
+        "lon": 49.584378
+      },
+      "area_id": "1b443816-413b-5ff3-981c-8a9ab11cac97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/12814634631",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    }
+  ]
+}

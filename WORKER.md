@@ -66,12 +66,20 @@ See `data/reviews/baki_neighborhoods_extract.json`, `Hierarchy.md`.
 ### 2. Sumqayıt
 
 - [x] Şəhər sərhədi (OSM `relation/3912206` al=8 city core + `3764579` al=6 extent)  
-- [x] Mikrorayon / qəsəbə (`Hierarchy.md` verified) — 14 uşaq; rayon uydurulmayıb (birbaşa city uşağı)  
-- [x] Tanınmış məkanlar — `places/sumqayit_all.json` (57 Overture landmark; OSM notables pending env quirk)  
-- [x] Quality gate + validate PASS (`0.1.4-pilot`)  
+- [x] Mikrorayon / qəsəbə (`Hierarchy.md` verified) — **76** birbaşa city uşağı (+ Corat nested); rayon uydurulmayıb  
+- [x] Tanınmış məkanlar — `places/sumqayit_all.json` (LandmarkAgent; hierarchy bu blokda toxunulmayıb)  
+- [x] Quality gate + validate PASS  
 
 **Hesabat (2026-10-21):**  
-City `Sumqayıt` under Azərbaycan · verified children: 54-cü Məhəllə, 9-cu Mikrorayon, Birləşmiş (7,8,12) Məhəllə, Stansiya Sumqayıt, Yeni Sumqayıt qəsəbəsi, Çinar 2016 MTK, Ceyranbatan, Corat, Corat bağları, Novxanı bağları, Yaşma Bağları, Yaşıl Dərə, Zeynalabdin Tağıyev qəsəbəsi, Şirvan qəsəbəsi · places 57 · areas total 170 · places total 2130 · report `data/reviews/sumqayit_extract.json` · script `pnpm extract:sumqayit`.
+City `Sumqayıt` under Azərbaycan · verified children (ilkin 14): 54-cü Məhəllə, 9-cu Mikrorayon, Birləşmiş (7,8,12) Məhəllə, Stansiya Sumqayıt, Yeni Sumqayıt qəsəbəsi, Çinar 2016 MTK, Ceyranbatan, Corat, Corat bağları, Novxanı bağları, Yaşma Bağları, Yaşıl Dərə, Zeynalabdin Tağıyev qəsəbəsi, Şirvan qəsəbəsi · `pnpm extract:sumqayit`.
+
+**Hesabat (2026-10-22 — çatışmayan mikrorayon/məhəllə):**  
+Mənbə inventar: Overture loc/region uşaqları artıq var idi; əlavə namizədlər əsasən **OSM named polygons** (place/landuse + ad) Sumqayıt city/al=6 containment.  
+Əlavə (Sumqayıt birbaşa, OSM): mikrorayonlar **1–6, 8, 10–13, 16–18, 20–21** (9 artıq var; **7 / 14 / 15 / 19 mikrorayon mənbədə yox** — uydurulmayıb); çoxsaylı N-ci Məhəllə; Kimyaçılar / Qızılqum qəsəbəsi; Xəzər Bağları; Birlik MTK; 71–80 məhəllə (al=6).  
+Nested (Overture parent): Corat → **Təzə Corat**, **Köhnə Corat**; Təzə Corat → **75-ci məhəllə**.  
+Skip: beach/çimərlik composite adlar; OSM flat dublikatlar (Köhnə Corat, 75-ci — nested saxlanıldı); sıfır-area / məktəb-idman.  
+Verified Sumqayıt children indi **76** · skript `scripts/add_sumqayit_missing_hoods.py` · inventar `data/reviews/sumqayit_hoods_inventory.json` · hesabat `data/reviews/sumqayit_missing_hoods.json` · `pnpm quality:gate` + `pnpm validate` PASS.  
+Qeyd: LandmarkAgent `sumqayit_all.json` üzərində children-first reassign tövsiyə olunur (bu blok places yazmayıb).
 
 ### 3. Masazır
 

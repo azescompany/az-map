@@ -1,0 +1,17 @@
+{
+  "key": "absheron_absheron_goradil",
+  "area_id": "f83e8612-2518-5127-9826-c549b166bf74",
+  "notes": [
+    "no street for duplicate name 'Aptek' @ 40.53906,49.84807 → coord suffix",
+    "no street for duplicate name 'Aptek' @ 40.54950,49.83059 → coord suffix",
+    "no street for duplicate name 'Aptek' @ 40.53907,49.84757 → coord suffix",
+    "street collision for 'İnşaat Malları' → #3",
+    "no street for duplicate name 'Kafe' @ 40.53669,49.84961 → coord suffix",
+    "no street for duplicate name 'Market' @ 40.54450,49.83547 → coord suffix",
+    "street collision for 'Market' → #3",
+    "street collision for 'Market' → #4",
+    "no street for duplicate name 'OBA Market' @ 40.54428,49.83528 → coord suffix",
+    "no street for duplicate name 'OBA Market' @ 40.53960,49.84750 → coord suffix"
+  ],
+  "count": 10
+}
