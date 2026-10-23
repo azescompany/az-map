@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "b4fbcaa4-8589-5f29-9160-048c4f27bc31",
+      "properties": {
+        "id": "b4fbcaa4-8589-5f29-9160-048c4f27bc31",
+        "name": "Tülü",
+        "type": "neighborhood",
+        "parent_id": "4a92fe72-1565-543e-859d-94af4b3318a8",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.5004919,
+              38.5996343
+            ],
+            [
+              48.5004823,
+              38.6010707
+            ],
+            [
+              48.4980064,
+              38.6012046
+            ],
+            [
+              48.4966732,
+              38.5999394
+            ],
+            [
+              48.4988634,
+              38.5985254
+            ],
+            [
+              48.5004919,
+              38.5996343
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

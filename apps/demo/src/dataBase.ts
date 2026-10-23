@@ -1,6 +1,9 @@
-import { DEFAULT_DATA_BASE } from "@geoatlas/data";
+import {
+  DEFAULT_DATA_BASE,
+  DEFAULT_DATA_BASE_CANONICAL,
+} from "@geoatlas/data";
 
-export type DataSourceHint = "cdn" | "local";
+export type DataSourceHint = "cdn" | "local" | "derived";
 
 export type ResolvedDataBase = {
   /** Trailing-slash base for `@geoatlas/data` loaders */
@@ -15,8 +18,10 @@ function withTrailingSlash(url: string): string {
 /**
  * Resolve curated data root.
  *
- * Default = **CDN** (`DEFAULT_DATA_BASE` / jsDelivr pin).
- * Local Vite `publicDir` only when `VITE_GEOATLAS_DATA_BASE=local` (or `/`).
+ * - Default / `cdn` / `cdn-derived` → jsDelivr **data-derived/** pin (`DEFAULT_DATA_BASE`)
+ * - `cdn-canonical` → jsDelivr fat `data/` pin (`DEFAULT_DATA_BASE_CANONICAL`)
+ * - `local` → Vite `publicDir` = repo `data/`
+ * - `derived` → Vite `publicDir` = repo `data-derived/`
  */
 export function resolveDataBase(
   envValue: string | undefined = import.meta.env.VITE_GEOATLAS_DATA_BASE,
@@ -25,14 +30,27 @@ export function resolveDataBase(
   const localRaw = (import.meta.env.VITE_GEOATLAS_DATA_LOCAL ?? "/").trim() || "/";
   // Root-relative `/` must stay a single slash for join() → `/manifest.json`
   const localBase = localRaw === "/" ? "/" : withTrailingSlash(localRaw);
-  const cdnBase = withTrailingSlash(
+  const cdnDerivedBase = withTrailingSlash(
     (import.meta.env.VITE_GEOATLAS_DATA_CDN ?? DEFAULT_DATA_BASE).trim() ||
       DEFAULT_DATA_BASE,
   );
+  const cdnCanonicalBase = withTrailingSlash(
+    (
+      import.meta.env.VITE_GEOATLAS_DATA_CDN_CANONICAL ??
+      DEFAULT_DATA_BASE_CANONICAL
+    ).trim() || DEFAULT_DATA_BASE_CANONICAL,
+  );
 
-  // unset / empty / explicit cdn → jsDelivr pin (never Vite publicDir)
-  if (!raw || raw === "cdn" || raw === "default") {
-    return { base: cdnBase, source: "cdn" };
+  // unset / empty / cdn / cdn-derived → jsDelivr derived pin (default consumer)
+  if (!raw || raw === "cdn" || raw === "default" || raw === "cdn-derived") {
+    return { base: cdnDerivedBase, source: "cdn" };
+  }
+  if (raw === "cdn-canonical") {
+    return { base: cdnCanonicalBase, source: "cdn" };
+  }
+  if (raw === "derived") {
+    // Served from Vite publicDir = data-derived/ (see vite.config.ts)
+    return { base: localBase, source: "derived" };
   }
   if (raw === "local" || raw === "/") {
     return { base: localBase, source: "local" };
@@ -45,5 +63,9 @@ export function resolveDataBase(
     /localhost|127\.0\.0\.1/i.test(base) ||
     base.startsWith("/") ||
     base.startsWith("./");
-  return { base, source: isLocal ? "local" : "cdn" };
+  const looksDerived = /data-derived/i.test(base);
+  return {
+    base,
+    source: looksDerived ? "derived" : isLocal ? "local" : "cdn",
+  };
 }

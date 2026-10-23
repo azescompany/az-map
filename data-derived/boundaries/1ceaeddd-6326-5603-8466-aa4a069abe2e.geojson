@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "1ceaeddd-6326-5603-8466-aa4a069abe2e",
+      "properties": {
+        "id": "1ceaeddd-6326-5603-8466-aa4a069abe2e",
+        "name": "Hərbi şəhərcik",
+        "type": "neighborhood",
+        "parent_id": "7cf52e77-47b7-5712-b6ce-739698bc83d3",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.3107969,
+              40.5755233
+            ],
+            [
+              46.3105246,
+              40.5756414
+            ],
+            [
+              46.3100955,
+              40.5758054
+            ],
+            [
+              46.3087919,
+              40.5738415
+            ],
+            [
+              46.3101733,
+              40.5733362
+            ],
+            [
+              46.3113441,
+              40.57529
+            ],
+            [
+              46.3107969,
+              40.5755233
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

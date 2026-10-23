@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "f71d85c0-5a02-541f-8baa-2c3e0a350df7",
+      "properties": {
+        "id": "f71d85c0-5a02-541f-8baa-2c3e0a350df7",
+        "name": "205-ci Qəsəbə",
+        "type": "neighborhood",
+        "parent_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              49.8988321,
+              40.4177723
+            ],
+            [
+              49.8982286,
+              40.4201288
+            ],
+            [
+              49.8962372,
+              40.4198061
+            ],
+            [
+              49.8965737,
+              40.418587
+            ],
+            [
+              49.8956189,
+              40.4184319
+            ],
+            [
+              49.8959354,
+              40.4173169
+            ],
+            [
+              49.8988321,
+              40.4177723
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

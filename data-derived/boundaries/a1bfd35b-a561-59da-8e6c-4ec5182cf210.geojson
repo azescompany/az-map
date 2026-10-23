@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "a1bfd35b-a561-59da-8e6c-4ec5182cf210",
+      "properties": {
+        "id": "a1bfd35b-a561-59da-8e6c-4ec5182cf210",
+        "name": "16-cı Məhəllə",
+        "type": "neighborhood",
+        "parent_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                49.6671936,
+                40.5911918
+              ],
+              [
+                49.6690309,
+                40.5886882
+              ],
+              [
+                49.6714963,
+                40.5897434
+              ],
+              [
+                49.6723989,
+                40.5901332
+              ],
+              [
+                49.6706413,
+                40.5926376
+              ],
+              [
+                49.6671936,
+                40.5911918
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

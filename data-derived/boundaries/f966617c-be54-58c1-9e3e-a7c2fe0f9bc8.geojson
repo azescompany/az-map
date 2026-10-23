@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "f966617c-be54-58c1-9e3e-a7c2fe0f9bc8",
+      "properties": {
+        "id": "f966617c-be54-58c1-9e3e-a7c2fe0f9bc8",
+        "name": "Məlikli məhəlləsi",
+        "type": "neighborhood",
+        "parent_id": "953def2b-b93d-5343-acd7-ef5cffbd9eba",
+        "parent_status": "verified",
+        "subtype": "neighborhood"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8334178,
+              39.996778
+            ],
+            [
+              46.8320398,
+              39.9963176
+            ],
+            [
+              46.8315992,
+              39.9950617
+            ],
+            [
+              46.8328371,
+              39.9941828
+            ],
+            [
+              46.8335908,
+              39.9941301
+            ],
+            [
+              46.8346879,
+              39.9944555
+            ],
+            [
+              46.8348507,
+              39.9948297
+            ],
+            [
+              46.8334178,
+              39.996778
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

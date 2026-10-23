@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "78c2d4fe-1566-5aac-aeb6-e414ea1c6b62",
+      "properties": {
+        "id": "78c2d4fe-1566-5aac-aeb6-e414ea1c6b62",
+        "name": "Keşxurt",
+        "type": "neighborhood",
+        "parent_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.1685948,
+              40.6632713
+            ],
+            [
+              48.1667232,
+              40.6649739
+            ],
+            [
+              48.1650811,
+              40.664772
+            ],
+            [
+              48.1633861,
+              40.6580174
+            ],
+            [
+              48.1653613,
+              40.6572092
+            ],
+            [
+              48.1674206,
+              40.6608152
+            ],
+            [
+              48.1685948,
+              40.6632713
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

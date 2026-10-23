@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "c88b72a0-3d9f-510e-9b92-556ec35da058",
+      "properties": {
+        "id": "c88b72a0-3d9f-510e-9b92-556ec35da058",
+        "name": "Qədimküçə",
+        "type": "neighborhood",
+        "parent_id": "4a92fe72-1565-543e-859d-94af4b3318a8",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.411684,
+              38.8262353
+            ],
+            [
+              48.4100103,
+              38.8275225
+            ],
+            [
+              48.4095168,
+              38.827372
+            ],
+            [
+              48.4088945,
+              38.8255499
+            ],
+            [
+              48.4114051,
+              38.8254162
+            ],
+            [
+              48.411684,
+              38.8262353
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

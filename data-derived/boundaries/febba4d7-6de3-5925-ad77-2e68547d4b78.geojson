@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "febba4d7-6de3-5925-ad77-2e68547d4b78",
+      "properties": {
+        "id": "febba4d7-6de3-5925-ad77-2e68547d4b78",
+        "name": "Anzolu",
+        "type": "neighborhood",
+        "parent_id": "4a92fe72-1565-543e-859d-94af4b3318a8",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.4748232,
+              38.6894018
+            ],
+            [
+              48.4720552,
+              38.6916126
+            ],
+            [
+              48.4652746,
+              38.6934884
+            ],
+            [
+              48.4648454,
+              38.6928018
+            ],
+            [
+              48.4712398,
+              38.6891506
+            ],
+            [
+              48.4712184,
+              38.6883132
+            ],
+            [
+              48.4741795,
+              38.6883969
+            ],
+            [
+              48.4748232,
+              38.6894018
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "03ef6a09-1cf9-54f8-9a10-f505f46b5228",
+      "properties": {
+        "id": "03ef6a09-1cf9-54f8-9a10-f505f46b5228",
+        "name": "77-ci məhəllə",
+        "type": "neighborhood",
+        "parent_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                49.6948714,
+                40.572791
+              ],
+              [
+                49.6951021,
+                40.5727299
+              ],
+              [
+                49.69566,
+                40.5723876
+              ],
+              [
+                49.6957512,
+                40.5724732
+              ],
+              [
+                49.6969153,
+                40.5749506
+              ],
+              [
+                49.6960435,
+                40.5752277
+              ],
+              [
+                49.6948714,
+                40.572791
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

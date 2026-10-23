@@ -1,0 +1,46 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "7355c385-61b6-537d-be2e-916404a98b40",
+      "properties": {
+        "id": "7355c385-61b6-537d-be2e-916404a98b40",
+        "name": "30-cu Məhəllə",
+        "type": "neighborhood",
+        "parent_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                49.6751648,
+                40.5911677
+              ],
+              [
+                49.6762423,
+                40.58968
+              ],
+              [
+                49.680608,
+                40.5915498
+              ],
+              [
+                49.6795524,
+                40.5929905
+              ],
+              [
+                49.6751648,
+                40.5911677
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

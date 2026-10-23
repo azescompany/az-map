@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "872f6fbd-17b4-519a-9c99-4aad43a2dc91",
+      "properties": {
+        "id": "872f6fbd-17b4-519a-9c99-4aad43a2dc91",
+        "name": "Canaxır",
+        "type": "neighborhood",
+        "parent_id": "45206736-f118-53dd-8252-b8d32a2b5cba",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.8101047,
+              41.4170689
+            ],
+            [
+              48.8085866,
+              41.4176329
+            ],
+            [
+              48.8078204,
+              41.4179676
+            ],
+            [
+              48.8041732,
+              41.416701
+            ],
+            [
+              48.8051995,
+              41.4152268
+            ],
+            [
+              48.8089523,
+              41.4142489
+            ],
+            [
+              48.8118507,
+              41.41582
+            ],
+            [
+              48.8101047,
+              41.4170689
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

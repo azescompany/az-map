@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "d9633fb0-7864-55a7-9f74-afd8537db81e",
+      "properties": {
+        "id": "d9633fb0-7864-55a7-9f74-afd8537db81e",
+        "name": "Novonikolayevka",
+        "type": "neighborhood",
+        "parent_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.6462164,
+              41.4639713
+            ],
+            [
+              48.6497651,
+              41.4665596
+            ],
+            [
+              48.6484137,
+              41.4680841
+            ],
+            [
+              48.6423251,
+              41.4651241
+            ],
+            [
+              48.6440841,
+              41.462288
+            ],
+            [
+              48.6466455,
+              41.4636095
+            ],
+            [
+              48.6462164,
+              41.4639713
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

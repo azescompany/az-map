@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "1d6be920-1ede-5232-9e86-cb8916d4513a",
+      "properties": {
+        "id": "1d6be920-1ede-5232-9e86-cb8916d4513a",
+        "name": "Niyamkənd",
+        "type": "neighborhood",
+        "parent_id": "fd5f5117-b94a-549e-8b7d-7112381298ad",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.8084677,
+              41.2630955
+            ],
+            [
+              46.8048269,
+              41.2630143
+            ],
+            [
+              46.8031151,
+              41.2619167
+            ],
+            [
+              46.803077,
+              41.2609351
+            ],
+            [
+              46.8100578,
+              41.2605106
+            ],
+            [
+              46.8103358,
+              41.2622257
+            ],
+            [
+              46.8084572,
+              41.2623713
+            ],
+            [
+              46.8084677,
+              41.2630955
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

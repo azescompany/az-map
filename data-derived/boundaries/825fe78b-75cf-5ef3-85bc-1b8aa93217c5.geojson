@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "825fe78b-75cf-5ef3-85bc-1b8aa93217c5",
+      "properties": {
+        "id": "825fe78b-75cf-5ef3-85bc-1b8aa93217c5",
+        "name": "İkinci Mayak",
+        "type": "neighborhood",
+        "parent_id": "18688643-9cef-5e65-a2fa-a84819393c6c",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              49.3448617,
+              39.3610275
+            ],
+            [
+              49.3354382,
+              39.3647404
+            ],
+            [
+              49.3316869,
+              39.3657632
+            ],
+            [
+              49.3309982,
+              39.3648805
+            ],
+            [
+              49.3372089,
+              39.3622925
+            ],
+            [
+              49.3421615,
+              39.3602288
+            ],
+            [
+              49.3450973,
+              39.3581691
+            ],
+            [
+              49.3467645,
+              39.3591639
+            ],
+            [
+              49.3448617,
+              39.3610275
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

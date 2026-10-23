@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "f61732a0-5cd8-5c34-afca-6324012dfb9f",
+      "properties": {
+        "id": "f61732a0-5cd8-5c34-afca-6324012dfb9f",
+        "name": "17-ci Məhəllə",
+        "type": "neighborhood",
+        "parent_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                49.6515871,
+                40.6029968
+              ],
+              [
+                49.6537499,
+                40.6027016
+              ],
+              [
+                49.6546695,
+                40.6030115
+              ],
+              [
+                49.65516,
+                40.6052796
+              ],
+              [
+                49.6521688,
+                40.6057197
+              ],
+              [
+                49.6515871,
+                40.6029968
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "55fa38f3-886e-5dfd-a345-f638b94b78f0",
+      "properties": {
+        "id": "55fa38f3-886e-5dfd-a345-f638b94b78f0",
+        "name": "Elabad",
+        "type": "neighborhood",
+        "parent_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.8296428,
+              40.7339714
+            ],
+            [
+              47.8277639,
+              40.7352179
+            ],
+            [
+              47.8260368,
+              40.7343266
+            ],
+            [
+              47.8296552,
+              40.7288402
+            ],
+            [
+              47.830834,
+              40.7287269
+            ],
+            [
+              47.830646,
+              40.7323777
+            ],
+            [
+              47.8296428,
+              40.7339714
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

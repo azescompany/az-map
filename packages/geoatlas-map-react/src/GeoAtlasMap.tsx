@@ -138,11 +138,54 @@ export function GeoAtlasMap({
         },
       });
 
-      map.addSource("places", { type: "geojson", data: emptyFc() });
+      map.addSource("places", {
+        type: "geojson",
+        data: emptyFc(),
+        cluster: true,
+        clusterMaxZoom: 14,
+        clusterRadius: 50,
+      });
+      map.addLayer({
+        id: "places-clusters",
+        type: "circle",
+        source: "places",
+        filter: ["has", "point_count"],
+        paint: {
+          "circle-color": "#3d9cf0",
+          "circle-radius": [
+            "step",
+            ["get", "point_count"],
+            16,
+            25,
+            22,
+            100,
+            28,
+            500,
+            36,
+          ],
+          "circle-opacity": 0.85,
+          "circle-stroke-width": 2,
+          "circle-stroke-color": "#0f1419",
+        },
+      });
+      map.addLayer({
+        id: "places-cluster-count",
+        type: "symbol",
+        source: "places",
+        filter: ["has", "point_count"],
+        layout: {
+          "text-field": ["get", "point_count_abbreviated"],
+          "text-size": 12,
+        },
+        paint: {
+          "text-color": "#ffffff",
+        },
+      });
       map.addLayer({
         id: "places-circle",
         type: "circle",
         source: "places",
+        filter: ["!", ["has", "point_count"]],
         paint: {
           "circle-radius": [
             "case",
@@ -196,9 +239,34 @@ export function GeoAtlasMap({
         },
       });
 
+      map.on("click", "places-clusters", (e) => {
+        const feature = e.features?.[0];
+        const clusterId = feature?.properties?.cluster_id;
+        const src = map.getSource("places") as GeoJSONSource;
+        if (
+          clusterId == null ||
+          !feature?.geometry ||
+          !("coordinates" in feature.geometry)
+        ) {
+          return;
+        }
+        const coords = feature.geometry.coordinates as [number, number];
+        void Promise.resolve(src.getClusterExpansionZoom(clusterId)).then(
+          (zoom) => {
+            if (typeof zoom !== "number") return;
+            map.easeTo({ center: coords, zoom });
+          },
+        );
+      });
       map.on("click", "places-circle", (e) => {
         const id = e.features?.[0]?.properties?.id;
         if (typeof id === "string") onPlaceClickRef.current?.(id);
+      });
+      map.on("mouseenter", "places-clusters", () => {
+        map.getCanvas().style.cursor = "pointer";
+      });
+      map.on("mouseleave", "places-clusters", () => {
+        map.getCanvas().style.cursor = "";
       });
       map.on("mouseenter", "places-circle", () => {
         map.getCanvas().style.cursor = "pointer";

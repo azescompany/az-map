@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "0bb026d7-6a8d-551c-ac25-1ad7539cdaff",
+      "properties": {
+        "id": "0bb026d7-6a8d-551c-ac25-1ad7539cdaff",
+        "name": "Aşağı Qələnxur",
+        "type": "neighborhood",
+        "parent_id": "6fec85b0-0967-5a32-8c49-4804119a40ae",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.1513488,
+              41.5002853
+            ],
+            [
+              48.1468307,
+              41.5007947
+            ],
+            [
+              48.1464133,
+              41.4999128
+            ],
+            [
+              48.1490999,
+              41.4992997
+            ],
+            [
+              48.1520374,
+              41.4978854
+            ],
+            [
+              48.1556482,
+              41.4976377
+            ],
+            [
+              48.1564369,
+              41.4995286
+            ],
+            [
+              48.1513488,
+              41.5002853
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

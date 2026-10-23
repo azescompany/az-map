@@ -1,0 +1,54 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "0f1b5e63-6363-5489-a271-467a288d50d2",
+      "properties": {
+        "id": "0f1b5e63-6363-5489-a271-467a288d50d2",
+        "name": "36-cı Məhəllə",
+        "type": "neighborhood",
+        "parent_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                49.6651538,
+                40.5869188
+              ],
+              [
+                49.665166,
+                40.5867891
+              ],
+              [
+                49.6664367,
+                40.5858378
+              ],
+              [
+                49.6666299,
+                40.5855864
+              ],
+              [
+                49.6696053,
+                40.5868559
+              ],
+              [
+                49.6685311,
+                40.5883573
+              ],
+              [
+                49.6651538,
+                40.5869188
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

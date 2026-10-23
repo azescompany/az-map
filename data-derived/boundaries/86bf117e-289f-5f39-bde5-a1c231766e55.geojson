@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "86bf117e-289f-5f39-bde5-a1c231766e55",
+      "properties": {
+        "id": "86bf117e-289f-5f39-bde5-a1c231766e55",
+        "name": "Zarat İsmayıllı",
+        "type": "neighborhood",
+        "parent_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.4064403,
+              40.9238836
+            ],
+            [
+              48.4058073,
+              40.9239525
+            ],
+            [
+              48.4056978,
+              40.9237501
+            ],
+            [
+              48.4070867,
+              40.9229238
+            ],
+            [
+              48.4085941,
+              40.9232878
+            ],
+            [
+              48.4083552,
+              40.9241929
+            ],
+            [
+              48.4072039,
+              40.924155
+            ],
+            [
+              48.4064403,
+              40.9238836
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

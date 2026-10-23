@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "f6af3523-9245-5ff6-a808-62085a271265",
+      "properties": {
+        "id": "f6af3523-9245-5ff6-a808-62085a271265",
+        "name": "Yergi Kek",
+        "type": "neighborhood",
+        "parent_id": "6fec85b0-0967-5a32-8c49-4804119a40ae",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.0589149,
+              41.3486074
+            ],
+            [
+              48.0591667,
+              41.3503003
+            ],
+            [
+              48.0583198,
+              41.35032
+            ],
+            [
+              48.0562269,
+              41.3490357
+            ],
+            [
+              48.056581,
+              41.3484237
+            ],
+            [
+              48.0581836,
+              41.3478731
+            ],
+            [
+              48.0589149,
+              41.3486074
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

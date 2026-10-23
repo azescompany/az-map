@@ -1,0 +1,46 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "21e65255-f9a8-555c-8c36-e50e1a0eddaa",
+      "properties": {
+        "id": "21e65255-f9a8-555c-8c36-e50e1a0eddaa",
+        "name": "45-ci Məhəllə",
+        "type": "neighborhood",
+        "parent_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                49.6760167,
+                40.5829727
+              ],
+              [
+                49.6807728,
+                40.580228
+              ],
+              [
+                49.6817032,
+                40.5811442
+              ],
+              [
+                49.6793677,
+                40.5844019
+              ],
+              [
+                49.6760167,
+                40.5829727
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

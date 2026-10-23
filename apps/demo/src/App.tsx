@@ -12,11 +12,15 @@ import {
   getArea,
   loadAreas,
   loadBoundary,
+  loadCatalogChildren,
   loadManifest,
-  loadAllCatalogPlaces,
   loadPlacesForArea,
   loadPlacesIndex,
   loadReviews,
+  loadSearchIndexForArea,
+  mergeAreaLists,
+  pinActiveAreaUrls,
+  resolvePlacesFileForArea,
   verifiedChildrenOf,
   verifiedChildrenOfType,
 } from "@geoatlas/data";
@@ -27,6 +31,7 @@ import GlobalSearch from "./components/GlobalSearch";
 import TruncatedText from "./components/TruncatedText";
 import { resolveAppMode } from "./appMode";
 import { resolveDataBase } from "./dataBase";
+import { notifyServiceWorkerPin } from "./registerSw";
 
 /** CDN (jsDelivr pin) by default; set VITE_GEOATLAS_DATA_BASE=local for repo data/. */
 const { base: DATA_BASE, source: DATA_SOURCE } = resolveDataBase(
@@ -34,6 +39,10 @@ const { base: DATA_BASE, source: DATA_SOURCE } = resolveDataBase(
 );
 const APP_MODE = resolveAppMode();
 const IS_CUSTOMER = APP_MODE === "customer";
+
+/** Draft copy — Human approve Q8 in docs/claude/14-open-questions.md */
+const BOUNDARY_PARTIAL_NOTICE_AZ =
+  "Sərhəd natamam və ya conflict — rəsmi dəqiqlik hesab edilmir.";
 
 const CATEGORIES = [
   "all",
@@ -81,35 +90,49 @@ export default function App() {
     null,
   );
   const [places, setPlaces] = useState<Place[]>([]);
-  const [catalogPlaces, setCatalogPlaces] = useState<Place[]>([]);
+  /** Places discovered via area selection — scoped search (no full-catalog cold load). */
+  const [searchPlaces, setSearchPlaces] = useState<Place[]>([]);
   const [placesLoading, setPlacesLoading] = useState(false);
   const [selectedPlaceId, setSelectedPlaceId] = useState<string | null>(null);
   const [category, setCategory] = useState<(typeof CATEGORIES)[number]>("all");
   const [devDrawerOpen, setDevDrawerOpen] = useState(false);
   const mapApiRef = useRef<MapLibreMap | null>(null);
+  const childrenLoadedRef = useRef(new Set<string>());
+
+  /** Fetch derived children and return a merged areas list (state may lag). */
+  const ensureChildren = useCallback(
+    async (parentId: string | null, base: Area[]): Promise<Area[]> => {
+      if (!parentId || childrenLoadedRef.current.has(parentId)) return base;
+      const kids = await loadCatalogChildren(DATA_BASE, parentId);
+      childrenLoadedRef.current.add(parentId);
+      if (!kids.length) return base;
+      const merged = mergeAreaLists(base, kids);
+      setAreas(merged);
+      return merged;
+    },
+    [],
+  );
 
   useEffect(() => {
     let cancelled = false;
     (async () => {
       try {
         setLoading(true);
+        // Derived lazy: top + country children (~13 KB br). Canonical: areas.json.
         const [m, a, r] = await Promise.all([
           loadManifest(DATA_BASE),
-          loadAreas(DATA_BASE),
+          loadAreas(DATA_BASE, { lazy: true }),
           loadReviews(DATA_BASE),
-          // Warm places/index.json so resolvePlacesFileForArea never invents 404 paths
           loadPlacesIndex(DATA_BASE),
         ]);
         if (cancelled) return;
         setManifest(m);
         setAreas(a);
         setReviews(r);
+        notifyServiceWorkerPin(m.dataset_version ?? DATA_SOURCE);
         const country = a.find((x) => x.type === "country");
-        const catalog = filterNamedPlaces(
-          await loadAllCatalogPlaces(DATA_BASE),
-        );
-        if (!cancelled) setCatalogPlaces(catalog);
         if (country) {
+          childrenLoadedRef.current.add(country.id);
           setCountryId(country.id);
           setSelectedAreaId(country.id);
           setBoundaryLoading(true);
@@ -202,26 +225,59 @@ export default function App() {
     [namedPlaces, category],
   );
 
+  // Accumulate named places into scoped search index as the user navigates.
+  useEffect(() => {
+    if (!namedPlaces.length) return;
+    setSearchPlaces((prev) => {
+      const byId = new Map(prev.map((p) => [p.id, p]));
+      for (const p of namedPlaces) byId.set(p.id, p);
+      return [...byId.values()];
+    });
+  }, [namedPlaces]);
+
+  // Derived search/{areaId}.json — broaden autocomplete for current leaf shard owner
+  useEffect(() => {
+    const area = selectedAreaId ? getArea(areas, selectedAreaId) : undefined;
+    if (!area || area.type === "country") return;
+    let cancelled = false;
+    const shardId =
+      area.type === "neighborhood" || area.type === "settlement"
+        ? area.parent_id
+        : area.id;
+    if (!shardId) return;
+    (async () => {
+      const hits = await loadSearchIndexForArea(DATA_BASE, shardId);
+      if (cancelled || !hits.length) return;
+      setSearchPlaces((prev) => {
+        const byId = new Map(prev.map((p) => [p.id, p]));
+        for (const p of hits) byId.set(p.id, p);
+        return [...byId.values()];
+      });
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [selectedAreaId, areas]);
+
   const selectedPlace = selectedPlaceId
     ? (namedPlaces.find((p) => p.id === selectedPlaceId) ??
-      catalogPlaces.find((p) => p.id === selectedPlaceId))
+      searchPlaces.find((p) => p.id === selectedPlaceId))
     : undefined;
 
   // Category filter clears incompatible place selection.
   useEffect(() => {
     if (!selectedPlaceId) return;
     if (!filteredPlaces.some((p) => p.id === selectedPlaceId)) {
-      // Keep selection if place is only in catalog (search) but still matches category.
-      const fromCatalog = catalogPlaces.find((p) => p.id === selectedPlaceId);
+      const fromSearch = searchPlaces.find((p) => p.id === selectedPlaceId);
       if (
-        fromCatalog &&
-        (category === "all" || fromCatalog.category === category)
+        fromSearch &&
+        (category === "all" || fromSearch.category === category)
       ) {
         return;
       }
       setSelectedPlaceId(null);
     }
-  }, [category, filteredPlaces, selectedPlaceId, catalogPlaces]);
+  }, [category, filteredPlaces, selectedPlaceId, searchPlaces]);
 
   const selectArea = useCallback(
     async (
@@ -323,48 +379,50 @@ export default function App() {
       }
 
       setBoundaryLoading(true);
+      setPlacesLoading(true);
       setBoundaryLoadError(null);
+      let areasNow = areas;
+      areasNow = await ensureChildren(area.id, areasNow);
+      if (area.parent_id) {
+        areasNow = await ensureChildren(area.parent_id, areasNow);
+      }
+      const shard = resolvePlacesFileForArea(area, areasNow);
+      pinActiveAreaUrls(DATA_BASE, [area], shard ? [shard] : []);
       try {
-        const gj = await loadBoundary(DATA_BASE, area);
+        const [gj, pls] = await Promise.all([
+          loadBoundary(DATA_BASE, area),
+          loadPlacesForArea(DATA_BASE, area, areasNow),
+        ]);
         setSelectedBoundary(gj);
+        setPlaces(pls);
         if (area.boundary_file && !gj) {
-          setBoundaryLoadError(
-            `Sərhəd yüklənmədi: ${area.boundary_file}`,
-          );
+          setBoundaryLoadError(`Sərhəd yüklənmədi: ${area.boundary_file}`);
         } else if (!area.boundary_file || area.geom_status === "missing") {
           setBoundaryLoadError("Bu ərazi üçün sərhəd məlumatı yoxdur");
+        }
+        if (opts?.placeId) {
+          const named = filterNamedPlaces(pls);
+          if (!named.some((p) => p.id === opts.placeId)) {
+            const fromSearch = searchPlaces.find((p) => p.id === opts.placeId);
+            if (!fromSearch) setSelectedPlaceId(null);
+          }
         }
       } catch {
         setSelectedBoundary(null);
         setBoundaryLoadError("Sərhəd GeoJSON yüklənərkən xəta baş verdi");
       } finally {
         setBoundaryLoading(false);
-      }
-
-      setPlacesLoading(true);
-      try {
-        const pls = await loadPlacesForArea(DATA_BASE, area, areas);
-        setPlaces(pls);
-        if (opts?.placeId) {
-          const named = filterNamedPlaces(pls);
-          if (!named.some((p) => p.id === opts.placeId)) {
-            // Place may still be valid via catalog (same rayon file).
-            const cat = catalogPlaces.find((p) => p.id === opts.placeId);
-            if (!cat) setSelectedPlaceId(null);
-          }
-        }
-      } finally {
         setPlacesLoading(false);
       }
     },
-    [areas, cityId, countryId, rayonId, catalogPlaces],
+    [areas, cityId, countryId, rayonId, searchPlaces, ensureChildren],
   );
 
   const selectPlaceById = useCallback(
     (placeId: string) => {
       const place =
         namedPlaces.find((p) => p.id === placeId) ??
-        catalogPlaces.find((p) => p.id === placeId);
+        searchPlaces.find((p) => p.id === placeId);
       if (!place) return;
       setSelectedPlaceId(place.id);
       if (place.area_id) {
@@ -372,7 +430,7 @@ export default function App() {
         if (a) void selectArea(a, { placeId: place.id, clearPlace: false });
       }
     },
-    [namedPlaces, catalogPlaces, areas, selectArea],
+    [namedPlaces, searchPlaces, areas, selectArea],
   );
 
   const midOptions = useMemo(
@@ -528,7 +586,7 @@ export default function App() {
         search={
           <GlobalSearch
             areas={areas}
-            places={catalogPlaces}
+            places={searchPlaces}
             customer={IS_CUSTOMER}
             onSelectArea={(a) => void selectArea(a)}
             onSelectPlace={selectPlaceById}
@@ -676,6 +734,11 @@ export default function App() {
             {placesLoading ? " · məkanlar yüklənir…" : ""}
             {boundaryLoadError ? ` · ${boundaryLoadError}` : ""}
             {boundaryLoading ? " · sərhəd…" : ""}
+            {selectedArea &&
+            (selectedArea.geom_status === "partial" ||
+              selectedArea.geom_status === "conflict")
+              ? ` · ${BOUNDARY_PARTIAL_NOTICE_AZ}`
+              : ""}
           </div>
         }
         legend={

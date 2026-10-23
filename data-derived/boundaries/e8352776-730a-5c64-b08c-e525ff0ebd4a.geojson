@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "e8352776-730a-5c64-b08c-e525ff0ebd4a",
+      "properties": {
+        "id": "e8352776-730a-5c64-b08c-e525ff0ebd4a",
+        "name": "Müdri",
+        "type": "neighborhood",
+        "parent_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.3318286,
+              40.8699499
+            ],
+            [
+              48.3325591,
+              40.8727683
+            ],
+            [
+              48.3305688,
+              40.8731404
+            ],
+            [
+              48.3280716,
+              40.8713591
+            ],
+            [
+              48.3281198,
+              40.8709635
+            ],
+            [
+              48.3287052,
+              40.8705249
+            ],
+            [
+              48.3318286,
+              40.8699499
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

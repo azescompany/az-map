@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ed3b1d85-84d9-549f-8bcd-7f5203ee58b7",
+      "properties": {
+        "id": "ed3b1d85-84d9-549f-8bcd-7f5203ee58b7",
+        "name": "Qızqayıtdı",
+        "type": "neighborhood",
+        "parent_id": "18688643-9cef-5e65-a2fa-a84819393c6c",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              49.1766131,
+              39.2218979
+            ],
+            [
+              49.1766515,
+              39.2228807
+            ],
+            [
+              49.1752163,
+              39.2231488
+            ],
+            [
+              49.1744859,
+              39.2227616
+            ],
+            [
+              49.1749857,
+              39.2219674
+            ],
+            [
+              49.1766131,
+              39.2218979
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

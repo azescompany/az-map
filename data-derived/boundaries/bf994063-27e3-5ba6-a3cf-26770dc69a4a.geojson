@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "bf994063-27e3-5ba6-a3cf-26770dc69a4a",
+      "properties": {
+        "id": "bf994063-27e3-5ba6-a3cf-26770dc69a4a",
+        "name": "Keşqutan",
+        "type": "neighborhood",
+        "parent_id": "fd5f5117-b94a-549e-8b7d-7112381298ad",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.913098,
+              41.3749928
+            ],
+            [
+              46.9123721,
+              41.3761565
+            ],
+            [
+              46.9101156,
+              41.3763527
+            ],
+            [
+              46.9094641,
+              41.3728275
+            ],
+            [
+              46.9127664,
+              41.3724644
+            ],
+            [
+              46.913098,
+              41.3749928
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

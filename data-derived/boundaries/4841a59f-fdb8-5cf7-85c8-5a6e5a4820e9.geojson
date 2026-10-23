@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "4841a59f-fdb8-5cf7-85c8-5a6e5a4820e9",
+      "properties": {
+        "id": "4841a59f-fdb8-5cf7-85c8-5a6e5a4820e9",
+        "name": "Qarakosa",
+        "type": "neighborhood",
+        "parent_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              49.3262037,
+              39.963283
+            ],
+            [
+              49.3240931,
+              39.9635891
+            ],
+            [
+              49.3232082,
+              39.9620623
+            ],
+            [
+              49.325322,
+              39.9614924
+            ],
+            [
+              49.3259358,
+              39.9614755
+            ],
+            [
+              49.3262037,
+              39.963283
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

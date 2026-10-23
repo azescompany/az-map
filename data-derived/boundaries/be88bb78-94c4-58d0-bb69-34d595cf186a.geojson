@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "be88bb78-94c4-58d0-bb69-34d595cf186a",
+      "properties": {
+        "id": "be88bb78-94c4-58d0-bb69-34d595cf186a",
+        "name": "Mirvari Park kompleksi",
+        "type": "neighborhood",
+        "parent_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              49.8154879,
+              40.3836877
+            ],
+            [
+              49.8153833,
+              40.3842087
+            ],
+            [
+              49.8148254,
+              40.3841597
+            ],
+            [
+              49.8150761,
+              40.3823801
+            ],
+            [
+              49.8156609,
+              40.3824189
+            ],
+            [
+              49.8156086,
+              40.3827918
+            ],
+            [
+              49.8161423,
+              40.3828327
+            ],
+            [
+              49.8160055,
+              40.3837347
+            ],
+            [
+              49.8154879,
+              40.3836877
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

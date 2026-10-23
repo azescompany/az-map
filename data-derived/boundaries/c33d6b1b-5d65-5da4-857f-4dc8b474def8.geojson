@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "c33d6b1b-5d65-5da4-857f-4dc8b474def8",
+      "properties": {
+        "id": "c33d6b1b-5d65-5da4-857f-4dc8b474def8",
+        "name": "Rəngibə",
+        "type": "neighborhood",
+        "parent_id": "bc57b59f-7be7-5534-b28f-fa95ac1f3097",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.3583269,
+              40.7028301
+            ],
+            [
+              47.3564708,
+              40.7029521
+            ],
+            [
+              47.3564494,
+              40.6999751
+            ],
+            [
+              47.3574793,
+              40.6995034
+            ],
+            [
+              47.3591208,
+              40.7004225
+            ],
+            [
+              47.3584342,
+              40.7017402
+            ],
+            [
+              47.3583269,
+              40.7028301
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

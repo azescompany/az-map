@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "7cf349ff-41ea-5d93-b664-117cc11157af",
+      "properties": {
+        "id": "7cf349ff-41ea-5d93-b664-117cc11157af",
+        "name": "Qaragöz",
+        "type": "neighborhood",
+        "parent_id": "cac9becb-d9eb-5a5e-9340-cab7a24f3d70",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.9848885,
+              40.9500162
+            ],
+            [
+              48.9848981,
+              40.949545
+            ],
+            [
+              48.9830096,
+              40.9479561
+            ],
+            [
+              48.9836427,
+              40.9471502
+            ],
+            [
+              48.986059,
+              40.9487893
+            ],
+            [
+              48.9861087,
+              40.9495428
+            ],
+            [
+              48.9872599,
+              40.9498067
+            ],
+            [
+              48.9871129,
+              40.9502809
+            ],
+            [
+              48.9848885,
+              40.9500162
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

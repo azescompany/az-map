@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "f6cade97-ec1a-5bed-b0df-5216030879a2",
+      "properties": {
+        "id": "f6cade97-ec1a-5bed-b0df-5216030879a2",
+        "name": "Qaraağac",
+        "type": "neighborhood",
+        "parent_id": "99a0e3f5-b601-5aef-8438-5162dd895e3a",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              44.8668081,
+              39.6991877
+            ],
+            [
+              44.85616,
+              39.6972172
+            ],
+            [
+              44.8596198,
+              39.689116
+            ],
+            [
+              44.8694689,
+              39.6910479
+            ],
+            [
+              44.8703057,
+              39.6922533
+            ],
+            [
+              44.8668081,
+              39.6991877
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

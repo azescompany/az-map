@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "59cd374a-a457-5ec4-93f2-47ab63e39d40",
+      "properties": {
+        "id": "59cd374a-a457-5ec4-93f2-47ab63e39d40",
+        "name": "Məncəroba",
+        "type": "neighborhood",
+        "parent_id": "45206736-f118-53dd-8252-b8d32a2b5cba",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.80399,
+              41.5400756
+            ],
+            [
+              48.798759,
+              41.5398555
+            ],
+            [
+              48.7947232,
+              41.5379831
+            ],
+            [
+              48.7952408,
+              41.536798
+            ],
+            [
+              48.7977505,
+              41.5379121
+            ],
+            [
+              48.8040095,
+              41.5386262
+            ],
+            [
+              48.80399,
+              41.5400756
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

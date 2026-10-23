@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "bf43fb0f-2282-5afd-9395-65cc47b7d6ff",
+      "properties": {
+        "id": "bf43fb0f-2282-5afd-9395-65cc47b7d6ff",
+        "name": "Oğlandərə",
+        "type": "neighborhood",
+        "parent_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              49.6684373,
+              40.3617544
+            ],
+            [
+              49.6664375,
+              40.3601164
+            ],
+            [
+              49.6642496,
+              40.3583194
+            ],
+            [
+              49.6649324,
+              40.3575897
+            ],
+            [
+              49.6661207,
+              40.3579254
+            ],
+            [
+              49.6686654,
+              40.3600649
+            ],
+            [
+              49.6695442,
+              40.360747
+            ],
+            [
+              49.6684373,
+              40.3617544
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

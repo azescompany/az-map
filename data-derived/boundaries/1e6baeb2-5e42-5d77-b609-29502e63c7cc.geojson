@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "1e6baeb2-5e42-5d77-b609-29502e63c7cc",
+      "properties": {
+        "id": "1e6baeb2-5e42-5d77-b609-29502e63c7cc",
+        "name": "Ceyrançöl",
+        "type": "neighborhood",
+        "parent_id": "43959365-1f7e-50d0-aa64-710298cab5bd",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              45.4650736,
+              41.3012654
+            ],
+            [
+              45.462939,
+              41.3026437
+            ],
+            [
+              45.4595187,
+              41.300731
+            ],
+            [
+              45.4623208,
+              41.2969135
+            ],
+            [
+              45.4653366,
+              41.2979684
+            ],
+            [
+              45.4643118,
+              41.2996614
+            ],
+            [
+              45.4650736,
+              41.3012654
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

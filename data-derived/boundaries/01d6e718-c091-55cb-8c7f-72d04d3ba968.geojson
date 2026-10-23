@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "01d6e718-c091-55cb-8c7f-72d04d3ba968",
+      "properties": {
+        "id": "01d6e718-c091-55cb-8c7f-72d04d3ba968",
+        "name": "Havuş",
+        "type": "neighborhood",
+        "parent_id": "6c34e687-79f7-5cae-aaa8-904708c403a9",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              45.2451365,
+              39.6024183
+            ],
+            [
+              45.2452116,
+              39.6042948
+            ],
+            [
+              45.2430336,
+              39.6045428
+            ],
+            [
+              45.2412204,
+              39.6033028
+            ],
+            [
+              45.2431945,
+              39.6019306
+            ],
+            [
+              45.2447073,
+              39.6013602
+            ],
+            [
+              45.2451365,
+              39.6024183
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

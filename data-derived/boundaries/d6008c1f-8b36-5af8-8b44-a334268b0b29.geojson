@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "d6008c1f-8b36-5af8-8b44-a334268b0b29",
+      "properties": {
+        "id": "d6008c1f-8b36-5af8-8b44-a334268b0b29",
+        "name": "Sofikənd",
+        "type": "neighborhood",
+        "parent_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.6257192,
+              41.2829292
+            ],
+            [
+              48.6292693,
+              41.2844806
+            ],
+            [
+              48.631025,
+              41.2869598
+            ],
+            [
+              48.6272627,
+              41.2871047
+            ],
+            [
+              48.6249088,
+              41.2839876
+            ],
+            [
+              48.6256246,
+              41.2830528
+            ],
+            [
+              48.6257192,
+              41.2829292
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

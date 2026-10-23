@@ -15,7 +15,9 @@ import {
   filterNamedPlaces,
   loadAreas,
   loadBoundary,
+  loadCatalogChildren,
   loadPlacesForArea,
+  mergeAreaLists,
 } from "@geoatlas/data";
 import {
   createGeoCascade,
@@ -94,7 +96,7 @@ export function GeoCascadeProvider({
     (async () => {
       try {
         setLoading(true);
-        const list = await loadAreas(dataBase);
+        const list = await loadAreas(dataBase, { lazy: true });
         if (cancelled) return;
         setAreas(list);
         const country = list.find((a) => a.type === "country");
@@ -115,6 +117,34 @@ export function GeoCascadeProvider({
     };
   }, [dataBase]);
 
+  // Derived lazy: fetch verified children when cascade parent changes
+  useEffect(() => {
+    const parentIds = [
+      selection.countryId,
+      selection.cityId,
+      selection.rayonId,
+      selection.neighborhoodId,
+    ].filter((id): id is string => !!id);
+    if (!parentIds.length) return;
+    let cancelled = false;
+    (async () => {
+      for (const pid of parentIds) {
+        const kids = await loadCatalogChildren(dataBase, pid);
+        if (cancelled || !kids.length) continue;
+        setAreas((prev) => mergeAreaLists(prev, kids));
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [
+    dataBase,
+    selection.countryId,
+    selection.cityId,
+    selection.rayonId,
+    selection.neighborhoodId,
+  ]);
+
   const leaf = cascade.leafArea(selection);
   const leafCenter = cascade.leafGeo(selection).center;
   const leafId = leafAreaId(selection);
@@ -128,24 +158,21 @@ export function GeoCascadeProvider({
     let cancelled = false;
     (async () => {
       setBoundaryLoading(true);
+      if (shouldLoadPlaces) setPlacesLoading(true);
       try {
-        const gj = await loadBoundary(dataBase, leaf);
-        if (!cancelled) setBoundary(gj);
+        const boundaryPromise = loadBoundary(dataBase, leaf);
+        const placesPromise = shouldLoadPlaces
+          ? loadPlacesForArea(dataBase, leaf, areas).then(filterNamedPlaces)
+          : Promise.resolve([] as Place[]);
+        const [gj, pls] = await Promise.all([boundaryPromise, placesPromise]);
+        if (cancelled) return;
+        setBoundary(gj);
+        setPlaces(pls);
       } finally {
-        if (!cancelled) setBoundaryLoading(false);
-      }
-      if (!shouldLoadPlaces) {
-        if (!cancelled) setPlaces([]);
-        return;
-      }
-      setPlacesLoading(true);
-      try {
-        const pls = filterNamedPlaces(
-          await loadPlacesForArea(dataBase, leaf, areas),
-        );
-        if (!cancelled) setPlaces(pls);
-      } finally {
-        if (!cancelled) setPlacesLoading(false);
+        if (!cancelled) {
+          setBoundaryLoading(false);
+          setPlacesLoading(false);
+        }
       }
     })();
     return () => {

@@ -1,0 +1,64 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "facf71b8-9370-5a7e-8abb-641eb95eef47",
+      "properties": {
+        "id": "facf71b8-9370-5a7e-8abb-641eb95eef47",
+        "name": "Eynibulaq",
+        "type": "neighborhood",
+        "parent_id": "cac9becb-d9eb-5a5e-9340-cab7a24f3d70",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              49.0457372,
+              41.104056
+            ],
+            [
+              49.036137,
+              41.1102893
+            ],
+            [
+              49.0304213,
+              41.1045095
+            ],
+            [
+              49.0359418,
+              41.1004626
+            ],
+            [
+              49.0374618,
+              41.1014088
+            ],
+            [
+              49.0407422,
+              41.0987262
+            ],
+            [
+              49.0421963,
+              41.0993725
+            ],
+            [
+              49.0420675,
+              41.1007954
+            ],
+            [
+              49.0451789,
+              41.1024124
+            ],
+            [
+              49.0457372,
+              41.104056
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

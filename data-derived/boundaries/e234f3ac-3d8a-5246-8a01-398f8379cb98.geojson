@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "e234f3ac-3d8a-5246-8a01-398f8379cb98",
+      "properties": {
+        "id": "e234f3ac-3d8a-5246-8a01-398f8379cb98",
+        "name": "Gilar",
+        "type": "neighborhood",
+        "parent_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.1473554,
+              38.9168406
+            ],
+            [
+              48.1479228,
+              38.9190914
+            ],
+            [
+              48.1461577,
+              38.9194837
+            ],
+            [
+              48.1454643,
+              38.9182685
+            ],
+            [
+              48.1444556,
+              38.9182249
+            ],
+            [
+              48.1443436,
+              38.9173584
+            ],
+            [
+              48.1473554,
+              38.9168406
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

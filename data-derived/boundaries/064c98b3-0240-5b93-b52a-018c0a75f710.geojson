@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "064c98b3-0240-5b93-b52a-018c0a75f710",
+      "properties": {
+        "id": "064c98b3-0240-5b93-b52a-018c0a75f710",
+        "name": "Avtovağzal Daşkəsən",
+        "type": "neighborhood",
+        "parent_id": "666fc78b-9053-5fe5-b2e6-8156dcdd80c7",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.0888897,
+              40.517496
+            ],
+            [
+              46.0881494,
+              40.5176377
+            ],
+            [
+              46.0878919,
+              40.5172085
+            ],
+            [
+              46.0888307,
+              40.5167956
+            ],
+            [
+              46.0891713,
+              40.5172289
+            ],
+            [
+              46.0891338,
+              40.5173971
+            ],
+            [
+              46.0890305,
+              40.5174471
+            ],
+            [
+              46.0888897,
+              40.517496
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

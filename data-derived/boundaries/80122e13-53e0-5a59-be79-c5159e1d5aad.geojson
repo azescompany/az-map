@@ -1,0 +1,46 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "80122e13-53e0-5a59-be79-c5159e1d5aad",
+      "properties": {
+        "id": "80122e13-53e0-5a59-be79-c5159e1d5aad",
+        "name": "80-ci məhəllə",
+        "type": "neighborhood",
+        "parent_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                49.6980339,
+                40.5718938
+              ],
+              [
+                49.6989137,
+                40.5716411
+              ],
+              [
+                49.70011,
+                40.5741023
+              ],
+              [
+                49.6991926,
+                40.5743549
+              ],
+              [
+                49.6980339,
+                40.5718938
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

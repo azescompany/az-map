@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "44757871-fd50-59e6-b9e4-a4b6705b5797",
+      "properties": {
+        "id": "44757871-fd50-59e6-b9e4-a4b6705b5797",
+        "name": "Xasıdərə",
+        "type": "neighborhood",
+        "parent_id": "0b66ddcc-de63-5256-a51b-f003d95e945e",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.4118128,
+              40.6999426
+            ],
+            [
+              48.4114587,
+              40.6996579
+            ],
+            [
+              48.4107898,
+              40.6996384
+            ],
+            [
+              48.4106318,
+              40.6988671
+            ],
+            [
+              48.4122133,
+              40.6985562
+            ],
+            [
+              48.4128216,
+              40.6996138
+            ],
+            [
+              48.4118128,
+              40.6999426
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

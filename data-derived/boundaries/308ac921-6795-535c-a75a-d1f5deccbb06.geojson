@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "308ac921-6795-535c-a75a-d1f5deccbb06",
+      "properties": {
+        "id": "308ac921-6795-535c-a75a-d1f5deccbb06",
+        "name": "Yeni Muğanabad YK",
+        "type": "neighborhood",
+        "parent_id": "286e9a90-aeb8-5495-a7f5-ac396d834cc6",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.5767012,
+              40.6490202
+            ],
+            [
+              48.5722028,
+              40.652218
+            ],
+            [
+              48.5707301,
+              40.6495812
+            ],
+            [
+              48.5757091,
+              40.6480711
+            ],
+            [
+              48.5767012,
+              40.6490202
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "f07b7e1c-8e8a-5a78-b2c3-33d2f20f127e",
+      "properties": {
+        "id": "f07b7e1c-8e8a-5a78-b2c3-33d2f20f127e",
+        "name": "Bağəli",
+        "type": "neighborhood",
+        "parent_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.3610654,
+              40.8614361
+            ],
+            [
+              48.3597243,
+              40.8614077
+            ],
+            [
+              48.3584583,
+              40.8604016
+            ],
+            [
+              48.358925,
+              40.8601298
+            ],
+            [
+              48.3597028,
+              40.8607667
+            ],
+            [
+              48.3611137,
+              40.8605882
+            ],
+            [
+              48.3610654,
+              40.8614361
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

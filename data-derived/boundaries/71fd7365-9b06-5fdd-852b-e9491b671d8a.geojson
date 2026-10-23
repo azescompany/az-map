@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "71fd7365-9b06-5fdd-852b-e9491b671d8a",
+      "properties": {
+        "id": "71fd7365-9b06-5fdd-852b-e9491b671d8a",
+        "name": "Çökərə",
+        "type": "neighborhood",
+        "parent_id": "4a92fe72-1565-543e-859d-94af4b3318a8",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.3136687,
+              38.7009962
+            ],
+            [
+              48.3127782,
+              38.7018168
+            ],
+            [
+              48.3111904,
+              38.7023694
+            ],
+            [
+              48.3107183,
+              38.7018335
+            ],
+            [
+              48.3122203,
+              38.7003096
+            ],
+            [
+              48.3136687,
+              38.7009962
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

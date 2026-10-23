@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "53ab4b48-0001-5741-a7d1-8e7f89f84e77",
+      "properties": {
+        "id": "53ab4b48-0001-5741-a7d1-8e7f89f84e77",
+        "name": "1-ci Mikrorayon",
+        "type": "neighborhood",
+        "parent_id": "3bd2f01d-ea83-5489-a16e-9905cd0b8d9c",
+        "parent_status": "verified",
+        "subtype": "neighborhood"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.1447238,
+              40.6149094
+            ],
+            [
+              47.140215,
+              40.6156587
+            ],
+            [
+              47.1395311,
+              40.6132194
+            ],
+            [
+              47.1441096,
+              40.6124966
+            ],
+            [
+              47.1447238,
+              40.6149094
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

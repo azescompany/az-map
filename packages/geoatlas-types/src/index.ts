@@ -1,4 +1,4 @@
-export type SourceName = "overture" | "osm" | "geonames";
+export type SourceName = "overture" | "osm" | "geonames" | "derived_search";
 
 export type ParentStatus =
   | "verified"

@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "8c000b82-f2c5-5250-bbc1-cba2d4d4d379",
+      "properties": {
+        "id": "8c000b82-f2c5-5250-bbc1-cba2d4d4d379",
+        "name": "Candahar",
+        "type": "neighborhood",
+        "parent_id": "cac9becb-d9eb-5a5e-9340-cab7a24f3d70",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              49.242847,
+              40.9833241
+            ],
+            [
+              49.2401326,
+              40.9854137
+            ],
+            [
+              49.2355591,
+              40.988317
+            ],
+            [
+              49.2334163,
+              40.9865189
+            ],
+            [
+              49.2371371,
+              40.9835842
+            ],
+            [
+              49.243936,
+              40.9803109
+            ],
+            [
+              49.2445643,
+              40.9811792
+            ],
+            [
+              49.2427719,
+              40.9824332
+            ],
+            [
+              49.242847,
+              40.9833241
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

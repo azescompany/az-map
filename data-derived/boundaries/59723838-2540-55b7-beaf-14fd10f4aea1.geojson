@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "59723838-2540-55b7-beaf-14fd10f4aea1",
+      "properties": {
+        "id": "59723838-2540-55b7-beaf-14fd10f4aea1",
+        "name": "Yuxarı Bilnə",
+        "type": "neighborhood",
+        "parent_id": "4a92fe72-1565-543e-859d-94af4b3318a8",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.4163832,
+              38.8095334
+            ],
+            [
+              48.4138942,
+              38.809383
+            ],
+            [
+              48.4120917,
+              38.8081122
+            ],
+            [
+              48.4136796,
+              38.8071591
+            ],
+            [
+              48.4136367,
+              38.805905
+            ],
+            [
+              48.4154606,
+              38.806206
+            ],
+            [
+              48.4169626,
+              38.8081122
+            ],
+            [
+              48.4163832,
+              38.8095334
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

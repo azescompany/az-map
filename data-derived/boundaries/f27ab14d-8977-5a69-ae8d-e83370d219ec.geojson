@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "f27ab14d-8977-5a69-ae8d-e83370d219ec",
+      "properties": {
+        "id": "f27ab14d-8977-5a69-ae8d-e83370d219ec",
+        "name": "Daşlıyataq",
+        "type": "neighborhood",
+        "parent_id": "5fb6cd28-0ea7-5ac3-994f-48bb0bf88343",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.8433747,
+              41.335606
+            ],
+            [
+              48.8441242,
+              41.337022
+            ],
+            [
+              48.8413224,
+              41.3377358
+            ],
+            [
+              48.836219,
+              41.3336785
+            ],
+            [
+              48.8373198,
+              41.3316498
+            ],
+            [
+              48.8421729,
+              41.3337161
+            ],
+            [
+              48.8432924,
+              41.3354267
+            ],
+            [
+              48.8433747,
+              41.335606
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

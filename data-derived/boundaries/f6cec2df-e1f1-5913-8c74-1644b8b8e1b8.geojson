@@ -1,0 +1,54 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "f6cec2df-e1f1-5913-8c74-1644b8b8e1b8",
+      "properties": {
+        "id": "f6cec2df-e1f1-5913-8c74-1644b8b8e1b8",
+        "name": "29-cu Məhəllə",
+        "type": "neighborhood",
+        "parent_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                49.6708634,
+                40.5927317
+              ],
+              [
+                49.6712446,
+                40.5921858
+              ],
+              [
+                49.6718571,
+                40.5913234
+              ],
+              [
+                49.672632,
+                40.5902322
+              ],
+              [
+                49.6746155,
+                40.591064
+              ],
+              [
+                49.6728234,
+                40.5935771
+              ],
+              [
+                49.6708634,
+                40.5927317
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

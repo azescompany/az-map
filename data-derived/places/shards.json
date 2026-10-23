@@ -1,0 +1,2228 @@
+{
+  "type": "PlacesShards",
+  "count": 111,
+  "by_key": {
+    "yasamal": {
+      "key": "yasamal",
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "canonical_file": "places/yasamal_all.json",
+      "count": 2468,
+      "name": "Yasamal rayonu",
+      "derived_index": "places/index/d778f149-f9cd-57d5-850c-ff2f328b7c49.json",
+      "derived_detail": "places/detail/d778f149-f9cd-57d5-850c-ff2f328b7c49.json",
+      "derived_search": "search/d778f149-f9cd-57d5-850c-ff2f328b7c49.json"
+    },
+    "nasimi": {
+      "key": "nasimi",
+      "area_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "canonical_file": "places/nasimi_all.json",
+      "count": 3187,
+      "name": "Nəsimi rayonu",
+      "derived_index": "places/index/660dc895-a367-5821-9fff-13627bdb2d6d.json",
+      "derived_detail": "places/detail/660dc895-a367-5821-9fff-13627bdb2d6d.json",
+      "derived_search": "search/660dc895-a367-5821-9fff-13627bdb2d6d.json"
+    },
+    "narimanov": {
+      "key": "narimanov",
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "canonical_file": "places/narimanov_all.json",
+      "count": 2915,
+      "name": "Nərimanov rayonu",
+      "derived_index": "places/index/bf27cd5f-18fd-5db3-a793-c54890dc2480.json",
+      "derived_detail": "places/detail/bf27cd5f-18fd-5db3-a793-c54890dc2480.json",
+      "derived_search": "search/bf27cd5f-18fd-5db3-a793-c54890dc2480.json"
+    },
+    "nizami_baki": {
+      "key": "nizami_baki",
+      "area_id": "efdc6d2d-b895-5692-a7c4-724ef5302eda",
+      "canonical_file": "places/nizami_baki_all.json",
+      "count": 1203,
+      "name": "Nizami rayonu",
+      "derived_index": "places/index/efdc6d2d-b895-5692-a7c4-724ef5302eda.json",
+      "derived_detail": "places/detail/efdc6d2d-b895-5692-a7c4-724ef5302eda.json",
+      "derived_search": "search/efdc6d2d-b895-5692-a7c4-724ef5302eda.json"
+    },
+    "binagadi": {
+      "key": "binagadi",
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "canonical_file": "places/binagadi_all.json",
+      "count": 2240,
+      "name": "Binəqədi rayonu",
+      "derived_index": "places/index/ebe11990-4641-52f5-aa58-e11559c4ca59.json",
+      "derived_detail": "places/detail/ebe11990-4641-52f5-aa58-e11559c4ca59.json",
+      "derived_search": "search/ebe11990-4641-52f5-aa58-e11559c4ca59.json"
+    },
+    "sabail": {
+      "key": "sabail",
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "canonical_file": "places/sabail_all.json",
+      "count": 2625,
+      "name": "Səbail rayonu",
+      "derived_index": "places/index/d7ac5d00-4386-5df1-b2ad-5128849407fc.json",
+      "derived_detail": "places/detail/d7ac5d00-4386-5df1-b2ad-5128849407fc.json",
+      "derived_search": "search/d7ac5d00-4386-5df1-b2ad-5128849407fc.json"
+    },
+    "xetai": {
+      "key": "xetai",
+      "area_id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "canonical_file": "places/xetai_all.json",
+      "count": 1917,
+      "name": "Xətai rayonu",
+      "derived_index": "places/index/e9065f3d-f0c2-5406-b98e-25b8d52e3b5b.json",
+      "derived_detail": "places/detail/e9065f3d-f0c2-5406-b98e-25b8d52e3b5b.json",
+      "derived_search": "search/e9065f3d-f0c2-5406-b98e-25b8d52e3b5b.json"
+    },
+    "sabuncu": {
+      "key": "sabuncu",
+      "area_id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "canonical_file": "places/sabuncu_all.json",
+      "count": 2308,
+      "name": "Sabunçu rayonu",
+      "derived_index": "places/index/4bad6478-27be-570c-8965-d1c6339f8128.json",
+      "derived_detail": "places/detail/4bad6478-27be-570c-8965-d1c6339f8128.json",
+      "derived_search": "search/4bad6478-27be-570c-8965-d1c6339f8128.json"
+    },
+    "surakhani": {
+      "key": "surakhani",
+      "area_id": "d2981fa1-7fe5-5b12-9a6b-99cd9baaea16",
+      "canonical_file": "places/surakhani_all.json",
+      "count": 1208,
+      "name": "Suraxanı rayonu",
+      "derived_index": "places/index/d2981fa1-7fe5-5b12-9a6b-99cd9baaea16.json",
+      "derived_detail": "places/detail/d2981fa1-7fe5-5b12-9a6b-99cd9baaea16.json",
+      "derived_search": "search/d2981fa1-7fe5-5b12-9a6b-99cd9baaea16.json"
+    },
+    "xezer": {
+      "key": "xezer",
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "canonical_file": "places/xezer_all.json",
+      "count": 2031,
+      "name": "Xəzər rayonu",
+      "derived_index": "places/index/fbee2486-f2fb-5475-a8b9-aa46f689feb7.json",
+      "derived_detail": "places/detail/fbee2486-f2fb-5475-a8b9-aa46f689feb7.json",
+      "derived_search": "search/fbee2486-f2fb-5475-a8b9-aa46f689feb7.json"
+    },
+    "pirallahi": {
+      "key": "pirallahi",
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "canonical_file": "places/pirallahi_all.json",
+      "count": 168,
+      "name": "Pirallahı rayonu",
+      "derived_index": "places/index/2a382cd5-8bc4-55a0-86d2-e2a6072e8f73.json",
+      "derived_detail": "places/detail/2a382cd5-8bc4-55a0-86d2-e2a6072e8f73.json",
+      "derived_search": "search/2a382cd5-8bc4-55a0-86d2-e2a6072e8f73.json"
+    },
+    "qaradag": {
+      "key": "qaradag",
+      "area_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+      "canonical_file": "places/qaradag_all.json",
+      "count": 1013,
+      "name": "Qaradağ rayonu",
+      "derived_index": "places/index/807ae588-0bb8-51ee-8c6f-9b5267abbbfd.json",
+      "derived_detail": "places/detail/807ae588-0bb8-51ee-8c6f-9b5267abbbfd.json",
+      "derived_search": "search/807ae588-0bb8-51ee-8c6f-9b5267abbbfd.json"
+    },
+    "sumqayit": {
+      "key": "sumqayit",
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "canonical_file": "places/sumqayit_all.json",
+      "count": 1724,
+      "name": "Sumqayıt",
+      "derived_index": "places/index/a02b58f1-3009-5ce3-a728-69d77b411dec.json",
+      "derived_detail": "places/detail/a02b58f1-3009-5ce3-a728-69d77b411dec.json",
+      "derived_search": "search/a02b58f1-3009-5ce3-a728-69d77b411dec.json"
+    },
+    "masazir": {
+      "key": "masazir",
+      "area_id": "fbfbd698-3dee-5bda-a63a-71b21920d989",
+      "canonical_file": "places/masazir_all.json",
+      "count": 263,
+      "name": "Masazır",
+      "derived_index": "places/index/fbfbd698-3dee-5bda-a63a-71b21920d989.json",
+      "derived_detail": "places/detail/fbfbd698-3dee-5bda-a63a-71b21920d989.json",
+      "derived_search": "search/fbfbd698-3dee-5bda-a63a-71b21920d989.json"
+    },
+    "xirdalan": {
+      "key": "xirdalan",
+      "area_id": "2dd82823-5406-5468-85af-f06df3a8e3b6",
+      "canonical_file": "places/xirdalan_all.json",
+      "count": 1268,
+      "name": "Xırdalan",
+      "derived_index": "places/index/2dd82823-5406-5468-85af-f06df3a8e3b6.json",
+      "derived_detail": "places/detail/2dd82823-5406-5468-85af-f06df3a8e3b6.json",
+      "derived_search": "search/2dd82823-5406-5468-85af-f06df3a8e3b6.json"
+    },
+    "absheron": {
+      "key": "absheron",
+      "area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+      "canonical_file": "places/absheron_all.json",
+      "count": 305,
+      "name": "Abşeron rayonu",
+      "derived_index": "places/index/ecf857ca-467d-5b57-b403-12f40dc4c871.json",
+      "derived_detail": "places/detail/ecf857ca-467d-5b57-b403-12f40dc4c871.json",
+      "derived_search": "search/ecf857ca-467d-5b57-b403-12f40dc4c871.json"
+    },
+    "gence_kapaz": {
+      "key": "gence_kapaz",
+      "area_id": "92ac7080-2ca6-50fd-ac4a-e6f759e0e891",
+      "canonical_file": "places/gence_kapaz_all.json",
+      "count": 185,
+      "name": "Kəpəz rayonu",
+      "derived_index": "places/index/92ac7080-2ca6-50fd-ac4a-e6f759e0e891.json",
+      "derived_detail": "places/detail/92ac7080-2ca6-50fd-ac4a-e6f759e0e891.json",
+      "derived_search": "search/92ac7080-2ca6-50fd-ac4a-e6f759e0e891.json"
+    },
+    "gence_nizami": {
+      "key": "gence_nizami",
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "canonical_file": "places/gence_nizami_all.json",
+      "count": 398,
+      "name": "Nizami rayonu",
+      "derived_index": "places/index/092d3f38-a984-5ff2-854a-a1d152003cc7.json",
+      "derived_detail": "places/detail/092d3f38-a984-5ff2-854a-a1d152003cc7.json",
+      "derived_search": "search/092d3f38-a984-5ff2-854a-a1d152003cc7.json"
+    },
+    "mingachevir": {
+      "key": "mingachevir",
+      "area_id": "6f487a89-3bdb-54b5-bc82-3beeecb84be9",
+      "canonical_file": "places/mingachevir_all.json",
+      "count": 348,
+      "name": "Mingəçevir",
+      "derived_index": "places/index/6f487a89-3bdb-54b5-bc82-3beeecb84be9.json",
+      "derived_detail": "places/detail/6f487a89-3bdb-54b5-bc82-3beeecb84be9.json",
+      "derived_search": "search/6f487a89-3bdb-54b5-bc82-3beeecb84be9.json"
+    },
+    "shirvan": {
+      "key": "shirvan",
+      "area_id": "4770b1b1-5aff-55d8-a01a-7f51601bf4cb",
+      "canonical_file": "places/shirvan_all.json",
+      "count": 496,
+      "name": "Şirvan",
+      "derived_index": "places/index/4770b1b1-5aff-55d8-a01a-7f51601bf4cb.json",
+      "derived_detail": "places/detail/4770b1b1-5aff-55d8-a01a-7f51601bf4cb.json",
+      "derived_search": "search/4770b1b1-5aff-55d8-a01a-7f51601bf4cb.json"
+    },
+    "naftalan": {
+      "key": "naftalan",
+      "area_id": "997eb0a1-8425-5919-80da-907d8f479cf7",
+      "canonical_file": "places/naftalan_all.json",
+      "count": 110,
+      "name": "Naftalan",
+      "derived_index": "places/index/997eb0a1-8425-5919-80da-907d8f479cf7.json",
+      "derived_detail": "places/detail/997eb0a1-8425-5919-80da-907d8f479cf7.json",
+      "derived_search": "search/997eb0a1-8425-5919-80da-907d8f479cf7.json"
+    },
+    "yevlax": {
+      "key": "yevlax",
+      "area_id": "3bd2f01d-ea83-5489-a16e-9905cd0b8d9c",
+      "canonical_file": "places/yevlax_all.json",
+      "count": 180,
+      "name": "Yevlax",
+      "derived_index": "places/index/3bd2f01d-ea83-5489-a16e-9905cd0b8d9c.json",
+      "derived_detail": "places/detail/3bd2f01d-ea83-5489-a16e-9905cd0b8d9c.json",
+      "derived_search": "search/3bd2f01d-ea83-5489-a16e-9905cd0b8d9c.json"
+    },
+    "lankaran": {
+      "key": "lankaran",
+      "area_id": "c8842d4f-3e6b-5f4b-8e94-2abf53b507d6",
+      "canonical_file": "places/lankaran_all.json",
+      "count": 181,
+      "name": "Lənkəran",
+      "derived_index": "places/index/c8842d4f-3e6b-5f4b-8e94-2abf53b507d6.json",
+      "derived_detail": "places/detail/c8842d4f-3e6b-5f4b-8e94-2abf53b507d6.json",
+      "derived_search": "search/c8842d4f-3e6b-5f4b-8e94-2abf53b507d6.json"
+    },
+    "sheki": {
+      "key": "sheki",
+      "area_id": "84652ade-57b0-5975-a105-b7cdb2444bcc",
+      "canonical_file": "places/sheki_all.json",
+      "count": 535,
+      "name": "Şəki",
+      "derived_index": "places/index/84652ade-57b0-5975-a105-b7cdb2444bcc.json",
+      "derived_detail": "places/detail/84652ade-57b0-5975-a105-b7cdb2444bcc.json",
+      "derived_search": "search/84652ade-57b0-5975-a105-b7cdb2444bcc.json"
+    },
+    "nakhchivan": {
+      "key": "nakhchivan",
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "canonical_file": "places/nakhchivan_all.json",
+      "count": 254,
+      "name": "Naxçıvan",
+      "derived_index": "places/index/0768075a-2054-5f7c-9d58-c98d2edada0e.json",
+      "derived_detail": "places/detail/0768075a-2054-5f7c-9d58-c98d2edada0e.json",
+      "derived_search": "search/0768075a-2054-5f7c-9d58-c98d2edada0e.json"
+    },
+    "khizi": {
+      "key": "khizi",
+      "area_id": "191a84bf-14b3-5a84-864c-5c67ced931ec",
+      "canonical_file": "places/khizi_all.json",
+      "count": 61,
+      "name": "Xızı rayonu",
+      "derived_index": "places/index/191a84bf-14b3-5a84-864c-5c67ced931ec.json",
+      "derived_detail": "places/detail/191a84bf-14b3-5a84-864c-5c67ced931ec.json",
+      "derived_search": "search/191a84bf-14b3-5a84-864c-5c67ced931ec.json"
+    },
+    "quba": {
+      "key": "quba",
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "canonical_file": "places/quba_all.json",
+      "count": 415,
+      "name": "Quba rayonu",
+      "derived_index": "places/index/b52c3337-9522-5a04-86b8-df8e43f3f8b9.json",
+      "derived_detail": "places/detail/b52c3337-9522-5a04-86b8-df8e43f3f8b9.json",
+      "derived_search": "search/b52c3337-9522-5a04-86b8-df8e43f3f8b9.json"
+    },
+    "qusar": {
+      "key": "qusar",
+      "area_id": "6fec85b0-0967-5a32-8c49-4804119a40ae",
+      "canonical_file": "places/qusar_all.json",
+      "count": 477,
+      "name": "Qusar rayonu",
+      "derived_index": "places/index/6fec85b0-0967-5a32-8c49-4804119a40ae.json",
+      "derived_detail": "places/detail/6fec85b0-0967-5a32-8c49-4804119a40ae.json",
+      "derived_search": "search/6fec85b0-0967-5a32-8c49-4804119a40ae.json"
+    },
+    "xachmaz": {
+      "key": "xachmaz",
+      "area_id": "45206736-f118-53dd-8252-b8d32a2b5cba",
+      "canonical_file": "places/xachmaz_all.json",
+      "count": 458,
+      "name": "Xaçmaz rayonu",
+      "derived_index": "places/index/45206736-f118-53dd-8252-b8d32a2b5cba.json",
+      "derived_detail": "places/detail/45206736-f118-53dd-8252-b8d32a2b5cba.json",
+      "derived_search": "search/45206736-f118-53dd-8252-b8d32a2b5cba.json"
+    },
+    "shabran": {
+      "key": "shabran",
+      "area_id": "5fb6cd28-0ea7-5ac3-994f-48bb0bf88343",
+      "canonical_file": "places/shabran_all.json",
+      "count": 70,
+      "name": "Şabran rayonu",
+      "derived_index": "places/index/5fb6cd28-0ea7-5ac3-994f-48bb0bf88343.json",
+      "derived_detail": "places/detail/5fb6cd28-0ea7-5ac3-994f-48bb0bf88343.json",
+      "derived_search": "search/5fb6cd28-0ea7-5ac3-994f-48bb0bf88343.json"
+    },
+    "siyazan": {
+      "key": "siyazan",
+      "area_id": "cac9becb-d9eb-5a5e-9340-cab7a24f3d70",
+      "canonical_file": "places/siyazan_all.json",
+      "count": 65,
+      "name": "Siyəzən rayonu",
+      "derived_index": "places/index/cac9becb-d9eb-5a5e-9340-cab7a24f3d70.json",
+      "derived_detail": "places/detail/cac9becb-d9eb-5a5e-9340-cab7a24f3d70.json",
+      "derived_search": "search/cac9becb-d9eb-5a5e-9340-cab7a24f3d70.json"
+    },
+    "shamakhi": {
+      "key": "shamakhi",
+      "area_id": "286e9a90-aeb8-5495-a7f5-ac396d834cc6",
+      "canonical_file": "places/shamakhi_all.json",
+      "count": 536,
+      "name": "Şamaxı rayonu",
+      "derived_index": "places/index/286e9a90-aeb8-5495-a7f5-ac396d834cc6.json",
+      "derived_detail": "places/detail/286e9a90-aeb8-5495-a7f5-ac396d834cc6.json",
+      "derived_search": "search/286e9a90-aeb8-5495-a7f5-ac396d834cc6.json"
+    },
+    "ismailli": {
+      "key": "ismailli",
+      "area_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+      "canonical_file": "places/ismailli_all.json",
+      "count": 377,
+      "name": "İsmayıllı rayonu",
+      "derived_index": "places/index/32cc6720-98b2-5de0-bc65-13796e6385ab.json",
+      "derived_detail": "places/detail/32cc6720-98b2-5de0-bc65-13796e6385ab.json",
+      "derived_search": "search/32cc6720-98b2-5de0-bc65-13796e6385ab.json"
+    },
+    "agsu": {
+      "key": "agsu",
+      "area_id": "0b66ddcc-de63-5256-a51b-f003d95e945e",
+      "canonical_file": "places/agsu_all.json",
+      "count": 146,
+      "name": "Ağsu rayonu",
+      "derived_index": "places/index/0b66ddcc-de63-5256-a51b-f003d95e945e.json",
+      "derived_detail": "places/detail/0b66ddcc-de63-5256-a51b-f003d95e945e.json",
+      "derived_search": "search/0b66ddcc-de63-5256-a51b-f003d95e945e.json"
+    },
+    "gobustan": {
+      "key": "gobustan",
+      "area_id": "1f23b55d-e32f-5613-89f6-803737d7f924",
+      "canonical_file": "places/gobustan_all.json",
+      "count": 111,
+      "name": "Qobustan rayonu",
+      "derived_index": "places/index/1f23b55d-e32f-5613-89f6-803737d7f924.json",
+      "derived_detail": "places/detail/1f23b55d-e32f-5613-89f6-803737d7f924.json",
+      "derived_search": "search/1f23b55d-e32f-5613-89f6-803737d7f924.json"
+    },
+    "hajiqabul": {
+      "key": "hajiqabul",
+      "area_id": "14df867e-3d94-587c-b56b-28bb657bbb07",
+      "canonical_file": "places/hajiqabul_all.json",
+      "count": 193,
+      "name": "Hacıqabul rayonu",
+      "derived_index": "places/index/14df867e-3d94-587c-b56b-28bb657bbb07.json",
+      "derived_detail": "places/detail/14df867e-3d94-587c-b56b-28bb657bbb07.json",
+      "derived_search": "search/14df867e-3d94-587c-b56b-28bb657bbb07.json"
+    },
+    "salyan": {
+      "key": "salyan",
+      "area_id": "bce4d2f6-bfcc-56e6-8571-97c50f3e74f2",
+      "canonical_file": "places/salyan_all.json",
+      "count": 546,
+      "name": "Salyan rayonu",
+      "derived_index": "places/index/bce4d2f6-bfcc-56e6-8571-97c50f3e74f2.json",
+      "derived_detail": "places/detail/bce4d2f6-bfcc-56e6-8571-97c50f3e74f2.json",
+      "derived_search": "search/bce4d2f6-bfcc-56e6-8571-97c50f3e74f2.json"
+    },
+    "neftchala": {
+      "key": "neftchala",
+      "area_id": "18688643-9cef-5e65-a2fa-a84819393c6c",
+      "canonical_file": "places/neftchala_all.json",
+      "count": 116,
+      "name": "Neftçala rayonu",
+      "derived_index": "places/index/18688643-9cef-5e65-a2fa-a84819393c6c.json",
+      "derived_detail": "places/detail/18688643-9cef-5e65-a2fa-a84819393c6c.json",
+      "derived_search": "search/18688643-9cef-5e65-a2fa-a84819393c6c.json"
+    },
+    "sabirabad": {
+      "key": "sabirabad",
+      "area_id": "db042a83-0a77-509e-b8c1-3f0573c42f17",
+      "canonical_file": "places/sabirabad_all.json",
+      "count": 79,
+      "name": "Sabirabad rayonu",
+      "derived_index": "places/index/db042a83-0a77-509e-b8c1-3f0573c42f17.json",
+      "derived_detail": "places/detail/db042a83-0a77-509e-b8c1-3f0573c42f17.json",
+      "derived_search": "search/db042a83-0a77-509e-b8c1-3f0573c42f17.json"
+    },
+    "saatli": {
+      "key": "saatli",
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "canonical_file": "places/saatli_all.json",
+      "count": 30,
+      "name": "Saatlı rayonu",
+      "derived_index": "places/index/559ccbd7-fabc-5b46-ba92-500bcf9ef4b2.json",
+      "derived_detail": "places/detail/559ccbd7-fabc-5b46-ba92-500bcf9ef4b2.json",
+      "derived_search": "search/559ccbd7-fabc-5b46-ba92-500bcf9ef4b2.json"
+    },
+    "imishli": {
+      "key": "imishli",
+      "area_id": "359a014a-e4e6-5647-bbf4-98ce4dd98870",
+      "canonical_file": "places/imishli_all.json",
+      "count": 63,
+      "name": "İmişli rayonu",
+      "derived_index": "places/index/359a014a-e4e6-5647-bbf4-98ce4dd98870.json",
+      "derived_detail": "places/detail/359a014a-e4e6-5647-bbf4-98ce4dd98870.json",
+      "derived_search": "search/359a014a-e4e6-5647-bbf4-98ce4dd98870.json"
+    },
+    "beylagan": {
+      "key": "beylagan",
+      "area_id": "abcafc86-adf9-5cf7-a469-04f49245b9d6",
+      "canonical_file": "places/beylagan_all.json",
+      "count": 30,
+      "name": "Beyləqan rayonu",
+      "derived_index": "places/index/abcafc86-adf9-5cf7-a469-04f49245b9d6.json",
+      "derived_detail": "places/detail/abcafc86-adf9-5cf7-a469-04f49245b9d6.json",
+      "derived_search": "search/abcafc86-adf9-5cf7-a469-04f49245b9d6.json"
+    },
+    "agjabadi": {
+      "key": "agjabadi",
+      "area_id": "6a9aa3fd-1253-5da5-a0fc-e1e2f071ea3c",
+      "canonical_file": "places/agjabadi_all.json",
+      "count": 262,
+      "name": "Ağcabədi rayonu",
+      "derived_index": "places/index/6a9aa3fd-1253-5da5-a0fc-e1e2f071ea3c.json",
+      "derived_detail": "places/detail/6a9aa3fd-1253-5da5-a0fc-e1e2f071ea3c.json",
+      "derived_search": "search/6a9aa3fd-1253-5da5-a0fc-e1e2f071ea3c.json"
+    },
+    "yevlax_rayon": {
+      "key": "yevlax_rayon",
+      "area_id": "bf911836-dec1-5c87-9cef-a1d22d111f4e",
+      "canonical_file": "places/yevlax_rayon_all.json",
+      "count": 93,
+      "name": "Yevlax rayonu",
+      "derived_index": "places/index/bf911836-dec1-5c87-9cef-a1d22d111f4e.json",
+      "derived_detail": "places/detail/bf911836-dec1-5c87-9cef-a1d22d111f4e.json",
+      "derived_search": "search/bf911836-dec1-5c87-9cef-a1d22d111f4e.json"
+    },
+    "barda": {
+      "key": "barda",
+      "area_id": "7a77c6ff-8d53-5940-883c-2931d809622a",
+      "canonical_file": "places/barda_all.json",
+      "count": 123,
+      "name": "Bərdə rayonu",
+      "derived_index": "places/index/7a77c6ff-8d53-5940-883c-2931d809622a.json",
+      "derived_detail": "places/detail/7a77c6ff-8d53-5940-883c-2931d809622a.json",
+      "derived_search": "search/7a77c6ff-8d53-5940-883c-2931d809622a.json"
+    },
+    "agdash": {
+      "key": "agdash",
+      "area_id": "bc57b59f-7be7-5534-b28f-fa95ac1f3097",
+      "canonical_file": "places/agdash_all.json",
+      "count": 244,
+      "name": "Ağdaş rayonu",
+      "derived_index": "places/index/bc57b59f-7be7-5534-b28f-fa95ac1f3097.json",
+      "derived_detail": "places/detail/bc57b59f-7be7-5534-b28f-fa95ac1f3097.json",
+      "derived_search": "search/bc57b59f-7be7-5534-b28f-fa95ac1f3097.json"
+    },
+    "goychay": {
+      "key": "goychay",
+      "area_id": "a26e4ff2-54c0-5c88-b180-5020d105d64d",
+      "canonical_file": "places/goychay_all.json",
+      "count": 226,
+      "name": "Göyçay rayonu",
+      "derived_index": "places/index/a26e4ff2-54c0-5c88-b180-5020d105d64d.json",
+      "derived_detail": "places/detail/a26e4ff2-54c0-5c88-b180-5020d105d64d.json",
+      "derived_search": "search/a26e4ff2-54c0-5c88-b180-5020d105d64d.json"
+    },
+    "ucar": {
+      "key": "ucar",
+      "area_id": "5bfacc06-2a5a-5d9d-af55-e26a19b9d6f2",
+      "canonical_file": "places/ucar_all.json",
+      "count": 143,
+      "name": "Ucar rayonu",
+      "derived_index": "places/index/5bfacc06-2a5a-5d9d-af55-e26a19b9d6f2.json",
+      "derived_detail": "places/detail/5bfacc06-2a5a-5d9d-af55-e26a19b9d6f2.json",
+      "derived_search": "search/5bfacc06-2a5a-5d9d-af55-e26a19b9d6f2.json"
+    },
+    "zardab": {
+      "key": "zardab",
+      "area_id": "d66fb656-4b6c-5b7e-b86f-7f222ce1918f",
+      "canonical_file": "places/zardab_all.json",
+      "count": 44,
+      "name": "Zərdab rayonu",
+      "derived_index": "places/index/d66fb656-4b6c-5b7e-b86f-7f222ce1918f.json",
+      "derived_detail": "places/detail/d66fb656-4b6c-5b7e-b86f-7f222ce1918f.json",
+      "derived_search": "search/d66fb656-4b6c-5b7e-b86f-7f222ce1918f.json"
+    },
+    "kurdamir": {
+      "key": "kurdamir",
+      "area_id": "748abe04-6d06-5fa2-a6b3-1f9f967ee02a",
+      "canonical_file": "places/kurdamir_all.json",
+      "count": 180,
+      "name": "Kürdəmir rayonu",
+      "derived_index": "places/index/748abe04-6d06-5fa2-a6b3-1f9f967ee02a.json",
+      "derived_detail": "places/detail/748abe04-6d06-5fa2-a6b3-1f9f967ee02a.json",
+      "derived_search": "search/748abe04-6d06-5fa2-a6b3-1f9f967ee02a.json"
+    },
+    "dashkasan": {
+      "key": "dashkasan",
+      "area_id": "666fc78b-9053-5fe5-b2e6-8156dcdd80c7",
+      "canonical_file": "places/dashkasan_all.json",
+      "count": 129,
+      "name": "Daşkəsən rayonu",
+      "derived_index": "places/index/666fc78b-9053-5fe5-b2e6-8156dcdd80c7.json",
+      "derived_detail": "places/detail/666fc78b-9053-5fe5-b2e6-8156dcdd80c7.json",
+      "derived_search": "search/666fc78b-9053-5fe5-b2e6-8156dcdd80c7.json"
+    },
+    "goygol": {
+      "key": "goygol",
+      "area_id": "7cf52e77-47b7-5712-b6ce-739698bc83d3",
+      "canonical_file": "places/goygol_all.json",
+      "count": 250,
+      "name": "Göygöl rayonu",
+      "derived_index": "places/index/7cf52e77-47b7-5712-b6ce-739698bc83d3.json",
+      "derived_detail": "places/detail/7cf52e77-47b7-5712-b6ce-739698bc83d3.json",
+      "derived_search": "search/7cf52e77-47b7-5712-b6ce-739698bc83d3.json"
+    },
+    "samukh": {
+      "key": "samukh",
+      "area_id": "3ea08ec5-7ec1-5a5f-b418-2cc100be9264",
+      "canonical_file": "places/samukh_all.json",
+      "count": 132,
+      "name": "Samux rayonu",
+      "derived_index": "places/index/3ea08ec5-7ec1-5a5f-b418-2cc100be9264.json",
+      "derived_detail": "places/detail/3ea08ec5-7ec1-5a5f-b418-2cc100be9264.json",
+      "derived_search": "search/3ea08ec5-7ec1-5a5f-b418-2cc100be9264.json"
+    },
+    "shamkir": {
+      "key": "shamkir",
+      "area_id": "e81a5840-32d7-5889-98a6-69120e5d7ed7",
+      "canonical_file": "places/shamkir_all.json",
+      "count": 504,
+      "name": "Şəmkir rayonu",
+      "derived_index": "places/index/e81a5840-32d7-5889-98a6-69120e5d7ed7.json",
+      "derived_detail": "places/detail/e81a5840-32d7-5889-98a6-69120e5d7ed7.json",
+      "derived_search": "search/e81a5840-32d7-5889-98a6-69120e5d7ed7.json"
+    },
+    "tovuz": {
+      "key": "tovuz",
+      "area_id": "f1b03783-185a-5fe7-ad0a-3b6ea4d9c633",
+      "canonical_file": "places/tovuz_all.json",
+      "count": 468,
+      "name": "Tovuz rayonu",
+      "derived_index": "places/index/f1b03783-185a-5fe7-ad0a-3b6ea4d9c633.json",
+      "derived_detail": "places/detail/f1b03783-185a-5fe7-ad0a-3b6ea4d9c633.json",
+      "derived_search": "search/f1b03783-185a-5fe7-ad0a-3b6ea4d9c633.json"
+    },
+    "agstafa": {
+      "key": "agstafa",
+      "area_id": "43959365-1f7e-50d0-aa64-710298cab5bd",
+      "canonical_file": "places/agstafa_all.json",
+      "count": 339,
+      "name": "Ağstafa rayonu",
+      "derived_index": "places/index/43959365-1f7e-50d0-aa64-710298cab5bd.json",
+      "derived_detail": "places/detail/43959365-1f7e-50d0-aa64-710298cab5bd.json",
+      "derived_search": "search/43959365-1f7e-50d0-aa64-710298cab5bd.json"
+    },
+    "gazakh": {
+      "key": "gazakh",
+      "area_id": "594849ce-b1ad-58d8-934c-4de1524c704a",
+      "canonical_file": "places/gazakh_all.json",
+      "count": 428,
+      "name": "Qazax rayonu",
+      "derived_index": "places/index/594849ce-b1ad-58d8-934c-4de1524c704a.json",
+      "derived_detail": "places/detail/594849ce-b1ad-58d8-934c-4de1524c704a.json",
+      "derived_search": "search/594849ce-b1ad-58d8-934c-4de1524c704a.json"
+    },
+    "gedabey": {
+      "key": "gedabey",
+      "area_id": "1c9117db-930f-544f-86d3-4c3be06cacdb",
+      "canonical_file": "places/gedabey_all.json",
+      "count": 360,
+      "name": "Gədəbəy rayonu",
+      "derived_index": "places/index/1c9117db-930f-544f-86d3-4c3be06cacdb.json",
+      "derived_detail": "places/detail/1c9117db-930f-544f-86d3-4c3be06cacdb.json",
+      "derived_search": "search/1c9117db-930f-544f-86d3-4c3be06cacdb.json"
+    },
+    "sheki_rayon": {
+      "key": "sheki_rayon",
+      "area_id": "5a88d1bb-f472-597d-9c8c-193cd2052033",
+      "canonical_file": "places/sheki_rayon_all.json",
+      "count": 216,
+      "name": "Şəki rayonu",
+      "derived_index": "places/index/5a88d1bb-f472-597d-9c8c-193cd2052033.json",
+      "derived_detail": "places/detail/5a88d1bb-f472-597d-9c8c-193cd2052033.json",
+      "derived_search": "search/5a88d1bb-f472-597d-9c8c-193cd2052033.json"
+    },
+    "gakh": {
+      "key": "gakh",
+      "area_id": "fd5f5117-b94a-549e-8b7d-7112381298ad",
+      "canonical_file": "places/gakh_all.json",
+      "count": 298,
+      "name": "Qax rayonu",
+      "derived_index": "places/index/fd5f5117-b94a-549e-8b7d-7112381298ad.json",
+      "derived_detail": "places/detail/fd5f5117-b94a-549e-8b7d-7112381298ad.json",
+      "derived_search": "search/fd5f5117-b94a-549e-8b7d-7112381298ad.json"
+    },
+    "zaqatala": {
+      "key": "zaqatala",
+      "area_id": "52e46674-ff8f-57de-90bd-5327e24e7bb4",
+      "canonical_file": "places/zaqatala_all.json",
+      "count": 386,
+      "name": "Zaqatala rayonu",
+      "derived_index": "places/index/52e46674-ff8f-57de-90bd-5327e24e7bb4.json",
+      "derived_detail": "places/detail/52e46674-ff8f-57de-90bd-5327e24e7bb4.json",
+      "derived_search": "search/52e46674-ff8f-57de-90bd-5327e24e7bb4.json"
+    },
+    "balakan": {
+      "key": "balakan",
+      "area_id": "b22a65cb-a5a1-515c-bda5-758a3f5d829c",
+      "canonical_file": "places/balakan_all.json",
+      "count": 267,
+      "name": "Balakən rayonu",
+      "derived_index": "places/index/b22a65cb-a5a1-515c-bda5-758a3f5d829c.json",
+      "derived_detail": "places/detail/b22a65cb-a5a1-515c-bda5-758a3f5d829c.json",
+      "derived_search": "search/b22a65cb-a5a1-515c-bda5-758a3f5d829c.json"
+    },
+    "oguz": {
+      "key": "oguz",
+      "area_id": "8604052b-f28f-5c80-be49-3d3770ef7374",
+      "canonical_file": "places/oguz_all.json",
+      "count": 251,
+      "name": "Oğuz rayonu",
+      "derived_index": "places/index/8604052b-f28f-5c80-be49-3d3770ef7374.json",
+      "derived_detail": "places/detail/8604052b-f28f-5c80-be49-3d3770ef7374.json",
+      "derived_search": "search/8604052b-f28f-5c80-be49-3d3770ef7374.json"
+    },
+    "gabala": {
+      "key": "gabala",
+      "area_id": "edd1d321-938f-52da-95ba-3af718e6104f",
+      "canonical_file": "places/gabala_all.json",
+      "count": 417,
+      "name": "Qəbələ rayonu",
+      "derived_index": "places/index/edd1d321-938f-52da-95ba-3af718e6104f.json",
+      "derived_detail": "places/detail/edd1d321-938f-52da-95ba-3af718e6104f.json",
+      "derived_search": "search/edd1d321-938f-52da-95ba-3af718e6104f.json"
+    },
+    "lankaran_rayon": {
+      "key": "lankaran_rayon",
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "canonical_file": "places/lankaran_rayon_all.json",
+      "count": 71,
+      "name": "Lənkəran rayonu",
+      "derived_index": "places/index/ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92.json",
+      "derived_detail": "places/detail/ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92.json",
+      "derived_search": "search/ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92.json"
+    },
+    "astara": {
+      "key": "astara",
+      "area_id": "df1151dd-8b83-55c1-bbe8-55e8ea430523",
+      "canonical_file": "places/astara_all.json",
+      "count": 63,
+      "name": "Astara rayonu",
+      "derived_index": "places/index/df1151dd-8b83-55c1-bbe8-55e8ea430523.json",
+      "derived_detail": "places/detail/df1151dd-8b83-55c1-bbe8-55e8ea430523.json",
+      "derived_search": "search/df1151dd-8b83-55c1-bbe8-55e8ea430523.json"
+    },
+    "lerik": {
+      "key": "lerik",
+      "area_id": "4a92fe72-1565-543e-859d-94af4b3318a8",
+      "canonical_file": "places/lerik_all.json",
+      "count": 64,
+      "name": "Lerik rayonu",
+      "derived_index": "places/index/4a92fe72-1565-543e-859d-94af4b3318a8.json",
+      "derived_detail": "places/detail/4a92fe72-1565-543e-859d-94af4b3318a8.json",
+      "derived_search": "search/4a92fe72-1565-543e-859d-94af4b3318a8.json"
+    },
+    "yardimli": {
+      "key": "yardimli",
+      "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
+      "canonical_file": "places/yardimli_all.json",
+      "count": 21,
+      "name": "Yardımlı rayonu",
+      "derived_index": "places/index/5781664a-0bb7-5f8c-a02d-6c445aadfeba.json",
+      "derived_detail": "places/detail/5781664a-0bb7-5f8c-a02d-6c445aadfeba.json",
+      "derived_search": "search/5781664a-0bb7-5f8c-a02d-6c445aadfeba.json"
+    },
+    "masalli": {
+      "key": "masalli",
+      "area_id": "b1d864f5-f0ea-5660-91eb-01a56351cfea",
+      "canonical_file": "places/masalli_all.json",
+      "count": 98,
+      "name": "Masallı rayonu",
+      "derived_index": "places/index/b1d864f5-f0ea-5660-91eb-01a56351cfea.json",
+      "derived_detail": "places/detail/b1d864f5-f0ea-5660-91eb-01a56351cfea.json",
+      "derived_search": "search/b1d864f5-f0ea-5660-91eb-01a56351cfea.json"
+    },
+    "jalilabad": {
+      "key": "jalilabad",
+      "area_id": "709fbdf8-acbb-5197-a685-6d1bf6c77d87",
+      "canonical_file": "places/jalilabad_all.json",
+      "count": 68,
+      "name": "Cəlilabad rayonu",
+      "derived_index": "places/index/709fbdf8-acbb-5197-a685-6d1bf6c77d87.json",
+      "derived_detail": "places/detail/709fbdf8-acbb-5197-a685-6d1bf6c77d87.json",
+      "derived_search": "search/709fbdf8-acbb-5197-a685-6d1bf6c77d87.json"
+    },
+    "agdam": {
+      "key": "agdam",
+      "area_id": "6454c0d8-662c-5533-8a2e-8bc7b34dcdfa",
+      "canonical_file": "places/agdam_all.json",
+      "count": 42,
+      "name": "Ağdam rayonu",
+      "derived_index": "places/index/6454c0d8-662c-5533-8a2e-8bc7b34dcdfa.json",
+      "derived_detail": "places/detail/6454c0d8-662c-5533-8a2e-8bc7b34dcdfa.json",
+      "derived_search": "search/6454c0d8-662c-5533-8a2e-8bc7b34dcdfa.json"
+    },
+    "fuzuli": {
+      "key": "fuzuli",
+      "area_id": "eb593579-9816-5449-a5cd-1dacaafbcef9",
+      "canonical_file": "places/fuzuli_all.json",
+      "count": 29,
+      "name": "Füzuli rayonu",
+      "derived_index": "places/index/eb593579-9816-5449-a5cd-1dacaafbcef9.json",
+      "derived_detail": "places/detail/eb593579-9816-5449-a5cd-1dacaafbcef9.json",
+      "derived_search": "search/eb593579-9816-5449-a5cd-1dacaafbcef9.json"
+    },
+    "tartar": {
+      "key": "tartar",
+      "area_id": "9f564169-32e9-5a49-a8e0-beda6446010f",
+      "canonical_file": "places/tartar_all.json",
+      "count": 60,
+      "name": "Tərtər rayonu",
+      "derived_index": "places/index/9f564169-32e9-5a49-a8e0-beda6446010f.json",
+      "derived_detail": "places/detail/9f564169-32e9-5a49-a8e0-beda6446010f.json",
+      "derived_search": "search/9f564169-32e9-5a49-a8e0-beda6446010f.json"
+    },
+    "khojaly": {
+      "key": "khojaly",
+      "area_id": "953def2b-b93d-5343-acd7-ef5cffbd9eba",
+      "canonical_file": "places/khojaly_all.json",
+      "count": 276,
+      "name": "Xocalı rayonu",
+      "derived_index": "places/index/953def2b-b93d-5343-acd7-ef5cffbd9eba.json",
+      "derived_detail": "places/detail/953def2b-b93d-5343-acd7-ef5cffbd9eba.json",
+      "derived_search": "search/953def2b-b93d-5343-acd7-ef5cffbd9eba.json"
+    },
+    "khojavend": {
+      "key": "khojavend",
+      "area_id": "df974046-9d94-5c48-a161-d71e59239929",
+      "canonical_file": "places/khojavend_all.json",
+      "count": 41,
+      "name": "Xocavənd rayonu",
+      "derived_index": "places/index/df974046-9d94-5c48-a161-d71e59239929.json",
+      "derived_detail": "places/detail/df974046-9d94-5c48-a161-d71e59239929.json",
+      "derived_search": "search/df974046-9d94-5c48-a161-d71e59239929.json"
+    },
+    "shusha": {
+      "key": "shusha",
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "canonical_file": "places/shusha_all.json",
+      "count": 66,
+      "name": "Şuşa rayonu",
+      "derived_index": "places/index/6871887d-185d-5c4a-a7bf-91864c4faf97.json",
+      "derived_detail": "places/detail/6871887d-185d-5c4a-a7bf-91864c4faf97.json",
+      "derived_search": "search/6871887d-185d-5c4a-a7bf-91864c4faf97.json"
+    },
+    "lachin": {
+      "key": "lachin",
+      "area_id": "303b54e3-194c-526f-bdd9-f68cacfec815",
+      "canonical_file": "places/lachin_all.json",
+      "count": 23,
+      "name": "Laçın rayonu",
+      "derived_index": "places/index/303b54e3-194c-526f-bdd9-f68cacfec815.json",
+      "derived_detail": "places/detail/303b54e3-194c-526f-bdd9-f68cacfec815.json",
+      "derived_search": "search/303b54e3-194c-526f-bdd9-f68cacfec815.json"
+    },
+    "kalbajar": {
+      "key": "kalbajar",
+      "area_id": "8bc90433-a4ad-5e10-9bea-d0f1148ab298",
+      "canonical_file": "places/kalbajar_all.json",
+      "count": 14,
+      "name": "Kəlbəcər rayonu",
+      "derived_index": "places/index/8bc90433-a4ad-5e10-9bea-d0f1148ab298.json",
+      "derived_detail": "places/detail/8bc90433-a4ad-5e10-9bea-d0f1148ab298.json",
+      "derived_search": "search/8bc90433-a4ad-5e10-9bea-d0f1148ab298.json"
+    },
+    "qubadli": {
+      "key": "qubadli",
+      "area_id": "d902bc7f-786d-51bb-a91c-b3131400b2e6",
+      "canonical_file": "places/qubadli_all.json",
+      "count": 4,
+      "name": "Qubadlı rayonu",
+      "derived_index": "places/index/d902bc7f-786d-51bb-a91c-b3131400b2e6.json",
+      "derived_detail": "places/detail/d902bc7f-786d-51bb-a91c-b3131400b2e6.json",
+      "derived_search": "search/d902bc7f-786d-51bb-a91c-b3131400b2e6.json"
+    },
+    "zangilan": {
+      "key": "zangilan",
+      "area_id": "4c12a8aa-1aea-557d-a81f-136903ad485c",
+      "canonical_file": "places/zangilan_all.json",
+      "count": 9,
+      "name": "Zəngilan rayonu",
+      "derived_index": "places/index/4c12a8aa-1aea-557d-a81f-136903ad485c.json",
+      "derived_detail": "places/detail/4c12a8aa-1aea-557d-a81f-136903ad485c.json",
+      "derived_search": "search/4c12a8aa-1aea-557d-a81f-136903ad485c.json"
+    },
+    "jabrayil": {
+      "key": "jabrayil",
+      "area_id": "1578a814-3c5f-512e-88e7-d767eb2fb9e5",
+      "canonical_file": "places/jabrayil_all.json",
+      "count": 5,
+      "name": "Cəbrayıl rayonu",
+      "derived_index": "places/index/1578a814-3c5f-512e-88e7-d767eb2fb9e5.json",
+      "derived_detail": "places/detail/1578a814-3c5f-512e-88e7-d767eb2fb9e5.json",
+      "derived_search": "search/1578a814-3c5f-512e-88e7-d767eb2fb9e5.json"
+    },
+    "babek": {
+      "key": "babek",
+      "area_id": "9324a75e-3c25-5db7-a1f5-ad37a0b1694a",
+      "canonical_file": "places/babek_all.json",
+      "count": 25,
+      "name": "Babək rayonu",
+      "derived_index": "places/index/9324a75e-3c25-5db7-a1f5-ad37a0b1694a.json",
+      "derived_detail": "places/detail/9324a75e-3c25-5db7-a1f5-ad37a0b1694a.json",
+      "derived_search": "search/9324a75e-3c25-5db7-a1f5-ad37a0b1694a.json"
+    },
+    "julfa": {
+      "key": "julfa",
+      "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
+      "canonical_file": "places/julfa_all.json",
+      "count": 24,
+      "name": "Culfa rayonu",
+      "derived_index": "places/index/8f3a1052-4f97-5b2e-9cbb-d6d642d24625.json",
+      "derived_detail": "places/detail/8f3a1052-4f97-5b2e-9cbb-d6d642d24625.json",
+      "derived_search": "search/8f3a1052-4f97-5b2e-9cbb-d6d642d24625.json"
+    },
+    "kangarli": {
+      "key": "kangarli",
+      "area_id": "9ff4b809-be4e-5596-a7a1-63e9c06a7396",
+      "canonical_file": "places/kangarli_all.json",
+      "count": 6,
+      "name": "Kəngərli rayonu",
+      "derived_index": "places/index/9ff4b809-be4e-5596-a7a1-63e9c06a7396.json",
+      "derived_detail": "places/detail/9ff4b809-be4e-5596-a7a1-63e9c06a7396.json",
+      "derived_search": "search/9ff4b809-be4e-5596-a7a1-63e9c06a7396.json"
+    },
+    "ordubad": {
+      "key": "ordubad",
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "canonical_file": "places/ordubad_all.json",
+      "count": 29,
+      "name": "Ordubad rayonu",
+      "derived_index": "places/index/ab00188f-a25e-5dbe-a5d5-a2c11337a095.json",
+      "derived_detail": "places/detail/ab00188f-a25e-5dbe-a5d5-a2c11337a095.json",
+      "derived_search": "search/ab00188f-a25e-5dbe-a5d5-a2c11337a095.json"
+    },
+    "sadarak": {
+      "key": "sadarak",
+      "area_id": "99a0e3f5-b601-5aef-8438-5162dd895e3a",
+      "canonical_file": "places/sadarak_all.json",
+      "count": 3,
+      "name": "Sədərək rayonu",
+      "derived_index": "places/index/99a0e3f5-b601-5aef-8438-5162dd895e3a.json",
+      "derived_detail": "places/detail/99a0e3f5-b601-5aef-8438-5162dd895e3a.json",
+      "derived_search": "search/99a0e3f5-b601-5aef-8438-5162dd895e3a.json"
+    },
+    "shahbuz": {
+      "key": "shahbuz",
+      "area_id": "a0e3d6ff-4788-53c1-b202-a22f53d7b21d",
+      "canonical_file": "places/shahbuz_all.json",
+      "count": 11,
+      "name": "Şahbuz rayonu",
+      "derived_index": "places/index/a0e3d6ff-4788-53c1-b202-a22f53d7b21d.json",
+      "derived_detail": "places/detail/a0e3d6ff-4788-53c1-b202-a22f53d7b21d.json",
+      "derived_search": "search/a0e3d6ff-4788-53c1-b202-a22f53d7b21d.json"
+    },
+    "sharur": {
+      "key": "sharur",
+      "area_id": "6c34e687-79f7-5cae-aaa8-904708c403a9",
+      "canonical_file": "places/sharur_all.json",
+      "count": 9,
+      "name": "Şərur rayonu",
+      "derived_index": "places/index/6c34e687-79f7-5cae-aaa8-904708c403a9.json",
+      "derived_detail": "places/detail/6c34e687-79f7-5cae-aaa8-904708c403a9.json",
+      "derived_search": "search/6c34e687-79f7-5cae-aaa8-904708c403a9.json"
+    },
+    "absheron_absheron_asagi_guzdek": {
+      "key": "absheron_absheron_asagi_guzdek",
+      "area_id": "b41ce73f-fd73-543c-b16f-acd1d03c742b",
+      "canonical_file": "places/absheron_absheron_asagi_guzdek_all.json",
+      "count": 22,
+      "name": "Aşağı Güzdək",
+      "derived_index": "places/index/b41ce73f-fd73-543c-b16f-acd1d03c742b.json",
+      "derived_detail": "places/detail/b41ce73f-fd73-543c-b16f-acd1d03c742b.json",
+      "derived_search": "search/b41ce73f-fd73-543c-b16f-acd1d03c742b.json"
+    },
+    "absheron_absheron_digah": {
+      "key": "absheron_absheron_digah",
+      "area_id": "de481d72-8000-5afa-b899-b592f3b7da8a",
+      "canonical_file": "places/absheron_absheron_digah_all.json",
+      "count": 50,
+      "name": "Digah",
+      "derived_index": "places/index/de481d72-8000-5afa-b899-b592f3b7da8a.json",
+      "derived_detail": "places/detail/de481d72-8000-5afa-b899-b592f3b7da8a.json",
+      "derived_search": "search/de481d72-8000-5afa-b899-b592f3b7da8a.json"
+    },
+    "absheron_absheron_fatmayi": {
+      "key": "absheron_absheron_fatmayi",
+      "area_id": "9801fad3-acbc-534c-9329-085c3c7ee443",
+      "canonical_file": "places/absheron_absheron_fatmayi_all.json",
+      "count": 22,
+      "name": "Fatmayı",
+      "derived_index": "places/index/9801fad3-acbc-534c-9329-085c3c7ee443.json",
+      "derived_detail": "places/detail/9801fad3-acbc-534c-9329-085c3c7ee443.json",
+      "derived_search": "search/9801fad3-acbc-534c-9329-085c3c7ee443.json"
+    },
+    "absheron_absheron_goradil": {
+      "key": "absheron_absheron_goradil",
+      "area_id": "f83e8612-2518-5127-9826-c549b166bf74",
+      "canonical_file": "places/absheron_absheron_goradil_all.json",
+      "count": 46,
+      "name": "Goradil",
+      "derived_index": "places/index/f83e8612-2518-5127-9826-c549b166bf74.json",
+      "derived_detail": "places/detail/f83e8612-2518-5127-9826-c549b166bf74.json",
+      "derived_search": "search/f83e8612-2518-5127-9826-c549b166bf74.json"
+    },
+    "absheron_absheron_guzdek": {
+      "key": "absheron_absheron_guzdek",
+      "area_id": "cbee1416-2799-55b0-9c61-3471779a11e7",
+      "canonical_file": "places/absheron_absheron_guzdek_all.json",
+      "count": 16,
+      "name": "Güzdək",
+      "derived_index": "places/index/cbee1416-2799-55b0-9c61-3471779a11e7.json",
+      "derived_detail": "places/detail/cbee1416-2799-55b0-9c61-3471779a11e7.json",
+      "derived_search": "search/cbee1416-2799-55b0-9c61-3471779a11e7.json"
+    },
+    "absheron_absheron_hokmeli": {
+      "key": "absheron_absheron_hokmeli",
+      "area_id": "01894af5-94fe-50ea-acfc-f0efcae35cf1",
+      "canonical_file": "places/absheron_absheron_hokmeli_all.json",
+      "count": 18,
+      "name": "Hökməli",
+      "derived_index": "places/index/01894af5-94fe-50ea-acfc-f0efcae35cf1.json",
+      "derived_detail": "places/detail/01894af5-94fe-50ea-acfc-f0efcae35cf1.json",
+      "derived_search": "search/01894af5-94fe-50ea-acfc-f0efcae35cf1.json"
+    },
+    "absheron_absheron_mehdiabad": {
+      "key": "absheron_absheron_mehdiabad",
+      "area_id": "9b14b878-27df-5acb-b2bc-a2883d32e39c",
+      "canonical_file": "places/absheron_absheron_mehdiabad_all.json",
+      "count": 76,
+      "name": "Mehdiabad",
+      "derived_index": "places/index/9b14b878-27df-5acb-b2bc-a2883d32e39c.json",
+      "derived_detail": "places/detail/9b14b878-27df-5acb-b2bc-a2883d32e39c.json",
+      "derived_search": "search/9b14b878-27df-5acb-b2bc-a2883d32e39c.json"
+    },
+    "absheron_absheron_mehemmedli": {
+      "key": "absheron_absheron_mehemmedli",
+      "area_id": "880819f5-54c8-5a0a-803e-12c9ddfe2a10",
+      "canonical_file": "places/absheron_absheron_mehemmedli_all.json",
+      "count": 36,
+      "name": "Məhəmmədli",
+      "derived_index": "places/index/880819f5-54c8-5a0a-803e-12c9ddfe2a10.json",
+      "derived_detail": "places/detail/880819f5-54c8-5a0a-803e-12c9ddfe2a10.json",
+      "derived_search": "search/880819f5-54c8-5a0a-803e-12c9ddfe2a10.json"
+    },
+    "absheron_absheron_novxani": {
+      "key": "absheron_absheron_novxani",
+      "area_id": "d38daa07-2f74-5c22-aa04-4a17e6613808",
+      "canonical_file": "places/absheron_absheron_novxani_all.json",
+      "count": 189,
+      "name": "Novxanı",
+      "derived_index": "places/index/d38daa07-2f74-5c22-aa04-4a17e6613808.json",
+      "derived_detail": "places/detail/d38daa07-2f74-5c22-aa04-4a17e6613808.json",
+      "derived_search": "search/d38daa07-2f74-5c22-aa04-4a17e6613808.json"
+    },
+    "absheron_absheron_novxani_baglari": {
+      "key": "absheron_absheron_novxani_baglari",
+      "area_id": "8f7f7296-1c55-5a79-bb19-5ce853c8433e",
+      "canonical_file": "places/absheron_absheron_novxani_baglari_all.json",
+      "count": 0,
+      "name": "Novxanı Bağları",
+      "derived_index": "places/index/8f7f7296-1c55-5a79-bb19-5ce853c8433e.json",
+      "derived_detail": "places/detail/8f7f7296-1c55-5a79-bb19-5ce853c8433e.json",
+      "derived_search": "search/8f7f7296-1c55-5a79-bb19-5ce853c8433e.json"
+    },
+    "absheron_absheron_pirekeskul": {
+      "key": "absheron_absheron_pirekeskul",
+      "area_id": "a6624d03-3978-5acf-9fbd-4f1302c2b55f",
+      "canonical_file": "places/absheron_absheron_pirekeskul_all.json",
+      "count": 3,
+      "name": "Pirəkəşkül",
+      "derived_index": "places/index/a6624d03-3978-5acf-9fbd-4f1302c2b55f.json",
+      "derived_detail": "places/detail/a6624d03-3978-5acf-9fbd-4f1302c2b55f.json",
+      "derived_search": "search/a6624d03-3978-5acf-9fbd-4f1302c2b55f.json"
+    },
+    "absheron_absheron_qobu": {
+      "key": "absheron_absheron_qobu",
+      "area_id": "b99713bb-25f5-5696-98a5-4a88b3a00c6a",
+      "canonical_file": "places/absheron_absheron_qobu_all.json",
+      "count": 68,
+      "name": "Qobu",
+      "derived_index": "places/index/b99713bb-25f5-5696-98a5-4a88b3a00c6a.json",
+      "derived_detail": "places/detail/b99713bb-25f5-5696-98a5-4a88b3a00c6a.json",
+      "derived_search": "search/b99713bb-25f5-5696-98a5-4a88b3a00c6a.json"
+    },
+    "absheron_absheron_qobustan_qesebesi": {
+      "key": "absheron_absheron_qobustan_qesebesi",
+      "area_id": "66f82dfc-654b-5e6b-b9ff-8ba853e43889",
+      "canonical_file": "places/absheron_absheron_qobustan_qesebesi_all.json",
+      "count": 4,
+      "name": "Qobustan qəsəbəsi",
+      "derived_index": "places/index/66f82dfc-654b-5e6b-b9ff-8ba853e43889.json",
+      "derived_detail": "places/detail/66f82dfc-654b-5e6b-b9ff-8ba853e43889.json",
+      "derived_search": "search/66f82dfc-654b-5e6b-b9ff-8ba853e43889.json"
+    },
+    "absheron_absheron_qurd_deresi": {
+      "key": "absheron_absheron_qurd_deresi",
+      "area_id": "b686e78f-3a5b-5af1-b911-47cf828e4142",
+      "canonical_file": "places/absheron_absheron_qurd_deresi_all.json",
+      "count": 16,
+      "name": "Qurd Dərəsi",
+      "derived_index": "places/index/b686e78f-3a5b-5af1-b911-47cf828e4142.json",
+      "derived_detail": "places/detail/b686e78f-3a5b-5af1-b911-47cf828e4142.json",
+      "derived_search": "search/b686e78f-3a5b-5af1-b911-47cf828e4142.json"
+    },
+    "absheron_absheron_saray": {
+      "key": "absheron_absheron_saray",
+      "area_id": "21739a0b-085f-5e97-81e7-be011f2793cf",
+      "canonical_file": "places/absheron_absheron_saray_all.json",
+      "count": 114,
+      "name": "Saray",
+      "derived_index": "places/index/21739a0b-085f-5e97-81e7-be011f2793cf.json",
+      "derived_detail": "places/detail/21739a0b-085f-5e97-81e7-be011f2793cf.json",
+      "derived_search": "search/21739a0b-085f-5e97-81e7-be011f2793cf.json"
+    },
+    "absheron_absheron_saray_baglari": {
+      "key": "absheron_absheron_saray_baglari",
+      "area_id": "dedad3f4-f508-5d25-8463-1887959ecea0",
+      "canonical_file": "places/absheron_absheron_saray_baglari_all.json",
+      "count": 0,
+      "name": "Saray Bağları",
+      "derived_index": "places/index/dedad3f4-f508-5d25-8463-1887959ecea0.json",
+      "derived_detail": "places/detail/dedad3f4-f508-5d25-8463-1887959ecea0.json",
+      "derived_search": "search/dedad3f4-f508-5d25-8463-1887959ecea0.json"
+    },
+    "absheron_absheron_saray_h_mtk_saray": {
+      "key": "absheron_absheron_saray_h_mtk_saray",
+      "area_id": "ea7f2c43-d441-5202-a8df-b28e717c184d",
+      "canonical_file": "places/absheron_absheron_saray_h_mtk_saray_all.json",
+      "count": 13,
+      "name": "Saray H MTK \\ Saray",
+      "derived_index": "places/index/ea7f2c43-d441-5202-a8df-b28e717c184d.json",
+      "derived_detail": "places/detail/ea7f2c43-d441-5202-a8df-b28e717c184d.json",
+      "derived_search": "search/ea7f2c43-d441-5202-a8df-b28e717c184d.json"
+    },
+    "absheron_absheron_saray_uzumluk": {
+      "key": "absheron_absheron_saray_uzumluk",
+      "area_id": "5dd6c12a-2d66-5867-a7cf-1d89a588c035",
+      "canonical_file": "places/absheron_absheron_saray_uzumluk_all.json",
+      "count": 14,
+      "name": "Saray Üzümlük",
+      "derived_index": "places/index/5dd6c12a-2d66-5867-a7cf-1d89a588c035.json",
+      "derived_detail": "places/detail/5dd6c12a-2d66-5867-a7cf-1d89a588c035.json",
+      "derived_search": "search/5dd6c12a-2d66-5867-a7cf-1d89a588c035.json"
+    },
+    "absheron_absheron_yeni_ceyranbatan": {
+      "key": "absheron_absheron_yeni_ceyranbatan",
+      "area_id": "939cc19d-43f6-51c8-a888-b713a8295361",
+      "canonical_file": "places/absheron_absheron_yeni_ceyranbatan_all.json",
+      "count": 23,
+      "name": "Yeni Ceyranbatan",
+      "derived_index": "places/index/939cc19d-43f6-51c8-a888-b713a8295361.json",
+      "derived_detail": "places/detail/939cc19d-43f6-51c8-a888-b713a8295361.json",
+      "derived_search": "search/939cc19d-43f6-51c8-a888-b713a8295361.json"
+    },
+    "absheron_absheron_yeni_saray": {
+      "key": "absheron_absheron_yeni_saray",
+      "area_id": "7a2f148e-7f06-52fa-92d6-f993938c6bb3",
+      "canonical_file": "places/absheron_absheron_yeni_saray_all.json",
+      "count": 33,
+      "name": "Yeni Saray",
+      "derived_index": "places/index/7a2f148e-7f06-52fa-92d6-f993938c6bb3.json",
+      "derived_detail": "places/detail/7a2f148e-7f06-52fa-92d6-f993938c6bb3.json",
+      "derived_search": "search/7a2f148e-7f06-52fa-92d6-f993938c6bb3.json"
+    },
+    "absheron_absheron_cayli": {
+      "key": "absheron_absheron_cayli",
+      "area_id": "27885038-b75c-54d4-99a3-f13b4d19c9d7",
+      "canonical_file": "places/absheron_absheron_cayli_all.json",
+      "count": 0,
+      "name": "Çaylı",
+      "derived_index": "places/index/27885038-b75c-54d4-99a3-f13b4d19c9d7.json",
+      "derived_detail": "places/detail/27885038-b75c-54d4-99a3-f13b4d19c9d7.json",
+      "derived_search": "search/27885038-b75c-54d4-99a3-f13b4d19c9d7.json"
+    },
+    "absheron_absheron_sefeq": {
+      "key": "absheron_absheron_sefeq",
+      "area_id": "1b443816-413b-5ff3-981c-8a9ab11cac97",
+      "canonical_file": "places/absheron_absheron_sefeq_all.json",
+      "count": 1,
+      "name": "Şəfəq",
+      "derived_index": "places/index/1b443816-413b-5ff3-981c-8a9ab11cac97.json",
+      "derived_detail": "places/detail/1b443816-413b-5ff3-981c-8a9ab11cac97.json",
+      "derived_search": "search/1b443816-413b-5ff3-981c-8a9ab11cac97.json"
+    },
+    "absheron_absheron_eliciraq": {
+      "key": "absheron_absheron_eliciraq",
+      "area_id": "ac5221df-eb9c-566b-9c0f-c391668e63b9",
+      "canonical_file": "places/absheron_absheron_eliciraq_all.json",
+      "count": 3,
+      "name": "Əliçıraq",
+      "derived_index": "places/index/ac5221df-eb9c-566b-9c0f-c391668e63b9.json",
+      "derived_detail": "places/detail/ac5221df-eb9c-566b-9c0f-c391668e63b9.json",
+      "derived_search": "search/ac5221df-eb9c-566b-9c0f-c391668e63b9.json"
+    }
+  },
+  "by_area_id": {
+    "d778f149-f9cd-57d5-850c-ff2f328b7c49": {
+      "key": "yasamal",
+      "area_id": "d778f149-f9cd-57d5-850c-ff2f328b7c49",
+      "canonical_file": "places/yasamal_all.json",
+      "count": 2468,
+      "name": "Yasamal rayonu",
+      "derived_index": "places/index/d778f149-f9cd-57d5-850c-ff2f328b7c49.json",
+      "derived_detail": "places/detail/d778f149-f9cd-57d5-850c-ff2f328b7c49.json",
+      "derived_search": "search/d778f149-f9cd-57d5-850c-ff2f328b7c49.json"
+    },
+    "660dc895-a367-5821-9fff-13627bdb2d6d": {
+      "key": "nasimi",
+      "area_id": "660dc895-a367-5821-9fff-13627bdb2d6d",
+      "canonical_file": "places/nasimi_all.json",
+      "count": 3187,
+      "name": "Nəsimi rayonu",
+      "derived_index": "places/index/660dc895-a367-5821-9fff-13627bdb2d6d.json",
+      "derived_detail": "places/detail/660dc895-a367-5821-9fff-13627bdb2d6d.json",
+      "derived_search": "search/660dc895-a367-5821-9fff-13627bdb2d6d.json"
+    },
+    "bf27cd5f-18fd-5db3-a793-c54890dc2480": {
+      "key": "narimanov",
+      "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
+      "canonical_file": "places/narimanov_all.json",
+      "count": 2915,
+      "name": "Nərimanov rayonu",
+      "derived_index": "places/index/bf27cd5f-18fd-5db3-a793-c54890dc2480.json",
+      "derived_detail": "places/detail/bf27cd5f-18fd-5db3-a793-c54890dc2480.json",
+      "derived_search": "search/bf27cd5f-18fd-5db3-a793-c54890dc2480.json"
+    },
+    "efdc6d2d-b895-5692-a7c4-724ef5302eda": {
+      "key": "nizami_baki",
+      "area_id": "efdc6d2d-b895-5692-a7c4-724ef5302eda",
+      "canonical_file": "places/nizami_baki_all.json",
+      "count": 1203,
+      "name": "Nizami rayonu",
+      "derived_index": "places/index/efdc6d2d-b895-5692-a7c4-724ef5302eda.json",
+      "derived_detail": "places/detail/efdc6d2d-b895-5692-a7c4-724ef5302eda.json",
+      "derived_search": "search/efdc6d2d-b895-5692-a7c4-724ef5302eda.json"
+    },
+    "ebe11990-4641-52f5-aa58-e11559c4ca59": {
+      "key": "binagadi",
+      "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
+      "canonical_file": "places/binagadi_all.json",
+      "count": 2240,
+      "name": "Binəqədi rayonu",
+      "derived_index": "places/index/ebe11990-4641-52f5-aa58-e11559c4ca59.json",
+      "derived_detail": "places/detail/ebe11990-4641-52f5-aa58-e11559c4ca59.json",
+      "derived_search": "search/ebe11990-4641-52f5-aa58-e11559c4ca59.json"
+    },
+    "d7ac5d00-4386-5df1-b2ad-5128849407fc": {
+      "key": "sabail",
+      "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
+      "canonical_file": "places/sabail_all.json",
+      "count": 2625,
+      "name": "Səbail rayonu",
+      "derived_index": "places/index/d7ac5d00-4386-5df1-b2ad-5128849407fc.json",
+      "derived_detail": "places/detail/d7ac5d00-4386-5df1-b2ad-5128849407fc.json",
+      "derived_search": "search/d7ac5d00-4386-5df1-b2ad-5128849407fc.json"
+    },
+    "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b": {
+      "key": "xetai",
+      "area_id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
+      "canonical_file": "places/xetai_all.json",
+      "count": 1917,
+      "name": "Xətai rayonu",
+      "derived_index": "places/index/e9065f3d-f0c2-5406-b98e-25b8d52e3b5b.json",
+      "derived_detail": "places/detail/e9065f3d-f0c2-5406-b98e-25b8d52e3b5b.json",
+      "derived_search": "search/e9065f3d-f0c2-5406-b98e-25b8d52e3b5b.json"
+    },
+    "4bad6478-27be-570c-8965-d1c6339f8128": {
+      "key": "sabuncu",
+      "area_id": "4bad6478-27be-570c-8965-d1c6339f8128",
+      "canonical_file": "places/sabuncu_all.json",
+      "count": 2308,
+      "name": "Sabunçu rayonu",
+      "derived_index": "places/index/4bad6478-27be-570c-8965-d1c6339f8128.json",
+      "derived_detail": "places/detail/4bad6478-27be-570c-8965-d1c6339f8128.json",
+      "derived_search": "search/4bad6478-27be-570c-8965-d1c6339f8128.json"
+    },
+    "d2981fa1-7fe5-5b12-9a6b-99cd9baaea16": {
+      "key": "surakhani",
+      "area_id": "d2981fa1-7fe5-5b12-9a6b-99cd9baaea16",
+      "canonical_file": "places/surakhani_all.json",
+      "count": 1208,
+      "name": "Suraxanı rayonu",
+      "derived_index": "places/index/d2981fa1-7fe5-5b12-9a6b-99cd9baaea16.json",
+      "derived_detail": "places/detail/d2981fa1-7fe5-5b12-9a6b-99cd9baaea16.json",
+      "derived_search": "search/d2981fa1-7fe5-5b12-9a6b-99cd9baaea16.json"
+    },
+    "fbee2486-f2fb-5475-a8b9-aa46f689feb7": {
+      "key": "xezer",
+      "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
+      "canonical_file": "places/xezer_all.json",
+      "count": 2031,
+      "name": "Xəzər rayonu",
+      "derived_index": "places/index/fbee2486-f2fb-5475-a8b9-aa46f689feb7.json",
+      "derived_detail": "places/detail/fbee2486-f2fb-5475-a8b9-aa46f689feb7.json",
+      "derived_search": "search/fbee2486-f2fb-5475-a8b9-aa46f689feb7.json"
+    },
+    "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73": {
+      "key": "pirallahi",
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "canonical_file": "places/pirallahi_all.json",
+      "count": 168,
+      "name": "Pirallahı rayonu",
+      "derived_index": "places/index/2a382cd5-8bc4-55a0-86d2-e2a6072e8f73.json",
+      "derived_detail": "places/detail/2a382cd5-8bc4-55a0-86d2-e2a6072e8f73.json",
+      "derived_search": "search/2a382cd5-8bc4-55a0-86d2-e2a6072e8f73.json"
+    },
+    "807ae588-0bb8-51ee-8c6f-9b5267abbbfd": {
+      "key": "qaradag",
+      "area_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
+      "canonical_file": "places/qaradag_all.json",
+      "count": 1013,
+      "name": "Qaradağ rayonu",
+      "derived_index": "places/index/807ae588-0bb8-51ee-8c6f-9b5267abbbfd.json",
+      "derived_detail": "places/detail/807ae588-0bb8-51ee-8c6f-9b5267abbbfd.json",
+      "derived_search": "search/807ae588-0bb8-51ee-8c6f-9b5267abbbfd.json"
+    },
+    "a02b58f1-3009-5ce3-a728-69d77b411dec": {
+      "key": "sumqayit",
+      "area_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+      "canonical_file": "places/sumqayit_all.json",
+      "count": 1724,
+      "name": "Sumqayıt",
+      "derived_index": "places/index/a02b58f1-3009-5ce3-a728-69d77b411dec.json",
+      "derived_detail": "places/detail/a02b58f1-3009-5ce3-a728-69d77b411dec.json",
+      "derived_search": "search/a02b58f1-3009-5ce3-a728-69d77b411dec.json"
+    },
+    "fbfbd698-3dee-5bda-a63a-71b21920d989": {
+      "key": "masazir",
+      "area_id": "fbfbd698-3dee-5bda-a63a-71b21920d989",
+      "canonical_file": "places/masazir_all.json",
+      "count": 263,
+      "name": "Masazır",
+      "derived_index": "places/index/fbfbd698-3dee-5bda-a63a-71b21920d989.json",
+      "derived_detail": "places/detail/fbfbd698-3dee-5bda-a63a-71b21920d989.json",
+      "derived_search": "search/fbfbd698-3dee-5bda-a63a-71b21920d989.json"
+    },
+    "2dd82823-5406-5468-85af-f06df3a8e3b6": {
+      "key": "xirdalan",
+      "area_id": "2dd82823-5406-5468-85af-f06df3a8e3b6",
+      "canonical_file": "places/xirdalan_all.json",
+      "count": 1268,
+      "name": "Xırdalan",
+      "derived_index": "places/index/2dd82823-5406-5468-85af-f06df3a8e3b6.json",
+      "derived_detail": "places/detail/2dd82823-5406-5468-85af-f06df3a8e3b6.json",
+      "derived_search": "search/2dd82823-5406-5468-85af-f06df3a8e3b6.json"
+    },
+    "ecf857ca-467d-5b57-b403-12f40dc4c871": {
+      "key": "absheron",
+      "area_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+      "canonical_file": "places/absheron_all.json",
+      "count": 305,
+      "name": "Abşeron rayonu",
+      "derived_index": "places/index/ecf857ca-467d-5b57-b403-12f40dc4c871.json",
+      "derived_detail": "places/detail/ecf857ca-467d-5b57-b403-12f40dc4c871.json",
+      "derived_search": "search/ecf857ca-467d-5b57-b403-12f40dc4c871.json"
+    },
+    "92ac7080-2ca6-50fd-ac4a-e6f759e0e891": {
+      "key": "gence_kapaz",
+      "area_id": "92ac7080-2ca6-50fd-ac4a-e6f759e0e891",
+      "canonical_file": "places/gence_kapaz_all.json",
+      "count": 185,
+      "name": "Kəpəz rayonu",
+      "derived_index": "places/index/92ac7080-2ca6-50fd-ac4a-e6f759e0e891.json",
+      "derived_detail": "places/detail/92ac7080-2ca6-50fd-ac4a-e6f759e0e891.json",
+      "derived_search": "search/92ac7080-2ca6-50fd-ac4a-e6f759e0e891.json"
+    },
+    "092d3f38-a984-5ff2-854a-a1d152003cc7": {
+      "key": "gence_nizami",
+      "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
+      "canonical_file": "places/gence_nizami_all.json",
+      "count": 398,
+      "name": "Nizami rayonu",
+      "derived_index": "places/index/092d3f38-a984-5ff2-854a-a1d152003cc7.json",
+      "derived_detail": "places/detail/092d3f38-a984-5ff2-854a-a1d152003cc7.json",
+      "derived_search": "search/092d3f38-a984-5ff2-854a-a1d152003cc7.json"
+    },
+    "6f487a89-3bdb-54b5-bc82-3beeecb84be9": {
+      "key": "mingachevir",
+      "area_id": "6f487a89-3bdb-54b5-bc82-3beeecb84be9",
+      "canonical_file": "places/mingachevir_all.json",
+      "count": 348,
+      "name": "Mingəçevir",
+      "derived_index": "places/index/6f487a89-3bdb-54b5-bc82-3beeecb84be9.json",
+      "derived_detail": "places/detail/6f487a89-3bdb-54b5-bc82-3beeecb84be9.json",
+      "derived_search": "search/6f487a89-3bdb-54b5-bc82-3beeecb84be9.json"
+    },
+    "4770b1b1-5aff-55d8-a01a-7f51601bf4cb": {
+      "key": "shirvan",
+      "area_id": "4770b1b1-5aff-55d8-a01a-7f51601bf4cb",
+      "canonical_file": "places/shirvan_all.json",
+      "count": 496,
+      "name": "Şirvan",
+      "derived_index": "places/index/4770b1b1-5aff-55d8-a01a-7f51601bf4cb.json",
+      "derived_detail": "places/detail/4770b1b1-5aff-55d8-a01a-7f51601bf4cb.json",
+      "derived_search": "search/4770b1b1-5aff-55d8-a01a-7f51601bf4cb.json"
+    },
+    "997eb0a1-8425-5919-80da-907d8f479cf7": {
+      "key": "naftalan",
+      "area_id": "997eb0a1-8425-5919-80da-907d8f479cf7",
+      "canonical_file": "places/naftalan_all.json",
+      "count": 110,
+      "name": "Naftalan",
+      "derived_index": "places/index/997eb0a1-8425-5919-80da-907d8f479cf7.json",
+      "derived_detail": "places/detail/997eb0a1-8425-5919-80da-907d8f479cf7.json",
+      "derived_search": "search/997eb0a1-8425-5919-80da-907d8f479cf7.json"
+    },
+    "3bd2f01d-ea83-5489-a16e-9905cd0b8d9c": {
+      "key": "yevlax",
+      "area_id": "3bd2f01d-ea83-5489-a16e-9905cd0b8d9c",
+      "canonical_file": "places/yevlax_all.json",
+      "count": 180,
+      "name": "Yevlax",
+      "derived_index": "places/index/3bd2f01d-ea83-5489-a16e-9905cd0b8d9c.json",
+      "derived_detail": "places/detail/3bd2f01d-ea83-5489-a16e-9905cd0b8d9c.json",
+      "derived_search": "search/3bd2f01d-ea83-5489-a16e-9905cd0b8d9c.json"
+    },
+    "c8842d4f-3e6b-5f4b-8e94-2abf53b507d6": {
+      "key": "lankaran",
+      "area_id": "c8842d4f-3e6b-5f4b-8e94-2abf53b507d6",
+      "canonical_file": "places/lankaran_all.json",
+      "count": 181,
+      "name": "Lənkəran",
+      "derived_index": "places/index/c8842d4f-3e6b-5f4b-8e94-2abf53b507d6.json",
+      "derived_detail": "places/detail/c8842d4f-3e6b-5f4b-8e94-2abf53b507d6.json",
+      "derived_search": "search/c8842d4f-3e6b-5f4b-8e94-2abf53b507d6.json"
+    },
+    "84652ade-57b0-5975-a105-b7cdb2444bcc": {
+      "key": "sheki",
+      "area_id": "84652ade-57b0-5975-a105-b7cdb2444bcc",
+      "canonical_file": "places/sheki_all.json",
+      "count": 535,
+      "name": "Şəki",
+      "derived_index": "places/index/84652ade-57b0-5975-a105-b7cdb2444bcc.json",
+      "derived_detail": "places/detail/84652ade-57b0-5975-a105-b7cdb2444bcc.json",
+      "derived_search": "search/84652ade-57b0-5975-a105-b7cdb2444bcc.json"
+    },
+    "0768075a-2054-5f7c-9d58-c98d2edada0e": {
+      "key": "nakhchivan",
+      "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
+      "canonical_file": "places/nakhchivan_all.json",
+      "count": 254,
+      "name": "Naxçıvan",
+      "derived_index": "places/index/0768075a-2054-5f7c-9d58-c98d2edada0e.json",
+      "derived_detail": "places/detail/0768075a-2054-5f7c-9d58-c98d2edada0e.json",
+      "derived_search": "search/0768075a-2054-5f7c-9d58-c98d2edada0e.json"
+    },
+    "191a84bf-14b3-5a84-864c-5c67ced931ec": {
+      "key": "khizi",
+      "area_id": "191a84bf-14b3-5a84-864c-5c67ced931ec",
+      "canonical_file": "places/khizi_all.json",
+      "count": 61,
+      "name": "Xızı rayonu",
+      "derived_index": "places/index/191a84bf-14b3-5a84-864c-5c67ced931ec.json",
+      "derived_detail": "places/detail/191a84bf-14b3-5a84-864c-5c67ced931ec.json",
+      "derived_search": "search/191a84bf-14b3-5a84-864c-5c67ced931ec.json"
+    },
+    "b52c3337-9522-5a04-86b8-df8e43f3f8b9": {
+      "key": "quba",
+      "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+      "canonical_file": "places/quba_all.json",
+      "count": 415,
+      "name": "Quba rayonu",
+      "derived_index": "places/index/b52c3337-9522-5a04-86b8-df8e43f3f8b9.json",
+      "derived_detail": "places/detail/b52c3337-9522-5a04-86b8-df8e43f3f8b9.json",
+      "derived_search": "search/b52c3337-9522-5a04-86b8-df8e43f3f8b9.json"
+    },
+    "6fec85b0-0967-5a32-8c49-4804119a40ae": {
+      "key": "qusar",
+      "area_id": "6fec85b0-0967-5a32-8c49-4804119a40ae",
+      "canonical_file": "places/qusar_all.json",
+      "count": 477,
+      "name": "Qusar rayonu",
+      "derived_index": "places/index/6fec85b0-0967-5a32-8c49-4804119a40ae.json",
+      "derived_detail": "places/detail/6fec85b0-0967-5a32-8c49-4804119a40ae.json",
+      "derived_search": "search/6fec85b0-0967-5a32-8c49-4804119a40ae.json"
+    },
+    "45206736-f118-53dd-8252-b8d32a2b5cba": {
+      "key": "xachmaz",
+      "area_id": "45206736-f118-53dd-8252-b8d32a2b5cba",
+      "canonical_file": "places/xachmaz_all.json",
+      "count": 458,
+      "name": "Xaçmaz rayonu",
+      "derived_index": "places/index/45206736-f118-53dd-8252-b8d32a2b5cba.json",
+      "derived_detail": "places/detail/45206736-f118-53dd-8252-b8d32a2b5cba.json",
+      "derived_search": "search/45206736-f118-53dd-8252-b8d32a2b5cba.json"
+    },
+    "5fb6cd28-0ea7-5ac3-994f-48bb0bf88343": {
+      "key": "shabran",
+      "area_id": "5fb6cd28-0ea7-5ac3-994f-48bb0bf88343",
+      "canonical_file": "places/shabran_all.json",
+      "count": 70,
+      "name": "Şabran rayonu",
+      "derived_index": "places/index/5fb6cd28-0ea7-5ac3-994f-48bb0bf88343.json",
+      "derived_detail": "places/detail/5fb6cd28-0ea7-5ac3-994f-48bb0bf88343.json",
+      "derived_search": "search/5fb6cd28-0ea7-5ac3-994f-48bb0bf88343.json"
+    },
+    "cac9becb-d9eb-5a5e-9340-cab7a24f3d70": {
+      "key": "siyazan",
+      "area_id": "cac9becb-d9eb-5a5e-9340-cab7a24f3d70",
+      "canonical_file": "places/siyazan_all.json",
+      "count": 65,
+      "name": "Siyəzən rayonu",
+      "derived_index": "places/index/cac9becb-d9eb-5a5e-9340-cab7a24f3d70.json",
+      "derived_detail": "places/detail/cac9becb-d9eb-5a5e-9340-cab7a24f3d70.json",
+      "derived_search": "search/cac9becb-d9eb-5a5e-9340-cab7a24f3d70.json"
+    },
+    "286e9a90-aeb8-5495-a7f5-ac396d834cc6": {
+      "key": "shamakhi",
+      "area_id": "286e9a90-aeb8-5495-a7f5-ac396d834cc6",
+      "canonical_file": "places/shamakhi_all.json",
+      "count": 536,
+      "name": "Şamaxı rayonu",
+      "derived_index": "places/index/286e9a90-aeb8-5495-a7f5-ac396d834cc6.json",
+      "derived_detail": "places/detail/286e9a90-aeb8-5495-a7f5-ac396d834cc6.json",
+      "derived_search": "search/286e9a90-aeb8-5495-a7f5-ac396d834cc6.json"
+    },
+    "32cc6720-98b2-5de0-bc65-13796e6385ab": {
+      "key": "ismailli",
+      "area_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+      "canonical_file": "places/ismailli_all.json",
+      "count": 377,
+      "name": "İsmayıllı rayonu",
+      "derived_index": "places/index/32cc6720-98b2-5de0-bc65-13796e6385ab.json",
+      "derived_detail": "places/detail/32cc6720-98b2-5de0-bc65-13796e6385ab.json",
+      "derived_search": "search/32cc6720-98b2-5de0-bc65-13796e6385ab.json"
+    },
+    "0b66ddcc-de63-5256-a51b-f003d95e945e": {
+      "key": "agsu",
+      "area_id": "0b66ddcc-de63-5256-a51b-f003d95e945e",
+      "canonical_file": "places/agsu_all.json",
+      "count": 146,
+      "name": "Ağsu rayonu",
+      "derived_index": "places/index/0b66ddcc-de63-5256-a51b-f003d95e945e.json",
+      "derived_detail": "places/detail/0b66ddcc-de63-5256-a51b-f003d95e945e.json",
+      "derived_search": "search/0b66ddcc-de63-5256-a51b-f003d95e945e.json"
+    },
+    "1f23b55d-e32f-5613-89f6-803737d7f924": {
+      "key": "gobustan",
+      "area_id": "1f23b55d-e32f-5613-89f6-803737d7f924",
+      "canonical_file": "places/gobustan_all.json",
+      "count": 111,
+      "name": "Qobustan rayonu",
+      "derived_index": "places/index/1f23b55d-e32f-5613-89f6-803737d7f924.json",
+      "derived_detail": "places/detail/1f23b55d-e32f-5613-89f6-803737d7f924.json",
+      "derived_search": "search/1f23b55d-e32f-5613-89f6-803737d7f924.json"
+    },
+    "14df867e-3d94-587c-b56b-28bb657bbb07": {
+      "key": "hajiqabul",
+      "area_id": "14df867e-3d94-587c-b56b-28bb657bbb07",
+      "canonical_file": "places/hajiqabul_all.json",
+      "count": 193,
+      "name": "Hacıqabul rayonu",
+      "derived_index": "places/index/14df867e-3d94-587c-b56b-28bb657bbb07.json",
+      "derived_detail": "places/detail/14df867e-3d94-587c-b56b-28bb657bbb07.json",
+      "derived_search": "search/14df867e-3d94-587c-b56b-28bb657bbb07.json"
+    },
+    "bce4d2f6-bfcc-56e6-8571-97c50f3e74f2": {
+      "key": "salyan",
+      "area_id": "bce4d2f6-bfcc-56e6-8571-97c50f3e74f2",
+      "canonical_file": "places/salyan_all.json",
+      "count": 546,
+      "name": "Salyan rayonu",
+      "derived_index": "places/index/bce4d2f6-bfcc-56e6-8571-97c50f3e74f2.json",
+      "derived_detail": "places/detail/bce4d2f6-bfcc-56e6-8571-97c50f3e74f2.json",
+      "derived_search": "search/bce4d2f6-bfcc-56e6-8571-97c50f3e74f2.json"
+    },
+    "18688643-9cef-5e65-a2fa-a84819393c6c": {
+      "key": "neftchala",
+      "area_id": "18688643-9cef-5e65-a2fa-a84819393c6c",
+      "canonical_file": "places/neftchala_all.json",
+      "count": 116,
+      "name": "Neftçala rayonu",
+      "derived_index": "places/index/18688643-9cef-5e65-a2fa-a84819393c6c.json",
+      "derived_detail": "places/detail/18688643-9cef-5e65-a2fa-a84819393c6c.json",
+      "derived_search": "search/18688643-9cef-5e65-a2fa-a84819393c6c.json"
+    },
+    "db042a83-0a77-509e-b8c1-3f0573c42f17": {
+      "key": "sabirabad",
+      "area_id": "db042a83-0a77-509e-b8c1-3f0573c42f17",
+      "canonical_file": "places/sabirabad_all.json",
+      "count": 79,
+      "name": "Sabirabad rayonu",
+      "derived_index": "places/index/db042a83-0a77-509e-b8c1-3f0573c42f17.json",
+      "derived_detail": "places/detail/db042a83-0a77-509e-b8c1-3f0573c42f17.json",
+      "derived_search": "search/db042a83-0a77-509e-b8c1-3f0573c42f17.json"
+    },
+    "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2": {
+      "key": "saatli",
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "canonical_file": "places/saatli_all.json",
+      "count": 30,
+      "name": "Saatlı rayonu",
+      "derived_index": "places/index/559ccbd7-fabc-5b46-ba92-500bcf9ef4b2.json",
+      "derived_detail": "places/detail/559ccbd7-fabc-5b46-ba92-500bcf9ef4b2.json",
+      "derived_search": "search/559ccbd7-fabc-5b46-ba92-500bcf9ef4b2.json"
+    },
+    "359a014a-e4e6-5647-bbf4-98ce4dd98870": {
+      "key": "imishli",
+      "area_id": "359a014a-e4e6-5647-bbf4-98ce4dd98870",
+      "canonical_file": "places/imishli_all.json",
+      "count": 63,
+      "name": "İmişli rayonu",
+      "derived_index": "places/index/359a014a-e4e6-5647-bbf4-98ce4dd98870.json",
+      "derived_detail": "places/detail/359a014a-e4e6-5647-bbf4-98ce4dd98870.json",
+      "derived_search": "search/359a014a-e4e6-5647-bbf4-98ce4dd98870.json"
+    },
+    "abcafc86-adf9-5cf7-a469-04f49245b9d6": {
+      "key": "beylagan",
+      "area_id": "abcafc86-adf9-5cf7-a469-04f49245b9d6",
+      "canonical_file": "places/beylagan_all.json",
+      "count": 30,
+      "name": "Beyləqan rayonu",
+      "derived_index": "places/index/abcafc86-adf9-5cf7-a469-04f49245b9d6.json",
+      "derived_detail": "places/detail/abcafc86-adf9-5cf7-a469-04f49245b9d6.json",
+      "derived_search": "search/abcafc86-adf9-5cf7-a469-04f49245b9d6.json"
+    },
+    "6a9aa3fd-1253-5da5-a0fc-e1e2f071ea3c": {
+      "key": "agjabadi",
+      "area_id": "6a9aa3fd-1253-5da5-a0fc-e1e2f071ea3c",
+      "canonical_file": "places/agjabadi_all.json",
+      "count": 262,
+      "name": "Ağcabədi rayonu",
+      "derived_index": "places/index/6a9aa3fd-1253-5da5-a0fc-e1e2f071ea3c.json",
+      "derived_detail": "places/detail/6a9aa3fd-1253-5da5-a0fc-e1e2f071ea3c.json",
+      "derived_search": "search/6a9aa3fd-1253-5da5-a0fc-e1e2f071ea3c.json"
+    },
+    "bf911836-dec1-5c87-9cef-a1d22d111f4e": {
+      "key": "yevlax_rayon",
+      "area_id": "bf911836-dec1-5c87-9cef-a1d22d111f4e",
+      "canonical_file": "places/yevlax_rayon_all.json",
+      "count": 93,
+      "name": "Yevlax rayonu",
+      "derived_index": "places/index/bf911836-dec1-5c87-9cef-a1d22d111f4e.json",
+      "derived_detail": "places/detail/bf911836-dec1-5c87-9cef-a1d22d111f4e.json",
+      "derived_search": "search/bf911836-dec1-5c87-9cef-a1d22d111f4e.json"
+    },
+    "7a77c6ff-8d53-5940-883c-2931d809622a": {
+      "key": "barda",
+      "area_id": "7a77c6ff-8d53-5940-883c-2931d809622a",
+      "canonical_file": "places/barda_all.json",
+      "count": 123,
+      "name": "Bərdə rayonu",
+      "derived_index": "places/index/7a77c6ff-8d53-5940-883c-2931d809622a.json",
+      "derived_detail": "places/detail/7a77c6ff-8d53-5940-883c-2931d809622a.json",
+      "derived_search": "search/7a77c6ff-8d53-5940-883c-2931d809622a.json"
+    },
+    "bc57b59f-7be7-5534-b28f-fa95ac1f3097": {
+      "key": "agdash",
+      "area_id": "bc57b59f-7be7-5534-b28f-fa95ac1f3097",
+      "canonical_file": "places/agdash_all.json",
+      "count": 244,
+      "name": "Ağdaş rayonu",
+      "derived_index": "places/index/bc57b59f-7be7-5534-b28f-fa95ac1f3097.json",
+      "derived_detail": "places/detail/bc57b59f-7be7-5534-b28f-fa95ac1f3097.json",
+      "derived_search": "search/bc57b59f-7be7-5534-b28f-fa95ac1f3097.json"
+    },
+    "a26e4ff2-54c0-5c88-b180-5020d105d64d": {
+      "key": "goychay",
+      "area_id": "a26e4ff2-54c0-5c88-b180-5020d105d64d",
+      "canonical_file": "places/goychay_all.json",
+      "count": 226,
+      "name": "Göyçay rayonu",
+      "derived_index": "places/index/a26e4ff2-54c0-5c88-b180-5020d105d64d.json",
+      "derived_detail": "places/detail/a26e4ff2-54c0-5c88-b180-5020d105d64d.json",
+      "derived_search": "search/a26e4ff2-54c0-5c88-b180-5020d105d64d.json"
+    },
+    "5bfacc06-2a5a-5d9d-af55-e26a19b9d6f2": {
+      "key": "ucar",
+      "area_id": "5bfacc06-2a5a-5d9d-af55-e26a19b9d6f2",
+      "canonical_file": "places/ucar_all.json",
+      "count": 143,
+      "name": "Ucar rayonu",
+      "derived_index": "places/index/5bfacc06-2a5a-5d9d-af55-e26a19b9d6f2.json",
+      "derived_detail": "places/detail/5bfacc06-2a5a-5d9d-af55-e26a19b9d6f2.json",
+      "derived_search": "search/5bfacc06-2a5a-5d9d-af55-e26a19b9d6f2.json"
+    },
+    "d66fb656-4b6c-5b7e-b86f-7f222ce1918f": {
+      "key": "zardab",
+      "area_id": "d66fb656-4b6c-5b7e-b86f-7f222ce1918f",
+      "canonical_file": "places/zardab_all.json",
+      "count": 44,
+      "name": "Zərdab rayonu",
+      "derived_index": "places/index/d66fb656-4b6c-5b7e-b86f-7f222ce1918f.json",
+      "derived_detail": "places/detail/d66fb656-4b6c-5b7e-b86f-7f222ce1918f.json",
+      "derived_search": "search/d66fb656-4b6c-5b7e-b86f-7f222ce1918f.json"
+    },
+    "748abe04-6d06-5fa2-a6b3-1f9f967ee02a": {
+      "key": "kurdamir",
+      "area_id": "748abe04-6d06-5fa2-a6b3-1f9f967ee02a",
+      "canonical_file": "places/kurdamir_all.json",
+      "count": 180,
+      "name": "Kürdəmir rayonu",
+      "derived_index": "places/index/748abe04-6d06-5fa2-a6b3-1f9f967ee02a.json",
+      "derived_detail": "places/detail/748abe04-6d06-5fa2-a6b3-1f9f967ee02a.json",
+      "derived_search": "search/748abe04-6d06-5fa2-a6b3-1f9f967ee02a.json"
+    },
+    "666fc78b-9053-5fe5-b2e6-8156dcdd80c7": {
+      "key": "dashkasan",
+      "area_id": "666fc78b-9053-5fe5-b2e6-8156dcdd80c7",
+      "canonical_file": "places/dashkasan_all.json",
+      "count": 129,
+      "name": "Daşkəsən rayonu",
+      "derived_index": "places/index/666fc78b-9053-5fe5-b2e6-8156dcdd80c7.json",
+      "derived_detail": "places/detail/666fc78b-9053-5fe5-b2e6-8156dcdd80c7.json",
+      "derived_search": "search/666fc78b-9053-5fe5-b2e6-8156dcdd80c7.json"
+    },
+    "7cf52e77-47b7-5712-b6ce-739698bc83d3": {
+      "key": "goygol",
+      "area_id": "7cf52e77-47b7-5712-b6ce-739698bc83d3",
+      "canonical_file": "places/goygol_all.json",
+      "count": 250,
+      "name": "Göygöl rayonu",
+      "derived_index": "places/index/7cf52e77-47b7-5712-b6ce-739698bc83d3.json",
+      "derived_detail": "places/detail/7cf52e77-47b7-5712-b6ce-739698bc83d3.json",
+      "derived_search": "search/7cf52e77-47b7-5712-b6ce-739698bc83d3.json"
+    },
+    "3ea08ec5-7ec1-5a5f-b418-2cc100be9264": {
+      "key": "samukh",
+      "area_id": "3ea08ec5-7ec1-5a5f-b418-2cc100be9264",
+      "canonical_file": "places/samukh_all.json",
+      "count": 132,
+      "name": "Samux rayonu",
+      "derived_index": "places/index/3ea08ec5-7ec1-5a5f-b418-2cc100be9264.json",
+      "derived_detail": "places/detail/3ea08ec5-7ec1-5a5f-b418-2cc100be9264.json",
+      "derived_search": "search/3ea08ec5-7ec1-5a5f-b418-2cc100be9264.json"
+    },
+    "e81a5840-32d7-5889-98a6-69120e5d7ed7": {
+      "key": "shamkir",
+      "area_id": "e81a5840-32d7-5889-98a6-69120e5d7ed7",
+      "canonical_file": "places/shamkir_all.json",
+      "count": 504,
+      "name": "Şəmkir rayonu",
+      "derived_index": "places/index/e81a5840-32d7-5889-98a6-69120e5d7ed7.json",
+      "derived_detail": "places/detail/e81a5840-32d7-5889-98a6-69120e5d7ed7.json",
+      "derived_search": "search/e81a5840-32d7-5889-98a6-69120e5d7ed7.json"
+    },
+    "f1b03783-185a-5fe7-ad0a-3b6ea4d9c633": {
+      "key": "tovuz",
+      "area_id": "f1b03783-185a-5fe7-ad0a-3b6ea4d9c633",
+      "canonical_file": "places/tovuz_all.json",
+      "count": 468,
+      "name": "Tovuz rayonu",
+      "derived_index": "places/index/f1b03783-185a-5fe7-ad0a-3b6ea4d9c633.json",
+      "derived_detail": "places/detail/f1b03783-185a-5fe7-ad0a-3b6ea4d9c633.json",
+      "derived_search": "search/f1b03783-185a-5fe7-ad0a-3b6ea4d9c633.json"
+    },
+    "43959365-1f7e-50d0-aa64-710298cab5bd": {
+      "key": "agstafa",
+      "area_id": "43959365-1f7e-50d0-aa64-710298cab5bd",
+      "canonical_file": "places/agstafa_all.json",
+      "count": 339,
+      "name": "Ağstafa rayonu",
+      "derived_index": "places/index/43959365-1f7e-50d0-aa64-710298cab5bd.json",
+      "derived_detail": "places/detail/43959365-1f7e-50d0-aa64-710298cab5bd.json",
+      "derived_search": "search/43959365-1f7e-50d0-aa64-710298cab5bd.json"
+    },
+    "594849ce-b1ad-58d8-934c-4de1524c704a": {
+      "key": "gazakh",
+      "area_id": "594849ce-b1ad-58d8-934c-4de1524c704a",
+      "canonical_file": "places/gazakh_all.json",
+      "count": 428,
+      "name": "Qazax rayonu",
+      "derived_index": "places/index/594849ce-b1ad-58d8-934c-4de1524c704a.json",
+      "derived_detail": "places/detail/594849ce-b1ad-58d8-934c-4de1524c704a.json",
+      "derived_search": "search/594849ce-b1ad-58d8-934c-4de1524c704a.json"
+    },
+    "1c9117db-930f-544f-86d3-4c3be06cacdb": {
+      "key": "gedabey",
+      "area_id": "1c9117db-930f-544f-86d3-4c3be06cacdb",
+      "canonical_file": "places/gedabey_all.json",
+      "count": 360,
+      "name": "Gədəbəy rayonu",
+      "derived_index": "places/index/1c9117db-930f-544f-86d3-4c3be06cacdb.json",
+      "derived_detail": "places/detail/1c9117db-930f-544f-86d3-4c3be06cacdb.json",
+      "derived_search": "search/1c9117db-930f-544f-86d3-4c3be06cacdb.json"
+    },
+    "5a88d1bb-f472-597d-9c8c-193cd2052033": {
+      "key": "sheki_rayon",
+      "area_id": "5a88d1bb-f472-597d-9c8c-193cd2052033",
+      "canonical_file": "places/sheki_rayon_all.json",
+      "count": 216,
+      "name": "Şəki rayonu",
+      "derived_index": "places/index/5a88d1bb-f472-597d-9c8c-193cd2052033.json",
+      "derived_detail": "places/detail/5a88d1bb-f472-597d-9c8c-193cd2052033.json",
+      "derived_search": "search/5a88d1bb-f472-597d-9c8c-193cd2052033.json"
+    },
+    "fd5f5117-b94a-549e-8b7d-7112381298ad": {
+      "key": "gakh",
+      "area_id": "fd5f5117-b94a-549e-8b7d-7112381298ad",
+      "canonical_file": "places/gakh_all.json",
+      "count": 298,
+      "name": "Qax rayonu",
+      "derived_index": "places/index/fd5f5117-b94a-549e-8b7d-7112381298ad.json",
+      "derived_detail": "places/detail/fd5f5117-b94a-549e-8b7d-7112381298ad.json",
+      "derived_search": "search/fd5f5117-b94a-549e-8b7d-7112381298ad.json"
+    },
+    "52e46674-ff8f-57de-90bd-5327e24e7bb4": {
+      "key": "zaqatala",
+      "area_id": "52e46674-ff8f-57de-90bd-5327e24e7bb4",
+      "canonical_file": "places/zaqatala_all.json",
+      "count": 386,
+      "name": "Zaqatala rayonu",
+      "derived_index": "places/index/52e46674-ff8f-57de-90bd-5327e24e7bb4.json",
+      "derived_detail": "places/detail/52e46674-ff8f-57de-90bd-5327e24e7bb4.json",
+      "derived_search": "search/52e46674-ff8f-57de-90bd-5327e24e7bb4.json"
+    },
+    "b22a65cb-a5a1-515c-bda5-758a3f5d829c": {
+      "key": "balakan",
+      "area_id": "b22a65cb-a5a1-515c-bda5-758a3f5d829c",
+      "canonical_file": "places/balakan_all.json",
+      "count": 267,
+      "name": "Balakən rayonu",
+      "derived_index": "places/index/b22a65cb-a5a1-515c-bda5-758a3f5d829c.json",
+      "derived_detail": "places/detail/b22a65cb-a5a1-515c-bda5-758a3f5d829c.json",
+      "derived_search": "search/b22a65cb-a5a1-515c-bda5-758a3f5d829c.json"
+    },
+    "8604052b-f28f-5c80-be49-3d3770ef7374": {
+      "key": "oguz",
+      "area_id": "8604052b-f28f-5c80-be49-3d3770ef7374",
+      "canonical_file": "places/oguz_all.json",
+      "count": 251,
+      "name": "Oğuz rayonu",
+      "derived_index": "places/index/8604052b-f28f-5c80-be49-3d3770ef7374.json",
+      "derived_detail": "places/detail/8604052b-f28f-5c80-be49-3d3770ef7374.json",
+      "derived_search": "search/8604052b-f28f-5c80-be49-3d3770ef7374.json"
+    },
+    "edd1d321-938f-52da-95ba-3af718e6104f": {
+      "key": "gabala",
+      "area_id": "edd1d321-938f-52da-95ba-3af718e6104f",
+      "canonical_file": "places/gabala_all.json",
+      "count": 417,
+      "name": "Qəbələ rayonu",
+      "derived_index": "places/index/edd1d321-938f-52da-95ba-3af718e6104f.json",
+      "derived_detail": "places/detail/edd1d321-938f-52da-95ba-3af718e6104f.json",
+      "derived_search": "search/edd1d321-938f-52da-95ba-3af718e6104f.json"
+    },
+    "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92": {
+      "key": "lankaran_rayon",
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "canonical_file": "places/lankaran_rayon_all.json",
+      "count": 71,
+      "name": "Lənkəran rayonu",
+      "derived_index": "places/index/ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92.json",
+      "derived_detail": "places/detail/ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92.json",
+      "derived_search": "search/ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92.json"
+    },
+    "df1151dd-8b83-55c1-bbe8-55e8ea430523": {
+      "key": "astara",
+      "area_id": "df1151dd-8b83-55c1-bbe8-55e8ea430523",
+      "canonical_file": "places/astara_all.json",
+      "count": 63,
+      "name": "Astara rayonu",
+      "derived_index": "places/index/df1151dd-8b83-55c1-bbe8-55e8ea430523.json",
+      "derived_detail": "places/detail/df1151dd-8b83-55c1-bbe8-55e8ea430523.json",
+      "derived_search": "search/df1151dd-8b83-55c1-bbe8-55e8ea430523.json"
+    },
+    "4a92fe72-1565-543e-859d-94af4b3318a8": {
+      "key": "lerik",
+      "area_id": "4a92fe72-1565-543e-859d-94af4b3318a8",
+      "canonical_file": "places/lerik_all.json",
+      "count": 64,
+      "name": "Lerik rayonu",
+      "derived_index": "places/index/4a92fe72-1565-543e-859d-94af4b3318a8.json",
+      "derived_detail": "places/detail/4a92fe72-1565-543e-859d-94af4b3318a8.json",
+      "derived_search": "search/4a92fe72-1565-543e-859d-94af4b3318a8.json"
+    },
+    "5781664a-0bb7-5f8c-a02d-6c445aadfeba": {
+      "key": "yardimli",
+      "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
+      "canonical_file": "places/yardimli_all.json",
+      "count": 21,
+      "name": "Yardımlı rayonu",
+      "derived_index": "places/index/5781664a-0bb7-5f8c-a02d-6c445aadfeba.json",
+      "derived_detail": "places/detail/5781664a-0bb7-5f8c-a02d-6c445aadfeba.json",
+      "derived_search": "search/5781664a-0bb7-5f8c-a02d-6c445aadfeba.json"
+    },
+    "b1d864f5-f0ea-5660-91eb-01a56351cfea": {
+      "key": "masalli",
+      "area_id": "b1d864f5-f0ea-5660-91eb-01a56351cfea",
+      "canonical_file": "places/masalli_all.json",
+      "count": 98,
+      "name": "Masallı rayonu",
+      "derived_index": "places/index/b1d864f5-f0ea-5660-91eb-01a56351cfea.json",
+      "derived_detail": "places/detail/b1d864f5-f0ea-5660-91eb-01a56351cfea.json",
+      "derived_search": "search/b1d864f5-f0ea-5660-91eb-01a56351cfea.json"
+    },
+    "709fbdf8-acbb-5197-a685-6d1bf6c77d87": {
+      "key": "jalilabad",
+      "area_id": "709fbdf8-acbb-5197-a685-6d1bf6c77d87",
+      "canonical_file": "places/jalilabad_all.json",
+      "count": 68,
+      "name": "Cəlilabad rayonu",
+      "derived_index": "places/index/709fbdf8-acbb-5197-a685-6d1bf6c77d87.json",
+      "derived_detail": "places/detail/709fbdf8-acbb-5197-a685-6d1bf6c77d87.json",
+      "derived_search": "search/709fbdf8-acbb-5197-a685-6d1bf6c77d87.json"
+    },
+    "6454c0d8-662c-5533-8a2e-8bc7b34dcdfa": {
+      "key": "agdam",
+      "area_id": "6454c0d8-662c-5533-8a2e-8bc7b34dcdfa",
+      "canonical_file": "places/agdam_all.json",
+      "count": 42,
+      "name": "Ağdam rayonu",
+      "derived_index": "places/index/6454c0d8-662c-5533-8a2e-8bc7b34dcdfa.json",
+      "derived_detail": "places/detail/6454c0d8-662c-5533-8a2e-8bc7b34dcdfa.json",
+      "derived_search": "search/6454c0d8-662c-5533-8a2e-8bc7b34dcdfa.json"
+    },
+    "eb593579-9816-5449-a5cd-1dacaafbcef9": {
+      "key": "fuzuli",
+      "area_id": "eb593579-9816-5449-a5cd-1dacaafbcef9",
+      "canonical_file": "places/fuzuli_all.json",
+      "count": 29,
+      "name": "Füzuli rayonu",
+      "derived_index": "places/index/eb593579-9816-5449-a5cd-1dacaafbcef9.json",
+      "derived_detail": "places/detail/eb593579-9816-5449-a5cd-1dacaafbcef9.json",
+      "derived_search": "search/eb593579-9816-5449-a5cd-1dacaafbcef9.json"
+    },
+    "9f564169-32e9-5a49-a8e0-beda6446010f": {
+      "key": "tartar",
+      "area_id": "9f564169-32e9-5a49-a8e0-beda6446010f",
+      "canonical_file": "places/tartar_all.json",
+      "count": 60,
+      "name": "Tərtər rayonu",
+      "derived_index": "places/index/9f564169-32e9-5a49-a8e0-beda6446010f.json",
+      "derived_detail": "places/detail/9f564169-32e9-5a49-a8e0-beda6446010f.json",
+      "derived_search": "search/9f564169-32e9-5a49-a8e0-beda6446010f.json"
+    },
+    "953def2b-b93d-5343-acd7-ef5cffbd9eba": {
+      "key": "khojaly",
+      "area_id": "953def2b-b93d-5343-acd7-ef5cffbd9eba",
+      "canonical_file": "places/khojaly_all.json",
+      "count": 276,
+      "name": "Xocalı rayonu",
+      "derived_index": "places/index/953def2b-b93d-5343-acd7-ef5cffbd9eba.json",
+      "derived_detail": "places/detail/953def2b-b93d-5343-acd7-ef5cffbd9eba.json",
+      "derived_search": "search/953def2b-b93d-5343-acd7-ef5cffbd9eba.json"
+    },
+    "df974046-9d94-5c48-a161-d71e59239929": {
+      "key": "khojavend",
+      "area_id": "df974046-9d94-5c48-a161-d71e59239929",
+      "canonical_file": "places/khojavend_all.json",
+      "count": 41,
+      "name": "Xocavənd rayonu",
+      "derived_index": "places/index/df974046-9d94-5c48-a161-d71e59239929.json",
+      "derived_detail": "places/detail/df974046-9d94-5c48-a161-d71e59239929.json",
+      "derived_search": "search/df974046-9d94-5c48-a161-d71e59239929.json"
+    },
+    "6871887d-185d-5c4a-a7bf-91864c4faf97": {
+      "key": "shusha",
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "canonical_file": "places/shusha_all.json",
+      "count": 66,
+      "name": "Şuşa rayonu",
+      "derived_index": "places/index/6871887d-185d-5c4a-a7bf-91864c4faf97.json",
+      "derived_detail": "places/detail/6871887d-185d-5c4a-a7bf-91864c4faf97.json",
+      "derived_search": "search/6871887d-185d-5c4a-a7bf-91864c4faf97.json"
+    },
+    "303b54e3-194c-526f-bdd9-f68cacfec815": {
+      "key": "lachin",
+      "area_id": "303b54e3-194c-526f-bdd9-f68cacfec815",
+      "canonical_file": "places/lachin_all.json",
+      "count": 23,
+      "name": "Laçın rayonu",
+      "derived_index": "places/index/303b54e3-194c-526f-bdd9-f68cacfec815.json",
+      "derived_detail": "places/detail/303b54e3-194c-526f-bdd9-f68cacfec815.json",
+      "derived_search": "search/303b54e3-194c-526f-bdd9-f68cacfec815.json"
+    },
+    "8bc90433-a4ad-5e10-9bea-d0f1148ab298": {
+      "key": "kalbajar",
+      "area_id": "8bc90433-a4ad-5e10-9bea-d0f1148ab298",
+      "canonical_file": "places/kalbajar_all.json",
+      "count": 14,
+      "name": "Kəlbəcər rayonu",
+      "derived_index": "places/index/8bc90433-a4ad-5e10-9bea-d0f1148ab298.json",
+      "derived_detail": "places/detail/8bc90433-a4ad-5e10-9bea-d0f1148ab298.json",
+      "derived_search": "search/8bc90433-a4ad-5e10-9bea-d0f1148ab298.json"
+    },
+    "d902bc7f-786d-51bb-a91c-b3131400b2e6": {
+      "key": "qubadli",
+      "area_id": "d902bc7f-786d-51bb-a91c-b3131400b2e6",
+      "canonical_file": "places/qubadli_all.json",
+      "count": 4,
+      "name": "Qubadlı rayonu",
+      "derived_index": "places/index/d902bc7f-786d-51bb-a91c-b3131400b2e6.json",
+      "derived_detail": "places/detail/d902bc7f-786d-51bb-a91c-b3131400b2e6.json",
+      "derived_search": "search/d902bc7f-786d-51bb-a91c-b3131400b2e6.json"
+    },
+    "4c12a8aa-1aea-557d-a81f-136903ad485c": {
+      "key": "zangilan",
+      "area_id": "4c12a8aa-1aea-557d-a81f-136903ad485c",
+      "canonical_file": "places/zangilan_all.json",
+      "count": 9,
+      "name": "Zəngilan rayonu",
+      "derived_index": "places/index/4c12a8aa-1aea-557d-a81f-136903ad485c.json",
+      "derived_detail": "places/detail/4c12a8aa-1aea-557d-a81f-136903ad485c.json",
+      "derived_search": "search/4c12a8aa-1aea-557d-a81f-136903ad485c.json"
+    },
+    "1578a814-3c5f-512e-88e7-d767eb2fb9e5": {
+      "key": "jabrayil",
+      "area_id": "1578a814-3c5f-512e-88e7-d767eb2fb9e5",
+      "canonical_file": "places/jabrayil_all.json",
+      "count": 5,
+      "name": "Cəbrayıl rayonu",
+      "derived_index": "places/index/1578a814-3c5f-512e-88e7-d767eb2fb9e5.json",
+      "derived_detail": "places/detail/1578a814-3c5f-512e-88e7-d767eb2fb9e5.json",
+      "derived_search": "search/1578a814-3c5f-512e-88e7-d767eb2fb9e5.json"
+    },
+    "9324a75e-3c25-5db7-a1f5-ad37a0b1694a": {
+      "key": "babek",
+      "area_id": "9324a75e-3c25-5db7-a1f5-ad37a0b1694a",
+      "canonical_file": "places/babek_all.json",
+      "count": 25,
+      "name": "Babək rayonu",
+      "derived_index": "places/index/9324a75e-3c25-5db7-a1f5-ad37a0b1694a.json",
+      "derived_detail": "places/detail/9324a75e-3c25-5db7-a1f5-ad37a0b1694a.json",
+      "derived_search": "search/9324a75e-3c25-5db7-a1f5-ad37a0b1694a.json"
+    },
+    "8f3a1052-4f97-5b2e-9cbb-d6d642d24625": {
+      "key": "julfa",
+      "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
+      "canonical_file": "places/julfa_all.json",
+      "count": 24,
+      "name": "Culfa rayonu",
+      "derived_index": "places/index/8f3a1052-4f97-5b2e-9cbb-d6d642d24625.json",
+      "derived_detail": "places/detail/8f3a1052-4f97-5b2e-9cbb-d6d642d24625.json",
+      "derived_search": "search/8f3a1052-4f97-5b2e-9cbb-d6d642d24625.json"
+    },
+    "9ff4b809-be4e-5596-a7a1-63e9c06a7396": {
+      "key": "kangarli",
+      "area_id": "9ff4b809-be4e-5596-a7a1-63e9c06a7396",
+      "canonical_file": "places/kangarli_all.json",
+      "count": 6,
+      "name": "Kəngərli rayonu",
+      "derived_index": "places/index/9ff4b809-be4e-5596-a7a1-63e9c06a7396.json",
+      "derived_detail": "places/detail/9ff4b809-be4e-5596-a7a1-63e9c06a7396.json",
+      "derived_search": "search/9ff4b809-be4e-5596-a7a1-63e9c06a7396.json"
+    },
+    "ab00188f-a25e-5dbe-a5d5-a2c11337a095": {
+      "key": "ordubad",
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "canonical_file": "places/ordubad_all.json",
+      "count": 29,
+      "name": "Ordubad rayonu",
+      "derived_index": "places/index/ab00188f-a25e-5dbe-a5d5-a2c11337a095.json",
+      "derived_detail": "places/detail/ab00188f-a25e-5dbe-a5d5-a2c11337a095.json",
+      "derived_search": "search/ab00188f-a25e-5dbe-a5d5-a2c11337a095.json"
+    },
+    "99a0e3f5-b601-5aef-8438-5162dd895e3a": {
+      "key": "sadarak",
+      "area_id": "99a0e3f5-b601-5aef-8438-5162dd895e3a",
+      "canonical_file": "places/sadarak_all.json",
+      "count": 3,
+      "name": "Sədərək rayonu",
+      "derived_index": "places/index/99a0e3f5-b601-5aef-8438-5162dd895e3a.json",
+      "derived_detail": "places/detail/99a0e3f5-b601-5aef-8438-5162dd895e3a.json",
+      "derived_search": "search/99a0e3f5-b601-5aef-8438-5162dd895e3a.json"
+    },
+    "a0e3d6ff-4788-53c1-b202-a22f53d7b21d": {
+      "key": "shahbuz",
+      "area_id": "a0e3d6ff-4788-53c1-b202-a22f53d7b21d",
+      "canonical_file": "places/shahbuz_all.json",
+      "count": 11,
+      "name": "Şahbuz rayonu",
+      "derived_index": "places/index/a0e3d6ff-4788-53c1-b202-a22f53d7b21d.json",
+      "derived_detail": "places/detail/a0e3d6ff-4788-53c1-b202-a22f53d7b21d.json",
+      "derived_search": "search/a0e3d6ff-4788-53c1-b202-a22f53d7b21d.json"
+    },
+    "6c34e687-79f7-5cae-aaa8-904708c403a9": {
+      "key": "sharur",
+      "area_id": "6c34e687-79f7-5cae-aaa8-904708c403a9",
+      "canonical_file": "places/sharur_all.json",
+      "count": 9,
+      "name": "Şərur rayonu",
+      "derived_index": "places/index/6c34e687-79f7-5cae-aaa8-904708c403a9.json",
+      "derived_detail": "places/detail/6c34e687-79f7-5cae-aaa8-904708c403a9.json",
+      "derived_search": "search/6c34e687-79f7-5cae-aaa8-904708c403a9.json"
+    },
+    "b41ce73f-fd73-543c-b16f-acd1d03c742b": {
+      "key": "absheron_absheron_asagi_guzdek",
+      "area_id": "b41ce73f-fd73-543c-b16f-acd1d03c742b",
+      "canonical_file": "places/absheron_absheron_asagi_guzdek_all.json",
+      "count": 22,
+      "name": "Aşağı Güzdək",
+      "derived_index": "places/index/b41ce73f-fd73-543c-b16f-acd1d03c742b.json",
+      "derived_detail": "places/detail/b41ce73f-fd73-543c-b16f-acd1d03c742b.json",
+      "derived_search": "search/b41ce73f-fd73-543c-b16f-acd1d03c742b.json"
+    },
+    "de481d72-8000-5afa-b899-b592f3b7da8a": {
+      "key": "absheron_absheron_digah",
+      "area_id": "de481d72-8000-5afa-b899-b592f3b7da8a",
+      "canonical_file": "places/absheron_absheron_digah_all.json",
+      "count": 50,
+      "name": "Digah",
+      "derived_index": "places/index/de481d72-8000-5afa-b899-b592f3b7da8a.json",
+      "derived_detail": "places/detail/de481d72-8000-5afa-b899-b592f3b7da8a.json",
+      "derived_search": "search/de481d72-8000-5afa-b899-b592f3b7da8a.json"
+    },
+    "9801fad3-acbc-534c-9329-085c3c7ee443": {
+      "key": "absheron_absheron_fatmayi",
+      "area_id": "9801fad3-acbc-534c-9329-085c3c7ee443",
+      "canonical_file": "places/absheron_absheron_fatmayi_all.json",
+      "count": 22,
+      "name": "Fatmayı",
+      "derived_index": "places/index/9801fad3-acbc-534c-9329-085c3c7ee443.json",
+      "derived_detail": "places/detail/9801fad3-acbc-534c-9329-085c3c7ee443.json",
+      "derived_search": "search/9801fad3-acbc-534c-9329-085c3c7ee443.json"
+    },
+    "f83e8612-2518-5127-9826-c549b166bf74": {
+      "key": "absheron_absheron_goradil",
+      "area_id": "f83e8612-2518-5127-9826-c549b166bf74",
+      "canonical_file": "places/absheron_absheron_goradil_all.json",
+      "count": 46,
+      "name": "Goradil",
+      "derived_index": "places/index/f83e8612-2518-5127-9826-c549b166bf74.json",
+      "derived_detail": "places/detail/f83e8612-2518-5127-9826-c549b166bf74.json",
+      "derived_search": "search/f83e8612-2518-5127-9826-c549b166bf74.json"
+    },
+    "cbee1416-2799-55b0-9c61-3471779a11e7": {
+      "key": "absheron_absheron_guzdek",
+      "area_id": "cbee1416-2799-55b0-9c61-3471779a11e7",
+      "canonical_file": "places/absheron_absheron_guzdek_all.json",
+      "count": 16,
+      "name": "Güzdək",
+      "derived_index": "places/index/cbee1416-2799-55b0-9c61-3471779a11e7.json",
+      "derived_detail": "places/detail/cbee1416-2799-55b0-9c61-3471779a11e7.json",
+      "derived_search": "search/cbee1416-2799-55b0-9c61-3471779a11e7.json"
+    },
+    "01894af5-94fe-50ea-acfc-f0efcae35cf1": {
+      "key": "absheron_absheron_hokmeli",
+      "area_id": "01894af5-94fe-50ea-acfc-f0efcae35cf1",
+      "canonical_file": "places/absheron_absheron_hokmeli_all.json",
+      "count": 18,
+      "name": "Hökməli",
+      "derived_index": "places/index/01894af5-94fe-50ea-acfc-f0efcae35cf1.json",
+      "derived_detail": "places/detail/01894af5-94fe-50ea-acfc-f0efcae35cf1.json",
+      "derived_search": "search/01894af5-94fe-50ea-acfc-f0efcae35cf1.json"
+    },
+    "9b14b878-27df-5acb-b2bc-a2883d32e39c": {
+      "key": "absheron_absheron_mehdiabad",
+      "area_id": "9b14b878-27df-5acb-b2bc-a2883d32e39c",
+      "canonical_file": "places/absheron_absheron_mehdiabad_all.json",
+      "count": 76,
+      "name": "Mehdiabad",
+      "derived_index": "places/index/9b14b878-27df-5acb-b2bc-a2883d32e39c.json",
+      "derived_detail": "places/detail/9b14b878-27df-5acb-b2bc-a2883d32e39c.json",
+      "derived_search": "search/9b14b878-27df-5acb-b2bc-a2883d32e39c.json"
+    },
+    "880819f5-54c8-5a0a-803e-12c9ddfe2a10": {
+      "key": "absheron_absheron_mehemmedli",
+      "area_id": "880819f5-54c8-5a0a-803e-12c9ddfe2a10",
+      "canonical_file": "places/absheron_absheron_mehemmedli_all.json",
+      "count": 36,
+      "name": "Məhəmmədli",
+      "derived_index": "places/index/880819f5-54c8-5a0a-803e-12c9ddfe2a10.json",
+      "derived_detail": "places/detail/880819f5-54c8-5a0a-803e-12c9ddfe2a10.json",
+      "derived_search": "search/880819f5-54c8-5a0a-803e-12c9ddfe2a10.json"
+    },
+    "d38daa07-2f74-5c22-aa04-4a17e6613808": {
+      "key": "absheron_absheron_novxani",
+      "area_id": "d38daa07-2f74-5c22-aa04-4a17e6613808",
+      "canonical_file": "places/absheron_absheron_novxani_all.json",
+      "count": 189,
+      "name": "Novxanı",
+      "derived_index": "places/index/d38daa07-2f74-5c22-aa04-4a17e6613808.json",
+      "derived_detail": "places/detail/d38daa07-2f74-5c22-aa04-4a17e6613808.json",
+      "derived_search": "search/d38daa07-2f74-5c22-aa04-4a17e6613808.json"
+    },
+    "8f7f7296-1c55-5a79-bb19-5ce853c8433e": {
+      "key": "absheron_absheron_novxani_baglari",
+      "area_id": "8f7f7296-1c55-5a79-bb19-5ce853c8433e",
+      "canonical_file": "places/absheron_absheron_novxani_baglari_all.json",
+      "count": 0,
+      "name": "Novxanı Bağları",
+      "derived_index": "places/index/8f7f7296-1c55-5a79-bb19-5ce853c8433e.json",
+      "derived_detail": "places/detail/8f7f7296-1c55-5a79-bb19-5ce853c8433e.json",
+      "derived_search": "search/8f7f7296-1c55-5a79-bb19-5ce853c8433e.json"
+    },
+    "a6624d03-3978-5acf-9fbd-4f1302c2b55f": {
+      "key": "absheron_absheron_pirekeskul",
+      "area_id": "a6624d03-3978-5acf-9fbd-4f1302c2b55f",
+      "canonical_file": "places/absheron_absheron_pirekeskul_all.json",
+      "count": 3,
+      "name": "Pirəkəşkül",
+      "derived_index": "places/index/a6624d03-3978-5acf-9fbd-4f1302c2b55f.json",
+      "derived_detail": "places/detail/a6624d03-3978-5acf-9fbd-4f1302c2b55f.json",
+      "derived_search": "search/a6624d03-3978-5acf-9fbd-4f1302c2b55f.json"
+    },
+    "b99713bb-25f5-5696-98a5-4a88b3a00c6a": {
+      "key": "absheron_absheron_qobu",
+      "area_id": "b99713bb-25f5-5696-98a5-4a88b3a00c6a",
+      "canonical_file": "places/absheron_absheron_qobu_all.json",
+      "count": 68,
+      "name": "Qobu",
+      "derived_index": "places/index/b99713bb-25f5-5696-98a5-4a88b3a00c6a.json",
+      "derived_detail": "places/detail/b99713bb-25f5-5696-98a5-4a88b3a00c6a.json",
+      "derived_search": "search/b99713bb-25f5-5696-98a5-4a88b3a00c6a.json"
+    },
+    "66f82dfc-654b-5e6b-b9ff-8ba853e43889": {
+      "key": "absheron_absheron_qobustan_qesebesi",
+      "area_id": "66f82dfc-654b-5e6b-b9ff-8ba853e43889",
+      "canonical_file": "places/absheron_absheron_qobustan_qesebesi_all.json",
+      "count": 4,
+      "name": "Qobustan qəsəbəsi",
+      "derived_index": "places/index/66f82dfc-654b-5e6b-b9ff-8ba853e43889.json",
+      "derived_detail": "places/detail/66f82dfc-654b-5e6b-b9ff-8ba853e43889.json",
+      "derived_search": "search/66f82dfc-654b-5e6b-b9ff-8ba853e43889.json"
+    },
+    "b686e78f-3a5b-5af1-b911-47cf828e4142": {
+      "key": "absheron_absheron_qurd_deresi",
+      "area_id": "b686e78f-3a5b-5af1-b911-47cf828e4142",
+      "canonical_file": "places/absheron_absheron_qurd_deresi_all.json",
+      "count": 16,
+      "name": "Qurd Dərəsi",
+      "derived_index": "places/index/b686e78f-3a5b-5af1-b911-47cf828e4142.json",
+      "derived_detail": "places/detail/b686e78f-3a5b-5af1-b911-47cf828e4142.json",
+      "derived_search": "search/b686e78f-3a5b-5af1-b911-47cf828e4142.json"
+    },
+    "21739a0b-085f-5e97-81e7-be011f2793cf": {
+      "key": "absheron_absheron_saray",
+      "area_id": "21739a0b-085f-5e97-81e7-be011f2793cf",
+      "canonical_file": "places/absheron_absheron_saray_all.json",
+      "count": 114,
+      "name": "Saray",
+      "derived_index": "places/index/21739a0b-085f-5e97-81e7-be011f2793cf.json",
+      "derived_detail": "places/detail/21739a0b-085f-5e97-81e7-be011f2793cf.json",
+      "derived_search": "search/21739a0b-085f-5e97-81e7-be011f2793cf.json"
+    },
+    "dedad3f4-f508-5d25-8463-1887959ecea0": {
+      "key": "absheron_absheron_saray_baglari",
+      "area_id": "dedad3f4-f508-5d25-8463-1887959ecea0",
+      "canonical_file": "places/absheron_absheron_saray_baglari_all.json",
+      "count": 0,
+      "name": "Saray Bağları",
+      "derived_index": "places/index/dedad3f4-f508-5d25-8463-1887959ecea0.json",
+      "derived_detail": "places/detail/dedad3f4-f508-5d25-8463-1887959ecea0.json",
+      "derived_search": "search/dedad3f4-f508-5d25-8463-1887959ecea0.json"
+    },
+    "ea7f2c43-d441-5202-a8df-b28e717c184d": {
+      "key": "absheron_absheron_saray_h_mtk_saray",
+      "area_id": "ea7f2c43-d441-5202-a8df-b28e717c184d",
+      "canonical_file": "places/absheron_absheron_saray_h_mtk_saray_all.json",
+      "count": 13,
+      "name": "Saray H MTK \\ Saray",
+      "derived_index": "places/index/ea7f2c43-d441-5202-a8df-b28e717c184d.json",
+      "derived_detail": "places/detail/ea7f2c43-d441-5202-a8df-b28e717c184d.json",
+      "derived_search": "search/ea7f2c43-d441-5202-a8df-b28e717c184d.json"
+    },
+    "5dd6c12a-2d66-5867-a7cf-1d89a588c035": {
+      "key": "absheron_absheron_saray_uzumluk",
+      "area_id": "5dd6c12a-2d66-5867-a7cf-1d89a588c035",
+      "canonical_file": "places/absheron_absheron_saray_uzumluk_all.json",
+      "count": 14,
+      "name": "Saray Üzümlük",
+      "derived_index": "places/index/5dd6c12a-2d66-5867-a7cf-1d89a588c035.json",
+      "derived_detail": "places/detail/5dd6c12a-2d66-5867-a7cf-1d89a588c035.json",
+      "derived_search": "search/5dd6c12a-2d66-5867-a7cf-1d89a588c035.json"
+    },
+    "939cc19d-43f6-51c8-a888-b713a8295361": {
+      "key": "absheron_absheron_yeni_ceyranbatan",
+      "area_id": "939cc19d-43f6-51c8-a888-b713a8295361",
+      "canonical_file": "places/absheron_absheron_yeni_ceyranbatan_all.json",
+      "count": 23,
+      "name": "Yeni Ceyranbatan",
+      "derived_index": "places/index/939cc19d-43f6-51c8-a888-b713a8295361.json",
+      "derived_detail": "places/detail/939cc19d-43f6-51c8-a888-b713a8295361.json",
+      "derived_search": "search/939cc19d-43f6-51c8-a888-b713a8295361.json"
+    },
+    "7a2f148e-7f06-52fa-92d6-f993938c6bb3": {
+      "key": "absheron_absheron_yeni_saray",
+      "area_id": "7a2f148e-7f06-52fa-92d6-f993938c6bb3",
+      "canonical_file": "places/absheron_absheron_yeni_saray_all.json",
+      "count": 33,
+      "name": "Yeni Saray",
+      "derived_index": "places/index/7a2f148e-7f06-52fa-92d6-f993938c6bb3.json",
+      "derived_detail": "places/detail/7a2f148e-7f06-52fa-92d6-f993938c6bb3.json",
+      "derived_search": "search/7a2f148e-7f06-52fa-92d6-f993938c6bb3.json"
+    },
+    "27885038-b75c-54d4-99a3-f13b4d19c9d7": {
+      "key": "absheron_absheron_cayli",
+      "area_id": "27885038-b75c-54d4-99a3-f13b4d19c9d7",
+      "canonical_file": "places/absheron_absheron_cayli_all.json",
+      "count": 0,
+      "name": "Çaylı",
+      "derived_index": "places/index/27885038-b75c-54d4-99a3-f13b4d19c9d7.json",
+      "derived_detail": "places/detail/27885038-b75c-54d4-99a3-f13b4d19c9d7.json",
+      "derived_search": "search/27885038-b75c-54d4-99a3-f13b4d19c9d7.json"
+    },
+    "1b443816-413b-5ff3-981c-8a9ab11cac97": {
+      "key": "absheron_absheron_sefeq",
+      "area_id": "1b443816-413b-5ff3-981c-8a9ab11cac97",
+      "canonical_file": "places/absheron_absheron_sefeq_all.json",
+      "count": 1,
+      "name": "Şəfəq",
+      "derived_index": "places/index/1b443816-413b-5ff3-981c-8a9ab11cac97.json",
+      "derived_detail": "places/detail/1b443816-413b-5ff3-981c-8a9ab11cac97.json",
+      "derived_search": "search/1b443816-413b-5ff3-981c-8a9ab11cac97.json"
+    },
+    "ac5221df-eb9c-566b-9c0f-c391668e63b9": {
+      "key": "absheron_absheron_eliciraq",
+      "area_id": "ac5221df-eb9c-566b-9c0f-c391668e63b9",
+      "canonical_file": "places/absheron_absheron_eliciraq_all.json",
+      "count": 3,
+      "name": "Əliçıraq",
+      "derived_index": "places/index/ac5221df-eb9c-566b-9c0f-c391668e63b9.json",
+      "derived_detail": "places/detail/ac5221df-eb9c-566b-9c0f-c391668e63b9.json",
+      "derived_search": "search/ac5221df-eb9c-566b-9c0f-c391668e63b9.json"
+    }
+  }
+}

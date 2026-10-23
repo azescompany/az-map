@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "a63bc9c0-a890-5dd2-84a3-c38295c6a652",
+      "properties": {
+        "id": "a63bc9c0-a890-5dd2-84a3-c38295c6a652",
+        "name": "Ballıcalı",
+        "type": "neighborhood",
+        "parent_id": "18688643-9cef-5e65-a2fa-a84819393c6c",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              49.0822241,
+              39.4151924
+            ],
+            [
+              49.0758426,
+              39.4193304
+            ],
+            [
+              49.0753044,
+              39.419271
+            ],
+            [
+              49.0723571,
+              39.4157864
+            ],
+            [
+              49.0701274,
+              39.4142618
+            ],
+            [
+              49.0785336,
+              39.409569
+            ],
+            [
+              49.0820447,
+              39.4135886
+            ],
+            [
+              49.0822241,
+              39.4151924
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

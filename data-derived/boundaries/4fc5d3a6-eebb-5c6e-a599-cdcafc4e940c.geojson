@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "4fc5d3a6-eebb-5c6e-a599-cdcafc4e940c",
+      "properties": {
+        "id": "4fc5d3a6-eebb-5c6e-a599-cdcafc4e940c",
+        "name": "18-ci Məhəllə",
+        "type": "neighborhood",
+        "parent_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                49.6608553,
+                40.5919336
+              ],
+              [
+                49.6613291,
+                40.5912462
+              ],
+              [
+                49.6645223,
+                40.5901963
+              ],
+              [
+                49.6669751,
+                40.5912224
+              ],
+              [
+                49.6651377,
+                40.5937503
+              ],
+              [
+                49.6608553,
+                40.5919336
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

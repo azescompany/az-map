@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ea7f2c43-d441-5202-a8df-b28e717c184d",
+      "properties": {
+        "id": "ea7f2c43-d441-5202-a8df-b28e717c184d",
+        "name": "Saray H MTK \\ Saray",
+        "type": "neighborhood",
+        "parent_id": "ecf857ca-467d-5b57-b403-12f40dc4c871",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              49.7178051,
+              40.5487447
+            ],
+            [
+              49.7171042,
+              40.5520506
+            ],
+            [
+              49.7142078,
+              40.5513084
+            ],
+            [
+              49.7123651,
+              40.5508783
+            ],
+            [
+              49.7131156,
+              40.5474844
+            ],
+            [
+              49.7137378,
+              40.5467221
+            ],
+            [
+              49.7151138,
+              40.5473764
+            ],
+            [
+              49.7178051,
+              40.5487447
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

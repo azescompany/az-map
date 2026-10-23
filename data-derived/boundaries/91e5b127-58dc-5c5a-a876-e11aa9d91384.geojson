@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "91e5b127-58dc-5c5a-a876-e11aa9d91384",
+      "properties": {
+        "id": "91e5b127-58dc-5c5a-a876-e11aa9d91384",
+        "name": "Xırt",
+        "type": "neighborhood",
+        "parent_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.5881085,
+              41.1277153
+            ],
+            [
+              48.584268,
+              41.1290752
+            ],
+            [
+              48.5821327,
+              41.128963
+            ],
+            [
+              48.5819095,
+              41.1276739
+            ],
+            [
+              48.587105,
+              41.1261306
+            ],
+            [
+              48.588467,
+              41.1247396
+            ],
+            [
+              48.5906837,
+              41.1258712
+            ],
+            [
+              48.5881085,
+              41.1277153
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "f725d52c-1292-57bf-8ed6-9aa383913737",
+      "properties": {
+        "id": "f725d52c-1292-57bf-8ed6-9aa383913737",
+        "name": "Yeni Qızmeydan",
+        "type": "neighborhood",
+        "parent_id": "286e9a90-aeb8-5495-a7f5-ac396d834cc6",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.7039672,
+              40.788628
+            ],
+            [
+              48.7018858,
+              40.787109
+            ],
+            [
+              48.7083552,
+              40.7838027
+            ],
+            [
+              48.7099109,
+              40.7851025
+            ],
+            [
+              48.7039672,
+              40.788628
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

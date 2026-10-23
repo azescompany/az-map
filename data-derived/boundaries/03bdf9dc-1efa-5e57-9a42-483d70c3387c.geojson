@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "03bdf9dc-1efa-5e57-9a42-483d70c3387c",
+      "properties": {
+        "id": "03bdf9dc-1efa-5e57-9a42-483d70c3387c",
+        "name": "Xəmmədbinə",
+        "type": "neighborhood",
+        "parent_id": "52e46674-ff8f-57de-90bd-5327e24e7bb4",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.5330327,
+              41.5111442
+            ],
+            [
+              46.5314996,
+              41.5107893
+            ],
+            [
+              46.5321851,
+              41.509216
+            ],
+            [
+              46.5339446,
+              41.5098427
+            ],
+            [
+              46.5330327,
+              41.5111442
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

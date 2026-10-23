@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ec6fa6aa-d245-59de-8d45-0c3baec9aba9",
+      "properties": {
+        "id": "ec6fa6aa-d245-59de-8d45-0c3baec9aba9",
+        "name": "Balıqçı qəsəbəsi",
+        "type": "neighborhood",
+        "parent_id": "14df867e-3d94-587c-b56b-28bb657bbb07",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.8677347,
+              39.9780245
+            ],
+            [
+              48.8658728,
+              39.9763146
+            ],
+            [
+              48.8657069,
+              39.9761623
+            ],
+            [
+              48.8664283,
+              39.9757356
+            ],
+            [
+              48.8671178,
+              39.9753278
+            ],
+            [
+              48.8691294,
+              39.9772352
+            ],
+            [
+              48.8684752,
+              39.9776054
+            ],
+            [
+              48.8682422,
+              39.9777372
+            ],
+            [
+              48.8677347,
+              39.9780245
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

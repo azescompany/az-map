@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "070945d6-c140-5c59-8254-5a6803d03e5b",
+      "properties": {
+        "id": "070945d6-c140-5c59-8254-5a6803d03e5b",
+        "name": "Gənzə",
+        "type": "neighborhood",
+        "parent_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.2053471,
+              40.6791491
+            ],
+            [
+              48.2058049,
+              40.6793777
+            ],
+            [
+              48.2021348,
+              40.6820853
+            ],
+            [
+              48.2006134,
+              40.68099
+            ],
+            [
+              48.2033622,
+              40.678372
+            ],
+            [
+              48.2053471,
+              40.6791491
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

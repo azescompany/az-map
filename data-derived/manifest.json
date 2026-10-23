@@ -1,0 +1,69 @@
+{
+  "name": "GeoAtlas Azerbaijan",
+  "dataset_version": "0.3.1-national",
+  "generated_at": "2026-10-23T08:00:58.278848+00:00",
+  "coverage": {
+    "scope": "national",
+    "description": "Azərbaycan ölkə + şəhərlər + inzibati rayonlar (Hierarchy.md / WORKER.md Faza 0–4).",
+    "areas": 3486,
+    "boundaries": 3486,
+    "places": 40891,
+    "reviews": 12
+  },
+  "sources": {
+    "overture": {
+      "release": "2026-09-23.1",
+      "path": "source_files/overture/",
+      "license": "CDLA Permissive 2.0 (component sources vary; see feature sources)"
+    },
+    "osm": {
+      "release": "azerbaijan-261020",
+      "path": "source_files/azerbaijan-261020.osm.pbf",
+      "license": "ODbL 1.0",
+      "attribution": "© OpenStreetMap contributors"
+    },
+    "geonames": {
+      "release": "AZ.txt",
+      "path": "source_files/AZ/",
+      "license": "CC BY 4.0"
+    }
+  },
+  "basemap": {
+    "provider": "OpenFreeMap / Liberty",
+    "url": "https://tiles.openfreemap.org/styles/liberty",
+    "note": "External basemap for context only. Administrative boundaries and place markers come from GeoAtlas data/."
+  },
+  "hierarchy_policy": {
+    "ui_cascade": "country → city|top-level rayon → (city rayon) → neighborhood → place",
+    "verified_children_only": true,
+    "no_name_only_merge": true,
+    "no_invented_geometry": true
+  },
+  "quality_gate": {
+    "applied_at": "2026-10-22T07:25:51.911175+00:00",
+    "geom_status_counts": {
+      "verified": 3421
+    },
+    "center_status_counts": {
+      "verified": 3421
+    },
+    "crs": "EPSG:4326",
+    "audit_report": "reviews/boundary_quality_audit.json"
+  },
+  "notes": {
+    "reviews_excluded": true,
+    "boundary_verbatim": true
+  },
+  "description": "National pilot: country, Bakı, republic cities, Absheron agglomeration, and administrative rayons including Naxçıvan MR. Hierarchy.md / WORKER.md.",
+  "derive_schema": "1.0.0",
+  "derived_at": "2026-10-23T10:21:58.282961+00:00",
+  "canonical_dataset_version": "0.3.1-national",
+  "derived_coverage": {
+    "catalog_top": 75,
+    "catalog_children_files": 93,
+    "area_details": 3486,
+    "boundaries_copied": 3486,
+    "place_shards": 111
+  },
+  "consumer_root": "data-derived/"
+}

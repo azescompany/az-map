@@ -1,0 +1,46 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "0a0c6662-a0ec-51c0-9f9a-e0b432888666",
+      "properties": {
+        "id": "0a0c6662-a0ec-51c0-9f9a-e0b432888666",
+        "name": "71-ci Məhəllə",
+        "type": "neighborhood",
+        "parent_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                49.694513,
+                40.5757888
+              ],
+              [
+                49.6959611,
+                40.5753915
+              ],
+              [
+                49.6971766,
+                40.5779535
+              ],
+              [
+                49.6957162,
+                40.5782431
+              ],
+              [
+                49.694513,
+                40.5757888
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

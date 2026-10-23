@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "c15b2fcf-622f-5fd2-999b-1c9cab5b77e4",
+      "properties": {
+        "id": "c15b2fcf-622f-5fd2-999b-1c9cab5b77e4",
+        "name": "Dalğalı",
+        "type": "neighborhood",
+        "parent_id": "18688643-9cef-5e65-a2fa-a84819393c6c",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              49.1978779,
+              39.1977558
+            ],
+            [
+              49.1954767,
+              39.1989847
+            ],
+            [
+              49.1945524,
+              39.1986195
+            ],
+            [
+              49.1965368,
+              39.1944413
+            ],
+            [
+              49.196709,
+              39.1936408
+            ],
+            [
+              49.1974701,
+              39.1938374
+            ],
+            [
+              49.199083,
+              39.1959441
+            ],
+            [
+              49.1990467,
+              39.1969202
+            ],
+            [
+              49.1978779,
+              39.1977558
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

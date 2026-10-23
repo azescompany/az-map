@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "44a404ba-8e79-5e3f-b273-d5e2f1587f2b",
+      "properties": {
+        "id": "44a404ba-8e79-5e3f-b273-d5e2f1587f2b",
+        "name": "Şirvan Yeni Yaşayış Kompleksi",
+        "type": "neighborhood",
+        "parent_id": "4770b1b1-5aff-55d8-a01a-7f51601bf4cb",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.9601366,
+              39.9603403
+            ],
+            [
+              48.961269,
+              39.962655
+            ],
+            [
+              48.9582433,
+              39.9635016
+            ],
+            [
+              48.9571699,
+              39.961154
+            ],
+            [
+              48.9601366,
+              39.9603403
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

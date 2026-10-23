@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "d4d6e714-8c0a-5f4f-9e47-76bdbccb2e0b",
+      "properties": {
+        "id": "d4d6e714-8c0a-5f4f-9e47-76bdbccb2e0b",
+        "name": "Ziyatanqulu",
+        "type": "neighborhood",
+        "parent_id": "5a88d1bb-f472-597d-9c8c-193cd2052033",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.1382141,
+              41.1536808
+            ],
+            [
+              47.1365511,
+              41.1539312
+            ],
+            [
+              47.1347594,
+              41.1539555
+            ],
+            [
+              47.132045,
+              41.1516289
+            ],
+            [
+              47.1351671,
+              41.1501667
+            ],
+            [
+              47.1371198,
+              41.1500536
+            ],
+            [
+              47.1382141,
+              41.1536808
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

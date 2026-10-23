@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "cec622b0-92c6-5634-bfa1-ac4b024ac681",
+      "properties": {
+        "id": "cec622b0-92c6-5634-bfa1-ac4b024ac681",
+        "name": "Qışlaq Xocadoy",
+        "type": "neighborhood",
+        "parent_id": "4a92fe72-1565-543e-859d-94af4b3318a8",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.283164,
+              38.678797
+            ],
+            [
+              48.2814474,
+              38.6827502
+            ],
+            [
+              48.2796664,
+              38.6823984
+            ],
+            [
+              48.2809968,
+              38.6780935
+            ],
+            [
+              48.283164,
+              38.678797
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

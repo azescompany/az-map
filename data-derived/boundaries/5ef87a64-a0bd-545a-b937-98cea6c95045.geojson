@@ -1,0 +1,46 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "5ef87a64-a0bd-545a-b937-98cea6c95045",
+      "properties": {
+        "id": "5ef87a64-a0bd-545a-b937-98cea6c95045",
+        "name": "Birlik MTK",
+        "type": "neighborhood",
+        "parent_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                49.5657923,
+                40.6225058
+              ],
+              [
+                49.5659603,
+                40.6224649
+              ],
+              [
+                49.5665026,
+                40.6237497
+              ],
+              [
+                49.5663346,
+                40.6237906
+              ],
+              [
+                49.5657923,
+                40.6225058
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

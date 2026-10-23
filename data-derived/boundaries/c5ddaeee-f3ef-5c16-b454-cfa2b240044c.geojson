@@ -1,0 +1,64 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "c5ddaeee-f3ef-5c16-b454-cfa2b240044c",
+      "properties": {
+        "id": "c5ddaeee-f3ef-5c16-b454-cfa2b240044c",
+        "name": "Gömüşçü",
+        "type": "neighborhood",
+        "parent_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.2795407,
+              39.8761883
+            ],
+            [
+              48.2767726,
+              39.8751015
+            ],
+            [
+              48.2688118,
+              39.873043
+            ],
+            [
+              48.2719661,
+              39.8665708
+            ],
+            [
+              48.2817937,
+              39.8688106
+            ],
+            [
+              48.2866002,
+              39.8699964
+            ],
+            [
+              48.2890679,
+              39.871775
+            ],
+            [
+              48.2853772,
+              39.8749039
+            ],
+            [
+              48.2835533,
+              39.8779832
+            ],
+            [
+              48.2795407,
+              39.8761883
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

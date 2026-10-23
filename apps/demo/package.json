@@ -4,10 +4,14 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --mode customer",
     "dev:customer": "vite --mode customer",
-    "build": "tsc -b && vite build",
+    "dev:dev": "vite",
+    "dev:derived": "vite --mode derived",
+    "build": "tsc -b && vite build --mode customer",
     "build:customer": "tsc -b && vite build --mode customer",
+    "build:dev": "tsc -b && vite build",
+    "build:derived": "tsc -b && vite build --mode derived",
     "preview": "vite preview",
     "typecheck": "tsc -b --noEmit"
   },

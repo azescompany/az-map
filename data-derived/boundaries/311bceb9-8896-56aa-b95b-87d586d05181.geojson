@@ -1,0 +1,54 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "311bceb9-8896-56aa-b95b-87d586d05181",
+      "properties": {
+        "id": "311bceb9-8896-56aa-b95b-87d586d05181",
+        "name": "78-ci məhəllə",
+        "type": "neighborhood",
+        "parent_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+        "parent_status": "verified",
+        "subtype": "microhood"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                49.6957767,
+                40.5722945
+              ],
+              [
+                49.6965424,
+                40.5718447
+              ],
+              [
+                49.6968294,
+                40.5721625
+              ],
+              [
+                49.6979881,
+                40.5746572
+              ],
+              [
+                49.6970762,
+                40.5749139
+              ],
+              [
+                49.695896,
+                40.572408
+              ],
+              [
+                49.6957767,
+                40.5722945
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "260964fe-80e7-53d7-88a7-126f80e61e0d",
+      "properties": {
+        "id": "260964fe-80e7-53d7-88a7-126f80e61e0d",
+        "name": "Tuğ",
+        "type": "neighborhood",
+        "parent_id": "abcafc86-adf9-5cf7-a469-04f49245b9d6",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.5459984,
+              39.7359693
+            ],
+            [
+              47.541831,
+              39.7411584
+            ],
+            [
+              47.5317183,
+              39.7359693
+            ],
+            [
+              47.535771,
+              39.7310444
+            ],
+            [
+              47.5409007,
+              39.7335146
+            ],
+            [
+              47.5459984,
+              39.7359693
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

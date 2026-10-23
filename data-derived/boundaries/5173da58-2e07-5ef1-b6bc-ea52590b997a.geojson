@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "5173da58-2e07-5ef1-b6bc-ea52590b997a",
+      "properties": {
+        "id": "5173da58-2e07-5ef1-b6bc-ea52590b997a",
+        "name": "Çayqovuşan",
+        "type": "neighborhood",
+        "parent_id": "8604052b-f28f-5c80-be49-3d3770ef7374",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.5780079,
+              40.7850858
+            ],
+            [
+              47.5770046,
+              40.7938188
+            ],
+            [
+              47.5744574,
+              40.7936374
+            ],
+            [
+              47.5755232,
+              40.78491
+            ],
+            [
+              47.5780079,
+              40.7850858
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

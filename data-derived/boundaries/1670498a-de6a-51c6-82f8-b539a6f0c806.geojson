@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "1670498a-de6a-51c6-82f8-b539a6f0c806",
+      "properties": {
+        "id": "1670498a-de6a-51c6-82f8-b539a6f0c806",
+        "name": "Xələc",
+        "type": "neighborhood",
+        "parent_id": "5bfacc06-2a5a-5d9d-af55-e26a19b9d6f2",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.6784415,
+              40.3452323
+            ],
+            [
+              47.6796119,
+              40.3392934
+            ],
+            [
+              47.6793655,
+              40.3342461
+            ],
+            [
+              47.6851555,
+              40.3347156
+            ],
+            [
+              47.6853403,
+              40.3421573
+            ],
+            [
+              47.6823837,
+              40.3553719
+            ],
+            [
+              47.6766245,
+              40.3544331
+            ],
+            [
+              47.6784415,
+              40.3452323
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "5c95463f-d650-5e1a-a12f-e61f6e51e184",
+      "properties": {
+        "id": "5c95463f-d650-5e1a-a12f-e61f6e51e184",
+        "name": "Sırıq",
+        "type": "neighborhood",
+        "parent_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.3207676,
+              38.9217197
+            ],
+            [
+              48.309506,
+              38.9183294
+            ],
+            [
+              48.3023888,
+              38.9145842
+            ],
+            [
+              48.303526,
+              38.911216
+            ],
+            [
+              48.3243626,
+              38.9194649
+            ],
+            [
+              48.3244727,
+              38.9212916
+            ],
+            [
+              48.3207676,
+              38.9217197
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

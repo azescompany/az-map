@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "1d60421e-cefa-535f-9c94-4ee2e776a236",
+      "properties": {
+        "id": "1d60421e-cefa-535f-9c94-4ee2e776a236",
+        "name": "Damlamaca",
+        "type": "neighborhood",
+        "parent_id": "1f23b55d-e32f-5613-89f6-803737d7f924",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.9185305,
+              40.4960864
+            ],
+            [
+              48.918316,
+              40.4950828
+            ],
+            [
+              48.9192279,
+              40.4947565
+            ],
+            [
+              48.9206173,
+              40.4950461
+            ],
+            [
+              48.9206066,
+              40.495862
+            ],
+            [
+              48.9185305,
+              40.4960864
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

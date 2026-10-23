@@ -1,0 +1,64 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ad399c19-23ae-5da3-ada2-b1c6b7157fc2",
+      "properties": {
+        "id": "ad399c19-23ae-5da3-ada2-b1c6b7157fc2",
+        "name": "Axçaabad məhəlləsi",
+        "type": "neighborhood",
+        "parent_id": "953def2b-b93d-5343-acd7-ef5cffbd9eba",
+        "parent_status": "verified",
+        "subtype": "neighborhood"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.6807186,
+              39.9374178
+            ],
+            [
+              46.6784663,
+              39.9377919
+            ],
+            [
+              46.6781214,
+              39.9374598
+            ],
+            [
+              46.6788295,
+              39.936777
+            ],
+            [
+              46.6791513,
+              39.9366043
+            ],
+            [
+              46.6797307,
+              39.9364974
+            ],
+            [
+              46.6805139,
+              39.9345641
+            ],
+            [
+              46.6821659,
+              39.9347121
+            ],
+            [
+              46.6815479,
+              39.9367944
+            ],
+            [
+              46.6807186,
+              39.9374178
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

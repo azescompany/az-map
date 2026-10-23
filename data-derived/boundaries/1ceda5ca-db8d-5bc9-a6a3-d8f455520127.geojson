@@ -1,0 +1,58 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "1ceda5ca-db8d-5bc9-a6a3-d8f455520127",
+      "properties": {
+        "id": "1ceda5ca-db8d-5bc9-a6a3-d8f455520127",
+        "name": "4-cü Mikrorayon",
+        "type": "neighborhood",
+        "parent_id": "a02b58f1-3009-5ce3-a728-69d77b411dec",
+        "parent_status": "verified",
+        "subtype": "macrohood"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                49.6725844,
+                40.5796352
+              ],
+              [
+                49.6773936,
+                40.5768772
+              ],
+              [
+                49.6774434,
+                40.576847
+              ],
+              [
+                49.6803756,
+                40.5797741
+              ],
+              [
+                49.6777495,
+                40.5813435
+              ],
+              [
+                49.6771164,
+                40.5817218
+              ],
+              [
+                49.6756263,
+                40.5826122
+              ],
+              [
+                49.6725844,
+                40.5796352
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

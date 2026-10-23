@@ -3,8 +3,10 @@ import { createRoot } from "react-dom/client";
 import "maplibre-gl/dist/maplibre-gl.css";
 import "@geoatlas/shell-react/styles.css";
 import App from "./App";
+import { registerGeoAtlasServiceWorker } from "./registerSw";
 import "./styles.css";
 
+void registerGeoAtlasServiceWorker();
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>

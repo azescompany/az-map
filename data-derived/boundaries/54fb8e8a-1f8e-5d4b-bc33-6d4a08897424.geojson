@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "54fb8e8a-1f8e-5d4b-bc33-6d4a08897424",
+      "properties": {
+        "id": "54fb8e8a-1f8e-5d4b-bc33-6d4a08897424",
+        "name": "Girdə",
+        "type": "neighborhood",
+        "parent_id": "0b66ddcc-de63-5256-a51b-f003d95e945e",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.2981187,
+              40.6373247
+            ],
+            [
+              48.2981343,
+              40.6386847
+            ],
+            [
+              48.2963212,
+              40.6387996
+            ],
+            [
+              48.2959776,
+              40.6368373
+            ],
+            [
+              48.2966825,
+              40.6366996
+            ],
+            [
+              48.2969284,
+              40.6373553
+            ],
+            [
+              48.2981187,
+              40.6373247
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

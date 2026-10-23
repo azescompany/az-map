@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "42590ffa-6a23-57f5-8726-c093ec09876a",
+      "properties": {
+        "id": "42590ffa-6a23-57f5-8726-c093ec09876a",
+        "name": "Diqo",
+        "type": "neighborhood",
+        "parent_id": "df1151dd-8b83-55c1-bbe8-55e8ea430523",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.6336886,
+              38.5036157
+            ],
+            [
+              48.6312805,
+              38.5061252
+            ],
+            [
+              48.6270723,
+              38.506685
+            ],
+            [
+              48.6265836,
+              38.5056588
+            ],
+            [
+              48.6302672,
+              38.5046793
+            ],
+            [
+              48.6324011,
+              38.5031026
+            ],
+            [
+              48.6336886,
+              38.5036157
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

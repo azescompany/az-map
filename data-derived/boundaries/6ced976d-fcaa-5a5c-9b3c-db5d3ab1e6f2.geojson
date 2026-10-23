@@ -1,0 +1,68 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "6ced976d-fcaa-5a5c-9b3c-db5d3ab1e6f2",
+      "properties": {
+        "id": "6ced976d-fcaa-5a5c-9b3c-db5d3ab1e6f2",
+        "name": "Qırlar Qıratan",
+        "type": "neighborhood",
+        "parent_id": "0b66ddcc-de63-5256-a51b-f003d95e945e",
+        "parent_status": "verified",
+        "subtype": "locality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.469915,
+              40.6808229
+            ],
+            [
+              48.4693623,
+              40.6808455
+            ],
+            [
+              48.468967,
+              40.6812421
+            ],
+            [
+              48.4653197,
+              40.6806817
+            ],
+            [
+              48.464824,
+              40.6815249
+            ],
+            [
+              48.463397,
+              40.6813052
+            ],
+            [
+              48.4639335,
+              40.6793932
+            ],
+            [
+              48.4668732,
+              40.6799546
+            ],
+            [
+              48.4680339,
+              40.6783804
+            ],
+            [
+              48.4700567,
+              40.678824
+            ],
+            [
+              48.469915,
+              40.6808229
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
