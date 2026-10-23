@@ -1,30 +1,14 @@
-# Pin release v0.3.1-national (derived CDN)
+# Pin release (derived CDN)
 
-## Default consumer pin
-
-```
-https://cdn.jsdelivr.net/gh/azescompany/az-map@v0.3.1-national/data-derived/
-```
-
-Canonical fat tree (same tag):
+## Current default: v0.3.2-national
 
 ```
-https://cdn.jsdelivr.net/gh/azescompany/az-map@v0.3.1-national/data/
+https://cdn.jsdelivr.net/gh/azescompany/az-map@v0.3.2-national/data-derived/
 ```
 
-Code: `DEFAULT_DATA_BASE` → derived; `DEFAULT_DATA_BASE_CANONICAL` → `data/`.
+Extras on that root: `pin.json`, `search/national.json` (lazy on search focus).  
+Canonical: `…@v0.3.2-national/data/`.
 
-## Checklist
+### Prior: v0.3.1-national
 
-1. [x] `pnpm derive:publish` + `pnpm validate:derived`
-2. [x] `data-derived/` tracked (gitignore exception removed)
-3. [x] `dataset_version` → `0.3.1-national`
-4. [x] Pin constants + demo `.env.example`
-5. [x] `git commit` `5af7acc` + annotated tag `v0.3.1-national`
-6. [x] `git push origin master` + `git push origin v0.3.1-national`
-7. [x] Smoke 200 (2026-10-23): `data-derived/manifest.json`, `catalog/top.json`, and canonical `data/manifest.json`
-
-```bash
-curl -sI "https://cdn.jsdelivr.net/gh/azescompany/az-map@v0.3.1-national/data-derived/manifest.json"
-curl -sI "https://cdn.jsdelivr.net/gh/azescompany/az-map@v0.3.1-national/data-derived/catalog/top.json"
-```
+First derived pin (`5af7acc`). Smoke 200 on manifest + catalog/top.
