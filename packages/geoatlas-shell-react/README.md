@@ -54,6 +54,7 @@ export function MapApp() {
 | `map` | `ReactNode` | required | Hero layer |
 | `search` | `ReactNode` | required | Search slot |
 | `cascade` | `ReactNode` | required | 2-col grid of selects |
+| `variant` | `'default' \| 'form'` | `'default'` | `form` = top toolbar + map; ≤960px host → filters aside |
 | `theme` | `'light' \| 'dark' \| 'system'` | `'dark'` | `data-theme` |
 | `accentColor` | `string` | — | Sets `--geoatlas-color-accent` |
 | `chips` | `CategoryChip[]` | `[]` | Scroll-snap chip row |

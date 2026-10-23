@@ -8,4 +8,5 @@ export {
   AZ_BOUNDS,
   type BoundaryMode,
   type GeoAtlasMapProps,
+  type LocationSelectPayload,
 } from "@geoatlas/map-react";

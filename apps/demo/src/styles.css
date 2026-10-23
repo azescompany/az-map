@@ -18,6 +18,12 @@ body {
   color: #f2f5f8;
 }
 
+/* Form / real-estate host — light chrome */
+body:has(.demo-root.variant-form) {
+  background: #f1f5f9;
+  color: #0f172a;
+}
+
 .demo-root,
 .app {
   width: 100%;

@@ -6,10 +6,12 @@
   "scripts": {
     "dev": "pnpm --filter @geoatlas/demo dev",
     "dev:customer": "pnpm --filter @geoatlas/demo dev:customer",
+    "dev:form": "pnpm --filter @geoatlas/demo dev:form",
     "dev:dev": "pnpm --filter @geoatlas/demo dev:dev",
     "dev:derived": "pnpm derive:publish && pnpm --filter @geoatlas/demo dev:derived",
     "build": "pnpm -r build",
     "build:customer": "pnpm --filter @geoatlas/demo build:customer",
+    "build:form": "pnpm --filter @geoatlas/demo build:form",
     "build:dev": "pnpm --filter @geoatlas/demo build:dev",
     "validate": "python scripts/validate_dataset.py",
     "validate:derived": "python scripts/validate_derived.py",

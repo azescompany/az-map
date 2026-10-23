@@ -49,4 +49,4 @@
 
 ## Status
 
-`planned`
+`done` — pin.json shipped; mirror deferred (P2-H1)

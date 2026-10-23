@@ -17,6 +17,8 @@ type Props = {
   options: SelectOption[];
   value: string;
   onChange: (id: string) => void;
+  /** Fire-and-forget warm of option data (hover / keyboard highlight). */
+  onOptionPrefetch?: (id: string) => void;
   disabled?: boolean;
   placeholder?: string;
   emptyHint?: string;
@@ -32,10 +34,18 @@ export default function SearchableSelect({
   options,
   value,
   onChange,
+  onOptionPrefetch,
   disabled = false,
   placeholder = "— seçin —",
   emptyHint,
 }: Props) {
+  const prefetchRef = useRef<string | null>(null);
+
+  function maybePrefetch(id: string) {
+    if (!onOptionPrefetch || !id || prefetchRef.current === id) return;
+    prefetchRef.current = id;
+    onOptionPrefetch(id);
+  }
   const listId = useId();
   const inputId = useId();
   const rootRef = useRef<HTMLDivElement>(null);
@@ -133,7 +143,12 @@ export default function SearchableSelect({
         setOpen(true);
         return;
       }
-      setHighlight((h) => Math.min(h + 1, Math.max(filtered.length - 1, 0)));
+      setHighlight((h) => {
+        const next = Math.min(h + 1, Math.max(filtered.length - 1, 0));
+        const opt = filtered[next];
+        if (opt) maybePrefetch(opt.id);
+        return next;
+      });
       return;
     }
     if (e.key === "ArrowUp") {
@@ -142,7 +157,12 @@ export default function SearchableSelect({
         setOpen(true);
         return;
       }
-      setHighlight((h) => Math.max(h - 1, 0));
+      setHighlight((h) => {
+        const next = Math.max(h - 1, 0);
+        const opt = filtered[next];
+        if (opt) maybePrefetch(opt.id);
+        return next;
+      });
       return;
     }
     if (e.key === "Escape") {
@@ -282,7 +302,10 @@ export default function SearchableSelect({
                 ]
                   .filter(Boolean)
                   .join(" ")}
-                onMouseEnter={() => setHighlight(i)}
+                onMouseEnter={() => {
+                  setHighlight(i);
+                  maybePrefetch(o.id);
+                }}
                 onMouseDown={(e) => e.preventDefault()}
                 onClick={() => commit(o.id)}
               >

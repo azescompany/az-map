@@ -48,6 +48,8 @@ export function App() {
 
 ## Consumer (xəritə + premium shell)
 
+`variant="default"` — floating glass. `variant="form"` — yuxarı auto-height toolbar (search + cascade + chips), altta xəritə; məkan seçimində `lat`/`lon` (`onLocationSelect` / demo `geoatlas:locationselect`).
+
 ```tsx
 import { GeoAtlasMap } from "@geoatlas/map-react";
 import { GeoAtlasShell } from "@geoatlas/shell-react";
@@ -56,8 +58,10 @@ import "@geoatlas/shell-react/styles.css";
 
 <div style={{ height: "100%" }}>
   <GeoAtlasShell
-    theme="dark"
-    accentColor="#3d9cf0"
+    variant="form" /* or omit / "default" */
+    theme="light"
+    accentColor="#0f766e"
+    labels={{ brand: "Real Estate Map" }}
     map={
       <GeoAtlasMap
         clipToCountry
@@ -68,6 +72,9 @@ import "@geoatlas/shell-react/styles.css";
         places={places}
         selectedPlaceId={placeId}
         onPlaceClick={setPlaceId}
+        onLocationSelect={({ lat, lon, placeId, name }) => {
+          /* parent form / API */
+        }}
         onMapReady={setMap}
       />
     }
@@ -89,6 +96,7 @@ See [`packages/geoatlas-shell-react/README.md`](packages/geoatlas-shell-react/RE
 ## Data mənbəyi
 
 - Publish pin: `DEFAULT_DATA_BASE` → jsDelivr `@v0.3.2-national/data-derived/`
+- Perf architecture closeout: [`docs/claude/CLOSEOUT.md`](docs/claude/CLOSEOUT.md)
 - Canonical fat tree: `DEFAULT_DATA_BASE_CANONICAL` → `@v0.3.2-national/data/`
 - Demo default: CDN derived; lokal derived: `pnpm dev:derived`; enrich: `VITE_GEOATLAS_DATA_BASE=local`
 

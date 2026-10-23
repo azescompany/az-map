@@ -1,19 +1,17 @@
 # Perf Worker reporting
 
-**This is not GeoAgent [`WORKER.md`](../../../WORKER.md).** Scope: execute and log performance/architecture steps under `docs/claude/` only, unless a later Human assigns Eng code work outside this tree.
+**This is not GeoAgent [`WORKER.md`](../../../WORKER.md).**
 
-## After EVERY executed step
+**Track status: CLOSED** — see [CLOSEOUT.md](../CLOSEOUT.md) (2026-10-23).
 
-1. Append a row to [STEP-LOG.md](./STEP-LOG.md).  
-2. Update the matching file under [steps/](./steps/) from [_TEMPLATE.md](./steps/_TEMPLATE.md).  
-3. If data defects found: append [DATA-ISSUES.md](./DATA-ISSUES.md) — **do not patch data**.  
-4. If measurements taken: fill [MEASUREMENTS.md](./MEASUREMENTS.md).  
-5. Never perform [HUMAN-GATES.md](./HUMAN-GATES.md) actions; mark blocked and ask Human.
+## Archive rules (historical)
+
+1. Append rows to [STEP-LOG.md](./STEP-LOG.md) only for post-closeout ops notes.  
+2. Step files under [steps/](./steps/) are historical records.  
+3. Data defects → [DATA-ISSUES.md](./DATA-ISSUES.md) (GeoAgent / Landmark; do not invent geometry here).  
+4. Measurements → [MEASUREMENTS.md](./MEASUREMENTS.md).  
+5. Human gates → [HUMAN-GATES.md](./HUMAN-GATES.md) (all closed at closeout).
 
 ## Status values
 
-`planned` | `in-progress` | `done` | `blocked`
-
-## Step ids
-
-Defined in [11-roadmap.md](../11-roadmap.md). Prefill files start as `planned`.
+`planned` | `in-progress` | `done` | `blocked` | `deferred`

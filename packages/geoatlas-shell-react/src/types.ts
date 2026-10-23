@@ -2,6 +2,9 @@ import type { CSSProperties, ReactNode } from "react";
 
 export type GeoAtlasTheme = "light" | "dark" | "system";
 
+/** `default` = floating glass; `form` = top toolbar + map below (real estate). */
+export type GeoAtlasShellVariant = "default" | "form";
+
 export type GeoAtlasShellLabels = {
   brand: string;
   collapse: string;
@@ -21,6 +24,10 @@ export type GeoAtlasShellLabels = {
   locate: string;
   layers: string;
   fullscreen: string;
+  /** Form variant: open filters aside (medium/mobile) */
+  filters: string;
+  applyFilters: string;
+  closeFilters: string;
 };
 
 export const DEFAULT_LABELS: GeoAtlasShellLabels = {
@@ -42,12 +49,19 @@ export const DEFAULT_LABELS: GeoAtlasShellLabels = {
   locate: "Locate",
   layers: "Layers",
   fullscreen: "Fullscreen",
+  filters: "Filters",
+  applyFilters: "Apply",
+  closeFilters: "Close filters",
 };
 
 export type GeoAtlasShellClassNames = {
   root?: string;
   map?: string;
   control?: string;
+  /** Form variant top bar */
+  formBar?: string;
+  /** Form variant medium/mobile filters aside */
+  formAside?: string;
   chips?: string;
   toolbar?: string;
   results?: string;
@@ -81,6 +95,8 @@ export type GeoAtlasShellProps = {
   search: ReactNode;
   /** Cascade selects — rendered in 2-col grid */
   cascade: ReactNode;
+  /** `default` floating UI; `form` = top toolbar + map (real estate) */
+  variant?: GeoAtlasShellVariant;
   theme?: GeoAtlasTheme;
   accentColor?: string;
   className?: string;

@@ -1,26 +1,21 @@
-# 14 — Open questions (real unknowns only)
+# 14 — Open questions (closeout)
 
-Do not guess. Answers unblock copy, RACI, and P2 ops.
+Resolved at [CLOSEOUT](./CLOSEOUT.md). Deferred items are ops/RUM, not architecture blockers.
 
-| ID | Question | Needed by |
+| ID | Question | Resolution |
 |---|---|---|
-| Q1 | **Tag RACI:** Confirm Data lead accountable for approving/creating annotated tags `vX.Y.Z-national`. Named person? | P1-H1 |
-| Q2 | **Pin PR RACI:** Confirm Eng lead accountable for merging `DEFAULT_DATA_BASE` / demo CDN pin PR. Named person? | P1-H2 |
-| Q3 | **Compressed sizes:** Fill [MEASUREMENTS](./worker/MEASUREMENTS.md) (raw/gzip/br or CDN Content-Length + Encoding). | P0-01 |
-| Q4 | **AZ RUM:** p50/p95 latency from Azerbaijan ISPs to jsDelivr; brotli behavior. Day-1 mirror? | P2-03 |
-| Q5 | **PIP cost:** Point-in-polygon ms on most complex neighborhood polygons (mobile). | P1-03 |
-| Q6 | **bbox_approx UI:** Show notice to customers or omit hood places until polygon path ships? | P0-06 |
-| Q7 | **Pin source for data-only rollout:** Adopt `pin.json` in derived root vs env-only pin? | P2-03 |
-| Q8 | **Customer-visible partial/conflict boundary label** — approve az/en wording. Draft below. | P0-06 |
-| Q9 | **jsDelivr official per-file limit** for GitHub proxy (confirm current docs; notes conflict ~20 vs ~50 MB). | P1 packaging |
-| Q10 | **Cold-start budget revision:** After P0-01, is 60–150 KB br for manifest+top still realistic with ~3486 areas slim rows? | P0-H1 |
+| Q1 | Tag RACI — Data lead for `vX.Y.Z-national`? | **Closed** — role = Data lead (named person optional). Tags shipped. |
+| Q2 | Pin PR RACI — Eng lead? | **Closed** — role = Eng lead. Pin to derived shipped. |
+| Q3 | Compressed sizes | **Closed** — [MEASUREMENTS](./worker/MEASUREMENTS.md) local raw/gzip/br filled. CDN Content-Length optional later. |
+| Q4 | AZ RUM / day-1 mirror? | **Deferred** — no mirror until measured; jsDelivr-only. |
+| Q5 | PIP ms on complex hoods (mobile) | **Deferred** — PIP shipped; profile only if hood select jank reported. |
+| Q6 | bbox_approx UI notice? | **Closed** — show notice (draft strings). |
+| Q7 | `pin.json` vs env-only? | **Closed** — `pin.json` in derived root (+ env override OK). |
+| Q8 | Partial/conflict boundary label az/en | **Closed** — working copy below (demo wired). |
+| Q9 | jsDelivr per-file limit | **Deferred** — watch packaging; no file over practical CDN limits in derive. |
+| Q10 | 60–150 KB cold budget realistic? | **Closed** — yes with derived lazy (~13.5 KB br); no with fat `areas.json` (~344 KB br alone). |
 
-### P0-01 / P1-01 finding (for Q10)
-
-Canonical `areas/areas.json` alone is **~344 KB brotli** (**measured**).  
-Derived `catalog/top.json` + `manifest.json` ≈ **7.2 KB brotli** (**measured** after `pnpm derive:publish`) — **within** 60–150 KB target. Q10 answer: target is realistic **with derived pin**; not with fat `areas.json`.
-
-## Draft UI copy (pending Human approval)
+## Approved working UI copy
 
 **Partial boundary**  
 - az: `Sərhəd natamam və ya conflict — rəsmi dəqiqlik hesab edilmir.`  

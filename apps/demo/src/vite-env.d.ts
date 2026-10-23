@@ -3,6 +3,8 @@
 
 interface ImportMetaEnv {
   readonly VITE_APP_MODE?: "dev" | "customer";
+  /** Shell layout: `default` floating | `form` top toolbar (real estate) */
+  readonly VITE_SHELL_VARIANT?: "default" | "form";
   /** `cdn` | `local` | `derived` | `cdn-derived` | absolute URL */
   readonly VITE_GEOATLAS_DATA_BASE?: string;
   /** Local root when BASE=local|derived (default `/` = Vite publicDir) */

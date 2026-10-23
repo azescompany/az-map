@@ -13,6 +13,16 @@ export const AZ_BOUNDS: [[number, number], [number, number]] = [
 
 export type BoundaryMode = "exact" | "partial_outline" | "none";
 
+/** Emitted when user picks a place / map point — lat/lon for forms / real estate. */
+export type LocationSelectPayload = {
+  lat: number;
+  lon: number;
+  placeId?: string;
+  areaId?: string;
+  name?: string;
+  source?: "place" | "area" | "map";
+};
+
 export type GeoAtlasMapProps = {
   countryBoundary?: GeoJSON.FeatureCollection | null;
   selectedBoundary?: GeoJSON.FeatureCollection | null;
@@ -21,6 +31,11 @@ export type GeoAtlasMapProps = {
   selectedPlaceId?: string | null;
   selectedArea?: Area | null;
   onPlaceClick?: (placeId: string) => void;
+  /** Place marker select → lat/lon (and optional ids) for parent forms */
+  onLocationSelect?: (payload: LocationSelectPayload) => void;
+  /** Click empty map → lat/lon (+ pick marker when true) */
+  enableMapPick?: boolean;
+  onMapClick?: (payload: LocationSelectPayload) => void;
   /** Restrict pan/zoom to Azerbaijan (default true) */
   clipToCountry?: boolean;
   className?: string;
@@ -31,6 +46,12 @@ export type GeoAtlasMapProps = {
   onMapReady?: (map: Map) => void;
 };
 
+const PLACE_HIT_LAYERS = [
+  "places-circle",
+  "places-clusters",
+  "places-cluster-count",
+] as const;
+
 export function GeoAtlasMap({
   countryBoundary = null,
   selectedBoundary = null,
@@ -39,6 +60,9 @@ export function GeoAtlasMap({
   selectedPlaceId = null,
   selectedArea = null,
   onPlaceClick,
+  onLocationSelect,
+  enableMapPick = false,
+  onMapClick,
   clipToCountry = true,
   className = "geoatlas-map map",
   basemapUrl = BASEMAP,
@@ -48,21 +72,59 @@ export function GeoAtlasMap({
   const containerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<Map | null>(null);
   const onPlaceClickRef = useRef(onPlaceClick);
+  const onLocationSelectRef = useRef(onLocationSelect);
+  const onMapClickRef = useRef(onMapClick);
+  const enableMapPickRef = useRef(enableMapPick);
   const onMapReadyRef = useRef(onMapReady);
   const [ready, setReady] = useState(false);
   onPlaceClickRef.current = onPlaceClick;
+  onLocationSelectRef.current = onLocationSelect;
+  onMapClickRef.current = onMapClick;
+  enableMapPickRef.current = enableMapPick;
   onMapReadyRef.current = onMapReady;
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
-    const map = new maplibregl.Map({
+    const mapOpts: maplibregl.MapOptions & {
+      transformStyle?: (
+        prev: maplibregl.StyleSpecification | undefined,
+        next: maplibregl.StyleSpecification,
+      ) => maplibregl.StyleSpecification;
+    } = {
       container: containerRef.current,
       style: basemapUrl,
       bounds: AZ_BOUNDS,
       fitBoundsOptions: { padding: 40 },
       maxBounds: clipToCountry ? AZ_BOUNDS : undefined,
       attributionControl: {},
-    });
+      // Strip DEM/terrain before MapLibre applies it (Liberty → null DEM tile spam).
+      transformStyle: (_prev, next) => {
+        if (!next) return next;
+        const style = { ...next } as maplibregl.StyleSpecification & {
+          terrain?: unknown;
+        };
+        delete style.terrain;
+        if (style.sources) {
+          const sources = { ...style.sources };
+          for (const [key, src] of Object.entries(sources)) {
+            if (
+              src &&
+              typeof src === "object" &&
+              "type" in src &&
+              (src as { type?: string }).type === "raster-dem"
+            ) {
+              delete sources[key];
+            }
+          }
+          style.sources = sources;
+        }
+        if (Array.isArray(style.layers)) {
+          style.layers = style.layers.filter((l) => l.type !== "hillshade");
+        }
+        return style;
+      },
+    };
+    const map = new maplibregl.Map(mapOpts);
     if (showNavigationControl) {
       map.addControl(
         new maplibregl.NavigationControl({ showCompass: false }),
@@ -73,6 +135,11 @@ export function GeoAtlasMap({
     onMapReadyRef.current?.(map);
 
     map.on("load", () => {
+      try {
+        if (map.getTerrain()) map.setTerrain(null);
+      } catch {
+        /* no terrain */
+      }
       map.addSource("country", { type: "geojson", data: emptyFc() });
       map.addLayer({
         id: "country-fill",
@@ -135,6 +202,29 @@ export function GeoAtlasMap({
           ],
           "circle-stroke-width": 1,
           "circle-stroke-color": "#0f1419",
+        },
+      });
+
+      map.addSource("map-pick", { type: "geojson", data: emptyFc() });
+      map.addLayer({
+        id: "map-pick-halo",
+        type: "circle",
+        source: "map-pick",
+        paint: {
+          "circle-radius": 14,
+          "circle-color": "#0f766e",
+          "circle-opacity": 0.22,
+        },
+      });
+      map.addLayer({
+        id: "map-pick-point",
+        type: "circle",
+        source: "map-pick",
+        paint: {
+          "circle-radius": 7,
+          "circle-color": "#0f766e",
+          "circle-stroke-width": 2,
+          "circle-stroke-color": "#ffffff",
         },
       });
 
@@ -259,8 +349,45 @@ export function GeoAtlasMap({
         );
       });
       map.on("click", "places-circle", (e) => {
-        const id = e.features?.[0]?.properties?.id;
+        e.originalEvent.stopPropagation();
+        const feature = e.features?.[0];
+        const id = feature?.properties?.id;
         if (typeof id === "string") onPlaceClickRef.current?.(id);
+        const geom = feature?.geometry;
+        if (geom && geom.type === "Point" && Array.isArray(geom.coordinates)) {
+          const [lon, lat] = geom.coordinates as [number, number];
+          if (Number.isFinite(lat) && Number.isFinite(lon)) {
+            const rawName = feature?.properties?.name;
+            onLocationSelectRef.current?.({
+              lat,
+              lon,
+              placeId: typeof id === "string" ? id : undefined,
+              name: typeof rawName === "string" ? rawName : undefined,
+              source: "place",
+            });
+          }
+        }
+      });
+      map.on("click", (e) => {
+        if (!enableMapPickRef.current) return;
+        const hits = map.queryRenderedFeatures(e.point, {
+          layers: [...PLACE_HIT_LAYERS],
+        });
+        if (hits.length) return;
+        const { lng: lon, lat } = e.lngLat;
+        if (!Number.isFinite(lat) || !Number.isFinite(lon)) return;
+        const pickSrc = map.getSource("map-pick") as GeoJSONSource | undefined;
+        pickSrc?.setData({
+          type: "FeatureCollection",
+          features: [
+            {
+              type: "Feature",
+              properties: {},
+              geometry: { type: "Point", coordinates: [lon, lat] },
+            },
+          ],
+        });
+        onMapClickRef.current?.({ lat, lon, source: "map" });
       });
       map.on("mouseenter", "places-clusters", () => {
         map.getCanvas().style.cursor = "pointer";
@@ -365,7 +492,11 @@ export function GeoAtlasMap({
 
     const c = selectedArea ? centerOf(selectedArea) : null;
     const centerSrc = map.getSource("area-center") as GeoJSONSource;
-    if (c) {
+    if (
+      c &&
+      Number.isFinite(c.latitude) &&
+      Number.isFinite(c.longitude)
+    ) {
       centerSrc.setData({
         type: "FeatureCollection",
         features: [
@@ -436,12 +567,24 @@ export function GeoAtlasMap({
     ) {
       return;
     }
+    // Clear map-pick when a named place is chosen
+    (map.getSource("map-pick") as GeoJSONSource | undefined)?.setData(
+      emptyFc(),
+    );
     map.flyTo({
       center: [place.coordinates.lon, place.coordinates.lat],
       zoom: 16,
       duration: 700,
     });
   }, [selectedPlaceId, places, ready]);
+
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !ready || enableMapPick) return;
+    (map.getSource("map-pick") as GeoJSONSource | undefined)?.setData(
+      emptyFc(),
+    );
+  }, [enableMapPick, ready]);
 
   return <div className={className} ref={containerRef} />;
 }
@@ -459,7 +602,12 @@ function bboxOf(
     maxY = -Infinity;
   const walk = (coords: unknown): void => {
     if (!Array.isArray(coords)) return;
-    if (typeof coords[0] === "number" && typeof coords[1] === "number") {
+    if (
+      typeof coords[0] === "number" &&
+      typeof coords[1] === "number" &&
+      Number.isFinite(coords[0]) &&
+      Number.isFinite(coords[1])
+    ) {
       minX = Math.min(minX, coords[0]);
       minY = Math.min(minY, coords[1]);
       maxX = Math.max(maxX, coords[0]);

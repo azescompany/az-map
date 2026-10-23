@@ -3,6 +3,7 @@
  * Active-chain eviction pinning is handled by callers keeping refs; this cache
  * uses a simple byte-budgeted LRU for parsed JSON payloads.
  */
+import { responseJson } from "./parseJson";
 
 type CacheEntry = {
   value: unknown;
@@ -98,4 +99,53 @@ export async function cachedFetchJson<T>(
 
   inflight.set(url, p);
   return p;
+}
+
+/** jsDelivr gh → raw.githubusercontent.com (403 / edge blocks on large repos). */
+function jsdelivrGhToRaw(url: string): string | null {
+  const m =
+    /^https:\/\/cdn\.jsdelivr\.net\/gh\/([^/]+)\/([^@]+)@([^/]+)\/(.+)$/i.exec(
+      url,
+    );
+  if (!m) return null;
+  return `https://raw.githubusercontent.com/${m[1]}/${m[2]}/${m[3]}/${m[4]}`;
+}
+
+async function fetchJsonResponse(
+  url: string,
+  opts?: { acceptGeoJson?: boolean },
+): Promise<Response | null> {
+  let res = await fetch(url);
+  // jsDelivr occasionally 403s existing files on big gh mirrors — try raw.
+  if ((res.status === 403 || res.status === 451) && /jsdelivr\.net\/gh\//i.test(url)) {
+    const raw = jsdelivrGhToRaw(url);
+    if (raw) res = await fetch(raw);
+  }
+  if (!res.ok) return null;
+  const ctype = res.headers.get("content-type") ?? "";
+  const okType =
+    !ctype ||
+    ctype.includes("json") ||
+    (opts?.acceptGeoJson && ctype.includes("geo+json"));
+  if (!okType) return null;
+  return res;
+}
+
+/**
+ * Fetch URL as JSON with L1 + single-flight; large bodies parse in a Worker.
+ * Returns null on non-OK or non-JSON content-type (SPA HTML fallback).
+ */
+export async function cachedFetchJsonUrl<T>(
+  url: string,
+  opts?: { acceptGeoJson?: boolean },
+): Promise<T | null> {
+  return cachedFetchJson(url, async () => {
+    const res = await fetchJsonResponse(url, opts);
+    if (!res) return null;
+    try {
+      return await responseJson<T>(res);
+    } catch {
+      return null;
+    }
+  });
 }

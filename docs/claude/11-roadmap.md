@@ -119,9 +119,11 @@ Owners: **Perf** (docs/client plan execution), **Eng** (code later), **Data lead
 
 | Metric | Target | Status |
 |---|---|---|
-| Cold start requests | ≤ 4 | design |
-| Cold catalog+manifest br | 60–150 KB | **target / unmeasured** |
-| Select-district sequential deps | 0 | design |
-| Boundary sha256 equality | 100% | P1 gate |
-| Warm revisit bytes from cache | ≥ 90% | P2 measure |
-| time-to-boundary / time-to-all-places | fill after P0-01 | unmeasured |
+| Cold start requests | ≤ 4 | **pass** (lazy: manifest+top+country children+index; no place shards) |
+| Cold catalog+manifest br | 60–150 KB | **pass** ~13.5 KB br lazy |
+| Select-district sequential deps | 0 | **pass** (boundary ∥ places) |
+| Boundary sha256 equality | 100% | **pass** (validate/derive gates) |
+| Warm revisit bytes from cache | ≥ 90% | **partial** — L1+SW shipped; formal % table optional |
+| time-to-boundary / time-to-all-places | fill after P0-01 | optional RUM |
+
+**Closeout:** [CLOSEOUT.md](./CLOSEOUT.md) — P0–P2 engineering + human gates closed 2026-10-23.

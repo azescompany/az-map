@@ -49,4 +49,4 @@
 
 ## Status
 
-`done` (2026-10-23) — customer/dev status line shows draft AZ notice for `geom_status` partial|conflict. **Human still must approve Q8** (and optional bbox_approx wording when PIP not used).
+`done` (2026-10-23) — status line for `geom_status` partial|conflict; Q8 working copy approved at CLOSEOUT.

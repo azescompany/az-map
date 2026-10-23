@@ -75,13 +75,18 @@ export default function GlobalSearch({
   const hits = useMemo((): Hit[] => {
     const q = normalize(query);
     if (!q) return [];
-    const areaHits = searchAreas(areas, query, 8).map(
-      (area): Hit => ({ kind: "area", area }),
-    );
-    const placeHits = searchPlaces(searchPool, query, 24).map(
-      (place): Hit => ({ kind: "place", place }),
-    );
-    return [...placeHits, ...areaHits];
+    try {
+      const areaHits = searchAreas(areas ?? [], query, 8).map(
+        (area): Hit => ({ kind: "area", area }),
+      );
+      const placeHits = searchPlaces(searchPool ?? [], query, 24).map(
+        (place): Hit => ({ kind: "place", place }),
+      );
+      return [...placeHits, ...areaHits];
+    } catch (err) {
+      console.warn("[geoatlas] GlobalSearch failed", err);
+      return [];
+    }
   }, [areas, searchPool, query]);
 
   useEffect(() => {

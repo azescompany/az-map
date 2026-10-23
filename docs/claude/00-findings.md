@@ -1,41 +1,30 @@
-# 00 — Findings (repo as of plan date)
+# 00 — Findings
 
-**Role:** PerfDocsArchitect only. Distinct from GeoAgent [`WORKER.md`](../../WORKER.md) / LandmarkAgent [`LANDMARK.md`](../../LANDMARK.md). Master prompt: [`PROMPT.md`](./PROMPT.md). Index: [`README.md`](./README.md).
+Baseline (plan date) → **shipped closeout 2026-10-23** ([CLOSEOUT](./CLOSEOUT.md)).
 
-## What exists today
+## What exists now (shipped)
 
-| Layer | Today |
+| Layer | Status |
 |---|---|
-| SoT | Git `data/` from extract scripts; `source_files/` immutable |
-| Delivery | jsDelivr pin `DEFAULT_DATA_BASE` → `@v0.2.3-national/data/` |
-| Areas | Single `areas/areas.json` (~5 MB raw, **measured** earlier); `manifest.json` coverage.areas **3486** |
-| Places | `places/{key}_all.json` + `places/index.json` (`total` **24068**); `area_id` rayon / city-direct |
-| Boundaries | `boundaries/*` paths via `Area.boundary_file`; tree ~20 MB raw (**measured** sum) |
-| Loaders | `@geoatlas/data`: `loadAreas`, `loadPlacesForArea`, `loadBoundary`, `loadAllCatalogPlaces` |
-| Cascade UI | `@geoatlas/cascade-react`: leaf effect loads **boundary then places** (sequential) |
-| Map | MapLibre circles; **no** clustering; OpenFreeMap basemap |
-| Search | Demo cold-loads **all** place shards via `loadAllCatalogPlaces` |
-| Pin | Git tag = `dataset_version`; **no** `pin.json` |
-| Reviews | `data/reviews/` (audit; must not be consumer-critical path) |
+| SoT | Git `data/` from extract; `source_files/` immutable |
+| Consumer publish | `data-derived/` via `pnpm derive:publish`; pin `@v0.3.x-national` |
+| Delivery | jsDelivr `DEFAULT_DATA_BASE` → derived; `pin.json` for discovery |
+| Areas | Lazy: `catalog/top.json` + country children (~13.5 KB br cold); dual-read vs canonical |
+| Places | Shards + index; city/rayon cascade union; no `baki_all` |
+| Boundaries | Verbatim GeoJSON; selected entity always full boundary + lat/lon |
+| Loaders | `@geoatlas/data`: L1+single-flight, Worker parse ≥48 KiB, `prefetchAreaData` |
+| Cascade UI | Parallel boundary ∥ places; hover/keyboard prefetch |
+| Map | MapLibre clustering |
+| Search | Scoped `search/{areaId}`; national lazy on focus (~1.49 MB br) |
+| Cache | L1 memory + SW L2 pin version |
+| Reviews | `data/reviews/` audit path; not cold-critical |
 
-## Hierarchy modes (must support)
+## Hierarchy modes (supported)
 
 1. **City → rayon → hood** (Bakı, Gəncə)  
-2. **City-direct** (Sumqayıt, Mingəçevir, Şirvan, Naftalan, Yevlax city, Lənkəran city, Şəki, Naxçıvan)  
-3. **Country → rayon → settlement** (Abşeron, Xızı, …)
+2. **City-direct** (Sumqayıt, …)  
+3. **Country → rayon → settlement** (Abşeron, …)
 
-## Known sizes (raw measured; compressed **unmeasured**)
+## Key measured sizes
 
-`areas.json` ~5 MB · `nasimi_all` ~2.4 MB · `yasamal_all` ~1.8 MB · `sumqayit_all` ~1.3 MB · `country_AZ` ~1.3 MB · typical rayon boundary ~0.17 MB.
-
-## Contradictions / stale notes
-
-| Item | Detail |
-|---|---|
-| Place totals | `places/index.json` + `manifest` = **24068**; older chat note 18521 **stale**; `LANDMARK.md` PAUSE “14916” **stale vs disk** |
-| jsDelivr file limit | External notes cite ~20 MB vs ~50 MB — **confirm official docs** ([14](./14-open-questions.md)) |
-| Derive vs canonical | Plan chooses **derived publish tree**; canonical `data/` layout stays for GeoAgent/Landmark |
-
-## Questions (do not guess)
-
-See [14-open-questions.md](./14-open-questions.md). Blocked on humans: RACI tag/pin, AZ RUM, UI copy for `bbox_approx` / partial boundary, compressed baselines (P0-01).
+Canonical `areas.json` ~344 KB br (too fat for cold). Derived lazy cold ~13.5 KB br. See [MEASUREMENTS](./worker/MEASUREMENTS.md).

@@ -39,12 +39,15 @@ export default defineConfig(({ mode }) => {
     useDerived ? "../../data-derived" : "../../data",
   );
 
+  // default/customer/dev → 1555; form (real estate) → 1556
+  const port = mode === "form" ? 1556 : 1555;
+
   return {
     plugins: [react(), geoatlasSwPlugin()],
     // canonical data/ or derived data-derived/ as static root
     publicDir,
     server: {
-      port: 1555,
+      port,
       strictPort: true,
       fs: {
         allow: [path.resolve(__dirname, "../..")],

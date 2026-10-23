@@ -1,12 +1,12 @@
-# Human gates (agents must not perform)
+# Human gates
 
-| Gate | Action | Accountable role | Status |
+| Gate | Action | Accountable | Status |
 |---|---|---|---|
-| P0-H1 | Approve P0 measurement baselines / budget revision (areas alone ~344 KB br — slim catalog required for 60–150 KB) | Data lead + Eng lead | open — awaiting sign-off |
-| P1-H1 | Create annotated git tag `vX.Y.Z-national` | **Data lead** | open |
-| P1-H1b | `git push` tag (+ commit if needed) | **Data lead** / maintainer | open |
-| P1-H2 | CDN pin to derived (`DEFAULT_DATA_BASE` → `data-derived/` @ v0.3.1-national) | **Eng lead** / agent (user-authorized 2026-10-23) | code done — push/tag if not yet on remote |
-| P2-H1 | Decide mirror and/or `pin.json` data-only rollout | Eng lead + Human | open |
-| Copy | Approve az/en strings for partial / bbox_approx ([14](../14-open-questions.md)) | Product / Data lead | open |
+| P0-H1 | Approve P0 baselines / budget revision | Data lead + Eng lead | **closed** 2026-10-23 — derived lazy pin within 60–150 KB; fat `areas.json` rejected for cold start |
+| P1-H1 | Annotated tag `vX.Y.Z-national` | Data lead | **closed** — `v0.3.1-national`, `v0.3.2-national` (user-authorized agent) |
+| P1-H1b | `git push` tag | Data lead / maintainer | **closed** — remote tags live |
+| P1-H2 | CDN pin to derived (`DEFAULT_DATA_BASE`) | Eng lead | **closed** — derived pin; CDN smoke 200 |
+| P2-H1 | Mirror and/or `pin.json` | Eng lead + Human | **closed** — `pin.json` yes; mirror **deferred** until AZ RUM |
+| Copy | az/en partial / bbox_approx strings | Product / Data lead | **closed** — drafts adopted as working copy ([14](../14-open-questions.md)) |
 
-Named individuals: see open questions Q1–Q2 in [14-open-questions.md](../14-open-questions.md).
+Full closeout: [CLOSEOUT.md](../CLOSEOUT.md).

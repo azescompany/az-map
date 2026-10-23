@@ -20,17 +20,20 @@ import {
   loadSearchIndexForArea,
   mergeAreaLists,
   pinActiveAreaUrls,
+  prefetchAreaData,
   resolvePlacesFileForArea,
   verifiedChildrenOf,
   verifiedChildrenOfType,
 } from "@geoatlas/data";
 import { GeoAtlasShell } from "@geoatlas/shell-react";
+import type { LocationSelectPayload } from "@geoatlas/map-react";
 import MapView from "./MapView";
 import SearchableSelect from "./components/SearchableSelect";
 import GlobalSearch from "./components/GlobalSearch";
 import TruncatedText from "./components/TruncatedText";
 import { resolveAppMode } from "./appMode";
 import { resolveDataBase } from "./dataBase";
+import { resolveShellVariant } from "./shellVariant";
 import { notifyServiceWorkerPin } from "./registerSw";
 
 /** CDN (jsDelivr pin) by default; set VITE_GEOATLAS_DATA_BASE=local for repo data/. */
@@ -39,6 +42,8 @@ const { base: DATA_BASE, source: DATA_SOURCE } = resolveDataBase(
 );
 const APP_MODE = resolveAppMode();
 const IS_CUSTOMER = APP_MODE === "customer";
+const SHELL_VARIANT = resolveShellVariant();
+const IS_FORM = SHELL_VARIANT === "form";
 
 /** Draft copy — Human approve Q8 in docs/claude/14-open-questions.md */
 const BOUNDARY_PARTIAL_NOTICE_AZ =
@@ -98,6 +103,39 @@ export default function App() {
   const [devDrawerOpen, setDevDrawerOpen] = useState(false);
   const mapApiRef = useRef<MapLibreMap | null>(null);
   const childrenLoadedRef = useRef(new Set<string>());
+  const lastLocationKeyRef = useRef<string | null>(null);
+
+  const emitLocationSelect = useCallback((payload: LocationSelectPayload) => {
+    if (
+      !Number.isFinite(payload.lat) ||
+      !Number.isFinite(payload.lon)
+    ) {
+      return;
+    }
+    if (typeof window === "undefined") return;
+    if (payload.source === "map") {
+      console.log("[geoatlas] map click lat/lon", {
+        lat: payload.lat,
+        lon: payload.lon,
+      });
+    } else {
+      console.log("[geoatlas] location", {
+        source: payload.source,
+        lat: payload.lat,
+        lon: payload.lon,
+        placeId: payload.placeId,
+        areaId: payload.areaId,
+        name: payload.name,
+      });
+    }
+    window.dispatchEvent(
+      new CustomEvent("geoatlas:locationselect", { detail: payload }),
+    );
+    const w = window as Window & {
+      __geoatlasOnLocationSelect?: (p: LocationSelectPayload) => void;
+    };
+    w.__geoatlasOnLocationSelect?.(payload);
+  }, []);
 
   /** Fetch derived children and return a merged areas list (state may lag). */
   const ensureChildren = useCallback(
@@ -113,6 +151,19 @@ export default function App() {
     [],
   );
 
+  /** Hover/keyboard: warm children + boundary + places via L1 single-flight. */
+  const prefetchAreaOption = useCallback(
+    (id: string) => {
+      const area = getArea(areas, id);
+      if (!area) return;
+      void (async () => {
+        const areasNow = await ensureChildren(area.id, areas);
+        await prefetchAreaData(DATA_BASE, area, areasNow);
+      })();
+    },
+    [areas, ensureChildren],
+  );
+
   useEffect(() => {
     let cancelled = false;
     (async () => {
@@ -122,7 +173,8 @@ export default function App() {
         const [m, a, r] = await Promise.all([
           loadManifest(DATA_BASE),
           loadAreas(DATA_BASE, { lazy: true }),
-          loadReviews(DATA_BASE),
+          // Reviews are developer-only and live on canonical `data/` (not derived).
+          IS_CUSTOMER ? Promise.resolve([] as ReviewItem[]) : loadReviews(DATA_BASE),
           loadPlacesIndex(DATA_BASE),
         ]);
         if (cancelled) return;
@@ -235,10 +287,11 @@ export default function App() {
     });
   }, [namedPlaces]);
 
-  // Derived search/{areaId}.json — broaden autocomplete for current leaf shard owner
+  // Derived search/{areaId}.json — only rayon/settlement shards (not city/country).
   useEffect(() => {
     const area = selectedAreaId ? getArea(areas, selectedAreaId) : undefined;
-    if (!area || area.type === "country") return;
+    if (!area) return;
+    if (area.type === "country" || area.type === "city") return;
     let cancelled = false;
     const shardId =
       area.type === "neighborhood" || area.type === "settlement"
@@ -263,6 +316,50 @@ export default function App() {
     ? (namedPlaces.find((p) => p.id === selectedPlaceId) ??
       searchPlaces.find((p) => p.id === selectedPlaceId))
     : undefined;
+
+  // Form consumers: lat/lon in events/callbacks only (no UI). Prefer place; else area center.
+  useEffect(() => {
+    if (!IS_FORM) return;
+
+    if (selectedPlace?.coordinates) {
+      const { lat, lon } = selectedPlace.coordinates;
+      if (!Number.isFinite(lat) || !Number.isFinite(lon)) return;
+      const key = `place:${selectedPlace.id}:${lat}:${lon}`;
+      if (lastLocationKeyRef.current === key) return;
+      lastLocationKeyRef.current = key;
+      emitLocationSelect({
+        lat,
+        lon,
+        placeId: selectedPlace.id,
+        areaId: selectedPlace.area_id ?? selectedArea?.id,
+        name: selectedPlace.displayName ?? selectedPlace.name,
+        source: "place",
+      });
+      return;
+    }
+
+    if (selectedArea) {
+      const c = centerOf(selectedArea);
+      if (!c) return;
+      const key = `area:${selectedArea.id}:${c.latitude}:${c.longitude}`;
+      if (lastLocationKeyRef.current === key) return;
+      lastLocationKeyRef.current = key;
+      emitLocationSelect({
+        lat: c.latitude,
+        lon: c.longitude,
+        areaId: selectedArea.id,
+        name: selectedArea.name,
+        source: "area",
+      });
+      return;
+    }
+
+    lastLocationKeyRef.current = null;
+  }, [
+    selectedPlace,
+    selectedArea,
+    emitLocationSelect,
+  ]);
 
   // Category filter clears incompatible place selection.
   useEffect(() => {
@@ -557,13 +654,31 @@ export default function App() {
           : "Şəhər və ya məhəllə seçin";
 
   return (
-    <div className={`app demo-root mode-${APP_MODE}`}>
+    <div
+      className={`app demo-root mode-${APP_MODE} variant-${SHELL_VARIANT}`}
+    >
       <GeoAtlasShell
-        theme="dark"
-        showDeveloperPanel={!IS_CUSTOMER}
+        variant={SHELL_VARIANT}
+        theme={IS_FORM ? "light" : "dark"}
+        accentColor={IS_FORM ? "#0f766e" : undefined}
+        showDeveloperPanel={!IS_CUSTOMER && !IS_FORM}
         developerOpen={devDrawerOpen}
         onDeveloperOpenChange={setDevDrawerOpen}
-        labels={{ brand: "GeoAtlas Azərbaycan" }}
+        labels={{
+          brand: IS_FORM ? "Real Estate Map" : "GeoAtlas Azərbaycan",
+          ...(IS_FORM
+            ? {
+                filters: "Filterlər",
+                applyFilters: "Tətbiq et",
+                closeFilters: "Bağla",
+              }
+            : null),
+        }}
+        showResults={
+          IS_FORM
+            ? false
+            : Boolean(cityId || rayonId || neighborhoodId)
+        }
         map={
           <MapView
             className="geoatlas-map map"
@@ -572,10 +687,18 @@ export default function App() {
               mapBoundaryMode === "none" ? null : selectedBoundary
             }
             boundaryMode={mapBoundaryMode}
-            places={filteredPlaces}
+            places={
+              IS_FORM
+                ? selectedPlace
+                  ? [selectedPlace]
+                  : []
+                : filteredPlaces
+            }
             selectedPlaceId={selectedPlaceId}
             selectedArea={selectedArea ?? null}
             onPlaceClick={setSelectedPlaceId}
+            enableMapPick={IS_FORM}
+            onMapClick={IS_FORM ? emitLocationSelect : undefined}
             clipToCountry
             showNavigationControl={false}
             onMapReady={(m) => {
@@ -600,6 +723,7 @@ export default function App() {
               options={midOptions}
               value={cityId}
               disabled={!midLevelUnits.length}
+              onOptionPrefetch={prefetchAreaOption}
               onChange={(id) => {
                 if (!id) {
                   const country = countryId
@@ -619,6 +743,7 @@ export default function App() {
                 options={rayonOptions}
                 value={rayonId}
                 disabled={!rayons.length}
+                onOptionPrefetch={prefetchAreaOption}
                 onChange={(id) => {
                   if (!id) {
                     const city = cityId ? getArea(areas, cityId) : undefined;
@@ -639,6 +764,7 @@ export default function App() {
                 !neighborhoods.length || (showRayonDropdown && !rayonId)
               }
               emptyHint={hoodEmptyHint}
+              onOptionPrefetch={prefetchAreaOption}
               onChange={(id) => {
                 if (!id) {
                   const parent = showRayonDropdown
@@ -662,6 +788,7 @@ export default function App() {
                 label="Mikrorayon / məhəllə"
                 options={microhoodOptions}
                 value={microhoodId}
+                onOptionPrefetch={prefetchAreaOption}
                 onChange={(id) => {
                   if (!id) {
                     const parent = neighborhoodId
@@ -699,9 +826,8 @@ export default function App() {
           active: category === c,
           onClick: () => setCategory(c),
         }))}
-        showResults={Boolean(cityId || rayonId || neighborhoodId)}
-        results={resultItems}
-        resultsLoading={placesLoading}
+        results={IS_FORM ? null : resultItems}
+        resultsLoading={IS_FORM ? false : placesLoading}
         onZoomIn={() => mapApiRef.current?.zoomIn()}
         onZoomOut={() => mapApiRef.current?.zoomOut()}
         onLocate={() => {
@@ -720,43 +846,47 @@ export default function App() {
           else void el.requestFullscreen();
         }}
         status={
-          <div className="geoatlas-status__card geoatlas-glass">
-            {selectedArea ? (
-              <TruncatedText
-                text={
-                  IS_CUSTOMER
-                    ? selectedArea.name
-                    : `${selectedArea.name} · boundary ${selectedArea.geom_status} · center ${selectedArea.center_status ?? "?"} · parent ${selectedArea.parent_status}`
-                }
-              />
-            ) : (
-              "Ərazi seçin"
-            )}
-            {placesLoading ? " · məkanlar yüklənir…" : ""}
-            {boundaryLoadError ? ` · ${boundaryLoadError}` : ""}
-            {boundaryLoading ? " · sərhəd…" : ""}
-            {selectedArea &&
-            (selectedArea.geom_status === "partial" ||
-              selectedArea.geom_status === "conflict")
-              ? ` · ${BOUNDARY_PARTIAL_NOTICE_AZ}`
-              : ""}
-          </div>
+          IS_FORM ? undefined : (
+            <div className="geoatlas-status__card geoatlas-glass">
+              {selectedArea ? (
+                <TruncatedText
+                  text={
+                    IS_CUSTOMER
+                      ? selectedArea.name
+                      : `${selectedArea.name} · boundary ${selectedArea.geom_status} · center ${selectedArea.center_status ?? "?"} · parent ${selectedArea.parent_status}`
+                  }
+                />
+              ) : (
+                "Ərazi seçin"
+              )}
+              {placesLoading ? " · məkanlar yüklənir…" : ""}
+              {boundaryLoadError ? ` · ${boundaryLoadError}` : ""}
+              {boundaryLoading ? " · sərhəd…" : ""}
+              {selectedArea &&
+              (selectedArea.geom_status === "partial" ||
+                selectedArea.geom_status === "conflict")
+                ? ` · ${BOUNDARY_PARTIAL_NOTICE_AZ}`
+                : ""}
+            </div>
+          )
         }
         legend={
-          <div className="geoatlas-legend geoatlas-glass">
-            <span className="geoatlas-legend__item">
-              <i className="geoatlas-swatch geoatlas-swatch--center" /> Ərazi
-              mərkəzi
-            </span>
-            <span className="geoatlas-legend__item">
-              <i className="geoatlas-swatch geoatlas-swatch--place" /> Tanınmış
-              məkan
-            </span>
-            <span className="geoatlas-legend__item">
-              <i className="geoatlas-swatch geoatlas-swatch--selected" /> Seçilmiş
-              məkan
-            </span>
-          </div>
+          IS_FORM ? undefined : (
+            <div className="geoatlas-legend geoatlas-glass">
+              <span className="geoatlas-legend__item">
+                <i className="geoatlas-swatch geoatlas-swatch--center" /> Ərazi
+                mərkəzi
+              </span>
+              <span className="geoatlas-legend__item">
+                <i className="geoatlas-swatch geoatlas-swatch--place" /> Tanınmış
+                məkan
+              </span>
+              <span className="geoatlas-legend__item">
+                <i className="geoatlas-swatch geoatlas-swatch--selected" />{" "}
+                Seçilmiş məkan
+              </span>
+            </div>
+          )
         }
         developerBadges={
           <>

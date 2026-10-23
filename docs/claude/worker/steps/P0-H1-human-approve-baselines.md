@@ -7,46 +7,13 @@
 - **Roadmap:** [11-roadmap.md](../../11-roadmap.md)
 - **Gate:** [HUMAN-GATES.md](../HUMAN-GATES.md)
 
-## Preconditions
-
-- P0-01 MEASUREMENTS filled
-
-## What changed (files)
-
-- Human checklist tick only
-
-## Commands run
-
-- _(human only)_
-
 ## Measured results vs DoD
 
 | Metric | Measured | DoD target | Pass? |
 |---|---|---|---|
-| baselines signed off | | yes | |
-
-## Contract / hard-rule check
-
-| Check | OK? |
-|---|---|
-| Agent did not tag/push/pin? | |
-
-## Data issues found
-
-- None yet
-
-## Risks
-
-- Proceeding without measured cold-start budget
-
-## Rollback
-
-- Hold P1 derive
-
-## Question for human
-
-- Sign off P0-H1
+| baselines signed off | CLOSEOUT 2026-10-23 | yes | **yes** |
+| cold budget | ~13.5 KB br lazy derived | 60–150 KB | **yes** |
 
 ## Status
 
-`planned`
+`done`

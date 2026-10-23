@@ -7,7 +7,12 @@ import type {
   PlaceCollection,
   ReviewItem,
 } from "@geoatlas/types";
-import { cachedFetchJson, clearDataCache, pinCacheKeys } from "./cache";
+import {
+  cachedFetchJson,
+  cachedFetchJsonUrl,
+  clearDataCache,
+  pinCacheKeys,
+} from "./cache";
 import { pointInFeatureCollection } from "./geo";
 import {
   clearDataLayoutCache,
@@ -16,6 +21,7 @@ import {
   slimCatalogRowToArea,
 } from "./layout";
 import { normalize } from "./normalize";
+import { responseJson } from "./parseJson";
 import { enrichPlace, filterNamedPlaces, searchNamedPlaces } from "./places";
 
 export { pointInFeatureCollection } from "./geo";
@@ -144,7 +150,7 @@ export async function loadManifest(
   return cachedFetchJson(url, async () => {
     const res = await fetch(url);
     if (!res.ok) throw new Error(`Failed to load manifest: ${res.status}`);
-    return res.json() as Promise<Manifest>;
+    return responseJson<Manifest>(res);
   });
 }
 
@@ -156,18 +162,7 @@ async function fetchSlimCatalog(
   baseUrl: string,
   rel: string,
 ): Promise<SlimCatalogFile | null> {
-  const url = join(baseUrl, rel);
-  return cachedFetchJson(url, async () => {
-    const res = await fetch(url);
-    if (!res.ok) return null;
-    const ctype = res.headers.get("content-type") ?? "";
-    if (ctype && !ctype.includes("json")) return null;
-    try {
-      return (await res.json()) as SlimCatalogFile;
-    } catch {
-      return null;
-    }
-  });
+  return cachedFetchJsonUrl<SlimCatalogFile>(join(baseUrl, rel));
 }
 
 /** Merge area lists by id (incoming wins on conflict). */
@@ -247,21 +242,27 @@ export async function loadAreas(
   return cachedFetchJson(url, async () => {
     const res = await fetch(url);
     if (!res.ok) throw new Error(`Failed to load areas: ${res.status}`);
-    const data = (await res.json()) as AreaCollection;
+    const data = await responseJson<AreaCollection>(res);
     return data.areas;
   });
 }
 
+/**
+ * Pilot reviews live on the canonical `data/` tree only (derive excludes them).
+ * Derived CDN roots resolve to sibling `…/data/reviews/` (no data-derived 404).
+ */
 export async function loadReviews(
   baseUrl: string = DEFAULT_DATA_BASE,
 ): Promise<ReviewItem[]> {
-  const url = join(baseUrl, "reviews/pilot_reviews.json");
-  return cachedFetchJson(url, async () => {
-    const res = await fetch(url);
-    if (!res.ok) return [] as ReviewItem[];
-    const data = (await res.json()) as { reviews: ReviewItem[] };
-    return data.reviews ?? [];
-  });
+  let reviewsRoot = baseUrl;
+  if (/data-derived/i.test(baseUrl)) {
+    reviewsRoot = baseUrl.replace(/data-derived/gi, "data");
+  } else if (getCachedDataLayout(baseUrl) === "derived") {
+    reviewsRoot = DEFAULT_DATA_BASE_CANONICAL;
+  }
+  const url = join(reviewsRoot, "reviews/pilot_reviews.json");
+  const data = await cachedFetchJsonUrl<{ reviews: ReviewItem[] }>(url);
+  return data?.reviews ?? [];
 }
 
 export type PlacesIndex = {
@@ -328,17 +329,7 @@ export async function loadPlacesIndex(
   baseUrl: string = DEFAULT_DATA_BASE,
 ): Promise<PlacesIndex | null> {
   const shardsUrl = join(baseUrl, "places/shards.json");
-  const shards = await cachedFetchJson<DerivedShards | null>(shardsUrl, async () => {
-    const res = await fetch(shardsUrl);
-    if (!res.ok) return null;
-    const ctype = res.headers.get("content-type") ?? "";
-    if (ctype && !ctype.includes("json")) return null;
-    try {
-      return (await res.json()) as DerivedShards;
-    } catch {
-      return null;
-    }
-  });
+  const shards = await cachedFetchJsonUrl<DerivedShards>(shardsUrl);
 
   if (shards?.by_key && Object.keys(shards.by_key).length) {
     setDataLayout(baseUrl, "derived");
@@ -363,11 +354,7 @@ export async function loadPlacesIndex(
   }
 
   const url = join(baseUrl, "places/index.json");
-  const index = await cachedFetchJson(url, async () => {
-    const res = await fetch(url);
-    if (!res.ok) return null;
-    return (await res.json()) as PlacesIndex;
-  });
+  const index = await cachedFetchJsonUrl<PlacesIndex>(url);
   if (index) setDataLayout(baseUrl, getCachedDataLayout(baseUrl) ?? "canonical");
   rememberPlacesIndex(index);
   return index;
@@ -382,7 +369,7 @@ export async function loadSearchNational(
 ): Promise<Place[]> {
   const url = join(baseUrl, "search/national.json");
   try {
-    const doc = await cachedFetchJson<{
+    const doc = await cachedFetchJsonUrl<{
       items?: Array<{
         id: string;
         name_normalized?: string;
@@ -391,40 +378,41 @@ export async function loadSearchNational(
         lon: number;
         area_id?: string;
       }>;
-    } | null>(url, async () => {
-      const res = await fetch(url);
-      if (!res.ok) return null;
-      const ctype = res.headers.get("content-type") ?? "";
-      if (ctype && !ctype.includes("json")) return null;
-      try {
-        return await res.json();
-      } catch {
-        return null;
-      }
-    });
+    }>(url);
     if (!doc?.items?.length) return [];
-    return doc.items.map((it) =>
-      enrichPlace({
-        id: it.id,
-        name: it.name_normalized || it.id,
-        name_normalized: it.name_normalized || "",
-        alt_names: [],
-        category: (it.category as Place["category"]) ?? "other_poi",
-        coordinates: { lat: it.lat, lon: it.lon },
-        area_id: it.area_id ?? null,
-        area_assign_method: "search_index",
-        area_assign_status: "verified",
-        confidence: 1,
-        status: "silver",
-        source_refs: [
-          {
-            source: "derived_search",
-            source_id: it.id,
-            release: "search-national",
-          },
-        ],
-      }),
-    );
+    return doc.items.flatMap((it) => {
+      const name = it.name_normalized?.trim() ?? "";
+      if (
+        !it.id ||
+        !name ||
+        !Number.isFinite(it.lat) ||
+        !Number.isFinite(it.lon)
+      ) {
+        return [];
+      }
+      return [
+        enrichPlace({
+          id: it.id,
+          name,
+          name_normalized: name,
+          alt_names: [],
+          category: (it.category as Place["category"]) ?? "other_poi",
+          coordinates: { lat: it.lat, lon: it.lon },
+          area_id: it.area_id ?? null,
+          area_assign_method: "search_index",
+          area_assign_status: "verified",
+          confidence: 1,
+          status: "silver",
+          source_refs: [
+            {
+              source: "derived_search",
+              source_id: it.id,
+              release: "search-national",
+            },
+          ],
+        }),
+      ];
+    });
   } catch {
     return [];
   }
@@ -439,16 +427,7 @@ export async function loadPinJson(
   DEFAULT_DATA_BASE?: string;
   DEFAULT_DATA_BASE_CANONICAL?: string;
 } | null> {
-  const url = join(baseUrl, "pin.json");
-  return cachedFetchJson(url, async () => {
-    const res = await fetch(url);
-    if (!res.ok) return null;
-    try {
-      return await res.json();
-    } catch {
-      return null;
-    }
-  });
+  return cachedFetchJsonUrl(join(baseUrl, "pin.json"));
 }
 
 /**
@@ -462,7 +441,7 @@ export async function loadSearchIndexForArea(
   if (!areaId) return [];
   const url = join(baseUrl, `search/${areaId}.json`);
   try {
-    const doc = await cachedFetchJson<{
+    const doc = await cachedFetchJsonUrl<{
       items?: Array<{
         id: string;
         name_normalized?: string;
@@ -471,40 +450,41 @@ export async function loadSearchIndexForArea(
         lon: number;
         area_id?: string;
       }>;
-    } | null>(url, async () => {
-      const res = await fetch(url);
-      if (!res.ok) return null;
-      const ctype = res.headers.get("content-type") ?? "";
-      if (ctype && !ctype.includes("json")) return null;
-      try {
-        return await res.json();
-      } catch {
-        return null;
-      }
-    });
+    }>(url);
     if (!doc?.items?.length) return [];
-    return doc.items.map((it) =>
-      enrichPlace({
-        id: it.id,
-        name: it.name_normalized || it.id,
-        name_normalized: it.name_normalized || "",
-        alt_names: [],
-        category: (it.category as Place["category"]) ?? "other_poi",
-        coordinates: { lat: it.lat, lon: it.lon },
-        area_id: it.area_id ?? areaId,
-        area_assign_method: "search_index",
-        area_assign_status: "verified",
-        confidence: 1,
-        status: "silver",
-        source_refs: [
-          {
-            source: "derived_search",
-            source_id: it.id,
-            release: "search-index",
-          },
-        ],
-      }),
-    );
+    return doc.items.flatMap((it) => {
+      const name = it.name_normalized?.trim() ?? "";
+      if (
+        !it.id ||
+        !name ||
+        !Number.isFinite(it.lat) ||
+        !Number.isFinite(it.lon)
+      ) {
+        return [];
+      }
+      return [
+        enrichPlace({
+          id: it.id,
+          name,
+          name_normalized: name,
+          alt_names: [],
+          category: (it.category as Place["category"]) ?? "other_poi",
+          coordinates: { lat: it.lat, lon: it.lon },
+          area_id: it.area_id ?? areaId,
+          area_assign_method: "search_index",
+          area_assign_status: "verified",
+          confidence: 1,
+          status: "silver",
+          source_refs: [
+            {
+              source: "derived_search",
+              source_id: it.id,
+              release: "search-index",
+            },
+          ],
+        }),
+      ];
+    });
   } catch {
     return [];
   }
@@ -523,17 +503,11 @@ export async function loadAllCatalogPlaces(
         : ["places/yasamal_all.json"];
   const chunks = await Promise.all(
     files.map(async (f) => {
-      const res = await fetch(join(baseUrl, f.replace(/^\//, "")));
-      if (!res.ok) return [] as Place[];
-      // jsDelivr 404 HTML / SPA fallback — skip non-JSON
-      const ctype = res.headers.get("content-type") ?? "";
-      if (ctype && !ctype.includes("json")) return [] as Place[];
-      try {
-        const data = (await res.json()) as PlaceCollection;
-        return (data.places ?? []).map(enrichPlace);
-      } catch {
-        return [] as Place[];
-      }
+      const data = await cachedFetchJsonUrl<PlaceCollection>(
+        join(baseUrl, f.replace(/^\//, "")),
+      );
+      if (!data?.places) return [] as Place[];
+      return data.places.map(enrichPlace);
     }),
   );
   const byId = new Map<string, Place>();
@@ -549,17 +523,9 @@ async function fetchPlacesFile(
 ): Promise<Place[]> {
   const url = join(baseUrl, file);
   try {
-    return await cachedFetchJson(url, async () => {
-      const res = await fetch(url);
-      if (!res.ok) return [] as Place[];
-      // Vite SPA fallback serves index.html (200) for missing public files —
-      // treat non-JSON as "file absent" so city cascade is not aborted.
-      const ctype = res.headers.get("content-type") ?? "";
-      if (!ctype.includes("json")) return [] as Place[];
-      const data = (await res.json()) as PlaceCollection;
-      if (!data || !Array.isArray(data.places)) return [] as Place[];
-      return data.places.map(enrichPlace);
-    });
+    const data = await cachedFetchJsonUrl<PlaceCollection>(url);
+    if (!data || !Array.isArray(data.places)) return [];
+    return data.places.map(enrichPlace);
   } catch {
     return [];
   }
@@ -796,24 +762,32 @@ export async function loadBoundary(
     if (tried.has(url)) continue;
     tried.add(url);
     try {
-      const gj = await cachedFetchJson<GeoJSON.FeatureCollection | null>(
-        url,
-        async () => {
-          const res = await fetch(url);
-          if (!res.ok) return null;
-          const ctype = res.headers.get("content-type") ?? "";
-          if (ctype && !ctype.includes("json") && !ctype.includes("geo+json")) {
-            return null;
-          }
-          return (await res.json()) as GeoJSON.FeatureCollection;
-        },
-      );
+      const gj = await cachedFetchJsonUrl<GeoJSON.FeatureCollection>(url, {
+        acceptGeoJson: true,
+      });
       if (gj) return gj;
     } catch {
       /* try next candidate */
     }
   }
   return null;
+}
+
+/**
+ * Warm L1 for an area the user is likely to select (hover / keyboard highlight).
+ * Loads children catalog + boundary + places in parallel; errors are swallowed.
+ */
+export async function prefetchAreaData(
+  baseUrl: string,
+  area: Area,
+  allAreas?: Area[],
+): Promise<void> {
+  if (!area?.id) return;
+  await Promise.all([
+    loadCatalogChildren(baseUrl, area.id).catch(() => [] as Area[]),
+    loadBoundary(baseUrl, area).catch(() => null),
+    loadPlacesForArea(baseUrl, area, allAreas).catch(() => [] as Place[]),
+  ]);
 }
 
 /** Pin L1 keys for the active area chain (boundary + places URLs). */

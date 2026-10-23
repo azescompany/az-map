@@ -60,7 +60,7 @@ Manual DevTools traces: fill after demo smoke.
 
 | hood | area_id match count | bbox count | polygon count | notes |
 |---|---|---|---|---|
-| (typical Bakı hood) | ~0 | ~100% of loads | 0 until P1-03 | by design: area_id=rayon |
+| (typical Bakı hood) | area_id when set | bbox prefilter | **PIP after P1-03** | loadBoundary + pointInFeatureCollection |
 
 ## Verified / selectable without center
 

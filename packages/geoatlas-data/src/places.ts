@@ -11,6 +11,8 @@ export function enrichPlace(place: Place): Place {
   const displayName = named ? place.name.trim() : null;
   return {
     ...place,
+    alt_names: Array.isArray(place.alt_names) ? place.alt_names : [],
+    source_refs: Array.isArray(place.source_refs) ? place.source_refs : [],
     displayName,
     nameStatus: place.nameStatus ?? (named ? "named" : "unnamed"),
     verificationStatus:
@@ -32,6 +34,7 @@ export function isDisplayableNamedPlace(place: Place): boolean {
 }
 
 export function filterNamedPlaces(places: Place[]): Place[] {
+  if (!Array.isArray(places)) return [];
   return places.map(enrichPlace).filter(isDisplayableNamedPlace);
 }
 
@@ -55,7 +58,8 @@ export function searchNamedPlaces(
     .filter((p) => {
       const dn = normalize(p.displayName ?? p.name);
       if (dn.includes(q)) return true;
-      return p.alt_names.some((n) => normalize(n).includes(q));
+      const alts = p.alt_names ?? [];
+      return alts.some((n) => normalize(n).includes(q));
     })
     .slice(0, limit);
 }

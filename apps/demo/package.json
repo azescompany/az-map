@@ -6,10 +6,12 @@
   "scripts": {
     "dev": "vite --mode customer",
     "dev:customer": "vite --mode customer",
+    "dev:form": "vite --mode form",
     "dev:dev": "vite",
     "dev:derived": "vite --mode derived",
     "build": "tsc -b && vite build --mode customer",
     "build:customer": "tsc -b && vite build --mode customer",
+    "build:form": "tsc -b && vite build --mode form",
     "build:dev": "tsc -b && vite build",
     "build:derived": "tsc -b && vite build --mode derived",
     "preview": "vite preview",
