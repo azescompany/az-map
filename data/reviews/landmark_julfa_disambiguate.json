@@ -1,0 +1,11 @@
+{
+  "key": "julfa",
+  "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
+  "notes": [
+    "no street for duplicate name 'Elince Qalasi' @ 39.19505,45.69359 → coord suffix",
+    "no street for duplicate name 'Əlincə qalası' @ 39.19380,45.69507 → coord suffix",
+    "no street for duplicate name 'Kapital Bank' @ 38.95622,45.63393 → coord suffix",
+    "no street for duplicate name 'Kapital Bank' @ 38.94713,45.63201 → coord suffix"
+  ],
+  "count": 4
+}

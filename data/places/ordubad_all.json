@@ -1,76 +1,27 @@
 {
   "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
-  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
   "places": [
     {
-      "id": "2db6a5b7-3c96-5c8c-a48c-2f1020fbc516",
-      "name": "Gora Dzharadzhur",
-      "name_normalized": "gora dzharadzhur",
+      "id": "b1ce67e8-bf86-5964-9141-a45132e4f6a8",
+      "name": "Kazım Ziya adına Ordubad xalq teatrı",
+      "name_normalized": "kazim ziya adina ordubad xalq teatri",
       "alt_names": [],
-      "category": "historic",
+      "category": "culture",
       "coordinates": {
-        "lat": 39.1128,
-        "lon": 45.8089
+        "lat": 38.9066311,
+        "lon": 46.0205525
       },
       "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
       "area_assign_method": "containment_verified",
       "area_assign_status": "verified",
-      "confidence": 0.786430299282074,
+      "confidence": null,
       "status": "silver",
       "source_refs": [
         {
-          "source": "overture",
-          "source_id": "a5631655-0c57-42b1-85f4-047309c5053a",
-          "release": "2026-09-23.1",
-          "source_category": "historic_site"
-        }
-      ]
-    },
-    {
-      "id": "52751397-3a39-598a-af1b-640060954d3c",
-      "name": "Qeyseriyye",
-      "name_normalized": "qeyseriyye",
-      "alt_names": [],
-      "category": "museum",
-      "coordinates": {
-        "lat": 38.91014,
-        "lon": 46.022102
-      },
-      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": 0.6109128594398499,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "overture",
-          "source_id": "69108c32-e493-4992-bad7-2e0d8803daa6",
-          "release": "2026-09-23.1",
-          "source_category": "museum"
-        }
-      ]
-    },
-    {
-      "id": "874d536b-0990-5763-9041-66a30eb9de31",
-      "name": "Джума-мечеть (Ордубад)",
-      "name_normalized": "",
-      "alt_names": [],
-      "category": "religious",
-      "coordinates": {
-        "lat": 38.9097,
-        "lon": 46.0228
-      },
-      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": 0.8281035423278809,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "overture",
-          "source_id": "1a86d253-60fd-4a48-8481-c1efd4e2a441",
-          "release": "2026-09-23.1",
-          "source_category": "muslim_place_of_worship"
+          "source": "osm",
+          "source_id": "node/6301735393",
+          "release": "azerbaijan-261020",
+          "source_category": "culture"
         }
       ]
     },
@@ -99,48 +50,264 @@
       ]
     },
     {
-      "id": "74993f4c-5b0a-58f4-9d49-35336e11a238",
-      "name": "Nüsnüs",
-      "name_normalized": "nusnus",
+      "id": "8f1a7693-5eb0-5dac-8cb7-b88759d681a7",
+      "name": "Parağa kənd tam orta məktəbi",
+      "name_normalized": "paraga kend tam orta mektebi",
       "alt_names": [],
-      "category": "religious",
+      "category": "education",
       "coordinates": {
-        "lat": 38.95917138,
-        "lon": 46.02509724
+        "lat": 39.07564,
+        "lon": 45.89429
       },
       "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
       "area_assign_method": "containment_verified",
       "area_assign_status": "verified",
-      "confidence": 0.8010455965995789,
+      "confidence": 0.799237072467804,
       "status": "silver",
       "source_refs": [
         {
           "source": "overture",
-          "source_id": "f157b68b-1c1d-4e65-8515-de83e88a1c5a",
+          "source_id": "c6b477d6-69ff-4bee-8116-31bb1b42b654",
           "release": "2026-09-23.1",
-          "source_category": "muslim_place_of_worship"
+          "source_category": "school"
         }
       ]
     },
     {
-      "id": "b39c4a2d-f028-54c3-8543-db24bef34be6",
-      "name": "Dırnıs",
-      "name_normalized": "dirnis",
+      "id": "9176cb8d-0654-5b8a-94b2-7813a32f9d03",
+      "name": "Region TM",
+      "name_normalized": "region tm",
       "alt_names": [],
-      "category": "historic",
+      "category": "education",
       "coordinates": {
-        "lat": 38.986111111111,
-        "lon": 45.979166666667
+        "lat": 38.90786119,
+        "lon": 46.01953397999999
       },
       "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
       "area_assign_method": "containment_verified",
       "area_assign_status": "verified",
-      "confidence": 0.8075469732284546,
+      "confidence": 0.6507570147514343,
       "status": "silver",
       "source_refs": [
         {
           "source": "overture",
-          "source_id": "740bc20d-d62c-41cc-b17e-b8c4516e4446",
+          "source_id": "85f6a2b3-02d1-46f1-b10e-d31fd8dbb082",
+          "release": "2026-09-23.1",
+          "source_category": "school"
+        }
+      ]
+    },
+    {
+      "id": "6549ad7f-3d27-5dde-ae7b-2e15b7f15102",
+      "name": "Tivi kənd Tam orta məktəbi",
+      "name_normalized": "tivi kend tam orta mektebi",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 38.90274,
+        "lon": 46.02007
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5381430387496948,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4763163c-94de-4ff2-9fb3-c799963299ce",
+          "release": "2026-09-23.1",
+          "source_category": "school"
+        }
+      ]
+    },
+    {
+      "id": "c14d4912-e15d-5103-a35f-edb231fba396",
+      "name": "Çinar dibi",
+      "name_normalized": "cinar dibi",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.90997996,
+        "lon": 46.0231166
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5994924306869507,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e1eb96b9-d632-491d-b422-3ae66275dd3b",
+          "release": "2026-09-23.1",
+          "source_category": "cafe"
+        }
+      ]
+    },
+    {
+      "id": "daa33949-209d-5a8b-8a57-4bc1f493326c",
+      "name": "Dadaş Aile Restoranı",
+      "name_normalized": "dadas aile restorani",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.9081,
+        "lon": 46.0278
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6486844420433044,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8471f99c-a545-4d34-8cb5-d602dc84d412",
+          "release": "2026-09-23.1",
+          "source_category": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "8c856fdb-7aba-5673-89f5-fc89d2a55328",
+      "name": "Dadas restoran",
+      "name_normalized": "dadas restoran",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.89689289,
+        "lon": 45.91143067
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6136966943740845,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7a9f26a6-9dd9-4075-a3eb-9a6862045544",
+          "release": "2026-09-23.1",
+          "source_category": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "1db2b8c5-06e6-59f5-a994-45e07379e6be",
+      "name": "Kafe Mənzərə",
+      "name_normalized": "kafe menzere",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.8999565285871,
+        "lon": 46.00861499785336
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6046316027641296,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a2bb0e87-47c7-4c94-b8ec-c8af83d1b714",
+          "release": "2026-09-23.1",
+          "source_category": "cafe"
+        }
+      ]
+    },
+    {
+      "id": "7cf37ac3-ea64-5514-a5f4-dbded5271aa6",
+      "name": "Melisa_ordubad restoran",
+      "name_normalized": "melisa ordubad restoran",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.89906,
+        "lon": 46.01504
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5431759357452393,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2647bb92-a643-4a46-926f-a6b73a1c046f",
+          "release": "2026-09-23.1",
+          "source_category": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "e0cb0172-3f3e-51cf-aa48-2c744b9091e0",
+      "name": "Şora Çeşmə",
+      "name_normalized": "sora cesme",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.92029673,
+        "lon": 46.02164423
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.4351126551628113,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1d636140-9379-4069-a6a4-97211ee5dba8",
+          "release": "2026-09-23.1",
+          "source_category": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "bb331028-c740-5c71-8366-2991a0aea320",
+      "name": "Ordubad Rayon İcra Hakimiyyəti",
+      "name_normalized": "ordubad rayon i cra hakimiyyeti",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 38.89906,
+        "lon": 46.01504
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5422268509864807,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "604fdc47-d4db-4dae-b66a-10f9fe18f45e",
+          "release": "2026-09-23.1",
+          "source_category": "government_office"
+        }
+      ]
+    },
+    {
+      "id": "bd8671d7-6eb5-5eac-9345-4e04c260711c",
+      "name": "Ağdərə, Ordubad",
+      "name_normalized": "agdere ordubad",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.11027778,
+        "lon": 45.91388889
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.805281937122345,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0c1802ad-c35b-4a35-9f13-5282ae63e365",
           "release": "2026-09-23.1",
           "source_category": "historic_site"
         }
@@ -171,26 +338,74 @@
       ]
     },
     {
-      "id": "ad770ed4-d934-5d8d-afd5-31446e3a4cfe",
-      "name": "Ebulfez Elcibeyin Ev Muzeyi",
-      "name_normalized": "ebulfez elcibeyin ev muzeyi",
+      "id": "b39c4a2d-f028-54c3-8543-db24bef34be6",
+      "name": "Dırnıs",
+      "name_normalized": "dirnis",
       "alt_names": [],
-      "category": "museum",
+      "category": "historic",
       "coordinates": {
-        "lat": 39.005186678531,
-        "lon": 45.979958
+        "lat": 38.986111111111,
+        "lon": 45.979166666667
       },
       "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
       "area_assign_method": "containment_verified",
       "area_assign_status": "verified",
-      "confidence": 0.7801513671875,
+      "confidence": 0.8075469732284546,
       "status": "silver",
       "source_refs": [
         {
           "source": "overture",
-          "source_id": "36bb42de-2972-4daf-a367-54e5f3f37477",
+          "source_id": "740bc20d-d62c-41cc-b17e-b8c4516e4446",
           "release": "2026-09-23.1",
-          "source_category": "museum"
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "2db6a5b7-3c96-5c8c-a48c-2f1020fbc516",
+      "name": "Gora Dzharadzhur",
+      "name_normalized": "gora dzharadzhur",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.1128,
+        "lon": 45.8089
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.786430299282074,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a5631655-0c57-42b1-85f4-047309c5053a",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "26c8705b-e38d-5d57-80cc-d1f1283e8daa",
+      "name": "Nəsirvaz kəndi",
+      "name_normalized": "nesirvaz kendi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.169398139835,
+        "lon": 45.936498641968
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5550563931465149,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "992ec4c4-9902-43d9-9163-e91378adfdfd",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
         }
       ]
     },
@@ -219,26 +434,74 @@
       ]
     },
     {
-      "id": "bd8671d7-6eb5-5eac-9345-4e04c260711c",
-      "name": "Ağdərə, Ordubad",
-      "name_normalized": "agdere ordubad",
+      "id": "ad770ed4-d934-5d8d-afd5-31446e3a4cfe",
+      "name": "Ebulfez Elcibeyin Ev Muzeyi",
+      "name_normalized": "ebulfez elcibeyin ev muzeyi",
       "alt_names": [],
-      "category": "historic",
+      "category": "museum",
       "coordinates": {
-        "lat": 39.11027778,
-        "lon": 45.91388889
+        "lat": 39.005186678531,
+        "lon": 45.979958
       },
       "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
       "area_assign_method": "containment_verified",
       "area_assign_status": "verified",
-      "confidence": 0.805281937122345,
+      "confidence": 0.7801513671875,
       "status": "silver",
       "source_refs": [
         {
           "source": "overture",
-          "source_id": "0c1802ad-c35b-4a35-9f13-5282ae63e365",
+          "source_id": "36bb42de-2972-4daf-a367-54e5f3f37477",
           "release": "2026-09-23.1",
-          "source_category": "historic_site"
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "52751397-3a39-598a-af1b-640060954d3c",
+      "name": "Qeyseriyye",
+      "name_normalized": "qeyseriyye",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 38.91014,
+        "lon": 46.022102
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6109128594398499,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "69108c32-e493-4992-bad7-2e0d8803daa6",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "0ba48b68-6228-51ae-91aa-8a4d9eb03e94",
+      "name": "Azercell",
+      "name_normalized": "azercell",
+      "alt_names": [],
+      "category": "other_poi",
+      "coordinates": {
+        "lat": 38.903516,
+        "lon": 46.017115
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/8628363900",
+          "release": "azerbaijan-261020",
+          "source_category": "other_poi"
         }
       ]
     },
@@ -267,28 +530,174 @@
       ]
     },
     {
-      "id": "26c8705b-e38d-5d57-80cc-d1f1283e8daa",
-      "name": "Nəsirvaz kəndi",
-      "name_normalized": "nesirvaz kendi",
+      "id": "874d536b-0990-5763-9041-66a30eb9de31",
+      "name": "Джума-мечеть (Ордубад)",
+      "name_normalized": "",
       "alt_names": [],
-      "category": "historic",
+      "category": "religious",
       "coordinates": {
-        "lat": 39.169398139835,
-        "lon": 45.936498641968
+        "lat": 38.9097,
+        "lon": 46.0228
       },
       "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
       "area_assign_method": "containment_verified",
       "area_assign_status": "verified",
-      "confidence": 0.5550563931465149,
+      "confidence": 0.8281035423278809,
       "status": "silver",
       "source_refs": [
         {
           "source": "overture",
-          "source_id": "992ec4c4-9902-43d9-9163-e91378adfdfd",
+          "source_id": "1a86d253-60fd-4a48-8481-c1efd4e2a441",
           "release": "2026-09-23.1",
-          "source_category": "historic_site"
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "74993f4c-5b0a-58f4-9d49-35336e11a238",
+      "name": "Nüsnüs",
+      "name_normalized": "nusnus",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 38.95917138,
+        "lon": 46.02509724
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8010455965995789,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f157b68b-1c1d-4e65-8515-de83e88a1c5a",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "9b03d9a0-d05d-502e-b7c6-9ddddf4ebb75",
+      "name": "Kapital Bank",
+      "name_normalized": "kapital bank",
+      "alt_names": [],
+      "category": "services",
+      "coordinates": {
+        "lat": 38.904012,
+        "lon": 46.0194597
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/6174449388",
+          "release": "azerbaijan-261020",
+          "source_category": "services"
+        }
+      ]
+    },
+    {
+      "id": "02fd6a97-dd95-5d77-8869-39e209419089",
+      "name": "Kapital Bank Ordubad Filialı",
+      "name_normalized": "kapital bank ordubad filiali",
+      "alt_names": [],
+      "category": "services",
+      "coordinates": {
+        "lat": 38.90404499,
+        "lon": 46.02027907
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6959599256515503,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "478c1b7d-5bd2-4cf1-be42-cbb1c5f79b06",
+          "release": "2026-09-23.1",
+          "source_category": "bank_or_credit_union"
+        }
+      ]
+    },
+    {
+      "id": "0661be09-fb61-5526-a39f-c330f308099a",
+      "name": "Ordubad Üstüpü kendi",
+      "name_normalized": "ordubad ustupu kendi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 38.89906,
+        "lon": 46.01504
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5861738324165344,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "311dcfe4-3286-407d-be16-593249195cb1",
+          "release": "2026-09-23.1",
+          "source_category": "hotel"
+        }
+      ]
+    },
+    {
+      "id": "94416f5f-58b0-5c7f-9dac-1b7618342527",
+      "name": "Unus kəndi",
+      "name_normalized": "unus kendi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 38.965815660189,
+        "lon": 46.018981933594
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6593079566955566,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "aea2fdc0-6ca8-44cf-a9c2-cb2850628cec",
+          "release": "2026-09-23.1",
+          "source_category": "hotel"
+        }
+      ]
+    },
+    {
+      "id": "9a1a1037-2b5f-564b-b863-56f6466a3fba",
+      "name": "Ordubad avtovağzali",
+      "name_normalized": "ordubad avtovagzali",
+      "alt_names": [],
+      "category": "transport",
+      "coordinates": {
+        "lat": 38.9065186,
+        "lon": 46.0197172
+      },
+      "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/6174449373",
+          "release": "azerbaijan-261020",
+          "source_category": "transport"
         }
       ]
     }
-  ]
+  ],
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "rayon_key": "ordubad"
 }

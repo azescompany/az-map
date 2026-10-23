@@ -1,136 +1,17 @@
 {
   "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
-  "rayon_key": "pirallahi",
   "places": [
     {
-      "id": "c22dbdea-1a76-50bd-b070-1738308a38f1",
-      "name": "Чилов",
-      "name_normalized": "",
-      "alt_names": [],
-      "category": "historic",
+      "id": "ddda61ca-27c4-5115-989f-d537ba8e14db",
+      "name": "14 saylı Musiqi Məktəbi \\ Rirallahı (40.4596,50.3352)",
+      "name_normalized": "14 sayli musiqi mektebi rirallahi 14 sayli musiqi mektebi rirallahi 40 4596 50 3352",
+      "alt_names": [
+        "14 saylı Musiqi Məktəbi \\ Rirallahı"
+      ],
+      "category": "culture",
       "coordinates": {
-        "lat": 40.333333333333,
-        "lon": 50.583333333333
-      },
-      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": 0.7567355036735535,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "overture",
-          "source_id": "d214108f-c214-4796-883c-58510828975e",
-          "release": "2026-09-23.1",
-          "source_category": "historic_site"
-        }
-      ]
-    },
-    {
-      "id": "5d245a84-97bf-5e99-ae39-957a60a4c306",
-      "name": "Abşeron Magistral Kanalı",
-      "name_normalized": "abseron magistral kanali",
-      "alt_names": [],
-      "category": "historic",
-      "coordinates": {
-        "lat": 40.39114,
-        "lon": 50.34136
-      },
-      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": 0.786430299282074,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "overture",
-          "source_id": "3eecfe3e-4f37-43bc-9480-8acf85707eb1",
-          "release": "2026-09-23.1",
-          "source_category": "historic_site"
-        }
-      ]
-    },
-    {
-      "id": "4c760284-6b20-54c6-8861-b8bc88ed7846",
-      "name": "Dubendi Beach",
-      "name_normalized": "dubendi beach",
-      "alt_names": [],
-      "category": "park",
-      "coordinates": {
-        "lat": 40.42527338,
-        "lon": 50.29505304
-      },
-      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": 0.6564694046974182,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "overture",
-          "source_id": "fb3723dd-2c94-4c1c-bf25-cbffd26bc5e5",
-          "release": "2026-09-23.1",
-          "source_category": "beach"
-        }
-      ]
-    },
-    {
-      "id": "bf1aca4b-296b-53e1-9fa8-f08203807a96",
-      "name": "моооооре - моооре",
-      "name_normalized": "",
-      "alt_names": [],
-      "category": "park",
-      "coordinates": {
-        "lat": 40.470369332026,
-        "lon": 50.324623118006
-      },
-      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": 0.4358768165111542,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "overture",
-          "source_id": "9ab5a2e6-df50-46bd-b4fd-acb2bb985c83",
-          "release": "2026-09-23.1",
-          "source_category": "beach"
-        }
-      ]
-    },
-    {
-      "id": "aee7f0d8-91f8-5205-997a-73d63f1eb0d7",
-      "name": "Nərəkənd, Pirallahı",
-      "name_normalized": "nerekend pirallahi",
-      "alt_names": [],
-      "category": "park",
-      "coordinates": {
-        "lat": 40.41072724,
-        "lon": 50.35521468
-      },
-      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": 0.47160181403160095,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "overture",
-          "source_id": "f89df0c9-b9c1-4aed-9bfd-79a3afe43de6",
-          "release": "2026-09-23.1",
-          "source_category": "park"
-        }
-      ]
-    },
-    {
-      "id": "4fa3f6c4-e2ba-5d20-b0c4-784a68e2a1c0",
-      "name": "Absheron",
-      "name_normalized": "absheron",
-      "alt_names": [],
-      "category": "tourism",
-      "coordinates": {
-        "lat": 40.4069721,
-        "lon": 50.3250277
+        "lat": 40.4596068,
+        "lon": 50.3352077
       },
       "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
       "area_assign_method": "containment_verified",
@@ -140,9 +21,59 @@
       "source_refs": [
         {
           "source": "osm",
-          "source_id": "node/2011660842",
+          "source_id": "node/3256810805",
           "release": "azerbaijan-261020",
-          "source_category": "tourism"
+          "source_category": "culture"
+        }
+      ]
+    },
+    {
+      "id": "c76d7baf-d4d6-51fe-a8ac-ac76d1700717",
+      "name": "14 saylı Musiqi Məktəbi \\ Rirallahı (40.4686,50.3231)",
+      "name_normalized": "14 sayli musiqi mektebi rirallahi 14 sayli musiqi mektebi rirallahi 40 4686 50 3231",
+      "alt_names": [
+        "14 saylı Musiqi Məktəbi \\ Rirallahı"
+      ],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.4686331,
+        "lon": 50.3230939
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828364",
+          "release": "azerbaijan-261020",
+          "source_category": "culture"
+        }
+      ]
+    },
+    {
+      "id": "08aa1fb3-d042-53e7-a05c-e3f8942ecfe2",
+      "name": "Gənclər Mərkəzi",
+      "name_normalized": "gencler merkezi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.4672905,
+        "lon": 50.3277603
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828348",
+          "release": "azerbaijan-261020",
+          "source_category": "culture"
         }
       ]
     },
@@ -171,14 +102,14 @@
       ]
     },
     {
-      "id": "f5fbbf2d-6f9e-5020-8e13-96da8da3022f",
-      "name": "Şəhidlər Abidəsi \\ Gürgan",
-      "name_normalized": "sehidler abidesi gurgan",
+      "id": "b48882e9-94e2-5cb0-888e-219408e787e5",
+      "name": "Mədəniyyət Sarayı",
+      "name_normalized": "medeniyyet sarayi",
       "alt_names": [],
-      "category": "historic",
+      "category": "culture",
       "coordinates": {
-        "lat": 40.3950465,
-        "lon": 50.3386723
+        "lat": 40.4686739,
+        "lon": 50.3233963
       },
       "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
       "area_assign_method": "containment_verified",
@@ -188,9 +119,931 @@
       "source_refs": [
         {
           "source": "osm",
-          "source_id": "node/2911597548",
+          "source_id": "node/9980262532",
           "release": "azerbaijan-261020",
-          "source_category": "historic"
+          "source_category": "culture"
+        }
+      ]
+    },
+    {
+      "id": "c18219c0-ad9b-5db7-b9b4-a3e49313d28b",
+      "name": "Musiqi Məktəbi",
+      "name_normalized": "musiqi mektebi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.4721774,
+        "lon": 50.3221142
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9980320340",
+          "release": "azerbaijan-261020",
+          "source_category": "culture"
+        }
+      ]
+    },
+    {
+      "id": "5ebeaada-4b2d-50a7-b69f-63e219d8ec9b",
+      "name": "Uşaq Yaradıcılıq Mərkəzi",
+      "name_normalized": "usaq yaradiciliq merkezi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 40.4689106,
+        "lon": 50.3239006
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10096037111",
+          "release": "azerbaijan-261020",
+          "source_category": "culture"
+        }
+      ]
+    },
+    {
+      "id": "751a8df3-e7cd-5196-81bb-cd294517c779",
+      "name": "122 saylı Məktəb \\ Qoşaqışlaq Dübəndi",
+      "name_normalized": "122 sayli mekteb qosaqislaq dubendi",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.4257256,
+        "lon": 50.2665509
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10744206317",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "32891025-6615-5045-8cec-7e0ff6cf28c5",
+      "name": "2 saylı Uşaq Bağçası \\ Qoşaqışlaq Zirə",
+      "name_normalized": "2 sayli usaq bagcasi qosaqislaq zire",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.426769,
+        "lon": 50.2607681
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10744206278",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "eb91a309-c9bd-5d8a-b7a8-e34eed245395",
+      "name": "2N-li ümumi təyinatlı internat tipli ümumtəhsil məktəbi",
+      "name_normalized": "2n li umumi teyinatli internat tipli umumtehsil mektebi",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.4567,
+        "lon": 50.34032
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5262860655784607,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3969b741-fdb9-4041-817e-03debbb09635",
+          "release": "2026-09-23.1",
+          "source_category": "school"
+        }
+      ]
+    },
+    {
+      "id": "c5d87f91-bd3a-5a1b-99f4-5b6a62e17fc1",
+      "name": "Ada Tədris Mərkəzi",
+      "name_normalized": "ada tedris merkezi",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.45809583,
+        "lon": 50.33298628000001
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5350527167320251,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ad345d77-1ff3-48ec-8560-a457b6ad6402",
+          "release": "2026-09-23.1",
+          "source_category": "school"
+        }
+      ]
+    },
+    {
+      "id": "ce7bb932-e0be-5a2c-8b99-c5ccd04e7427",
+      "name": "Bulaq Uşaq Bağçası",
+      "name_normalized": "bulaq usaq bagcasi",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.467267,
+        "lon": 50.32599
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9980262578",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "964d8ceb-3010-5b13-9d5c-df64bcc44f07",
+      "name": "Cırtdan Uşaq Bağçası",
+      "name_normalized": "cirtdan usaq bagcasi",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.4576257,
+        "lon": 50.3326741
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9980262607",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "4e8b0283-714d-5470-8bee-399b43e19d5c",
+      "name": "Qayalı uşaq bağçası \\ Gürgən",
+      "name_normalized": "qayali usaq bagcasi gurgen",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.3939888,
+        "lon": 50.3396862
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/2911597547",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "c01c10dd-f026-552f-9b67-59f616f6805e",
+      "name": "Uşaq Bağçası",
+      "name_normalized": "usaq bagcasi",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.4580073,
+        "lon": 50.332438
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9980262606",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "a4243184-2c13-5cff-a283-f604bcb90182",
+      "name": "Yeni Məktəb",
+      "name_normalized": "yeni mekteb",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 40.4710613,
+        "lon": 50.3283101
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10096021289",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "0f94227a-4842-564e-b478-eb8cd5abc03d",
+      "name": "959 Çay Evi",
+      "name_normalized": "959 cay evi",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.4693922,
+        "lon": 50.3250419
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828379",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "ac216d7d-ebb4-5a9f-91fa-1678d41a0447",
+      "name": "Balıq Restoran \\ Gürgan",
+      "name_normalized": "baliq restoran gurgan",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.3944162,
+        "lon": 50.340372
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746713870",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "281b9093-02ac-5b53-af4f-649d4ea58c87",
+      "name": "Bəhram Kafe",
+      "name_normalized": "behram kafe",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.4511259,
+        "lon": 50.3397334
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/2911880622",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "d7c694a7-0b54-5e93-9c3c-0d21434b4f93",
+      "name": "Birinci Dönər",
+      "name_normalized": "birinci doner",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.470489,
+        "lon": 50.3223731
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10096021288",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "cc821e03-b308-5ee6-ae1b-2774dc12ed42",
+      "name": "Çay Evi",
+      "name_normalized": "cay evi",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.413784,
+        "lon": 50.2905406
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746701727",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "b4de4c8a-6c99-58db-8608-4da1ef7b8ee7",
+      "name": "Çayxana",
+      "name_normalized": "cayxana",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.4595012,
+        "lon": 50.3325909
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10096021282",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "2d031bf6-3cc2-59df-a718-cf29b68873a9",
+      "name": "Dənizim Restoran \\ Dübəndi",
+      "name_normalized": "denizim restoran dubendi",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.4136972,
+        "lon": 50.2904923
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746701738",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "70c2ddc2-bd4d-5fd7-9001-537faccfc4aa",
+      "name": "Dübəndi Balıq Evi (40.4134,50.2849)",
+      "name_normalized": "dubendi baliq evi dubendi baliq evi 40 4134 50 2849",
+      "alt_names": [
+        "Dübəndi Balıq Evi"
+      ],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.41337526,
+        "lon": 50.28494339
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.749945878982544,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1e4dbe10-eea5-438e-99ce-f743d285b195",
+          "release": "2026-09-23.1",
+          "source_category": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "0794e5ba-f802-59d3-b92b-673cf899b722",
+      "name": "Dübəndi Balıq Evi (Qala - Pirallahı şosesi küç.)",
+      "name_normalized": "dubendi baliq evi qala pirallahi sosesi kuc",
+      "alt_names": [
+        "Dübəndi Balıq Evi"
+      ],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.4137534,
+        "lon": 50.2854467
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/5619451303",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "80176a58-69ea-5f7b-bf07-e8092802d25a",
+      "name": "Kafe (40.4119,50.2890)",
+      "name_normalized": "kafe kafe 40 4119 50 2890",
+      "alt_names": [
+        "Kafe"
+      ],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.411923,
+        "lon": 50.2890473
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746701742",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "94915b36-2502-5209-979d-f03cbdfa532f",
+      "name": "Kafe (40.4551,50.3381)",
+      "name_normalized": "kafe kafe 40 4551 50 3381",
+      "alt_names": [
+        "Kafe"
+      ],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.455145,
+        "lon": 50.3381445
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9980262430",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "abebc83a-03a8-5a7a-ae3b-e9b0c884c046",
+      "name": "Kafe (40.4653,50.3278)",
+      "name_normalized": "kafe kafe 40 4653 50 3278",
+      "alt_names": [
+        "Kafe"
+      ],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.4652835,
+        "lon": 50.3278233
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828219",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "dc014396-e276-524e-ac5f-018c0aa643a3",
+      "name": "Leyla kafesi",
+      "name_normalized": "leyla kafesi",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.4693417,
+        "lon": 50.3235939
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/5688228643",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "292da789-1855-5812-94a4-b1e860ffa5c6",
+      "name": "Masallı Kafe",
+      "name_normalized": "masalli kafe",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.4684219,
+        "lon": 50.3259028
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828403",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "692d042f-7676-5091-90a4-bb61faa6bcd8",
+      "name": "Meduza Pub",
+      "name_normalized": "meduza pub",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.4500139,
+        "lon": 50.3383939
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10096021268",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "de5c54ad-190b-5b5d-9bc7-a45747ef85f1",
+      "name": "Nərəkənd Restoranı",
+      "name_normalized": "nerekend restorani",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.4595802,
+        "lon": 50.3343595
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6159631013870239,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "cf8d5555-e575-445f-b621-99ed5c9b31fa",
+          "release": "2026-09-23.1",
+          "source_category": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "9972ec10-57d5-5a15-9be0-0264281a65e8",
+      "name": "Pizza Express",
+      "name_normalized": "pizza express",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.4487729,
+        "lon": 50.3412096
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9980320365",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "d8d03bf5-3eb1-5d17-8d2b-2a52d304ee9d",
+      "name": "Qaya Restoran",
+      "name_normalized": "qaya restoran",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.41259102,
+        "lon": 50.30240059
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9897808080911636,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "cb7d4fd9-c2ed-46d2-8ffa-aa84f48fd3bd",
+          "release": "2026-09-23.1",
+          "source_category": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "48006566-a51d-5fb3-b365-ddb65ee862a7",
+      "name": "Qaya Restoranı \\ Dübəndi",
+      "name_normalized": "qaya restorani dubendi",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.412634,
+        "lon": 50.3024631
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3709460303",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "ddb677fd-0db6-57e8-a68d-07e8946e5662",
+      "name": "Retro",
+      "name_normalized": "retro",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.45621859,
+        "lon": 50.33325407
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.48365506529808044,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "644ed376-ac24-4789-a60a-f56d288d6bd7",
+          "release": "2026-09-23.1",
+          "source_category": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "467ca577-5528-5289-b8dd-f82d66600e14",
+      "name": "Retro Şadlıq Sarayı",
+      "name_normalized": "retro sadliq sarayi",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.4560657,
+        "lon": 50.3331503
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/2911880628",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "b595ce52-c557-593a-bdc5-d8e2ec7edc86",
+      "name": "Terminal-62",
+      "name_normalized": "terminal 62",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.44661786,
+        "lon": 50.27732084
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.2775413990020752,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e8f4de04-3134-4ade-98a2-34771fc9c054",
+          "release": "2026-09-23.1",
+          "source_category": "bar"
+        }
+      ]
+    },
+    {
+      "id": "b20f753b-4183-559c-9375-10c7062d5058",
+      "name": "Xeyir Şər Evi",
+      "name_normalized": "xeyir ser evi",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.4484718,
+        "lon": 50.3402983
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828255",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "8832c392-ca42-5561-94eb-da1e822c6a55",
+      "name": "Xəzər Kafe",
+      "name_normalized": "xezer kafe",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.4553582,
+        "lon": 50.3335673
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9980262642",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "2ae44e18-71e1-5ebb-be10-6dc9a1750106",
+      "name": "Yaşıl Ada Restoran",
+      "name_normalized": "yasil ada restoran",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 40.4209496,
+        "lon": 50.357172
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/2911880632",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "8223aea4-1713-5f98-ae74-d071001f6b16",
+      "name": "24-cü Poıis məntəqəsi",
+      "name_normalized": "24 cu poiis menteqesi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4483396,
+        "lon": 50.3411694
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/2911882125",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "c2a9ab79-21dd-5356-b61f-493ac6a0bb8c",
+      "name": "3-cü Polis bölməsi",
+      "name_normalized": "3 cu polis bolmesi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4674468,
+        "lon": 50.325608
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/2911882126",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
         }
       ]
     },
@@ -243,6 +1096,102 @@
       ]
     },
     {
+      "id": "e56615ce-4016-503c-adbc-e861112fad3f",
+      "name": "Azərsu",
+      "name_normalized": "azersu",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4449998,
+        "lon": 50.3425124
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9980276365",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "330324dd-3baf-5f9d-91a2-08d66c4f9389",
+      "name": "Bakı Şəhəri Pirallahı Rayon İcra Hakimiyyəti",
+      "name_normalized": "baki seheri pirallahi rayon i cra hakimiyyeti",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.45679,
+        "lon": 50.33393
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7917633652687073,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ab0ea069-5ee8-4f94-9fd7-52ba549702f1",
+          "release": "2026-09-23.1",
+          "source_category": "government_office"
+        }
+      ]
+    },
+    {
+      "id": "8bcb175d-8f76-5c5d-8e2a-9c8108370e2a",
+      "name": "Bələdiyyə Pirallahı Gürgan",
+      "name_normalized": "belediyye pirallahi gurgan",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4686842,
+        "lon": 50.3252336
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9980262544",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "2a421ffb-f3a7-57ca-abd0-c67e01a6f0aa",
+      "name": "Daşınmaz Əmlak Dövlət Reyestri",
+      "name_normalized": "dasinmaz emlak dovlet reyestri",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4489974,
+        "lon": 50.3407878
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9980200630",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
       "id": "c0e7a3a3-2714-5aea-bce2-e21efb520950",
       "name": "Dəniz Neft Donamması İdarəsi",
       "name_normalized": "deniz neft donammasi i daresi",
@@ -267,14 +1216,38 @@
       ]
     },
     {
-      "id": "8b97d65b-05c0-5047-9911-106ff1f66fc6",
-      "name": "Pirallahı Məscidi",
-      "name_normalized": "pirallahi mescidi",
+      "id": "743fc5e2-27ea-515e-b708-1284a21ca726",
+      "name": "Dübəndi port",
+      "name_normalized": "dubendi port",
       "alt_names": [],
-      "category": "religious",
+      "category": "government",
       "coordinates": {
-        "lat": 40.4585297,
-        "lon": 50.3331418
+        "lat": 40.44069069,
+        "lon": 50.27601939
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.41332200169563293,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c4e68bf4-d234-4dba-939c-4fec29ad5124",
+          "release": "2026-09-23.1",
+          "source_category": "government_office"
+        }
+      ]
+    },
+    {
+      "id": "e36488bc-60f1-5d6c-bd27-2c8c5d924aba",
+      "name": "DYP Yol Polisi",
+      "name_normalized": "dyp yol polisi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4676833,
+        "lon": 50.3272024
       },
       "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
       "area_assign_method": "containment_verified",
@@ -284,9 +1257,177 @@
       "source_refs": [
         {
           "source": "osm",
-          "source_id": "node/2911880626",
+          "source_id": "node/9978450243",
           "release": "azerbaijan-261020",
-          "source_category": "religious"
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "5003e53a-85be-5cf8-8e28-efa70c715a8a",
+      "name": "Enerji Təchizatı və Satışı",
+      "name_normalized": "enerji techizati ve satisi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4699013,
+        "lon": 50.327012
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9978496761",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "27188812-1296-5037-a82e-0f06e7081cff",
+      "name": "Gürgan İcra Nümayəndəliyi",
+      "name_normalized": "gurgan i cra numayendeliyi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.3947843,
+        "lon": 50.3388841
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9982070852",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "f835ca98-b860-5551-a749-8487e2728f3f",
+      "name": "İcra Hakimiyyəti",
+      "name_normalized": "i cra hakimiyyeti",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4670333,
+        "lon": 50.3286628
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9980245515",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "4597dab4-0bc3-5247-ba80-00e3c356b74f",
+      "name": "Məhkəmə və Prokurorluq",
+      "name_normalized": "mehkeme ve prokurorluq",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4684883,
+        "lon": 50.3252766
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9980262546",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "1bae34a8-3de9-56c0-9b12-c874abb6121a",
+      "name": "MTN Pirallahı şöbəsi",
+      "name_normalized": "mtn pirallahi sobesi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4493813,
+        "lon": 50.3405555
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/2911880625",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "a975c60d-7d2d-56ff-a565-e347ad6416bc",
+      "name": "Pirallahı Sənaye Parkı",
+      "name_normalized": "pirallahi senaye parki",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.425938,
+        "lon": 50.3549632
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746816656",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "f2d3697e-b405-54d8-8802-7edc39eba9bc",
+      "name": "Pirallahı Texniki Nəqliyyat Departamenti 5",
+      "name_normalized": "pirallahi texniki neqliyyat departamenti 5",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 40.4732242,
+        "lon": 50.3251009
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9980262490",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
         }
       ]
     },
@@ -315,14 +1456,14 @@
       ]
     },
     {
-      "id": "f94e081b-139e-5b94-8353-474e63eb9f5f",
-      "name": "Şəhidlər Abidəsi",
-      "name_normalized": "sehidler abidesi",
+      "id": "0b778bf4-cb6b-5eff-8984-00a810913f38",
+      "name": "Su Kanal",
+      "name_normalized": "su kanal",
       "alt_names": [],
-      "category": "historic",
+      "category": "government",
       "coordinates": {
-        "lat": 40.4565914,
-        "lon": 50.3364282
+        "lat": 40.4462832,
+        "lon": 50.3420116
       },
       "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
       "area_assign_method": "containment_verified",
@@ -332,21 +1473,21 @@
       "source_refs": [
         {
           "source": "osm",
-          "source_id": "node/2911880635",
+          "source_id": "node/10096021263",
           "release": "azerbaijan-261020",
-          "source_category": "historic"
+          "source_category": "government"
         }
       ]
     },
     {
-      "id": "ddda61ca-27c4-5115-989f-d537ba8e14db",
-      "name": "14 saylı Musiqi Məktəbi \\ Rirallahı",
-      "name_normalized": "14 sayli musiqi mektebi rirallahi",
+      "id": "48ce5b65-b8d8-5acb-afef-343aeaff35a9",
+      "name": "Yanğınsöndürmə Hissəsi",
+      "name_normalized": "yanginsondurme hissesi",
       "alt_names": [],
-      "category": "culture",
+      "category": "government",
       "coordinates": {
-        "lat": 40.4596068,
-        "lon": 50.3352077
+        "lat": 40.4691703,
+        "lon": 50.3262953
       },
       "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
       "area_assign_method": "containment_verified",
@@ -356,9 +1497,281 @@
       "source_refs": [
         {
           "source": "osm",
-          "source_id": "node/3256810805",
+          "source_id": "node/2911880631",
           "release": "azerbaijan-261020",
-          "source_category": "culture"
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "6e815874-54e6-55c7-b74f-aa97cce06819",
+      "name": "10 saylı Birləşmiş Xəstəxana",
+      "name_normalized": "10 sayli birlesmis xestexana",
+      "alt_names": [],
+      "category": "healthcare",
+      "coordinates": {
+        "lat": 40.4472325,
+        "lon": 50.3414839
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3606652630",
+          "release": "azerbaijan-261020",
+          "source_category": "healthcare"
+        }
+      ]
+    },
+    {
+      "id": "5f9c3b0b-8285-5fd7-a43e-3b9f9fa9d8ba",
+      "name": "618 Aptek",
+      "name_normalized": "618 aptek",
+      "alt_names": [],
+      "category": "healthcare",
+      "coordinates": {
+        "lat": 40.4530948,
+        "lon": 50.3368784
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828295",
+          "release": "azerbaijan-261020",
+          "source_category": "healthcare"
+        }
+      ]
+    },
+    {
+      "id": "230b4a6e-5e02-5522-96d1-b840d4c7c09f",
+      "name": "Aptek 98",
+      "name_normalized": "aptek 98",
+      "alt_names": [],
+      "category": "healthcare",
+      "coordinates": {
+        "lat": 40.4482636,
+        "lon": 50.3412665
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9980276364",
+          "release": "azerbaijan-261020",
+          "source_category": "healthcare"
+        }
+      ]
+    },
+    {
+      "id": "efad4b01-f259-5f82-b82f-229487e6c9d8",
+      "name": "Aptek (40.4497,50.3391)",
+      "name_normalized": "aptek aptek 40 4497 50 3391",
+      "alt_names": [
+        "Aptek"
+      ],
+      "category": "healthcare",
+      "coordinates": {
+        "lat": 40.4497043,
+        "lon": 50.3391141
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3606518248",
+          "release": "azerbaijan-261020",
+          "source_category": "healthcare"
+        }
+      ]
+    },
+    {
+      "id": "00ee7587-e139-5355-a79a-fdb712fc6bb3",
+      "name": "Aptek (40.4536,50.3357)",
+      "name_normalized": "aptek aptek 40 4536 50 3357",
+      "alt_names": [
+        "Aptek"
+      ],
+      "category": "healthcare",
+      "coordinates": {
+        "lat": 40.4535571,
+        "lon": 50.3357211
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828300",
+          "release": "azerbaijan-261020",
+          "source_category": "healthcare"
+        }
+      ]
+    },
+    {
+      "id": "4814fb23-f2ef-5c17-b805-eb8ab2e2e8f7",
+      "name": "Aptek (40.4591,50.3344)",
+      "name_normalized": "aptek aptek 40 4591 50 3344",
+      "alt_names": [
+        "Aptek"
+      ],
+      "category": "healthcare",
+      "coordinates": {
+        "lat": 40.4591175,
+        "lon": 50.3344497
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828338",
+          "release": "azerbaijan-261020",
+          "source_category": "healthcare"
+        }
+      ]
+    },
+    {
+      "id": "586297ac-0b16-584d-a57c-f6f0b197fbfd",
+      "name": "Stomatoloq 077",
+      "name_normalized": "stomatoloq 077",
+      "alt_names": [],
+      "category": "healthcare",
+      "coordinates": {
+        "lat": 40.4498154,
+        "lon": 50.3390738
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10096021267",
+          "release": "azerbaijan-261020",
+          "source_category": "healthcare"
+        }
+      ]
+    },
+    {
+      "id": "2a73534e-eabc-5b1c-aeb4-809324d8d8a8",
+      "name": "Təcili Yardım Stansiyası 18",
+      "name_normalized": "tecili yardim stansiyasi 18",
+      "alt_names": [],
+      "category": "healthcare",
+      "coordinates": {
+        "lat": 40.4464586,
+        "lon": 50.3419297
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/2911882124",
+          "release": "azerbaijan-261020",
+          "source_category": "healthcare"
+        }
+      ]
+    },
+    {
+      "id": "b19ac982-c26a-5ab7-be46-94cb1cb71596",
+      "name": "Uzman Dr. Vusal Mahmudov Ortoped-travmatoloq",
+      "name_normalized": "uzman dr vusal mahmudov ortoped travmatoloq",
+      "alt_names": [],
+      "category": "healthcare",
+      "coordinates": {
+        "lat": 40.448498338363,
+        "lon": 50.337553024292
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5641357898712158,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8485f5ec-80ca-4b2a-a489-fe65ae258f2e",
+          "release": "2026-09-23.1",
+          "source_category": "doctors_office"
+        }
+      ]
+    },
+    {
+      "id": "eec2c0b1-b876-5554-bc3e-1eb9ac717be0",
+      "name": "Zeytun Aptek",
+      "name_normalized": "zeytun aptek",
+      "alt_names": [],
+      "category": "healthcare",
+      "coordinates": {
+        "lat": 40.4530173,
+        "lon": 50.3369227
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828296",
+          "release": "azerbaijan-261020",
+          "source_category": "healthcare"
+        }
+      ]
+    },
+    {
+      "id": "c22dbdea-1a76-50bd-b070-1738308a38f1",
+      "name": "Чилов (40.3333,50.5833)",
+      "name_normalized": " 40 3333 50 5833",
+      "alt_names": [
+        "Чилов"
+      ],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.333333333333,
+        "lon": 50.583333333333
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7567355036735535,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d214108f-c214-4796-883c-58510828975e",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
         }
       ]
     },
@@ -411,6 +1824,54 @@
       ]
     },
     {
+      "id": "5d245a84-97bf-5e99-ae39-957a60a4c306",
+      "name": "Abşeron Magistral Kanalı",
+      "name_normalized": "abseron magistral kanali",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.39114,
+        "lon": 50.34136
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.786430299282074,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3eecfe3e-4f37-43bc-9480-8acf85707eb1",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "7823c280-9be5-57fa-8e44-38c73208f3b0",
+      "name": "Gürgan giriş abidə",
+      "name_normalized": "gurgan giris abide",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 40.3992676,
+        "lon": 50.334333
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/13233229023",
+          "release": "azerbaijan-261020",
+          "source_category": "historic"
+        }
+      ]
+    },
+    {
       "id": "d947cc99-9baa-571a-a88c-bc79b44c315d",
       "name": "Heydər Əliyev Heykəli",
       "name_normalized": "heyder eliyev heykeli",
@@ -435,14 +1896,14 @@
       ]
     },
     {
-      "id": "5003e53a-85be-5cf8-8e28-efa70c715a8a",
-      "name": "Enerji Təchizatı və Satışı",
-      "name_normalized": "enerji techizati ve satisi",
+      "id": "f94e081b-139e-5b94-8353-474e63eb9f5f",
+      "name": "Şəhidlər Abidəsi",
+      "name_normalized": "sehidler abidesi",
       "alt_names": [],
-      "category": "government",
+      "category": "historic",
       "coordinates": {
-        "lat": 40.4699013,
-        "lon": 50.327012
+        "lat": 40.4565914,
+        "lon": 50.3364282
       },
       "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
       "area_assign_method": "containment_verified",
@@ -452,21 +1913,21 @@
       "source_refs": [
         {
           "source": "osm",
-          "source_id": "node/9978496761",
+          "source_id": "node/2911880635",
           "release": "azerbaijan-261020",
-          "source_category": "government"
+          "source_category": "historic"
         }
       ]
     },
     {
-      "id": "2a421ffb-f3a7-57ca-abd0-c67e01a6f0aa",
-      "name": "Daşınmaz Əmlak Dövlət Reyestri",
-      "name_normalized": "dasinmaz emlak dovlet reyestri",
+      "id": "f5fbbf2d-6f9e-5020-8e13-96da8da3022f",
+      "name": "Şəhidlər Abidəsi \\ Gürgan",
+      "name_normalized": "sehidler abidesi gurgan",
       "alt_names": [],
-      "category": "government",
+      "category": "historic",
       "coordinates": {
-        "lat": 40.4489974,
-        "lon": 50.3407878
+        "lat": 40.3950465,
+        "lon": 50.3386723
       },
       "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
       "area_assign_method": "containment_verified",
@@ -476,153 +1937,9 @@
       "source_refs": [
         {
           "source": "osm",
-          "source_id": "node/9980200630",
+          "source_id": "node/2911597548",
           "release": "azerbaijan-261020",
-          "source_category": "government"
-        }
-      ]
-    },
-    {
-      "id": "f835ca98-b860-5551-a749-8487e2728f3f",
-      "name": "İcra Hakimiyyəti",
-      "name_normalized": "i cra hakimiyyeti",
-      "alt_names": [],
-      "category": "government",
-      "coordinates": {
-        "lat": 40.4670333,
-        "lon": 50.3286628
-      },
-      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": null,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "osm",
-          "source_id": "node/9980245515",
-          "release": "azerbaijan-261020",
-          "source_category": "government"
-        }
-      ]
-    },
-    {
-      "id": "f2d3697e-b405-54d8-8802-7edc39eba9bc",
-      "name": "Pirallahı Texniki Nəqliyyat Departamenti 5",
-      "name_normalized": "pirallahi texniki neqliyyat departamenti 5",
-      "alt_names": [],
-      "category": "government",
-      "coordinates": {
-        "lat": 40.4732242,
-        "lon": 50.3251009
-      },
-      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": null,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "osm",
-          "source_id": "node/9980262490",
-          "release": "azerbaijan-261020",
-          "source_category": "government"
-        }
-      ]
-    },
-    {
-      "id": "b48882e9-94e2-5cb0-888e-219408e787e5",
-      "name": "Mədəniyyət Sarayı",
-      "name_normalized": "medeniyyet sarayi",
-      "alt_names": [],
-      "category": "culture",
-      "coordinates": {
-        "lat": 40.4686739,
-        "lon": 50.3233963
-      },
-      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": null,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "osm",
-          "source_id": "node/9980262532",
-          "release": "azerbaijan-261020",
-          "source_category": "culture"
-        }
-      ]
-    },
-    {
-      "id": "8bcb175d-8f76-5c5d-8e2a-9c8108370e2a",
-      "name": "Bələdiyyə Pirallahı Gürgan",
-      "name_normalized": "belediyye pirallahi gurgan",
-      "alt_names": [],
-      "category": "government",
-      "coordinates": {
-        "lat": 40.4686842,
-        "lon": 50.3252336
-      },
-      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": null,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "osm",
-          "source_id": "node/9980262544",
-          "release": "azerbaijan-261020",
-          "source_category": "government"
-        }
-      ]
-    },
-    {
-      "id": "e56615ce-4016-503c-adbc-e861112fad3f",
-      "name": "Azərsu",
-      "name_normalized": "azersu",
-      "alt_names": [],
-      "category": "government",
-      "coordinates": {
-        "lat": 40.4449998,
-        "lon": 50.3425124
-      },
-      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": null,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "osm",
-          "source_id": "node/9980276365",
-          "release": "azerbaijan-261020",
-          "source_category": "government"
-        }
-      ]
-    },
-    {
-      "id": "c18219c0-ad9b-5db7-b9b4-a3e49313d28b",
-      "name": "Musiqi Məktəbi",
-      "name_normalized": "musiqi mektebi",
-      "alt_names": [],
-      "category": "culture",
-      "coordinates": {
-        "lat": 40.4721774,
-        "lon": 50.3221142
-      },
-      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": null,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "osm",
-          "source_id": "node/9980320340",
-          "release": "azerbaijan-261020",
-          "source_category": "culture"
+          "source_category": "historic"
         }
       ]
     },
@@ -651,14 +1968,14 @@
       ]
     },
     {
-      "id": "27188812-1296-5037-a82e-0f06e7081cff",
-      "name": "Gürgan İcra Nümayəndəliyi",
-      "name_normalized": "gurgan i cra numayendeliyi",
+      "id": "ab92d524-7bb3-5989-abf3-e2b86aefcb88",
+      "name": "Şah Dili Qoruğunun İnzabati Binası",
+      "name_normalized": "sah dili qorugunun i nzabati binasi",
       "alt_names": [],
-      "category": "government",
+      "category": "other_poi",
       "coordinates": {
-        "lat": 40.3947843,
-        "lon": 50.3388841
+        "lat": 40.2951685,
+        "lon": 50.3505738
       },
       "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
       "area_assign_method": "containment_verified",
@@ -668,9 +1985,2107 @@
       "source_refs": [
         {
           "source": "osm",
-          "source_id": "node/9982070852",
+          "source_id": "node/9984257020",
           "release": "azerbaijan-261020",
-          "source_category": "government"
+          "source_category": "other_poi"
+        }
+      ]
+    },
+    {
+      "id": "bf1aca4b-296b-53e1-9fa8-f08203807a96",
+      "name": "моооооре - моооре (40.4704,50.3246)",
+      "name_normalized": " 40 4704 50 3246",
+      "alt_names": [
+        "моооооре - моооре"
+      ],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.470369332026,
+        "lon": 50.324623118006
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.4358768165111542,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9ab5a2e6-df50-46bd-b4fd-acb2bb985c83",
+          "release": "2026-09-23.1",
+          "source_category": "beach"
+        }
+      ]
+    },
+    {
+      "id": "4c760284-6b20-54c6-8861-b8bc88ed7846",
+      "name": "Dubendi Beach",
+      "name_normalized": "dubendi beach",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.42527338,
+        "lon": 50.29505304
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6564694046974182,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "fb3723dd-2c94-4c1c-bf25-cbffd26bc5e5",
+          "release": "2026-09-23.1",
+          "source_category": "beach"
+        }
+      ]
+    },
+    {
+      "id": "aee7f0d8-91f8-5205-997a-73d63f1eb0d7",
+      "name": "Nərəkənd, Pirallahı",
+      "name_normalized": "nerekend pirallahi",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 40.41072724,
+        "lon": 50.35521468
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.47160181403160095,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f89df0c9-b9c1-4aed-9bfd-79a3afe43de6",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "8b97d65b-05c0-5047-9911-106ff1f66fc6",
+      "name": "Pirallahı Məscidi",
+      "name_normalized": "pirallahi mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 40.4585297,
+        "lon": 50.3331418
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/2911880626",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "455b1a76-2c4b-5f1f-86cb-779826d9dd29",
+      "name": "Azərbaycn Beynəlxalq Bankı (Səbail filialı)",
+      "name_normalized": "azerbaycn beynelxalq banki sebail filiali",
+      "alt_names": [],
+      "category": "services",
+      "coordinates": {
+        "lat": 40.3740776,
+        "lon": 50.34059981
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8487513065338135,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e034b915-ec9c-4e0e-bf68-fcd2e668a728",
+          "release": "2026-09-23.1",
+          "source_category": "bank_or_credit_union"
+        }
+      ]
+    },
+    {
+      "id": "4f181c70-3889-5437-9ea4-069665d9c938",
+      "name": "Beynəlxalq Bank ATM (40.4491,50.3408)",
+      "name_normalized": "beynelxalq bank atm beynelxalq bank atm 40 4491 50 3408",
+      "alt_names": [
+        "Beynəlxalq Bank ATM"
+      ],
+      "category": "services",
+      "coordinates": {
+        "lat": 40.449128,
+        "lon": 50.3407864
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9980200629",
+          "release": "azerbaijan-261020",
+          "source_category": "services"
+        }
+      ]
+    },
+    {
+      "id": "1d8dff39-9e90-50fa-8af6-50baee703838",
+      "name": "Beynəlxalq Bank ATM (40.4553,50.3373)",
+      "name_normalized": "beynelxalq bank atm beynelxalq bank atm 40 4553 50 3373",
+      "alt_names": [
+        "Beynəlxalq Bank ATM"
+      ],
+      "category": "services",
+      "coordinates": {
+        "lat": 40.4553307,
+        "lon": 50.3373411
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9980262646",
+          "release": "azerbaijan-261020",
+          "source_category": "services"
+        }
+      ]
+    },
+    {
+      "id": "ef253038-0361-5aac-aa26-131ee5558a10",
+      "name": "Beynəlxalq Bank ATM (40.4561,50.3369)",
+      "name_normalized": "beynelxalq bank atm beynelxalq bank atm 40 4561 50 3369",
+      "alt_names": [
+        "Beynəlxalq Bank ATM"
+      ],
+      "category": "services",
+      "coordinates": {
+        "lat": 40.4561052,
+        "lon": 50.3368744
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10096021279",
+          "release": "azerbaijan-261020",
+          "source_category": "services"
+        }
+      ]
+    },
+    {
+      "id": "ebf32cbc-e718-5d9c-b5cd-e95e1db18f98",
+      "name": "Beynəlxalq Bank ATM (40.4586,50.3363)",
+      "name_normalized": "beynelxalq bank atm beynelxalq bank atm 40 4586 50 3363",
+      "alt_names": [
+        "Beynəlxalq Bank ATM"
+      ],
+      "category": "services",
+      "coordinates": {
+        "lat": 40.4586042,
+        "lon": 50.3362763
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9980262630",
+          "release": "azerbaijan-261020",
+          "source_category": "services"
+        }
+      ]
+    },
+    {
+      "id": "765da418-f5b9-5c52-bf92-cc0dbefd234c",
+      "name": "Beynəlxalq Bank Filial",
+      "name_normalized": "beynelxalq bank filial",
+      "alt_names": [],
+      "category": "services",
+      "coordinates": {
+        "lat": 40.4598675,
+        "lon": 50.3348574
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9980262617",
+          "release": "azerbaijan-261020",
+          "source_category": "services"
+        }
+      ]
+    },
+    {
+      "id": "c10bad82-4f16-552b-84f8-d1a7e6b64e48",
+      "name": "Kapital Bank ATM (40.4557,50.3371)",
+      "name_normalized": "kapital bank atm kapital bank atm 40 4557 50 3371",
+      "alt_names": [
+        "Kapital Bank ATM"
+      ],
+      "category": "services",
+      "coordinates": {
+        "lat": 40.4556889,
+        "lon": 50.3371078
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9980262644",
+          "release": "azerbaijan-261020",
+          "source_category": "services"
+        }
+      ]
+    },
+    {
+      "id": "2dde78c1-d569-5cc4-9cb5-41a44ea8338f",
+      "name": "Kapital Bank ATM (40.4580,50.3363)",
+      "name_normalized": "kapital bank atm kapital bank atm 40 4580 50 3363",
+      "alt_names": [
+        "Kapital Bank ATM"
+      ],
+      "category": "services",
+      "coordinates": {
+        "lat": 40.4580491,
+        "lon": 50.3362924
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9980262631",
+          "release": "azerbaijan-261020",
+          "source_category": "services"
+        }
+      ]
+    },
+    {
+      "id": "55a99ea9-bc2b-526e-b8cc-271823007b01",
+      "name": "1001 Xırdavat",
+      "name_normalized": "1001 xirdavat",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.425645,
+        "lon": 50.2608687
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10744206289",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "062961a2-a1ca-52a4-a43b-f64613447e17",
+      "name": "Ahes market",
+      "name_normalized": "ahes market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4681129,
+        "lon": 50.3259854
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/5688228644",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "45841e4c-0d9b-550a-8f1b-d59f671adcd1",
+      "name": "AL market 3054",
+      "name_normalized": "al market 3054",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4698212,
+        "lon": 50.322902
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/5837490386",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "9c236736-ea45-5c60-abf1-db1e9fd8f66d",
+      "name": "AL Market (40.4526,50.3379)",
+      "name_normalized": "al market al market 40 4526 50 3379",
+      "alt_names": [
+        "AL Market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.452557,
+        "lon": 50.3378722
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10096021272",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "2d2c49b8-8ce7-595c-9d84-b1ad0eff8457",
+      "name": "AL Market (40.4705,50.3273)",
+      "name_normalized": "al market al market 40 4705 50 3273",
+      "alt_names": [
+        "AL Market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4705032,
+        "lon": 50.3272587
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9978450323",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "b946937c-972f-59ef-bdd8-ab9c6659619b",
+      "name": "Araz (40.4490,50.3379)",
+      "name_normalized": "araz araz 40 4490 50 3379",
+      "alt_names": [
+        "Araz"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.449029,
+        "lon": 50.3378695
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828240",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "2889007c-7c4c-5422-821a-dec25e41a2ef",
+      "name": "Araz (40.4558,50.3370)",
+      "name_normalized": "araz araz 40 4558 50 3370",
+      "alt_names": [
+        "Araz"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4558268,
+        "lon": 50.3370175
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/5688228641",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "846d3d1c-85a0-54d5-b6d0-fb6231d8b9e6",
+      "name": "Araz (40.4689,50.3255)",
+      "name_normalized": "araz araz 40 4689 50 3255",
+      "alt_names": [
+        "Araz"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4688566,
+        "lon": 50.325518
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9980262543",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "5deff999-5309-5d63-a652-befd3c5d5d14",
+      "name": "Araz Market",
+      "name_normalized": "araz market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4523111,
+        "lon": 50.3380962
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10096021271",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "fd5eb933-7a2e-571a-9de5-2fd8e55bf3a6",
+      "name": "Avtoservis (40.4555,50.3380)",
+      "name_normalized": "avtoservis avtoservis 40 4555 50 3380",
+      "alt_names": [
+        "Avtoservis"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4554756,
+        "lon": 50.3380318
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10096021278",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "d115bd79-e783-5d47-8548-d5a72be2de6d",
+      "name": "Avtoservis (40.4613,50.3323)",
+      "name_normalized": "avtoservis avtoservis 40 4613 50 3323",
+      "alt_names": [
+        "Avtoservis"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4612644,
+        "lon": 50.3322718
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10096021284",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "fc0a5168-e6b8-552f-a41b-44fb2497b496",
+      "name": "Avtoservis (40.4738,50.3250)",
+      "name_normalized": "avtoservis avtoservis 40 4738 50 3250",
+      "alt_names": [
+        "Avtoservis"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4737536,
+        "lon": 50.3250499
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828218",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "33fc4cdf-b7c8-5ec8-9aa9-f05702bf8c31",
+      "name": "Ayaqqabı",
+      "name_normalized": "ayaqqabi",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4535438,
+        "lon": 50.3365512
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828303",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "a75f10cb-71d7-5c94-b82b-4fa8f66a0502",
+      "name": "aykut hocamın bıyığı süpermarket",
+      "name_normalized": "aykut hocamin biyigi supermarket",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.3154141,
+        "lon": 50.5848843
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10778561443",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "5b7de7e7-e6b8-5894-abd7-6fbf99ed2467",
+      "name": "Aynur Optika",
+      "name_normalized": "aynur optika",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4536663,
+        "lon": 50.3364855
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828304",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "5e77d198-b668-5ae4-be52-652a8f7e5ba3",
+      "name": "Bərbərxana",
+      "name_normalized": "berberxana",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.3998776,
+        "lon": 50.3344909
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/2911597544",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "5f0ded56-9d8b-59cb-9609-85a369659142",
+      "name": "Cəzirə Şirniyyat",
+      "name_normalized": "cezire sirniyyat",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4551001,
+        "lon": 50.3363661
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828315",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "b9f7e623-4825-5322-843f-302a778183ea",
+      "name": "Dəmir Sexi",
+      "name_normalized": "demir sexi",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4126097,
+        "lon": 50.2895723
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746701655",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "d8cbcdbe-bcb2-5fdb-98a5-1da4a4ee516e",
+      "name": "Desert Şirniyyat",
+      "name_normalized": "desert sirniyyat",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4559236,
+        "lon": 50.3347944
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9980262643",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "7a4327e5-aae1-5cc5-ac5e-13766066d906",
+      "name": "Ət Dülanı",
+      "name_normalized": "et dulani",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4120108,
+        "lon": 50.2891231
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746701741",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "6adf4970-79ee-5ee3-99e2-53f9641cf263",
+      "name": "Fiş Balıq",
+      "name_normalized": "fis baliq",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4550654,
+        "lon": 50.3385039
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10096021276",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "b9d7f2a3-b997-5228-b022-8cbd5e182517",
+      "name": "İnşaat Malları",
+      "name_normalized": "i nsaat mallari",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4138779,
+        "lon": 50.2902563
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746701726",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "91e50811-a9f6-5685-a2c7-0e373d615488",
+      "name": "İşıqlı Market",
+      "name_normalized": "i siqli market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4693589,
+        "lon": 50.325527
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/5688228642",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "9712c2c4-6b35-5c43-8155-2c66ad3cf4d3",
+      "name": "İstanbul Pərdə",
+      "name_normalized": "i stanbul perde",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4553572,
+        "lon": 50.3371601
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828314",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "c92ce8b2-11c2-5bf4-8124-b452b0bf9640",
+      "name": "Lombard",
+      "name_normalized": "lombard",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4516509,
+        "lon": 50.3377779
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3253603471",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "8136a419-7602-5a21-aa80-137444a133fe",
+      "name": "Market (40.3952,50.3391)",
+      "name_normalized": "market market 40 3952 50 3391",
+      "alt_names": [
+        "Market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.3951832,
+        "lon": 50.3390886
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746713890",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "704ce34a-8c2f-565e-a7af-8e9577598161",
+      "name": "Market (40.3964,50.3376)",
+      "name_normalized": "market market 40 3964 50 3376",
+      "alt_names": [
+        "Market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.3964426,
+        "lon": 50.3376469
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746713885",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "e735b2c7-cda0-50c4-b7fb-ed44f123405a",
+      "name": "Market (40.3998,50.3344)",
+      "name_normalized": "market market 40 3998 50 3344",
+      "alt_names": [
+        "Market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.399766,
+        "lon": 50.3343505
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746713864",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "9ce8d715-6f21-5411-9a8a-5b202cc053e7",
+      "name": "Market (40.4262,50.2668)",
+      "name_normalized": "market market 40 4262 50 2668",
+      "alt_names": [
+        "Market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4261973,
+        "lon": 50.2668312
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10744206300",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "019a878c-f66d-5f79-a2bd-56c35aecbf0b",
+      "name": "Market (40.4479,50.3384)",
+      "name_normalized": "market market 40 4479 50 3384",
+      "alt_names": [
+        "Market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4479258,
+        "lon": 50.3383858
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828250",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "6bca898a-80f5-5e91-8f3e-f535d61819b8",
+      "name": "Market (40.4518,50.3356)",
+      "name_normalized": "market market 40 4518 50 3356",
+      "alt_names": [
+        "Market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4518457,
+        "lon": 50.3356433
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10096021269",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "30c90b0a-b24d-53c0-8bd9-ef2d69f9ece3",
+      "name": "Market (40.4525,50.3389)",
+      "name_normalized": "market market 40 4525 50 3389",
+      "alt_names": [
+        "Market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4525009,
+        "lon": 50.3389209
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10096021270",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "e1661317-a169-5e5b-a009-bdc033ca3879",
+      "name": "Market (40.4528,50.3387)",
+      "name_normalized": "market market 40 4528 50 3387",
+      "alt_names": [
+        "Market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4528244,
+        "lon": 50.3387091
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10096021273",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "5377f5ee-f563-5c31-b91d-b08a594b0d61",
+      "name": "Market (40.4548,50.3363)",
+      "name_normalized": "market market 40 4548 50 3363",
+      "alt_names": [
+        "Market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4547776,
+        "lon": 50.3363165
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828309",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "20a0b191-8cc2-5417-8adc-6d61b38b1c97",
+      "name": "Market (40.4586,50.3352)",
+      "name_normalized": "market market 40 4586 50 3352",
+      "alt_names": [
+        "Market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4585849,
+        "lon": 50.3352249
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828337",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "7c94f905-96a4-54e5-837d-c9de84226174",
+      "name": "Market (40.4594,50.3323)",
+      "name_normalized": "market market 40 4594 50 3323",
+      "alt_names": [
+        "Market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4594114,
+        "lon": 50.3322878
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10096021283",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "73b6dddb-2154-56a8-8ccd-80287f755bd4",
+      "name": "Market (40.4595,50.3349)",
+      "name_normalized": "market market 40 4595 50 3349",
+      "alt_names": [
+        "Market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.45954,
+        "lon": 50.3348882
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828220",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "ce18e866-81a1-57ea-a397-1af7639f557d",
+      "name": "Market (40.4695,50.3229)",
+      "name_normalized": "market market 40 4695 50 3229",
+      "alt_names": [
+        "Market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4695483,
+        "lon": 50.3228907
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828365",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "65cdc475-7641-532a-8326-ae3949fb9f55",
+      "name": "Market (40.4697,50.3226)",
+      "name_normalized": "market market 40 4697 50 3226",
+      "alt_names": [
+        "Market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.469684,
+        "lon": 50.3225796
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828366",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "8ff9552e-c977-5069-af60-81fbf7fb4582",
+      "name": "Market (40.4729,50.3193)",
+      "name_normalized": "market market 40 4729 50 3193",
+      "alt_names": [
+        "Market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4728814,
+        "lon": 50.3193247
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828353",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "330212e9-cca9-5fba-968e-ad1e8e1cc82b",
+      "name": "Mebel Salonu (40.4588,50.3367)",
+      "name_normalized": "mebel salonu mebel salonu 40 4588 50 3367",
+      "alt_names": [
+        "Mebel Salonu"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4587685,
+        "lon": 50.3367054
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9980262621",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "faa6bd6c-635b-5df1-bce5-66cfefe13781",
+      "name": "Mebel Salonu (40.4614,50.3319)",
+      "name_normalized": "mebel salonu mebel salonu 40 4614 50 3319",
+      "alt_names": [
+        "Mebel Salonu"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4614134,
+        "lon": 50.3319083
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9980262591",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "28f78822-00b4-5a00-8c09-088efa49cad3",
+      "name": "Mood shop",
+      "name_normalized": "mood shop",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.46425,
+        "lon": 50.32661
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.17502270638942719,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "81b83b3a-6e87-4c19-ae6a-e5e7908959d7",
+          "release": "2026-09-23.1",
+          "source_category": "clothing_store"
+        }
+      ]
+    },
+    {
+      "id": "4bfbe248-4640-5240-b50f-550cbd6890df",
+      "name": "Natiq market",
+      "name_normalized": "natiq market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.454361,
+        "lon": 50.3358664
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/5688228640",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "9bc29f96-8b07-5dcf-8cbf-c13e9fafc8c5",
+      "name": "Nazim Market",
+      "name_normalized": "nazim market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4574297,
+        "lon": 50.3331421
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828222",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "02a1cf5a-9c29-570e-8b99-b6da82f1435c",
+      "name": "Oba Market 4",
+      "name_normalized": "oba market 4",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.470137,
+        "lon": 50.3224951
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9980262521",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "9e885047-f80d-5cb9-8564-030685755f36",
+      "name": "Oba market (40.3955,50.3385)",
+      "name_normalized": "oba market oba market 40 3955 50 3385",
+      "alt_names": [
+        "Oba market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.3955427,
+        "lon": 50.3385012
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9982070851",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "eb39d7eb-cfc1-5a26-89e2-b28414803d0b",
+      "name": "Oba Market (40.4492,50.3402)",
+      "name_normalized": "oba market oba market 40 4492 50 3402",
+      "alt_names": [
+        "Oba Market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4492311,
+        "lon": 50.3401555
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10096021264",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "8551c7d3-2603-59ef-a850-1eadafd79749",
+      "name": "Oba Market (40.4495,50.3392)",
+      "name_normalized": "oba market oba market 40 4495 50 3392",
+      "alt_names": [
+        "Oba Market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4495342,
+        "lon": 50.3392173
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10096021266",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "2ede14dd-9fc6-5709-8033-50ecc347157a",
+      "name": "Oba Market (40.4532,50.3368)",
+      "name_normalized": "oba market oba market 40 4532 50 3368",
+      "alt_names": [
+        "Oba Market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4531795,
+        "lon": 50.3368194
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828297",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "4b7683fe-6905-594a-85b4-97f01c1e5528",
+      "name": "Oba Market (40.4580,50.3318)",
+      "name_normalized": "oba market oba market 40 4580 50 3318",
+      "alt_names": [
+        "Oba Market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4579624,
+        "lon": 50.3318346
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828221",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "43f07258-0efa-5fd2-8945-6c295cb8076f",
+      "name": "Orxan Market",
+      "name_normalized": "orxan market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4533877,
+        "lon": 50.3363635
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828299",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "d1d7e46e-b840-5ba4-aea5-a732b9fc7c86",
+      "name": "Qadın Geyimi",
+      "name_normalized": "qadin geyimi",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4537199,
+        "lon": 50.336458
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828301",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "f0be710c-bbd6-580d-89eb-468a43162d62",
+      "name": "Rəşad Market",
+      "name_normalized": "resad market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4648142,
+        "lon": 50.3286226
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10096021286",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "ab877777-d302-513b-8e97-288b4e4f53b7",
+      "name": "Rəvan Market",
+      "name_normalized": "revan market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.3941956,
+        "lon": 50.339853
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746713903",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "40338618-5801-5891-a883-e1892a70f2da",
+      "name": "Şahbuz Market (40.4495,50.3390)",
+      "name_normalized": "sahbuz market sahbuz market 40 4495 50 3390",
+      "alt_names": [
+        "Şahbuz Market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4494512,
+        "lon": 50.3390176
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3606494865",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "1c6d982d-1c89-5259-a59a-33cb913862da",
+      "name": "Şahbuz Market (40.4503,50.3385)",
+      "name_normalized": "sahbuz market sahbuz market 40 4503 50 3385",
+      "alt_names": [
+        "Şahbuz Market"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4502506,
+        "lon": 50.3385495
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828276",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "e837545f-d551-5407-a59a-c582dcfccc4a",
+      "name": "Sənubər Market",
+      "name_normalized": "senuber market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4500465,
+        "lon": 50.3388794
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9980200628",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "a39a046c-57cb-5c8d-b3da-95077f435062",
+      "name": "Şərab Evi",
+      "name_normalized": "serab evi",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4551501,
+        "lon": 50.3385025
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10096021277",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "7f1b4193-d39d-5e96-80fb-b0eb73e130a6",
+      "name": "Təkər Təmiri",
+      "name_normalized": "teker temiri",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4540612,
+        "lon": 50.338756
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10096021275",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "f470f0bd-7bbc-58c9-ae27-4acae6a0bcd8",
+      "name": "Təkir Təmiri",
+      "name_normalized": "tekir temiri",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4712031,
+        "lon": 50.3257862
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828352",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "970dbcb2-cb8e-55e7-b193-ca47830aaddd",
+      "name": "Tikinti Malları (40.4496,50.3395)",
+      "name_normalized": "tikinti mallari tikinti mallari 40 4496 50 3395",
+      "alt_names": [
+        "Tikinti Malları"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4496179,
+        "lon": 50.3395472
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10096021265",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "6520edd5-7725-5616-a7e7-cbbbc36a80a0",
+      "name": "Tikinti Malları (40.4535,50.3390)",
+      "name_normalized": "tikinti mallari tikinti mallari 40 4535 50 3390",
+      "alt_names": [
+        "Tikinti Malları"
+      ],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4535234,
+        "lon": 50.3389947
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10096021274",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "1bdabe05-2a3b-529a-ab98-c689a7495c24",
+      "name": "Uşaq Aləmi",
+      "name_normalized": "usaq alemi",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4565991,
+        "lon": 50.3339803
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10096021280",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "fc976e2d-de1c-567f-b8a8-515571044115",
+      "name": "Uşaq Geyimi",
+      "name_normalized": "usaq geyimi",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4536015,
+        "lon": 50.3365163
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828302",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "9f07c3e8-fac8-5272-aaf8-83d442108c96",
+      "name": "Vasif Market",
+      "name_normalized": "vasif market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4132796,
+        "lon": 50.2900927
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746701739",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "5b0e163f-8d9b-51db-8ae5-ae5bfc77efe0",
+      "name": "Xəzər Market",
+      "name_normalized": "xezer market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4531907,
+        "lon": 50.3365418
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828298",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "2dcb74ec-5ac8-5ae5-9a0f-61dd742df2b8",
+      "name": "Yaşıl Market",
+      "name_normalized": "yasil market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 40.4496097,
+        "lon": 50.3391704
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10746828271",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "872af799-8cd0-5b18-a4a3-fb94321cda63",
+      "name": "İdman Mərkəzi",
+      "name_normalized": "i dman merkezi",
+      "alt_names": [],
+      "category": "sport",
+      "coordinates": {
+        "lat": 40.4454778,
+        "lon": 50.3420393
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/2911880633",
+          "release": "azerbaijan-261020",
+          "source_category": "sport"
+        }
+      ]
+    },
+    {
+      "id": "2479745d-26ca-55ab-9999-38a130427e71",
+      "name": "Pirallahı İdman Kompleksi",
+      "name_normalized": "pirallahi i dman kompleksi",
+      "alt_names": [],
+      "category": "sport",
+      "coordinates": {
+        "lat": 40.44542096,
+        "lon": 50.34183199
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7646667957305908,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f3d88486-b550-4ead-8c9b-d43abc853c5c",
+          "release": "2026-09-23.1",
+          "source_category": "gym"
+        }
+      ]
+    },
+    {
+      "id": "4fa3f6c4-e2ba-5d20-b0c4-784a68e2a1c0",
+      "name": "Absheron",
+      "name_normalized": "absheron",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.4069721,
+        "lon": 50.3250277
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/2011660842",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "ab7d957e-6a7c-5c4f-9ef5-335da2ca8872",
+      "name": "F Marine Hotel",
+      "name_normalized": "f marine hotel",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 40.440800127058424,
+        "lon": 50.35206483585703
+      },
+      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7178441286087036,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4cc725aa-99ef-450d-a458-bb3652eb6274",
+          "release": "2026-09-23.1",
+          "source_category": "hotel"
         }
       ]
     },
@@ -699,14 +4114,14 @@
       ]
     },
     {
-      "id": "0b778bf4-cb6b-5eff-8984-00a810913f38",
-      "name": "Su Kanal",
-      "name_normalized": "su kanal",
+      "id": "e5220e07-0de9-5afb-a13c-1c24f66cf2f3",
+      "name": "Çilov Terminal",
+      "name_normalized": "cilov terminal",
       "alt_names": [],
-      "category": "government",
+      "category": "transport",
       "coordinates": {
-        "lat": 40.4462832,
-        "lon": 50.3420116
+        "lat": 40.3088452,
+        "lon": 50.5872747
       },
       "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
       "area_assign_method": "containment_verified",
@@ -716,131 +4131,13 @@
       "source_refs": [
         {
           "source": "osm",
-          "source_id": "node/10096021263",
+          "source_id": "node/6239218361",
           "release": "azerbaijan-261020",
-          "source_category": "government"
-        }
-      ]
-    },
-    {
-      "id": "5ebeaada-4b2d-50a7-b69f-63e219d8ec9b",
-      "name": "Uşaq Yaradıcılıq Mərkəzi",
-      "name_normalized": "usaq yaradiciliq merkezi",
-      "alt_names": [],
-      "category": "culture",
-      "coordinates": {
-        "lat": 40.4689106,
-        "lon": 50.3239006
-      },
-      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": null,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "osm",
-          "source_id": "node/10096037111",
-          "release": "azerbaijan-261020",
-          "source_category": "culture"
-        }
-      ]
-    },
-    {
-      "id": "a975c60d-7d2d-56ff-a565-e347ad6416bc",
-      "name": "Pirallahı Sənaye Parkı",
-      "name_normalized": "pirallahi senaye parki",
-      "alt_names": [],
-      "category": "government",
-      "coordinates": {
-        "lat": 40.425938,
-        "lon": 50.3549632
-      },
-      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": null,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "osm",
-          "source_id": "node/10746816656",
-          "release": "azerbaijan-261020",
-          "source_category": "government"
-        }
-      ]
-    },
-    {
-      "id": "08aa1fb3-d042-53e7-a05c-e3f8942ecfe2",
-      "name": "Gənclər Mərkəzi",
-      "name_normalized": "gencler merkezi",
-      "alt_names": [],
-      "category": "culture",
-      "coordinates": {
-        "lat": 40.4672905,
-        "lon": 50.3277603
-      },
-      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": null,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "osm",
-          "source_id": "node/10746828348",
-          "release": "azerbaijan-261020",
-          "source_category": "culture"
-        }
-      ]
-    },
-    {
-      "id": "c76d7baf-d4d6-51fe-a8ac-ac76d1700717",
-      "name": "14 saylı Musiqi Məktəbi \\ Rirallahı",
-      "name_normalized": "14 sayli musiqi mektebi rirallahi",
-      "alt_names": [],
-      "category": "culture",
-      "coordinates": {
-        "lat": 40.4686331,
-        "lon": 50.3230939
-      },
-      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": null,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "osm",
-          "source_id": "node/10746828364",
-          "release": "azerbaijan-261020",
-          "source_category": "culture"
-        }
-      ]
-    },
-    {
-      "id": "7823c280-9be5-57fa-8e44-38c73208f3b0",
-      "name": "Gürgan giriş abidə",
-      "name_normalized": "gurgan giris abide",
-      "alt_names": [],
-      "category": "historic",
-      "coordinates": {
-        "lat": 40.3992676,
-        "lon": 50.334333
-      },
-      "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": null,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "osm",
-          "source_id": "node/13233229023",
-          "release": "azerbaijan-261020",
-          "source_category": "historic"
+          "source_category": "transport"
         }
       ]
     }
-  ]
+  ],
+  "parent_area_id": "9da19341-ab00-581c-98ec-1f144f448fb2",
+  "rayon_key": "pirallahi"
 }

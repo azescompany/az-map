@@ -1,0 +1,11 @@
+{
+  "key": "masalli",
+  "area_id": "b1d864f5-f0ea-5660-91eb-01a56351cfea",
+  "notes": [
+    "no street for duplicate name 'Azercell' @ 39.02450,48.66805 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 39.02419,48.66873 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 39.02660,48.66475 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 39.02881,48.66356 → coord suffix"
+  ],
+  "count": 4
+}

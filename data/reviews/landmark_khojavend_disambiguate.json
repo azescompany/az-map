@@ -1,0 +1,16 @@
+{
+  "key": "khojavend",
+  "area_id": "df974046-9d94-5c48-a161-d71e59239929",
+  "notes": [
+    "no street for duplicate name 'Гадрутский район' @ 39.51670,47.03000 → coord suffix",
+    "no street for duplicate name '\"Անի\"' @ 39.68931,46.93487 → coord suffix",
+    "no street for duplicate name 'Դպրոց' @ 39.74220,47.03378 → coord suffix",
+    "no street for duplicate name 'Karabakh Telecom SC' @ 39.61781,46.98268 → coord suffix",
+    "no street for duplicate name 'Karabakh Telecom SC' @ 39.74410,47.03531 → coord suffix",
+    "no street for duplicate name 'Ərzaq dükanı' @ 39.67688,46.94983 → coord suffix",
+    "no street for duplicate name 'Ərzaq dükanı' @ 39.67702,46.95144 → coord suffix",
+    "no street for duplicate name 'Meşə təsərrüfat' @ 39.83510,47.01870 → coord suffix",
+    "no street for duplicate name 'Meşə təsərrüfat' @ 39.75131,46.90093 → coord suffix"
+  ],
+  "count": 9
+}

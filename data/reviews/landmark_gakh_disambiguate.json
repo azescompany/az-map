@@ -1,0 +1,27 @@
+{
+  "key": "gakh",
+  "area_id": "fd5f5117-b94a-549e-8b7d-7112381298ad",
+  "notes": [
+    "no street for duplicate name 'Qədim Qafqaz' @ 41.42074,46.93213 → coord suffix",
+    "no street for duplicate name 'Bank Respublika' @ 41.41912,46.91953 → coord suffix",
+    "no street for duplicate name 'EL Uşaq Bağçası' @ 41.42358,46.92484 → coord suffix",
+    "no street for duplicate name 'Market' @ 41.41324,46.91169 → coord suffix",
+    "no street for duplicate name 'Market' @ 41.41547,46.90316 → coord suffix",
+    "no street for duplicate name 'Market' @ 41.46732,47.05148 → coord suffix",
+    "no street for duplicate name 'Payız 74 market' @ 41.41806,46.92806 → coord suffix",
+    "no street for duplicate name 'Payız 74 market' @ 41.42716,46.94790 → coord suffix",
+    "no street for duplicate name 'Oba market' @ 41.42232,46.91461 → coord suffix",
+    "no street for duplicate name 'Oba market' @ 41.41848,46.92266 → coord suffix",
+    "no street for duplicate name 'Uşaq bağçası' @ 41.41655,46.68493 → coord suffix",
+    "no street for duplicate name 'Uşaq Bağçası' @ 41.41579,46.92446 → coord suffix",
+    "no street for duplicate name 'Uşaq Bağçası' @ 41.41849,46.92477 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 41.41916,46.91912 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 41.42047,46.92879 → coord suffix",
+    "no street for duplicate name 'Aptek' @ 41.41871,46.91537 → coord suffix",
+    "no street for duplicate name 'Aptek' @ 41.42224,46.91481 → coord suffix",
+    "no street for duplicate name 'Aptek' @ 41.42086,46.92528 → coord suffix",
+    "no street for duplicate name 'Kafe' @ 41.48815,46.85516 → coord suffix",
+    "no street for duplicate name 'Kafe' @ 41.41957,46.91418 → coord suffix"
+  ],
+  "count": 20
+}

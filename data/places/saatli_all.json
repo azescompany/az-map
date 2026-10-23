@@ -1,7 +1,370 @@
 {
   "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
-  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
   "places": [
+    {
+      "id": "80e0da40-f5b5-556b-82af-5fce4d129278",
+      "name": "Haciqasimli kend tam orta mekktebi",
+      "name_normalized": "haciqasimli kend tam orta mekktebi",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 39.9311,
+        "lon": 48.3697
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5350818634033203,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ddb345e8-d53c-4d21-bb07-684324adeee3",
+          "release": "2026-09-23.1",
+          "source_category": "school"
+        }
+      ]
+    },
+    {
+      "id": "875b7908-de90-5baa-b5fb-8a62fc8be8cc",
+      "name": "Mərzəli kənd məktəbi",
+      "name_normalized": "merzeli kend mektebi",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 39.918455,
+        "lon": 48.2503384
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/7320228960",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "9042788c-4be6-596c-836c-0b22171ee5a1",
+      "name": "S.Vurğun adına Şəhər 1 nömrəli tam orta məktəbi",
+      "name_normalized": "s vurgun adina seher 1 nomreli tam orta mektebi",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 39.9372959,
+        "lon": 48.3710092
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6079997420310974,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d919d396-f2cf-4b7f-ad91-456579be1ef8",
+          "release": "2026-09-23.1",
+          "source_category": "school"
+        }
+      ]
+    },
+    {
+      "id": "0f484ca9-1b5d-5562-a595-506356e6726f",
+      "name": "Saatlı rayon M. Əliyev adına Əlisoltanlı kənd tam orta ümumtəhsil məktəbi",
+      "name_normalized": "saatli rayon m eliyev adina elisoltanli kend tam orta umumtehsil mektebi",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 39.946700468833,
+        "lon": 48.3872
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6135677695274353,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0226883f-3c3e-4b52-8fad-1d808e355d73",
+          "release": "2026-09-23.1",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "d2c9565f-47f6-537e-abb4-d5159184a2d2",
+      "name": "Saatlı rayonu  A.Sədimoğlu adına Smada kənd tam orta məktəb",
+      "name_normalized": "saatli rayonu a sedimoglu adina smada kend tam orta mekteb",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 39.94064,
+        "lon": 48.37068
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.3851871192455292,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "79d1dbe5-49d2-46f7-87a1-83c319b1b112",
+          "release": "2026-09-23.1",
+          "source_category": "college_university"
+        }
+      ]
+    },
+    {
+      "id": "7e858a5f-5c81-5527-a441-a593399eaf7b",
+      "name": "Saatlı rayonu Ə. Nuriyev adına Seyidlər kənd ümumi orta məktəb",
+      "name_normalized": "saatli rayonu e nuriyev adina seyidler kend umumi orta mekteb",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 39.88863,
+        "lon": 48.29535
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5375505685806274,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "fcb45f2a-2813-41f6-bd85-77322905f076",
+          "release": "2026-09-23.1",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "668beae1-af53-5e4c-9c4b-46d37c990078",
+      "name": "GORUS Restoran",
+      "name_normalized": "gorus restoran",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 39.94064,
+        "lon": 48.37068
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.44865119457244873,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4434509e-97c7-4a8b-8e5b-b7101e3cab60",
+          "release": "2026-09-23.1",
+          "source_category": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "ff6d44ef-f549-54ab-aa68-a62b9f38f5c1",
+      "name": "Saatlı Dövlət Rəsm Qalereyası",
+      "name_normalized": "saatli dovlet resm qalereyasi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 39.9311,
+        "lon": 48.3697
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6082965731620789,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d0f5134a-cf2b-4f50-ac8d-838857578d3f",
+          "release": "2026-09-23.1",
+          "source_category": "government_office"
+        }
+      ]
+    },
+    {
+      "id": "81a6fa08-ad51-5f07-b794-1c83d68a5587",
+      "name": "Saatlı Gənclər evi",
+      "name_normalized": "saatli gencler evi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 39.937751058477,
+        "lon": 48.369657018871
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8214631676673889,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f8992a1f-fdc5-4885-a1ce-b44b437b5006",
+          "release": "2026-09-23.1",
+          "source_category": "government_office"
+        }
+      ]
+    },
+    {
+      "id": "db27daad-8f95-53af-bb76-4c8651bafcdc",
+      "name": "Saatli Rayon Icra Hakimiyeti",
+      "name_normalized": "saatli rayon icra hakimiyeti",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 39.93738408,
+        "lon": 48.36803525
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7845913171768188,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5a710b56-503e-420d-aba2-fb26a3a48c3a",
+          "release": "2026-09-23.1",
+          "source_category": "government_office"
+        }
+      ]
+    },
+    {
+      "id": "1d8cdba8-78a9-55f6-885e-8cf664aef253",
+      "name": "Saatlı rayon Mədəniyyət Mərkəzi",
+      "name_normalized": "saatli rayon medeniyyet merkezi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 39.9396356,
+        "lon": 48.3784477
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6648334264755249,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1d4aee09-c805-47f9-b57a-be84e5539d2e",
+          "release": "2026-09-23.1",
+          "source_category": "government_office"
+        }
+      ]
+    },
+    {
+      "id": "04bb1455-15ce-5f77-b7c0-c074498b88db",
+      "name": "Saatlı rayonu üzrə gənclər və idman sektoru",
+      "name_normalized": "saatli rayonu uzre gencler ve idman sektoru",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 39.91291469090914,
+        "lon": 48.259062554545565
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7542062997817993,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f555ec1e-01d7-41ed-ac2f-f501c1d98ed4",
+          "release": "2026-09-23.1",
+          "source_category": "government_office"
+        }
+      ]
+    },
+    {
+      "id": "3cef3fbf-1568-52c0-84cc-26cd6356e2dc",
+      "name": "Saatlı Suvarma Sistemləri İdarəsi",
+      "name_normalized": "saatli suvarma sistemleri i daresi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 39.93013,
+        "lon": 48.35739
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.533240556716919,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b0e339e9-0d33-40da-8c64-70ce5b9d665c",
+          "release": "2026-09-23.1",
+          "source_category": "government_office"
+        }
+      ]
+    },
+    {
+      "id": "7f01a4b4-31a1-5a0c-981e-529f1eebfcb6",
+      "name": "Saatlı Rayon Mərkəzi Xəstəxanası (H.Əliyev küç.)",
+      "name_normalized": "saatli rayon merkezi xestexanasi h eliyev kuc",
+      "alt_names": [
+        "Saatlı Rayon Mərkəzi Xəstəxanası"
+      ],
+      "category": "healthcare",
+      "coordinates": {
+        "lat": 39.91953622857845,
+        "lon": 48.35193034290054
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7851728796958923,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "49d005c7-3fa6-4449-90b6-e94450cd92b7",
+          "release": "2026-09-23.1",
+          "source_category": "hospital"
+        }
+      ]
+    },
+    {
+      "id": "1c45c0e1-b9f5-592f-8fa5-9d81085aa5df",
+      "name": "Saatlı Rayon Mərkəzi Xəstəxanası (39.9198,48.3537)",
+      "name_normalized": "saatli rayon merkezi xestexanasi saatli rayon merkezi xestexanasi 39 9198 48 3537",
+      "alt_names": [
+        "Saatlı Rayon Mərkəzi Xəstəxanası"
+      ],
+      "category": "healthcare",
+      "coordinates": {
+        "lat": 39.9197674,
+        "lon": 48.3537361
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/7364744271",
+          "release": "azerbaijan-261020",
+          "source_category": "healthcare"
+        }
+      ]
+    },
     {
       "id": "ba09e5f4-dfa5-5156-9d0a-c8f960340a1d",
       "name": "Əhmədbəyli",
@@ -23,6 +386,106 @@
           "source_id": "954ff6b0-c5ad-4a8e-9db9-54359e245042",
           "release": "2026-09-23.1",
           "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "61a65fca-eedd-5e24-bccf-2f02e3d7efdf",
+      "name": "Levoberezhnyy Kanal (kanal i Azerbajdzjan)",
+      "name_normalized": "levoberezhnyy kanal kanal i azerbajdzjan",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.923,
+        "lon": 48.37548
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8182554841041565,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "65db5d3e-e86f-4a84-85c2-35352d20b07a",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "80320181-2c62-5f07-afca-c5275669c32a",
+      "name": "Anam",
+      "name_normalized": "anam",
+      "alt_names": [],
+      "category": "monument",
+      "coordinates": {
+        "lat": 39.9173625,
+        "lon": 48.364716
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/12234747501",
+          "release": "azerbaijan-261020",
+          "source_category": "monument"
+        }
+      ]
+    },
+    {
+      "id": "0a7b5be0-de3f-5251-94a9-38fbc1453331",
+      "name": "Azercell (39.9381,48.3723)",
+      "name_normalized": "azercell azercell 39 9381 48 3723",
+      "alt_names": [
+        "Azercell"
+      ],
+      "category": "other_poi",
+      "coordinates": {
+        "lat": 39.938102,
+        "lon": 48.372282
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10852529730",
+          "release": "azerbaijan-261020",
+          "source_category": "other_poi"
+        }
+      ]
+    },
+    {
+      "id": "1d6fd896-fa4c-514d-9811-5ea5118ee24f",
+      "name": "Azercell (39.9384,48.3667)",
+      "name_normalized": "azercell azercell 39 9384 48 3667",
+      "alt_names": [
+        "Azercell"
+      ],
+      "category": "other_poi",
+      "coordinates": {
+        "lat": 39.938365,
+        "lon": 48.366714
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/8628363880",
+          "release": "azerbaijan-261020",
+          "source_category": "other_poi"
         }
       ]
     },
@@ -51,28 +514,222 @@
       ]
     },
     {
-      "id": "61a65fca-eedd-5e24-bccf-2f02e3d7efdf",
-      "name": "Levoberezhnyy Kanal (kanal i Azerbajdzjan)",
-      "name_normalized": "levoberezhnyy kanal kanal i azerbajdzjan",
+      "id": "3ebd7d2a-781f-59f2-aac9-1aa0f9096ad4",
+      "name": "MÖVLÜDOV",
+      "name_normalized": "movludov",
       "alt_names": [],
-      "category": "historic",
+      "category": "park",
       "coordinates": {
-        "lat": 39.923,
-        "lon": 48.37548
+        "lat": 39.7646597,
+        "lon": 48.6621175
       },
       "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
       "area_assign_method": "containment_verified",
       "area_assign_status": "verified",
-      "confidence": 0.8182554841041565,
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11003028441",
+          "release": "azerbaijan-261020",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "8f6058ab-b6f5-53df-88f3-f4225e578218",
+      "name": "Azərbaycan Beynəlxalq Bankı",
+      "name_normalized": "azerbaycan beynelxalq banki",
+      "alt_names": [],
+      "category": "services",
+      "coordinates": {
+        "lat": 39.93796,
+        "lon": 48.36616
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6178836822509766,
       "status": "silver",
       "source_refs": [
         {
           "source": "overture",
-          "source_id": "65db5d3e-e86f-4a84-85c2-35352d20b07a",
+          "source_id": "11ce4b3d-43c4-4c97-b5ed-ab990541e06b",
           "release": "2026-09-23.1",
-          "source_category": "historic_site"
+          "source_category": "bank_or_credit_union"
+        }
+      ]
+    },
+    {
+      "id": "c0fc7ac1-c136-5ba8-89dc-63ca9b9d657a",
+      "name": "Kapital Bank",
+      "name_normalized": "kapital bank",
+      "alt_names": [],
+      "category": "services",
+      "coordinates": {
+        "lat": 39.93904,
+        "lon": 48.3725965
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/13236589966",
+          "release": "azerbaijan-261020",
+          "source_category": "services"
+        }
+      ]
+    },
+    {
+      "id": "3276d464-17ff-5d5a-8e50-3196a6ae65c1",
+      "name": "Kapital Bank Saatlı Rayon Filialı",
+      "name_normalized": "kapital bank saatli rayon filiali",
+      "alt_names": [],
+      "category": "services",
+      "coordinates": {
+        "lat": 39.93902222,
+        "lon": 48.37259663
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8976233601570129,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6be51c58-5163-49c1-bd18-63292d0b0c08",
+          "release": "2026-09-23.1",
+          "source_category": "bank_or_credit_union"
+        }
+      ]
+    },
+    {
+      "id": "e83483ba-3777-5268-9e03-081987b084fc",
+      "name": "Araz",
+      "name_normalized": "araz",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 39.927875,
+        "lon": 48.358918
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/12866983430",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "f51044ad-75b7-5df0-b513-88d6c097d60d",
+      "name": "Guven Market",
+      "name_normalized": "guven market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 39.90860669,
+        "lon": 48.64645792
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.44712314009666443,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e6f32e2a-07fe-4507-b9e3-99cfeec64d77",
+          "release": "2026-09-23.1",
+          "source_category": "grocery_store"
+        }
+      ]
+    },
+    {
+      "id": "a9566623-4fa3-5f1c-b072-f5e4a2cc71f5",
+      "name": "Lutfiyar Kamaz",
+      "name_normalized": "lutfiyar kamaz",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 39.9376748,
+        "lon": 48.3548103
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/12601974604",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "c6107cb9-f6ef-5f49-9eef-6eab1de813e5",
+      "name": "Sabirabad Olimpiya idman kompleksi",
+      "name_normalized": "sabirabad olimpiya idman kompleksi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 39.938035234141,
+        "lon": 48.363674433708
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5939933657646179,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "286f9f84-3b82-40e5-95cb-0d563864f8bb",
+          "release": "2026-09-23.1",
+          "source_category": "hotel"
+        }
+      ]
+    },
+    {
+      "id": "8eddfd7c-3a04-5f45-b471-8aa0f13ff217",
+      "name": "Azpetrol",
+      "name_normalized": "azpetrol",
+      "alt_names": [],
+      "category": "transport",
+      "coordinates": {
+        "lat": 39.92138,
+        "lon": 48.35495
+      },
+      "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b528f260-ab6b-4a21-b715-183b3ea6c71b",
+          "release": "2026-09-23.1",
+          "source_category": "gas_station"
         }
       ]
     }
-  ]
+  ],
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "rayon_key": "saatli"
 }

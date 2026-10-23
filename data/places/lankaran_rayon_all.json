@@ -1,223 +1,6 @@
 {
   "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
-  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
   "places": [
-    {
-      "id": "5092325c-250a-536f-967d-6548e420453f",
-      "name": "Məscid",
-      "name_normalized": "mescid",
-      "alt_names": [],
-      "category": "religious",
-      "coordinates": {
-        "lat": 38.86484,
-        "lon": 48.7364
-      },
-      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": 0.6104841828346252,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "overture",
-          "source_id": "31cdd04a-657b-4fbe-94f8-a75b79061b4b",
-          "release": "2026-09-23.1",
-          "source_category": "muslim_place_of_worship"
-        }
-      ]
-    },
-    {
-      "id": "ed441ada-6a7c-53b6-b6c8-28324a6ec545",
-      "name": "Qızılağac Milli Parkı - Gizilagaj National Park",
-      "name_normalized": "qizilagac milli parki gizilagaj national park",
-      "alt_names": [],
-      "category": "park",
-      "coordinates": {
-        "lat": 38.959506586079,
-        "lon": 48.923138
-      },
-      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": 0.9438690543174744,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "overture",
-          "source_id": "474ae761-fac6-465a-b7a8-f810bc69532f",
-          "release": "2026-09-23.1",
-          "source_category": "park"
-        }
-      ]
-    },
-    {
-      "id": "a9f630fa-d479-5ab5-b380-577b8998430f",
-      "name": "Göyșaban",
-      "name_normalized": "goy aban",
-      "alt_names": [],
-      "category": "historic",
-      "coordinates": {
-        "lat": 38.80584,
-        "lon": 48.82831
-      },
-      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": 0.8036931753158569,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "overture",
-          "source_id": "da0e7a6a-4fe0-4cc8-93f3-5d3ae5edd86c",
-          "release": "2026-09-23.1",
-          "source_category": "historic_site"
-        }
-      ]
-    },
-    {
-      "id": "d8358df6-b88b-5948-a959-4d4d42bc63f9",
-      "name": "Vilvan",
-      "name_normalized": "vilvan",
-      "alt_names": [],
-      "category": "historic",
-      "coordinates": {
-        "lat": 38.823888888889,
-        "lon": 48.745833333333
-      },
-      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": 0.7909231781959534,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "overture",
-          "source_id": "ff6846d2-3373-4d97-9dee-e66fe9671b93",
-          "release": "2026-09-23.1",
-          "source_category": "historic_site"
-        }
-      ]
-    },
-    {
-      "id": "9ef7b04e-391c-571f-bab7-f0da71a73a0a",
-      "name": "Lənkəran Sahili",
-      "name_normalized": "lenkeran sahili",
-      "alt_names": [],
-      "category": "park",
-      "coordinates": {
-        "lat": 38.785046,
-        "lon": 48.842128
-      },
-      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": 0.8499482870101929,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "overture",
-          "source_id": "219ac918-7182-4876-a972-920180e479d9",
-          "release": "2026-09-23.1",
-          "source_category": "beach"
-        }
-      ]
-    },
-    {
-      "id": "fe7a3097-f29e-5215-832a-29700ba5fd46",
-      "name": "Lenkeran Stadyumu",
-      "name_normalized": "lenkeran stadyumu",
-      "alt_names": [],
-      "category": "stadium",
-      "coordinates": {
-        "lat": 38.747189,
-        "lon": 48.857131
-      },
-      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": 0.817659318447113,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "overture",
-          "source_id": "5183aaea-40ad-4319-96c8-16dfc4375560",
-          "release": "2026-09-23.1",
-          "source_category": "stadium_arena"
-        }
-      ]
-    },
-    {
-      "id": "a70741d1-aba2-5d4e-8e89-d536847ba3c8",
-      "name": "Khazar Lankaran Mərkəzi Stadion",
-      "name_normalized": "khazar lankaran merkezi stadion",
-      "alt_names": [],
-      "category": "stadium",
-      "coordinates": {
-        "lat": 38.74653435,
-        "lon": 48.8570865
-      },
-      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": 0.5835381746292114,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "overture",
-          "source_id": "eb245f68-0f76-490d-9489-8924087701bb",
-          "release": "2026-09-23.1",
-          "source_category": "stadium_arena"
-        }
-      ]
-    },
-    {
-      "id": "c0e6839d-dd31-5eae-be7c-5abfd93bc150",
-      "name": "Beluqa İstirahət Mərkəzi",
-      "name_normalized": "beluqa i stirahet merkezi",
-      "alt_names": [],
-      "category": "park",
-      "coordinates": {
-        "lat": 38.737423715144,
-        "lon": 48.866194968831
-      },
-      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": 0.7134672403335571,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "overture",
-          "source_id": "87cb01c9-ea7c-4e79-95b4-0dc1985625a1",
-          "release": "2026-09-23.1",
-          "source_category": "beach"
-        }
-      ]
-    },
-    {
-      "id": "445b55dc-5422-521b-9db9-5b14a63d1a45",
-      "name": "Xolmili",
-      "name_normalized": "xolmili",
-      "alt_names": [],
-      "category": "historic",
-      "coordinates": {
-        "lat": 38.678888888889,
-        "lon": 48.863611111111
-      },
-      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": 0.7544583678245544,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "overture",
-          "source_id": "1cc72026-b81c-4abf-8958-834709f2d32c",
-          "release": "2026-09-23.1",
-          "source_category": "historic_site"
-        }
-      ]
-    },
     {
       "id": "a702a831-424e-5537-bb1a-662d37c792e5",
       "name": "Lənkəran rayonu Yuxarı Nüvədi kənd tam orta ümumtəhsil məktəbin kitabxanası",
@@ -243,26 +26,796 @@
       ]
     },
     {
-      "id": "536af540-555e-5fdb-bc7c-725a6c250969",
-      "name": "Lüvəsər kəndi",
-      "name_normalized": "luveser kendi",
+      "id": "548d23b3-fbee-5e67-bd9e-e3590c272523",
+      "name": "Göyşaban Kənd məktəbi",
+      "name_normalized": "goysaban kend mektebi",
       "alt_names": [],
-      "category": "historic",
+      "category": "education",
       "coordinates": {
-        "lat": 38.712472208784,
-        "lon": 48.80256
+        "lat": 38.8019625,
+        "lon": 48.831224
       },
       "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
       "area_assign_method": "containment_verified",
       "area_assign_status": "verified",
-      "confidence": 0.7772344946861267,
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/8714413866",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "6fe13533-6f89-5f06-ab5b-2d723a8571a4",
+      "name": "Lənkəran rayon Liman şəhəri",
+      "name_normalized": "lenkeran rayon liman seheri",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 38.875556508333915,
+        "lon": 48.80946070833244
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9010917544364929,
       "status": "silver",
       "source_refs": [
         {
           "source": "overture",
-          "source_id": "a2c9f78f-fbbf-4023-9100-55f00647ffb7",
+          "source_id": "196ec8aa-17e3-4f07-b07f-4c1f99e46b88",
           "release": "2026-09-23.1",
-          "source_category": "historic_site"
+          "source_category": "school"
+        }
+      ]
+    },
+    {
+      "id": "9cac91b6-905c-5b4b-b3e5-dde35053358f",
+      "name": "Lənkəran rayonu Daştatük kənd ümumi orta ümumtəhsil məktəbi",
+      "name_normalized": "lenkeran rayonu dastatuk kend umumi orta umumtehsil mektebi",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 38.68574,
+        "lon": 48.74865
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6356909275054932,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a82affa7-1ca8-4945-a8db-1fdd5720aee4",
+          "release": "2026-09-23.1",
+          "source_category": "school"
+        }
+      ]
+    },
+    {
+      "id": "ed6dd541-88c2-571e-b720-7947e29e0c58",
+      "name": "Lənkəran rayonu Əkbər Nəsirov adına Tütəpeştə kənd ümumi orta məktəbi",
+      "name_normalized": "lenkeran rayonu ekber nesirov adina tutepeste kend umumi orta mektebi",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 38.7167,
+        "lon": 48.8167
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6589321494102478,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9b720db6-5fb8-4505-b823-35b63772f7f1",
+          "release": "2026-09-23.1",
+          "source_category": "school"
+        }
+      ]
+    },
+    {
+      "id": "1e734ec7-10a6-5658-8c69-02b20d0da64c",
+      "name": "Lənkəran rayonu S.Əliyev adına Haftoni qəsəbə tam orta ümumtəhsil məktəbi",
+      "name_normalized": "lenkeran rayonu s eliyev adina haftoni qesebe tam orta umumtehsil mektebi",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 38.77311086666963,
+        "lon": 48.75957329999862
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6807075142860413,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "24a81bf8-f08d-482c-a193-a94b8b6c3f31",
+          "release": "2026-09-23.1",
+          "source_category": "school"
+        }
+      ]
+    },
+    {
+      "id": "c8e05afe-edb2-5eed-8431-770e26db9366",
+      "name": "7 Bulaq Restorani",
+      "name_normalized": "7 bulaq restorani",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.7094521,
+        "lon": 48.86733514
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5082403421401978,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e535d097-e9a6-43da-adcb-f52f09ee9b37",
+          "release": "2026-09-23.1",
+          "source_category": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "6bcd59d1-84d5-5344-ab0a-f544a44436e2",
+      "name": "Balıqlı Göl Restoran",
+      "name_normalized": "baliqli gol restoran",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.72075,
+        "lon": 48.71635
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7260398268699646,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "99f3737d-0aa2-4b17-afd3-b1702566606e",
+          "release": "2026-09-23.1",
+          "source_category": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "c278a2cf-494d-5644-8d93-e0485c4ead06",
+      "name": "Ballı Çayxana - kafe",
+      "name_normalized": "balli cayxana kafe",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.76179061,
+        "lon": 48.76068151
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5779069066047668,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c78f1e21-4847-4991-b0c6-2fe0391db99c",
+          "release": "2026-09-23.1",
+          "source_category": "cafe"
+        }
+      ]
+    },
+    {
+      "id": "1aef0a45-c48a-5b24-88eb-dd5da6d9abbb",
+      "name": "Çay Qırağı Girdəni",
+      "name_normalized": "cay qiragi girdeni",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.79662387,
+        "lon": 48.77306613
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5826674699783325,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "02f4a789-9df7-4f2d-a48a-e8c3e3b319da",
+          "release": "2026-09-23.1",
+          "source_category": "cafe"
+        }
+      ]
+    },
+    {
+      "id": "afdaf3ed-1d37-5187-8058-a42efef33490",
+      "name": "Cənnət Xıl Ailəvi Istirahət Mərkəzi",
+      "name_normalized": "cennet xil ailevi istirahet merkezi",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.80980004,
+        "lon": 48.67984551
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5746802687644958,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8c847399-76dc-41aa-a933-43038f32be10",
+          "release": "2026-09-23.1",
+          "source_category": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "3b5e5f6f-d445-5337-8948-32b41c9a86b2",
+      "name": "DAD house Lankaran",
+      "name_normalized": "dad house lankaran",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.75314879,
+        "lon": 48.77185248
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8523059487342834,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5e3af960-b691-4ada-b7be-153e2082980c",
+          "release": "2026-09-23.1",
+          "source_category": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "cb2b9c3d-5e50-5992-8053-94987c88a1fe",
+      "name": "Dörd Fəsil Restoranı",
+      "name_normalized": "dord fesil restorani",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.72885121,
+        "lon": 48.85096532
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9730789661407471,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3d2b37d8-275a-495e-b4b0-1e123fc1031b",
+          "release": "2026-09-23.1",
+          "source_category": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "2c87f5ac-27dd-5d80-8d89-fd507dcb10ec",
+      "name": "GrandRestoran",
+      "name_normalized": "grandrestoran",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.729568414649,
+        "lon": 48.847515738724
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8092021942138672,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b5925b63-42a1-45ef-9942-a6f5fd564db7",
+          "release": "2026-09-23.1",
+          "source_category": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "6aee5fba-19bc-50b0-a809-bae00d3c03d9",
+      "name": "Hikmətin Çay Evi",
+      "name_normalized": "hikmetin cay evi",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.8901916,
+        "lon": 48.7600818
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/14019730375",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "e4c72b88-2ca4-5e4f-a09a-fc06148556d0",
+      "name": "Lankaran cay -5",
+      "name_normalized": "lankaran cay 5",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.76523241,
+        "lon": 48.75859236
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5220981240272522,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "eb1dc364-739b-41b1-bcc7-a3cac4a69fd0",
+          "release": "2026-09-23.1",
+          "source_category": "cafe"
+        }
+      ]
+    },
+    {
+      "id": "bf41ff86-da25-5733-bbc2-97ac58d69278",
+      "name": "Lenkoran, Osakuce",
+      "name_normalized": "lenkoran osakuce",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.81101170666937,
+        "lon": 48.68310387611079
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8935762643814087,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "57d56bdd-d0ba-4584-bc86-dad4aae4633c",
+          "release": "2026-09-23.1",
+          "source_category": "cafe"
+        }
+      ]
+    },
+    {
+      "id": "68eedfe8-4e41-5835-b29f-b051055d5659",
+      "name": "Level 42 Pub & Lounge",
+      "name_normalized": "level 42 pub lounge",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.73526,
+        "lon": 48.8433495
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6598209738731384,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "71cd9042-653f-4128-8e29-8ef939c5ae25",
+          "release": "2026-09-23.1",
+          "source_category": "pub"
+        }
+      ]
+    },
+    {
+      "id": "18683840-d63d-55b1-a8f3-fa00204d033b",
+      "name": "Nilado Green Hotel",
+      "name_normalized": "nilado green hotel",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.79981764,
+        "lon": 48.75391401
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5009135007858276,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "57518f46-cf2e-4ab2-8fc0-259036a8d38b",
+          "release": "2026-09-23.1",
+          "source_category": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "2b1f66a9-f15b-53d5-9055-2798f07dfb59",
+      "name": "Nilado Green Hotel&restaurant",
+      "name_normalized": "nilado green hotel restaurant",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.79563,
+        "lon": 48.74135
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7931058406829834,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "82c5d268-818e-440c-b415-d01a8f0b08ea",
+          "release": "2026-09-23.1",
+          "source_category": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "658b570a-427f-5a6e-afbb-379637020f21",
+      "name": "Palidli Sahil Bar",
+      "name_normalized": "palidli sahil bar",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.73043773,
+        "lon": 48.8649083
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.46265989542007446,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f2f35a57-d745-4df0-8202-7c3c05daa5fc",
+          "release": "2026-09-23.1",
+          "source_category": "bar"
+        }
+      ]
+    },
+    {
+      "id": "d8d05620-74a6-5f48-9f50-6f8dab63986c",
+      "name": "Rahat Məkan",
+      "name_normalized": "rahat mekan",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.810981467423474,
+        "lon": 48.68307742225562
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6480591297149658,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ca1e14c7-a13c-44c7-9e2f-7dbc9b0cc0b7",
+          "release": "2026-09-23.1",
+          "source_category": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "61fdd3e5-46d6-566a-8335-26be174776d9",
+      "name": "Restaurant",
+      "name_normalized": "restaurant",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.9475101,
+        "lon": 48.7702564
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/6006892308",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "eacd4a57-65b0-533c-8eed-e6bae46d8dde",
+      "name": "Ruslan Şadlıq Sarayı",
+      "name_normalized": "ruslan sadliq sarayi",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.87883094,
+        "lon": 48.80716213
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.509929358959198,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "7f6c505c-500a-40cd-90fe-150e16fd990e",
+          "release": "2026-09-23.1",
+          "source_category": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "67d41f5c-51ee-5aff-be91-e3bd564cf857",
+      "name": "Şağlaser Kafe",
+      "name_normalized": "saglaser kafe",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.867291,
+        "lon": 48.7310147
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10968007107",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "573e4965-bfcf-5447-9ee6-db5a1aa2ca7b",
+      "name": "Shah Palace Pub",
+      "name_normalized": "shah palace pub",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.72312376,
+        "lon": 48.84347141
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7308365106582642,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "336acd72-e97c-42f0-892c-9fe9b1051db6",
+          "release": "2026-09-23.1",
+          "source_category": "pub"
+        }
+      ]
+    },
+    {
+      "id": "e65274fc-0fe2-57cf-bac4-8d90387a01a8",
+      "name": "Xazar Palace",
+      "name_normalized": "xazar palace",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.710671,
+        "lon": 48.867553
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.900472104549408,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "27408b13-46bd-4423-8333-19699e8359ec",
+          "release": "2026-09-23.1",
+          "source_category": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "8b6b1b7e-b0cd-52cd-8fbf-fd771ad01d88",
+      "name": "Xezer Palace (38.7080,48.8649)",
+      "name_normalized": "xezer palace xezer palace 38 7080 48 8649",
+      "alt_names": [
+        "Xezer Palace"
+      ],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.70803155,
+        "lon": 48.86487413
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7028449177742004,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a00aa579-bfbe-4698-a50a-f502b330d0fb",
+          "release": "2026-09-23.1",
+          "source_category": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "263d0d6b-751a-5599-bc2d-74db6678b5ec",
+      "name": "Zirvə Restoranı Lənkəran",
+      "name_normalized": "zirve restorani lenkeran",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.72227257729548,
+        "lon": 48.765903419204136
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7151857614517212,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "db88531f-654c-410b-9bcc-6eaea3f4dfb0",
+          "release": "2026-09-23.1",
+          "source_category": "fast_food_restaurant"
+        }
+      ]
+    },
+    {
+      "id": "52e12e6d-4491-558f-ab87-6dea6d43cf66",
+      "name": "Agır Cinəyətlər Məhkəməsi (Lənkəran)",
+      "name_normalized": "agir cineyetler mehkemesi lenkeran",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 38.8003751,
+        "lon": 48.8238886
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3755459955",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "0872d4cd-09ba-5add-b7b1-d06f92945e86",
+      "name": "DİN BPQMİ Cənub RM",
+      "name_normalized": "di n bpqmi cenub rm",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 38.7969969,
+        "lon": 48.8258535
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3755459954",
+          "release": "azerbaijan-261020",
+          "source_category": "government"
+        }
+      ]
+    },
+    {
+      "id": "e3e2de73-659a-5bb2-b9e5-890b6c19b8a5",
+      "name": "Meyvəçilik və Çayçılıq Elmi Tədqiqat İnstitutunun Lənkəran Çay filialı",
+      "name_normalized": "meyvecilik ve cayciliq elmi tedqiqat i nstitutunun lenkeran cay filiali",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 38.675302022816,
+        "lon": 48.795555
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.528378427028656,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e6f29dd9-66ea-4fb4-80d9-9d2ddd65dfd6",
+          "release": "2026-09-23.1",
+          "source_category": "government_office"
+        }
+      ]
+    },
+    {
+      "id": "627fc4c1-7190-576b-aab2-1437209ba827",
+      "name": "Sütəmurdov Kənd İcra Nümayəndəliyi",
+      "name_normalized": "sutemurdov kend i cra numayendeliyi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 38.74456435,
+        "lon": 48.85854499
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.40226641297340393,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6548226a-e2cc-4445-97fe-e68486186b33",
+          "release": "2026-09-23.1",
+          "source_category": "government_office"
+        }
+      ]
+    },
+    {
+      "id": "49820a7b-c996-5c6c-9167-73107a567d32",
+      "name": "Aptek 505",
+      "name_normalized": "aptek 505",
+      "alt_names": [],
+      "category": "healthcare",
+      "coordinates": {
+        "lat": 38.8645688,
+        "lon": 48.7359209
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10030562981",
+          "release": "azerbaijan-261020",
+          "source_category": "healthcare"
         }
       ]
     },
@@ -285,30 +838,6 @@
         {
           "source": "overture",
           "source_id": "a1ebdd8b-3f99-47a0-a914-313703ac3666",
-          "release": "2026-09-23.1",
-          "source_category": "historic_site"
-        }
-      ]
-    },
-    {
-      "id": "b4ba0bb5-35b1-512b-9526-f0ec3aaa3c32",
-      "name": "Gərmətük",
-      "name_normalized": "germetuk",
-      "alt_names": [],
-      "category": "historic",
-      "coordinates": {
-        "lat": 38.72144,
-        "lon": 48.83285
-      },
-      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": 0.7268837094306946,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "overture",
-          "source_id": "ccabb822-79b6-4625-aa91-8e5afc9a3700",
           "release": "2026-09-23.1",
           "source_category": "historic_site"
         }
@@ -361,6 +890,826 @@
           "source_category": "castle"
         }
       ]
+    },
+    {
+      "id": "b4ba0bb5-35b1-512b-9526-f0ec3aaa3c32",
+      "name": "Gərmətük",
+      "name_normalized": "germetuk",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.72144,
+        "lon": 48.83285
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7268837094306946,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ccabb822-79b6-4625-aa91-8e5afc9a3700",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "a9f630fa-d479-5ab5-b380-577b8998430f",
+      "name": "Göyșaban",
+      "name_normalized": "goy aban",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.80584,
+        "lon": 48.82831
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8036931753158569,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "da0e7a6a-4fe0-4cc8-93f3-5d3ae5edd86c",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "4305b20f-19d9-5220-bd94-eb639871694b",
+      "name": "Lankaran castle",
+      "name_normalized": "lankaran castle",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.8116878,
+        "lon": 48.8269179
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/8557058037",
+          "release": "azerbaijan-261020",
+          "source_category": "historic"
+        }
+      ]
+    },
+    {
+      "id": "536af540-555e-5fdb-bc7c-725a6c250969",
+      "name": "Lüvəsər kəndi",
+      "name_normalized": "luveser kendi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.712472208784,
+        "lon": 48.80256
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7772344946861267,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a2c9f78f-fbbf-4023-9100-55f00647ffb7",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "d8358df6-b88b-5948-a959-4d4d42bc63f9",
+      "name": "Vilvan",
+      "name_normalized": "vilvan",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.823888888889,
+        "lon": 48.745833333333
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7909231781959534,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ff6846d2-3373-4d97-9dee-e66fe9671b93",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "445b55dc-5422-521b-9db9-5b14a63d1a45",
+      "name": "Xolmili",
+      "name_normalized": "xolmili",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.678888888889,
+        "lon": 48.863611111111
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7544583678245544,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "1cc72026-b81c-4abf-8958-834709f2d32c",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "a80096d3-2ec0-5dc1-aebc-f56f1faa177e",
+      "name": "Lənkəran \"ASAN xidmət\" mərkəzi",
+      "name_normalized": "lenkeran asan xidmet merkezi",
+      "alt_names": [],
+      "category": "other_poi",
+      "coordinates": {
+        "lat": 38.730349,
+        "lon": 48.776054
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11824021670",
+          "release": "azerbaijan-261020",
+          "source_category": "other_poi"
+        }
+      ]
+    },
+    {
+      "id": "c0e6839d-dd31-5eae-be7c-5abfd93bc150",
+      "name": "Beluqa İstirahət Mərkəzi",
+      "name_normalized": "beluqa i stirahet merkezi",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 38.737423715144,
+        "lon": 48.866194968831
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7134672403335571,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "87cb01c9-ea7c-4e79-95b4-0dc1985625a1",
+          "release": "2026-09-23.1",
+          "source_category": "beach"
+        }
+      ]
+    },
+    {
+      "id": "9ef7b04e-391c-571f-bab7-f0da71a73a0a",
+      "name": "Lənkəran Sahili",
+      "name_normalized": "lenkeran sahili",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 38.785046,
+        "lon": 48.842128
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8499482870101929,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "219ac918-7182-4876-a972-920180e479d9",
+          "release": "2026-09-23.1",
+          "source_category": "beach"
+        }
+      ]
+    },
+    {
+      "id": "ed441ada-6a7c-53b6-b6c8-28324a6ec545",
+      "name": "Qızılağac Milli Parkı - Gizilagaj National Park",
+      "name_normalized": "qizilagac milli parki gizilagaj national park",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 38.959506586079,
+        "lon": 48.923138
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9438690543174744,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "474ae761-fac6-465a-b7a8-f810bc69532f",
+          "release": "2026-09-23.1",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "5092325c-250a-536f-967d-6548e420453f",
+      "name": "Məscid",
+      "name_normalized": "mescid",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 38.86484,
+        "lon": 48.7364
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6104841828346252,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "31cdd04a-657b-4fbe-94f8-a75b79061b4b",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "3056f84a-eb97-5e01-97c9-4fe133c20324",
+      "name": "Azərbaycn Beynəlxalq Bankı (Lənkəran filialı)",
+      "name_normalized": "azerbaycn beynelxalq banki lenkeran filiali",
+      "alt_names": [],
+      "category": "services",
+      "coordinates": {
+        "lat": 38.8636,
+        "lon": 48.7131
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7502525448799133,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e6c1e28c-eb05-419d-93f6-f1838cf6b129",
+          "release": "2026-09-23.1",
+          "source_category": "bank_or_credit_union"
+        }
+      ]
+    },
+    {
+      "id": "f50d904e-18f7-54dc-8afd-aeae450939c9",
+      "name": "Kapital Bank",
+      "name_normalized": "kapital bank",
+      "alt_names": [],
+      "category": "services",
+      "coordinates": {
+        "lat": 38.7303281,
+        "lon": 48.7762821
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/13236595016",
+          "release": "azerbaijan-261020",
+          "source_category": "services"
+        }
+      ]
+    },
+    {
+      "id": "99605f50-0af4-5178-9498-bac5c113aed1",
+      "name": "SABA Kredit BOKT MMC",
+      "name_normalized": "saba kredit bokt mmc",
+      "alt_names": [],
+      "category": "services",
+      "coordinates": {
+        "lat": 38.811971713883,
+        "lon": 48.737011132812
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5447603464126587,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8548073d-b982-47bd-8e3f-df3ced88b567",
+          "release": "2026-09-23.1",
+          "source_category": "bank_or_credit_union"
+        }
+      ]
+    },
+    {
+      "id": "ab6c7a10-074b-5fa2-b955-c12df403f900",
+      "name": "Araz",
+      "name_normalized": "araz",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 38.7240653,
+        "lon": 48.844732
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/12866945679",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "da0617dc-dbe2-5142-ae8c-4281ba20e806",
+      "name": "Cahid market",
+      "name_normalized": "cahid market",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 38.7001256,
+        "lon": 48.8074325
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/6597233744",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "66ef811b-dd5f-567c-a60c-be125cd52c62",
+      "name": "Nur Usaq Alemi",
+      "name_normalized": "nur usaq alemi",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 38.70012316,
+        "lon": 48.81098825
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.30316150188446045,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "be015ade-9295-4238-9285-fc04caf09dd1",
+          "release": "2026-09-23.1",
+          "source_category": "shopping_mall"
+        }
+      ]
+    },
+    {
+      "id": "5f917fa7-213f-5ae2-a06c-290ea722b30d",
+      "name": "Şürük",
+      "name_normalized": "suruk",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 38.7011111,
+        "lon": 48.8102388
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/7307521717",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "a70741d1-aba2-5d4e-8e89-d536847ba3c8",
+      "name": "Khazar Lankaran Mərkəzi Stadion",
+      "name_normalized": "khazar lankaran merkezi stadion",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 38.74653435,
+        "lon": 48.8570865
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5835381746292114,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "eb245f68-0f76-490d-9489-8924087701bb",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "fe7a3097-f29e-5215-832a-29700ba5fd46",
+      "name": "Lenkeran Stadyumu",
+      "name_normalized": "lenkeran stadyumu",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 38.747189,
+        "lon": 48.857131
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.817659318447113,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5183aaea-40ad-4319-96c8-16dfc4375560",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "25121583-0ac4-5f49-a403-796595ec5586",
+      "name": "Basharu Restaurant",
+      "name_normalized": "basharu restaurant",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 38.71006455,
+        "lon": 48.75219382
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9437243342399597,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "9f4fb60f-1ea2-4876-824a-4f05acf46469",
+          "release": "2026-09-23.1",
+          "source_category": "hotel"
+        }
+      ]
+    },
+    {
+      "id": "5d8f64f2-091d-590a-928a-03aa79df01df",
+      "name": "DAD House Residence",
+      "name_normalized": "dad house residence",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 38.76419,
+        "lon": 48.75971
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5332596898078918,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "33d38fa0-8012-46f5-9fa3-22436f3e0e48",
+          "release": "2026-09-23.1",
+          "source_category": "lodging"
+        }
+      ]
+    },
+    {
+      "id": "336f29b6-d2dc-5797-a0a3-90e1fd37906a",
+      "name": "Haftoni Hotel",
+      "name_normalized": "haftoni hotel",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 38.76658109442813,
+        "lon": 48.75729089148299
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5741570591926575,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "25438203-81e5-4026-b813-1d78660a1704",
+          "release": "2026-09-23.1",
+          "source_category": "hotel"
+        }
+      ]
+    },
+    {
+      "id": "d46740e4-4a6a-5d35-8ecc-23aee5c05585",
+      "name": "Hirkan Park Hotel",
+      "name_normalized": "hirkan park hotel",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 38.65892463,
+        "lon": 48.78311867
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9369035363197327,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3368ba2c-7014-47c5-9156-82eec54b457d",
+          "release": "2026-09-23.1",
+          "source_category": "hotel"
+        }
+      ]
+    },
+    {
+      "id": "a9c6e00b-0e61-52d4-955f-c4524add465b",
+      "name": "İstisu",
+      "name_normalized": "i stisu",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 38.7654957,
+        "lon": 48.7421992
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/6003064987",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "7df7e7ec-c10c-5279-9883-e3e6f3057419",
+      "name": "Khazar Palace Hotel",
+      "name_normalized": "khazar palace hotel",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 38.71090554,
+        "lon": 48.86714912
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.893891453742981,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "42193e95-f41d-4463-8922-706ae7dc4e6e",
+          "release": "2026-09-23.1",
+          "source_category": "hotel"
+        }
+      ]
+    },
+    {
+      "id": "8126d3fc-1642-5ee9-85bf-0206cf7444d5",
+      "name": "Lankaran Springs Wellness Resort",
+      "name_normalized": "lankaran springs wellness resort",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 38.76690576,
+        "lon": 48.76051993
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9740792512893677,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ccc6a6dc-eb73-4efe-ad49-b88f0a68cc76",
+          "release": "2026-09-23.1",
+          "source_category": "hotel"
+        }
+      ]
+    },
+    {
+      "id": "b5de4dae-86c8-532b-927f-03adf49800d9",
+      "name": "lenleran",
+      "name_normalized": "lenleran",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 38.7431226,
+        "lon": 48.862062
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4319126294",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "dbb66fc1-f056-5c67-a130-f2d784bab301",
+      "name": "Mona Hotel & Cottages",
+      "name_normalized": "mona hotel cottages",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 38.73463229190009,
+        "lon": 48.86204304700922
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8891608715057373,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "31ac5189-014a-4069-a16f-f3e0f955ba05",
+          "release": "2026-09-23.1",
+          "source_category": "hotel"
+        }
+      ]
+    },
+    {
+      "id": "dd28df80-6ba7-5e65-b393-2830f963b8d9",
+      "name": "Palmalife Lankaran Resort",
+      "name_normalized": "palmalife lankaran resort",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 38.73456894,
+        "lon": 48.86185882
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8348916172981262,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e69e6665-2361-4dbc-8719-c6f7264d37b4",
+          "release": "2026-09-23.1",
+          "source_category": "hotel"
+        }
+      ]
+    },
+    {
+      "id": "2f9320bd-c130-5b9f-8702-12233162103c",
+      "name": "Sərin Məkan Lerik",
+      "name_normalized": "serin mekan lerik",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 38.732824975195,
+        "lon": 48.668462429531
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5368486046791077,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "cc7ec5ea-0d9e-4341-871b-3e2a1d72bed9",
+          "release": "2026-09-23.1",
+          "source_category": "lodging"
+        }
+      ]
+    },
+    {
+      "id": "2a3b6eeb-314e-5be8-9bdc-d6735eb04f92",
+      "name": "Xanbulan Hotel",
+      "name_normalized": "xanbulan hotel",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 38.654198,
+        "lon": 48.797424
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8609482645988464,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3d2d7eb7-0979-4334-b1ae-7fe2a45bb8b8",
+          "release": "2026-09-23.1",
+          "source_category": "hotel"
+        }
+      ]
+    },
+    {
+      "id": "a04c6f46-30a0-5a72-a0ae-d137a031c72a",
+      "name": "Xəzər palace (38.7106,48.8676)",
+      "name_normalized": "xezer palace xezer palace 38 7106 48 8676",
+      "alt_names": [
+        "Xəzər palace"
+      ],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 38.7106357,
+        "lon": 48.8676258
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/7041747285",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "904a93f3-864b-5d13-91fa-e6e7222d8d4b",
+      "name": "Azpetrol",
+      "name_normalized": "azpetrol",
+      "alt_names": [],
+      "category": "transport",
+      "coordinates": {
+        "lat": 38.84853,
+        "lon": 48.81617
+      },
+      "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "33060d10-5ba9-4550-88c4-7f50674991f5",
+          "release": "2026-09-23.1",
+          "source_category": "gas_station"
+        }
+      ]
     }
-  ]
+  ],
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "rayon_key": "lankaran_rayon"
 }

@@ -1,0 +1,17 @@
+{
+  "key": "ucar",
+  "area_id": "5bfacc06-2a5a-5d9d-af55-e26a19b9d6f2",
+  "notes": [
+    "no street for duplicate name 'Subhan Market' @ 40.39947,47.81500 → coord suffix",
+    "no street for duplicate name 'Sübhan Market' @ 40.50599,47.65867 → coord suffix",
+    "no street for duplicate name 'Uşaq bağçası' @ 40.50940,47.65388 → coord suffix",
+    "no street for duplicate name 'Uşaq Bağçası' @ 40.51095,47.64876 → coord suffix",
+    "no street for duplicate name 'Çinar Kafe' @ 40.50103,47.55600 → coord suffix",
+    "no street for duplicate name 'Çinar Kafe' @ 40.49373,47.73656 → coord suffix",
+    "no street for duplicate name 'Aptek' @ 40.49585,47.66340 → coord suffix",
+    "no street for duplicate name 'Aptek' @ 40.49565,47.66406 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 40.51123,47.65010 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 40.51005,47.65372 → coord suffix"
+  ],
+  "count": 10
+}

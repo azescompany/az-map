@@ -1,50 +1,169 @@
 {
   "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
-  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
   "places": [
     {
-      "id": "da49e89f-3461-547e-aca4-08599679779b",
-      "name": "Elince Qalasi",
-      "name_normalized": "elince qalasi",
+      "id": "05a094e3-ca9d-5898-8dc0-7b72eee2976f",
+      "name": "آسیاب خرابه Asyab Kharabeh",
+      "name_normalized": "asyab kharabeh",
       "alt_names": [],
-      "category": "historic",
+      "category": "culture",
       "coordinates": {
-        "lat": 39.195049,
-        "lon": 45.693589
+        "lat": 38.960587,
+        "lon": 45.629196
       },
       "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
       "area_assign_method": "containment_verified",
       "area_assign_status": "verified",
-      "confidence": 0.6204876899719238,
+      "confidence": 0.6299721002578735,
       "status": "silver",
       "source_refs": [
         {
           "source": "overture",
-          "source_id": "48ff0638-1169-4d7b-b6fb-eef0f392b3db",
+          "source_id": "1ca0b7fd-8263-4b2f-a483-ba67f42aa455",
           "release": "2026-09-23.1",
-          "source_category": "castle"
+          "source_category": "arts_and_entertainment"
         }
       ]
     },
     {
-      "id": "01920c65-d3df-58f9-81c1-72dd376c877a",
-      "name": "Khanegah Tomb",
-      "name_normalized": "khanegah tomb",
+      "id": "a305c292-bddc-5bb7-b343-d90b1f32f27d",
+      "name": "Culfa rayon Ərəzin kənd tam orta məktəbi",
+      "name_normalized": "culfa rayon erezin kend tam orta mektebi",
       "alt_names": [],
-      "category": "historic",
+      "category": "education",
       "coordinates": {
-        "lat": 39.18883333,
-        "lon": 45.71547222
+        "lat": 39.09095,
+        "lon": 45.59489
       },
       "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
       "area_assign_method": "containment_verified",
       "area_assign_status": "verified",
-      "confidence": 0.8138099312782288,
+      "confidence": 0.5353075265884399,
       "status": "silver",
       "source_refs": [
         {
           "source": "overture",
-          "source_id": "327104d5-3b73-427a-aa3d-77b0ec0faf3f",
+          "source_id": "c1f25615-0885-4af2-82f2-643c9ebfc105",
+          "release": "2026-09-23.1",
+          "source_category": "school"
+        }
+      ]
+    },
+    {
+      "id": "f388b797-0511-5d91-b51b-b90294ee13b8",
+      "name": "Culfa rayon Xanəgah kənd tam orta məktəbi",
+      "name_normalized": "culfa rayon xanegah kend tam orta mektebi",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 39.18935,
+        "lon": 45.705
+      },
+      "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5841876864433289,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "394eb57c-8f34-43f9-87e8-5d6e1bf5c0eb",
+          "release": "2026-09-23.1",
+          "source_category": "school"
+        }
+      ]
+    },
+    {
+      "id": "b89c117e-fb9c-5fa2-824b-2718192b1cbf",
+      "name": "Aquamarine Fish House",
+      "name_normalized": "aquamarine fish house",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 39.276532215503,
+        "lon": 45.763367079198
+      },
+      "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8671505451202393,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3d55b30b-c176-41f9-b48f-aff882df4cf8",
+          "release": "2026-09-23.1",
+          "source_category": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "15edac24-7471-562e-8d24-f00768c6f24c",
+      "name": "Toquy-1",
+      "name_normalized": "toquy 1",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 38.9544175,
+        "lon": 45.6280353
+      },
+      "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4479021694",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "6a6427f9-830d-5d48-a321-d168327e686a",
+      "name": "CULFA rayon Stomatoloji xidmet",
+      "name_normalized": "culfa rayon stomatoloji xidmet",
+      "alt_names": [],
+      "category": "healthcare",
+      "coordinates": {
+        "lat": 38.95,
+        "lon": 45.6319
+      },
+      "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5773913860321045,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a38d282b-eaed-476e-87e2-82057a93e937",
+          "release": "2026-09-23.1",
+          "source_category": "hospital"
+        }
+      ]
+    },
+    {
+      "id": "6f469dd2-148f-5db0-bc0d-6d38f23a76f4",
+      "name": "Ashab-i Kehf",
+      "name_normalized": "ashab i kehf",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.22509,
+        "lon": 45.58858
+      },
+      "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8059319257736206,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a9b4b9e0-942a-4c17-9001-0234e6a0114f",
           "release": "2026-09-23.1",
           "source_category": "historic_site"
         }
@@ -75,6 +194,106 @@
       ]
     },
     {
+      "id": "76976786-659d-5df0-9c08-c212175a1b47",
+      "name": "Əlincə qalası (39.1938,45.6951)",
+      "name_normalized": "elince qalasi elince qalasi 39 1938 45 6951",
+      "alt_names": [
+        "Əlincə qalası"
+      ],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.1938013,
+        "lon": 45.6950696
+      },
+      "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/2061899075",
+          "release": "azerbaijan-261020",
+          "source_category": "historic"
+        }
+      ]
+    },
+    {
+      "id": "da49e89f-3461-547e-aca4-08599679779b",
+      "name": "Elince Qalasi (39.1950,45.6936)",
+      "name_normalized": "elince qalasi elince qalasi 39 1950 45 6936",
+      "alt_names": [
+        "Elince Qalasi"
+      ],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.195049,
+        "lon": 45.693589
+      },
+      "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6204876899719238,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "48ff0638-1169-4d7b-b6fb-eef0f392b3db",
+          "release": "2026-09-23.1",
+          "source_category": "castle"
+        }
+      ]
+    },
+    {
+      "id": "0843ea5f-424f-5aab-9c5c-3fa6e0b467af",
+      "name": "Gulustan Turbe",
+      "name_normalized": "gulustan turbe",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.971358,
+        "lon": 45.5874988
+      },
+      "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/5414843589",
+          "release": "azerbaijan-261020",
+          "source_category": "historic"
+        }
+      ]
+    },
+    {
+      "id": "01920c65-d3df-58f9-81c1-72dd376c877a",
+      "name": "Khanegah Tomb",
+      "name_normalized": "khanegah tomb",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.18883333,
+        "lon": 45.71547222
+      },
+      "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8138099312782288,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "327104d5-3b73-427a-aa3d-77b0ec0faf3f",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
       "id": "e0458466-d2c3-52aa-9c8c-6ece11c793d9",
       "name": "Pereval Kara-Mulla",
       "name_normalized": "pereval kara mulla",
@@ -99,50 +318,50 @@
       ]
     },
     {
-      "id": "6f469dd2-148f-5db0-bc0d-6d38f23a76f4",
-      "name": "Ashab-i Kehf",
-      "name_normalized": "ashab i kehf",
+      "id": "5df72f2b-0733-523a-8231-833fefb9f4f3",
+      "name": "Xanəgah türbəsi",
+      "name_normalized": "xanegah turbesi",
       "alt_names": [],
       "category": "historic",
       "coordinates": {
-        "lat": 39.22509,
-        "lon": 45.58858
+        "lat": 39.1888821,
+        "lon": 45.7154846
       },
       "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
       "area_assign_method": "containment_verified",
       "area_assign_status": "verified",
-      "confidence": 0.8059319257736206,
+      "confidence": null,
       "status": "silver",
       "source_refs": [
         {
-          "source": "overture",
-          "source_id": "a9b4b9e0-942a-4c17-9001-0234e6a0114f",
-          "release": "2026-09-23.1",
-          "source_category": "historic_site"
+          "source": "osm",
+          "source_id": "node/5414920921",
+          "release": "azerbaijan-261020",
+          "source_category": "historic"
         }
       ]
     },
     {
-      "id": "05a094e3-ca9d-5898-8dc0-7b72eee2976f",
-      "name": "آسیاب خرابه Asyab Kharabeh",
-      "name_normalized": "asyab kharabeh",
+      "id": "647e70ae-1481-5f2b-908e-a87c5614612d",
+      "name": "Xoşkeşin kənd tam orta məktəbi",
+      "name_normalized": "xoskesin kend tam orta mektebi",
       "alt_names": [],
-      "category": "culture",
+      "category": "historic",
       "coordinates": {
-        "lat": 38.960587,
-        "lon": 45.629196
+        "lat": 38.95,
+        "lon": 45.6319
       },
       "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
       "area_assign_method": "containment_verified",
       "area_assign_status": "verified",
-      "confidence": 0.6299721002578735,
+      "confidence": 0.851508617401123,
       "status": "silver",
       "source_refs": [
         {
           "source": "overture",
-          "source_id": "1ca0b7fd-8263-4b2f-a483-ba67f42aa455",
+          "source_id": "c11d8af2-22d3-433b-9de2-ed12dbf2efa8",
           "release": "2026-09-23.1",
-          "source_category": "arts_and_entertainment"
+          "source_category": "historic_site"
         }
       ]
     },
@@ -171,28 +390,202 @@
       ]
     },
     {
-      "id": "647e70ae-1481-5f2b-908e-a87c5614612d",
-      "name": "Xoşkeşin kənd tam orta məktəbi",
-      "name_normalized": "xoskesin kend tam orta mektebi",
-      "alt_names": [],
-      "category": "historic",
+      "id": "266c56fc-3e8f-5bdf-b4da-986298e8d785",
+      "name": "Kapital Bank (38.9471,45.6320)",
+      "name_normalized": "kapital bank kapital bank 38 9471 45 6320",
+      "alt_names": [
+        "Kapital Bank"
+      ],
+      "category": "services",
       "coordinates": {
-        "lat": 38.95,
-        "lon": 45.6319
+        "lat": 38.9471336,
+        "lon": 45.6320116
       },
       "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
       "area_assign_method": "containment_verified",
       "area_assign_status": "verified",
-      "confidence": 0.851508617401123,
+      "confidence": null,
       "status": "silver",
       "source_refs": [
         {
-          "source": "overture",
-          "source_id": "c11d8af2-22d3-433b-9de2-ed12dbf2efa8",
-          "release": "2026-09-23.1",
-          "source_category": "historic_site"
+          "source": "osm",
+          "source_id": "node/13236595012",
+          "release": "azerbaijan-261020",
+          "source_category": "services"
+        }
+      ]
+    },
+    {
+      "id": "14db9824-b4bf-5205-8761-ca78d495146c",
+      "name": "Kapital Bank (38.9562,45.6339)",
+      "name_normalized": "kapital bank kapital bank 38 9562 45 6339",
+      "alt_names": [
+        "Kapital Bank"
+      ],
+      "category": "services",
+      "coordinates": {
+        "lat": 38.9562169,
+        "lon": 45.6339287
+      },
+      "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/13236589953",
+          "release": "azerbaijan-261020",
+          "source_category": "services"
+        }
+      ]
+    },
+    {
+      "id": "fda40716-8f1d-5b35-8e6e-b9af94cd96a3",
+      "name": "Araz",
+      "name_normalized": "araz",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 39.153946,
+        "lon": 45.660086
+      },
+      "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/12866945686",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "5fb42f36-5c0c-542a-ae5e-eb76074c6ef1",
+      "name": "Araz Supermarket",
+      "name_normalized": "araz supermarket",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 39.1547944,
+        "lon": 45.6618032
+      },
+      "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/13083810001",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "4ce9d66c-2a1c-59b0-adf3-b436e6876dcf",
+      "name": "Araz Otel",
+      "name_normalized": "araz otel",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 38.9554393,
+        "lon": 45.6257324
+      },
+      "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3585845493",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "45ed7cd4-b21a-54e9-8599-cd134aea4d3c",
+      "name": "Ashabu Kəhf ziyarətgahı",
+      "name_normalized": "ashabu kehf ziyaretgahi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 39.2189371,
+        "lon": 45.58854
+      },
+      "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/2982634159",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "732a8e17-84b3-5557-a111-28a7f08d0ccd",
+      "name": "Dari Dagh",
+      "name_normalized": "dari dagh",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 39.0011863,
+        "lon": 45.6790542
+      },
+      "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/5415991733",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "c57e7a23-a7c6-5edb-8c3a-077d810ee8b6",
+      "name": "Qazançı Körpü  (1551 il)",
+      "name_normalized": "qazanci korpu 1551 il",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 39.2337884,
+        "lon": 45.7030117
+      },
+      "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/6328827020",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
         }
       ]
     }
-  ]
+  ],
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "rayon_key": "julfa"
 }

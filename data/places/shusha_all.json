@@ -1,52 +1,401 @@
 {
   "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
-  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
   "places": [
     {
-      "id": "07f3a74a-3913-5b00-8230-e91b44adf7d0",
-      "name": "Shusha Azerbaijan",
-      "name_normalized": "shusha azerbaijan",
+      "id": "726105c7-ee85-5c73-845e-938aade81874",
+      "name": "Jdrduz Canyon",
+      "name_normalized": "jdrduz canyon",
       "alt_names": [],
-      "category": "historic",
+      "category": "culture",
       "coordinates": {
-        "lat": 39.733338947207294,
-        "lon": 46.74069099866766
+        "lat": 39.761372,
+        "lon": 46.742352
       },
       "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
       "area_assign_method": "containment_verified",
       "area_assign_status": "verified",
-      "confidence": 0.529634952545166,
+      "confidence": 0.6397678852081299,
       "status": "silver",
       "source_refs": [
         {
           "source": "overture",
-          "source_id": "0190d070-2473-435a-9ef5-1a120759f0e9",
+          "source_id": "ee225f14-7cdb-400e-b2c6-9a00c3cf5544",
           "release": "2026-09-23.1",
-          "source_category": "historic_site"
+          "source_category": "arts_and_entertainment"
         }
       ]
     },
     {
-      "id": "305884c5-6368-5ba8-857e-028ecb13906e",
-      "name": "Bülbülün Ev Muzeyi",
-      "name_normalized": "bulbulun ev muzeyi",
+      "id": "1f71d861-c5b2-5247-ba9f-2d49f5221263",
+      "name": "Kinoteatr",
+      "name_normalized": "kinoteatr",
       "alt_names": [],
-      "category": "museum",
+      "category": "culture",
       "coordinates": {
-        "lat": 39.76260638,
-        "lon": 46.75735675
+        "lat": 39.7634646,
+        "lon": 46.7476362
       },
       "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
       "area_assign_method": "containment_verified",
       "area_assign_status": "verified",
-      "confidence": 0.9189018607139587,
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/8199638310",
+          "release": "azerbaijan-261020",
+          "source_category": "culture"
+        }
+      ]
+    },
+    {
+      "id": "3c6f4e23-9c37-5eda-9bc5-a027b03d62c4",
+      "name": "Şuşa Kitabxanası",
+      "name_normalized": "susa kitabxanasi",
+      "alt_names": [],
+      "category": "culture",
+      "coordinates": {
+        "lat": 39.7605777,
+        "lon": 46.7549847
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/2950069484",
+          "release": "azerbaijan-261020",
+          "source_category": "culture"
+        }
+      ]
+    },
+    {
+      "id": "e98f777c-c514-5e1d-8b2f-8ad29ddc4e72",
+      "name": "Պարիսպ Գաստրո Բաժակ (Ղազանչեցոց 20 küç.)",
+      "name_normalized": " 20 kuc",
+      "alt_names": [
+        "Պարիսպ Գաստրո Բաժակ"
+      ],
+      "category": "food",
+      "coordinates": {
+        "lat": 39.76986,
+        "lon": 46.74663
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6736646294593811,
       "status": "silver",
       "source_refs": [
         {
           "source": "overture",
-          "source_id": "bd727ce1-cc7f-4602-bd9b-d2ee005d005a",
+          "source_id": "bbdcead5-c805-4683-b47b-90364591bdd6",
           "release": "2026-09-23.1",
-          "source_category": "museum"
+          "source_category": "coffee_shop"
+        }
+      ]
+    },
+    {
+      "id": "2e7d4fbd-7d51-5eb8-97fa-410869ed1148",
+      "name": "Embada Billiard Club",
+      "name_normalized": "embada billiard club",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 39.75061,
+        "lon": 46.72818
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5589486360549927,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8fd8b3c8-b653-43dc-b7cd-f282ec1c3a50",
+          "release": "2026-09-23.1",
+          "source_category": "bar"
+        }
+      ]
+    },
+    {
+      "id": "bb3b8c74-a68b-55ef-a651-f350be757a84",
+      "name": "Հեքիաթների տուն Fairytale ART cafe",
+      "name_normalized": "fairytale art cafe",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 39.692526169657,
+        "lon": 46.683762073517
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6045870184898376,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c3a6e28e-e013-40ac-a5fa-40fef75f0f94",
+          "release": "2026-09-23.1",
+          "source_category": "cafe"
+        }
+      ]
+    },
+    {
+      "id": "9504d040-a614-5788-8f99-31386713aefb",
+      "name": "İsa bulağı (39.7610,46.7488)",
+      "name_normalized": "i sa bulagi i sa bulagi 39 7610 46 7488",
+      "alt_names": [
+        "İsa bulağı"
+      ],
+      "category": "food",
+      "coordinates": {
+        "lat": 39.7610034,
+        "lon": 46.7487853
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.537933349609375,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f8ff9c6a-6abe-4ab5-8739-035693323622",
+          "release": "2026-09-23.1",
+          "source_category": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "2c7ae78f-06d7-5c06-8ecc-4065c7380d40",
+      "name": "İsa Bulağı (İsa bulağı yolu küç.)",
+      "name_normalized": "i sa bulagi i sa bulagi yolu kuc",
+      "alt_names": [
+        "İsa Bulağı"
+      ],
+      "category": "food",
+      "coordinates": {
+        "lat": 39.7439598,
+        "lon": 46.7095676
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/7066575833",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "261723da-94d1-5af5-ac28-a9c642c62a68",
+      "name": "Isahaki Axbyur Restaurant",
+      "name_normalized": "isahaki axbyur restaurant",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 39.74401883877375,
+        "lon": 46.70935540827362
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8933457732200623,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ea0f37ff-32ff-481b-a975-d52bcf38a739",
+          "release": "2026-09-23.1",
+          "source_category": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "cae0356e-3d6a-57b7-9b4c-c46c753592d7",
+      "name": "Kafe",
+      "name_normalized": "kafe",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 39.758062,
+        "lon": 46.7449608
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10573189340",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "7bef8e62-d5b1-5f3a-96a1-606bb9bd48a1",
+      "name": "Qoç Ət",
+      "name_normalized": "qoc et",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 39.76250162,
+        "lon": 46.7492591
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6501511931419373,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e387c3e2-89ad-4062-beab-731e2fd02c92",
+          "release": "2026-09-23.1",
+          "source_category": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "c87eafa8-aeea-5bd6-bcb6-f807d040c7de",
+      "name": "Shusha Qala",
+      "name_normalized": "shusha qala",
+      "alt_names": [],
+      "category": "food",
+      "coordinates": {
+        "lat": 39.76537433,
+        "lon": 46.75009352
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8814438581466675,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "23cc045d-5d83-48ae-ac0c-8334a391c098",
+          "release": "2026-09-23.1",
+          "source_category": "restaurant"
+        },
+        {
+          "source": "osm",
+          "source_id": "node/12048979416",
+          "release": "azerbaijan-261020",
+          "source_category": "food"
+        }
+      ]
+    },
+    {
+      "id": "2fd0e08a-4268-5adc-a7ba-972aa9f365e4",
+      "name": "Stepanakert Choreographic College  SNCO",
+      "name_normalized": "stepanakert choreographic college snco",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 39.76986,
+        "lon": 46.74663
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6275302171707153,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "ff9847a4-0b28-40d2-b0fe-4e36ef772c6a",
+          "release": "2026-09-23.1",
+          "source_category": "government_office"
+        }
+      ]
+    },
+    {
+      "id": "4680b4f5-aabc-5d1e-afb2-edefbe4cd5fd",
+      "name": "Şuşa Şəhər Xüsusi Nümayəndəliyi",
+      "name_normalized": "susa seher xususi numayendeliyi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 39.76369003,
+        "lon": 46.75183144
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6516457200050354,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "0d1adf9d-84e4-44d7-8790-4ecef3d5a34f",
+          "release": "2026-09-23.1",
+          "source_category": "government_office"
+        }
+      ]
+    },
+    {
+      "id": "73486d81-1af3-55f7-8860-ce6770d52435",
+      "name": "Şuşa Xəstəxanası",
+      "name_normalized": "susa xestexanasi",
+      "alt_names": [],
+      "category": "healthcare",
+      "coordinates": {
+        "lat": 39.7585149,
+        "lon": 46.7600904
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10702671068",
+          "release": "azerbaijan-261020",
+          "source_category": "healthcare"
+        }
+      ]
+    },
+    {
+      "id": "d8296106-c0b2-5611-8477-6340af6067c1",
+      "name": "Cıdır düzü (Cıdır düzü küç.)",
+      "name_normalized": "cidir duzu cidir duzu kuc",
+      "alt_names": [
+        "Cıdır düzü"
+      ],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.7564,
+        "lon": 46.7511
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5995826721191406,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "03f880b3-c93f-410b-8bfe-3964d1e3294f",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
         }
       ]
     },
@@ -69,246 +418,6 @@
         {
           "source": "overture",
           "source_id": "8224a3b9-54f5-40ed-b4fb-b7edc57f3648",
-          "release": "2026-09-23.1",
-          "source_category": "historic_site"
-        }
-      ]
-    },
-    {
-      "id": "27797728-48d6-5c24-9587-980b39fc0d79",
-      "name": "Saatli Mosque",
-      "name_normalized": "saatli mosque",
-      "alt_names": [],
-      "category": "religious",
-      "coordinates": {
-        "lat": 39.76271265,
-        "lon": 46.75104739
-      },
-      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": 0.8830952048301697,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "overture",
-          "source_id": "c524653f-17db-4708-b4dc-22316581f16d",
-          "release": "2026-09-23.1",
-          "source_category": "muslim_place_of_worship"
-        }
-      ]
-    },
-    {
-      "id": "e7d2c405-70cb-598d-9698-7516145f2573",
-      "name": "Aşağı Gövhər Ağa Məscidi",
-      "name_normalized": "asagi govher aga mescidi",
-      "alt_names": [],
-      "category": "religious",
-      "coordinates": {
-        "lat": 39.7624261,
-        "lon": 46.75165689999999
-      },
-      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": 0.8504067659378052,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "overture",
-          "source_id": "e97cf81b-24a4-483c-927b-5d198ee9a5a0",
-          "release": "2026-09-23.1",
-          "source_category": "muslim_place_of_worship"
-        }
-      ]
-    },
-    {
-      "id": "875a5c25-2e9d-5f62-af99-2da29ee35d19",
-      "name": "Chol Gala mosque",
-      "name_normalized": "chol gala mosque",
-      "alt_names": [],
-      "category": "religious",
-      "coordinates": {
-        "lat": 39.76421432,
-        "lon": 46.75376784
-      },
-      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": 0.7981998324394226,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "overture",
-          "source_id": "4696bcf3-89b3-4e59-b691-4b31bf645192",
-          "release": "2026-09-23.1",
-          "source_category": "muslim_place_of_worship"
-        }
-      ]
-    },
-    {
-      "id": "c388b91c-b7d2-525f-83dd-8cc80daac029",
-      "name": "Ashagi Govhar Agha Məscid",
-      "name_normalized": "ashagi govhar agha mescid",
-      "alt_names": [],
-      "category": "religious",
-      "coordinates": {
-        "lat": 39.76179884,
-        "lon": 46.75369317
-      },
-      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": 0.8050695061683655,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "overture",
-          "source_id": "5bac8735-0f12-462f-a317-a0ed0f75415b",
-          "release": "2026-09-23.1",
-          "source_category": "muslim_place_of_worship"
-        }
-      ]
-    },
-    {
-      "id": "1fdde32a-76c8-54c6-a431-c30a872beb0c",
-      "name": "Cümə Məscidi",
-      "name_normalized": "cume mescidi",
-      "alt_names": [],
-      "category": "religious",
-      "coordinates": {
-        "lat": 39.76170688021,
-        "lon": 46.752695917821
-      },
-      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": 0.5953870415687561,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "overture",
-          "source_id": "c11da1ed-d7f4-4ace-85e9-0c51902b7bab",
-          "release": "2026-09-23.1",
-          "source_category": "muslim_place_of_worship"
-        }
-      ]
-    },
-    {
-      "id": "be5b1f72-c223-5317-91e3-ae2bdded0d8c",
-      "name": "Yukhari Govhar Agha Mosque",
-      "name_normalized": "yukhari govhar agha mosque",
-      "alt_names": [],
-      "category": "religious",
-      "coordinates": {
-        "lat": 39.76017878,
-        "lon": 46.75257838
-      },
-      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": 0.8279052972793579,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "overture",
-          "source_id": "8dd52766-2afd-4f01-b035-61951ce0ee6b",
-          "release": "2026-09-23.1",
-          "source_category": "muslim_place_of_worship"
-        }
-      ]
-    },
-    {
-      "id": "0f8fba13-c2a6-5417-9dcf-ebea556d4c89",
-      "name": "Şuşa • Shusha • Шуша",
-      "name_normalized": "susa shusha",
-      "alt_names": [],
-      "category": "historic",
-      "coordinates": {
-        "lat": 39.758885351399,
-        "lon": 46.753017425537
-      },
-      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": 0.8184935450553894,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "overture",
-          "source_id": "3afdbace-4445-482c-b871-3808936ba3b3",
-          "release": "2026-09-23.1",
-          "source_category": "historic_site"
-        }
-      ]
-    },
-    {
-      "id": "46fb0156-a097-526e-ba1a-745ac7d66dbc",
-      "name": "Chukhur Mahalla Mosque",
-      "name_normalized": "chukhur mahalla mosque",
-      "alt_names": [],
-      "category": "religious",
-      "coordinates": {
-        "lat": 39.7608,
-        "lon": 46.7569
-      },
-      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": 0.7739386558532715,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "overture",
-          "source_id": "01d5f1a7-da2c-4130-bbe7-685737add46c",
-          "release": "2026-09-23.1",
-          "source_category": "muslim_place_of_worship"
-        }
-      ]
-    },
-    {
-      "id": "6e9ed979-950a-5404-9d18-c1c2dcb5b85e",
-      "name": "Vaqif Məqbərəsi",
-      "name_normalized": "vaqif meqberesi",
-      "alt_names": [],
-      "category": "museum",
-      "coordinates": {
-        "lat": 39.756623010896,
-        "lon": 46.75946903124
-      },
-      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": 0.7634117603302002,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "overture",
-          "source_id": "cd93ef37-2708-4096-9227-a9fac5d51a74",
-          "release": "2026-09-23.1",
-          "source_category": "museum"
-        }
-      ]
-    },
-    {
-      "id": "d8296106-c0b2-5611-8477-6340af6067c1",
-      "name": "Cıdır düzü",
-      "name_normalized": "cidir duzu",
-      "alt_names": [],
-      "category": "historic",
-      "coordinates": {
-        "lat": 39.7564,
-        "lon": 46.7511
-      },
-      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": 0.5995826721191406,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "overture",
-          "source_id": "03f880b3-c93f-410b-8bfe-3964d1e3294f",
           "release": "2026-09-23.1",
           "source_category": "historic_site"
         }
@@ -339,50 +448,26 @@
       ]
     },
     {
-      "id": "726105c7-ee85-5c73-845e-938aade81874",
-      "name": "Jdrduz Canyon",
-      "name_normalized": "jdrduz canyon",
+      "id": "07f3a74a-3913-5b00-8230-e91b44adf7d0",
+      "name": "Shusha Azerbaijan",
+      "name_normalized": "shusha azerbaijan",
       "alt_names": [],
-      "category": "culture",
+      "category": "historic",
       "coordinates": {
-        "lat": 39.761372,
-        "lon": 46.742352
+        "lat": 39.733338947207294,
+        "lon": 46.74069099866766
       },
       "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
       "area_assign_method": "containment_verified",
       "area_assign_status": "verified",
-      "confidence": 0.6397678852081299,
+      "confidence": 0.529634952545166,
       "status": "silver",
       "source_refs": [
         {
           "source": "overture",
-          "source_id": "ee225f14-7cdb-400e-b2c6-9a00c3cf5544",
+          "source_id": "0190d070-2473-435a-9ef5-1a120759f0e9",
           "release": "2026-09-23.1",
-          "source_category": "arts_and_entertainment"
-        }
-      ]
-    },
-    {
-      "id": "d2eccde2-136b-5c7f-91bf-54e8de5c7c10",
-      "name": "Mamay Məscidi",
-      "name_normalized": "mamay mescidi",
-      "alt_names": [],
-      "category": "religious",
-      "coordinates": {
-        "lat": 39.76186326,
-        "lon": 46.75002755
-      },
-      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
-      "area_assign_method": "containment_verified",
-      "area_assign_status": "verified",
-      "confidence": 0.3960627019405365,
-      "status": "silver",
-      "source_refs": [
-        {
-          "source": "overture",
-          "source_id": "4eb08af7-c536-46bf-acd6-58307f1798ee",
-          "release": "2026-09-23.1",
-          "source_category": "muslim_place_of_worship"
+          "source_category": "historic_site"
         }
       ]
     },
@@ -433,6 +518,1096 @@
           "source_category": "castle"
         }
       ]
+    },
+    {
+      "id": "2562fbf9-5125-5249-9d7e-253d91f7172f",
+      "name": "Şuşa qalası (1751 il)",
+      "name_normalized": "susa qalasi 1751 il",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.7659259,
+        "lon": 46.7501754
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/7069124568",
+          "release": "azerbaijan-261020",
+          "source_category": "historic"
+        }
+      ]
+    },
+    {
+      "id": "0f8fba13-c2a6-5417-9dcf-ebea556d4c89",
+      "name": "Şuşa • Shusha • Шуша",
+      "name_normalized": "susa shusha",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.758885351399,
+        "lon": 46.753017425537
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8184935450553894,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3afdbace-4445-482c-b871-3808936ba3b3",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "6aed0dee-a217-5808-bbea-039230e9530b",
+      "name": "Vaqif Türbəsi",
+      "name_normalized": "vaqif turbesi",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 39.7554598,
+        "lon": 46.7583292
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/8736709584",
+          "release": "azerbaijan-261020",
+          "source_category": "historic"
+        }
+      ]
+    },
+    {
+      "id": "5e9efd84-37bc-55c4-9b0b-cd8e6ef05886",
+      "name": "Dah və görkəmli xadimlərin heykəlləri",
+      "name_normalized": "dah ve gorkemli xadimlerin heykelleri",
+      "alt_names": [],
+      "category": "monument",
+      "coordinates": {
+        "lat": 39.7637589,
+        "lon": 46.7513164
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/6096285399",
+          "release": "azerbaijan-261020",
+          "source_category": "monument"
+        }
+      ]
+    },
+    {
+      "id": "b2092fb5-c5f9-53d9-9822-3be73b750521",
+      "name": "Molla Pənah Vaqifin Büstü",
+      "name_normalized": "molla penah vaqifin bustu",
+      "alt_names": [],
+      "category": "monument",
+      "coordinates": {
+        "lat": 39.7594876,
+        "lon": 46.7522837
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10702671066",
+          "release": "azerbaijan-261020",
+          "source_category": "monument"
+        }
+      ]
+    },
+    {
+      "id": "305884c5-6368-5ba8-857e-028ecb13906e",
+      "name": "Bülbülün Ev Muzeyi",
+      "name_normalized": "bulbulun ev muzeyi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 39.76260638,
+        "lon": 46.75735675
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.9189018607139587,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "bd727ce1-cc7f-4602-bd9b-d2ee005d005a",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "6e9ed979-950a-5404-9d18-c1c2dcb5b85e",
+      "name": "Vaqif Məqbərəsi",
+      "name_normalized": "vaqif meqberesi",
+      "alt_names": [],
+      "category": "museum",
+      "coordinates": {
+        "lat": 39.756623010896,
+        "lon": 46.75946903124
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7634117603302002,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "cd93ef37-2708-4096-9227-a9fac5d51a74",
+          "release": "2026-09-23.1",
+          "source_category": "museum"
+        }
+      ]
+    },
+    {
+      "id": "6501dde8-fdcd-5af7-8507-9356a414099b",
+      "name": "Azercell",
+      "name_normalized": "azercell",
+      "alt_names": [],
+      "category": "other_poi",
+      "coordinates": {
+        "lat": 39.7599914,
+        "lon": 46.747368
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10765812142",
+          "release": "azerbaijan-261020",
+          "source_category": "other_poi"
+        }
+      ]
+    },
+    {
+      "id": "eb11e603-d70a-5773-9842-06657e62c4ec",
+      "name": "Dövlət Xidmətləri Mərkəzi",
+      "name_normalized": "dovlet xidmetleri merkezi",
+      "alt_names": [],
+      "category": "other_poi",
+      "coordinates": {
+        "lat": 39.7628798,
+        "lon": 46.749972
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/12036419638",
+          "release": "azerbaijan-261020",
+          "source_category": "other_poi"
+        }
+      ]
+    },
+    {
+      "id": "95e4984a-13ed-5ad4-b6c6-37b83c3edf7b",
+      "name": "Meşəbəyi",
+      "name_normalized": "mesebeyi",
+      "alt_names": [],
+      "category": "other_poi",
+      "coordinates": {
+        "lat": 39.6219975,
+        "lon": 46.6282511
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/12697212251",
+          "release": "azerbaijan-261020",
+          "source_category": "other_poi"
+        }
+      ]
+    },
+    {
+      "id": "3a34d3d4-ff71-5ab6-bf40-8fbbdf68a124",
+      "name": "Şuşa Bələdiyyəsi",
+      "name_normalized": "susa belediyyesi",
+      "alt_names": [],
+      "category": "other_poi",
+      "coordinates": {
+        "lat": 39.7637403,
+        "lon": 46.7519775
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3729617697",
+          "release": "azerbaijan-261020",
+          "source_category": "other_poi"
+        }
+      ]
+    },
+    {
+      "id": "2875fdf8-552e-574a-8115-c2f11f91c29b",
+      "name": "Mərkəzi Xan Bağı",
+      "name_normalized": "merkezi xan bagi",
+      "alt_names": [],
+      "category": "park",
+      "coordinates": {
+        "lat": 39.7629214,
+        "lon": 46.7514658
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11254814582",
+          "release": "azerbaijan-261020",
+          "source_category": "park"
+        }
+      ]
+    },
+    {
+      "id": "1932fa14-57db-5faa-af1f-d3c946d577b3",
+      "name": "Церковь Канач Жам (39.7625,46.7436)",
+      "name_normalized": " 39 7625 46 7436",
+      "alt_names": [
+        "Церковь Канач Жам"
+      ],
+      "category": "religious",
+      "coordinates": {
+        "lat": 39.7625,
+        "lon": 46.7436
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8212940692901611,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "262db213-e7b6-41bb-af95-92b8c225f384",
+          "release": "2026-09-23.1",
+          "source_category": "christian_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "d729a911-61a4-58dd-af0b-b9cc6ee13774",
+      "name": "Aşağı Gövhər Ağa Məscidi (39.7617,46.7537)",
+      "name_normalized": "asagi govher aga mescidi asagi govher aga mescidi 39 7617 46 7537",
+      "alt_names": [
+        "Aşağı Gövhər Ağa Məscidi"
+      ],
+      "category": "religious",
+      "coordinates": {
+        "lat": 39.7617292,
+        "lon": 46.7537484
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10702671062",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "e7d2c405-70cb-598d-9698-7516145f2573",
+      "name": "Aşağı Gövhər Ağa Məscidi (Şuşa küç.)",
+      "name_normalized": "asagi govher aga mescidi susa kuc",
+      "alt_names": [
+        "Aşağı Gövhər Ağa Məscidi"
+      ],
+      "category": "religious",
+      "coordinates": {
+        "lat": 39.7624261,
+        "lon": 46.75165689999999
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8504067659378052,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e97cf81b-24a4-483c-927b-5d198ee9a5a0",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "c388b91c-b7d2-525f-83dd-8cc80daac029",
+      "name": "Ashagi Govhar Agha Məscid",
+      "name_normalized": "ashagi govhar agha mescid",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 39.76179884,
+        "lon": 46.75369317
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8050695061683655,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "5bac8735-0f12-462f-a317-a0ed0f75415b",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "875a5c25-2e9d-5f62-af99-2da29ee35d19",
+      "name": "Chol Gala mosque",
+      "name_normalized": "chol gala mosque",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 39.76421432,
+        "lon": 46.75376784
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7981998324394226,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4696bcf3-89b3-4e59-b691-4b31bf645192",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "46fb0156-a097-526e-ba1a-745ac7d66dbc",
+      "name": "Chukhur Mahalla Mosque",
+      "name_normalized": "chukhur mahalla mosque",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 39.7608,
+        "lon": 46.7569
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7739386558532715,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "01d5f1a7-da2c-4130-bbe7-685737add46c",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "71dbde31-5afe-5ec8-9cc8-f094113b72b0",
+      "name": "Church of Saint Pantaleon",
+      "name_normalized": "church of saint pantaleon",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 39.6566249,
+        "lon": 46.6082574
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/4937557524",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "a1cb27b8-fc55-565f-974f-9cb782cc785f",
+      "name": "Çöl Qala Məscidi",
+      "name_normalized": "col qala mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 39.7642602,
+        "lon": 46.7537414
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10702671061",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "1fdde32a-76c8-54c6-a431-c30a872beb0c",
+      "name": "Cümə Məscidi",
+      "name_normalized": "cume mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 39.76170688021,
+        "lon": 46.752695917821
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5953870415687561,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c11da1ed-d7f4-4ace-85e9-0c51902b7bab",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "d9ddf413-87a5-5599-a558-4ee6d8288dff",
+      "name": "Ghazanchetsots Cathedral",
+      "name_normalized": "ghazanchetsots cathedral",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 39.75864465,
+        "lon": 46.74756936
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6519581079483032,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8fc925a0-08f9-4655-9c09-131dac350905",
+          "release": "2026-09-23.1",
+          "source_category": "christian_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "d2eccde2-136b-5c7f-91bf-54e8de5c7c10",
+      "name": "Mamay Məscidi",
+      "name_normalized": "mamay mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 39.76186326,
+        "lon": 46.75002755
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.3960627019405365,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "4eb08af7-c536-46bf-acd6-58307f1798ee",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "541b43ed-878c-5d73-ad91-c3089ebd4305",
+      "name": "Qazançı Kilsəsi",
+      "name_normalized": "qazanci kilsesi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 39.75869218,
+        "lon": 46.74759885
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7092829942703247,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "a3ded29a-a691-4066-9e02-7acfdd34f84e",
+          "release": "2026-09-23.1",
+          "source_category": "christian_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "27797728-48d6-5c24-9587-980b39fc0d79",
+      "name": "Saatli Mosque",
+      "name_normalized": "saatli mosque",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 39.76271265,
+        "lon": 46.75104739
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8830952048301697,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "c524653f-17db-4708-b4dc-22316581f16d",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "40624366-f971-5dd3-8837-32e9fb0671bd",
+      "name": "Surb Astvatsatsin Church",
+      "name_normalized": "surb astvatsatsin church",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 39.7444835,
+        "lon": 46.7495839
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/1956130234",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "be5b1f72-c223-5317-91e3-ae2bdded0d8c",
+      "name": "Yukhari Govhar Agha Mosque",
+      "name_normalized": "yukhari govhar agha mosque",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 39.76017878,
+        "lon": 46.75257838
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8279052972793579,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8dd52766-2afd-4f01-b035-61951ce0ee6b",
+          "release": "2026-09-23.1",
+          "source_category": "muslim_place_of_worship"
+        }
+      ]
+    },
+    {
+      "id": "31d17d4c-0553-5488-8a8c-9ef9825e47ea",
+      "name": "Yuxarı Gövhər Ağa Məscidi",
+      "name_normalized": "yuxari govher aga mescidi",
+      "alt_names": [],
+      "category": "religious",
+      "coordinates": {
+        "lat": 39.7601062,
+        "lon": 46.7525921
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10702671063",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "2d4f26ea-15c8-5277-aa2b-415f97bc033d",
+      "name": "Araz",
+      "name_normalized": "araz",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 39.7628285,
+        "lon": 46.7481404
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/12866945661",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "e487834b-529d-5c91-9c79-3d97cc46cbb3",
+      "name": "Araz Supermarket",
+      "name_normalized": "araz supermarket",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 39.7624045,
+        "lon": 46.7493351
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10702671059",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "e9c178b2-0359-52bf-8ca8-5995522e73d8",
+      "name": "AZCAKE Şirniyyat",
+      "name_normalized": "azcake sirniyyat",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 39.760566,
+        "lon": 46.7520825
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10702671064",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "7f6d3946-6aa5-5e4b-a014-c7a98c841864",
+      "name": "Bravo",
+      "name_normalized": "bravo",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 39.7537003,
+        "lon": 46.7424486
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/12698744787",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "1ff4bcdc-7797-5445-b880-f7d71bac1043",
+      "name": "Bravo Supermarket",
+      "name_normalized": "bravo supermarket",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 39.7581506,
+        "lon": 46.7443358
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10573189339",
+          "release": "azerbaijan-261020",
+          "source_category": "shop"
+        }
+      ]
+    },
+    {
+      "id": "8cbc8a18-df93-517d-9e0f-b162f7fb81f1",
+      "name": "Zoo Magazin",
+      "name_normalized": "zoo magazin",
+      "alt_names": [],
+      "category": "shop",
+      "coordinates": {
+        "lat": 39.75061,
+        "lon": 46.72818
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5360662341117859,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "08aff121-3935-4de2-b8d7-06e2a4959e7c",
+          "release": "2026-09-23.1",
+          "source_category": "shopping"
+        }
+      ]
+    },
+    {
+      "id": "72799f31-33f3-506e-b377-1e49b5a2337a",
+      "name": "Amrots Hotel-restaurant Stepanakert",
+      "name_normalized": "amrots hotel restaurant stepanakert",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 39.76986,
+        "lon": 46.74663
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5390719175338745,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "2a8d1427-603c-4658-92dd-398ddecdf657",
+          "release": "2026-09-23.1",
+          "source_category": "hotel"
+        }
+      ]
+    },
+    {
+      "id": "6baf26ee-ce98-5bbd-94c7-3f7157fcd708",
+      "name": "Apart-Hotel Stepanakert /Օրավարձով բնակարան Ստեփանակերտում",
+      "name_normalized": "apart hotel stepanakert",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 39.76986,
+        "lon": 46.74663
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6904024481773376,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "fda8d24a-0449-496e-bcfd-6fbd0c9d8213",
+          "release": "2026-09-23.1",
+          "source_category": "hotel"
+        }
+      ]
+    },
+    {
+      "id": "b5166b3f-5af7-567c-898d-f146ab3e9f51",
+      "name": "Aslan Qaraşovun evi",
+      "name_normalized": "aslan qarasovun evi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 39.7613465,
+        "lon": 46.7488204
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10702671056",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "518e32a4-68d9-5cc3-86a0-3dae5c9ffa72",
+      "name": "Avan Shushi Plaza Hotel",
+      "name_normalized": "avan shushi plaza hotel",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 39.76214655,
+        "lon": 46.75170151
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.4771873354911804,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "3929aa73-b558-4c8d-8770-7e940b59db63",
+          "release": "2026-09-23.1",
+          "source_category": "hotel"
+        }
+      ]
+    },
+    {
+      "id": "2097339e-5d5d-5b9d-9267-94a22d0e3fd9",
+      "name": "Cıdır Düzü (39.7538,46.7602)",
+      "name_normalized": "cidir duzu cidir duzu 39 7538 46 7602",
+      "alt_names": [
+        "Cıdır Düzü"
+      ],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 39.7537514,
+        "lon": 46.7602128
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/2959051351",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "611c7d3e-216a-5914-93e0-6148a49d7795",
+      "name": "FD Sofia Hotel",
+      "name_normalized": "fd sofia hotel",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 39.75061,
+        "lon": 46.72818
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5256941914558411,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "946ab683-e7e6-4a51-a1f2-8326270cc193",
+          "release": "2026-09-23.1",
+          "source_category": "hotel"
+        }
+      ]
+    },
+    {
+      "id": "e309e9b2-ffa1-5c5a-96df-3a7d92de1764",
+      "name": "Hotel Davanna Stepanakert",
+      "name_normalized": "hotel davanna stepanakert",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 39.76986,
+        "lon": 46.74663
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5788154602050781,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "36324223-2f02-430b-a274-00ffb3bca70e",
+          "release": "2026-09-23.1",
+          "source_category": "hotel"
+        }
+      ]
+    },
+    {
+      "id": "7e2093c7-985a-50eb-85ad-08b8fc07cf73",
+      "name": "Shusha Hotel",
+      "name_normalized": "shusha hotel",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 39.75946907,
+        "lon": 46.74316346
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8606107831001282,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "e838e9db-4cda-40f5-8528-5a032cbd3620",
+          "release": "2026-09-23.1",
+          "source_category": "hotel"
+        }
+      ]
+    },
+    {
+      "id": "90ea7068-3287-527f-892e-c8605e2dd731",
+      "name": "Stendal Hostel/Mini Hotel Stepanakert",
+      "name_normalized": "stendal hostel mini hotel stepanakert",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 39.75061,
+        "lon": 46.72818
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6231798529624939,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "61d0a9a0-f989-4659-8ee6-29cc85cdef7a",
+          "release": "2026-09-23.1",
+          "source_category": "hotel"
+        }
+      ]
+    },
+    {
+      "id": "4d07d1cd-584f-5df2-9233-4084284f500d",
+      "name": "Xurşidbanu Natəvanın evi",
+      "name_normalized": "xursidbanu natevanin evi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 39.7648338,
+        "lon": 46.7507661
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/11254814574",
+          "release": "azerbaijan-261020",
+          "source_category": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "48ba61db-87d2-535d-adf3-98fe27c8adc7",
+      "name": "Azpetrol",
+      "name_normalized": "azpetrol",
+      "alt_names": [],
+      "category": "transport",
+      "coordinates": {
+        "lat": 39.779349,
+        "lon": 46.750321
+      },
+      "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "6c3a02f0-ae16-4e08-94d6-ce5154fa6fbb",
+          "release": "2026-09-23.1",
+          "source_category": "gas_station"
+        }
+      ]
     }
-  ]
+  ],
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "rayon_key": "shusha"
 }

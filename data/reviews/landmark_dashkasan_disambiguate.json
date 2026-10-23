@@ -1,0 +1,20 @@
+{
+  "key": "dashkasan",
+  "area_id": "666fc78b-9053-5fe5-b2e6-8156dcdd80c7",
+  "notes": [
+    "no street for duplicate name 'Azercell' @ 40.51957,46.08407 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 40.52282,46.08163 → coord suffix",
+    "no street for duplicate name '1001 Xırdavat' @ 40.52020,46.08279 → coord suffix",
+    "no street for duplicate name 'Market' @ 40.51982,46.08309 → coord suffix",
+    "no street for duplicate name 'Market' @ 40.52380,46.08200 → coord suffix",
+    "no street for duplicate name 'Market' @ 40.52572,46.08521 → coord suffix",
+    "no street for duplicate name 'Market' @ 40.52610,46.08193 → coord suffix",
+    "no street for duplicate name 'Market' @ 40.52525,46.08133 → coord suffix",
+    "no street for duplicate name 'Market' @ 40.52436,46.08179 → coord suffix",
+    "no street for duplicate name 'Daşkəsən Filiz ASC' @ 40.51843,46.08273 → coord suffix",
+    "no street for duplicate name 'Daşkəsən Filiz ASC' @ 40.51404,46.08396 → coord suffix",
+    "no street for duplicate name 'Qaya' @ 40.38156,46.01002 → coord suffix",
+    "no street for duplicate name 'Qaya' @ 40.39906,46.01097 → coord suffix"
+  ],
+  "count": 13
+}

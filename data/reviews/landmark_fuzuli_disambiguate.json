@@ -1,0 +1,10 @@
+{
+  "key": "fuzuli",
+  "area_id": "eb593579-9816-5449-a5cd-1dacaafbcef9",
+  "notes": [
+    "no street for duplicate name 'Azercell' @ 39.44794,47.33893 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 39.54544,47.39173 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 39.59961,47.15051 → coord suffix"
+  ],
+  "count": 3
+}

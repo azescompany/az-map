@@ -1,0 +1,10 @@
+{
+  "key": "tartar",
+  "area_id": "9f564169-32e9-5a49-a8e0-beda6446010f",
+  "notes": [
+    "no street for duplicate name 'Azercell' @ 40.34226,46.93231 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 40.34140,46.93170 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 40.34098,46.93212 → coord suffix"
+  ],
+  "count": 3
+}

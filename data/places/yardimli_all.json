@@ -1,76 +1,219 @@
 {
   "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
-  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
   "places": [
     {
-      "id": "e93a2a49-11f4-5efe-93df-15a7243c3b81",
-      "name": "Vergyaduzskiy Rayon",
-      "name_normalized": "vergyaduzskiy rayon",
+      "id": "793bc3db-7467-5c32-80f3-5949f7fb543d",
+      "name": "Nisəqala kənd məktəbi",
+      "name_normalized": "niseqala kend mektebi",
       "alt_names": [],
-      "category": "historic",
+      "category": "education",
       "coordinates": {
-        "lat": 38.91667,
-        "lon": 48.25
+        "lat": 38.8805311,
+        "lon": 48.2049742
       },
       "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
       "area_assign_method": "containment_verified",
       "area_assign_status": "verified",
-      "confidence": 0.7970505356788635,
+      "confidence": null,
       "status": "silver",
       "source_refs": [
         {
-          "source": "overture",
-          "source_id": "80658b63-1913-45b6-83b8-950182145dda",
-          "release": "2026-09-23.1",
-          "source_category": "historic_site"
+          "source": "osm",
+          "source_id": "node/5744859809",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
         }
       ]
     },
     {
-      "id": "53d9bc43-0aa0-52b4-90e8-66d02eef4920",
-      "name": "Yardimli  İdman Kompleksi",
-      "name_normalized": "yardimli i dman kompleksi",
+      "id": "3ff38725-eb91-5863-ba26-c393d09c38a8",
+      "name": "Pirembel kənd Məktəbi",
+      "name_normalized": "pirembel kend mektebi",
       "alt_names": [],
-      "category": "stadium",
+      "category": "education",
       "coordinates": {
-        "lat": 38.911473708866,
-        "lon": 48.268487600599
+        "lat": 38.9229454,
+        "lon": 48.1268051
       },
       "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
       "area_assign_method": "containment_verified",
       "area_assign_status": "verified",
-      "confidence": 0.8743564486503601,
+      "confidence": null,
       "status": "silver",
       "source_refs": [
         {
-          "source": "overture",
-          "source_id": "10a05d13-4ab9-4729-989f-93b48e9dc2ac",
-          "release": "2026-09-23.1",
-          "source_category": "stadium_arena"
+          "source": "osm",
+          "source_id": "node/3637038412",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
         }
       ]
     },
     {
-      "id": "bacaca48-e239-5949-b4d8-7f9e67c27df4",
-      "name": "Bürzünbül, Yardımlı",
-      "name_normalized": "burzunbul yardimli",
+      "id": "e8a4fb92-88fd-54f0-9a1e-a49388bbdb6b",
+      "name": "Urakəran kənd məktəbi",
+      "name_normalized": "urakeran kend mektebi",
       "alt_names": [],
-      "category": "historic",
+      "category": "education",
       "coordinates": {
-        "lat": 38.881666666667,
-        "lon": 48.288611111111
+        "lat": 38.8820594,
+        "lon": 48.2174492
       },
       "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
       "area_assign_method": "containment_verified",
       "area_assign_status": "verified",
-      "confidence": 0.7196099162101746,
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/5744862030",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "3b30e96f-518d-5a5c-8b8b-d27cbfa4be54",
+      "name": "Yardımlı rayonu Nizami Əskərov adına Sırıq kənd tam orta ümumtəhsil məktəbi",
+      "name_normalized": "yardimli rayonu nizami eskerov adina siriq kend tam orta umumtehsil mektebi",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 38.917047409312,
+        "lon": 48.312179803925
+      },
+      "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.755561351776123,
       "status": "silver",
       "source_refs": [
         {
           "source": "overture",
-          "source_id": "b44d9988-4c51-4c9e-82d9-6ae5880889cd",
+          "source_id": "82cbc062-04f3-464d-a04f-ec963d2ca7d9",
           "release": "2026-09-23.1",
-          "source_category": "historic_site"
+          "source_category": "school"
+        }
+      ]
+    },
+    {
+      "id": "d5dfb0e3-08c5-5382-902c-bf33b1650b3a",
+      "name": "Yardımlı rayonu üzrə təhsil sektoru",
+      "name_normalized": "yardimli rayonu uzre tehsil sektoru",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 38.907168369928456,
+        "lon": 48.243368043445905
+      },
+      "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8279569149017334,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "53d8cd22-1b90-4039-ac96-1b39c71850b7",
+          "release": "2026-09-23.1",
+          "source_category": "school"
+        }
+      ]
+    },
+    {
+      "id": "5b0bb917-cca7-5c84-a942-87cf6056e156",
+      "name": "Yardımlı Şəhər 4 saylı Tam Orta Məktəb",
+      "name_normalized": "yardimli seher 4 sayli tam orta mekteb",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 38.9038384000009,
+        "lon": 48.23708855000057
+      },
+      "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6142213940620422,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "d6be87c6-c09a-4c28-a98e-6ddc6b271b8a",
+          "release": "2026-09-23.1",
+          "source_category": "school"
+        }
+      ]
+    },
+    {
+      "id": "23e5ae5a-70bf-51a2-bd22-bfccc512228b",
+      "name": "Yardımlı Rayon İcra Hakimiyyəti",
+      "name_normalized": "yardimli rayon i cra hakimiyyeti",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 38.904744652777,
+        "lon": 48.233242034912
+      },
+      "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.769429624080658,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f29e2c94-3b9c-4e9c-a247-78cc0384d11c",
+          "release": "2026-09-23.1",
+          "source_category": "government_office"
+        }
+      ]
+    },
+    {
+      "id": "a0e58063-cb0f-56f0-b55a-ad9ebae91ede",
+      "name": "Yardımlı rayonu Mədəniyyət və Turizm Şöbəsi",
+      "name_normalized": "yardimli rayonu medeniyyet ve turizm sobesi",
+      "alt_names": [],
+      "category": "government",
+      "coordinates": {
+        "lat": 38.9206,
+        "lon": 48.2372
+      },
+      "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.5759276151657104,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "57cdc0a6-426e-46cf-befb-b97a3f7dabac",
+          "release": "2026-09-23.1",
+          "source_category": "government_office"
+        }
+      ]
+    },
+    {
+      "id": "aa065fbb-5e40-5741-84d3-f2c35472f074",
+      "name": "Yardımlı Rayon Mərkəzi Xəstəxanası",
+      "name_normalized": "yardimli rayon merkezi xestexanasi",
+      "alt_names": [],
+      "category": "healthcare",
+      "coordinates": {
+        "lat": 38.9084743,
+        "lon": 48.2582587
+      },
+      "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/7364700328",
+          "release": "azerbaijan-261020",
+          "source_category": "healthcare"
         }
       ]
     },
@@ -145,6 +288,238 @@
           "source_category": "historic_site"
         }
       ]
+    },
+    {
+      "id": "bacaca48-e239-5949-b4d8-7f9e67c27df4",
+      "name": "Bürzünbül, Yardımlı",
+      "name_normalized": "burzunbul yardimli",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.881666666667,
+        "lon": 48.288611111111
+      },
+      "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7196099162101746,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "b44d9988-4c51-4c9e-82d9-6ae5880889cd",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "e93a2a49-11f4-5efe-93df-15a7243c3b81",
+      "name": "Vergyaduzskiy Rayon",
+      "name_normalized": "vergyaduzskiy rayon",
+      "alt_names": [],
+      "category": "historic",
+      "coordinates": {
+        "lat": 38.91667,
+        "lon": 48.25
+      },
+      "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7970505356788635,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "80658b63-1913-45b6-83b8-950182145dda",
+          "release": "2026-09-23.1",
+          "source_category": "historic_site"
+        }
+      ]
+    },
+    {
+      "id": "8d03c1c5-fd88-593d-8cad-8f8e3945121e",
+      "name": "Azercell (38.9031,48.2369)",
+      "name_normalized": "azercell azercell 38 9031 48 2369",
+      "alt_names": [
+        "Azercell"
+      ],
+      "category": "other_poi",
+      "coordinates": {
+        "lat": 38.9030607,
+        "lon": 48.2369022
+      },
+      "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/8628363834",
+          "release": "azerbaijan-261020",
+          "source_category": "other_poi"
+        }
+      ]
+    },
+    {
+      "id": "d57bc21a-0f9f-5cad-8327-2ee7af4e9972",
+      "name": "Azercell (38.9067,48.2407)",
+      "name_normalized": "azercell azercell 38 9067 48 2407",
+      "alt_names": [
+        "Azercell"
+      ],
+      "category": "other_poi",
+      "coordinates": {
+        "lat": 38.9066761,
+        "lon": 48.2407468
+      },
+      "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10852529756",
+          "release": "azerbaijan-261020",
+          "source_category": "other_poi"
+        }
+      ]
+    },
+    {
+      "id": "db8aac81-796f-530f-9ac7-9268e3eaf720",
+      "name": "Məscid (38.9213,48.1241)",
+      "name_normalized": "mescid mescid 38 9213 48 1241",
+      "alt_names": [
+        "Məscid"
+      ],
+      "category": "religious",
+      "coordinates": {
+        "lat": 38.9212661,
+        "lon": 48.1240905
+      },
+      "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3637038411",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "2e5a1356-57ad-52fb-b8cb-94c0adc4ba19",
+      "name": "Məscid (38.9821,48.3390)",
+      "name_normalized": "mescid mescid 38 9821 48 3390",
+      "alt_names": [
+        "Məscid"
+      ],
+      "category": "religious",
+      "coordinates": {
+        "lat": 38.9820634,
+        "lon": 48.3390108
+      },
+      "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/3649019048",
+          "release": "azerbaijan-261020",
+          "source_category": "religious"
+        }
+      ]
+    },
+    {
+      "id": "a1aecc76-11c9-5ecf-99ef-2f9757c8c865",
+      "name": "Kapital Bank",
+      "name_normalized": "kapital bank",
+      "alt_names": [],
+      "category": "services",
+      "coordinates": {
+        "lat": 38.90351355,
+        "lon": 48.23638565
+      },
+      "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.920676052570343,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "cd7ba842-01a0-454d-8609-3b0210af6e0e",
+          "release": "2026-09-23.1",
+          "source_category": "bank_or_credit_union"
+        },
+        {
+          "source": "osm",
+          "source_id": "node/13236589974",
+          "release": "azerbaijan-261020",
+          "source_category": "services"
+        }
+      ]
+    },
+    {
+      "id": "53d9bc43-0aa0-52b4-90e8-66d02eef4920",
+      "name": "Yardimli  İdman Kompleksi",
+      "name_normalized": "yardimli i dman kompleksi",
+      "alt_names": [],
+      "category": "stadium",
+      "coordinates": {
+        "lat": 38.911473708866,
+        "lon": 48.268487600599
+      },
+      "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8743564486503601,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "10a05d13-4ab9-4729-989f-93b48e9dc2ac",
+          "release": "2026-09-23.1",
+          "source_category": "stadium_arena"
+        }
+      ]
+    },
+    {
+      "id": "e2f40b3f-4576-56b9-a625-7261592d56ad",
+      "name": "Perimbel Ailəvi İstirahət Mərkəzi",
+      "name_normalized": "perimbel ailevi i stirahet merkezi",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 38.9206,
+        "lon": 48.2372
+      },
+      "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.7935492396354675,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "8616141f-ed5c-42d9-8af6-d44047e6330c",
+          "release": "2026-09-23.1",
+          "source_category": "hotel"
+        }
+      ]
     }
-  ]
+  ],
+  "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
+  "rayon_key": "yardimli"
 }

@@ -1,0 +1,11 @@
+{
+  "key": "yardimli",
+  "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
+  "notes": [
+    "no street for duplicate name 'Məscid' @ 38.92127,48.12409 → coord suffix",
+    "no street for duplicate name 'Məscid' @ 38.98206,48.33901 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 38.90306,48.23690 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 38.90668,48.24075 → coord suffix"
+  ],
+  "count": 4
+}

@@ -10,11 +10,10 @@ Qaydalar: [`.cursor/rules/landmark-agent.mdc`](./.cursor/rules/landmark-agent.md
 
 ## PAUSE / davam nöqtəsi
 
-**Dataset:** `0.2.2-national` · places **8183** · validate **PASS**  
-**Bitən:** Nəsimi (CDN pin); **Beyləqan** (lokal, pin yox)  
-**CDN pin:** `v0.2.2-national` (Yasamal+Nəsimi) · digər Faza 3–4 enrich bu pində yoxdur  
-**Növbəti (Faza 4 lokal):** **Ağcabədi** (`agjabadi_all.json`)  
-**Növbəti (Bakı CDN):** **Nərimanov** (`narimanov_all.json`)
+**Dataset:** `0.3.0-national` · places **40891** · validate **PASS**  
+**Bitən:** Faza 1 (bütün Bakı) + Faza 2 + Faza 3 + Faza 4 (lokal)  
+**CDN pin:** `v0.3.0-national` (deploy gözlənilir)  
+**Növbəti:** git push + tag `v0.3.0-national` + CDN smoke
 
 ---
 
@@ -68,63 +67,63 @@ Baseline counts: `data/places/index.json` (cari: `0.2.2-national`).
 
 ### 3. Nərimanov
 
-- [ ] Inventar + namizəd + join/dedupe + assign  
-  Fayl: `places/narimanov_all.json` · baseline **164**  
-  **Hesabat:** _
+- [x] Geniş taxonomy + dedupe + küçə disambiguate  
+  Fayl: `places/narimanov_all.json` · **164 → 2915**  
+  **Hesabat (2026-10-23):** OSM **857** + Overture **2115**; merges **221**; disambig **210**. Top: shop 760, food 655, healthcare 371, education 347. Validate PASS. Skript: `enrich_landmark_places.py --key narimanov`.
 
 ### 4. Nizami (Bakı)
 
-- [ ] Inventar + namizəd + join/dedupe + assign  
-  Fayl: `places/nizami_baki_all.json` · baseline **80**  
-  **Hesabat:** _
+- [x] Geniş taxonomy + dedupe + küçə disambiguate  
+  Fayl: `places/nizami_baki_all.json` · **80 → 1203**  
+  **Hesabat (2026-10-23):** OSM **524** + Overture **704**; merges **105**; disambig **115**. Validate PASS. Skript: `--key nizami_baki`.
 
 ### 5. Binəqədi
 
-- [ ] Inventar + namizəd + join/dedupe + assign  
-  Fayl: `places/binagadi_all.json` · baseline **169**  
-  **Hesabat:** _
+- [x] Geniş taxonomy + dedupe + küçə disambiguate  
+  Fayl: `places/binagadi_all.json` · **169 → 2240**  
+  **Hesabat (2026-10-23):** OSM **1457** + Overture **814**; merges **200**; disambig **435**. Validate PASS. Skript: `--key binagadi`.
 
 ### 6. Səbail
 
-- [ ] Inventar + namizəd + join/dedupe + assign  
-  Fayl: `places/sabail_all.json` · baseline **308**  
-  **Hesabat:** _
+- [x] Geniş taxonomy + dedupe + küçə disambiguate  
+  Fayl: `places/sabail_all.json` · **308 → 2625**  
+  **Hesabat (2026-10-23):** OSM **1020** + Overture **1677**; merges **380**; disambig **227**. Top: food 932, shop 529, tourism 233. Validate PASS. Skript: `--key sabail`.
 
 ### 7. Xətai
 
-- [ ] Inventar + namizəd + join/dedupe + assign  
-  Fayl: `places/xetai_all.json` · baseline **172**  
-  **Hesabat:** _
+- [x] Geniş taxonomy + dedupe + küçə disambiguate  
+  Fayl: `places/xetai_all.json` · **172 → 1917**  
+  **Hesabat (2026-10-23):** OSM **675** + Overture **1274**; merges **204**; disambig **177**. Validate PASS. Skript: `--key xetai`.
 
 ### 8. Sabunçu
 
-- [ ] Inventar + namizəd + join/dedupe + assign  
-  Fayl: `places/sabuncu_all.json` · baseline **254**  
-  **Hesabat:** _
+- [x] Geniş taxonomy + dedupe + küçə disambiguate  
+  Fayl: `places/sabuncu_all.json` · **254 → 2308**  
+  **Hesabat (2026-10-23):** OSM **1771** + Overture **566**; merges **283**; disambig **609**. Validate PASS. Skript: `--key sabuncu`.
 
 ### 9. Suraxanı
 
-- [ ] Inventar + namizəd + join/dedupe + assign  
-  Fayl: `places/surakhani_all.json` · baseline **169**  
-  **Hesabat:** _
+- [x] Geniş taxonomy + dedupe + küçə disambiguate  
+  Fayl: `places/surakhani_all.json` · **169 → 1208**  
+  **Hesabat (2026-10-23):** OSM **997** + Overture **224**; merges **182**; disambig **327**. Validate PASS. Skript: `--key surakhani`.
 
 ### 10. Xəzər
 
-- [ ] Inventar + namizəd + join/dedupe + assign  
-  Fayl: `places/xezer_all.json` · baseline **263**  
-  **Hesabat:** _
+- [x] Geniş taxonomy + dedupe + küçə disambiguate  
+  Fayl: `places/xezer_all.json` · **263 → 2031**  
+  **Hesabat (2026-10-23):** OSM **1662** + Overture **386**; merges **280**; disambig **672**. Validate PASS. Skript: `--key xezer`.
 
 ### 11. Pirallahı
 
-- [ ] Inventar + namizəd + join/dedupe + assign  
-  Fayl: `places/pirallahi_all.json` · baseline **35**  
-  **Hesabat:** _
+- [x] Geniş taxonomy + dedupe + küçə disambiguate  
+  Fayl: `places/pirallahi_all.json` · **35 → 168**  
+  **Hesabat (2026-10-23):** OSM **149** + Overture **19**; merges **35**; disambig **52**. Validate PASS. Skript: `--key pirallahi`.
 
 ### 12. Qaradağ
 
-- [ ] Inventar + namizəd + join/dedupe + assign  
-  Fayl: `places/qaradag_all.json` · baseline **112**  
-  **Hesabat:** _
+- [x] Geniş taxonomy + dedupe + küçə disambiguate  
+  Fayl: `places/qaradag_all.json` · **112 → 1013**  
+  **Hesabat (2026-10-23):** OSM **833** + Overture **195**; merges **127**; disambig **240**. Validate PASS. Skript: `--key qaradag`.
 
 ---
 
@@ -163,109 +162,127 @@ Baseline counts: `data/places/index.json` (cari: `0.2.2-national`).
 
 ### 17. Gəncə — Kəpəz
 
-- [ ] `places/gence_kapaz_all.json` · baseline **14** · **Hesabat:** _
+- [x] Inventar + namizəd + join/dedupe + assign  
+  Fayl: `places/gence_kapaz_all.json` · **14 → 185**  
+  **Hesabat (2026-10-23):** OSM **40** + Overture **148** namizəd; dedupe merges **17**; disambiguate **13** (`landmark_gence_kapaz_disambiguate.json`). Kateqoriya: food 45, shop 36, education 34, healthcare 21, services 9, government 9, other_poi 5, historic/park/sport/tourism 4, culture/monument/museum/transport 2, religious/stadium 1. Assign: containment_verified. `pnpm validate` PASS · `pnpm test:named-places` PASS. Git/CDN: **yox** (lokal). Skript: `enrich_landmark_places.py --key gence_kapaz`.
 
 ### 18. Gəncə — Nizami
 
-- [ ] `places/gence_nizami_all.json` · baseline **31** · **Hesabat:** _
+- [x] Inventar + namizəd + join/dedupe + assign  
+  Fayl: `places/gence_nizami_all.json` · **31 → 398**  
+  **Hesabat (2026-10-23):** OSM **106** + Overture **299** namizəd; dedupe merges **38**; disambiguate **36** (`landmark_gence_nizami_disambiguate.json`). Kateqoriya: food 107, shop 68, education 61, services 32, tourism 26, healthcare 23, government 14, historic 12, other_poi 11, park 10, culture/monument 9, religious 6, transport 4, sport 3, stadium 2, museum 1. Assign: containment_verified. `pnpm validate` PASS · `pnpm test:named-places` PASS. Git/CDN: **yox** (lokal). Skript: `enrich_landmark_places.py --key gence_nizami`.
 
 ### 19. Mingəçevir
 
-- [ ] `places/mingachevir_all.json` · baseline **20** · **Hesabat:** _
+- [x] Inventar + namizəd + join/dedupe + children-first assign  
+  Fayl: `places/mingachevir_all.json` · **20 → 348**  
+  **Hesabat (2026-10-23):** OSM **238** + Overture **115**; merges **25**; disambig **47**. Children-first: uşağa 16 · city-only **332** · conflict **0**. Validate + named-places PASS. Git/CDN: **yox**. Skript: `enrich_landmark_places.py --key mingachevir`.
 
 ### 20. Şirvan
 
-- [ ] `places/shirvan_all.json` · baseline **10** · **Hesabat:** _
+- [x] Inventar + namizəd + join/dedupe + children-first assign  
+  Fayl: `places/shirvan_all.json` · **10 → 496**  
+  **Hesabat (2026-10-23):** OSM **435** + Overture **61**; merges **10**; disambig **113**. Children-first: Hacıqəhrəmanlı 2 · city-only **494** · conflict **0**. Validate + named-places PASS. Git/CDN: **yox**. Skript: `enrich_landmark_places.py --key shirvan`.
 
 ### 21. Naftalan
 
-- [ ] `places/naftalan_all.json` · baseline **2** · **Hesabat:** _
+- [x] Inventar + namizəd + join/dedupe + children-first assign  
+  Fayl: `places/naftalan_all.json` · **2 → 110**  
+  **Hesabat (2026-10-23):** OSM **91** + Overture **22**; merges **5**; disambig **11**. Children-first: Qaşaltı Qaraqoyunlu 3 · city-only **107**. Validate + named-places PASS. Git/CDN: **yox**. Skript: `enrich_landmark_places.py --key naftalan`.
 
 ### 22. Yevlax (şəhər)
 
-- [ ] `places/yevlax_all.json` · baseline **4** · **Hesabat:** _
+- [x] Inventar + namizəd + join/dedupe + children-first assign  
+  Fayl: `places/yevlax_all.json` · **4 → 180**  
+  **Hesabat (2026-10-23):** OSM **146** + Overture **34**; merges **4**; disambig **14**. Children-first: uşağa 31 · city-only **149**. Validate + named-places PASS. Git/CDN: **yox**. Skript: `enrich_landmark_places.py --key yevlax`.
 
 ### 23. Lənkəran (şəhər)
 
-- [ ] `places/lankaran_all.json` · baseline **15** · **Hesabat:** _
+- [x] Inventar + namizəd + join/dedupe + children-first assign  
+  Fayl: `places/lankaran_all.json` · **15 → 181**  
+  **Hesabat (2026-10-23):** OSM **59** + Overture **124**; merges **17**; disambig **14**. Children-first: Digah/Şiləvar · city-only **177**. Validate + named-places PASS. Git/CDN: **yox**. Skript: `enrich_landmark_places.py --key lankaran`.
 
 ### 24. Şəki (şəhər)
 
-- [ ] `places/sheki_all.json` · baseline **17** · **Hesabat:** _
+- [x] Inventar + namizəd + join/dedupe + children-first assign  
+  Fayl: `places/sheki_all.json` · **17 → 535**  
+  **Hesabat (2026-10-23):** OSM **385** + Overture **157**; merges **24**; disambig **69**. Kateqoriya (top): shop 147, food 111, tourism 54, education 42. Validate + named-places PASS. Git/CDN: **yox**. Skript: `enrich_landmark_places.py --key sheki`.
 
 ### 25. Naxçıvan (şəhər)
 
-- [ ] `places/nakhchivan_all.json` · baseline **35** · **Hesabat:** _
+- [x] Inventar + namizəd + join/dedupe + children-first assign  
+  Fayl: `places/nakhchivan_all.json` · **35 → 254**  
+  **Hesabat (2026-10-23):** OSM **93** + Overture **165**; merges **39**; disambig **24**. Children-first: Əliabad/Tumbul · city-only **251**. Validate + named-places PASS. Git/CDN: **yox**. Skript: `enrich_landmark_places.py --key nakhchivan`.
 
 ---
 
 ## Faza 4 — Digər rayonlar (ardıcıllıqla)
 
-Hər sətir bir blok. Baseline = `index.json` count.
+Hər sətir bir blok. **2026-10-23** paket: hamısı enrich + validate PASS · Git/CDN **yox** (lokal).
 
-- [ ] Xızı · `khizi` · **5**
-- [ ] Quba · `quba` · **39**
-- [ ] Qusar · `qusar` · **15**
-- [ ] Xaçmaz · `xachmaz` · **18**
-- [ ] Şabran · `shabran` · **7**
-- [ ] Siyəzən · `siyazan` · **2**
-- [ ] Şamaxı · `shamakhi` · **12**
-- [ ] İsmayıllı · `ismailli` · **23**
-- [ ] Ağsu · `agsu` · **10**
-- [ ] Qobustan · `gobustan` · **4**
-- [ ] Hacıqabul · `hajiqabul` · **5**
-- [ ] Salyan · `salyan` · **7**
-- [ ] Neftçala · `neftchala` · **7**
-- [ ] Sabirabad · `sabirabad` · **4**
-- [ ] Saatlı · `saatli` · **3**
-- [ ] İmişli · `imishli` · **5**
-- [x] Beyləqan · `beylagan` · **2 → 30** · OSM 11 + Ov 19; merges 2; disambig 2 · validate PASS · lokal · `enrich_landmark_places.py --key beylagan`
-- [ ] Ağcabədi · `agjabadi` · **2**
-- [ ] Yevlax rayonu · `yevlax_rayon` · **4**
-- [ ] Bərdə · `barda` · **6**
-- [ ] Ağdaş · `agdash` · **9**
-- [ ] Göyçay · `goychay` · **13**
-- [ ] Ucar · `ucar` · **4**
-- [ ] Zərdab · `zardab` · **4**
-- [ ] Kürdəmir · `kurdamir` · **5**
-- [ ] Daşkəsən · `dashkasan` · **3**
-- [ ] Göygöl · `goygol` · **12**
-- [ ] Samux · `samukh` · **2**
-- [ ] Şəmkir · `shamkir` · **16**
-- [ ] Tovuz · `tovuz` · **12**
-- [ ] Ağstafa · `agstafa` · **8**
-- [ ] Qazax · `gazakh` · **11**
-- [ ] Gədəbəy · `gedabey` · **8**
-- [ ] Şəki rayonu · `sheki_rayon` · **19**
-- [ ] Qax · `gakh` · **19**
-- [ ] Zaqatala · `zaqatala` · **19**
-- [ ] Balakən · `balakan` · **5**
-- [ ] Oğuz · `oguz` · **7**
-- [ ] Qəbələ · `gabala` · **25**
-- [ ] Lənkəran rayonu · `lankaran_rayon` · **15**
-- [ ] Astara · `astara` · **10**
-- [ ] Lerik · `lerik` · **4**
-- [ ] Yardımlı · `yardimli` · **6**
-- [ ] Masallı · `masalli` · **11**
-- [ ] Cəlilabad · `jalilabad` · **4**
-- [ ] Ağdam · `agdam` · **8**
-- [ ] Füzuli · `fuzuli` · **8**
-- [ ] Tərtər · `tartar` · **4**
-- [ ] Xocalı · `khojaly` · **11**
-- [ ] Xocavənd · `khojavend` · **5**
-- [ ] Şuşa · `shusha` · **18**
-- [ ] Laçın · `lachin` · **3**
-- [ ] Kəlbəcər · `kalbajar` · **2**
-- [ ] Qubadlı · `qubadli` · **2**
-- [ ] Zəngilan · `zangilan` · **0** _(boş baseline — mənbədən ehtiyatla)_
-- [ ] Cəbrayıl · `jabrayil` · **0**
-- [ ] Babək · `babek` · **5**
-- [ ] Culfa · `julfa` · **8**
-- [ ] Kəngərli · `kangarli` · **2**
-- [ ] Ordubad · `ordubad` · **12**
-- [ ] Sədərək · `sadarak` · **0**
-- [ ] Şahbuz · `shahbuz` · **2**
-- [ ] Şərur · `sharur` · **0**
+- [x] Xızı · `khizi` · **5 → 61**
+- [x] Quba · `quba` · **39 → 415**
+- [x] Qusar · `qusar` · **15 → 477**
+- [x] Xaçmaz · `xachmaz` · **18 → 458**
+- [x] Şabran · `shabran` · **7 → 70**
+- [x] Siyəzən · `siyazan` · **2 → 65**
+- [x] Şamaxı · `shamakhi` · **12 → 536**
+- [x] İsmayıllı · `ismailli` · **23 → 377**
+- [x] Ağsu · `agsu` · **10 → 146**
+- [x] Qobustan · `gobustan` · **4 → 111**
+- [x] Hacıqabul · `hajiqabul` · **5 → 193**
+- [x] Salyan · `salyan` · **7 → 546**
+- [x] Neftçala · `neftchala` · **7 → 116**
+- [x] Sabirabad · `sabirabad` · **4 → 79**
+- [x] Saatlı · `saatli` · **3 → 30**
+- [x] İmişli · `imishli` · **5 → 63**
+- [x] Beyləqan · `beylagan` · **2 → 30** (yenidən enrich 2026-10-23)
+- [x] Ağcabədi · `agjabadi` · **2 → 262**
+- [x] Yevlax rayonu · `yevlax_rayon` · **4 → 93**
+- [x] Bərdə · `barda` · **6 → 123**
+- [x] Ağdaş · `agdash` · **9 → 244**
+- [x] Göyçay · `goychay` · **13 → 226**
+- [x] Ucar · `ucar` · **4 → 143**
+- [x] Zərdab · `zardab` · **4 → 44**
+- [x] Kürdəmir · `kurdamir` · **5 → 180**
+- [x] Daşkəsən · `dashkasan` · **3 → 129**
+- [x] Göygöl · `goygol` · **12 → 250**
+- [x] Samux · `samukh` · **2 → 132**
+- [x] Şəmkir · `shamkir` · **16 → 504**
+- [x] Tovuz · `tovuz` · **12 → 468**
+- [x] Ağstafa · `agstafa` · **8 → 339**
+- [x] Qazax · `gazakh` · **11 → 428**
+- [x] Gədəbəy · `gedabey` · **8 → 360**
+- [x] Şəki rayonu · `sheki_rayon` · **19 → 216**
+- [x] Qax · `gakh` · **19 → 298**
+- [x] Zaqatala · `zaqatala` · **19 → 386**
+- [x] Balakən · `balakan` · **5 → 267**
+- [x] Oğuz · `oguz` · **7 → 251**
+- [x] Qəbələ · `gabala` · **25 → 417**
+- [x] Lənkəran rayonu · `lankaran_rayon` · **15 → 71**
+- [x] Astara · `astara` · **10 → 63**
+- [x] Lerik · `lerik` · **4 → 64**
+- [x] Yardımlı · `yardimli` · **6 → 21**
+- [x] Masallı · `masalli` · **11 → 98**
+- [x] Cəlilabad · `jalilabad` · **4 → 68**
+- [x] Ağdam · `agdam` · **8 → 42**
+- [x] Füzuli · `fuzuli` · **8 → 29**
+- [x] Tərtər · `tartar` · **4 → 60**
+- [x] Xocalı · `khojaly` · **11 → 276**
+- [x] Xocavənd · `khojavend` · **5 → 41**
+- [x] Şuşa · `shusha` · **18 → 66**
+- [x] Laçın · `lachin` · **3 → 23**
+- [x] Kəlbəcər · `kalbajar` · **2 → 14**
+- [x] Qubadlı · `qubadli` · **2 → 4**
+- [x] Zəngilan · `zangilan` · **0 → 9**
+- [x] Cəbrayıl · `jabrayil` · **0 → 5**
+- [x] Babək · `babek` · **5 → 25**
+- [x] Culfa · `julfa` · **8 → 24**
+- [x] Kəngərli · `kangarli` · **2 → 6**
+- [x] Ordubad · `ordubad` · **12 → 29**
+- [x] Sədərək · `sadarak` · **0 → 3**
+- [x] Şahbuz · `shahbuz` · **2 → 11**
+- [x] Şərur · `sharur` · **0 → 9**
 
 ---
 

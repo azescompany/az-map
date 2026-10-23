@@ -1,0 +1,16 @@
+{
+  "key": "barda",
+  "area_id": "7a77c6ff-8d53-5940-883c-2931d809622a",
+  "notes": [
+    "no street for duplicate name 'Мечеть Угурбейли' @ 40.36669,47.11668 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 40.36938,47.12742 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 40.37476,47.12225 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 40.38444,47.12749 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 40.38398,47.12480 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 40.38537,47.12341 → coord suffix",
+    "no street for duplicate name 'Araz' @ 40.39918,47.12295 → coord suffix",
+    "no street for duplicate name 'Araz' @ 40.35073,47.16154 → coord suffix",
+    "no street for duplicate name 'Araz' @ 40.37465,47.11949 → coord suffix"
+  ],
+  "count": 9
+}

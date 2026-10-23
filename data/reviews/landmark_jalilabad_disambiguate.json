@@ -1,0 +1,14 @@
+{
+  "key": "jalilabad",
+  "area_id": "709fbdf8-acbb-5197-a685-6d1bf6c77d87",
+  "notes": [
+    "no street for duplicate name 'Celilabad Rayon Merkezi Xestexanasi' @ 39.21512,48.48732 → coord suffix",
+    "no street for duplicate name 'Cəlilabad Rayon Mərkəzi Xəstəxanası' @ 39.21661,48.50267 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 39.20943,48.50027 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 39.11635,48.59516 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 39.20939,48.49843 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 39.11505,48.59548 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 39.20898,48.50035 → coord suffix"
+  ],
+  "count": 7
+}

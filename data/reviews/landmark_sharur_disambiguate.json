@@ -1,0 +1,10 @@
+{
+  "key": "sharur",
+  "area_id": "6c34e687-79f7-5cae-aaa8-904708c403a9",
+  "notes": [
+    "no street for duplicate name 'Azercell' @ 39.55550,44.98651 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 39.55467,44.98323 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 39.55444,44.98523 → coord suffix"
+  ],
+  "count": 3
+}

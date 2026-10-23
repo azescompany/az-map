@@ -1,6 +1,6 @@
 {
   "region": "azerbaijan",
-  "total": 12377,
+  "total": 40891,
   "by_rayon": {
     "yasamal": {
       "name": "Yasamal rayonu",
@@ -17,61 +17,61 @@
     "narimanov": {
       "name": "Nərimanov rayonu",
       "area_id": "bf27cd5f-18fd-5db3-a793-c54890dc2480",
-      "count": 164,
+      "count": 2915,
       "file": "places/narimanov_all.json"
     },
     "nizami_baki": {
       "name": "Nizami rayonu",
       "area_id": "efdc6d2d-b895-5692-a7c4-724ef5302eda",
-      "count": 80,
+      "count": 1203,
       "file": "places/nizami_baki_all.json"
     },
     "binagadi": {
       "name": "Binəqədi rayonu",
       "area_id": "ebe11990-4641-52f5-aa58-e11559c4ca59",
-      "count": 169,
+      "count": 2240,
       "file": "places/binagadi_all.json"
     },
     "sabail": {
       "name": "Səbail rayonu",
       "area_id": "d7ac5d00-4386-5df1-b2ad-5128849407fc",
-      "count": 308,
+      "count": 2625,
       "file": "places/sabail_all.json"
     },
     "xetai": {
       "name": "Xətai rayonu",
       "area_id": "e9065f3d-f0c2-5406-b98e-25b8d52e3b5b",
-      "count": 172,
+      "count": 1917,
       "file": "places/xetai_all.json"
     },
     "sabuncu": {
       "name": "Sabunçu rayonu",
       "area_id": "4bad6478-27be-570c-8965-d1c6339f8128",
-      "count": 254,
+      "count": 2308,
       "file": "places/sabuncu_all.json"
     },
     "surakhani": {
       "name": "Suraxanı rayonu",
       "area_id": "d2981fa1-7fe5-5b12-9a6b-99cd9baaea16",
-      "count": 169,
+      "count": 1208,
       "file": "places/surakhani_all.json"
     },
     "xezer": {
       "name": "Xəzər rayonu",
       "area_id": "fbee2486-f2fb-5475-a8b9-aa46f689feb7",
-      "count": 263,
+      "count": 2031,
       "file": "places/xezer_all.json"
     },
     "pirallahi": {
       "name": "Pirallahı rayonu",
       "area_id": "2a382cd5-8bc4-55a0-86d2-e2a6072e8f73",
-      "count": 35,
+      "count": 168,
       "file": "places/pirallahi_all.json"
     },
     "qaradag": {
       "name": "Qaradağ rayonu",
       "area_id": "807ae588-0bb8-51ee-8c6f-9b5267abbbfd",
-      "count": 112,
+      "count": 1013,
       "file": "places/qaradag_all.json"
     },
     "sumqayit": {
@@ -101,433 +101,433 @@
     "gence_kapaz": {
       "name": "Kəpəz rayonu",
       "area_id": "92ac7080-2ca6-50fd-ac4a-e6f759e0e891",
-      "count": 14,
+      "count": 185,
       "file": "places/gence_kapaz_all.json"
     },
     "gence_nizami": {
       "name": "Nizami rayonu",
       "area_id": "092d3f38-a984-5ff2-854a-a1d152003cc7",
-      "count": 31,
+      "count": 398,
       "file": "places/gence_nizami_all.json"
     },
     "mingachevir": {
       "name": "Mingəçevir",
       "area_id": "6f487a89-3bdb-54b5-bc82-3beeecb84be9",
-      "count": 20,
+      "count": 348,
       "file": "places/mingachevir_all.json"
     },
     "shirvan": {
       "name": "Şirvan",
       "area_id": "4770b1b1-5aff-55d8-a01a-7f51601bf4cb",
-      "count": 10,
+      "count": 496,
       "file": "places/shirvan_all.json"
     },
     "naftalan": {
       "name": "Naftalan",
       "area_id": "997eb0a1-8425-5919-80da-907d8f479cf7",
-      "count": 2,
+      "count": 110,
       "file": "places/naftalan_all.json"
     },
     "yevlax": {
       "name": "Yevlax",
       "area_id": "3bd2f01d-ea83-5489-a16e-9905cd0b8d9c",
-      "count": 4,
+      "count": 180,
       "file": "places/yevlax_all.json"
     },
     "lankaran": {
       "name": "Lənkəran",
       "area_id": "c8842d4f-3e6b-5f4b-8e94-2abf53b507d6",
-      "count": 15,
+      "count": 181,
       "file": "places/lankaran_all.json"
     },
     "sheki": {
       "name": "Şəki",
       "area_id": "84652ade-57b0-5975-a105-b7cdb2444bcc",
-      "count": 17,
+      "count": 535,
       "file": "places/sheki_all.json"
     },
     "nakhchivan": {
       "name": "Naxçıvan",
       "area_id": "0768075a-2054-5f7c-9d58-c98d2edada0e",
-      "count": 35,
+      "count": 254,
       "file": "places/nakhchivan_all.json"
     },
     "khizi": {
       "name": "Xızı rayonu",
       "area_id": "191a84bf-14b3-5a84-864c-5c67ced931ec",
-      "count": 5,
+      "count": 61,
       "file": "places/khizi_all.json"
     },
     "quba": {
       "name": "Quba rayonu",
       "area_id": "b52c3337-9522-5a04-86b8-df8e43f3f8b9",
-      "count": 39,
+      "count": 415,
       "file": "places/quba_all.json"
     },
     "qusar": {
       "name": "Qusar rayonu",
       "area_id": "6fec85b0-0967-5a32-8c49-4804119a40ae",
-      "count": 15,
+      "count": 477,
       "file": "places/qusar_all.json"
     },
     "xachmaz": {
       "name": "Xaçmaz rayonu",
       "area_id": "45206736-f118-53dd-8252-b8d32a2b5cba",
-      "count": 18,
+      "count": 458,
       "file": "places/xachmaz_all.json"
     },
     "shabran": {
       "name": "Şabran rayonu",
       "area_id": "5fb6cd28-0ea7-5ac3-994f-48bb0bf88343",
-      "count": 7,
+      "count": 70,
       "file": "places/shabran_all.json"
     },
     "siyazan": {
       "name": "Siyəzən rayonu",
       "area_id": "cac9becb-d9eb-5a5e-9340-cab7a24f3d70",
-      "count": 2,
+      "count": 65,
       "file": "places/siyazan_all.json"
     },
     "shamakhi": {
       "name": "Şamaxı rayonu",
       "area_id": "286e9a90-aeb8-5495-a7f5-ac396d834cc6",
-      "count": 12,
+      "count": 536,
       "file": "places/shamakhi_all.json"
     },
     "ismailli": {
       "name": "İsmayıllı rayonu",
       "area_id": "32cc6720-98b2-5de0-bc65-13796e6385ab",
-      "count": 23,
+      "count": 377,
       "file": "places/ismailli_all.json"
     },
     "agsu": {
       "name": "Ağsu rayonu",
       "area_id": "0b66ddcc-de63-5256-a51b-f003d95e945e",
-      "count": 10,
+      "count": 146,
       "file": "places/agsu_all.json"
     },
     "gobustan": {
       "name": "Qobustan rayonu",
       "area_id": "1f23b55d-e32f-5613-89f6-803737d7f924",
-      "count": 4,
+      "count": 111,
       "file": "places/gobustan_all.json"
     },
     "hajiqabul": {
       "name": "Hacıqabul rayonu",
       "area_id": "14df867e-3d94-587c-b56b-28bb657bbb07",
-      "count": 5,
+      "count": 193,
       "file": "places/hajiqabul_all.json"
     },
     "salyan": {
       "name": "Salyan rayonu",
       "area_id": "bce4d2f6-bfcc-56e6-8571-97c50f3e74f2",
-      "count": 7,
+      "count": 546,
       "file": "places/salyan_all.json"
     },
     "neftchala": {
       "name": "Neftçala rayonu",
       "area_id": "18688643-9cef-5e65-a2fa-a84819393c6c",
-      "count": 7,
+      "count": 116,
       "file": "places/neftchala_all.json"
     },
     "sabirabad": {
       "name": "Sabirabad rayonu",
       "area_id": "db042a83-0a77-509e-b8c1-3f0573c42f17",
-      "count": 4,
+      "count": 79,
       "file": "places/sabirabad_all.json"
     },
     "saatli": {
       "name": "Saatlı rayonu",
       "area_id": "559ccbd7-fabc-5b46-ba92-500bcf9ef4b2",
-      "count": 3,
+      "count": 30,
       "file": "places/saatli_all.json"
     },
     "imishli": {
       "name": "İmişli rayonu",
       "area_id": "359a014a-e4e6-5647-bbf4-98ce4dd98870",
-      "count": 5,
+      "count": 63,
       "file": "places/imishli_all.json"
     },
     "beylagan": {
       "name": "Beyləqan rayonu",
       "area_id": "abcafc86-adf9-5cf7-a469-04f49245b9d6",
-      "count": 2,
+      "count": 30,
       "file": "places/beylagan_all.json"
     },
     "agjabadi": {
       "name": "Ağcabədi rayonu",
       "area_id": "6a9aa3fd-1253-5da5-a0fc-e1e2f071ea3c",
-      "count": 2,
+      "count": 262,
       "file": "places/agjabadi_all.json"
     },
     "yevlax_rayon": {
       "name": "Yevlax rayonu",
       "area_id": "bf911836-dec1-5c87-9cef-a1d22d111f4e",
-      "count": 4,
+      "count": 93,
       "file": "places/yevlax_rayon_all.json"
     },
     "barda": {
       "name": "Bərdə rayonu",
       "area_id": "7a77c6ff-8d53-5940-883c-2931d809622a",
-      "count": 6,
+      "count": 123,
       "file": "places/barda_all.json"
     },
     "agdash": {
       "name": "Ağdaş rayonu",
       "area_id": "bc57b59f-7be7-5534-b28f-fa95ac1f3097",
-      "count": 9,
+      "count": 244,
       "file": "places/agdash_all.json"
     },
     "goychay": {
       "name": "Göyçay rayonu",
       "area_id": "a26e4ff2-54c0-5c88-b180-5020d105d64d",
-      "count": 13,
+      "count": 226,
       "file": "places/goychay_all.json"
     },
     "ucar": {
       "name": "Ucar rayonu",
       "area_id": "5bfacc06-2a5a-5d9d-af55-e26a19b9d6f2",
-      "count": 4,
+      "count": 143,
       "file": "places/ucar_all.json"
     },
     "zardab": {
       "name": "Zərdab rayonu",
       "area_id": "d66fb656-4b6c-5b7e-b86f-7f222ce1918f",
-      "count": 4,
+      "count": 44,
       "file": "places/zardab_all.json"
     },
     "kurdamir": {
       "name": "Kürdəmir rayonu",
       "area_id": "748abe04-6d06-5fa2-a6b3-1f9f967ee02a",
-      "count": 5,
+      "count": 180,
       "file": "places/kurdamir_all.json"
     },
     "dashkasan": {
       "name": "Daşkəsən rayonu",
       "area_id": "666fc78b-9053-5fe5-b2e6-8156dcdd80c7",
-      "count": 3,
+      "count": 129,
       "file": "places/dashkasan_all.json"
     },
     "goygol": {
       "name": "Göygöl rayonu",
       "area_id": "7cf52e77-47b7-5712-b6ce-739698bc83d3",
-      "count": 12,
+      "count": 250,
       "file": "places/goygol_all.json"
     },
     "samukh": {
       "name": "Samux rayonu",
       "area_id": "3ea08ec5-7ec1-5a5f-b418-2cc100be9264",
-      "count": 2,
+      "count": 132,
       "file": "places/samukh_all.json"
     },
     "shamkir": {
       "name": "Şəmkir rayonu",
       "area_id": "e81a5840-32d7-5889-98a6-69120e5d7ed7",
-      "count": 16,
+      "count": 504,
       "file": "places/shamkir_all.json"
     },
     "tovuz": {
       "name": "Tovuz rayonu",
       "area_id": "f1b03783-185a-5fe7-ad0a-3b6ea4d9c633",
-      "count": 12,
+      "count": 468,
       "file": "places/tovuz_all.json"
     },
     "agstafa": {
       "name": "Ağstafa rayonu",
       "area_id": "43959365-1f7e-50d0-aa64-710298cab5bd",
-      "count": 8,
+      "count": 339,
       "file": "places/agstafa_all.json"
     },
     "gazakh": {
       "name": "Qazax rayonu",
       "area_id": "594849ce-b1ad-58d8-934c-4de1524c704a",
-      "count": 11,
+      "count": 428,
       "file": "places/gazakh_all.json"
     },
     "gedabey": {
       "name": "Gədəbəy rayonu",
       "area_id": "1c9117db-930f-544f-86d3-4c3be06cacdb",
-      "count": 8,
+      "count": 360,
       "file": "places/gedabey_all.json"
     },
     "sheki_rayon": {
       "name": "Şəki rayonu",
       "area_id": "5a88d1bb-f472-597d-9c8c-193cd2052033",
-      "count": 19,
+      "count": 216,
       "file": "places/sheki_rayon_all.json"
     },
     "gakh": {
       "name": "Qax rayonu",
       "area_id": "fd5f5117-b94a-549e-8b7d-7112381298ad",
-      "count": 19,
+      "count": 298,
       "file": "places/gakh_all.json"
     },
     "zaqatala": {
       "name": "Zaqatala rayonu",
       "area_id": "52e46674-ff8f-57de-90bd-5327e24e7bb4",
-      "count": 19,
+      "count": 386,
       "file": "places/zaqatala_all.json"
     },
     "balakan": {
       "name": "Balakən rayonu",
       "area_id": "b22a65cb-a5a1-515c-bda5-758a3f5d829c",
-      "count": 5,
+      "count": 267,
       "file": "places/balakan_all.json"
     },
     "oguz": {
       "name": "Oğuz rayonu",
       "area_id": "8604052b-f28f-5c80-be49-3d3770ef7374",
-      "count": 7,
+      "count": 251,
       "file": "places/oguz_all.json"
     },
     "gabala": {
       "name": "Qəbələ rayonu",
       "area_id": "edd1d321-938f-52da-95ba-3af718e6104f",
-      "count": 25,
+      "count": 417,
       "file": "places/gabala_all.json"
     },
     "lankaran_rayon": {
       "name": "Lənkəran rayonu",
       "area_id": "ed11e2c9-e14a-5ddd-a99d-d84cf6dadd92",
-      "count": 15,
+      "count": 71,
       "file": "places/lankaran_rayon_all.json"
     },
     "astara": {
       "name": "Astara rayonu",
       "area_id": "df1151dd-8b83-55c1-bbe8-55e8ea430523",
-      "count": 10,
+      "count": 63,
       "file": "places/astara_all.json"
     },
     "lerik": {
       "name": "Lerik rayonu",
       "area_id": "4a92fe72-1565-543e-859d-94af4b3318a8",
-      "count": 4,
+      "count": 64,
       "file": "places/lerik_all.json"
     },
     "yardimli": {
       "name": "Yardımlı rayonu",
       "area_id": "5781664a-0bb7-5f8c-a02d-6c445aadfeba",
-      "count": 6,
+      "count": 21,
       "file": "places/yardimli_all.json"
     },
     "masalli": {
       "name": "Masallı rayonu",
       "area_id": "b1d864f5-f0ea-5660-91eb-01a56351cfea",
-      "count": 11,
+      "count": 98,
       "file": "places/masalli_all.json"
     },
     "jalilabad": {
       "name": "Cəlilabad rayonu",
       "area_id": "709fbdf8-acbb-5197-a685-6d1bf6c77d87",
-      "count": 4,
+      "count": 68,
       "file": "places/jalilabad_all.json"
     },
     "agdam": {
       "name": "Ağdam rayonu",
       "area_id": "6454c0d8-662c-5533-8a2e-8bc7b34dcdfa",
-      "count": 8,
+      "count": 42,
       "file": "places/agdam_all.json"
     },
     "fuzuli": {
       "name": "Füzuli rayonu",
       "area_id": "eb593579-9816-5449-a5cd-1dacaafbcef9",
-      "count": 8,
+      "count": 29,
       "file": "places/fuzuli_all.json"
     },
     "tartar": {
       "name": "Tərtər rayonu",
       "area_id": "9f564169-32e9-5a49-a8e0-beda6446010f",
-      "count": 4,
+      "count": 60,
       "file": "places/tartar_all.json"
     },
     "khojaly": {
       "name": "Xocalı rayonu",
       "area_id": "953def2b-b93d-5343-acd7-ef5cffbd9eba",
-      "count": 11,
+      "count": 276,
       "file": "places/khojaly_all.json"
     },
     "khojavend": {
       "name": "Xocavənd rayonu",
       "area_id": "df974046-9d94-5c48-a161-d71e59239929",
-      "count": 5,
+      "count": 41,
       "file": "places/khojavend_all.json"
     },
     "shusha": {
       "name": "Şuşa rayonu",
       "area_id": "6871887d-185d-5c4a-a7bf-91864c4faf97",
-      "count": 18,
+      "count": 66,
       "file": "places/shusha_all.json"
     },
     "lachin": {
       "name": "Laçın rayonu",
       "area_id": "303b54e3-194c-526f-bdd9-f68cacfec815",
-      "count": 3,
+      "count": 23,
       "file": "places/lachin_all.json"
     },
     "kalbajar": {
       "name": "Kəlbəcər rayonu",
       "area_id": "8bc90433-a4ad-5e10-9bea-d0f1148ab298",
-      "count": 2,
+      "count": 14,
       "file": "places/kalbajar_all.json"
     },
     "qubadli": {
       "name": "Qubadlı rayonu",
       "area_id": "d902bc7f-786d-51bb-a91c-b3131400b2e6",
-      "count": 2,
+      "count": 4,
       "file": "places/qubadli_all.json"
     },
     "zangilan": {
       "name": "Zəngilan rayonu",
       "area_id": "4c12a8aa-1aea-557d-a81f-136903ad485c",
-      "count": 0,
+      "count": 9,
       "file": "places/zangilan_all.json"
     },
     "jabrayil": {
       "name": "Cəbrayıl rayonu",
       "area_id": "1578a814-3c5f-512e-88e7-d767eb2fb9e5",
-      "count": 0,
+      "count": 5,
       "file": "places/jabrayil_all.json"
     },
     "babek": {
       "name": "Babək rayonu",
       "area_id": "9324a75e-3c25-5db7-a1f5-ad37a0b1694a",
-      "count": 5,
+      "count": 25,
       "file": "places/babek_all.json"
     },
     "julfa": {
       "name": "Culfa rayonu",
       "area_id": "8f3a1052-4f97-5b2e-9cbb-d6d642d24625",
-      "count": 8,
+      "count": 24,
       "file": "places/julfa_all.json"
     },
     "kangarli": {
       "name": "Kəngərli rayonu",
       "area_id": "9ff4b809-be4e-5596-a7a1-63e9c06a7396",
-      "count": 2,
+      "count": 6,
       "file": "places/kangarli_all.json"
     },
     "ordubad": {
       "name": "Ordubad rayonu",
       "area_id": "ab00188f-a25e-5dbe-a5d5-a2c11337a095",
-      "count": 12,
+      "count": 29,
       "file": "places/ordubad_all.json"
     },
     "sadarak": {
       "name": "Sədərək rayonu",
       "area_id": "99a0e3f5-b601-5aef-8438-5162dd895e3a",
-      "count": 0,
+      "count": 3,
       "file": "places/sadarak_all.json"
     },
     "shahbuz": {
       "name": "Şahbuz rayonu",
       "area_id": "a0e3d6ff-4788-53c1-b202-a22f53d7b21d",
-      "count": 2,
+      "count": 11,
       "file": "places/shahbuz_all.json"
     },
     "sharur": {
       "name": "Şərur rayonu",
       "area_id": "6c34e687-79f7-5cae-aaa8-904708c403a9",
-      "count": 0,
+      "count": 9,
       "file": "places/sharur_all.json"
     },
     "absheron_absheron_asagi_guzdek": {

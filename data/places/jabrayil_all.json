@@ -1,5 +1,127 @@
 {
   "area_id": "1578a814-3c5f-512e-88e7-d767eb2fb9e5",
+  "places": [
+    {
+      "id": "637ea0d4-3191-5423-bd2d-df33d472f7a9",
+      "name": "Mehdi Mehdizadə adına tam orta məktəb",
+      "name_normalized": "mehdi mehdizade adina tam orta mekteb",
+      "alt_names": [],
+      "category": "education",
+      "coordinates": {
+        "lat": 39.3930874,
+        "lon": 47.0270713
+      },
+      "area_id": "1578a814-3c5f-512e-88e7-d767eb2fb9e5",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/12319883396",
+          "release": "azerbaijan-261020",
+          "source_category": "education"
+        }
+      ]
+    },
+    {
+      "id": "e5cb5329-c834-5e1a-b6af-aec24c8ef6da",
+      "name": "Octagonal tomb (17th century)",
+      "name_normalized": "octagonal tomb 17th century",
+      "alt_names": [],
+      "category": "monument",
+      "coordinates": {
+        "lat": 39.4064777,
+        "lon": 47.007275
+      },
+      "area_id": "1578a814-3c5f-512e-88e7-d767eb2fb9e5",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/9101649258",
+          "release": "azerbaijan-261020",
+          "source_category": "monument"
+        }
+      ]
+    },
+    {
+      "id": "4e9c0ba6-1715-5154-827b-ed264696ff0f",
+      "name": "Kapital Bank ( Cəbrayıl Filialı)",
+      "name_normalized": "kapital bank cebrayil filiali",
+      "alt_names": [],
+      "category": "services",
+      "coordinates": {
+        "lat": 39.3855431,
+        "lon": 47.036014
+      },
+      "area_id": "1578a814-3c5f-512e-88e7-d767eb2fb9e5",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": null,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "osm",
+          "source_id": "node/10702671041",
+          "release": "azerbaijan-261020",
+          "source_category": "services"
+        }
+      ]
+    },
+    {
+      "id": "0b2df827-e046-5252-b983-758dea0e93ce",
+      "name": "CƏBrayİL Rayonu",
+      "name_normalized": "cebrayi l rayonu",
+      "alt_names": [],
+      "category": "tourism",
+      "coordinates": {
+        "lat": 39.39805,
+        "lon": 47.02781
+      },
+      "area_id": "1578a814-3c5f-512e-88e7-d767eb2fb9e5",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.6629239916801453,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "f3fb8012-c2f7-487c-b127-e8e3bfdf169f",
+          "release": "2026-09-23.1",
+          "source_category": "lodging"
+        }
+      ]
+    },
+    {
+      "id": "7d29cb47-d7c8-5e17-8ca2-6e40cec707f5",
+      "name": "Azpetrol",
+      "name_normalized": "azpetrol",
+      "alt_names": [],
+      "category": "transport",
+      "coordinates": {
+        "lat": 39.256449606039865,
+        "lon": 47.03302584417924
+      },
+      "area_id": "1578a814-3c5f-512e-88e7-d767eb2fb9e5",
+      "area_assign_method": "containment_verified",
+      "area_assign_status": "verified",
+      "confidence": 0.8,
+      "status": "silver",
+      "source_refs": [
+        {
+          "source": "overture",
+          "source_id": "49014f70-5096-4df2-8f11-0e4578949b74",
+          "release": "2026-09-23.1",
+          "source_category": "gas_station"
+        }
+      ]
+    }
+  ],
   "parent_area_id": "44517494-dccb-54df-a06f-9ea3bbaf49ff",
-  "places": []
+  "rayon_key": "jabrayil"
 }

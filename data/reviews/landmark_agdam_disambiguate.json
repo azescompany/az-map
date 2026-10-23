@@ -1,0 +1,11 @@
+{
+  "key": "agdam",
+  "area_id": "6454c0d8-662c-5533-8a2e-8bc7b34dcdfa",
+  "notes": [
+    "no street for duplicate name 'İmarət stadionu' @ 39.98996,46.92796 → coord suffix",
+    "no street for duplicate name '“İmarət” stadionu' @ 39.98988,46.90993 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 40.15669,47.16445 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 40.16059,47.16031 → coord suffix"
+  ],
+  "count": 4
+}

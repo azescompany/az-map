@@ -1,0 +1,27 @@
+{
+  "key": "kurdamir",
+  "area_id": "748abe04-6d06-5fa2-a6b3-1f9f967ee02a",
+  "notes": [
+    "no street for duplicate name 'Avtoservis' @ 40.31875,48.14842 → coord suffix",
+    "no street for duplicate name 'Avtoservis' @ 40.31800,48.21339 → coord suffix",
+    "no street for duplicate name 'Kafe' @ 40.36598,48.08148 → coord suffix",
+    "no street for duplicate name 'Kafe' @ 40.28637,48.32079 → coord suffix",
+    "no street for duplicate name 'Kafe' @ 40.31153,48.23587 → coord suffix",
+    "no street for duplicate name 'Oba market' @ 40.25404,48.41457 → coord suffix",
+    "no street for duplicate name 'Oba Market' @ 40.34699,48.15912 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 40.34188,48.15619 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 40.33614,48.15053 → coord suffix",
+    "no street for duplicate name 'Azercell' @ 40.33785,48.15391 → coord suffix",
+    "no street for duplicate name 'Bələdiyyə' @ 40.43536,48.26391 → coord suffix",
+    "no street for duplicate name 'Bələdiyyə' @ 40.26112,48.41203 → coord suffix",
+    "no street for duplicate name 'Tarix Muzeyi' @ 40.34615,48.15111 → coord suffix",
+    "no street for duplicate name 'Tarix Muzeyi' @ 40.26089,48.41135 → coord suffix",
+    "no street for duplicate name 'Mədəniyyət Evi' @ 40.34544,48.15090 → coord suffix",
+    "no street for duplicate name 'Mədəniyyət Evi' @ 40.26107,48.41222 → coord suffix",
+    "no street for duplicate name 'Azərsun' @ 40.34021,48.15984 → coord suffix",
+    "no street for duplicate name 'Azərsun' @ 40.33318,48.16645 → coord suffix",
+    "no street for duplicate name 'Kapital Bank' @ 40.35228,48.16382 → coord suffix",
+    "no street for duplicate name 'Kapital Bank' @ 40.32209,48.19184 → coord suffix"
+  ],
+  "count": 20
+}

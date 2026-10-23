@@ -1,0 +1,27 @@
+{
+  "key": "yevlax_rayon",
+  "area_id": "bf911836-dec1-5c87-9cef-a1d22d111f4e",
+  "notes": [
+    "no street for duplicate name 'Kapital Bank ATM' @ 40.63171,46.98743 → coord suffix",
+    "no street for duplicate name 'Kapital Bank ATM' @ 40.71350,47.21857 → coord suffix",
+    "no street for duplicate name 'Kafe' @ 40.63176,46.99699 → coord suffix",
+    "no street for duplicate name 'Kafe' @ 40.71104,47.21857 → coord suffix",
+    "no street for duplicate name 'Kafe' @ 40.72380,47.20622 → coord suffix",
+    "no street for duplicate name 'Kafe' @ 40.70580,47.22830 → coord suffix",
+    "no street for duplicate name 'Market' @ 40.63179,46.99654 → coord suffix",
+    "no street for duplicate name 'Market' @ 40.58784,47.07485 → coord suffix",
+    "no street for duplicate name 'Avtoservis' @ 40.70852,47.22115 → coord suffix",
+    "no street for duplicate name 'Avtoservis' @ 40.70998,47.21939 → coord suffix",
+    "no street for duplicate name 'Avtoservis' @ 40.72624,47.20260 → coord suffix",
+    "no street for duplicate name 'Avtoservis' @ 40.72055,47.21220 → coord suffix",
+    "no street for duplicate name 'Beynəlxalq Bank ATM' @ 40.70833,47.22073 → coord suffix",
+    "no street for duplicate name 'Beynəlxalq Bank ATM' @ 40.63279,46.98503 → coord suffix",
+    "no street for duplicate name 'Beynəlxalq Bank ATM' @ 40.60497,46.96808 → coord suffix",
+    "no street for duplicate name 'Beynəlxalq Bank ATM' @ 40.63182,46.99610 → coord suffix",
+    "no street for duplicate name 'İnşaat Malları' @ 40.71131,47.21854 → coord suffix",
+    "no street for duplicate name 'İnşaat Malları' @ 40.73223,47.00267 → coord suffix",
+    "no street for duplicate name 'Bələdiyyə' @ 40.58886,47.07418 → coord suffix",
+    "no street for duplicate name 'Bələdiyyə' @ 40.71525,46.97532 → coord suffix"
+  ],
+  "count": 20
+}

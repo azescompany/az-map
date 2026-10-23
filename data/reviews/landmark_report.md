@@ -3,12 +3,71 @@
 LandmarkAgent blok hesabatları. Hər tamamlanmış `LANDMARK.md` bloku üçün
 bir qeyd əlavə et (tarix, key, before→after count, dedupe, conflict, validate).
 
-**Dataset pin:** `0.2.2-national` · places total **12377** (lokal Abşeron uşaqlar daxil)  
-**Status:** Faza 2 Abşeron uşaqlar DONE · Git/CDN yox
+**Dataset pin:** `0.3.0-national` · places total **40891**  
+**Status:** Faza 1–4 DONE · pin `DEFAULT_DATA_BASE` → `@v0.3.0-national` · deploy (push/tag) gözlənilir
 
 ---
 
 ## Jurnal
+
+### 2026-10-23 — Faza 1 paket (Bakı qalan 10 rayon)
+
+| key | before → after |
+|-----|----------------|
+| narimanov | 164 → 2915 |
+| nizami_baki | 80 → 1203 |
+| binagadi | 169 → 2240 |
+| sabail | 308 → 2625 |
+| xetai | 172 → 1917 |
+| sabuncu | 254 → 2308 |
+| surakhani | 169 → 1208 |
+| xezer | 263 → 2031 |
+| pirallahi | 35 → 168 |
+| qaradag | 112 → 1013 |
+
+- Index total **40891** · dataset `0.3.0-national`
+- Validate + named-places: **PASS**
+- Skript: `enrich_landmark_places.py --key <rayon>`
+
+### 2026-10-23 — Faza 4 paket (bütün digər rayonlar)
+
+- Xızı→Şərur + Beyləqan yenidən: named places **~12.3k → 24.9k** (index total)
+- Validate + named-places: **PASS** · Git/CDN: **yox**
+- Skript: `enrich_landmark_places.py --key <rayon>`
+- Qeyd: Qarabağ / Naxçıvan MR-də mənbə nazik — count kiçik qala bilər
+
+### 2026-10-23 — Faza 3 paket (Mingəçevir → Naxçıvan)
+
+| key | before → after | OSM+Ov | merges | disambig |
+|-----|----------------|--------|--------|----------|
+| mingachevir | 20 → 348 | 238+115 | 25 | 47 |
+| shirvan | 10 → 496 | 435+61 | 10 | 113 |
+| naftalan | 2 → 110 | 91+22 | 5 | 11 |
+| yevlax | 4 → 180 | 146+34 | 4 | 14 |
+| lankaran | 15 → 181 | 59+124 | 17 | 14 |
+| sheki | 17 → 535 | 385+157 | 24 | 69 |
+| nakhchivan | 35 → 254 | 93+165 | 39 | 24 |
+
+- Validate + named-places: **PASS** · Git/CDN: **yox**
+- Skript: `enrich_landmark_places.py --key <city>`
+
+### 2026-10-23 — gence_nizami (Gəncə — Nizami)
+
+- Baseline → after: **31 → 398** (named)
+- OSM **106** + Overture **299** · yalnız Nizami rayon polygon
+- Dedupe **38**; disambiguate **36**; `landmark_gence_nizami_disambiguate.json`
+- Kateqoriya (top): food 107, shop 68, education 61, services 32, tourism 26
+- Validate + named-places: **PASS** · Git/CDN: **yox**
+- Skript: `enrich_landmark_places.py --key gence_nizami`
+
+### 2026-10-23 — gence_kapaz (Gəncə — Kəpəz)
+
+- Baseline → after: **14 → 185** (named)
+- OSM **40** + Overture **148** · yalnız Kəpəz rayon polygon
+- Dedupe **17**; disambiguate **13**; `landmark_gence_kapaz_disambiguate.json`
+- Kateqoriya (top): food 45, shop 36, education 34, healthcare 21
+- Validate + named-places: **PASS** · Git/CDN: **yox**
+- Skript: `enrich_landmark_places.py --key gence_kapaz`
 
 ### 2026-10-22 — absheron children (Abşeron rayonu uşaqları)
 
