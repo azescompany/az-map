@@ -308,6 +308,7 @@ def main() -> int:
 
     # --- places index / detail / search per shard ---
     place_files_written = 0
+    national_by_id: dict[str, dict] = {}
     for key, meta in shards_meta.items():
         src_rel = meta["canonical_file"]
         src = DATA / src_rel
@@ -330,6 +331,7 @@ def main() -> int:
             sr = search_row(p)
             if sr:
                 search.append(sr)
+                national_by_id[sr["id"]] = sr
         aid = meta["area_id"]
         write_json(
             OUT / "places" / "index" / f"{aid}.json",
@@ -368,7 +370,36 @@ def main() -> int:
         compact=False,
     )
 
+    national_items = sorted(
+        national_by_id.values(),
+        key=lambda r: (r.get("name_normalized") or "", r.get("id") or ""),
+    )
+    write_json(
+        OUT / "search" / "national.json",
+        {
+            "type": "SearchNational",
+            "count": len(national_items),
+            "items": national_items,
+        },
+    )
+
     manifest = load_json(DATA / "manifest.json")
+    version = manifest.get("dataset_version") or "0.0.0"
+    tag = f"v{version}" if not str(version).startswith("v") else str(version)
+    pin = {
+        "tag": tag,
+        "dataset_version": version,
+        "consumer_root": "data-derived/",
+        "DEFAULT_DATA_BASE": (
+            f"https://cdn.jsdelivr.net/gh/azescompany/az-map@{tag}/data-derived/"
+        ),
+        "DEFAULT_DATA_BASE_CANONICAL": (
+            f"https://cdn.jsdelivr.net/gh/azescompany/az-map@{tag}/data/"
+        ),
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+    }
+    write_json(OUT / "pin.json", pin, compact=False)
+
     derived_manifest = {
         **manifest,
         "derive_schema": DERIVE_SCHEMA,
@@ -380,8 +411,10 @@ def main() -> int:
             "area_details": len(areas),
             "boundaries_copied": copied_boundaries,
             "place_shards": place_files_written,
+            "search_national": len(national_items),
         },
         "consumer_root": "data-derived/",
+        "pin_file": "pin.json",
         "notes": {
             **(manifest.get("notes") or {}),
             "reviews_excluded": True,
@@ -393,12 +426,15 @@ def main() -> int:
     # size report
     top_path = OUT / "catalog" / "top.json"
     top_raw = top_path.stat().st_size
+    nat_path = OUT / "search" / "national.json"
     print("derive_publish OK")
     print(f"  out: {OUT}")
     print(f"  catalog/top.json bytes: {top_raw}")
     print(f"  children files: {len(children_map)}")
     print(f"  boundaries: {copied_boundaries}")
     print(f"  place shards: {place_files_written}")
+    print(f"  search/national.json bytes: {nat_path.stat().st_size}")
+    print(f"  pin.json tag: {tag}")
     return 0
 
 

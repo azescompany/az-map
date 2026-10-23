@@ -88,8 +88,9 @@ See [`packages/geoatlas-shell-react/README.md`](packages/geoatlas-shell-react/RE
 
 ## Data mənbəyi
 
-- Publish pin: `DEFAULT_DATA_BASE` → jsDelivr `@v0.2.3-national/data/`
-- Demo default: CDN; enrich üçün `VITE_GEOATLAS_DATA_BASE=local`
+- Publish pin: `DEFAULT_DATA_BASE` → jsDelivr `@v0.3.2-national/data-derived/`
+- Canonical fat tree: `DEFAULT_DATA_BASE_CANONICAL` → `@v0.3.2-national/data/`
+- Demo default: CDN derived; lokal derived: `pnpm dev:derived`; enrich: `VITE_GEOATLAS_DATA_BASE=local`
 
 ## Davranış
 

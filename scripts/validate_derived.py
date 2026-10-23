@@ -171,6 +171,22 @@ def main() -> int:
             f"manifest boundaries_copied {cov['boundaries_copied']} != disk {boundary_count}"
         )
 
+    pin_path = DER / "pin.json"
+    if not pin_path.is_file():
+        errors.append("pin.json missing")
+    else:
+        pin = load_json(pin_path)
+        if not pin.get("DEFAULT_DATA_BASE") or not pin.get("tag"):
+            errors.append("pin.json incomplete")
+
+    nat_path = DER / "search" / "national.json"
+    if not nat_path.is_file():
+        errors.append("search/national.json missing")
+    else:
+        nat = load_json(nat_path)
+        if not isinstance(nat.get("items"), list):
+            errors.append("search/national.json items missing")
+
     print("validate_derived")
     print(f"  errors: {len(errors)}  warnings: {len(warnings)}")
     for w in warnings[:20]:

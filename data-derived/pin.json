@@ -1,0 +1,8 @@
+{
+  "tag": "v0.3.2-national",
+  "dataset_version": "0.3.2-national",
+  "consumer_root": "data-derived/",
+  "DEFAULT_DATA_BASE": "https://cdn.jsdelivr.net/gh/azescompany/az-map@v0.3.2-national/data-derived/",
+  "DEFAULT_DATA_BASE_CANONICAL": "https://cdn.jsdelivr.net/gh/azescompany/az-map@v0.3.2-national/data/",
+  "generated_at": "2026-10-23T10:26:34.164802+00:00"
+}

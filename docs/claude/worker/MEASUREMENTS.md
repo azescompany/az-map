@@ -31,6 +31,12 @@ Target 60–150 KB for **top+manifest only**: **PASS** (~7 KB br).
 
 **Lazy cold start (implemented):** manifest + `catalog/top.json` + country `children` ≈ **13.5 KB br** (**measured** components: top 6306 + country children 6274 + manifest 889). Bakı children add ~1.3 KB br on select.
 
+**P2 national search (lazy on focus, not cold start):**
+
+| file | raw | br |
+|---|---|---|
+| data-derived/search/national.json | 7814739 | **1488421** (~1.49 MB) |
+
 ## Request trace (design / post P0-02–04)
 
 | scenario | # requests (design) | sequential deps? | notes |

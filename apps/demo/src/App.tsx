@@ -587,6 +587,7 @@ export default function App() {
           <GlobalSearch
             areas={areas}
             places={searchPlaces}
+            dataBase={DATA_BASE}
             customer={IS_CUSTOMER}
             onSelectArea={(a) => void selectArea(a)}
             onSelectPlace={selectPlaceById}

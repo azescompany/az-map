@@ -56,14 +56,14 @@ export {
  * const areas = await loadAreas(DEFAULT_DATA_BASE);
  */
 export const DEFAULT_DATA_BASE =
-  "https://cdn.jsdelivr.net/gh/azescompany/az-map@v0.3.1-national/data-derived/";
+  "https://cdn.jsdelivr.net/gh/azescompany/az-map@v0.3.2-national/data-derived/";
 
 /** @deprecated Use DEFAULT_DATA_BASE — alias for derived pin. */
 export const DEFAULT_DATA_BASE_DERIVED = DEFAULT_DATA_BASE;
 
 /** Canonical GeoAgent/Landmark `data/` tree on the same tag (not the default consumer pin). */
 export const DEFAULT_DATA_BASE_CANONICAL =
-  "https://cdn.jsdelivr.net/gh/azescompany/az-map@v0.3.1-national/data/";
+  "https://cdn.jsdelivr.net/gh/azescompany/az-map@v0.3.2-national/data/";
 
 export type GeoAtlasDataset = {
   manifest: Manifest;
@@ -371,6 +371,84 @@ export async function loadPlacesIndex(
   if (index) setDataLayout(baseUrl, getCachedDataLayout(baseUrl) ?? "canonical");
   rememberPlacesIndex(index);
   return index;
+}
+
+/**
+ * National named-place search index (derived): search/national.json.
+ * Lazy-load on first search focus — not part of cold start.
+ */
+export async function loadSearchNational(
+  baseUrl: string = DEFAULT_DATA_BASE,
+): Promise<Place[]> {
+  const url = join(baseUrl, "search/national.json");
+  try {
+    const doc = await cachedFetchJson<{
+      items?: Array<{
+        id: string;
+        name_normalized?: string;
+        category?: string | null;
+        lat: number;
+        lon: number;
+        area_id?: string;
+      }>;
+    } | null>(url, async () => {
+      const res = await fetch(url);
+      if (!res.ok) return null;
+      const ctype = res.headers.get("content-type") ?? "";
+      if (ctype && !ctype.includes("json")) return null;
+      try {
+        return await res.json();
+      } catch {
+        return null;
+      }
+    });
+    if (!doc?.items?.length) return [];
+    return doc.items.map((it) =>
+      enrichPlace({
+        id: it.id,
+        name: it.name_normalized || it.id,
+        name_normalized: it.name_normalized || "",
+        alt_names: [],
+        category: (it.category as Place["category"]) ?? "other_poi",
+        coordinates: { lat: it.lat, lon: it.lon },
+        area_id: it.area_id ?? null,
+        area_assign_method: "search_index",
+        area_assign_status: "verified",
+        confidence: 1,
+        status: "silver",
+        source_refs: [
+          {
+            source: "derived_search",
+            source_id: it.id,
+            release: "search-national",
+          },
+        ],
+      }),
+    );
+  } catch {
+    return [];
+  }
+}
+
+/** Optional pin.json for data-only rollout discovery. */
+export async function loadPinJson(
+  baseUrl: string = DEFAULT_DATA_BASE,
+): Promise<{
+  tag?: string;
+  dataset_version?: string;
+  DEFAULT_DATA_BASE?: string;
+  DEFAULT_DATA_BASE_CANONICAL?: string;
+} | null> {
+  const url = join(baseUrl, "pin.json");
+  return cachedFetchJson(url, async () => {
+    const res = await fetch(url);
+    if (!res.ok) return null;
+    try {
+      return await res.json();
+    } catch {
+      return null;
+    }
+  });
 }
 
 /**
